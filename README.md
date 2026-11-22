@@ -20,4 +20,11 @@ fb install <name>      # 从源码构建
 
 ## 状态
 
-仓库当前为骨架：`Formula/` 目录待生成。
+仓库已收录 **8736 个配方**（`Formula/` 扁平存放，每个包一个 `.toml`）。
+
+清洗情况（相对 Homebrew 自动转换的原始产物）：
+
+- 删除全部 `[bottle]` / `[bottle.tags.*]` 段 —— 手上没有可用的 macOS 产物，而原数据里唯一的 bottle 是 Linux x86_64 构建，在 Intel Mac 上装不了，留着反而会被误选。
+- 删除被误当成包名的版本号依赖（`fb convert` 解析 `depends_on :xcode => ["16.0", :build]` 时的残留），全库共 79 处。
+- 修正 `bzip2`、`pkgconf` 的 `sha256`。
+- 8736 个配方全部通过 TOML 解析校验，无非法依赖、无指向缺失配方的悬挂依赖。
