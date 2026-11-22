@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kafkactl"
+version = "5.21.0"
+description = "CLI for managing Apache Kafka"
+homepage = "https://deviceinsight.github.io/kafkactl/"
+
+[source]
+url = "https://github.com/deviceinsight/kafkactl/archive/refs/tags/v5.21.0.tar.gz"
+sha256 = "31baacbaab41a9b3f945a894440b11647b99e1dd49744ccfa750aa082fb4632e"
+
+[build]
+system = "autotools"

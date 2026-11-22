@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "pkgconf", "certifi", "cryptography", "numpy", "pillow", "pydantic", "python@3.15"]
+
+[package]
+name = "weaviate-cli"
+version = "0_1"
+description = "Command-line interface for managing and interacting with Weaviate"
+homepage = "https://pypi.org/project/weaviate-cli/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a1/e8/4de5b5a3ebc1f1b20512159bda3c0379efe0f291eee2cbc876877ee560ba/weaviate_cli-3.4.2.tar.gz"
+sha256 = "eb4a3686a45d48bd2f8833af676b2f1c25effd43ef556ec28535b07fce44ce5c"
+
+[build]
+system = "autotools"

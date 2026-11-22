@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "python@3.15"]
+
+[package]
+name = "lit"
+version = "23.1.6"
+description = "Portable tool for LLVM- and Clang-style test suites"
+homepage = "https://llvm.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e5/9d/79451b39397225c719a3e1c904dcf6652d2752fbb605bb8a25e41f5cd3da/lit-23.1.6.tar.gz"
+sha256 = "b206d857e34a63360ee4cda416802be12478dda01c83d28d183b83703b31894f"
+
+[build]
+system = "autotools"

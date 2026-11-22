@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pdtm"
+version = "0.1.5"
+description = "ProjectDiscovery's Open Source Tool Manager"
+homepage = "https://projectdiscovery.io"
+
+[source]
+url = "https://github.com/projectdiscovery/pdtm/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "13746a1da82961dcfc9d797206abd6ba75336879f2292228e92a2813000d1654"
+
+[build]
+system = "autotools"

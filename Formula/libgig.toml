@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libsndfile"]
+
+[package]
+name = "libgig"
+version = "4.6.1"
+description = "Library for Gigasampler and DLS (Downloadable Sounds) Level 1/2 files"
+homepage = "https://www.linuxsampler.org/libgig/"
+
+[source]
+url = "https://download.linuxsampler.org/packages/libgig-4.6.1.tar.bz2"
+sha256 = "961e0fa8b306443d41b1ebbd2c6e4e9d8fb4db850450f80785c4d4590f12d8ca"
+
+[build]
+system = "autotools"

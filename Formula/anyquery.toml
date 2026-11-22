@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "mysql-client"]
+
+[package]
+name = "anyquery"
+version = "0.5.1"
+description = "Query anything with SQL"
+homepage = "https://anyquery.dev"
+
+[source]
+url = "https://github.com/julien040/anyquery/archive/refs/tags/0.5.1.tar.gz"
+sha256 = "cc9972f442e6df9dbf4274c641dd470ef30058dbbe78c4525c5190eab1ec4f9a"
+
+[build]
+system = "autotools"

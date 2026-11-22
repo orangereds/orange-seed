@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtool"]
+
+[package]
+name = "beecrypt"
+version = "4.2.1_7"
+description = "C/C++ cryptography library"
+homepage = "https://beecrypt.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/beecrypt/beecrypt/4.2.1/beecrypt-4.2.1.tar.gz"
+sha256 = "286f1f56080d1a6b1d024003a5fa2158f4ff82cae0c6829d3c476a4b5898c55d"
+
+[build]
+system = "autotools"

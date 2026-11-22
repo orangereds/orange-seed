@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nixpacks"
+version = "1.41.0"
+description = "App source + Nix packages + Docker = Image"
+homepage = "https://nixpacks.com/docs/getting-started"
+
+[source]
+url = "https://github.com/railwayapp/nixpacks/archive/refs/tags/v1.41.0.tar.gz"
+sha256 = "38b1c8a739a7585eb4aff071bd0e8f067ef35eca6af32acc3a2dec0799a78a83"
+
+[build]
+system = "autotools"

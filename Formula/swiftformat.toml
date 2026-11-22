@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "swiftformat"
+version = "0.64.7"
+description = "Formatting tool for reformatting Swift code"
+homepage = "https://github.com/nicklockwood/SwiftFormat"
+
+[source]
+url = "https://github.com/nicklockwood/SwiftFormat/archive/refs/tags/0.64.7.tar.gz"
+sha256 = "1ab244207e2d15dbfbe61646be26513fa9060799792fb44ce0a180845fc8d971"
+
+[build]
+system = "autotools"

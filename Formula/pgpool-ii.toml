@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libmemcached", "libpq"]
+
+[package]
+name = "pgpool-ii"
+version = "0"
+description = "PostgreSQL connection pool server"
+homepage = "https://www.pgpool.net/mediawiki/index.php/Main_Page"
+
+[source]
+url = "https://www.pgpool.net/source/pgpool-II-4.7.3.tar.gz"
+sha256 = "4bf9df3e13feb8e64bee486b4ea54c9076296c2d9406165b0b68d32086fce250"
+
+[service]
+run = "opt/pgpool-ii/bin/pgpool -nf etc/pgpool.conf"
+keep_alive = true
+log_path = "var/log/pgpool-ii.log"
+error_log_path = "var/log/pgpool-ii.log"
+
+[build]
+system = "autotools"

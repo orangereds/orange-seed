@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "reuse"
+version = "6.3.0"
+description = "Tool for copyright and license recommendations"
+homepage = "https://reuse.software"
+
+[source]
+url = "https://files.pythonhosted.org/packages/13/d9/b8dd83a81030450e5eb11d337c3d362769b57c763b388bfc849bfa76bbd9/reuse-6.3.0.tar.gz"
+sha256 = "5a6ca437057c07ca22a67256520e2783ab03b5524d3a4535603c3d49e3d4b001"
+
+[build]
+system = "autotools"

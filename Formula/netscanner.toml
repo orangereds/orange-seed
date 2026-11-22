@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "netscanner"
+version = "0.6.43"
+description = "Network scanner with features like WiFi scanning, packetdump and more"
+homepage = "https://github.com/Chleba/netscanner"
+
+[source]
+url = "https://github.com/Chleba/netscanner/archive/refs/tags/v0.6.43.tar.gz"
+sha256 = "6f16a5f2359035ec19652aac790eccf93f319b57aefe09693c9aa4f5dcdc1b62"
+
+[build]
+system = "autotools"

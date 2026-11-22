@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["breezy", "go", "mercurial"]
+
+[package]
+name = "cayley"
+version = "0"
+description = "Graph database inspired by Freebase and Knowledge Graph"
+homepage = "https://cayley.io"
+
+[source]
+url = "https://github.com/cayleygraph/cayley.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/cayley/bin/cayley http --config=#{etc}/cayley.conf"
+keep_alive = true
+working_dir = "var/cayley"
+log_path = "var/log/cayley.log"
+error_log_path = "var/log/cayley.log"
+
+[build]
+system = "autotools"

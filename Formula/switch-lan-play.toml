@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "switch-lan-play"
+version = "0"
+description = "Make you and your friends play games like in a LAN"
+homepage = "https://github.com/spacemeowx2/switch-lan-play"
+
+[source]
+url = "https://github.com/spacemeowx2/switch-lan-play.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

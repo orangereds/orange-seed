@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "xorgproto"]
+
+[package]
+name = "libxscrnsaver"
+version = "0"
+description = "X.Org: X11 Screen Saver extension client library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXScrnSaver-1.2.5.tar.xz"
+sha256 = "5057365f847253e0e275871441e10ff7846c8322a5d88e1e187d326de1cd8d00"
+
+[build]
+system = "autotools"

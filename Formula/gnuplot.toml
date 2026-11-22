@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "qttools", "cairo", "gd", "glib", "libcerf", "lua", "pango", "qt5compat", "qtbase", "qtsvg", "readline", "webp", "gettext", "harfbuzz"]
+
+[package]
+name = "gnuplot"
+version = "6.0.6"
+description = "Command-driven, interactive function plotting"
+homepage = "http://www.gnuplot.info/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gnuplot/gnuplot/6.0.6/gnuplot-6.0.6.tar.gz"
+sha256 = "9d39d8499c9533550144092375aac45ba8bf0c18c9cee50897fe411b6d93004e"
+
+[build]
+system = "autotools"

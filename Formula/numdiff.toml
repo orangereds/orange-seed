@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp"]
+
+[package]
+name = "numdiff"
+version = "5.9.0"
+description = "Putative files comparison tool"
+homepage = "https://www.nongnu.org/numdiff"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/numdiff/numdiff-5.9.0.tar.gz"
+sha256 = "87284a117944723eebbf077f857a0a114d818f8b5b54d289d59e73581194f5ef"
+
+[build]
+system = "autotools"

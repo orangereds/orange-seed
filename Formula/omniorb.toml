@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4", "python@3.15", "zstd"]
+
+[package]
+name = "omniorb"
+version = "0"
+description = "IOR and naming service utilities for omniORB"
+homepage = "https://omniorb.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/omniorb/omniORB/omniORB-4.3.5/omniORB-4.3.5.tar.bz2"
+sha256 = "d57c5ec43030b31eeb620b4c8e47d62bf08eab4945dbeab0e094f10c8447bf93"
+
+[build]
+system = "autotools"

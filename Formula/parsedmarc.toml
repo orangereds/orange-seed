@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "parsedmarc"
+version = "11.3.0"
+description = "DMARC report analyzer and visualizer"
+homepage = "https://domainaware.github.io/parsedmarc/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/52/c1/761a36dfefba52adb344ba6cfdee021920b41bb59ee171181078f2fc3755/parsedmarc-11.3.0.tar.gz"
+sha256 = "489cd4ea9ab76bd3b894c78f322228858eda6ae00d36414ca043010097ed52f0"
+
+[build]
+system = "autotools"

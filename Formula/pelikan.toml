@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "pelikan"
+version = "0.1.2"
+description = "Production-ready cache services"
+homepage = "https://twitter.github.io/pelikan"
+
+[source]
+url = "https://github.com/twitter/pelikan/archive/refs/tags/0.1.2.tar.gz"
+sha256 = "c105fdab8306f10c1dfa660b4e958ff6f381a5099eabcb15013ba42e4635f824"
+
+[build]
+system = "cmake"

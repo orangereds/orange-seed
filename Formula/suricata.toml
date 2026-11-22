@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "jansson", "libmagic", "libnet", "libyaml", "lz4", "pcre2", "python@3.15"]
+
+[package]
+name = "suricata"
+version = "8.0.8"
+description = "Network IDS, IPS, and security monitoring engine"
+homepage = "https://suricata.io"
+
+[source]
+url = "https://www.openinfosecfoundation.org/download/suricata-8.0.8.tar.gz"
+sha256 = "bb56bbaeb4da81b4c90e61148f93b789ea924412207388bc9cba0a7ac6a24a8f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "open62541"
+version = "1.5.10"
+description = "Open source implementation of OPC UA"
+homepage = "https://open62541.org/"
+
+[source]
+url = "https://github.com/open62541/open62541/archive/refs/tags/v1.5.10.tar.gz"
+sha256 = "b05e47734e2e39c0b00511ed6dc22e71f1b5bf7864b86280653a5128d171c0ed"
+
+[build]
+system = "cmake"

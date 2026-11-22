@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "curl", "openssl@4", "pcre2", "quickjs-ng", "readline", "unixodbc"]
+
+[package]
+name = "edbrowse"
+version = "3.8.19"
+description = "Command-line editor and web browser"
+homepage = "https://edbrowse.org"
+
+[source]
+url = "https://github.com/edbrowse/edbrowse/archive/refs/tags/v3.8.19.tar.gz"
+sha256 = "8ebfd92b5200e8b2190e104b9ce4edd6e3c38276449716cfc69705bf71c891a3"
+
+[build]
+system = "make"

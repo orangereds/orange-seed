@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "balena-cli"
+version = "25.2.35"
+description = "Command-line tool for interacting with the balenaCloud and balena API"
+homepage = "https://docs.balena.io/reference/balena-cli/latest/"
+
+[source]
+url = "https://registry.npmjs.org/balena-cli/-/balena-cli-25.2.35.tgz"
+sha256 = "bcd291c22924a2c6175c7aa98d73ca9f2ded44182f6cda1ea5ae992e2f51aab6"
+
+[build]
+system = "autotools"

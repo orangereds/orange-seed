@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libogg", "libpng"]
+
+[package]
+name = "libkate"
+version = "0.4.3"
+description = "Overlay codec for multiplexed audio/video in Ogg"
+homepage = "https://wiki.xiph.org/index.php/OggKate"
+
+[source]
+url = "https://downloads.xiph.org/releases/kate/libkate-0.4.3.tar.gz"
+sha256 = "96827ca136ad496b4e34ff3ed2434a8e76ad83b1e6962b5df06ad24cbbfeebaf"
+
+[build]
+system = "autotools"

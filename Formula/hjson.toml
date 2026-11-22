@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hjson"
+version = "4.7.1"
+description = "Convert JSON to HJSON and vice versa"
+homepage = "https://hjson.github.io/"
+
+[source]
+url = "https://github.com/hjson/hjson-go/archive/refs/tags/v4.7.1.tar.gz"
+sha256 = "2881c114bcd194860155885e3c3586b6e41832818ea5cbf9c661a6a7990a79b6"
+
+[build]
+system = "autotools"

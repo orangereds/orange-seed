@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "betterglobekey"
+version = "4.3.2"
+description = "Reworked Globe key for faster input source switching"
+homepage = "https://github.com/Serpentiel/betterglobekey"
+
+[source]
+url = "https://github.com/Serpentiel/betterglobekey/archive/refs/tags/v4.3.2.tar.gz"
+sha256 = "34e920e9a72bd403f33ffaeb01913765b92e2126ccc3f468fff61db6d93e3951"
+
+[service]
+run = "opt/betterglobekey/bin/betterglobekey"
+keep_alive = true
+log_path = "var/log/betterglobekey.log"
+error_log_path = "var/log/betterglobekey.log"
+
+[build]
+system = "autotools"

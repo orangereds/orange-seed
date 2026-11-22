@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "pkgconf", "scdoc", "tllist", "wayland-protocols", "fcft", "fontconfig", "freetype", "libxkbcommon", "pixman", "utf8proc", "wayland"]
+
+[package]
+name = "foot"
+version = "1.28.0"
+description = "Fast, lightweight and minimalistic Wayland terminal emulator"
+homepage = "https://codeberg.org/dnkl/foot"
+
+[source]
+url = "https://codeberg.org/dnkl/foot/releases/download/1.28.0/foot-1.28.0.tar.gz"
+sha256 = "ee73c292a4b457004b38c2df178eac025ab0b849fdd9e13253c1f8b5cf110710"
+
+[build]
+system = "autotools"

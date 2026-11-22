@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "enchant", "glib", "gtk4", "gtksourceview5", "icu4c@78", "pango", "cairo", "gdk-pixbuf", "gettext", "graphene", "harfbuzz"]
+
+[package]
+name = "libspelling@0.2"
+version = "0_2"
+description = "Spellcheck library for GTK 4"
+homepage = "https://gitlab.gnome.org/GNOME/libspelling"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/libspelling/-/archive/0.2.1/libspelling-0.2.1.tar.bz2"
+sha256 = "5393a9b93fda445598348a47c42d1ad13586c0bcf35dfd257afd613fd31812c1"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

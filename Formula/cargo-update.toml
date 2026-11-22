@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup", "libgit2", "libssh2", "openssl@4"]
+
+[package]
+name = "cargo-update"
+version = "22.1.1_1"
+description = "Cargo subcommand for checking and applying updates to installed executables"
+homepage = "https://github.com/nabijaczleweli/cargo-update"
+
+[source]
+url = "https://github.com/nabijaczleweli/cargo-update/archive/refs/tags/v22.1.1.tar.gz"
+sha256 = "570d009f6ddd83d54ea478b63f369e08617feddb7119a9cb1d5c6a050d213c28"
+
+[build]
+system = "autotools"

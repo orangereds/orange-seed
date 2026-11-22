@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "beanstalkd"
+version = "1.13"
+description = "Generic work queue originally designed to reduce web latency"
+homepage = "https://beanstalkd.github.io/"
+
+[source]
+url = "https://github.com/beanstalkd/beanstalkd/archive/refs/tags/v1.13.tar.gz"
+sha256 = "26292dcdc0a7011d2f8ad968612f2cd8b2ef07687224876015399ae85e9e5263"
+
+[service]
+run = "opt/beanstalkd/bin/beanstalkd"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/beanstalkd.log"
+error_log_path = "var/log/beanstalkd.log"
+
+[build]
+system = "make"

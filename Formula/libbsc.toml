@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libomp"]
+
+[package]
+name = "libbsc"
+version = "3.4.1"
+description = "High performance block-sorting data compression library"
+homepage = "http://libbsc.com"
+
+[source]
+url = "https://github.com/IlyaGrebnov/libbsc/archive/refs/tags/v3.4.1.tar.gz"
+sha256 = "49c98200c0cf7bb942bc0313afb28c7a775f843532b2ced80bbf57ecae2090d4"
+
+[build]
+system = "cmake"

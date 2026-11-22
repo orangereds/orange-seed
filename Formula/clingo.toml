@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "re2c", "cmake", "doxygen", "cffi", "lua", "python@3.15"]
+
+[package]
+name = "clingo"
+version = "5.8.3"
+description = "ASP system to ground and solve logic programs"
+homepage = "https://potassco.org/clingo/"
+
+[source]
+url = "https://github.com/potassco/clingo/archive/refs/tags/v5.8.3.tar.gz"
+sha256 = "25d22cc25f95a8e7a8bac94cbe24b812574de9320250bdcb9d7f7e9e58c2a0d0"
+
+[build]
+system = "cmake"

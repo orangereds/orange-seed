@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "dwarfutils"
+version = "0"
+description = "Dump and produce DWARF debug information in ELF objects"
+homepage = "https://www.prevanders.net/dwarf.html"
+
+[source]
+url = "https://www.prevanders.net/libdwarf-2.3.3.tar.xz"
+sha256 = "bde13d1c49be6f2467326a6e0b3919247471455d16eefc3c6be26c7d4baca36a"
+
+[build]
+system = "autotools"

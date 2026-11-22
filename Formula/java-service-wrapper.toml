@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "openjdk"]
+
+[package]
+name = "java-service-wrapper"
+version = "0"
+description = "Simplify the deployment, launch and monitoring of Java applications"
+homepage = "https://wrapper.tanukisoftware.com/"
+
+[source]
+url = "https://download.tanukisoftware.com/wrapper/3.7.4/wrapper_3.7.4_src.tar.gz"
+sha256 = "d8c5936fb894d27701e96a5685fdbf8cf1a3d4d61c465c3abdc944361ea23905"
+
+[build]
+system = "autotools"

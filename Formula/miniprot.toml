@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "miniprot"
+version = "0.18"
+description = "Align proteins to genomes with splicing and frameshift"
+homepage = "https://lh3.github.io/miniprot/"
+
+[source]
+url = "https://github.com/lh3/miniprot/archive/refs/tags/v0.18.tar.gz"
+sha256 = "e1b5c08571fa3a4aa225da8ec9c6e744cd116b4dc50d9e187114cffe336921ee"
+
+[build]
+system = "autotools"

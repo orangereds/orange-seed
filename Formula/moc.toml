@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["popt", "autoconf", "automake", "gettext", "pkgconf", "berkeley-db@5", "ffmpeg@4", "flac", "jack", "libmodplug", "libogg", "libsamplerate", "libsndfile", "libtool", "libvorbis", "ncurses", "speex"]
+
+[package]
+name = "moc"
+version = "2.5.2_10"
+description = "Terminal-based music player"
+homepage = "https://moc.daper.net/"
+
+[source]
+url = "https://ftp.daper.net/pub/soft/moc/stable/moc-2.5.2.tar.bz2"
+sha256 = "f3a68115602a4788b7cfa9bbe9397a9d5e24c68cb61a57695d1c2c3ecf49db08"
+
+[build]
+system = "autotools"

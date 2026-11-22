@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cffi", "libsodium", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "cobo-cli"
+version = "0_2"
+description = "Build, test, and manage your integration with Cobo Wallet-as-a-Service"
+homepage = "https://github.com/CoboGlobal/cobo-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a4/78/6ce4772eac6acfdf58c1b2f51c4a074e7abf8ab44bb3c6e37ff998ef888a/cobo_cli-0.1.10.tar.gz"
+sha256 = "fc631b4b51346941fcde398080e23cace14afb922ed9754777d2e0bb3e9763d6"
+
+[build]
+system = "autotools"

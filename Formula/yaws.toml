@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "erlang"]
+
+[package]
+name = "yaws"
+version = "2.3.1"
+description = "Webserver for dynamic content (written in Erlang)"
+homepage = "https://erlyaws.github.io/"
+
+[source]
+url = "https://github.com/erlyaws/yaws/archive/refs/tags/yaws-2.3.1.tar.gz"
+sha256 = "a65110377b007693c6ddccdb061a57c6bd5b5bad88b976d75d6213aaabc8f5c5"
+
+[build]
+system = "autotools"

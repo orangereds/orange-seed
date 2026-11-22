@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oak"
+version = "0.3"
+description = "Expressive, simple, dynamic programming language"
+homepage = "https://oaklang.org/"
+
+[source]
+url = "https://github.com/thesephist/oak/archive/refs/tags/v0.3.tar.gz"
+sha256 = "05bc1c09da8f8d199d169e5a5c5ab2f2923bad6fac624f497f5ea365f378e38a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pscale"
+version = "0.355.0"
+description = "CLI for PlanetScale Database"
+homepage = "https://www.planetscale.com/"
+
+[source]
+url = "https://github.com/planetscale/cli/archive/refs/tags/v0.355.0.tar.gz"
+sha256 = "32f65d0062e2e082f524d0c8d8230aa524f02c7f643450994ef6a3efbabc603b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "id3lib"
+version = "3.8.3_1"
+description = "ID3 tag manipulation"
+homepage = "https://id3lib.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/id3lib/id3lib/3.8.3/id3lib-3.8.3.tar.gz"
+sha256 = "2749cc3c0cd7280b299518b1ddf5a5bcfe2d1100614519b68702230e26c7d079"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mcp-publisher"
+version = "1.8.11"
+description = "Publisher CLI tool for the Official Model Context Protocol (MCP) Registry"
+homepage = "https://github.com/modelcontextprotocol/registry"
+
+[source]
+url = "https://github.com/modelcontextprotocol/registry/archive/refs/tags/v1.8.11.tar.gz"
+sha256 = "e6a849af530097f4ed03f6d4ef81caae7fcd5361853de9ba0b41c11e903adf19"
+
+[build]
+system = "autotools"

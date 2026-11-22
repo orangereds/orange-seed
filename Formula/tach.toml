@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libyaml", "python@3.15"]
+
+[package]
+name = "tach"
+version = "0.35.3_1"
+description = "Tool to enforce dependencies using modular architecture"
+homepage = "https://docs.gauge.sh/getting-started/introduction"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6c/91/8c7ada391a5bc34498893e430f3f8e34082450017892135eccde233086c1/tach-0.35.3.tar.gz"
+sha256 = "251a9cbbadd923f54668ca5f1adc4d5239ccab87fd630c5880efced235175661"
+
+[build]
+system = "autotools"

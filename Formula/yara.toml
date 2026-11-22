@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "jansson", "libmagic", "openssl@4", "protobuf-c"]
+
+[package]
+name = "yara"
+version = "4.6.0"
+description = "Malware identification and classification tool"
+homepage = "https://virustotal.github.io/yara/"
+
+[source]
+url = "https://github.com/VirusTotal/yara/archive/refs/tags/v4.6.0.tar.gz"
+sha256 = "61ab80084e3f83e1b73a95057058e2ae1db5f87f291e32654e191d410297f0e5"
+
+[build]
+system = "autotools"

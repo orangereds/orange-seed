@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "lutgen"
+version = "1.1.1"
+description = "Blazingly fast interpolated LUT generator and applicator for color palettes"
+homepage = "https://ozwaldorf.github.io/lutgen-rs/"
+
+[source]
+url = "https://github.com/ozwaldorf/lutgen-rs/archive/refs/tags/lutgen-v1.1.1.tar.gz"
+sha256 = "86f65213c8ada58eee5b2e4113db5c6eeebf537356c2c62cd2bf5c3f1c8c7255"
+
+[build]
+system = "autotools"

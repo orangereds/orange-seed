@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rebar3", "erlang"]
+
+[package]
+name = "elvis"
+version = "6.0.0"
+description = "Erlang Style Reviewer"
+homepage = "https://github.com/inaka/elvis"
+
+[source]
+url = "https://github.com/inaka/elvis/archive/refs/tags/6.0.0.tar.gz"
+sha256 = "ea0d3438062d94b686b375e98995584ed7b6b8863582f77b1966971299e400f4"
+
+[build]
+system = "autotools"

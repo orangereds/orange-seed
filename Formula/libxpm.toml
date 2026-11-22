@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "libx11"]
+
+[package]
+name = "libxpm"
+version = "0"
+description = "X.Org: X Pixmap (XPM) image file format library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXpm-3.5.20.tar.gz"
+sha256 = "736704d843459abbf769560ff8e443a5de4e6023082e7086c9d195253ada17ff"
+
+[build]
+system = "autotools"

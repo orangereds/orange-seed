@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "flex"]
+
+[package]
+name = "lm-sensors"
+version = "3.6.2"
+description = "Tools for monitoring the temperatures, voltages, and fans"
+homepage = "https://github.com/hramrach/lm-sensors"
+
+[source]
+url = "https://github.com/hramrach/lm-sensors/archive/refs/tags/V3-6-2.tar.gz"
+sha256 = "c6a0587e565778a40d88891928bf8943f27d353f382d5b745a997d635978a8f0"
+
+[build]
+system = "make"

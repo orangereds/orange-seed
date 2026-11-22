@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nagios-plugins", "openssl@3"]
+
+[package]
+name = "nrpe"
+version = "4.2.0"
+description = "Nagios remote plugin executor"
+homepage = "https://www.nagios.org/"
+
+[source]
+url = "https://github.com/NagiosEnterprises/nrpe/releases/download/nrpe-4.2.0/nrpe-4.2.0.tar.gz"
+sha256 = "0d1eac6845d360b200b037f2b8c0199f1acbe3bea36ad72236ad619e5447e555"
+
+[service]
+run = "opt/nrpe/bin/nrpe -c etc/nrpe.cfg -d"
+
+[build]
+system = "autotools"

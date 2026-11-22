@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "csvkit"
+version = "2.2.0"
+description = "Suite of command-line tools for converting to and working with CSV"
+homepage = "https://csvkit.readthedocs.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9a/bf/59b035abead12d9498c96dc05b965ec77683d3c794305dec2648e23830cc/csvkit-2.2.0.tar.gz"
+sha256 = "147318a8dbaec07c0bbb9291c14b78de5fa32ed3d4a5c2396e52a83c0a30df6b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "skills"
+version = "1.9.0"
+description = "Open agent skills ecosystem"
+homepage = "https://skills.sh"
+
+[source]
+url = "https://registry.npmjs.org/skills/-/skills-1.9.0.tgz"
+sha256 = "a7b9ce3f1dbf508f9c2dd1b6ea0a5dbe281fb59e13f6282227146ab86591fa15"
+
+[build]
+system = "autotools"

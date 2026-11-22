@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype"]
+
+[package]
+name = "libdrawtext"
+version = "0.6"
+description = "Library for anti-aliased text rendering in OpenGL"
+homepage = "http://nuclear.mutantstargoat.com/sw/libdrawtext/"
+
+[source]
+url = "https://github.com/jtsiomb/libdrawtext/releases/download/v0.6/libdrawtext-0.6.tar.gz"
+sha256 = "714d94473622d756bfe7d70ad6340db3de7cc48f4f356a060e3cb48900c6da01"
+
+[build]
+system = "make"

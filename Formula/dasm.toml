@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dasm"
+version = "2.20.18"
+description = "Macro assembler with support for several 8-bit microprocessors"
+homepage = "https://dasm-assembler.github.io/"
+
+[source]
+url = "https://github.com/dasm-assembler/dasm/archive/refs/tags/v2.20.18.tar.gz"
+sha256 = "6cae2ff107c7447d601366f75a1dad86504deff7fe4c0181c145dbc83e249aaf"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asio", "cmake", "doxygen", "gettext", "pkgconf", "glew", "icu4c@79", "libpng", "lua", "minizip", "sdl2-compat", "sdl2_image", "sdl2_mixer", "sdl2_ttf"]
+
+[package]
+name = "widelands"
+version = "1.3.1_1"
+description = "Free real-time strategy game like Settlers II"
+homepage = "https://www.widelands.org/"
+
+[source]
+url = "https://github.com/widelands/widelands/archive/refs/tags/v1.3.1.tar.gz"
+sha256 = "e6f3e8f4fcafd367962dbacde80e26fc63afad38cfe26fadba9c92d4a01bd687"
+
+[build]
+system = "cmake"

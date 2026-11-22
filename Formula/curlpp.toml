@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "curlpp"
+version = "0.8.1_2"
+description = "C++ wrapper for libcURL"
+homepage = "https://www.curlpp.org/"
+
+[source]
+url = "https://github.com/jpbarrette/curlpp/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "97e3819bdcffc3e4047b6ac57ca14e04af85380bd93afe314bee9dd5c7f46a0a"
+
+[build]
+system = "cmake"

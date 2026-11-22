@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf"]
+
+[package]
+name = "minicom"
+version = "2.11.1.orig"
+description = "Menu-driven communications program"
+homepage = "https://packages.debian.org/sid/minicom"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/minicom/minicom_2.11.1.orig.tar.bz2"
+sha256 = "87cf0da91af0531357cd61b8e1906b907edd2c9ef82f9ae74c277e1893d0f98c"
+
+[build]
+system = "autotools"

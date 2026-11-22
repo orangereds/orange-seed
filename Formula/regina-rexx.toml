@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "regina-rexx"
+version = "3.9.7"
+description = "Interpreter for Rexx"
+homepage = "https://regina-rexx.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/regina-rexx/regina-rexx/3.9.7/regina-rexx-3.9.7.tar.gz"
+sha256 = "f13701ebd542e74d0fc83b2a7876a812b07d21e43400275ed65b1ac860204bd4"
+
+[build]
+system = "autotools"

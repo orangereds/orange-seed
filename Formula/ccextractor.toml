@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "freetype", "gpac", "libpng", "protobuf-c", "utf8proc"]
+
+[package]
+name = "ccextractor"
+version = "0.96.6"
+description = "Tool for extracting closed captions from video files"
+homepage = "https://www.ccextractor.org"
+
+[source]
+url = "https://github.com/CCExtractor/ccextractor/archive/refs/tags/v0.96.6.tar.gz"
+sha256 = "d2bda9d2071ccf7a81a43c10e82ec00899b2a25b391c300e965274f92ad46208"
+
+[build]
+system = "autotools"

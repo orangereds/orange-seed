@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "node"]
+
+[package]
+name = "todoist-cli"
+version = "0"
+description = "Official command-line interface for Todoist"
+homepage = "https://github.com/todoist/todoist-cli"
+
+[source]
+url = "https://registry.npmjs.org/@todoist/cli/-/cli-7.1.0.tgz"
+sha256 = "7855ec83b79cd7cb9b64663f70ea4c1fd029bcd2c985d40c82393758158389e0"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabextract", "p7zip"]
+
+[package]
+name = "winetricks"
+version = "20260125"
+description = "Automatic workarounds for problems in Wine"
+homepage = "https://github.com/Winetricks/winetricks"
+
+[source]
+url = "https://github.com/Winetricks/winetricks/archive/refs/tags/20260125.tar.gz"
+sha256 = "2890bd9fbbade4638e58b4999a237273192df03b58516ae7b8771e09c22d2f56"
+
+[build]
+system = "autotools"

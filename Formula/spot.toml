@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "spot"
+version = "2.16.3"
+description = "Platform for LTL and ω-automata manipulation"
+homepage = "https://spot.lre.epita.fr"
+
+[source]
+url = "https://www.lrde.epita.fr/dload/spot/spot-2.16.3.tar.gz"
+sha256 = "c17eb7f3d7634c8b4e1587ab37303a118805bbf5740bdd28e90589db3c7d2034"
+
+[build]
+system = "autotools"

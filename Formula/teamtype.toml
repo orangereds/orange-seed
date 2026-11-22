@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "teamtype"
+version = "0.9.3"
+description = "Peer-to-peer, editor-agnostic collaborative editing of local text files"
+homepage = "https://teamtype.github.io/teamtype/"
+
+[source]
+url = "https://github.com/teamtype/teamtype/archive/refs/tags/v0.9.3.tar.gz"
+sha256 = "c018dcd454645a01b8a0db5996b4f402471bc5c6ee2ad19091b9e30bbee993c7"
+
+[build]
+system = "autotools"

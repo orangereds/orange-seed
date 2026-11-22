@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "atkmm@2.28", "cairo", "cairomm@1.14", "glib", "glibmm@2.66", "gtk+3", "gtkmm3", "libsigc++@2", "pangomm@2.46", "smartmontools", "llvm", "at-spi2-core", "gdk-pixbuf", "gettext", "harfbuzz", "pango", "pcre2"]
+
+[package]
+name = "gsmartcontrol"
+version = "10"
+description = "Graphical user interface for smartctl"
+homepage = "https://gsmartcontrol.shaduri.dev/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gsmartcontrol/2.0.2/gsmartcontrol-2.0.2.tar.gz"
+sha256 = "7cebd83fd34883d51e143389aa88f8173ea7b67c760b12b7de847f3c3c8cee34"
+
+[build]
+system = "cmake"

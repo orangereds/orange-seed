@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bcftools", "bedtools", "tcl-tk"]
+
+[package]
+name = "annotsv"
+version = "3.5.10"
+description = "Annotation and ranking of structural variations"
+homepage = "https://lbgi.fr/AnnotSV/"
+
+[source]
+url = "https://github.com/lgmgeo/AnnotSV/archive/refs/tags/v3.5.10.tar.gz"
+sha256 = "3cf870cf5a5f3b495b4f23eed8fee1e06ab9a6575b1324a20244db62c1e4a015"
+
+[build]
+system = "make"

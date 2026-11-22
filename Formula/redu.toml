@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "redu"
+version = "0.2.16"
+description = "Ncdu for your restic repository"
+homepage = "https://github.com/drdo/redu"
+
+[source]
+url = "https://github.com/drdo/redu/archive/refs/tags/v0.2.16.tar.gz"
+sha256 = "106a0e93d2e3964f042afe46c7ec19286f40f27268b242c168811699d3d97475"
+
+[build]
+system = "autotools"

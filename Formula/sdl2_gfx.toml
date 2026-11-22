@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat"]
+
+[package]
+name = "sdl2_gfx"
+version = "0"
+description = "SDL2 graphics drawing primitives and other support functions"
+homepage = "https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/"
+
+[source]
+url = "https://www.ferzkopp.net/Software/SDL2_gfx/SDL2_gfx-1.1.0.tar.gz"
+sha256 = "9843924d46eacbabba685a239cf2284b948766a20ef2caa48cb18462a3295caf"
+
+[build]
+system = "autotools"

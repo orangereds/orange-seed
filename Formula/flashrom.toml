@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libftdi", "libjaylink", "libusb", "openssl@4"]
+
+[package]
+name = "flashrom"
+version = "1.8.0"
+description = "Identify, read, write, verify, and erase flash chips"
+homepage = "https://flashrom.org/"
+
+[source]
+url = "https://download.flashrom.org/releases/flashrom-v1.8.0.tar.xz"
+sha256 = "654c9c61745c250cd3b5ccd0e56fc43ee76980f92a5e078420420639d66975a2"
+
+[build]
+system = "autotools"

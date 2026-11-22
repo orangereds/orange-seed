@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["emacs"]
+
+[package]
+name = "emacs-dracula"
+version = "1.8.3"
+description = "Dark color theme available for a number of editors"
+homepage = "https://draculatheme.com/emacs"
+
+[source]
+url = "https://github.com/dracula/emacs/archive/refs/tags/v1.8.3.tar.gz"
+sha256 = "6650e5c83c419878785f555f8a23717b37eb50f897e95eedd9142f4a8d7ed616"
+
+[build]
+system = "autotools"

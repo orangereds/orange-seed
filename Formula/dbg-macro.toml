@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "dbg-macro"
+version = "0.5.1"
+description = "Dbg(…) macro for C++"
+homepage = "https://github.com/sharkdp/dbg-macro"
+
+[source]
+url = "https://github.com/sharkdp/dbg-macro/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "fffea75f067c69995853dc790626887788e2c4c9eb0a5a0014a4501d2b6b9909"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sops"
+version = "3.13.3"
+description = "Editor of encrypted files"
+homepage = "https://getsops.io/"
+
+[source]
+url = "https://github.com/getsops/sops/archive/refs/tags/v3.13.3.tar.gz"
+sha256 = "49811c5ed80f6b4d4e98cef98e3f7378406aa692fd773dfb72ad1b4dfb940448"
+
+[build]
+system = "autotools"

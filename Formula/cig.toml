@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cig"
+version = "0.1.5"
+description = "CLI app for checking the state of your git repositories"
+homepage = "https://github.com/stevenjack/cig"
+
+[source]
+url = "https://github.com/stevenjack/cig/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "545a4a8894e73c4152e0dcf5515239709537e0192629dc56257fe7cfc995da24"
+
+[build]
+system = "autotools"

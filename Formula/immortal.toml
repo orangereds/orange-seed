@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "immortal"
+version = "0.24.7"
+description = "OS agnostic (*nix) cross-platform supervisor"
+homepage = "https://immortal.run/"
+
+[source]
+url = "https://github.com/immortal/immortal/archive/refs/tags/v0.24.7.tar.gz"
+sha256 = "f4e646bda8ed8124271f002ceefea4949fcb8d70e2ec55856641b4be8cf69c51"
+
+[build]
+system = "autotools"

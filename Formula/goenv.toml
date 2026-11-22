@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goenv"
+version = "3.2.2"
+description = "Go version management"
+homepage = "https://github.com/go-nv/goenv"
+
+[source]
+url = "https://github.com/go-nv/goenv/archive/refs/tags/3.2.2.tar.gz"
+sha256 = "b5b39ce5b711a64e75a2d7df27a867645338002a2184beb49cb7984755ed6975"
+
+[build]
+system = "autotools"

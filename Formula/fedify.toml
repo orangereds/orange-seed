@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "fedify"
+version = "0"
+description = "CLI toolchain for Fedify"
+homepage = "https://fedify.dev/cli"
+
+[source]
+url = "https://registry.npmjs.org/@fedify/cli/-/cli-2.4.6.tgz"
+sha256 = "4ebc535523b48ae964f017fece11eb6b921b15c4aa790841bafaac1bbae30181"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "search-that-hash"
+version = "0.2.8_17"
+description = "Searches Hash APIs to crack your hash quickly"
+homepage = "https://github.com/Jayy001/Search-That-Hash"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5e/b9/a304a92ba77a9e18b3023b66634e71cded5285cef7e3b56d3c1874e9d84e/search-that-hash-0.2.8.tar.gz"
+sha256 = "384498abbb9a611aa173b20d06b135e013674670fecc01b34d456bfe536e0bca"
+
+[build]
+system = "autotools"

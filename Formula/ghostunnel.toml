@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ghostunnel"
+version = "1.11.5"
+description = "Simple SSL/TLS proxy with mutual authentication"
+homepage = "https://ghostunnel.dev/"
+
+[source]
+url = "https://github.com/ghostunnel/ghostunnel/archive/refs/tags/v1.11.5.tar.gz"
+sha256 = "4e422caf02e8fc2082f749f56b37dd64133da0e288cebdfdde52be8537ead69a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rust-analyzer"]
+
+[package]
+name = "lspmux"
+version = "0.3.0"
+description = "Share one language instance between multiple LSP clients to save resources"
+homepage = "https://codeberg.org/p2502/lspmux"
+
+[source]
+url = "https://codeberg.org/p2502/lspmux/archive/v0.3.0.tar.gz"
+sha256 = "28caab4a2f74dc4b8117ac5eed3af2b30258eab1affb47f47363afece0982243"
+
+[service]
+run = "opt/lspmux/bin/lspmux server"
+keep_alive = true
+log_path = "var/log/lspmux.log"
+error_log_path = "var/log/lspmux.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "jpeg-turbo", "libpng", "libtiff", "openssl@4"]
+
+[package]
+name = "dcmtk"
+version = "0"
+description = "OFFIS DICOM toolkit command-line utilities"
+homepage = "https://dcmtk.org/en/dcmtk/"
+
+[source]
+url = "https://github.com/DCMTK/dcmtk/archive/refs/tags/DCMTK-3.7.1.tar.gz"
+sha256 = "38ac8fceebe201921f6c101493e9611ba12fb5c597db7311df26e95d6d6bf39a"
+
+[build]
+system = "cmake"

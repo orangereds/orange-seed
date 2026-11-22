@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "backplane-cli"
+version = "1.1.0"
+description = "CLI for interacting with the OpenShift Backplane API"
+homepage = "https://github.com/openshift/backplane-cli"
+
+[source]
+url = "https://github.com/openshift/backplane-cli/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "d414d40975c0c1d9eb493b5b67363a867ec70b39cde611d53a5722f4f4731896"
+
+[build]
+system = "autotools"

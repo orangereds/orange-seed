@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "npq"
+version = "3.27.4"
+description = "Audit npm packages before you install them"
+homepage = "https://github.com/lirantal/npq"
+
+[source]
+url = "https://registry.npmjs.org/npq/-/npq-3.27.4.tgz"
+sha256 = "e191ff8ac89816ccffd688d80d37f91028821055435db704a4a9676192261b55"
+
+[build]
+system = "autotools"

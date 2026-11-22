@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "hidapi", "libsodium", "libusb", "python@3.15"]
+
+[package]
+name = "trezor-agent"
+version = "0_4"
+description = "Hardware SSH/GPG agent for Trezor and Ledger"
+homepage = "https://github.com/romanz/trezor-agent"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d9/b1/e533c417259dc112a067226d4c95cb772d7c090b696a61a065e1e41429d6/trezor_agent-0.13.0.tar.gz"
+sha256 = "f3324a7c5708db0e40682e272720f5d9e9dac7b62281ee740ee7825e6a23e8ff"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ots"
+version = "0.3.1"
+description = "Share end-to-end encrypted secrets with others via a one-time URL"
+homepage = "https://ots.sniptt.com"
+
+[source]
+url = "https://github.com/sniptt-official/ots/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "09f0b0d7ca44ec8414dbf631009df8c00f4750247c0f9ba25a32f0aa270e09cc"
+
+[build]
+system = "autotools"

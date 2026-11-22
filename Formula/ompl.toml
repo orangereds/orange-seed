@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "boost", "eigen", "flann", "ode"]
+
+[package]
+name = "ompl"
+version = "2.0.2"
+description = "Open Motion Planning Library consists of many motion planning algorithms"
+homepage = "https://ompl.kavrakilab.org/"
+
+[source]
+url = "https://github.com/ompl/ompl/archive/refs/tags/2.0.2.tar.gz"
+sha256 = "d867190a46a7f730923475a68af2e09fc9e796017a59be395a4bf3900d0c3ae4"
+
+[build]
+system = "cmake"

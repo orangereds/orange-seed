@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "cmdshelf"
+version = "2.0.2"
+description = "Better scripting life with cmdshelf"
+homepage = "https://github.com/toshi0383/cmdshelf"
+
+[source]
+url = "https://github.com/toshi0383/cmdshelf/archive/refs/tags/2.0.2.tar.gz"
+sha256 = "dea2ea567cfa67196664629ceda5bc775040b472c25e96944c19c74892d69539"
+
+[build]
+system = "autotools"

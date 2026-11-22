@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "gtk-doc", "libtool", "pkgconf", "glib"]
+
+[package]
+name = "libgsf"
+version = "1.14.60"
+description = "I/O abstraction library for dealing with structured file formats"
+homepage = "https://gitlab.gnome.org/GNOME/libgsf"
+
+[source]
+url = "https://download.gnome.org/sources/libgsf/1.14/libgsf-1.14.60.tar.xz"
+sha256 = "83e12c36a099a8a7019bf425e2c24af66eeb2ef5874251e694431a07d9805dae"
+
+[build]
+system = "autotools"

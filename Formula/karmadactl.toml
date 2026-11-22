@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "karmadactl"
+version = "1.19.1"
+description = "CLI for Karmada control plane"
+homepage = "https://karmada.io/"
+
+[source]
+url = "https://github.com/karmada-io/karmada/archive/refs/tags/v1.19.1.tar.gz"
+sha256 = "262c26a7b6c41986b0875c501aa5a3775cfc6c4bc8bfdda3fd0c2ba48c29851f"
+
+[build]
+system = "autotools"

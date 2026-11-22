@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goredo"
+version = "2.11.0.tar.zst"
+description = "Go implementation of djb's redo, a Makefile replacement that sucks less"
+homepage = "http://www.goredo.stargrave.org/"
+
+[source]
+url = "http://www.goredo.stargrave.org/download/goredo-2.11.0.tar.zst"
+sha256 = "53fd8d48ff80a936b697dae515924a59c80fe9709dbad5a952ba79303951359b"
+
+[build]
+system = "autotools"

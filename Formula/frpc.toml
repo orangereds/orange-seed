@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "frpc"
+version = "0.72.0"
+description = "Client app of fast reverse proxy to expose a local server to the internet"
+homepage = "https://github.com/fatedier/frp"
+
+[source]
+url = "https://github.com/fatedier/frp/archive/refs/tags/v0.72.0.tar.gz"
+sha256 = "20e2249c2b17cb7624317b0a9a0baed06c80c547d27568d18a32c78e46d79230"
+
+[service]
+run = "opt/frpc/bin/frpc -c etc/frp/frpc.toml"
+keep_alive = true
+log_path = "var/log/frpc.log"
+error_log_path = "var/log/frpc.log"
+
+[build]
+system = "autotools"

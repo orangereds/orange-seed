@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "celero"
+version = "2.11.0"
+description = "C++ Benchmark Authoring Library/Framework"
+homepage = "https://github.com/DigitalInBlue/Celero"
+
+[source]
+url = "https://github.com/DigitalInBlue/Celero/archive/refs/tags/v2.11.0.tar.gz"
+sha256 = "c01aca0d991331e5f96804ba8e5e1abf1c4209b012a1ebe8b98df76e0478f87b"
+
+[build]
+system = "cmake"

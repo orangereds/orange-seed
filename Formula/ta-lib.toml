@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "ta-lib"
+version = "0.8.3-src"
+description = "Tools for market analysis"
+homepage = "https://ta-lib.org/"
+
+[source]
+url = "https://github.com/ta-lib/ta-lib/releases/download/v0.8.3/ta-lib-0.8.3-src.tar.gz"
+sha256 = "28b1179b178a0db15f3dad0d846ef77f18eb06db5dfc5b5a8ca153a9ea5d84e6"
+
+[build]
+system = "autotools"

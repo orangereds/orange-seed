@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xorgproto"]
+
+[package]
+name = "libxau"
+version = "0"
+description = "X.Org: A Sample Authorization Protocol for X"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXau-1.0.12.tar.xz"
+sha256 = "74d0e4dfa3d39ad8939e99bda37f5967aba528211076828464d2777d477fc0fb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rpm", "xz", "zstd"]
+
+[package]
+name = "libsolv"
+version = "0.7.41"
+description = "Library for solving packages and reading repositories"
+homepage = "https://github.com/openSUSE/libsolv"
+
+[source]
+url = "https://github.com/openSUSE/libsolv/archive/refs/tags/0.7.41.tar.gz"
+sha256 = "38b4ee1924f8bd1ec0f6b2ec147e4c54c6deac132db5f90b4214b43ccd32fdd6"
+
+[build]
+system = "cmake"

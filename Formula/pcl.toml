@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "boost", "cjson", "eigen", "flann", "glew", "libpcap", "libpng", "libusb", "lz4", "qhull", "qtbase", "vtk", "freetype", "libomp"]
+
+[package]
+name = "pcl"
+version = "1.15.1_8"
+description = "Library for 2D/3D image and point cloud processing"
+homepage = "https://pointclouds.org/"
+
+[source]
+url = "https://github.com/PointCloudLibrary/pcl/archive/refs/tags/pcl-1.15.1.tar.gz"
+sha256 = "e1d862c7b6bd27a45884a825a2e509bfcbd4561307d5bfe17ce5c8a3d94a6c29"
+
+[build]
+system = "autotools"

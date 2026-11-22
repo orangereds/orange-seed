@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "gluon"
+version = "0.18.4"
+description = "Static, type inferred and embeddable language written in Rust"
+homepage = "https://gluon-lang.org"
+
+[source]
+url = "https://github.com/gluon-lang/gluon/archive/refs/tags/v0.18.4.tar.gz"
+sha256 = "2d600af19c69efcd9412882e9d8f01e5842e2565a2d054772588e4aaffd7ec2f"
+
+[build]
+system = "autotools"

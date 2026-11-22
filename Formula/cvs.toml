@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext"]
+
+[package]
+name = "cvs"
+version = "1.12.13_4"
+description = "Version control system"
+homepage = "https://www.nongnu.org/cvs/"
+
+[source]
+url = "https://ftpmirror.gnu.org/non-gnu/cvs/source/feature/1.12.13/cvs-1.12.13.tar.bz2"
+sha256 = "78853613b9a6873a30e1cc2417f738c330e75f887afdaf7b3d0800cb19ca515e"
+
+[build]
+system = "autotools"

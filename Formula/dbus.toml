@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook", "docbook-xsl", "meson", "ninja", "pkgconf", "xmlto"]
+
+[package]
+name = "dbus"
+version = "1.16.4"
+description = "Message bus system, providing inter-application communication"
+homepage = "https://wiki.freedesktop.org/www/Software/dbus"
+
+[source]
+url = "https://dbus.freedesktop.org/releases/dbus/dbus-1.16.4.tar.xz"
+sha256 = "d08b05526c2cb7966a5fb79210d6112b1aca3d135f315c1b302e14b4b0297dac"
+
+[build]
+system = "autotools"

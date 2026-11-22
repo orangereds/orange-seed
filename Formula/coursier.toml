@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "coursier"
+version = "0"
+description = "Pure Scala Artifact Fetching"
+homepage = "https://get-coursier.io/"
+
+[source]
+url = "https://github.com/coursier/coursier/releases/download/v2.1.27/coursier.jar"
+sha256 = "8d1e0d684a55c09828b7afda481139472d87a18e0544bb875e2e5e3e300f64b3"
+
+[build]
+system = "autotools"

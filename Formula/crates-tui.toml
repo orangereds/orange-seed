@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "crates-tui"
+version = "0.1.25"
+description = "TUI for exploring crates.io using Ratatui"
+homepage = "https://github.com/ratatui/crates-tui"
+
+[source]
+url = "https://github.com/ratatui/crates-tui/archive/refs/tags/v0.1.25.tar.gz"
+sha256 = "b02e2fa3b7225b5638f9ab8716c3cf21dfb32d96aee140ead2f451005abd58c2"
+
+[build]
+system = "autotools"

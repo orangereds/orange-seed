@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml"]
+
+[package]
+name = "dune"
+version = "3.25.0.tbz"
+description = "Composable build system for OCaml"
+homepage = "https://dune.build/"
+
+[source]
+url = "https://github.com/ocaml/dune/releases/download/3.25.0/dune-3.25.0.tbz"
+sha256 = "1d706779fa8405769a1ae667e4baaf4220ed87ec9d8be9d4fea0cf75bd79013b"
+
+[build]
+system = "make"

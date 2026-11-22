@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "github-release"
+version = "0.11.0"
+description = "Create and edit releases on Github (and upload artifacts)"
+homepage = "https://github.com/github-release/github-release"
+
+[source]
+url = "https://github.com/github-release/github-release/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "6e6d3d77ce7d6acf6c4e4e0e005c71641ba7c2eb67d9f1f2e2cf2cc5f5c68086"
+
+[build]
+system = "autotools"

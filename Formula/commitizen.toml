@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libyaml", "python@3.15"]
+
+[package]
+name = "commitizen"
+version = "4.19.4"
+description = "Defines a standard way of committing rules and communicating it"
+homepage = "https://commitizen-tools.github.io/commitizen/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/da/56/65f9692ccc74e8722e71fa0120010bb3cb5169d1e29252d52f2ffd13a967/commitizen-4.19.4.tar.gz"
+sha256 = "8fdab0943d708d64a7b827e773d6eb8829565be491adc8329c4476f5588dfbb5"
+
+[build]
+system = "autotools"

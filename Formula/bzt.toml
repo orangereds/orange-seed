@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "rust", "certifi", "libyaml", "numpy", "python@3.15"]
+
+[package]
+name = "bzt"
+version = "1.17.4"
+description = "BlazeMeter Taurus"
+homepage = "https://gettaurus.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/80/8c/9122215c51e8837d4ee71cdda76a6b1d7afd549d45b60c391fc84d7ea516/bzt-1.17.4.tar.gz"
+sha256 = "0d3f5070ce52a5b11d5806c5af4716bbdb27795440b248908d5a524d19e84701"
+
+[build]
+system = "autotools"

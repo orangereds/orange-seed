@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rapidjson", "llvm"]
+
+[package]
+name = "ccls"
+version = "0.20261004"
+description = "C/C++/ObjC language server"
+homepage = "https://github.com/MaskRay/ccls"
+
+[source]
+url = "https://github.com/MaskRay/ccls/archive/refs/tags/0.20261004.tar.gz"
+sha256 = "8e022718ac8d54aef36cd728a177ad036994d7abf535941b948ae14d1a9085dd"
+
+[build]
+system = "cmake"

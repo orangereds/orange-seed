@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15", "groff"]
+
+[package]
+name = "cppman"
+version = "0.6.3"
+description = "C++ manual pages from cplusplus.com and cppreference.com"
+homepage = "https://github.com/aitjcize/cppman"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a2/97/b0c1de5b35cc4e66eb32accffd261c22d511aba964a7aed3b210a85851b7/cppman-0.6.3.tar.gz"
+sha256 = "16a782b87b0848c5202b61965402258f8fc8260cbf0867cb876992eb3d046eb0"
+
+[build]
+system = "autotools"

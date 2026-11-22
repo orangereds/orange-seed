@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dehydrated"
+version = "0.7.2"
+description = "LetsEncrypt/acme client implemented as a shell-script"
+homepage = "https://dehydrated.io"
+
+[source]
+url = "https://github.com/dehydrated-io/dehydrated/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "34d0e316dd86108cf302fddfe1c6d7b72c2fa98bed338ddd6c0155da2ec75a94"
+
+[build]
+system = "autotools"

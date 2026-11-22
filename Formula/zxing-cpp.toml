@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "zxing-cpp"
+version = "2.30"
+description = "Multi-format barcode image processing library written in C++"
+homepage = "https://github.com/zxing-cpp/zxing-cpp"
+
+[source]
+url = "https://github.com/zxing-cpp/zxing-cpp/releases/download/v3.1.1/zxing-cpp-3.1.1.tar.gz"
+sha256 = "c3c02c29c0b519de7bd4e25b376e606e87f0761befd1282815642a2246613d14"
+
+[build]
+system = "autotools"

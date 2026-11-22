@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "jerryscript"
+version = "3.0.0"
+description = "Ultra-lightweight JavaScript engine for the Internet of Things"
+homepage = "https://jerryscript.net"
+
+[source]
+url = "https://github.com/jerryscript-project/jerryscript/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "4d586d922ba575d95482693a45169ebe6cb539c4b5a0d256a6651a39e47bf0fc"
+
+[build]
+system = "cmake"

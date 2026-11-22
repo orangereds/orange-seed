@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "python-setuptools", "vala", "glib", "json-glib", "libusb", "python@3.15", "usb.ids"]
+
+[package]
+name = "libgusb"
+version = "0.4.9"
+description = "GObject wrappers for libusb1"
+homepage = "https://github.com/hughsie/libgusb"
+
+[source]
+url = "https://github.com/hughsie/libgusb/archive/refs/tags/0.4.9.tar.gz"
+sha256 = "aa1242a308183d4ca6c2e8c9e3f2e345370b94308ef2d4b6e9c10d5ff6d7763e"
+
+[build]
+system = "autotools"

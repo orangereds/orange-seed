@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kics"
+version = "2.2.1"
+description = "Detect vulnerabilities, compliance issues, and misconfigurations"
+homepage = "https://kics.io/"
+
+[source]
+url = "https://github.com/Checkmarx/kics/archive/refs/tags/v2.2.1.tar.gz"
+sha256 = "df72535798cb79671d570c41e95bfd6b38e30f893850e67c8c522b94ebb61cbe"
+
+[build]
+system = "autotools"

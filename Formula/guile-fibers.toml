@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "guile", "libevent", "bdw-gc", "texinfo"]
+
+[package]
+name = "guile-fibers"
+version = "2.0.0"
+description = "Concurrent ML-like concurrency for Guile"
+homepage = "https://codeberg.org/guile/fibers"
+
+[source]
+url = "https://codeberg.org/guile/fibers/archive/v2.0.0.tar.gz"
+sha256 = "5cf63d8afbafe94b51fc94ccaf24f1643438dabfdd8f5fa83ff89cb0b2650b13"
+
+[build]
+system = "autotools"

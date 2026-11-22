@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "mbedtls"
+version = "4.3.0"
+description = "Cryptographic & SSL/TLS library"
+homepage = "https://www.trustedfirmware.org/projects/mbed-tls/"
+
+[source]
+url = "https://github.com/Mbed-TLS/mbedtls/releases/download/mbedtls-4.3.0/mbedtls-4.3.0.tar.bz2"
+sha256 = "1c87cba094cb40f097ebe0eba440a74939b71dab4e1d0d566bc90749ff381d18"
+
+[build]
+system = "autotools"

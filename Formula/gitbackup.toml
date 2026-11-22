@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitbackup"
+version = "1.3.1"
+description = "Tool to backup your Bitbucket, GitHub and GitLab repositories"
+homepage = "https://github.com/amitsaha/gitbackup"
+
+[source]
+url = "https://github.com/amitsaha/gitbackup/archive/refs/tags/v1.3.1.tar.gz"
+sha256 = "697ad5a84e39cc1b444c2129ce6cbcba9a953629486d53d4d87e1b624fc451ae"
+
+[build]
+system = "autotools"

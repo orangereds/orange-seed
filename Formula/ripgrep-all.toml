@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ripgrep"]
+
+[package]
+name = "ripgrep-all"
+version = "0.10.10"
+description = "Wrapper around ripgrep that adds multiple rich file types"
+homepage = "https://github.com/phiresky/ripgrep-all"
+
+[source]
+url = "https://github.com/phiresky/ripgrep-all/archive/refs/tags/v0.10.10.tar.gz"
+sha256 = "17fadc7b73a51608d57f82b4a11f3edc0da87716cc4b302103eed9d4b9010fe5"
+
+[build]
+system = "autotools"

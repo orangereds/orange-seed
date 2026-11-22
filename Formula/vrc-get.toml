@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "vrc-get"
+version = "1.9.3"
+description = "Open Source alternative of Command-line client of VRChat Package Manager"
+homepage = "https://github.com/vrc-get/vrc-get"
+
+[source]
+url = "https://github.com/vrc-get/vrc-get/archive/refs/tags/v1.9.3.tar.gz"
+sha256 = "8c5704c7ce48ddb6e3485528edf1b2e9ddabc6872112ef0a07a781867ab2fb9e"
+
+[build]
+system = "autotools"

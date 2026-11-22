@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "vue-language-server"
+version = "0"
+description = "Vue.js language server"
+homepage = "https://deepwiki.com/vuejs/language-tools"
+
+[source]
+url = "https://registry.npmjs.org/@vue/language-server/-/language-server-3.3.14.tgz"
+sha256 = "6cc94a4e823b2b5a6d7139a7dcb040d4c73a3b0f95435a7bc86f271fd8eb5eb8"
+
+[build]
+system = "autotools"

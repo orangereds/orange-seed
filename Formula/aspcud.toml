@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "re2c", "clingo"]
+
+[package]
+name = "aspcud"
+version = "1.9.6"
+description = "Package dependency solver"
+homepage = "https://potassco.org/aspcud/"
+
+[source]
+url = "https://github.com/potassco/aspcud/archive/refs/tags/v1.9.6.tar.gz"
+sha256 = "4dddfd4a74e4324887a1ddd7f8ff36231774fc1aa78b383256546e83acdf516c"
+
+[build]
+system = "cmake"

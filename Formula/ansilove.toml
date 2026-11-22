@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libansilove"]
+
+[package]
+name = "ansilove"
+version = "4.2.3"
+description = "ANSI/ASCII art to PNG converter"
+homepage = "https://www.ansilove.org"
+
+[source]
+url = "https://github.com/ansilove/ansilove/releases/download/4.2.3/ansilove-4.2.3.tar.gz"
+sha256 = "18ff3eb554860a7af8b0627f21ee409d30d9552ce650532dd173183fb69e0b42"
+
+[build]
+system = "cmake"

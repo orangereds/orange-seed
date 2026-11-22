@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ffmpeg"]
+
+[package]
+name = "ab-av1"
+version = "0.12.0"
+description = "AV1 re-encoding using ffmpeg, svt-av1 & vmaf"
+homepage = "https://github.com/alexheretic/ab-av1"
+
+[source]
+url = "https://github.com/alexheretic/ab-av1/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "2117ebd7091f6d22423bbfbf24bfffa53178babc24ae984174ae20014bd8bf7e"
+
+[build]
+system = "autotools"

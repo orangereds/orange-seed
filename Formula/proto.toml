@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "proto"
+version = "0.64.0"
+description = "Pluggable multi-language version manager"
+homepage = "https://moonrepo.dev/proto"
+
+[source]
+url = "https://github.com/moonrepo/proto/archive/refs/tags/v0.64.0.tar.gz"
+sha256 = "01ad55d1373ff310411e3d9ae05e4fde9646d137844976e808e9a81a5132b093"
+
+[build]
+system = "autotools"

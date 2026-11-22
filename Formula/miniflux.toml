@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "postgresql@19"]
+
+[package]
+name = "miniflux"
+version = "2.3.5"
+description = "Minimalist and opinionated feed reader"
+homepage = "https://miniflux.app"
+
+[source]
+url = "https://github.com/miniflux/v2/archive/refs/tags/2.3.5.tar.gz"
+sha256 = "1cd7bf4b2cf4a366271ee6cfa5994de3337fb13dc934d0eaf02e4b67839828d2"
+
+[service]
+run = "opt/miniflux/bin/miniflux -c etc/miniflux.conf"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/miniflux.log"
+error_log_path = "var/log/miniflux.log"
+
+[build]
+system = "autotools"

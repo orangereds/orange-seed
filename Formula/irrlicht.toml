@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo", "libpng"]
+
+[package]
+name = "irrlicht"
+version = "1.8.5_1"
+description = "Realtime 3D engine"
+homepage = "https://irrlicht.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/irrlicht/Irrlicht%20SDK/1.8/1.8.5/irrlicht-1.8.5.zip"
+sha256 = "effb7beed3985099ce2315a959c639b4973aac8210f61e354475a84105944f3d"
+
+[build]
+system = "autotools"

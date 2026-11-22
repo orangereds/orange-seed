@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libogg", "libvorbis"]
+
+[package]
+name = "ogmtools"
+version = "1.5"
+description = "OGG media streams manipulation tools"
+homepage = "https://www.bunkus.org/videotools/ogmtools/"
+
+[source]
+url = "https://www.bunkus.org/videotools/ogmtools/ogmtools-1.5.tar.bz2"
+sha256 = "c8d61d1dbceb981dc7399c1a85e43b509fd3d071fb8d3ca89ea9385e6e40fdea"
+
+[build]
+system = "autotools"

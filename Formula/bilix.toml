@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "certifi", "lz4", "pydantic", "python@3.15"]
+
+[package]
+name = "bilix"
+version = "0.18.9_11"
+description = "Lightning-fast asynchronous download tool for bilibili and more"
+homepage = "https://github.com/HFrost0/bilix"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5c/12/0f885cee77471123a3c82da85bd1934af00aed213910987bbe5b2296997d/bilix-0.18.9.tar.gz"
+sha256 = "8ab1be9bcc661369cbeba95439c09716778b6b42b2505a3eaddb45175688e247"
+
+[build]
+system = "autotools"

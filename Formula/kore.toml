@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4"]
+
+[package]
+name = "kore"
+version = "4.2.3_1"
+description = "Web application framework for writing web APIs in C"
+homepage = "https://kore.io/"
+
+[source]
+url = "https://kore.io/releases/kore-4.2.3.tar.gz"
+sha256 = "f9a9727af97441ae87ff9250e374b9fe3a32a3348b25cb50bd2b7de5ec7f5d82"
+
+[build]
+system = "make"

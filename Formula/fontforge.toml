@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "ninja", "pkgconf", "cairo", "fontconfig", "freetype", "giflib", "glib", "jpeg-turbo", "libpng", "libspiro", "libtiff", "libtool", "libuninameslist", "pango", "python@3.15", "readline", "woff2", "brotli"]
+
+[package]
+name = "fontforge"
+version = "20251009_2"
+description = "Command-line outline and bitmap font editor/converter"
+homepage = "https://fontforge.github.io"
+
+[source]
+url = "https://github.com/fontforge/fontforge/releases/download/20251009/fontforge-20251009.tar.xz"
+sha256 = "69046500185a5581b58139dfad30c0b3d8128f00ebbfddc31f2fcf877e329e52"
+
+[build]
+system = "cmake"

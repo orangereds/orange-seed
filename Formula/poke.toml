@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "pkgconf", "bdw-gc", "gettext", "readline"]
+
+[package]
+name = "poke"
+version = "5.0"
+description = "Extensible editor for structured binary data"
+homepage = "https://jemarch.net/poke"
+
+[source]
+url = "https://ftpmirror.gnu.org/poke/poke-5.0.tar.gz"
+sha256 = "6873d59abe821c8111b88623ea7ad9e090892fa95c75562606dd88374e2f5b8f"
+
+[build]
+system = "autotools"

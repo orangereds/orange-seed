@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "cyclonedx-cli"
+version = "0.33.1_1"
+description = "Tool for analysis and manipulation of CycloneDX SBOMs"
+homepage = "https://cyclonedx.org/"
+
+[source]
+url = "https://github.com/CycloneDX/cyclonedx-cli/archive/refs/tags/v0.33.1.tar.gz"
+sha256 = "01574e2e7d1cfe88ed50bbe7e87663af45a6b261ba11518a6c8eb34f809e1309"
+
+[build]
+system = "autotools"

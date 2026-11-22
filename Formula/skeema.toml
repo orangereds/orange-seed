@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "skeema"
+version = "1.14.2"
+description = "Declarative pure-SQL schema management for MySQL and MariaDB"
+homepage = "https://www.skeema.io/"
+
+[source]
+url = "https://github.com/skeema/skeema/archive/refs/tags/v1.14.2.tar.gz"
+sha256 = "d072315fbb941555b6c009d99ca2079950e5a18d9dffce80f54d4ddc6cc23c44"
+
+[build]
+system = "autotools"

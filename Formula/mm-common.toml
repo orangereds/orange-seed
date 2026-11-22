@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "python@3.15"]
+
+[package]
+name = "mm-common"
+version = "1.0.8"
+description = "Build utilities for C++ interfaces of GTK+ and GNOME packages"
+homepage = "https://www.gtkmm.org/"
+
+[source]
+url = "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.8.tar.xz"
+sha256 = "b189ee636e839d12c00dabefae099fd488ab2358dec24d264761c011950b02a9"
+
+[build]
+system = "autotools"

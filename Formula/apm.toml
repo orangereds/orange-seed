@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "apm"
+version = "0"
+description = "Dependency manager for AI agent configuration"
+homepage = "https://microsoft.github.io/apm/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/52/d9/bf1a4a8065e675ab63d3ad2f008c9d938b5301412d5eca64b681ee554a8c/apm_cli-0.36.1.tar.gz"
+sha256 = "b231d68b3ce5ea78326a33ec725b410227d0b081b2689aad5e4ba13b3b8388fa"
+
+[build]
+system = "autotools"

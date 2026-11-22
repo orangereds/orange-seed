@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "webp"]
+
+[package]
+name = "tronbyt-server"
+version = "2.6.1"
+description = "Manage your apps on your Tronbyt (flashed Tidbyt) completely locally"
+homepage = "https://github.com/tronbyt/server"
+
+[source]
+url = "https://github.com/tronbyt/server/archive/refs/tags/v2.6.1.tar.gz"
+sha256 = "84b130ae9071dad2a17d6eddaae9dfa1c4f1e284d302926d00312425bc7d176d"
+
+[service]
+run = "opt/tronbyt-server/bin/tronbyt-server"
+keep_alive = true
+working_dir = "var/tronbyt-server"
+log_path = "var/log/tronbyt-server.log"
+error_log_path = "var/log/tronbyt-server.log"
+
+[build]
+system = "autotools"

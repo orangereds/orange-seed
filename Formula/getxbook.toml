@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "getxbook"
+version = "1.3"
+description = "Tools to download ebooks from various sources"
+homepage = "https://njw.name/getxbook/"
+
+[source]
+url = "https://njw.name/getxbook/getxbook-1.3.tar.xz"
+sha256 = "a1b8252a50ba61e7c66a82161af35e08f4e6187e8c2cea1e2a040d167932de18"
+
+[build]
+system = "make"

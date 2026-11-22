@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "maven", "openjdk"]
+
+[package]
+name = "wildfly-as"
+version = "0"
+description = "Managed application runtime for building applications"
+homepage = "https://www.wildfly.org/"
+
+[source]
+url = "https://github.com/wildfly/wildfly/releases/download/42.0.0.Final/wildfly-42.0.0.Final.tar.gz"
+sha256 = "6c2e50b8f3e2c0c3ad8f5241e18276f12bfd3e6e37b750e3fe1d6ce1dd2800ce"
+
+[service]
+run = "opt/wildfly-as/libexec/bin/standalone.sh --server-config=standalone.xml"
+keep_alive = true
+
+[build]
+system = "autotools"

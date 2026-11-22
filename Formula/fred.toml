@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "fred"
+version = "0_3"
+description = "Fully featured FRED Command-line Interface & Python API wrapper"
+homepage = "https://fred.stlouisfed.org/docs/api/fred/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/81/97/25f2721387b30613436d80e0d82d6b2dea76f053139950e5b02d7786dccd/fred_py_api-1.2.1.tar.gz"
+sha256 = "04691b7571ffb424f0ce3a823f1917605efa59e9434c6a58f5e5f71ac134047d"
+
+[build]
+system = "autotools"

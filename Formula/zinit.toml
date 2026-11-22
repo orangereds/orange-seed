@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zinit"
+version = "3.17.1"
+description = "Flexible and fast Zsh plugin manager"
+homepage = "https://zdharma-continuum.github.io/zinit/wiki/"
+
+[source]
+url = "https://github.com/zdharma-continuum/zinit/archive/refs/tags/v3.17.1.tar.gz"
+sha256 = "736d14e17f9ab8b4ef54150a13262e069a456dce04156aa76174bfa1baac4663"
+
+[build]
+system = "autotools"

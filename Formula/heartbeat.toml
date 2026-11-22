@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "mage"]
+
+[package]
+name = "heartbeat"
+version = "0"
+description = "Lightweight Shipper for Uptime Monitoring"
+homepage = "https://www.elastic.co/beats/heartbeat"
+
+[source]
+url = "https://github.com/elastic/beats.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/heartbeat/bin/heartbeat"
+
+[build]
+system = "autotools"

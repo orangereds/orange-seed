@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "zrok"
+version = "0"
+description = "Geo-scale, next-generation sharing platform built on top of OpenZiti"
+homepage = "https://zrok.io"
+
+[source]
+url = "https://github.com/openziti/zrok/releases/download/v2.0.11/source-v2.0.11.tar.gz"
+sha256 = "e635462229fcb8be6710f4858e290367ebec279a54f5cdd6832cd398f745b61e"
+
+[build]
+system = "autotools"

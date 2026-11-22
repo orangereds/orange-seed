@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "toml2json"
+version = "1.4.0"
+description = "Convert TOML to JSON"
+homepage = "https://github.com/woodruffw/toml2json"
+
+[source]
+url = "https://github.com/woodruffw/toml2json/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "70c9bf872f22d22691d41eeb06442a0fddf4b341ddebfadf8734d1e68e0174ce"
+
+[build]
+system = "autotools"

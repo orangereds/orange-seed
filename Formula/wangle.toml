@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libevent", "double-conversion", "fizz", "fmt", "folly", "gflags", "glog", "openssl@4"]
+
+[package]
+name = "wangle"
+version = "2026.10.26.00"
+description = "Modular, composable client/server abstractions framework"
+homepage = "https://github.com/facebook/wangle"
+
+[source]
+url = "https://github.com/facebook/wangle/archive/refs/tags/v2026.10.26.00.tar.gz"
+sha256 = "5c482135fbea0ca6359c2093f1b725e5abfbed205fa59cecb0ed2fb9234cfbf3"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbcl"]
+
+[package]
+name = "acl2"
+version = "8.7_8"
+description = "Logic and programming language in which you can model computer systems"
+homepage = "https://www.cs.utexas.edu/~moore/acl2/"
+
+[source]
+url = "https://github.com/acl2/acl2/archive/refs/tags/8.7.tar.gz"
+sha256 = "d6013c22e190cbd702870d296b5370a068c14625bf7f9d305d2d87292b594d52"
+
+[build]
+system = "autotools"

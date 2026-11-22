@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust"]
+
+[package]
+name = "veilid"
+version = "0.5.8"
+description = "Peer-to-peer network for easily sharing various kinds of data"
+homepage = "https://veilid.com/"
+
+[source]
+url = "https://gitlab.com/veilid/veilid/-/archive/v0.5.8/veilid-v0.5.8.tar.bz2"
+sha256 = "37fd3b67a79f677b4392089de3fb6b1c42146d1612859fa1de5d402cfdf9858b"
+
+[build]
+system = "autotools"

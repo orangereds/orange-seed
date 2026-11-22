@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2"]
+
+[package]
+name = "openjdk@25"
+version = "0"
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.org/"
+
+[source]
+url = "https://github.com/openjdk/jdk25u/archive/refs/tags/jdk-25.0.5.1-ga.tar.gz"
+sha256 = "b4a28f325bc5f38f87c13489a5825613bba78a0e55ebe4202a993e982c62922e"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

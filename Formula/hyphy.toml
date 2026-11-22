@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libomp"]
+
+[package]
+name = "hyphy"
+version = "2.5.104"
+description = "Hypothesis testing using Phylogenies"
+homepage = "https://www.hyphy.org"
+
+[source]
+url = "https://github.com/veg/hyphy/archive/refs/tags/2.5.104.tar.gz"
+sha256 = "608b16322071453812be3c032d9ab575c74d245969c03dca298b2a041933d6a0"
+
+[build]
+system = "cmake"

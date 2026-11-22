@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nowplaying-cli"
+version = "2.1.0"
+description = "Retrieves currently playing media, and simulates media actions"
+homepage = "https://github.com/kirtan-shah/nowplaying-cli"
+
+[source]
+url = "https://github.com/kirtan-shah/nowplaying-cli/archive/refs/tags/v2.1.0.tar.gz"
+sha256 = "c7c23564657bf5b5598bdf58f79e11c8dffbde909e364df4da7c3a49a26e3753"
+
+[build]
+system = "make"

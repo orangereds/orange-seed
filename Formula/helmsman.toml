@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "helm", "kubernetes-cli"]
+
+[package]
+name = "helmsman"
+version = "4.0.5"
+description = "Helm Charts as Code tool"
+homepage = "https://github.com/mkubaczyk/helmsman"
+
+[source]
+url = "https://github.com/mkubaczyk/helmsman/archive/refs/tags/v4.0.5.tar.gz"
+sha256 = "d7a49bd4322dfc4f1f8136fe0bcce5ef0bbb9aafe895945580178861fd908ac4"
+
+[build]
+system = "autotools"

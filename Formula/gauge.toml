@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gauge"
+version = "1.6.43"
+description = "Test automation tool that supports executable documentation"
+homepage = "https://gauge.org"
+
+[source]
+url = "https://github.com/getgauge/gauge/archive/refs/tags/v1.6.43.tar.gz"
+sha256 = "24b69e9e543f95eb2a54a10f15b6a0d67b4b8206a70662198ff3cc25bf1eae88"
+
+[build]
+system = "autotools"

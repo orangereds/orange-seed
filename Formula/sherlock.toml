@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "certifi", "numpy", "python@3.15"]
+
+[package]
+name = "sherlock"
+version = "0_1"
+description = "Hunt down social media accounts by username"
+homepage = "https://sherlockproject.xyz/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ff/d1/e4319259d1eb955aed24db5c91c110f46e72ad2d2ead70407f55c6b1dcc6/sherlock_project-0.16.2.tar.gz"
+sha256 = "18cc9d571a84499eec43f3c96eaac1cb089e12ad0d0fc5016c828d38e035cc5a"
+
+[build]
+system = "autotools"

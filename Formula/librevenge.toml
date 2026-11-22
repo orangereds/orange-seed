@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf"]
+
+[package]
+name = "librevenge"
+version = "0.0.6"
+description = "Base library for writing document import filters"
+homepage = "https://sourceforge.net/p/libwpd/wiki/librevenge/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libwpd/librevenge/librevenge-0.0.6/librevenge-0.0.6.tar.xz"
+sha256 = "19eacf5ce55d7fe6a990a45142589cdf7da0c7b68701797f133482cb44f189fa"
+
+[build]
+system = "autotools"

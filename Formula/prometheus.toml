@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-tar", "go", "node", "pnpm"]
+
+[package]
+name = "prometheus"
+version = "3.16.0"
+description = "Service monitoring system and time series database"
+homepage = "https://prometheus.io/"
+
+[source]
+url = "https://github.com/prometheus/prometheus/archive/refs/tags/v3.16.0.tar.gz"
+sha256 = "2709a3bd43f9d15e0cecfc33ab473d011e2a69ab29265b91398cc1b8561403c0"
+
+[service]
+run = "opt/prometheus/bin/prometheus_brew_services"
+log_path = "var/log/prometheus.log"
+error_log_path = "var/log/prometheus.err.log"
+
+[build]
+system = "autotools"

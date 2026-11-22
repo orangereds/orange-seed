@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zeptoclaw"
+version = "0.9.2"
+description = "Lightweight personal AI gateway with layered safety controls"
+homepage = "https://zeptoclaw.com/"
+
+[source]
+url = "https://github.com/qhkm/zeptoclaw/archive/refs/tags/v0.9.2.tar.gz"
+sha256 = "7fa22515bab031b157d774bf6aa1966b57ea735734c8d75c67a886e2c086c2f5"
+
+[service]
+run = "opt/zeptoclaw/bin/zeptoclaw gateway"
+keep_alive = true
+
+[build]
+system = "autotools"

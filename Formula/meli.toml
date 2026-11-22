@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4", "sqlite"]
+
+[package]
+name = "meli"
+version = "0.9.0"
+description = "Terminal e-mail client and e-mail client library"
+homepage = "https://meli-email.org/"
+
+[source]
+url = "https://git.meli-email.org/meli/meli/archive/v0.9.0.tar.gz"
+sha256 = "4eeca49cfef7c9a7c65f722d5fe1b17e3aae85703fb6cd6428c9a53edffb9edd"
+
+[build]
+system = "autotools"

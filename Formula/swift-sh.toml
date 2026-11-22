@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "swift-sh"
+version = "2.5.0_1"
+description = "Scripting with easy zero-conf dependency imports"
+homepage = "https://github.com/mxcl/swift-sh"
+
+[source]
+url = "https://github.com/mxcl/swift-sh/archive/refs/tags/2.5.0.tar.gz"
+sha256 = "07f3c2d1215b82eb56ebfeb676b5e3860c23a828c14fd482c7c1935817f3220f"
+
+[build]
+system = "autotools"

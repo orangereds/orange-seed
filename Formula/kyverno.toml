@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kyverno"
+version = "1.20.0"
+description = "Kubernetes Native Policy Management"
+homepage = "https://kyverno.io/"
+
+[source]
+url = "https://github.com/kyverno/kyverno/archive/refs/tags/v1.20.0.tar.gz"
+sha256 = "03285a7ed3f24ee99d62b5e00829441627219f9f81702e4c8adef741c1d83707"
+
+[build]
+system = "autotools"

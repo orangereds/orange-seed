@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "taskline"
+version = "1.6.0"
+description = "Tasks, boards & notes for the command-line habitat"
+homepage = "https://github.com/perryrh0dan/taskline"
+
+[source]
+url = "https://registry.npmjs.org/@perryrh0dan/taskline/-/taskline-1.6.0.tgz"
+sha256 = "b27122b0578c6890342ec3742ef14f89aca4315853282f982c1b6dad6b6faba2"
+
+[build]
+system = "autotools"

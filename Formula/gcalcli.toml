@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "pycparser", "pydantic", "python@3.15"]
+
+[package]
+name = "gcalcli"
+version = "4.5.1_16"
+description = "Easily access your Google Calendar(s) from a command-line"
+homepage = "https://github.com/insanum/gcalcli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/68/b8/c3f3b8c73c9740eeb592e31f3f1092485ce8809fd7137d7c776a0b0d3567/gcalcli-4.5.1.tar.gz"
+sha256 = "bbc8d6b9ce40d0be0535ffec3bb3384761400c7fbf1d67716e7d0e5fe9c6f2d5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "awsweeper"
+version = "0.12.0"
+description = "CLI tool for cleaning your AWS account"
+homepage = "https://github.com/jckuester/awsweeper/"
+
+[source]
+url = "https://github.com/jckuester/awsweeper/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "43468e1af20dab757da449b07330f7b16cbb9f77e130782f88f30a7744385c5e"
+
+[build]
+system = "autotools"

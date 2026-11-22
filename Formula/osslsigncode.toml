@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4"]
+
+[package]
+name = "osslsigncode"
+version = "2.16"
+description = "OpenSSL based Authenticode signing for PE/MSI/Java CAB files"
+homepage = "https://github.com/mtrojnar/osslsigncode"
+
+[source]
+url = "https://github.com/mtrojnar/osslsigncode/archive/refs/tags/2.16.tar.gz"
+sha256 = "c8fce7cdb0f1643d98a6689cb3106fda8265f17014fd7912856c9473f9b141a7"
+
+[build]
+system = "cmake"

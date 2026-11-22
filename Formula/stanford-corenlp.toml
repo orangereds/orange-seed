@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "stanford-corenlp"
+version = "0"
+description = "Java suite of core NLP tools"
+homepage = "https://stanfordnlp.github.io/CoreNLP/"
+
+[source]
+url = "https://huggingface.co/stanfordnlp/CoreNLP/resolve/v4.6.0/stanford-corenlp-latest.zip"
+sha256 = "761ed3020fcfd3e05222848d4240fa7029459e7efcf01f1c01e381cc0a3be597"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "c-kermit"
+version = "9.0.302"
+description = "Scriptable network and serial communication for UNIX and VMS"
+homepage = "https://www.kermitproject.org/"
+
+[source]
+url = "https://www.kermitproject.org/ftp/kermit/archives/cku302.tar.gz"
+sha256 = "0d5f2cd12bdab9401b4c836854ebbf241675051875557783c332a6a40dac0711"
+
+[build]
+system = "autotools"

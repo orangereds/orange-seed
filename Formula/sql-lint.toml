@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sql-lint"
+version = "1.0.2"
+description = "SQL linter to do sanity checks on your queries and bring errors back from the DB"
+homepage = "https://github.com/joereynolds/sql-lint"
+
+[source]
+url = "https://registry.npmjs.org/sql-lint/-/sql-lint-1.0.2.tgz"
+sha256 = "17575266273fe3f762595fe404f49ff5fbd4c360f605cda0718cb62d65ad82b8"
+
+[build]
+system = "autotools"

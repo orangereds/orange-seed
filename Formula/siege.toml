@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "siege"
+version = "4.2.2"
+description = "HTTP regression testing and benchmarking utility"
+homepage = "https://www.joedog.org/siege"
+
+[source]
+url = "https://download.joedog.org/siege/siege-4.2.2.tar.gz"
+sha256 = "c0d5bfac11086aeb3828888a71bf276ed54c9fa0f0af2ead981d2b2fa242141b"
+
+[build]
+system = "autotools"

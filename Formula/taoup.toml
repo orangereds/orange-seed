@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "taoup"
+version = "1.1.24"
+description = "Tao of Unix Programming with Ruby-powered ANSI-colored fortunes"
+homepage = "https://github.com/globalcitizen/taoup"
+
+[source]
+url = "https://github.com/globalcitizen/taoup/archive/refs/tags/v1.1.24.tar.gz"
+sha256 = "9e9569343d57420e39526f65c1f9f4372b1019e9379517ff5224b7723a0c4538"
+
+[build]
+system = "autotools"

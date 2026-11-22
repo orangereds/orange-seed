@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "little-cms2"]
+
+[package]
+name = "jxl-oxide"
+version = "0.12.6"
+description = "JPEG XL decoder"
+homepage = "https://github.com/tirr-c/jxl-oxide"
+
+[source]
+url = "https://github.com/tirr-c/jxl-oxide/archive/refs/tags/0.12.6.tar.gz"
+sha256 = "d4ddd94b8d9c5d34424e3e228e07a5399aee9a388339fd6cd81b073eebf1e6de"
+
+[build]
+system = "autotools"

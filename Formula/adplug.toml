@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libbinio", "texinfo"]
+
+[package]
+name = "adplug"
+version = "2.4"
+description = "Free, hardware independent AdLib sound player library"
+homepage = "https://adplug.github.io"
+
+[source]
+url = "https://github.com/adplug/adplug/releases/download/adplug-2.4/adplug-2.4.tar.bz2"
+sha256 = "de18463bf7c0cb639a3228ad47e69eb7f78a5a197802d325f3a5ed7e1c56d57f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "autoconf", "autoconf-archive", "automake", "libtool", "pkgconf", "python@3.15", "swig"]
+
+[package]
+name = "link-grammar"
+version = "5.13.2"
+description = "Carnegie Mellon University's link grammar parser"
+homepage = "https://github.com/opencog/link-grammar"
+
+[source]
+url = "https://github.com/opencog/link-grammar/archive/refs/tags/link-grammar-5.13.2.tar.gz"
+sha256 = "6305b3c0d59dfbf0d0bafc715995beebf0e383a968f4cc7a665f313e69b4c059"
+
+[build]
+system = "autotools"

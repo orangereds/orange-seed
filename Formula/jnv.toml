@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jnv"
+version = "0.7.1"
+description = "Interactive JSON filter using jq"
+homepage = "https://github.com/ynqa/jnv"
+
+[source]
+url = "https://github.com/ynqa/jnv/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "22423fe5d621848f2b7dd3b94511d74068b763235d07a30a191d086f6a98b6b5"
+
+[build]
+system = "autotools"

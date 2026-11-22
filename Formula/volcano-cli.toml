@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "volcano-cli"
+version = "1.16.0"
+description = "CLI for Volcano, Cloud Native Batch System"
+homepage = "https://volcano.sh"
+
+[source]
+url = "https://github.com/volcano-sh/volcano/archive/refs/tags/v1.16.0.tar.gz"
+sha256 = "334e93a189028f0cf941fcca437fc2511bfeadb6ac6b6c4af5f361a4ccc0ea0d"
+
+[build]
+system = "autotools"

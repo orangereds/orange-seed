@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "glm", "pkgconf", "vulkan-headers", "bdw-gc", "fftw", "ghostscript", "glfw", "glslang", "gsl", "readline", "spirv-tools", "vulkan-loader", "molten-vk"]
+
+[package]
+name = "asymptote"
+version = "3.16.src"
+description = "Powerful descriptive vector graphics language"
+homepage = "https://asymptote.sourceforge.io"
+
+[source]
+url = "https://downloads.sourceforge.net/project/asymptote/3.16/asymptote-3.16.src.tgz"
+sha256 = "3755e8f3776a3d494354964ba0109203eece417ccd8ac8f5479932514cb30e1b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libomp"]
+
+[package]
+name = "blis"
+version = "2.1"
+description = "BLAS-like Library Instantiation Software Framework"
+homepage = "https://github.com/flame/blis"
+
+[source]
+url = "https://github.com/flame/blis/archive/refs/tags/2.1.tar.gz"
+sha256 = "901752ec596cd63421ea45a6a06a9f34491cf5ae01cea412ece05f97a2690a96"
+
+[build]
+system = "autotools"

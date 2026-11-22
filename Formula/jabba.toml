@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jabba"
+version = "0.15.0"
+description = "Cross-platform Java Version Manager"
+homepage = "https://github.com/Jabba-Team/jabba"
+
+[source]
+url = "https://github.com/Jabba-Team/jabba/archive/refs/tags/0.15.0.tar.gz"
+sha256 = "36607ef03a196719403f138e3d7f5591f6ed253b772e82501849bb95fdb47a2b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "qttools", "jack", "qtbase", "qtsvg"]
+
+[package]
+name = "qjackctl"
+version = "1.0.6"
+description = "Simple Qt application to control the JACK sound server daemon"
+homepage = "https://qjackctl.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/qjackctl/qjackctl/1.0.6/qjackctl-1.0.6.tar.gz"
+sha256 = "dfffef1ddc65df666a1f0eba89a1d6d85fab47c765a91de36a5ef6360472899a"
+
+[build]
+system = "cmake"

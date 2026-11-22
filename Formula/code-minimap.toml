@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "code-minimap"
+version = "0.6.8"
+description = "High performance code minimap generator"
+homepage = "https://github.com/wfxr/code-minimap"
+
+[source]
+url = "https://github.com/wfxr/code-minimap/archive/refs/tags/v0.6.8.tar.gz"
+sha256 = "c68d4387bd0b86684a1b7c643d6281b79e018da318657254f2502ad032d52355"
+
+[build]
+system = "autotools"

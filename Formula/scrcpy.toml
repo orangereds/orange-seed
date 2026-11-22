@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "ffmpeg", "libusb", "sdl3"]
+
+[package]
+name = "scrcpy"
+version = "5.0.1"
+description = "Display and control your Android device"
+homepage = "https://github.com/Genymobile/scrcpy"
+
+[source]
+url = "https://github.com/Genymobile/scrcpy/archive/refs/tags/v5.0.1.tar.gz"
+sha256 = "a24b996ac23d0f674d3237c00b39a97829d8acbe9e1657a6c216fd51ea488ee5"
+
+[build]
+system = "autotools"

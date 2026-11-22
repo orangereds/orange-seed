@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ncurses"]
+
+[package]
+name = "mtm"
+version = "1.2.1"
+description = "Micro terminal multiplexer"
+homepage = "https://github.com/deadpixi/mtm"
+
+[source]
+url = "https://github.com/deadpixi/mtm/archive/refs/tags/1.2.1/1.2.1.tar.gz"
+sha256 = "2ae05466ef44efa7ddb4bce58efc425617583d9196b72e80ec1090bd77df598c"
+
+[build]
+system = "autotools"

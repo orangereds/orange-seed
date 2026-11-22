@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pybind11", "rust", "python@3.15", "re2"]
+
+[package]
+name = "proselint"
+version = "0.16.0"
+description = "Linter for prose"
+homepage = "https://github.com/amperser/proselint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1f/95/0cec6b32b3031613468df80c94fbced8f3c3e38ff7f0101645c0acde6bd6/proselint-0.16.0.tar.gz"
+sha256 = "2568db94db227ea3aa011f88ddb6f554707b99b2c7447666bf00d71c5d7167cb"
+
+[build]
+system = "autotools"

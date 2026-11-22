@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloudlist"
+version = "1.5.1"
+description = "Tool for listing assets from multiple cloud providers"
+homepage = "https://github.com/projectdiscovery/cloudlist"
+
+[source]
+url = "https://github.com/projectdiscovery/cloudlist/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "e75a769df7418f51b011b444c62fd4b758547e2dcc130369f69872a1b6e7009c"
+
+[build]
+system = "autotools"

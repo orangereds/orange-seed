@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "ancient"
+version = "2.3.0"
+description = "Decompression routines for ancient formats"
+homepage = "https://github.com/temisu/ancient"
+
+[source]
+url = "https://github.com/temisu/ancient/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "5d1d71f0fb8c69955bb4ec01ed9ffd2b5bf546b10463030dda85d949ea422bc9"
+
+[build]
+system = "autotools"

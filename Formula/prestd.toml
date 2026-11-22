@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "prestd"
+version = "2.6.0"
+description = "Simplify and accelerate development on any Postgres application, existing or new"
+homepage = "https://github.com/prest/prest"
+
+[source]
+url = "https://github.com/prest/prest/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "d12e3c151b90cde9b3d8d940f1909026d69e1f3ada55b5df8265403fae774e1e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "droast"
+version = "1.7.0"
+description = "Opinionated Dockerfile linter"
+homepage = "https://ewry.net/droast-dockerfile-linter/"
+
+[source]
+url = "https://github.com/immanuwell/dockerfile-roast/archive/refs/tags/1.7.0.tar.gz"
+sha256 = "5acfdb95d78aa6dbef4ee31abc954aeb7c7a84b6bc6de14307d1e061e583da64"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python-setuptools", "python@3.15", "rtmpdump"]
+
+[package]
+name = "you-get"
+version = "0"
+description = "Dumb downloader that scrapes the web"
+homepage = "https://you-get.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/2d/85/f4a22b842bc0e0f57dc56ae54266dbc451547cee90bae9480131100ad92a/you_get-0.4.1743.tar.gz"
+sha256 = "cbc1250d577246ec9d422cef113882844c80d8729f32d3183a5fa76648a20741"
+
+[build]
+system = "autotools"

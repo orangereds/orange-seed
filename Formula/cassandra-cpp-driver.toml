@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libuv", "openssl@4"]
+
+[package]
+name = "cassandra-cpp-driver"
+version = "2.17.1"
+description = "DataStax C/C++ Driver for Apache Cassandra"
+homepage = "https://docs.datastax.com/en/developer/cpp-driver/latest"
+
+[source]
+url = "https://github.com/apache/cassandra-cpp-driver/archive/refs/tags/2.17.1.tar.gz"
+sha256 = "e6ab5f5c60a916dd6c0dd9a19a883a4a1ab3d6b4e95cab925a186fecff08344e"
+
+[build]
+system = "cmake"

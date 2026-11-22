@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ncurses"]
+
+[package]
+name = "openvi"
+version = "8.0.34"
+description = "Portable OpenBSD vi for UNIX systems"
+homepage = "https://github.com/johnsonjh/OpenVi"
+
+[source]
+url = "https://github.com/johnsonjh/OpenVi/archive/refs/tags/8.0.34.tar.gz"
+sha256 = "27cab6f631f1d8aefc33c944a3f226ebb8d5ad4325f50b6f52d60be7b823ded8"
+
+[build]
+system = "make"

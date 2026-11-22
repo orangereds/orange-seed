@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "lexicon"
+version = "0_1"
+description = "Manipulate DNS records on various DNS providers in a standardized way"
+homepage = "https://github.com/dns-lexicon/dns-lexicon"
+
+[source]
+url = "https://files.pythonhosted.org/packages/df/2c/3f59d022b897477cbf2adcf15995609b5a9cd490a48cf032da64f85753bc/dns_lexicon-3.26.0.tar.gz"
+sha256 = "57d94f5d181fc30445b0428ddf548f750669f2002ae630410c17d5f425aa7be7"
+
+[build]
+system = "autotools"

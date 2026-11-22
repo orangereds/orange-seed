@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "nlopt"
+version = "2.11.0"
+description = "Free/open-source library for nonlinear optimization"
+homepage = "https://nlopt.readthedocs.io/"
+
+[source]
+url = "https://github.com/stevengj/nlopt/archive/refs/tags/v2.11.0.tar.gz"
+sha256 = "53e552d83e9294d67db37f0f4a23f15933a9ef698485301a18b98b40004cf0de"
+
+[build]
+system = "cmake"

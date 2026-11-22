@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "gnu-sed"]
+
+[package]
+name = "desed"
+version = "1.2.3"
+description = "Debugger for Sed"
+homepage = "https://github.com/SoptikHa2/desed"
+
+[source]
+url = "https://github.com/SoptikHa2/desed/archive/refs/tags/v1.2.3.tar.gz"
+sha256 = "10e7836f484d15e545e8c43298ca7f6c6de75278f9778e03ca73877f98c9d25f"
+
+[build]
+system = "autotools"

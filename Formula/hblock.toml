@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hblock"
+version = "3.5.2"
+description = "Adblocker that creates a hosts file from multiple sources"
+homepage = "https://hblock.molinero.dev/"
+
+[source]
+url = "https://github.com/hectorm/hblock/archive/refs/tags/v3.5.2.tar.gz"
+sha256 = "dc59353e24edaf46ea0a9c746c8a6bbd4a468c354d6f64d4fafb70a32f990259"
+
+[build]
+system = "autotools"

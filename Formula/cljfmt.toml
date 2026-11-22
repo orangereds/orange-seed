@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graalvm", "leiningen"]
+
+[package]
+name = "cljfmt"
+version = "0.16.6"
+description = "Formatting Clojure code"
+homepage = "https://github.com/weavejester/cljfmt"
+
+[source]
+url = "https://github.com/weavejester/cljfmt/archive/refs/tags/0.16.6.tar.gz"
+sha256 = "f993bfddf454f0ab07dd9f5dc6524a2639385ae7ba6b32b0a89c71077ce71fc7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "r"]
+
+[package]
+name = "rv-r"
+version = "0.23.3"
+description = "Declarative R package manager"
+homepage = "https://a2-ai.github.io/rv-docs/"
+
+[source]
+url = "https://github.com/A2-ai/rv/archive/refs/tags/v0.23.3.tar.gz"
+sha256 = "2237ca6b54ff40dcc9cf4ce5ad000d197f34df7631fa5d143e0f734866f3d230"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "fmt"
+version = "12.2.1"
+description = "Open-source formatting library for C++"
+homepage = "https://fmt.dev/"
+
+[source]
+url = "https://github.com/fmtlib/fmt/releases/download/12.2.1/fmt-12.2.1.zip"
+sha256 = "870a49acec5bcdab236aeea834ebd7f0b8548a7d8cea33c996b6873a37f2d50c"
+
+[build]
+system = "cmake"

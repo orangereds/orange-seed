@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "gnutls", "gettext"]
+
+[package]
+name = "libnice"
+version = "0.1.24"
+description = "GLib ICE implementation"
+homepage = "https://wiki.freedesktop.org/nice/"
+
+[source]
+url = "https://libnice.freedesktop.org/releases/libnice-0.1.24.tar.gz"
+sha256 = "cfb5e8e778534f2f5b3c6f4958a1eb057c6b95c537c0f100817a537cf5d64fcc"
+
+[build]
+system = "autotools"

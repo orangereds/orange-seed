@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vcfanno"
+version = "0.3.10"
+description = "Annotate a VCF with other VCFs/BEDs/tabixed files"
+homepage = "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0973-5"
+
+[source]
+url = "https://github.com/brentp/vcfanno/archive/refs/tags/v0.3.10.tar.gz"
+sha256 = "6a13fc9fe247f2726b6294e55e713281e62e4a5c279501e60763c52c4c921d45"
+
+[build]
+system = "autotools"

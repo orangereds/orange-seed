@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gogcli"
+version = "0.48.1"
+description = "Google Suite CLI"
+homepage = "https://gogcli.sh"
+
+[source]
+url = "https://github.com/openclaw/gogcli/archive/refs/tags/v0.48.1.tar.gz"
+sha256 = "faec62b748b7d4d12109eb9ed28e79a592f4a8da06449fe23965a92e48562247"
+
+[build]
+system = "autotools"

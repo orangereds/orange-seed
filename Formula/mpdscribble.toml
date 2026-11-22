@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "fmt", "libgcrypt", "libmpdclient"]
+
+[package]
+name = "mpdscribble"
+version = "0.26"
+description = "Last.fm reporting client for mpd"
+homepage = "https://www.musicpd.org/clients/mpdscribble/"
+
+[source]
+url = "https://www.musicpd.org/download/mpdscribble/0.26/mpdscribble-0.26.tar.xz"
+sha256 = "b9d5829b89c465707256c140000e1a04b1d9d3afe50db46a843cf5ee54bf6309"
+
+[service]
+run = "opt/mpdscribble/bin/mpdscribble --no-daemon"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

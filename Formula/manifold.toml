@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "clipper2", "tbb"]
+
+[package]
+name = "manifold"
+version = "3.5.5"
+description = "Geometry library for topological robustness"
+homepage = "https://github.com/elalish/manifold"
+
+[source]
+url = "https://github.com/elalish/manifold/releases/download/v3.5.5/manifold-3.5.5.tar.gz"
+sha256 = "5b5bb677e819a73a7b4ac96bbf95d35120b2fc324bb22446a6b717a30bca82c0"
+
+[build]
+system = "cmake"

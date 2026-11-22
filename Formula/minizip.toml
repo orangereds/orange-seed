@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "minizip"
+version = "0"
+description = "C library for zip/unzip via zLib"
+homepage = "https://www.winimage.com/zLibDll/minizip.html"
+
+[source]
+url = "https://zlib.net/zlib-1.4.tar.gz"
+sha256 = "02dd159783677a749c04adbdd02b55b8a2bcc7e054f51b76b549199a916ad584"
+
+[build]
+system = "autotools"

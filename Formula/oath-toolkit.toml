@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "pkgconf", "libxml2", "libxmlsec1"]
+
+[package]
+name = "oath-toolkit"
+version = "2.6.15_1"
+description = "Tools for one-time password authentication systems"
+homepage = "https://oath-toolkit.codeberg.page/"
+
+[source]
+url = "https://download.savannah.nongnu.org/releases/oath-toolkit/oath-toolkit-2.6.15.tar.gz"
+sha256 = "8ad24aa9ff13c0edf3efc2573d90e85cf8b5ce7e82c08042574c1591f9d91eaa"
+
+[build]
+system = "autotools"

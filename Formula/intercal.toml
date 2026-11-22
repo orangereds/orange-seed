@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "intercal"
+version = "0.35"
+description = "Esoteric, parody programming language"
+homepage = "http://catb.org/~esr/intercal/"
+
+[source]
+url = "http://catb.org/~esr/intercal/intercal-0.35.tar.gz"
+sha256 = "b55e8edc68e2517a067a902766e2f57b97b502553fdcbae2b5ab2463ba58f0e1"
+
+[build]
+system = "autotools"

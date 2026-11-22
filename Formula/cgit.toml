@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "cgit"
+version = "0"
+description = "Hyperfast web frontend for Git repositories written in C"
+homepage = "https://git.zx2c4.com/cgit/"
+
+[source]
+url = "https://git.zx2c4.com/cgit.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

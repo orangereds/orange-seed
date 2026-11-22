@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ncurses"]
+
+[package]
+name = "multitail"
+version = "7.1.6"
+description = "Tail multiple files in one terminal simultaneously"
+homepage = "https://vanheusden.com/multitail/"
+
+[source]
+url = "https://github.com/folkertvanheusden/multitail/archive/refs/tags/7.1.6.tar.gz"
+sha256 = "bf614c53c212238bccc86bb7ab220b6b11f3997c1900a5767df4b1a79885f421"
+
+[build]
+system = "autotools"

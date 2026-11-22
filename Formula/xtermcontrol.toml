@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xtermcontrol"
+version = "3.11"
+description = "Control xterm properties such as colors, title, font and geometry"
+homepage = "https://thrysoee.dk/xtermcontrol/"
+
+[source]
+url = "https://thrysoee.dk/xtermcontrol/xtermcontrol-3.11.tar.gz"
+sha256 = "49ea6d3eda0dbcf875363763cefe1818ce6786b9910255ea641d9786bdafd44c"
+
+[build]
+system = "autotools"

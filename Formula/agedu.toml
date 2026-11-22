@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "agedu"
+version = "20260410"
+description = "Unix utility for tracking down wasted disk space"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/agedu/"
+
+[source]
+url = "https://www.chiark.greenend.org.uk/~sgtatham/agedu/agedu-20260410.3622eda.tar.gz"
+sha256 = "37be3c0de116b4fa44d390cca929248fd2e12586ef22aca9474a009c568e561c"
+
+[build]
+system = "cmake"

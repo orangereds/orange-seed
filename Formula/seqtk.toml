@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "seqtk"
+version = "1.5"
+description = "Toolkit for processing sequences in FASTA/Q formats"
+homepage = "https://github.com/lh3/seqtk"
+
+[source]
+url = "https://github.com/lh3/seqtk/archive/refs/tags/v1.5.tar.gz"
+sha256 = "384aa1e3cecf4f70403839d586cbb29d469b7c6f773a64bc5af48a6e4b8220a6"
+
+[build]
+system = "autotools"

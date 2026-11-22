@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "build2"
+version = "0"
+description = "C/C++ Build Toolchain"
+homepage = "https://build2.org"
+
+[source]
+url = "https://download.build2.org/0.18.1/build2-toolchain-0.18.1.tar.xz"
+sha256 = "a5f3eab9d4522bc22704899593dd6c7013349a1b8c37278c8b2321073e25ff16"
+
+[build]
+system = "autotools"

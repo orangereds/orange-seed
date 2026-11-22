@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "aws-sso-util"
+version = "0_9"
+description = "Smooth out the rough edges of AWS SSO (temporarily, until AWS makes it better)"
+homepage = "https://github.com/61418/aws-sso-util"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4f/64/f00272ecbc60703d0f1a3b17ab75d893c05ec5d60b0e6e9d59ef9b8b9c61/aws_sso_util-4.33.0.tar.gz"
+sha256 = "e48d7f5911443450d28e1ac1613f81b9aa15babb1b2055b4531df87db43a09df"
+
+[build]
+system = "autotools"

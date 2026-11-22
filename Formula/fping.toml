@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "fping"
+version = "5.5"
+description = "Scriptable ping program for checking if multiple hosts are up"
+homepage = "https://fping.org/"
+
+[source]
+url = "https://fping.org/dist/fping-5.5.tar.gz"
+sha256 = "15c4e32b6c55ff105bafe03e8c91c7ca1b2eda31bf9a7127326bb87887ee18fe"
+
+[build]
+system = "autotools"

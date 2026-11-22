@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gobject-introspection", "gtk-doc", "itstool", "meson", "ninja", "pkgconf", "vala", "at-spi2-core", "cairo", "glib", "gtk+3", "pango", "pcre2", "gettext"]
+
+[package]
+name = "gucharmap"
+version = "18.0.0"
+description = "GNOME Character Map, based on the Unicode Character Database"
+homepage = "https://wiki.gnome.org/Apps/Gucharmap"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/gucharmap/-/archive/18.0.0/gucharmap-18.0.0.tar.bz2"
+sha256 = "564aca0ed8a25e4880ed5298de033889dfbc11bd49af1d7ee2959a5f46eb8f1d"
+
+[build]
+system = "autotools"

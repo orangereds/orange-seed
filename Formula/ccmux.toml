@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "tmux", "xcodegen"]
+
+[package]
+name = "ccmux"
+version = "1.4.7"
+description = "Run all your AI coding agents in tmux"
+homepage = "https://github.com/epilande/ccmux"
+
+[source]
+url = "https://github.com/epilande/ccmux/archive/refs/tags/v1.4.7.tar.gz"
+sha256 = "e1de726fad9e880adbbaf6bab2780cff12ea32b626218bf1920217c9d3c44ab3"
+
+[build]
+system = "autotools"

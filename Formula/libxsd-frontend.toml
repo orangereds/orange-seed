@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["build2", "libcutl", "xerces-c"]
+
+[package]
+name = "libxsd-frontend"
+version = "2.1.0"
+description = "Compiler frontend for the W3C XML Schema definition language"
+homepage = "https://www.codesynthesis.com/projects/libxsd-frontend/"
+
+[source]
+url = "https://www.codesynthesis.com/download/xsd/4.2/libxsd-frontend-2.1.0.tar.gz"
+sha256 = "98321b9c2307d7c4e1eba49da6a522ffa81bdf61f7e3605e469aa85bfcab90b1"
+
+[build]
+system = "autotools"

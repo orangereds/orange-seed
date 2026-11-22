@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ggc"
+version = "8.7.7"
+description = "Modern Git CLI"
+homepage = "https://github.com/bmf-san/ggc"
+
+[source]
+url = "https://github.com/bmf-san/ggc/archive/refs/tags/v8.7.7.tar.gz"
+sha256 = "5d016e01d89e255c635e9d5a99d1be07639dc1a58b0b61aee95c34b58eea5eaa"
+
+[build]
+system = "autotools"

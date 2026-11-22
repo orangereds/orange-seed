@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "texinfo", "pkgconf", "libpng", "libsndfile", "sdl2-compat"]
+
+[package]
+name = "xroar"
+version = "1.13.1"
+description = "Dragon and Tandy 8-bit computer emulator"
+homepage = "https://www.6809.org.uk/xroar/"
+
+[source]
+url = "https://www.6809.org.uk/xroar/dl/xroar-1.13.1.tar.gz"
+sha256 = "75251696df8053d2fd6c02c30fc6f02506f074dbf9cc2fc6eaf2183a3739be7c"
+
+[build]
+system = "autotools"

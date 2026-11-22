@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor"]
+
+[package]
+name = "showkey"
+version = "1.10"
+description = "Simple keystroke visualizer"
+homepage = "http://www.catb.org/~esr/showkey/"
+
+[source]
+url = "https://gitlab.com/esr/showkey/-/archive/1.10/showkey-1.10.tar.bz2"
+sha256 = "f4b4ff9c9655401483c60c1be6f19326560e62e854092477be037a3bb2b7fbde"
+
+[build]
+system = "autotools"

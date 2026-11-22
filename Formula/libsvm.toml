@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libsvm"
+version = "3.37"
+description = "Library for support vector machines"
+homepage = "https://www.csie.ntu.edu.tw/~cjlin/libsvm/"
+
+[source]
+url = "https://www.csie.ntu.edu.tw/~cjlin/libsvm/libsvm-3.37.tar.gz"
+sha256 = "1fa553edc776be3d62fab4607b96ffa505093ea6e3e759a4c7f96294ff75e29a"
+
+[build]
+system = "autotools"

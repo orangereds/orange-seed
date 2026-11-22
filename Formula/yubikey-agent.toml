@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf"]
+
+[package]
+name = "yubikey-agent"
+version = "0.1.6"
+description = "Seamless ssh-agent for YubiKeys and other PIV tokens"
+homepage = "https://github.com/FiloSottile/yubikey-agent"
+
+[source]
+url = "https://github.com/FiloSottile/yubikey-agent/archive/refs/tags/v0.1.6.tar.gz"
+sha256 = "f156d089376772a34d2995f8261d821369a96a248ab586d27e3be0d9b72d7426"
+
+[service]
+run = "opt/yubikey-agent/bin/yubikey-agent -l var/run/yubikey-agent.sock"
+keep_alive = true
+log_path = "var/log/yubikey-agent.log"
+error_log_path = "var/log/yubikey-agent.log"
+
+[build]
+system = "autotools"

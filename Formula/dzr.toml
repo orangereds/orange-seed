@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dialog", "mpv"]
+
+[package]
+name = "dzr"
+version = "260315"
+description = "Command-line Deezer.com player"
+homepage = "https://github.com/yne/dzr"
+
+[source]
+url = "https://github.com/yne/dzr/archive/refs/tags/260315.tar.gz"
+sha256 = "3bf9f3121cbbd35a4d3fb83d1869d3047abe32db157705a4d68aaf441c6ea0fe"
+
+[build]
+system = "autotools"

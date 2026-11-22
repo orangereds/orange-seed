@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "fontconfig", "freetype", "freexl", "geos", "giflib", "jpeg-turbo", "libgeotiff", "libpng", "librttopo", "libspatialite", "libtiff", "libxml2", "lz4", "minizip", "openjpeg", "pixman", "proj", "sqlite", "webp", "xz", "zstd"]
+
+[package]
+name = "librasterlite2"
+version = "1.1.0-beta1_5"
+description = "Library to store and retrieve huge raster coverages"
+homepage = "https://www.gaia-gis.it/fossil/librasterlite2/index"
+
+[source]
+url = "https://www.gaia-gis.it/gaia-sins/librasterlite2-sources/librasterlite2-1.1.0-beta1.tar.gz"
+sha256 = "f7284cdfc07ad343a314e4878df0300874b0145d9d331b063b096b482e7e44f4"
+
+[build]
+system = "autotools"

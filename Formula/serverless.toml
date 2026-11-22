@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "serverless"
+version = "3.40.0"
+description = "Build applications with serverless architectures"
+homepage = "https://www.serverless.com/"
+
+[source]
+url = "https://github.com/serverless/serverless/archive/refs/tags/v3.40.0.tar.gz"
+sha256 = "c8058ec43e1e5de67a4a1ee95f0bcec24a4b0ffd4e953b4214961ef7ff2b385d"
+
+[build]
+system = "autotools"

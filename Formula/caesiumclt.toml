@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "caesiumclt"
+version = "1.5.0"
+description = "Fast and efficient lossy and/or lossless image compression tool"
+homepage = "https://github.com/Lymphatus/caesium-clt"
+
+[source]
+url = "https://github.com/Lymphatus/caesium-clt/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "c170c4d1ab1179b3757ec39f00c08250b121195e07f013fcbf9f3952db333a05"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "maki"
+version = "0.7.3"
+description = "Efficient AI coding agent extendable by neovim-like Lua plugins"
+homepage = "https://maki.sh"
+
+[source]
+url = "https://github.com/tontinton/maki/archive/refs/tags/v0.7.3.tar.gz"
+sha256 = "c248243dada4c76217bc62142609faa94fc329afdd30f04966d31f2d24d01bb8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libmikmod"]
+
+[package]
+name = "mikmod"
+version = "3.2.10"
+description = "Portable tracked music player"
+homepage = "https://mikmod.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mikmod/mikmod/3.2.10/mikmod-3.2.10.tar.gz"
+sha256 = "465e99d89d762608b7d0c0a103a58eec68c8c28ae6bbd196354c13433e40d20a"
+
+[build]
+system = "autotools"

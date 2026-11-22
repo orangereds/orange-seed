@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gmp", "libmpc", "mpfr"]
+
+[package]
+name = "mpfrcx"
+version = "0.6.3"
+description = "Arbitrary precision library for arithmetic of univariate polynomials"
+homepage = "https://www.multiprecision.org/mpfrcx/"
+
+[source]
+url = "https://www.multiprecision.org/downloads/mpfrcx-0.6.3.tar.gz"
+sha256 = "9da9b3614c0a3e00e6ed2b82fc935d1c838d97074dc59cb388f8fafbe3db8594"
+
+[build]
+system = "autotools"

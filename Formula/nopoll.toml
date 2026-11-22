@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "nopoll"
+version = "0.4.9.b462"
+description = "Open-source C WebSocket toolkit"
+homepage = "https://www.aspl.es/nopoll/"
+
+[source]
+url = "https://www.aspl.es/nopoll/downloads/nopoll-0.4.9.b462.tar.gz"
+sha256 = "80bfa3e0228e88e290dd23eb94d9bb1f4d726fb117c11cfb048cbdd1d71d379a"
+
+[build]
+system = "autotools"

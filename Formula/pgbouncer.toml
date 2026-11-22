@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pandoc", "pkgconf", "libevent", "openssl@4"]
+
+[package]
+name = "pgbouncer"
+version = "1.26.1"
+description = "Lightweight connection pooler for PostgreSQL"
+homepage = "https://www.pgbouncer.org/"
+
+[source]
+url = "https://www.pgbouncer.org/downloads/files/1.26.1/pgbouncer-1.26.1.tar.gz"
+sha256 = "00886a2994b4844cd37110970df777772cfc42a74c400522c82fba509a3f42d9"
+
+[service]
+run = "opt/pgbouncer/bin/pgbouncer -q etc/pgbouncer.ini"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

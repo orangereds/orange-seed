@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "podiff"
+version = "1.4"
+description = "Compare textual information in two PO files"
+homepage = "https://puszcza.gnu.org.ua/software/podiff/"
+
+[source]
+url = "https://download.gnu.org.ua/pub/release/podiff/podiff-1.4.tar.gz"
+sha256 = "231531f3b0b17615a1f0ca9d712a3c196686df9f1a641688c74a2574af78b22a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gflags", "cmake"]
+
+[package]
+name = "ng-log"
+version = "0.8.4"
+description = "C++ library for application-level logging"
+homepage = "https://ng-log.github.io/ng-log/"
+
+[source]
+url = "https://github.com/ng-log/ng-log/archive/refs/tags/v0.8.4.tar.gz"
+sha256 = "e154857d99d4ab6246a1bbde607ddb60f4bd6b1912c4f044a81f688cc89fcdd0"
+
+[build]
+system = "cmake"

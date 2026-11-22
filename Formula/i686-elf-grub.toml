@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gawk", "help2man", "i686-elf-binutils", "i686-elf-gcc", "texinfo", "xz", "gettext"]
+
+[package]
+name = "i686-elf-grub"
+version = "0"
+description = "GNU GRUB bootloader for i686-elf"
+homepage = "https://savannah.gnu.org/projects/grub"
+
+[source]
+url = "https://ftpmirror.gnu.org/grub/grub-2.12.tar.xz"
+sha256 = "f3c97391f7c4eaa677a78e090c7e97e6dc47b16f655f04683ebd37bef7fe0faa"
+
+[build]
+system = "autotools"

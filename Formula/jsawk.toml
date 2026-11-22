@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["spidermonkey"]
+
+[package]
+name = "jsawk"
+version = "1.4"
+description = "Like awk, but for JSON, using JavaScript objects and arrays"
+homepage = "https://github.com/micha/jsawk"
+
+[source]
+url = "https://github.com/micha/jsawk/archive/refs/tags/1.4.tar.gz"
+sha256 = "3d38ffb4b9c6ff7f17072a12c5817ffe68bd0ab58d6182de300fc1e587d34530"
+
+[build]
+system = "autotools"

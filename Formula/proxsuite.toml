@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "nanobind", "pkgconf", "cereal", "eigen", "numpy", "python@3.15", "scipy", "simde"]
+
+[package]
+name = "proxsuite"
+version = "0.8.3"
+description = "Advanced Proximal Optimization Toolbox"
+homepage = "https://github.com/Simple-Robotics/proxsuite"
+
+[source]
+url = "https://github.com/Simple-Robotics/proxsuite/archive/refs/tags/v0.8.3.tar.gz"
+sha256 = "8bd4818895e66784c7f86e73997df4f9b318a9b06c233798f9ec169776656e07"
+
+[build]
+system = "cmake"

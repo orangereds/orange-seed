@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libgfshare"
+version = "2.0.0"
+description = "Library for sharing secrets"
+homepage = "https://github.com/kinnison/libgfshare"
+
+[source]
+url = "https://github.com/kinnison/libgfshare/archive/refs/tags/2.0.0.tar.gz"
+sha256 = "91d7ea7f3e5ddb3854a38827a3f6ea7c597db03067735dc953bd31c5b90f9930"
+
+[build]
+system = "autotools"

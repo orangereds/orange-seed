@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pyinvoke"
+version = "0"
+description = "Pythonic task management & command execution"
+homepage = "https://www.pyinvoke.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/33/f6/227c48c5fe47fa178ccf1fda8f047d16c97ba926567b661e9ce2045c600c/invoke-3.0.3.tar.gz"
+sha256 = "437b6a622223824380bfb4e64f612711a6b648c795f565efc8625af66fb57f0c"
+
+[build]
+system = "autotools"

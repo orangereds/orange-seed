@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "librtlsdr", "libusb"]
+
+[package]
+name = "wmbusmeters"
+version = "3.1.1"
+description = "Read wired or wireless mbus protocol to acquire utility meter readings"
+homepage = "https://github.com/wmbusmeters/wmbusmeters"
+
+[source]
+url = "https://github.com/wmbusmeters/wmbusmeters/archive/refs/tags/3.1.1.tar.gz"
+sha256 = "973278c4febc57faa15854879d12c0e36beebea9ea5374f15717d7f727b6b246"
+
+[service]
+run = "opt/wmbusmeters/bin/wmbusmeters --useconfig=#{etc}/wmbusmeters"
+keep_alive = true
+
+[build]
+system = "autotools"

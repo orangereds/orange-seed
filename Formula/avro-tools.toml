@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "avro-tools"
+version = "0"
+description = "Avro command-line tools and utilities"
+homepage = "https://avro.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=avro/avro-1.12.2/java/avro-tools-1.12.2.jar"
+sha256 = "6220e8bc089aaf917cdad4cd358bd651fc0394c0e5ddb8b36da402012c294a68"
+
+[build]
+system = "autotools"

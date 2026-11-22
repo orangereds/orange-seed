@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@21"]
+
+[package]
+name = "jenkins"
+version = "0"
+description = "Extendable open source continuous integration server"
+homepage = "https://www.jenkins.io/"
+
+[source]
+url = "https://get.jenkins.io/war/2.591/jenkins.war"
+sha256 = "1dd13b81ab341e4c38722f9d9cde2cc3dacf20ec78a4e3300870cf26a42028bd"
+
+[service]
+run = "opt/jenkins/bin/jenkins --httpListenAddress=127.0.0.1 --httpPort=8080"
+keep_alive = true
+log_path = "var/log/jenkins/output.log"
+error_log_path = "var/log/jenkins/error.log"
+
+[build]
+system = "autotools"

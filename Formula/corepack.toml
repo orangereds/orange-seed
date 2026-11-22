@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "corepack"
+version = "0.36.0"
+description = "Package acting as bridge between Node projects and their package managers"
+homepage = "https://github.com/nodejs/corepack"
+
+[source]
+url = "https://registry.npmjs.org/corepack/-/corepack-0.36.0.tgz"
+sha256 = "9128cfe26aee0c99f4fc68c15c6b8b12309a68be0de2c012cdfea2a463cb722f"
+
+[build]
+system = "autotools"

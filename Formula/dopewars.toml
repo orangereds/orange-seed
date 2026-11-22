@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gettext"]
+
+[package]
+name = "dopewars"
+version = "1.7.0"
+description = "Free rewrite of a game originally based on \"Drug Wars\""
+homepage = "https://dopewars.sourceforge.io"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dopewars/dopewars/1.7.0/dopewars-1.7.0.tar.gz"
+sha256 = "106dfea6a019b00b69a26044c82d6977296c0c7c684c0c9c256a04ed8adfb20f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "texinfo", "wget", "pkgconf", "pcre2"]
+
+[package]
+name = "grep"
+version = "3.12"
+description = "GNU grep, egrep and fgrep"
+homepage = "https://www.gnu.org/software/grep/"
+
+[source]
+url = "https://ftpmirror.gnu.org/grep/grep-3.12.tar.xz"
+sha256 = "2649b27c0e90e632eadcd757be06c6e9a4f48d941de51e7c0f83ff76408a07b9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "oh-my-agent"
+version = "21.0.1"
+description = "Portable multi-agent harness for .agents-based skills and workflows"
+homepage = "https://firstfluke.com/oh-my-agent/"
+
+[source]
+url = "https://registry.npmjs.org/oh-my-agent/-/oh-my-agent-21.0.1.tgz"
+sha256 = "b330bb8ef868581e32617af12387fa7d77cdb4ef431fe6063d455439cca2a4bf"
+
+[build]
+system = "autotools"

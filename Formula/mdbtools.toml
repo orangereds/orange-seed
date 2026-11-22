@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "gawk", "pkgconf", "glib", "readline", "unixodbc", "gettext"]
+
+[package]
+name = "mdbtools"
+version = "1.0.1_1"
+description = "Tools to facilitate the use of Microsoft Access databases"
+homepage = "https://github.com/mdbtools/mdbtools/"
+
+[source]
+url = "https://github.com/mdbtools/mdbtools/releases/download/v1.0.1/mdbtools-1.0.1.tar.gz"
+sha256 = "ff9c425a88bc20bf9318a332eec50b17e77896eef65a0e69415ccb4e396d1812"
+
+[build]
+system = "autotools"

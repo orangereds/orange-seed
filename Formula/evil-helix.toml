@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "evil-helix"
+version = "0"
+description = "Soft fork of the helix editor"
+homepage = "https://evil-helix.github.io"
+
+[source]
+url = "https://github.com/usagi-flow/evil-helix/archive/refs/tags/release-20250915.tar.gz"
+sha256 = "1a5dc826890eede336b2f2cabbb1bb19b3e25ebbc0c42ac09eb7d9348bbf27cc"
+
+[build]
+system = "autotools"

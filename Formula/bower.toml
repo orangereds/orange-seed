@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bower"
+version = "1.8.14"
+description = "Package manager for the web"
+homepage = "https://bower.io/"
+
+[source]
+url = "https://registry.npmjs.org/bower/-/bower-1.8.14.tgz"
+sha256 = "00df3dcc6e8b3a4dd7668934a20e60e6fc0c4269790192179388c928553a3f7e"
+
+[build]
+system = "autotools"

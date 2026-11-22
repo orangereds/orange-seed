@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bpmnlint"
+version = "12.2.0"
+description = "Validate BPMN diagrams based on configurable lint rules"
+homepage = "https://github.com/bpmn-io/bpmnlint"
+
+[source]
+url = "https://registry.npmjs.org/bpmnlint/-/bpmnlint-12.2.0.tgz"
+sha256 = "9cc3e333813f29a1ef1bf603dd59f6c6a6b57f6efe682efee8a7f763a34572e4"
+
+[build]
+system = "autotools"

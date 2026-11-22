@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "scrub"
+version = "2.6.1"
+description = "Writes patterns on magnetic media to thwart data recovery"
+homepage = "https://github.com/chaos/scrub"
+
+[source]
+url = "https://github.com/chaos/scrub/releases/download/2.6.1/scrub-2.6.1.tar.gz"
+sha256 = "43d98d3795bc2de7920efe81ef2c5de4e9ed1f903c35c939a7d65adc416d6cb8"
+
+[build]
+system = "autotools"

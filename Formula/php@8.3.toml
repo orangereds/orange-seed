@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["httpd", "pkgconf", "apr", "apr-util", "argon2", "aspell", "autoconf", "curl", "freetds", "gd", "gmp", "icu4c@79", "krb5", "libpq", "libsodium", "libzip", "oniguruma", "openldap", "openssl@4", "pcre2", "sqlite", "tidy-html5", "unixodbc", "gettext"]
+
+[package]
+name = "php@8.3"
+version = "0"
+description = "General-purpose scripting language"
+homepage = "https://www.php.net/"
+
+[source]
+url = "https://www.php.net/distributions/php-8.3.37.tar.xz"
+sha256 = "0237af84478b7a7649d3964153f1b8653d622550b846f56d63062de683fb86bb"
+
+[install]
+keg_only = true
+
+[service]
+run = "php-fpm --nodaemonize"
+keep_alive = true
+working_dir = "var"
+error_log_path = "var/log/php-fpm.log"
+
+[build]
+system = "autotools"

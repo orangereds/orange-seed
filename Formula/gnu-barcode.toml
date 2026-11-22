@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gnu-barcode"
+version = "0"
+description = "Convert text strings to printed bars"
+homepage = "https://www.gnu.org/software/barcode/"
+
+[source]
+url = "https://ftpmirror.gnu.org/barcode/barcode-0.99.tar.gz"
+sha256 = "7c031cf3eb811242f53664379aebbdd9fae0b7b26b5e5d584c31a9f338154b64"
+
+[build]
+system = "autotools"

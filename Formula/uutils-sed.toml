@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "uutils-sed"
+version = "0.3.0"
+description = "Cross-platform Rust rewrite of GNU sed"
+homepage = "https://uutils.org/sed/"
+
+[source]
+url = "https://github.com/uutils/sed/archive/refs/tags/0.3.0.tar.gz"
+sha256 = "d879d292ff93f4f769f299fb183be69d3ea6bcedeb2a698d944595ebc3a8dd6c"
+
+[build]
+system = "autotools"

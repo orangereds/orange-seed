@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "certifi", "python@3.15", "sqlite"]
+
+[package]
+name = "fanficfare"
+version = "4.63.0_1"
+description = "Download fanfiction and original stories as e-books"
+homepage = "https://github.com/JimmXinu/FanFicFare"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ca/bc/987888bfdc83399441b972e5b556228d8322add50931a7f900799e3b21c6/fanficfare-4.63.0.tar.gz"
+sha256 = "21338d88297303b09a64f00dab5982b0760902d91829629d66c162c98feba9ef"
+
+[build]
+system = "autotools"

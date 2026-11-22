@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fmt", "lld", "llvm", "spdlog"]
+
+[package]
+name = "wasmedge"
+version = "0"
+description = "Lightweight, high-performance, and extensible WebAssembly runtime"
+homepage = "https://WasmEdge.org/"
+
+[source]
+url = "https://github.com/WasmEdge/WasmEdge/releases/download/0.18.1/WasmEdge-0.18.1-src.tar.gz"
+sha256 = "589031c828628fbae8576e9d6ef497ac9888bca964dacacaa79ad9c82f9538bc"
+
+[build]
+system = "cmake"

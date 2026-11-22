@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "mint"
+version = "0.18.0"
+description = "Dependency manager that installs and runs Swift command-line tool packages"
+homepage = "https://github.com/yonaskolb/Mint"
+
+[source]
+url = "https://github.com/yonaskolb/Mint/archive/refs/tags/0.18.0.tar.gz"
+sha256 = "e99c0a351cf7452451d72180c8ccd18e1da710dc55d036502809a0db52779a99"
+
+[build]
+system = "autotools"

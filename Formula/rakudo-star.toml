@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "sqlite", "libtommath", "mimalloc", "openssl@4", "readline", "zstd", "bash", "libuv"]
+
+[package]
+name = "rakudo-star"
+version = "2026.11"
+description = "Rakudo compiler and commonly used packages"
+homepage = "https://rakudo.org/"
+
+[source]
+url = "https://github.com/rakudo/star/releases/download/2026.11/rakudo-star-2026.11.tar.gz"
+sha256 = "97d226d46c2d52bb32e7de125e0c817d08f4d61fedff1624dc8d805493074913"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4"]
+
+[package]
+name = "hcxtools"
+version = "8.0.0"
+description = "Utils for conversion of cap/pcap/pcapng WiFi dump files"
+homepage = "https://github.com/ZerBea/hcxtools"
+
+[source]
+url = "https://github.com/ZerBea/hcxtools/archive/refs/tags/8.0.0.tar.gz"
+sha256 = "4cc9dfe7ab2c7d5cc5f39f887741499b146ee14d0a50bda8113025a0041b3c1e"
+
+[build]
+system = "make"

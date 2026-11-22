@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ldc"]
+
+[package]
+name = "dmd"
+version = "2.114.0"
+description = "Digital Mars D compiler"
+homepage = "https://dlang.org/"
+
+[source]
+url = "https://github.com/dlang/dmd/archive/refs/tags/v2.114.0.tar.gz"
+sha256 = "54f1a8528dba28eebe7d2b69c19ebf76410a03432655a0713d2a1d7acb78fab0"
+
+[build]
+system = "autotools"

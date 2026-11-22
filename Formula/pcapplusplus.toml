@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "pcapplusplus"
+version = "26.07"
+description = "C++ network sniffing, packet parsing and crafting framework"
+homepage = "https://pcapplusplus.github.io"
+
+[source]
+url = "https://github.com/seladb/PcapPlusPlus/archive/refs/tags/v26.07.tar.gz"
+sha256 = "58efbebde9df37134ca6abffdc585562155b7fc0937ced1fd6569a8c93a22ba6"
+
+[build]
+system = "cmake"

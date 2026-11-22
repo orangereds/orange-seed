@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "godap"
+version = "2.12.2"
+description = "Complete TUI (terminal user interface) for LDAP"
+homepage = "https://github.com/Macmod/godap"
+
+[source]
+url = "https://github.com/Macmod/godap/archive/refs/tags/v2.12.2.tar.gz"
+sha256 = "4e1d6e34c50fdeeb98e7d49d2e7164348c9395f5327920468ede0c32eb12adff"
+
+[build]
+system = "autotools"

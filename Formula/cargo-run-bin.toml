@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-run-bin"
+version = "1.7.5.crate"
+description = "Build, cache, and run binaries from Cargo.toml to avoid global installs"
+homepage = "https://dustinblackman.com/posts/why-does-everyone-install-crates-globally/"
+
+[source]
+url = "https://static.crates.io/crates/cargo-run-bin/cargo-run-bin-1.7.5.crate"
+sha256 = "1ba4ea665f68a2042470ec6e27a36755783ebd3367b90bec2fb100f9d5012fd8"
+
+[build]
+system = "autotools"

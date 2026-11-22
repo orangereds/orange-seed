@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bmake"
+version = "20260912"
+description = "Portable version of NetBSD make(1)"
+homepage = "https://www.crufty.net/help/sjg/bmake.html"
+
+[source]
+url = "https://www.crufty.net/ftp/pub/sjg/bmake-20260912.tar.gz"
+sha256 = "b6bd32964cbe451be2838822c9d200b7c7e76a2a5947c03feb71dc6bd72988bd"
+
+[build]
+system = "autotools"

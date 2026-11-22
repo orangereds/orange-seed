@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "appwrite"
+version = "28.14.0"
+description = "Command-line tool for Appwrite"
+homepage = "https://appwrite.io"
+
+[source]
+url = "https://github.com/appwrite/sdk-for-cli/archive/refs/tags/28.14.0.tar.gz"
+sha256 = "c43b83d51196c5bcb03f71e9d2f6d9a2e53887c8e809390f941a2b56b4d21eed"
+
+[build]
+system = "autotools"

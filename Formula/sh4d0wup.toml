@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "pgpdump", "openssl@4", "xz", "zstd"]
+
+[package]
+name = "sh4d0wup"
+version = "0.11.1"
+description = "Signing-key abuse and update exploitation framework"
+homepage = "https://github.com/kpcyrd/sh4d0wup"
+
+[source]
+url = "https://github.com/kpcyrd/sh4d0wup/archive/refs/tags/v0.11.1.tar.gz"
+sha256 = "92c88eed86e7f6453807db2e5b154859a5952d3ff6be8a2a685879a838f3438f"
+
+[build]
+system = "autotools"

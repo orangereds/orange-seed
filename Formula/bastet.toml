@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost"]
+
+[package]
+name = "bastet"
+version = "0.43.2_14"
+description = "Bastard Tetris"
+homepage = "https://fph.altervista.org/prog/bastet.html"
+
+[source]
+url = "https://github.com/fph/bastet/archive/refs/tags/0.43.2.tar.gz"
+sha256 = "f219510afc1d83e4651fbffd5921b1e0b926d5311da4f8fa7df103dc7f2c403f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitea-importer"
+version = "0.5.0"
+description = "CLI to migrate repositories from GitHub, GitLab and Gitea into Gitea"
+homepage = "https://gitea.com/gitea/importer"
+
+[source]
+url = "https://gitea.com/gitea/importer/archive/v0.5.0.tar.gz"
+sha256 = "11c32c509b9ad471f9f00f54a9968acc830ee4e8510be30cd7a879d8b87f8ee1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "gdrive"
+version = "3.9.1"
+description = "Google Drive CLI Client"
+homepage = "https://github.com/glotlabs/gdrive"
+
+[source]
+url = "https://github.com/glotlabs/gdrive/archive/refs/tags/3.9.1.tar.gz"
+sha256 = "9aadb1b9a23d83f5aaa785960973bef1c63b85346de6be01a36e0630f2ddec1c"
+
+[build]
+system = "autotools"

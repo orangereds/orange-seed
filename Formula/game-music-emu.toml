@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "game-music-emu"
+version = "0.6.5"
+description = "Videogame music file emulator collection"
+homepage = "https://github.com/libgme/game-music-emu"
+
+[source]
+url = "https://github.com/libgme/game-music-emu/archive/refs/tags/0.6.5.tar.gz"
+sha256 = "8531678502451c2cf04248cda45c8b4645e19fcfb63e6a7ec2549641c47bb392"
+
+[build]
+system = "cmake"

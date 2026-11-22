@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nkf"
+version = "2.1.5.orig"
+description = "Network Kanji code conversion Filter (NKF)"
+homepage = "https://github.com/nurse/nkf"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/n/nkf/nkf_2.1.5.orig.tar.gz"
+sha256 = "d1a7df435847a79f2f33a92388bca1d90d1b837b1b56523dcafc4695165bad44"
+
+[build]
+system = "autotools"

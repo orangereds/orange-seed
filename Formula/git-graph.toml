@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "git-graph"
+version = "0.8.3"
+description = "Command-line tool to show clear git graphs arranged for your branching model"
+homepage = "https://github.com/git-bahn/git-graph"
+
+[source]
+url = "https://github.com/git-bahn/git-graph/archive/refs/tags/v0.8.3.tar.gz"
+sha256 = "9c9097b7dfe113e5ec50bbc623c85922f82d070d5f42e2116ed2d5ad80162a9c"
+
+[build]
+system = "autotools"

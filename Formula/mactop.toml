@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mactop"
+version = "2.1.6"
+description = "Apple Silicon Monitor Top written in Go Lang"
+homepage = "https://github.com/metaspartan/mactop"
+
+[source]
+url = "https://github.com/metaspartan/mactop/archive/refs/tags/v2.1.6.tar.gz"
+sha256 = "5dd47033c00a56859674c149a90118ce39c7a0c5e1e30cefa714b71f943dbf47"
+
+[service]
+run = "opt/mactop/bin/mactop -p 9101 --headless"
+keep_alive = true
+log_path = "var/log/mactop.log"
+error_log_path = "var/log/mactop.error.log"
+
+[build]
+system = "autotools"

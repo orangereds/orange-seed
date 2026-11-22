@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["texinfo"]
+
+[package]
+name = "mit-scheme"
+version = "12.1-svm1-64le_1"
+description = "MIT/GNU Scheme development tools and runtime library"
+homepage = "https://www.gnu.org/software/mit-scheme/"
+
+[source]
+url = "https://ftpmirror.gnu.org/mit-scheme/stable.pkg/12.1/mit-scheme-12.1-svm1-64le.tar.gz"
+sha256 = "2c5b5bf1f44c7c2458da79c0943e082ae37f1752c7d9d1ce0a61f7afcbf04304"
+
+[build]
+system = "autotools"

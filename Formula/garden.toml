@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "garden"
+version = "2.7.0"
+description = "Grow and cultivate collections of Git trees"
+homepage = "https://garden-rs.gitlab.io"
+
+[source]
+url = "https://github.com/garden-rs/garden/archive/refs/tags/v2.7.0.tar.gz"
+sha256 = "40f7df483e784583664e258c6d27873050107d6a2a80f971ea64264baf89f0b5"
+
+[build]
+system = "autotools"

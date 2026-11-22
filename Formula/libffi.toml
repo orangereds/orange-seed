@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libffi"
+version = "3.8.1"
+description = "Portable Foreign Function Interface library"
+homepage = "https://sourceware.org/libffi/"
+
+[source]
+url = "https://github.com/libffi/libffi/releases/download/v3.8.1/libffi-3.8.1.tar.gz"
+sha256 = "81e879c094cc5ec3186c48510c6385ac6b3e866192e8bc71a35245703757ee40"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

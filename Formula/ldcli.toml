@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ldcli"
+version = "3.16.0"
+description = "CLI for managing LaunchDarkly feature flags"
+homepage = "https://launchdarkly.com/docs/home/getting-started/ldcli"
+
+[source]
+url = "https://github.com/launchdarkly/ldcli/archive/refs/tags/v3.16.0.tar.gz"
+sha256 = "ac06d967db75d1256cd73b88fabc41bdae20b57efeea148dd13611c9b740e566"
+
+[build]
+system = "autotools"

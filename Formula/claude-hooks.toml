@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "claude-hooks"
+version = "2.4.0"
+description = "Hook system for Claude Code"
+homepage = "https://github.com/johnlindquist/claude-hooks"
+
+[source]
+url = "https://registry.npmjs.org/claude-hooks/-/claude-hooks-2.4.0.tgz"
+sha256 = "b55f6dbdec8ec51f26f459bf2888ae9cd6deae1a1e3ac992904080e118b6e80b"
+
+[build]
+system = "autotools"

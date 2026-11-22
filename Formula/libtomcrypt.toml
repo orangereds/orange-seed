@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtool", "gmp", "libtommath"]
+
+[package]
+name = "libtomcrypt"
+version = "1.18.2_1"
+description = "Comprehensive, modular and portable cryptographic toolkit"
+homepage = "https://www.libtom.net/"
+
+[source]
+url = "https://github.com/libtom/libtomcrypt/archive/refs/tags/v1.18.2.tar.gz"
+sha256 = "d870fad1e31cb787c85161a8894abb9d7283c2a654a9d3d4c6d45a1eba59952c"
+
+[build]
+system = "make"

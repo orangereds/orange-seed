@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "libx11", "libxfixes", "libxrender"]
+
+[package]
+name = "libxcursor"
+version = "0"
+description = "X.Org: X Window System Cursor management library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXcursor-1.2.3.tar.xz"
+sha256 = "fde9402dd4cfe79da71e2d96bb980afc5e6ff4f8a7d74c159e1966afb2b2c2c0"
+
+[build]
+system = "autotools"

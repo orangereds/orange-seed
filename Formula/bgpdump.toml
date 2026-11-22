@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bgpdump"
+version = "0"
+description = "C library for analyzing MRT/Zebra/Quagga dump files"
+homepage = "https://github.com/RIPE-NCC/bgpdump/wiki"
+
+[source]
+url = "https://github.com/RIPE-NCC/bgpdump/releases/download/v1.6.2/libbgpdump-1.6.2.tgz"
+sha256 = "7c6dc32c367590a527752ca84c727ab4cbedc16a5abe5384dc523e563907abe0"
+
+[build]
+system = "autotools"

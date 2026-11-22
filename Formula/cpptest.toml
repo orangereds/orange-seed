@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "cpptest"
+version = "2.0.1"
+description = "Unit testing framework handling automated tests in C++"
+homepage = "https://cpptest.sourceforge.io/"
+
+[source]
+url = "https://github.com/cpptest/cpptest/releases/download/2.0.1/cpptest-2.0.1.tar.bz2"
+sha256 = "d2f13834dd9a5c4e56fa237e01d154474044687e7cc03f6c11017c5fe6ef0641"
+
+[build]
+system = "autotools"

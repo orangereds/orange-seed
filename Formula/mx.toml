@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk", "python@3.15"]
+
+[package]
+name = "mx"
+version = "7.88.3"
+description = "Command-line tool used for the development of Graal projects"
+homepage = "https://github.com/graalvm/mx"
+
+[source]
+url = "https://github.com/graalvm/mx/archive/refs/tags/7.88.3.tar.gz"
+sha256 = "8ed8748d32ff61a13b69f25ebbee05e7c574f72a19d4740d36b611763bb8dd1a"
+
+[build]
+system = "autotools"

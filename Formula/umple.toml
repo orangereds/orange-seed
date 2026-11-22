@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "umple"
+version = "1.38.0.8918.bda708970.jar"
+description = "Modeling tool/programming language that enables Model-Oriented Programming"
+homepage = "https://cruise.umple.org/umple/"
+
+[source]
+url = "https://github.com/umple/umple/releases/download/v1.38.0/umple-1.38.0.8918.bda708970.jar"
+sha256 = "64a4c87bf83c8a977f7e84511a400673590d9b648b4e08567e1a86f0f944598e"
+
+[build]
+system = "autotools"

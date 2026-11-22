@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sonar-completion"
+version = "1.1"
+description = "Bash completion for Sonar"
+homepage = "https://github.com/a1dutch/sonarqube-bash-completion"
+
+[source]
+url = "https://github.com/a1dutch/sonarqube-bash-completion/archive/refs/tags/1.1.tar.gz"
+sha256 = "506a592b166cff88786ae9e6215f922b8ed3617c65a4a88169211a80ef1c6b66"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "docbook-xsl", "meson", "ninja", "pkgconf"]
+
+[package]
+name = "waffle"
+version = "1.8.3"
+description = "C library for selecting an OpenGL API and window system at runtime"
+homepage = "https://waffle.freedesktop.org/"
+
+[source]
+url = "https://waffle.freedesktop.org/files/release/waffle-1.8.3/waffle-1.8.3.tar.xz"
+sha256 = "333751a6684370717d4d6327061834f2fbdfe687478d7d3c6b1ab27f57c90877"
+
+[build]
+system = "autotools"

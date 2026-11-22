@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "bee"
+version = "1.120"
+description = "Tool for managing database changes"
+homepage = "https://github.com/bluesoft/bee"
+
+[source]
+url = "https://github.com/bluesoft/bee/releases/download/1.120/bee-1.120.zip"
+sha256 = "e0db1464ef6733ad331b15e621c01b88a1454fec15e4abd548f3722b743cc273"
+
+[build]
+system = "autotools"

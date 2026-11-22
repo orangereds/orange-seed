@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf"]
+
+[package]
+name = "convox"
+version = "3.26.0"
+description = "Command-line interface for the Convox PaaS"
+homepage = "https://convox.com/"
+
+[source]
+url = "https://github.com/convox/convox/archive/refs/tags/3.26.0.tar.gz"
+sha256 = "a67d184e33da16881d2afd624a680ca8bc14b63f0df203de67a5f26e571ffd07"
+
+[build]
+system = "autotools"

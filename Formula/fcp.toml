@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fcp"
+version = "0.2.2"
+description = "Significantly faster alternative to the classic Unix cp(1) command"
+homepage = "https://github.com/Svetlitski/fcp/"
+
+[source]
+url = "https://github.com/Svetlitski/fcp/archive/refs/tags/v0.2.2.tar.gz"
+sha256 = "c8c3da588711b1684370009e9a186232fe3c6c0db7ceff00b0ce0dacb98b9403"
+
+[build]
+system = "autotools"

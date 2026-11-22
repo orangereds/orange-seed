@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["hadoop", "openjdk@17"]
+
+[package]
+name = "flume"
+version = "0_1"
+description = "Hadoop-based distributed log collection and aggregation"
+homepage = "https://flume.apache.org"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=flume/1.11.0/apache-flume-1.11.0-bin.tar.gz"
+sha256 = "6eb7806076bdc3dcadb728275eeee7ba5cb12b63a2d981de3da9063008dba678"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libimobiledevice", "libplist", "libzip"]
+
+[package]
+name = "ideviceinstaller"
+version = "1.2.0_1"
+description = "Tool for managing apps on iOS devices"
+homepage = "https://libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/ideviceinstaller/releases/download/1.2.0/ideviceinstaller-1.2.0.tar.bz2"
+sha256 = "26115288e50d003bbb7d23c05441c54ea69b255974303bfd44fef6943e042f94"
+
+[build]
+system = "autotools"

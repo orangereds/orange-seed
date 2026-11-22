@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "eigen", "hdf5", "open-mpi"]
+
+[package]
+name = "alpscore"
+version = "2.3.3"
+description = "Applications and libraries for physics simulations"
+homepage = "https://alpscore.org"
+
+[source]
+url = "https://github.com/ALPSCore/ALPSCore/archive/refs/tags/v2.3.3.tar.gz"
+sha256 = "2ed251001fbf1889aef8cf01ee80f87e95e25edb3d6b561d053ec4ddbd27d6b2"
+
+[build]
+system = "cmake"

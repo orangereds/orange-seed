@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "boringtun"
+version = "0.7.1"
+description = "Userspace WireGuard implementation in Rust"
+homepage = "https://github.com/cloudflare/boringtun"
+
+[source]
+url = "https://github.com/cloudflare/boringtun/archive/refs/tags/boringtun-0.7.1.tar.gz"
+sha256 = "734e2c542efca8a76fd75ce6db1afd75593e1e3893a94c3973096060f1168465"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libyubikey"
+version = "1.13"
+description = "C library for manipulating Yubico one-time passwords"
+homepage = "https://yubico.github.io/yubico-c/"
+
+[source]
+url = "https://developers.yubico.com/yubico-c/Releases/libyubikey-1.13.tar.gz"
+sha256 = "04edd0eb09cb665a05d808c58e1985f25bb7c5254d2849f36a0658ffc51c3401"
+
+[build]
+system = "autotools"

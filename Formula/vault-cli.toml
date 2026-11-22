@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "vault-cli"
+version = "0"
+description = "Subversion-like utility to work with Jackrabbit FileVault"
+homepage = "https://jackrabbit.apache.org/filevault/index.html"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=org/apache/jackrabbit/vault/vault-cli/4.3.0/vault-cli-4.3.0-bin.tar.gz"
+sha256 = "86aabecc10c28b8df19e842f8a3133ceb724e39682898e14cd3094007f99c942"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "eigen", "flatbuffers", "howard-hinnant-date", "nlohmann-json", "python@3.15", "safeint", "abseil", "onnx", "protobuf", "re2"]
+
+[package]
+name = "onnxruntime"
+version = "66ee79c038d70dad9f08705b2c9b3e58f6d8f512"
+description = "Cross-platform, high performance scoring engine for ML models"
+homepage = "https://github.com/microsoft/onnxruntime"
+
+[source]
+url = "https://github.com/microsoft/onnxruntime/archive/refs/tags/v1.32.0.tar.gz"
+sha256 = "8bb6dde72d89509b8c014a440bf113505d86af99e8f143da3de1a3feb8132561"
+
+[build]
+system = "autotools"

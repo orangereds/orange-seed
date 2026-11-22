@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "newt", "python@3.15", "tmux", "coreutils", "gettext"]
+
+[package]
+name = "byobu"
+version = "7.24"
+description = "Text-based window manager and terminal multiplexer"
+homepage = "https://byobu.org"
+
+[source]
+url = "https://github.com/dustinkirkland/byobu/archive/refs/tags/7.24.tar.gz"
+sha256 = "84151a9034070cb43de07642eeb37c2f60f8952c3b83526a9e1af1ec86dd4d39"
+
+[build]
+system = "autotools"

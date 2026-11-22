@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "cairo", "gdk-pixbuf", "glib", "graphene", "gtk4", "harfbuzz", "llvm", "pango", "gettext"]
+
+[package]
+name = "patchpal"
+version = "0"
+description = "AI Assisted Patch Backporting Tool Frontend"
+homepage = "https://gitlab.com/patchpal-ai/patchpal-gui"
+
+[source]
+url = "https://gitlab.com/patchpal-ai/patchpal-gui/-/archive/v0.8.1/patchpal-gui-v0.8.1.tar.bz2"
+sha256 = "3bee167d923999f6a616ab2025d16e73641638d2237565f8f39eb28d35930c8a"
+
+[build]
+system = "autotools"

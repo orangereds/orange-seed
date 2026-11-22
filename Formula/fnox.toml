@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "age", "openssl@4", "sqlcipher", "usage", "node"]
+
+[package]
+name = "fnox"
+version = "1.50.0"
+description = "Fort Knox for your secrets - flexible secret management tool"
+homepage = "https://fnox.jdx.dev/"
+
+[source]
+url = "https://github.com/jdx/fnox/archive/refs/tags/v1.50.0.tar.gz"
+sha256 = "c02b71ab4c10b0d464fba0dc6ddb20bec16ae67c61d029919b50d55d39d15c05"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "pkgconf", "gmp", "sdl2-compat", "sdl2_ttf"]
+
+[package]
+name = "allureofthestars"
+version = "0_6"
+description = "Near-future Sci-Fi roguelike and tactical squad combat game"
+homepage = "https://allureofthestars.com/"
+
+[source]
+url = "https://hackage.haskell.org/package/Allure-0.11.0.0/Allure-0.11.0.0.tar.gz"
+sha256 = "6125cc585e2a5f28c88855c3c328385c1f21bed093d7606478f1b2af0cb2b6d6"
+
+[build]
+system = "autotools"

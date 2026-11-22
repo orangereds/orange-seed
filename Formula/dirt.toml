@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jack", "liblo", "libsamplerate", "libsndfile"]
+
+[package]
+name = "dirt"
+version = "1.1_1"
+description = "Experimental sample playback"
+homepage = "https://codeberg.org/uzu/dirt"
+
+[source]
+url = "https://codeberg.org/uzu/dirt/archive/1.1.tar.gz"
+sha256 = "5739be152a527352a8fe4c8b7caf0f56add9eb752bef74ab0d815510f6076a1e"
+
+[build]
+system = "make"

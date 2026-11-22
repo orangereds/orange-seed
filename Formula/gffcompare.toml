@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gffcompare"
+version = "0.12.10"
+description = "Compare, merge and annotate GFF/GTF transcript files"
+homepage = "https://ccb.jhu.edu/software/stringtie/gffcompare.shtml"
+
+[source]
+url = "https://github.com/gpertea/gffcompare/archive/refs/tags/v0.12.10.tar.gz"
+sha256 = "c708798c873b83b7a3c8e5a779da885b4d24e6039eebc6990d235aa8efe77646"
+
+[build]
+system = "autotools"

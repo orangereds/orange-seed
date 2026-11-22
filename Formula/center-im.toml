@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "pkgconf", "glib", "libsigc++@2", "ncurses", "pidgin"]
+
+[package]
+name = "center-im"
+version = "0"
+description = "Text-mode multi-protocol instant messaging client"
+homepage = "https://github.com/petrpavlu/centerim5"
+
+[source]
+url = "https://github.com/petrpavlu/centerim5/releases/download/v5.0.1/centerim5-5.0.1.tar.gz"
+sha256 = "b80b999e0174b81206255556cf00de6548ea29fa6f3ea9deb1f9ab59d8318313"
+
+[build]
+system = "cmake"

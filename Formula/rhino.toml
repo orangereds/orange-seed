@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "rhino"
+version = "0"
+description = "JavaScript engine"
+homepage = "https://mozilla.github.io/rhino/"
+
+[source]
+url = "https://repo.maven.apache.org/maven2/org/mozilla/rhino-all/1.9.2/rhino-all-1.9.2.jar"
+sha256 = "9b4fc23fdd7902beabd542099b6f590f05638dbbb054e9784f444982a6296493"
+
+[build]
+system = "autotools"

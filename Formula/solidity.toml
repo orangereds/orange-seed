@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fmt", "nlohmann-json", "range-v3", "boost", "z3"]
+
+[package]
+name = "solidity"
+version = "0.8.39"
+description = "Contract-oriented programming language"
+homepage = "https://soliditylang.org"
+
+[source]
+url = "https://github.com/argotorg/solidity/releases/download/v0.8.39/solidity_0.8.39.tar.gz"
+sha256 = "2a5122f712c53fc58e9c243cdd4e0be6fe811c3111f03bdd6784bce066c48624"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfk8s"
+version = "0.1.10"
+description = "Kubernetes YAML manifests to Terraform HCL converter"
+homepage = "https://github.com/jrhouston/tfk8s"
+
+[source]
+url = "https://github.com/jrhouston/tfk8s/archive/refs/tags/v0.1.10.tar.gz"
+sha256 = "be2680e76311ac7dd814a1bb0dceb486e3511d8d68845421338f9fcf5a92d5f9"
+
+[build]
+system = "autotools"

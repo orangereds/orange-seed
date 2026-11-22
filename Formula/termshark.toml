@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "socat", "wireshark"]
+
+[package]
+name = "termshark"
+version = "2.4.0"
+description = "Terminal UI for tshark, inspired by Wireshark"
+homepage = "https://termshark.io"
+
+[source]
+url = "https://github.com/gcla/termshark/archive/refs/tags/v2.4.0.tar.gz"
+sha256 = "949c71866fcd2f9ed71a754ea9e3d1bdc23dee85969dcdc78180f1d18ca8b087"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "capnp", "libevent", "zeromq"]
+
+[package]
+name = "groestlcoin"
+version = "7"
+description = "Decentralized, peer to peer payment network"
+homepage = "https://www.groestlcoin.org/groestlcoin-core-wallet/"
+
+[source]
+url = "https://github.com/Groestlcoin/groestlcoin/releases/download/v32.1/groestlcoin-32.1.tar.gz"
+sha256 = "aef409fecb3e6ed69bda4ae3405e0bd86a21e00f5092d6b05368a88917aa9b2b"
+
+[service]
+run = "opt/groestlcoin/bin/groestlcoind"
+
+[build]
+system = "cmake"

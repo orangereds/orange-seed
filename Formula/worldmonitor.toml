@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "worldmonitor"
+version = "0.2.2"
+description = "Command-line client for the World Monitor global intelligence API"
+homepage = "https://worldmonitor.app/docs/cli"
+
+[source]
+url = "https://registry.npmjs.org/worldmonitor/-/worldmonitor-0.2.2.tgz"
+sha256 = "74d7b9b0e60c09deeb2b99b659bb6cea4ecab3c755a7fd73774c2fb379bf3899"
+
+[build]
+system = "autotools"

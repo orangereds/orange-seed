@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "jsonnet"
+version = "0.22.0"
+description = "Domain specific configuration language for defining JSON data"
+homepage = "https://jsonnet.org/"
+
+[source]
+url = "https://github.com/google/jsonnet/archive/refs/tags/v0.22.0.tar.gz"
+sha256 = "5914b9904d97efa662d919519cef1a14e4132bfddddaeed8b061b4a8af628f8d"
+
+[build]
+system = "autotools"

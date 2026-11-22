@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "postgresql@18", "postgresql@19", "gdal", "geos", "gmp", "icu4c@79", "json-c", "libpq", "libxml2", "pcre2", "proj", "protobuf-c", "sfcgal", "gettext"]
+
+[package]
+name = "postgis"
+version = "3.7.0_1"
+description = "Adds support for geographic objects to PostgreSQL"
+homepage = "https://postgis.net/"
+
+[source]
+url = "https://download.osgeo.org/postgis/source/postgis-3.7.0.tar.gz"
+sha256 = "832bbf50f2b6f57fab053bc9676b3bfe641e5bf966cdcb28c7926f8d4b3c5e04"
+
+[build]
+system = "autotools"

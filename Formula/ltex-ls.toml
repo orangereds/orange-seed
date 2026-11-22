@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "python@3.14", "openjdk@21"]
+
+[package]
+name = "ltex-ls"
+version = "16.0.0"
+description = "LSP for LanguageTool with support for Latex, Markdown and Others"
+homepage = "https://valentjn.github.io/ltex/"
+
+[source]
+url = "https://github.com/valentjn/ltex-ls/archive/refs/tags/16.0.0.tar.gz"
+sha256 = "0cd67495ee4695493fc2a0b37d14146325aa6b9f45d767d16c60abdefdd2dc1d"
+
+[build]
+system = "autotools"

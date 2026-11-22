@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["chruby", "fish"]
+
+[package]
+name = "chruby-fish"
+version = "1.0.0"
+description = "Thin wrapper around chruby to make it work with the Fish shell"
+homepage = "https://github.com/JeanMertz/chruby-fish"
+
+[source]
+url = "https://github.com/JeanMertz/chruby-fish/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "db1023255fa55c9a01b06404cd394cccf790d42985cf85706211e5a0dda4fd9f"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "libice", "libsm", "libx11", "libxmu", "gettext"]
+
+[package]
+name = "wmctrl"
+version = "1.07.orig_2"
+description = "UNIX/Linux command-line tool to interact with an EWMH/NetWM"
+homepage = "https://packages.debian.org/sid/wmctrl"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/w/wmctrl/wmctrl_1.07.orig.tar.gz"
+sha256 = "d78a1efdb62f18674298ad039c5cbdb1edb6e8e149bb3a8e3a01a4750aa3cca9"
+
+[build]
+system = "autotools"

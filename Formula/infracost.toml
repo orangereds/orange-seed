@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "infracost"
+version = "2.20.0"
+description = "Cost estimates for Terraform, Terragrunt, and CloudFormation"
+homepage = "https://www.infracost.io/docs/"
+
+[source]
+url = "https://github.com/infracost/cli/archive/refs/tags/v2.20.0.tar.gz"
+sha256 = "e0030c8c138ee38451a6a239acb427f98864f4668e210e5d1ab7caa461f4971e"
+
+[build]
+system = "autotools"

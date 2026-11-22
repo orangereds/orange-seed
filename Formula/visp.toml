@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "eigen", "gsl", "jpeg-turbo", "libdc1394", "libpng", "lz4", "openblas", "opencv", "pcl", "vtk", "zbar", "boost", "flann", "glew", "libomp", "libpcap", "qhull", "qtbase"]
+
+[package]
+name = "visp"
+version = "3.7.0_11"
+description = "Visual Servoing Platform library"
+homepage = "https://visp.inria.fr/"
+
+[source]
+url = "https://visp-doc.inria.fr/download/releases/visp-3.7.0.tar.gz"
+sha256 = "997f247f3702c83f0a8a6dc2f72ff98cfe3a5dcbd82f7c9f01d37ccd3b8ea97a"
+
+[build]
+system = "autotools"

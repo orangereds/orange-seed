@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rshijack"
+version = "0.5.2"
+description = "TCP connection hijacker"
+homepage = "https://github.com/kpcyrd/rshijack"
+
+[source]
+url = "https://github.com/kpcyrd/rshijack/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "c13cc07825d72f09887ec0f098aa40d335f73a0bc0b31c4d1e7431271e1cb53e"
+
+[build]
+system = "autotools"

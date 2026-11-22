@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "khard"
+version = "0.22.0"
+description = "Console carddav client"
+homepage = "https://khard.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b8/80/56b6698504dd5ed2e1f354af6e823845da62254150198071958b900eada8/khard-0.22.0.tar.gz"
+sha256 = "99f8ce6ab338eafb4840d82881a155b3f13031505123efc92ea42e88e900c6dd"
+
+[build]
+system = "autotools"

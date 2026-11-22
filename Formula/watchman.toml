@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cpptoml", "gflags", "googletest", "libevent", "mvfst", "openssl@4", "pkgconf", "python-setuptools", "rust", "edencommon", "fb303", "fbthrift", "fmt", "folly", "glog", "pcre2", "python@3.15"]
+
+[package]
+name = "watchman"
+version = "2026.10.26.00"
+description = "Watch files and take action when they change"
+homepage = "https://facebook.github.io/watchman/"
+
+[source]
+url = "https://github.com/facebook/watchman/archive/refs/tags/v2026.10.26.00.tar.gz"
+sha256 = "cb0ec3a700412f7ea83b4853783a51738cf7bfc3cbac30d324a14f603f83ce9d"
+
+[build]
+system = "autotools"

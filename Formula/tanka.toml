@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kubernetes-cli"]
+
+[package]
+name = "tanka"
+version = "0.40.2"
+description = "Flexible, reusable and concise configuration for Kubernetes using Jsonnet"
+homepage = "https://tanka.dev"
+
+[source]
+url = "https://github.com/grafana/tanka/archive/refs/tags/v0.40.2.tar.gz"
+sha256 = "8c9c710f446ce1e5c0cd8a76a2bf54854e5a487dc5216c1565a2f8f8a58d6dad"
+
+[build]
+system = "autotools"

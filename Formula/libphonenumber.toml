@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openjdk", "abseil", "boost", "icu4c@79", "protobuf"]
+
+[package]
+name = "libphonenumber"
+version = "9.0.44"
+description = "C++ Phone Number library by Google"
+homepage = "https://github.com/google/libphonenumber"
+
+[source]
+url = "https://github.com/google/libphonenumber/archive/refs/tags/v9.0.44.tar.gz"
+sha256 = "ed3f2dd91e95d9c865772b62e51133eb5c8ca20f5a15e5f4064b4cc67d199185"
+
+[build]
+system = "cmake"

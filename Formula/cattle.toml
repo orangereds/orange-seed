@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "gobject-introspection", "pkgconf", "glib", "gettext"]
+
+[package]
+name = "cattle"
+version = "1.4.0"
+description = "Brainfuck language toolkit"
+homepage = "https://kiyuko.org/software/cattle"
+
+[source]
+url = "https://kiyuko.org/software/cattle/releases/cattle-1.4.0.tar.xz"
+sha256 = "9ba2d746f940978b5bfc6c39570dde7dc55d5b4d09d0d25f29252d6a25fb562f"
+
+[build]
+system = "autotools"

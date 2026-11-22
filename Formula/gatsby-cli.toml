@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gatsby-cli"
+version = "5.16.0"
+description = "Gatsby command-line interface"
+homepage = "https://www.gatsbyjs.com/docs/reference/gatsby-cli/"
+
+[source]
+url = "https://registry.npmjs.org/gatsby-cli/-/gatsby-cli-5.16.0.tgz"
+sha256 = "312014d94558e08b829c5aadf736ecc6a221d137c3e1bcaa3812bbe23eea5bab"
+
+[build]
+system = "autotools"

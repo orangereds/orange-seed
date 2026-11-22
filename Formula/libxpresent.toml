@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "util-macros", "pkgconf", "libx11", "libxext", "libxfixes", "libxrandr"]
+
+[package]
+name = "libxpresent"
+version = "0"
+description = "Xlib-based library for the X Present Extension"
+homepage = "https://gitlab.freedesktop.org/xorg/lib/libxpresent"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXpresent-1.0.2.tar.xz"
+sha256 = "4e5b21b4812206a4b223013606ae31170502c1043038777a1ef8f70c09d37602"
+
+[build]
+system = "autotools"

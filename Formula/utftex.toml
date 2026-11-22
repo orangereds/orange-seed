@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "utftex"
+version = "0"
+description = "Pretty print math in monospace fonts, using a TeX-like syntax"
+homepage = "https://github.com/bartp5/libtexprintf"
+
+[source]
+url = "https://github.com/bartp5/libtexprintf/releases/download/v1.31/libtexprintf-1.31.tar.gz"
+sha256 = "8ca5a11d387631a34979295f73f9a2eccc87e17c690dcd4c1454eb65a9e372bc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tidy-viewer"
+version = "1.8.93"
+description = "CLI csv pretty printer"
+homepage = "https://github.com/alexhallam/tv"
+
+[source]
+url = "https://github.com/alexhallam/tv/archive/refs/tags/1.8.93.tar.gz"
+sha256 = "e99811843fe3e28d22c82f6c8ad757bf5065c622fbbb2d7e4011ab346dca6f1d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@17"]
+
+[package]
+name = "ktfmt"
+version = "0.65"
+description = "Kotlin code formatter"
+homepage = "https://facebook.github.io/ktfmt/"
+
+[source]
+url = "https://github.com/facebook/ktfmt/archive/refs/tags/v0.65.tar.gz"
+sha256 = "e03e4627481c4b078a9f3b263b486161937770ba7f9babebf938dbc06c6a7fe3"
+
+[build]
+system = "autotools"

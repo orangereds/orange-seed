@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "lowdown", "pkgconf", "protobuf", "python@3.15", "rust", "uv", "bitcoin", "libsodium", "sqlite", "gnu-sed"]
+
+[package]
+name = "core-lightning"
+version = "0"
+description = "Lightning Network implementation focusing on spec compliance and performance"
+homepage = "https://github.com/ElementsProject/lightning"
+
+[source]
+url = "https://github.com/ElementsProject/lightning/releases/download/v26.06.10/clightning-v26.06.10.zip"
+sha256 = "4914561e6d108dacca0183d7e6b3b1c224c580597ddcbb397299ef5b0fcc3230"
+
+[build]
+system = "autotools"

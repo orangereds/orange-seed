@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "hpack", "gmp"]
+
+[package]
+name = "cornelis"
+version = "2.8.0"
+description = "Neovim support for Agda"
+homepage = "https://github.com/agda/cornelis"
+
+[source]
+url = "https://github.com/agda/cornelis/archive/refs/tags/v2.8.0.tar.gz"
+sha256 = "41787428319dbde15b51ce427451d4a48f14d54a7c42902d004458e232ca3022"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ceres-solver", "eigen", "fmt"]
+
+[package]
+name = "sophus"
+version = "1.24.6_2"
+description = "C++ implementation of Lie Groups using Eigen"
+homepage = "https://github.com/strasdat/Sophus"
+
+[source]
+url = "https://github.com/strasdat/Sophus/archive/refs/tags/1.24.6.tar.gz"
+sha256 = "3f3098bdac2c74d42a921dbfb0e5e4b23601739e35a1c1236c2807c399da960c"
+
+[build]
+system = "cmake"

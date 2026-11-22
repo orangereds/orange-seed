@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ghi"
+version = "1.2.1"
+description = "Work on GitHub issues on the command-line"
+homepage = "https://github.com/drazisil/ghi"
+
+[source]
+url = "https://github.com/drazisil/ghi/archive/refs/tags/1.2.1.tar.gz"
+sha256 = "83fbc4918ddf14df77ef06b28922f481747c6f4dc99b865e15d236b1db98c0b8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "trzsz-go"
+version = "1.2.0"
+description = "Simple file transfer tools, similar to lrzsz (rz/sz), and compatible with tmux"
+homepage = "https://trzsz.github.io"
+
+[source]
+url = "https://github.com/trzsz/trzsz-go/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "6577fbab008264ff4678f60f56a0dea1e68763064a638eaf54e560198a5e6fd3"
+
+[build]
+system = "autotools"

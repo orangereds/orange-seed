@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "hidapi"
+version = "0.16.0"
+description = "Library for communicating with USB and Bluetooth HID devices"
+homepage = "https://libusb.info/hidapi/"
+
+[source]
+url = "https://github.com/libusb/hidapi/archive/refs/tags/hidapi-0.16.0.tar.gz"
+sha256 = "bc599d295792fe515778f19ce86a49760b0ea5fc114e5258245d470609632bbf"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fastga"
+version = "1.5.1"
+description = "Pairwise whole genome aligner"
+homepage = "https://github.com/thegenemyers/FASTGA"
+
+[source]
+url = "https://github.com/thegenemyers/FASTGA/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "cedd760e3faf61b03a40db75fcd304b46d60a17d3a5e868e6422162a6a522b47"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "git-review"
+version = "0_8"
+description = "Submit git branches to gerrit for review"
+homepage = "https://opendev.org/opendev/git-review"
+
+[source]
+url = "https://files.pythonhosted.org/packages/da/92/ddc922d34061791a4d0fd483ee4ffc5e026e93783b70fe5a29a129d0cf63/git_review-2.5.0.tar.gz"
+sha256 = "1bcffaef02848a5a3b066e8268c7d700a77cbd8b2e56b128d30f60cd431cf0a8"
+
+[build]
+system = "autotools"

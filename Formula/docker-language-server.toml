@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "docker-language-server"
+version = "0.20.2"
+description = "Language server for Dockerfiles, Compose files, and Bake files"
+homepage = "https://www.docker.com"
+
+[source]
+url = "https://github.com/docker/docker-language-server/archive/refs/tags/v0.20.2.tar.gz"
+sha256 = "f5dc558745a7a7324fd496a613f2ff3ada179f94499cbd3427d18f5c08d9d31f"
+
+[build]
+system = "autotools"

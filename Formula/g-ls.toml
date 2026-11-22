@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "g-ls"
+version = "0.31.2"
+description = "Powerful and cross-platform ls"
+homepage = "https://equationzhao.github.io/g/"
+
+[source]
+url = "https://github.com/Equationzhao/g/archive/refs/tags/v0.31.2.tar.gz"
+sha256 = "a1ef8a6872fa80625287c19167152081b833abc4db88910ab145b35b3bbc6da3"
+
+[build]
+system = "autotools"

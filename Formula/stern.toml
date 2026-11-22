@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "stern"
+version = "1.35.0"
+description = "Tail multiple Kubernetes pods & their containers"
+homepage = "https://github.com/stern/stern"
+
+[source]
+url = "https://github.com/stern/stern/archive/refs/tags/v1.35.0.tar.gz"
+sha256 = "c75ba288b84379a39cffd2e4d27d5cb1d46643f9f7810a391670844727051006"
+
+[build]
+system = "autotools"

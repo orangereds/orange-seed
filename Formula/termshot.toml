@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "termshot"
+version = "0.6.1"
+description = "Creates screenshots based on terminal command output"
+homepage = "https://github.com/homeport/termshot"
+
+[source]
+url = "https://github.com/homeport/termshot/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "40abea3c9ae604f3c2cdc7e2a623bf6063c6b1c504a70c5e3a1b8457dbdd2fbc"
+
+[build]
+system = "autotools"

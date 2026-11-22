@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "certifi", "cffi", "curl-impersonate", "deno", "pycparser", "python@3.15"]
+
+[package]
+name = "yt-dlp"
+version = "0"
+description = "Feature-rich command-line audio/video downloader"
+homepage = "https://github.com/yt-dlp/yt-dlp"
+
+[source]
+url = "https://files.pythonhosted.org/packages/83/31/4be3987022a6244550ab6a3afe45ad10ac10b5e5ab8874bd8eecc7f8b937/yt_dlp-2026.10.26.tar.gz"
+sha256 = "abe5c6b94c3b2f0560500add1c42e0a97641752743a5b65588ac2007a6e23eb6"
+
+[build]
+system = "autotools"

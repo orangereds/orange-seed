@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cyclonedx-npm"
+version = "7.0.1"
+description = "Creates CycloneDX Software Bill of Materials (SBOM) from npm projects"
+homepage = "https://github.com/CycloneDX/cyclonedx-node-npm"
+
+[source]
+url = "https://registry.npmjs.org/@cyclonedx/cyclonedx-npm/-/cyclonedx-npm-7.0.1.tgz"
+sha256 = "a2c52873f41c5edf1372db994d66de5641674156a0ad4c16e095641c408f6310"
+
+[build]
+system = "autotools"

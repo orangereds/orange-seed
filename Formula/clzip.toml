@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "clzip"
+version = "1.16"
+description = "C language version of lzip"
+homepage = "https://www.nongnu.org/lzip/clzip.html"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/lzip/clzip/clzip-1.16.tar.gz"
+sha256 = "f339a3a5dfc2220532dc36f937a7a58e3a3278b174f2815cc5615107e55966e4"
+
+[build]
+system = "autotools"

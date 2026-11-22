@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust"]
+
+[package]
+name = "shimmy"
+version = "2.6.7"
+description = "Small local inference server with OpenAI-compatible GGUF endpoints"
+homepage = "https://github.com/Michael-A-Kuykendall/shimmy"
+
+[source]
+url = "https://github.com/Michael-A-Kuykendall/shimmy/archive/refs/tags/v2.6.7.tar.gz"
+sha256 = "fcc272f4acb93e0c04c693082212f58ea278c007fb58730b7cc95e5813636de3"
+
+[service]
+run = "opt/shimmy/bin/shimmy serve --bind 127.0.0.1:11435"
+keep_alive = true
+log_path = "var/log/shimmy.log"
+error_log_path = "var/log/shimmy.error.log"
+
+[build]
+system = "autotools"

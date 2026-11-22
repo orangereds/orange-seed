@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "uru"
+version = "0.8.5"
+description = "Use multiple rubies on multiple platforms"
+homepage = "https://bitbucket.org/jonforums/uru"
+
+[source]
+url = "https://bitbucket.org/jonforums/uru/get/v0.8.5.tar.gz"
+sha256 = "47148454f4c4d5522641ac40aec552a9390a2edc1a0cd306c5d16924f0be7e34"
+
+[build]
+system = "autotools"

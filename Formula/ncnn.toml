@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "abseil", "glslang", "protobuf", "libomp", "molten-vk", "spirv-tools"]
+
+[package]
+name = "ncnn"
+version = "20261020"
+description = "High-performance neural network inference framework"
+homepage = "https://github.com/Tencent/ncnn"
+
+[source]
+url = "https://github.com/Tencent/ncnn/archive/refs/tags/20261020.tar.gz"
+sha256 = "968d8d8e65ccadc803322f8238736176e0f9c929fcf484895f58a63e6b227127"
+
+[build]
+system = "cmake"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "upki"
+version = "1.0.3"
+description = "Implements platform-independent browser-grade certificate infrastructure"
+homepage = "https://github.com/rustls/upki"
+
+[source]
+url = "https://github.com/rustls/upki/archive/refs/tags/v1.0.3.tar.gz"
+sha256 = "427d7d3692ad2ec66b28941dbd8a00b36928ec500b0e35d15d047d2469b721b5"
+
+[service]
+run = "opt/upki/bin/upki fetch"
+
+[build]
+system = "autotools"

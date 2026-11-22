@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "schema-evolution-manager"
+version = "0.10.16"
+description = "Manage postgresql database schema migrations"
+homepage = "https://github.com/mbryzek/schema-evolution-manager"
+
+[source]
+url = "https://github.com/mbryzek/schema-evolution-manager/archive/refs/tags/0.10.16.tar.gz"
+sha256 = "d0906738b6f685015210e1b5a38e582e19d4f1f1470c463f5a05215d570bef54"
+
+[build]
+system = "autotools"

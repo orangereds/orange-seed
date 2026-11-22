@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "gnupg", "gpgme", "libgpg-error", "libxcb"]
+
+[package]
+name = "gpg-tui"
+version = "0.11.2"
+description = "Manage your GnuPG keys with ease!"
+homepage = "https://blog.orhun.dev/introducing-gpg-tui/"
+
+[source]
+url = "https://github.com/orhun/gpg-tui/archive/refs/tags/v0.11.2.tar.gz"
+sha256 = "2cbd0186b76b7bb5b4a21c76b2f4b344c03194731729aac645465f33d665ef91"
+
+[build]
+system = "autotools"

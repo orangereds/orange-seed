@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ghalint"
+version = "1.6.0"
+description = "GitHub Actions linter"
+homepage = "https://github.com/suzuki-shunsuke/ghalint"
+
+[source]
+url = "https://github.com/suzuki-shunsuke/ghalint/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "937ff5e7d975a3f2630be79e339258eae9fea1d2a42ff9845e0fc67f9ef18d6b"
+
+[build]
+system = "autotools"

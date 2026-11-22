@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nettle", "autoconf", "autoconf-archive", "automake", "doxygen", "graphviz", "libtool", "pkgconf", "python-setuptools", "sdcc", "swig", "glib", "glibmm@2.66", "hidapi", "libftdi", "libserialport", "libusb", "libzip", "numpy", "pygobject3", "python@3.15", "gettext", "libsigc++@2"]
+
+[package]
+name = "libsigrok"
+version = "0.5.2_5"
+description = "Drivers for logic analyzers and other supported devices"
+homepage = "https://sigrok.org/"
+
+[source]
+url = "https://sigrok.org/download/source/libsigrok/libsigrok-0.5.2.tar.gz"
+sha256 = "4d341f90b6220d3e8cb251dacf726c41165285612248f2c52d15df4590a1ce3c"
+
+[build]
+system = "autotools"

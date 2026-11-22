@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@17"]
+
+[package]
+name = "gosu"
+version = "1.18.15"
+description = "Pragmatic language for the JVM"
+homepage = "https://gosu-lang.github.io/"
+
+[source]
+url = "https://github.com/gosu-lang/gosu-lang/archive/refs/tags/v1.18.15.tar.gz"
+sha256 = "eba04c833a3e11d61381c633d12caaca56f6a9f913467a82c56b89e9177c30e8"
+
+[build]
+system = "autotools"

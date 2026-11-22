@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "github-mcp-server"
+version = "2.2.0"
+description = "GitHub Model Context Protocol server for AI tools"
+homepage = "https://github.com/github/github-mcp-server"
+
+[source]
+url = "https://github.com/github/github-mcp-server/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "550715e8a04a2b0db1c49a851d388c705ba30293955007bd92fbe8d058f4f4e4"
+
+[build]
+system = "autotools"

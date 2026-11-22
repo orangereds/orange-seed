@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libsodium", "netcode", "reliable", "serialize"]
+
+[package]
+name = "libyojimbo"
+version = "1.16.1"
+description = "Secure client/server network protocol library for multiplayer games"
+homepage = "https://github.com/mas-bandwidth/yojimbo"
+
+[source]
+url = "https://github.com/mas-bandwidth/yojimbo/archive/refs/tags/v1.16.1.tar.gz"
+sha256 = "c1a76ac99c09f616584f72decec331bf705f5c6926901abee3baecc1d317fad3"
+
+[build]
+system = "cmake"

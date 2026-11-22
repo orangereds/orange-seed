@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "github-markdown-toc"
+version = "2.0.1"
+description = "Easy TOC creation for GitHub README.md (in go)"
+homepage = "https://github.com/ekalinin/github-markdown-toc.go"
+
+[source]
+url = "https://github.com/ekalinin/github-markdown-toc.go/archive/refs/tags/v2.0.1.tar.gz"
+sha256 = "62f34f003912244c8d6d94cad9a273ddb3f29f6f01133d16fdefd0c017030526"
+
+[build]
+system = "autotools"

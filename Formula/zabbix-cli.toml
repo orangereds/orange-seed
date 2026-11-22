@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "pydantic", "python@3.15"]
+
+[package]
+name = "zabbix-cli"
+version = "0"
+description = "CLI tool for interacting with Zabbix monitoring system"
+homepage = "https://unioslo.github.io/zabbix-cli/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/73/7e/ea140a7f1f8177025defb394a13c390eeafea6c38dd18dbdafda973ecbd3/zabbix_cli_uio-3.7.1.tar.gz"
+sha256 = "d3c78ee64c7dbcfc8c168a1507241651c9fcc1cef857be33e97ccf271a674ba4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "php", "devil"]
+
+[package]
+name = "hqx"
+version = "0"
+description = "Magnification filter designed for pixel art"
+homepage = "https://github.com/grom358/hqx"
+
+[source]
+url = "https://github.com/grom358/hqx.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

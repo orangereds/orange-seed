@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mpage"
+version = "2.5.8"
+description = "Many to one page printing utility"
+homepage = "https://mesa.nl/pub/mpage/README"
+
+[source]
+url = "https://mesa.nl/pub/mpage/mpage-2.5.8.tgz"
+sha256 = "2351e91d25794b358df6618f17a7013a28d350ec20408fe06f8123dc4673fe93"
+
+[build]
+system = "make"

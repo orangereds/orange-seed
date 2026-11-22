@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "mongo-c-driver"]
+
+[package]
+name = "mongo-cxx-driver"
+version = "0"
+description = "C++ driver for MongoDB"
+homepage = "https://github.com/mongodb/mongo-cxx-driver"
+
+[source]
+url = "https://github.com/mongodb/mongo-cxx-driver/releases/download/r4.6.2/mongo-cxx-driver-r4.6.2.tar.gz"
+sha256 = "db3d963188af6ab44aa6c1ba9b4d9cd777933c2726a1ebe88a7e6884980e2cdf"
+
+[build]
+system = "cmake"

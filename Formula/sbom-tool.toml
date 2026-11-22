@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@8"]
+
+[package]
+name = "sbom-tool"
+version = "4.1.13"
+description = "Scalable and enterprise ready tool to create SBOMs for any variety of artifacts"
+homepage = "https://github.com/microsoft/sbom-tool"
+
+[source]
+url = "https://github.com/microsoft/sbom-tool/archive/refs/tags/v4.1.13.tar.gz"
+sha256 = "4fba2326473b3cfa40cf6e4ee2dec25d2f7951fdba6a9bcabb217c5ca99d2d0c"
+
+[build]
+system = "autotools"

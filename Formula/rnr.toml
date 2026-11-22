@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rnr"
+version = "0.5.1"
+description = "Command-line tool to batch rename files and directories"
+homepage = "https://github.com/ismaelgv/rnr"
+
+[source]
+url = "https://github.com/ismaelgv/rnr/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "af35b5d5afab08b01cab345686d7e7d2d37a33d268fa8827a8001c3164ef4722"
+
+[build]
+system = "autotools"

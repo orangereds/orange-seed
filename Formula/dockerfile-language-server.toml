@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "dockerfile-language-server"
+version = "0"
+description = "Language server for Dockerfiles powered by Node, TypeScript, and VSCode"
+homepage = "https://github.com/rcjsuen/dockerfile-language-server"
+
+[source]
+url = "https://registry.npmjs.org/dockerfile-language-server-nodejs/-/dockerfile-language-server-nodejs-0.15.0.tgz"
+sha256 = "32ee93b98f43d8d60273019b7ed12a263593ba3a2308442ca7449d49676f480d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ffmpeg", "ghostscript", "imagemagick", "gnu-getopt"]
+
+[package]
+name = "vcs"
+version = "1.13.4_3"
+description = "Creates video contact sheets (previews) of videos"
+homepage = "https://web.archive.org/web/20240824173847/https://p.outlyer.net/vcs/"
+
+[source]
+url = "https://web.archive.org/web/20240824173847/https://p.outlyer.net/files/vcs/vcs-1.13.4.tar.gz"
+sha256 = "dc1d6145e10eeed61d16c3591cfe3496a6ac392c9c2f7c2393cbdb0cf248544b"
+
+[build]
+system = "autotools"

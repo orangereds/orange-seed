@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros"]
+
+[package]
+name = "xorgproto"
+version = "2026.1"
+description = "X.Org: Protocol Headers"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/proto/xorgproto-2026.1.tar.gz"
+sha256 = "7fa90e48cbaca6bc4c99d176e88c5c147ab0ed42358e14a0869ee9c8a610ae7e"
+
+[build]
+system = "autotools"

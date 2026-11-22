@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "solo2-cli"
+version = "0.2.2"
+description = "CLI to update and use Solo 2 security keys"
+homepage = "https://solokeys.com/"
+
+[source]
+url = "https://github.com/solokeys/solo2-cli/archive/refs/tags/v0.2.2.tar.gz"
+sha256 = "49a30c5ee6f38be968a520089741f8b936099611e98e6bf2b25d05e5e9335fb4"
+
+[build]
+system = "autotools"

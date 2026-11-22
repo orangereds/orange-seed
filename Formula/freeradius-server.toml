@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["collectd", "json-c", "openssl@4", "python@3.15", "talloc", "readline", "sqlite"]
+
+[package]
+name = "freeradius-server"
+version = "3.2.10_2"
+description = "High-performance and highly configurable RADIUS server"
+homepage = "https://freeradius.org/"
+
+[source]
+url = "https://github.com/FreeRADIUS/freeradius-server/releases/download/release_3_2_10/freeradius-server-3.2.10.tar.gz"
+sha256 = "40e0cdfdcceb22cf0acb79bc29cf7c32995466a61fda09445ce5220608a55afd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mark"
+version = "17.3.1"
+description = "Sync your markdown files with Confluence pages"
+homepage = "https://samizdat.dev"
+
+[source]
+url = "https://github.com/kovetskiy/mark/archive/refs/tags/v17.3.1.tar.gz"
+sha256 = "b033d6b2b5475d01cdf6ddac7119b8a029f7b45143995398d215c946d5e0a428"
+
+[build]
+system = "autotools"

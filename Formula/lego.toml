@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lego"
+version = "5.6.0"
+description = "Let's Encrypt client and ACME library"
+homepage = "https://go-acme.github.io/lego/"
+
+[source]
+url = "https://github.com/go-acme/lego/archive/refs/tags/v5.6.0.tar.gz"
+sha256 = "3ea1e82a23e001ed90ff48e7ad1f19d14ce7a50d211ad5c37610f54a918e26d1"
+
+[build]
+system = "autotools"

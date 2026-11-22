@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aws-spiffe-workload-helper"
+version = "0.0.7"
+description = "Helper for providing AWS credentials to workloads using their SPIFFE identity"
+homepage = "https://github.com/spiffe/aws-spiffe-workload-helper"
+
+[source]
+url = "https://github.com/spiffe/aws-spiffe-workload-helper/archive/refs/tags/v0.0.7.tar.gz"
+sha256 = "9ff2c4f824dd8715e5eb5c186a9bf877887aff1b3bef153b653facbd833040ca"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pandoc"]
+
+[package]
+name = "yq"
+version = "4.54.3"
+description = "Process YAML, JSON, XML, CSV and properties documents from the CLI"
+homepage = "https://github.com/mikefarah/yq"
+
+[source]
+url = "https://github.com/mikefarah/yq/archive/refs/tags/v4.54.3.tar.gz"
+sha256 = "93143d49b2a3bd6cb723477f585366b29f70c636af4653191d61b49b0c47de7f"
+
+[build]
+system = "autotools"

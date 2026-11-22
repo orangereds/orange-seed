@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "cryptography", "libsodium", "libyaml", "python@3.15"]
+
+[package]
+name = "flintrock"
+version = "0_1"
+description = "Tool for launching Apache Spark clusters"
+homepage = "https://github.com/nchammas/flintrock"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e9/3b/810c7757f6abb0a73a50c2da6da2dacb5af85a04b056aef81323b2b6a082/Flintrock-2.1.0.tar.gz"
+sha256 = "dde4032630ad44c374c2a9b12f0d97db87fa5117995f1c7dd0f70b631f47a035"
+
+[build]
+system = "autotools"

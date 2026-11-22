@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "kqwait"
+version = "1.0.3"
+description = "Wait for events on files or directories on macOS"
+homepage = "https://github.com/sschober/kqwait"
+
+[source]
+url = "https://github.com/sschober/kqwait/archive/refs/tags/kqwait-v1.0.3.tar.gz"
+sha256 = "878560936d473f203c0ccb3d42eadccfb50cff15e6f15a59061e73704474c531"
+
+[build]
+system = "autotools"

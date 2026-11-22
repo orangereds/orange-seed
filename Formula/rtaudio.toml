@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "rtaudio"
+version = "6.0.1"
+description = "API for realtime audio input/output"
+homepage = "https://github.com/thestk/rtaudio"
+
+[source]
+url = "https://github.com/thestk/rtaudio/archive/refs/tags/6.0.1.tar.gz"
+sha256 = "7206c8b6cee43b474f43d64988fefaadfdcfc4264ed38d8de5f5d0e6ddb0a123"
+
+[build]
+system = "autotools"

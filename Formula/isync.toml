@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "berkeley-db@5", "openssl@4"]
+
+[package]
+name = "isync"
+version = "1.5.1_1"
+description = "Synchronize a maildir with an IMAP server"
+homepage = "https://isync.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/isync/isync/1.5.1/isync-1.5.1.tar.gz"
+sha256 = "28cc90288036aa5b6f5307bfc7178a397799003b96f7fd6e4bd2478265bb22fa"
+
+[service]
+run = "opt/isync/bin/mbsync -a"
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

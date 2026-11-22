@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "xz", "zstd"]
+
+[package]
+name = "libzip"
+version = "1.12.1"
+description = "C library for reading, creating, and modifying zip archives"
+homepage = "https://libzip.org/"
+
+[source]
+url = "https://libzip.org/download/libzip-1.12.1.tar.xz"
+sha256 = "c40062022a1963c80573d48f6070792297cecd7c6bffe3aefcac0d8b9bee8913"
+
+[build]
+system = "cmake"

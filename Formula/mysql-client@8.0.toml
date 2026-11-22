@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "libevent", "libfido2", "openssl@3", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "mysql-client@8.0"
+version = "0"
+description = "Open source relational database management system"
+homepage = "https://github.com/mysql/mysql-server"
+
+[source]
+url = "https://cdn.mysql.com/Downloads/MySQL-8.0/mysql-boost-8.0.46.tar.gz"
+sha256 = "dff4332ee7f8f37fc0516c66763600a22a81c8192c743c477b6484206e314f2f"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

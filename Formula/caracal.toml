@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "caracal"
+version = "0.2.3"
+description = "Static analyzer for Starknet smart contracts"
+homepage = "https://github.com/crytic/caracal"
+
+[source]
+url = "https://github.com/crytic/caracal/archive/refs/tags/v0.2.3.tar.gz"
+sha256 = "70a505b46d19cc389fa11bc17bed106e15ede6b076fb1f8b350a4ccabb4e7052"
+
+[build]
+system = "autotools"

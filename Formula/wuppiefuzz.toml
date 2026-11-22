@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "z3"]
+
+[package]
+name = "wuppiefuzz"
+version = "0_1"
+description = "Coverage-guided REST API fuzzer developed on top of LibAFL"
+homepage = "https://github.com/TNO-S3/WuppieFuzz"
+
+[source]
+url = "https://github.com/TNO-S3/WuppieFuzz/releases/download/v1.8.1/source.tar.gz"
+sha256 = "2b16baf2344f23cbcbbcdb3f1546c838c99ea76634c691d3cace2e6542014d38"
+
+[build]
+system = "autotools"

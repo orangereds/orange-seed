@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["check", "pkgconf", "libevent", "libnet", "libpcap", "openssl@4"]
+
+[package]
+name = "sslsplit"
+version = "0.5.5_3"
+description = "Man-in-the-middle attacks against SSL encrypted network connections"
+homepage = "https://www.roe.ch/SSLsplit"
+
+[source]
+url = "https://github.com/droe/sslsplit/archive/refs/tags/0.5.5.tar.gz"
+sha256 = "3a6b9caa3552c9139ea5c9841d4bf24d47764f14b1b04b7aae7fa2697641080b"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "smithery-cli"
+version = "0"
+description = "Install and list Model Context Protocol servers from Smithery"
+homepage = "https://smithery.ai/"
+
+[source]
+url = "https://registry.npmjs.org/@smithery/cli/-/cli-4.11.1.tgz"
+sha256 = "2d3a60fbbd9c2db4ffe80e806afa2075620a3b18b4a80cb26eb48501d76dfd3e"
+
+[build]
+system = "autotools"

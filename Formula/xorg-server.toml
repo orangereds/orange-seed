@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["font-util", "libxkbfile", "meson", "ninja", "pkgconf", "util-macros", "xorgproto", "xtrans", "libx11", "libxau", "libxcb", "libxdmcp", "libxext", "libxfixes", "libxfont2", "mesa", "pixman", "xauth", "xcb-util", "xcb-util-image", "xcb-util-keysyms", "xcb-util-renderutil", "xcb-util-wm", "xkbcomp", "xkeyboard-config", "libapplewm"]
+
+[package]
+name = "xorg-server"
+version = "21.1.26"
+description = "X Window System display server"
+homepage = "https://www.x.org"
+
+[source]
+url = "https://www.x.org/releases/individual/xserver/xorg-server-21.1.26.tar.xz"
+sha256 = "c8609f9cdafde14de7ec7cb406dac9507add1d536df8d3c3e3d3d9c1cd864066"
+
+[build]
+system = "autotools"

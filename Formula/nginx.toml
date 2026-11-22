@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "pcre2"]
+
+[package]
+name = "nginx"
+version = "1.31.9"
+description = "HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server"
+homepage = "https://nginx.org/"
+
+[source]
+url = "https://nginx.org/download/nginx-1.31.9.tar.gz"
+sha256 = "a11c5eeee2e257f4478f0e649f84b0040787d277d2d3e5233952aa6b6dcb80ad"
+
+[service]
+run = "opt/nginx/bin/nginx -g daemon off;"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

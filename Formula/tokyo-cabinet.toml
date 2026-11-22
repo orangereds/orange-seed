@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "tokyo-cabinet"
+version = "0"
+description = "Lightweight database library"
+homepage = "https://dbmx.net/tokyocabinet/"
+
+[source]
+url = "https://dbmx.net/tokyocabinet/tokyocabinet-1.4.48.tar.gz"
+sha256 = "a003f47c39a91e22d76bc4fe68b9b3de0f38851b160bbb1ca07a4f6441de1f90"
+
+[build]
+system = "autotools"

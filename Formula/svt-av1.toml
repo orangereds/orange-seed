@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nasm"]
+
+[package]
+name = "svt-av1"
+version = "0"
+description = "AV1 encoder"
+homepage = "https://gitlab.com/AOMediaCodec/SVT-AV1"
+
+[source]
+url = "https://gitlab.com/AOMediaCodec/SVT-AV1/-/archive/v4.3.0/SVT-AV1-v4.3.0.tar.bz2"
+sha256 = "9223ce06e6172ad41357ed23b3b00f036e03794b86b0e20ea9ccb3f648b8955d"
+
+[build]
+system = "cmake"

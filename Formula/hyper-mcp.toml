@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hyper-mcp"
+version = "0.8.3"
+description = "MCP server that extends its capabilities through WebAssembly plugins"
+homepage = "https://github.com/hyper-mcp-rs/hyper-mcp"
+
+[source]
+url = "https://github.com/hyper-mcp-rs/hyper-mcp/archive/refs/tags/v0.8.3.tar.gz"
+sha256 = "fe4fbd44e26d81c2537aa6c82a619d0b88636bb32907fa3ff7c96e2493f5de06"
+
+[build]
+system = "autotools"

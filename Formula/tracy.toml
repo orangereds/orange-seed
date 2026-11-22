@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "pkgconf", "aklomp-base64", "freetype", "md4c", "nativefiledialog-extended", "pugixml", "tidy-html5", "zstd", "glfw"]
+
+[package]
+name = "tracy"
+version = "0.15.0"
+description = "Real-time, nanosecond resolution frame profiler"
+homepage = "https://tracy.nereid.pl/"
+
+[source]
+url = "https://github.com/wolfpld/tracy/archive/refs/tags/v0.15.0.tar.gz"
+sha256 = "3d57da54aa67d7875da1e8fecd0bd5957675cef73c27dd52bffb6ab8d290a5e6"
+
+[build]
+system = "cmake"

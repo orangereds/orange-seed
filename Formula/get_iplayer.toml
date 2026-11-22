@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["atomicparsley", "ffmpeg"]
+
+[package]
+name = "get_iplayer"
+version = "3.36_4"
+description = "Utility for downloading TV and radio programmes from BBC iPlayer"
+homepage = "https://github.com/get-iplayer/get_iplayer"
+
+[source]
+url = "https://github.com/get-iplayer/get_iplayer/archive/refs/tags/v3.36.tar.gz"
+sha256 = "9a70383143b6e3f43ee079f551b7f5719037ada86eb48d9defc66e00e619d996"
+
+[build]
+system = "autotools"

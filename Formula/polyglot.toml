@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "polyglot"
+version = "2.0.4"
+description = "Protocol adapter to run UCI engines under XBoard"
+homepage = "https://www.chessprogramming.org/PolyGlot"
+
+[source]
+url = "https://hgm.nubati.net/releases/polyglot-2.0.4.tar.gz"
+sha256 = "c11647d1e1cb4ad5aca3d80ef425b16b499aaa453458054c3aa6bec9cac65fc1"
+
+[build]
+system = "autotools"

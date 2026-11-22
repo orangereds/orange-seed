@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "check", "meson", "ninja", "pkgconf", "cairo", "gdk-pixbuf", "glib", "libxcb", "libxkbcommon", "pango", "startup-notification", "xcb-util", "xcb-util-cursor", "xcb-util-wm", "xorg-server"]
+
+[package]
+name = "rofi"
+version = "2.1.1"
+description = "Window switcher, application launcher and dmenu replacement"
+homepage = "https://davatorium.github.io/rofi/"
+
+[source]
+url = "https://github.com/davatorium/rofi/releases/download/2.1.1/rofi-2.1.1.tar.gz"
+sha256 = "5fe33afce841994eebfc0302ba869e7b9c035b97c26858fb0142a54a1627d3e4"
+
+[build]
+system = "autotools"

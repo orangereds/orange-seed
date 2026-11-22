@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "frizbee"
+version = "0.1.12"
+description = "Throw a tag at and it comes back with a checksum"
+homepage = "https://github.com/stacklok/frizbee"
+
+[source]
+url = "https://github.com/stacklok/frizbee/archive/refs/tags/v0.1.12.tar.gz"
+sha256 = "bc4129f8650f76fad90dc754a746927f3c13fcd62bf6e332cf1c6f9a3ef252b4"
+
+[build]
+system = "autotools"

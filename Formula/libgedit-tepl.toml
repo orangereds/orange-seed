@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "glib", "gtk+3", "icu4c@79", "libgedit-amtk", "libgedit-gfls", "libgedit-gtksourceview", "libhandy", "pango"]
+
+[package]
+name = "libgedit-tepl"
+version = "6.15.0_2"
+description = "Gedit Technology - Text editor product line"
+homepage = "https://gitlab.gnome.org/World/gedit/libgedit-tepl"
+
+[source]
+url = "https://gitlab.gnome.org/World/gedit/libgedit-tepl/-/archive/6.15.0/libgedit-tepl-6.15.0.tar.bz2"
+sha256 = "23126d33b0016e5823351c4845cfdc074f7c232a85288a73d00468d003bebbe1"
+
+[build]
+system = "autotools"

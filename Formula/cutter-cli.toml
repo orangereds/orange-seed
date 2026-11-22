@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "gtk-doc", "intltool", "libtool", "pkgconf", "glib"]
+
+[package]
+name = "cutter-cli"
+version = "1.2.9"
+description = "Unit Testing Framework for C and C++"
+homepage = "https://github.com/clear-code/cutter"
+
+[source]
+url = "https://github.com/clear-code/cutter/archive/refs/tags/1.2.9.tar.gz"
+sha256 = "9ee1d9edf465110cad864889e70df681f4f5df55470a302593e5d9208249940e"
+
+[build]
+system = "autotools"

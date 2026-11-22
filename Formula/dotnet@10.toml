@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rapidjson", "brotli", "icu4c@79", "openssl@4", "bash", "grep"]
+
+[package]
+name = "dotnet@10"
+version = "0"
+description = ".NET Core"
+homepage = "https://dotnet.microsoft.com/"
+
+[source]
+url = "https://github.com/dotnet/dotnet/releases/download/v10.0.404/release.json"
+sha256 = "c105fc81677985c6c845a74b8986e7388354a275579c188ec529eabfa7389363"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

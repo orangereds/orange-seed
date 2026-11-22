@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "abseil", "icu4c@79", "libfido2", "lz4", "openldap", "openssl@4", "protobuf", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "percona-server@8.4"
+version = "9"
+description = "Drop-in MySQL replacement"
+homepage = "https://www.percona.com"
+
+[source]
+url = "https://downloads.percona.com/downloads/Percona-Server-8.4/Percona-Server-8.4.11-12/source/tarball/percona-server-8.4.11-12.tar.gz"
+sha256 = "9cd754cec8f2494622edf5458a31348680ba1d4868c38b2312c5f0f28c257be1"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/percona-server@8.4/bin/mysqld_safe --datadir=#{var}/mysql"
+keep_alive = true
+working_dir = "var/mysql"
+
+[build]
+system = "cmake"

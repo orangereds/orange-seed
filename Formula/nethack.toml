@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["groff", "ncurses"]
+
+[package]
+name = "nethack"
+version = "5.0.0_1"
+description = "Single-player roguelike video game"
+homepage = "https://www.nethack.org/"
+
+[source]
+url = "https://nethack.org/download/5.0.0/nethack-500-src.tgz"
+sha256 = "2959b7886aac76185b90aea0c9f80d14343f604de0ae96b3dd2a760f7ab3bde9"
+
+[build]
+system = "autotools"

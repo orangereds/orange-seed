@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "extract_url"
+version = "1.6.2_5"
+description = "Perl script to extracts URLs from emails or plain text"
+homepage = "https://www.memoryhole.net/~kyle/extract_url/"
+
+[source]
+url = "https://github.com/m3m0ryh0l3/extracturl/archive/refs/tags/v1.6.2.tar.gz"
+sha256 = "5f0b568d5c9449f477527b4077d8269f1f5e6d6531dfa5eb6ca72dbacab6f336"
+
+[build]
+system = "autotools"

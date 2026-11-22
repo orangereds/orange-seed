@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "nasm"]
+
+[package]
+name = "libvmaf"
+version = "3.2.1"
+description = "Perceptual video quality assessment based on multi-method fusion"
+homepage = "https://github.com/Netflix/vmaf"
+
+[source]
+url = "https://github.com/Netflix/vmaf/archive/refs/tags/v3.2.1.tar.gz"
+sha256 = "5df7386911bc15fd1ca783132528748d219768ae4fc5f8e0b61184f041648092"
+
+[build]
+system = "autotools"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "docbook-xsl"]
+
+[package]
+name = "tinyproxy"
+version = "1.11.3"
+description = "HTTP/HTTPS proxy for POSIX systems"
+homepage = "https://tinyproxy.github.io/"
+
+[source]
+url = "https://github.com/tinyproxy/tinyproxy/releases/download/1.11.3/tinyproxy-1.11.3.tar.xz"
+sha256 = "f05644fdf1211ba13754a354bebed909b5b39371b12cce8563c46929a75bedf6"
+
+[service]
+run = "opt/tinyproxy/bin/tinyproxy -d"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

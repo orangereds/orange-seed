@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "fop"
+version = "0"
+description = "XSL-FO print formatter for making PDF or PS documents"
+homepage = "https://xmlgraphics.apache.org/fop/index.html"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=xmlgraphics/fop/binaries/fop-2.12-bin.tar.gz"
+sha256 = "f43bf5227557c2653105f4494bb2c3c4e7715cef21997286a16e9847399b81a4"
+
+[build]
+system = "autotools"

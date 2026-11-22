@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "svu"
+version = "3.4.4"
+description = "Semantic version utility"
+homepage = "https://github.com/caarlos0/svu"
+
+[source]
+url = "https://github.com/caarlos0/svu/archive/refs/tags/v3.4.4.tar.gz"
+sha256 = "2b1a2fc5bf804c80a9261686370bf882dcc092b1cb8e1605920fce7da7562f0e"
+
+[build]
+system = "autotools"

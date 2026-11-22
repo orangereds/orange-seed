@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "broot"
+version = "1.62.0"
+description = "New way to see and navigate directory trees"
+homepage = "https://dystroy.org/broot/"
+
+[source]
+url = "https://github.com/Canop/broot/archive/refs/tags/v1.62.0.tar.gz"
+sha256 = "7c3445a6eef45fe67fe2e1f4e0e1f9dca796237d6303615e31b07798cc1716ba"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "trdsql"
+version = "1.2.3"
+description = "CLI tool that can execute SQL queries on CSV, LTSV, JSON, YAML and TBLN"
+homepage = "https://noborus.github.io/trdsql/"
+
+[source]
+url = "https://github.com/noborus/trdsql/archive/refs/tags/v1.2.3.tar.gz"
+sha256 = "23a80d1c7cf44f458440ad9b6ffc5dc9305e98f191fbce102f47bf6be2c4fb17"
+
+[build]
+system = "autotools"

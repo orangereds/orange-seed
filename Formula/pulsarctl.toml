@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pulsarctl"
+version = "5.0.0.108"
+description = "CLI for Apache Pulsar written in Go"
+homepage = "https://streamnative.io/"
+
+[source]
+url = "https://github.com/streamnative/pulsarctl/archive/refs/tags/v5.0.0.108.tar.gz"
+sha256 = "24a6cefcabcef4632aec93de63e04878ee89aa3478f2b5ef30b37db81b5b78e2"
+
+[build]
+system = "autotools"

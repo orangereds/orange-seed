@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "groff", "libpipeline"]
+
+[package]
+name = "man-db"
+version = "2.13.3"
+description = "Unix documentation system"
+homepage = "https://man-db.gitlab.io/man-db/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/man-db/man-db-2.13.3.tar.xz"
+sha256 = "7c10ac705433c740af91264fc29eee471090ead63a408541ab9736284a8c9deb"
+
+[build]
+system = "autotools"

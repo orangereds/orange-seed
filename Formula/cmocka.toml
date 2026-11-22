@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "cmocka"
+version = "2.0.2"
+description = "Unit testing framework for C"
+homepage = "https://cmocka.org/"
+
+[source]
+url = "https://cmocka.org/files/2.0/cmocka-2.0.2.tar.xz"
+sha256 = "39f92f366bdf3f1a02af4da75b4a5c52df6c9f7e736c7d65de13283f9f0ef416"
+
+[build]
+system = "cmake"

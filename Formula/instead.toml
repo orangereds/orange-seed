@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "luajit", "sdl3", "sdl3_image", "sdl3_mixer", "sdl3_ttf"]
+
+[package]
+name = "instead"
+version = "3.6.0"
+description = "Interpreter of simple text adventures"
+homepage = "https://instead.hugeping.ru/"
+
+[source]
+url = "https://github.com/instead-hub/instead/releases/download/3.6.0/instead_3.6.0.tar.gz"
+sha256 = "ecc15268824d4cbd1d56ba4e44491069accaebaa642a6d275169878492ede80b"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nova-fairwinds"
+version = "3.12.3"
+description = "Find outdated or deprecated Helm charts running in your cluster"
+homepage = "https://github.com/FairwindsOps/nova"
+
+[source]
+url = "https://github.com/FairwindsOps/nova/archive/refs/tags/v3.12.3.tar.gz"
+sha256 = "73007e27e4b60ccb6aa3d4244e53e900f692f830571909b45cf42cbfc6b58cab"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zfind"
+version = "0.4.7"
+description = "Search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter"
+homepage = "https://github.com/laktak/zfind"
+
+[source]
+url = "https://github.com/laktak/zfind/archive/refs/tags/v0.4.7.tar.gz"
+sha256 = "49bc01da8446c8a97182f9794032d851614f0efc75b4f4810a114491a08d3bd4"
+
+[build]
+system = "autotools"

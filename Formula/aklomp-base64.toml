@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "aklomp-base64"
+version = "0.5.3"
+description = "Fast Base64 stream encoder/decoder in C99, with SIMD acceleration"
+homepage = "https://github.com/aklomp/base64"
+
+[source]
+url = "https://github.com/aklomp/base64/archive/refs/tags/v0.5.3.tar.gz"
+sha256 = "74f83a5396660dfe5a09f0339982c03c44ef018e459a8bfcde8b31ca7444aa42"
+
+[build]
+system = "cmake"

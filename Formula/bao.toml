@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bao"
+version = "0"
+description = "Implementation of BLAKE3 verified streaming"
+homepage = "https://github.com/oconnor663/bao"
+
+[source]
+url = "https://static.crates.io/crates/bao_bin/bao_bin-0.13.1.crate"
+sha256 = "77595dfe39d18bf2c3b6a98b0998d5558461653560c209498007f3ca4c392863"
+
+[build]
+system = "autotools"

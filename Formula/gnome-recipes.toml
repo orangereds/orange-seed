@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "itstool", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gnome-autoar", "gspell", "gtk+3", "json-glib", "libcanberra", "libgoa", "librest", "libsoup", "pango"]
+
+[package]
+name = "gnome-recipes"
+version = "2.0.4_3"
+description = "Formula for GNOME recipes"
+homepage = "https://wiki.gnome.org/Apps/Recipes"
+
+[source]
+url = "https://download.gnome.org/sources/gnome-recipes/2.0/gnome-recipes-2.0.4.tar.xz"
+sha256 = "b30e96985f66fe138a17189c77af44d34d0b4c859b304ebdb52033bc2cd3ffed"
+
+[build]
+system = "autotools"

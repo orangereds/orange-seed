@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "python-setuptools", "itstool", "libxml2", "python@3.15", "yelp-xsl"]
+
+[package]
+name = "yelp-tools"
+version = "42.1_4"
+description = "Tools that help create and edit Mallard or DocBook documentation"
+homepage = "https://gitlab.gnome.org/GNOME/yelp-tools"
+
+[source]
+url = "https://download.gnome.org/sources/yelp-tools/42/yelp-tools-42.1.tar.xz"
+sha256 = "3e496a4020d4145b99fd508a25fa09336a503a4e8900028421e72c6a4b11f905"
+
+[build]
+system = "autotools"

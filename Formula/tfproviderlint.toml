@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "tfproviderlint"
+version = "0.31.0_1"
+description = "Terraform Provider Lint Tool"
+homepage = "https://github.com/bflad/tfproviderlint"
+
+[source]
+url = "https://github.com/bflad/tfproviderlint/archive/refs/tags/v0.31.0.tar.gz"
+sha256 = "9defa750077052ebf1639532e771a9e986b7a53948b6a16cb647ceaf60cfbce1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ovsx"
+version = "1.4.0"
+description = "Command-line interface for Eclipse Open VSX"
+homepage = "https://www.npmjs.com/package/ovsx"
+
+[source]
+url = "https://registry.npmjs.org/ovsx/-/ovsx-1.4.0.tgz"
+sha256 = "0613791261483819ce3d2944219f8639e91aa4f6b639294d2aa9f8bbced2634e"
+
+[build]
+system = "autotools"

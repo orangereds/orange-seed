@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "esptool"
+version = "5.6.0"
+description = "ESP8266 and ESP32 serial bootloader utility"
+homepage = "https://docs.espressif.com/projects/esptool/en/latest/esp32/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/96/4c/a949409e527b87f863f237cea9f997d25644607f799293a3d247f1b40e67/esptool-5.6.0.tar.gz"
+sha256 = "86c7249e9cc3a824e032ede9ba20abad057a2c49e231418cc4f02b177bb36f42"
+
+[build]
+system = "autotools"

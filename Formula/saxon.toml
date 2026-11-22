@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "saxon"
+version = "13.0"
+description = "XSLT and XQuery processor"
+homepage = "https://github.com/Saxonica/Saxon-HE"
+
+[source]
+url = "https://github.com/Saxonica/Saxon-HE/releases/download/SaxonHE13-0/SaxonHE13-0J.zip"
+sha256 = "4a08ac02d8ea26b769bf14274bef27b3c8bbf2557b20b7e4258d172e99638163"
+
+[build]
+system = "autotools"

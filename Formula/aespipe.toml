@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "aespipe"
+version = "2.4j"
+description = "AES encryption or decryption for pipes"
+homepage = "https://loop-aes.sourceforge.net/"
+
+[source]
+url = "https://loop-aes.sourceforge.net/aespipe/aespipe-v2.4j.tar.bz2"
+sha256 = "448fe1e58612c184951645ddd926fc5bdb64fc4f2f828c766c82aa1127e9a3e2"
+
+[build]
+system = "autotools"

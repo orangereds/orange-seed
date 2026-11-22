@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "beszel"
+version = "0.21.2"
+description = "Lightweight server monitoring with historical data, Docker stats, and alerts"
+homepage = "https://beszel.dev"
+
+[source]
+url = "https://github.com/henrygd/beszel/archive/refs/tags/v0.21.2.tar.gz"
+sha256 = "8613c593fd447b4602644a73f1ec26d5d8233fa91109192c05a2406e22316c34"
+
+[service]
+run = "opt/beszel/bin/beszel serve --http=127.0.0.1:8090 --dir=#{var}/lib/beszel"
+keep_alive = true
+log_path = "var/log/beszel.log"
+error_log_path = "var/log/beszel.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "armadillo", "cereal", "ensmallen"]
+
+[package]
+name = "mlpack"
+version = "2.30"
+description = "Scalable C++ machine learning library"
+homepage = "https://www.mlpack.org"
+
+[source]
+url = "https://mlpack.org/files/mlpack-4.8.0.tar.gz"
+sha256 = "0ab06e5c506c7ed5f072faa4c04477c65624e4a1ff62eee8c0d996ef850ec51c"
+
+[build]
+system = "autotools"

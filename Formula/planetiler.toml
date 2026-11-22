@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "planetiler"
+version = "0"
+description = "Flexible tool to build planet-scale vector tilesets from OpenStreetMap data fast"
+homepage = "https://github.com/onthegomap/planetiler"
+
+[source]
+url = "https://github.com/onthegomap/planetiler/releases/download/v0.10.2/planetiler.jar"
+sha256 = "f310bd0413e2e4512b27f4046d418664e8e1d3bf31603c2a70e23de06c167e4d"
+
+[build]
+system = "autotools"

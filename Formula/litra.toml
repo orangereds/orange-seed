@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "litra"
+version = "3.3.0"
+description = "Control Logitech Litra lights from the command-line"
+homepage = "https://github.com/timrogers/litra-rs"
+
+[source]
+url = "https://github.com/timrogers/litra-rs/archive/refs/tags/v3.3.0.tar.gz"
+sha256 = "18b998c9d4d7d4db515765852d667fcb24b9ed84ba917d2d8385bee3eb59cfa6"
+
+[build]
+system = "autotools"

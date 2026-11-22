@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tcpkali"
+version = "1.1.1"
+description = "High performance TCP and WebSocket load generator and sink"
+homepage = "https://web.archive.org/web/20230303212249/https://github.com/satori-com/tcpkali"
+
+[source]
+url = "https://www.mirrorservice.org/sites/distfiles.macports.org/tcpkali/tcpkali-1.1.1.tar.gz"
+sha256 = "a9a15a1703fc4960360a414ee282d821a7b42d4bbba89f9e72a796164ff69598"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libestr"
+version = "0.1.11"
+description = "C library for string handling (and a bit more)"
+homepage = "https://libestr.adiscon.com/"
+
+[source]
+url = "https://libestr.adiscon.com/files/download/libestr-0.1.11.tar.gz"
+sha256 = "46632b2785ff4a231dcf241eeb0dcb5fc0c7d4da8ee49cf5687722cdbe8b2024"
+
+[build]
+system = "autotools"

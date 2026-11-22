@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gdbm", "openssl@3", "sqlite", "tcl-tk@8"]
+
+[package]
+name = "pypy"
+version = "0"
+description = "Highly performant implementation of Python 2 in Python"
+homepage = "https://pypy.org/"
+
+[source]
+url = "https://downloads.python.org/pypy/pypy2.7-v8.0.1-src.tar.gz"
+sha256 = "1397c303c46fdb6eb28091377668bf2bf89909fdf5824dfe067f9b47da31844a"
+
+[build]
+system = "autotools"

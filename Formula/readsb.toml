@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "librtlsdr", "zstd", "libusb"]
+
+[package]
+name = "readsb"
+version = "3.16.21"
+description = "ADS-B decoder swiss knife"
+homepage = "https://github.com/wiedehopf/readsb"
+
+[source]
+url = "https://github.com/wiedehopf/readsb/archive/refs/tags/v3.16.21.tar.gz"
+sha256 = "b89c0b9a241384b709a9febfea61533169f4e7b3be5f01b99810e36b751c0a03"
+
+[build]
+system = "autotools"

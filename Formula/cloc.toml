@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cloc"
+version = "2.12"
+description = "Statistics utility to count lines of code"
+homepage = "https://github.com/AlDanial/cloc/"
+
+[source]
+url = "https://github.com/AlDanial/cloc/archive/refs/tags/v2.12.tar.gz"
+sha256 = "e49b2ccad4c9c80e0c3f2a5c662c4097c73faf9867607a892f8e4c6dd1c7d861"
+
+[build]
+system = "autotools"

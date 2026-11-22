@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "mago"
+version = "0"
+description = "Toolchain for PHP to help developers write better code"
+homepage = "https://github.com/carthage-software/mago"
+
+[source]
+url = "https://github.com/carthage-software/mago/releases/download/1.61.0/source-code.tar.gz"
+sha256 = "5c61ff8e79fec57c5408b3d4a288e51346968460249f165ffa9a0cf7df0a1bb9"
+
+[build]
+system = "autotools"

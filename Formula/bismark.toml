@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "bowtie2", "minimap2"]
+
+[package]
+name = "bismark"
+version = "0"
+description = "Bisulfite read mapper and methylation caller"
+homepage = "https://github.com/FelixKrueger/Bismark"
+
+[source]
+url = "https://github.com/FelixKrueger/Bismark/archive/refs/tags/bismark-rust-v3.4.0.tar.gz"
+sha256 = "f08d353a458932ab4b56c25ce556f1cbc3d321fb4f1ab4913688f96dabf0b491"
+
+[build]
+system = "autotools"

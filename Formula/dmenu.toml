@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fontconfig", "libx11", "libxft", "libxinerama"]
+
+[package]
+name = "dmenu"
+version = "5.4"
+description = "Dynamic menu for X11"
+homepage = "https://tools.suckless.org/dmenu/"
+
+[source]
+url = "https://dl.suckless.org/tools/dmenu-5.4.tar.gz"
+sha256 = "8fbace2a0847aa80fe861066b118252dcc7b4ca0a0a8f3a93af02da8fb6cd453"
+
+[build]
+system = "make"

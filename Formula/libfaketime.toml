@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils"]
+
+[package]
+name = "libfaketime"
+version = "0.9.14"
+description = "Report faked system time to programs"
+homepage = "https://github.com/wolfcw/libfaketime"
+
+[source]
+url = "https://github.com/wolfcw/libfaketime/archive/refs/tags/v0.9.14.tar.gz"
+sha256 = "d6468957b11bae8e541524ad43f2cdf91e5d87c8996183897c0499856024c90c"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "skm"
+version = "0.9.3"
+description = "Simple and powerful SSH keys manager"
+homepage = "https://timothyye.github.io/skm"
+
+[source]
+url = "https://github.com/TimothyYe/skm/archive/refs/tags/v0.9.3.tar.gz"
+sha256 = "6afce1a7d42167285fe074187708ff7538b866ac051c671a82f97b746d9f5204"
+
+[build]
+system = "autotools"

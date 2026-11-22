@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typos-cli"
+version = "1.52.2"
+description = "Source code spell checker"
+homepage = "https://github.com/crate-ci/typos"
+
+[source]
+url = "https://github.com/crate-ci/typos/archive/refs/tags/v1.52.2.tar.gz"
+sha256 = "72d8b9ab9cc54512865f51d8ff65903532785b1c32d58fc4e179ddf89299c5be"
+
+[build]
+system = "autotools"

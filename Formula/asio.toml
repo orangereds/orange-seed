@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "asio"
+version = "1.38.2"
+description = "Cross-platform C++ Library for asynchronous programming"
+homepage = "https://think-async.com/Asio/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/asio/asio/1.38.2%20%28Stable%29/asio-1.38.2.tar.bz2"
+sha256 = "c04e0e66ac29741faad763a56f3c50196421d4b968009fc237c53314769bf8ad"
+
+[build]
+system = "autotools"

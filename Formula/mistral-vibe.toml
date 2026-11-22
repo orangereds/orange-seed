@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "mistral-vibe"
+version = "0"
+description = "Minimal CLI coding agent"
+homepage = "https://github.com/mistralai/mistral-vibe"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9a/f8/0dbebaaf73c8219740bf0bbbe9961a7b43aade14f186feb8df9dcc646f20/mistral_vibe-3.1.2.tar.gz"
+sha256 = "72556ec308389f885a663e43958fcba0108063edddb28256e3808961acba838c"
+
+[build]
+system = "autotools"

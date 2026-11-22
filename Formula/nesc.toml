@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openjdk", "emacs"]
+
+[package]
+name = "nesc"
+version = "1.4.0_2"
+description = "Programming language for deeply networked systems"
+homepage = "https://github.com/tinyos/nesc"
+
+[source]
+url = "https://github.com/tinyos/nesc/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "ea9a505d55e122bf413dff404bebfa869a8f0dd76a01a8efc7b4919c375ca000"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bork"
+version = "0.14.0"
+description = "Bash-Operated Reconciling Kludge"
+homepage = "https://bork.sh/"
+
+[source]
+url = "https://github.com/borksh/bork/archive/refs/tags/v0.14.0.tar.gz"
+sha256 = "718331c54c94bf7eddeff089227c0f57093361f7e6e24066cb544cc9ebd2f6c5"
+
+[build]
+system = "autotools"

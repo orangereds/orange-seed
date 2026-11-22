@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "certifi", "cffi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "theharvester"
+version = "4.11.1_5"
+description = "Gather materials from public sources (for pen testers)"
+homepage = "https://www.edge-security.com"
+
+[source]
+url = "https://github.com/laramies/theHarvester/archive/refs/tags/4.11.1.tar.gz"
+sha256 = "73a931f6e346972939203a82ae38fed24570b3137bfce5d1ae5517e8284df6df"
+
+[build]
+system = "autotools"

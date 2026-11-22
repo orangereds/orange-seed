@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nap"
+version = "0.1.1"
+description = "Code snippets in your terminal"
+homepage = "https://github.com/maaslalani/nap"
+
+[source]
+url = "https://github.com/maaslalani/nap/archive/refs/tags/v0.1.1.tar.gz"
+sha256 = "2954577d2bd99c1114989d31e994d7bef0f1c934795fc559b7c90f6370d9f98b"
+
+[build]
+system = "autotools"

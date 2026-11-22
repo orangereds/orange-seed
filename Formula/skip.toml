@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk", "swiftly"]
+
+[package]
+name = "skip"
+version = "1.9.21"
+description = "Tool for building Swift apps for Android"
+homepage = "https://skip.dev"
+
+[source]
+url = "https://github.com/skiptools/skip/archive/refs/tags/1.9.21.tar.gz"
+sha256 = "5b46923ed3144d0e5c0db07f6b243be32c323299eac709b4711da5b71d5669b5"
+
+[build]
+system = "autotools"

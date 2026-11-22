@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "liblzf"
+version = "3.6"
+description = "Very small, very fast data compression library"
+homepage = "https://oldhome.schmorp.de/marc/liblzf.html"
+
+[source]
+url = "https://dist.schmorp.de/liblzf/liblzf-3.6.tar.gz"
+sha256 = "9c5de01f7b9ccae40c3f619d26a7abec9986c06c36d260c179cedd04b89fb46a"
+
+[build]
+system = "autotools"

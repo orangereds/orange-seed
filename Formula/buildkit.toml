@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "buildkit"
+version = "0.35.1"
+description = "Concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit"
+homepage = "https://github.com/moby/buildkit"
+
+[source]
+url = "https://github.com/moby/buildkit/archive/refs/tags/v0.35.1.tar.gz"
+sha256 = "ad9726b3270d3c9a4ff16389d527a0ee441880f3dfcf7e52b5e5ce87da7b8b61"
+
+[build]
+system = "autotools"

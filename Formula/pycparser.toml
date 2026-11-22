@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python-setuptools", "python@3.15"]
+
+[package]
+name = "pycparser"
+version = "3.12"
+description = "C parser in Python"
+homepage = "https://github.com/eliben/pycparser"
+
+[source]
+url = "https://files.pythonhosted.org/packages/cb/27/eeb9f307bf07060f3d9f9aa0fb8c15b01bdfded0a941e4b2719c7f94cacd/pycparser-3.12.tar.gz"
+sha256 = "f03387877eab82ce01bbdfd0ba7252ee55a90b1c708d5129e2ce915475cf1db6"
+
+[build]
+system = "autotools"

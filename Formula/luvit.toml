@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libuv", "luajit", "openssl@4", "pcre2"]
+
+[package]
+name = "luvit"
+version = "2.18.1_42"
+description = "Asynchronous I/O for Lua"
+homepage = "https://luvit.io"
+
+[source]
+url = "https://github.com/luvit/luvit/archive/refs/tags/2.18.1.tar.gz"
+sha256 = "b792781d77028edb7e5761e96618c96162bd68747b8fced9a6fc52f123837c2c"
+
+[build]
+system = "cmake"

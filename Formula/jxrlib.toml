@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "jxrlib"
+version = "1.2_git20170615-f752187"
+description = "Tools for JPEG-XR image encoding/decoding"
+homepage = "https://tracker.debian.org/pkg/jxrlib"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/j/jxrlib/jxrlib_1.2~git20170615.f752187.orig.tar.xz"
+sha256 = "3e3c9d3752b0bbf018ed9ce01b43dcd4be866521dc2370dc9221520b5bd440d4"
+
+[build]
+system = "cmake"

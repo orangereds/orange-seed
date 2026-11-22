@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["crystal", "lexbor", "pkgconf", "bdw-gc", "libevent", "libyaml", "openssl@4", "pcre2"]
+
+[package]
+name = "deadfinder"
+version = "2.1.0_1"
+description = "Finds broken links"
+homepage = "https://deadfinder.hahwul.com"
+
+[source]
+url = "https://github.com/hahwul/deadfinder/archive/refs/tags/2.1.0.tar.gz"
+sha256 = "ae2364f33c1b94f9d2183162b6dd42ae33a68dbda970a1e67c9080ee1681c7d9"
+
+[build]
+system = "autotools"

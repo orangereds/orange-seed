@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "yarn", "node"]
+
+[package]
+name = "phoneinfoga"
+version = "2.11.0"
+description = "Information gathering framework for phone numbers"
+homepage = "https://sundowndev.github.io/phoneinfoga/"
+
+[source]
+url = "https://github.com/sundowndev/phoneinfoga/archive/refs/tags/v2.11.0.tar.gz"
+sha256 = "adb3cf459d36c4372b5cab235506afcba24df175eca87bb36539126bb1dbf64e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mmsrip"
+version = "0.7.0"
+description = "Client for the MMS:// protocol"
+homepage = "https://web.archive.org/web/20241016171436/https://nbenoit.tuxfamily.org/index.php?page=MMSRIP"
+
+[source]
+url = "https://web.archive.org/web/20161207201859/https://nbenoit.tuxfamily.org/projects/mmsrip/mmsrip-0.7.0.tar.gz"
+sha256 = "5aed3cf17bfe50e2628561b46e12aec3644cfbbb242d738078e8b8fce6c23ed6"
+
+[build]
+system = "autotools"

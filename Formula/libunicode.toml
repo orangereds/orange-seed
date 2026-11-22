@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "libunicode"
+version = "12"
+description = "Modern C++20 Unicode library"
+homepage = "https://github.com/contour-terminal/libunicode"
+
+[source]
+url = "https://github.com/contour-terminal/libunicode/archive/refs/tags/v0.9.5.tar.gz"
+sha256 = "7c619227c9866ee90c6443a7382df11306619a00c561a76b0a973882bc7b82e2"
+
+[build]
+system = "cmake"

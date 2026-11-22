@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gum"
+version = "2.0.2"
+description = "Tool for glamorous shell scripts"
+homepage = "https://github.com/charmbracelet/gum"
+
+[source]
+url = "https://github.com/charmbracelet/gum/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "06403707671e9b2af386640d8b9f6079efc0aadf77e8f6b091bd191fe16c1264"
+
+[build]
+system = "autotools"

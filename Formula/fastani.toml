@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gsl", "libomp"]
+
+[package]
+name = "fastani"
+version = "1.34"
+description = "Fast whole-genome similarity (ANI) estimation"
+homepage = "https://github.com/ParBLiSS/FastANI"
+
+[source]
+url = "https://github.com/ParBLiSS/FastANI/archive/refs/tags/v1.34.tar.gz"
+sha256 = "dc185cf29b9fa40cdcc2c83bb48150db46835e49b9b64a3dbff8bc4d0f631cb1"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc", "meson", "ninja", "python@3.14", "python@3.15", "openblas"]
+
+[package]
+name = "numpy"
+version = "2.5.5"
+description = "Package for scientific computing with Python"
+homepage = "https://www.numpy.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4e/3a/8770c288c47f0b5c2a786d3c20e79f66fd245f2d42cd232d7cd5e00e83e5/numpy-2.5.5.tar.gz"
+sha256 = "5cddc243c75114ba845f01b1f87aca1572dbf7b6c2d88636ed3e1d2bccd7f1bf"
+
+[build]
+system = "autotools"

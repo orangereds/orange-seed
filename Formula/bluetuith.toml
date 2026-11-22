@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bluetuith"
+version = "0.2.7"
+description = "Cross-platform TUI bluetooth manager"
+homepage = "https://github.com/bluetuith-org/bluetuith"
+
+[source]
+url = "https://github.com/bluetuith-org/bluetuith/archive/refs/tags/v0.2.7.tar.gz"
+sha256 = "9586383c1703dd4e12e81f5f68e5144481aed8fb0526ee046dc3a80558d0f0dc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "czmq", "zeromq"]
+
+[package]
+name = "zyre"
+version = "2.0.1"
+description = "Local Area Clustering for Peer-to-Peer Applications"
+homepage = "https://github.com/zeromq/zyre"
+
+[source]
+url = "https://github.com/zeromq/zyre/releases/download/v2.0.1/zyre-2.0.1.tar.gz"
+sha256 = "0ba43fcdf70fa1f35b068843a90fdf50b34d65a9be7f2c193924a87a4031a98c"
+
+[build]
+system = "autotools"

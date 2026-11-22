@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils", "docbook-xsl", "gettext", "gperf", "libxml2", "libxslt", "meson", "ninja", "pkgconf", "python@3.15", "libxcrypt", "lz4", "openssl@4", "util-linux", "xz", "zstd"]
+
+[package]
+name = "systemd"
+version = "262.2"
+description = "System and service manager"
+homepage = "https://systemd.io"
+
+[source]
+url = "https://github.com/systemd/systemd/archive/refs/tags/v262.2.tar.gz"
+sha256 = "116432ee9dce9bfef4c7da7963c6de41899ab44197f2876ee99545707a5c7c1f"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

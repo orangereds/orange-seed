@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elfutils"]
+
+[package]
+name = "execstack"
+version = "0"
+description = "Utility to set/clear/query executable stack bit"
+homepage = "https://people.redhat.com/jakub/prelink/"
+
+[source]
+url = "https://people.redhat.com/jakub/prelink/prelink-20130503.tar.bz2"
+sha256 = "6339c7605e9b6f414d1be32530c9c8011f38820d36431c8a62e8674ca37140f0"
+
+[build]
+system = "autotools"

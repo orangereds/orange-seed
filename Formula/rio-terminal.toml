@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rio-terminal"
+version = "0.5.32"
+description = "Hardware-accelerated GPU terminal emulator powered by WebGPU"
+homepage = "https://rioterm.com/"
+
+[source]
+url = "https://github.com/raphamorim/rio/archive/refs/tags/v0.5.32.tar.gz"
+sha256 = "04e276bc5613a79cb2826a7fe5439c6a6b4bde8560bfd674d79beb5de61a75ac"
+
+[build]
+system = "autotools"

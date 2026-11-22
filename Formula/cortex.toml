@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cortex"
+version = "1.22.0"
+description = "Long term storage for Prometheus"
+homepage = "https://cortexmetrics.io/"
+
+[source]
+url = "https://github.com/cortexproject/cortex/archive/refs/tags/v1.22.0.tar.gz"
+sha256 = "eebef940dd30baceffc2658da4a5ef85911246dd2abd53e257067131cb97e853"
+
+[service]
+run = "opt/cortex/bin/cortex -config.file=#{etc}/cortex.yaml"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/cortex.log"
+error_log_path = "var/log/cortex.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "fauna-shell"
+version = "4.0.0"
+description = "Interactive shell for FaunaDB"
+homepage = "https://fauna.com/"
+
+[source]
+url = "https://registry.npmjs.org/fauna-shell/-/fauna-shell-4.0.0.tgz"
+sha256 = "6dd5c853c1a62e72d6101741a498b3b9fe4db21e68ec2e024541b488b858c77f"
+
+[build]
+system = "autotools"

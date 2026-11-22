@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libxcb"]
+
+[package]
+name = "xcb-util-wm"
+version = "0.4.2"
+description = "Client and window-manager helpers for EWMH and ICCCM"
+homepage = "https://xcb.freedesktop.org"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-wm-0.4.2.tar.gz"
+sha256 = "dcecaaa535802fd57c84cceeff50c64efe7f2326bf752e16d2b77945649c8cd7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "podman", "python@3.15"]
+
+[package]
+name = "podman-compose"
+version = "0"
+description = "Alternative to docker-compose using podman"
+homepage = "https://github.com/containers/podman-compose"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1f/80/a6ada19562b12ed466dac5c3e02aef5ed7c8d0881864d80e0d94d0dc71f5/podman_compose-1.6.0.tar.gz"
+sha256 = "c83fd9bcbaa635100d581ce52a7a4b712ee0d457481232aff392efe3ebc5a217"
+
+[build]
+system = "autotools"

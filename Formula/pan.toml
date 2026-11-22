@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "pkgconf", "adwaita-icon-theme", "cairo", "enchant", "gdk-pixbuf", "glib", "gmime", "gnutls", "gspell", "gtk+3", "gtkspell3", "harfbuzz", "pango", "at-spi2-core"]
+
+[package]
+name = "pan"
+version = "0.165"
+description = "Usenet newsreader that's good at both text and binaries"
+homepage = "https://gitlab.gnome.org/GNOME/pan"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/pan/-/archive/v0.165/pan-v0.165.tar.bz2"
+sha256 = "0e393f81efe59ec9169cf8b0d519500e4da7c73f8cb3635d2c5c0f98db3bf573"
+
+[build]
+system = "cmake"

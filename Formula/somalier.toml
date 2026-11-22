@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nim", "htslib", "libdeflate", "xz"]
+
+[package]
+name = "somalier"
+version = "0.1.0"
+description = "Relatedness, QC and ancestry checks from BAM/CRAM/VCF"
+homepage = "https://github.com/brentp/somalier"
+
+[source]
+url = "https://github.com/brentp/somalier/archive/refs/tags/v0.3.7.tar.gz"
+sha256 = "d04c1a7f4fe3483664a6e4fa5403ca81e8cbbe7d8d5d75fa5633df8b0ac83fd6"
+
+[build]
+system = "autotools"

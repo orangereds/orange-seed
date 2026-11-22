@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "opentimestamps-client"
+version = "0"
+description = "Create and verify OpenTimestamps proofs"
+homepage = "https://opentimestamps.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/53/d0/f4dafe2577576515fc7b55324c6404cb2008b584c1c7cc29343a2340b59d/opentimestamps_client-0.8.0.tar.gz"
+sha256 = "df8a25be1163bb46b410f6e43e0129ca18427d0d16d2890164a1fda7e5199d1c"
+
+[build]
+system = "autotools"

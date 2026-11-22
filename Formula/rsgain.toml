@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "fmt", "inih", "libebur128", "taglib"]
+
+[package]
+name = "rsgain"
+version = "3.8"
+description = "ReplayGain 2.0 tagging utility"
+homepage = "https://github.com/complexlogic/rsgain"
+
+[source]
+url = "https://github.com/complexlogic/rsgain/archive/refs/tags/v3.8.tar.gz"
+sha256 = "6fb484d9af613167d54fbea60ae647ac1e7baa28b3a9ee4fdfe421601878dfea"
+
+[build]
+system = "cmake"

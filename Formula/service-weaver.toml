@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.23"]
+
+[package]
+name = "service-weaver"
+version = "0.24.6"
+description = "Programming framework for writing and deploying cloud applications"
+homepage = "https://serviceweaver.dev/"
+
+[source]
+url = "https://github.com/ServiceWeaver/weaver/archive/refs/tags/v0.24.6.tar.gz"
+sha256 = "15b34f1539b6a84f8783009a2e8ce98bb12c9a0c0ba70b4ff055e4a8a3406e10"
+
+[build]
+system = "autotools"

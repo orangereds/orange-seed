@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dmenu", "fontconfig", "libx11", "libxft", "libxinerama"]
+
+[package]
+name = "dwm"
+version = "6.8"
+description = "Dynamic window manager"
+homepage = "https://dwm.suckless.org/"
+
+[source]
+url = "https://dl.suckless.org/dwm/dwm-6.8.tar.gz"
+sha256 = "bcf540589ad174d4073f4efa658828411e2f5ba63196cfaf6b71363700f590b7"
+
+[build]
+system = "make"

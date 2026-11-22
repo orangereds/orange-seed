@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "at-spi2-core", "cairo", "enchant", "gdk-pixbuf", "glib", "gtk+3", "harfbuzz", "icu4c@79", "pango", "gettext"]
+
+[package]
+name = "gspell"
+version = "1.14.5_1"
+description = "Flexible API to implement spellchecking in GTK+ applications"
+homepage = "https://gitlab.gnome.org/GNOME/gspell"
+
+[source]
+url = "https://download.gnome.org/sources/gspell/1.14/gspell-1.14.5.tar.xz"
+sha256 = "788783b56fc3d03283b3aa29302d0b958aeca88835e10b1ec61f19e0efc7e8a4"
+
+[build]
+system = "autotools"

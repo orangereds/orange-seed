@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jasper", "jpeg-turbo", "libpng", "libtiff"]
+
+[package]
+name = "netpbm"
+version = "10.86.51"
+description = "Image manipulation"
+homepage = "https://netpbm.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/netpbm/super_stable/10.86.51/netpbm-10.86.51.tgz"
+sha256 = "17d41387e7343da10925690b813ba91c6bd901b417e51500ba4272556a4e5302"
+
+[build]
+system = "autotools"

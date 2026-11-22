@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gops"
+version = "0.3.29"
+description = "Tool to list and diagnose Go processes currently running on your system"
+homepage = "https://github.com/google/gops"
+
+[source]
+url = "https://github.com/google/gops/archive/refs/tags/v0.3.29.tar.gz"
+sha256 = "c4637684ac8efbcc0bc55faf64e3920a7764a9ae8f4580945084c1a5b8b2d051"
+
+[build]
+system = "autotools"

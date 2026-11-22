@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sphinx-doc"]
+
+[package]
+name = "extra-cmake-modules"
+version = "6.32.0"
+description = "Extra modules and scripts for CMake"
+homepage = "https://api.kde.org/ecm/"
+
+[source]
+url = "https://download.kde.org/stable/frameworks/6.32/extra-cmake-modules-6.32.0.tar.xz"
+sha256 = "305f4e2b82eb073be6ac3e50ace85578b3c0c409be262ccc51d445449e3d9312"
+
+[build]
+system = "cmake"

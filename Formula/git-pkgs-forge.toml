@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-pkgs-forge"
+version = "0.11.0"
+description = "Go library and CLI for working with git forges"
+homepage = "https://github.com/git-pkgs/forge"
+
+[source]
+url = "https://github.com/git-pkgs/forge/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "eb3b7ba99ed4e459aa10df347bb95f782106062816833a157a3c2f62a96a4d20"
+
+[build]
+system = "autotools"

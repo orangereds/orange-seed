@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libxcb", "xcb-util"]
+
+[package]
+name = "xcb-util-image"
+version = "0.4.1"
+description = "XCB port of Xlib's XImage and XShmImage"
+homepage = "https://xcb.freedesktop.org"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-image-0.4.1.tar.gz"
+sha256 = "0ebd4cf809043fdeb4f980d58cdcf2b527035018924f8c14da76d1c81001293b"
+
+[build]
+system = "autotools"

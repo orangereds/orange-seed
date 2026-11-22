@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ultralist"
+version = "1.7.0"
+description = "Simple GTD-style task management for the command-line"
+homepage = "https://ultralist.io"
+
+[source]
+url = "https://github.com/gammons/ultralist/archive/refs/tags/1.7.0.tar.gz"
+sha256 = "d4a524c94c1ea4a748711a1187246ed1fd00eaaafd5b8153ad23b42d36485f79"
+
+[build]
+system = "autotools"

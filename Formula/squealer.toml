@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "squealer"
+version = "1.2.12"
+description = "Scans Git repositories or filesystems for secrets in commit histories"
+homepage = "https://github.com/owenrumney/squealer"
+
+[source]
+url = "https://github.com/owenrumney/squealer/archive/refs/tags/v1.2.12.tar.gz"
+sha256 = "c1a431addf696b7fb67d3c144c43293f3c4a7eb40096f7581e55e6525d76b2ea"
+
+[build]
+system = "autotools"

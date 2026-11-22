@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libnet"]
+
+[package]
+name = "arping"
+version = "2.29"
+description = "Utility to check whether MAC addresses are already taken on a LAN"
+homepage = "https://github.com/ThomasHabets/arping"
+
+[source]
+url = "https://github.com/ThomasHabets/arping/archive/refs/tags/arping-2.29.tar.gz"
+sha256 = "387955d6ba8eedcf242bb3784bebf8e40fad39703117e21e02cec12820990a5c"
+
+[build]
+system = "autotools"

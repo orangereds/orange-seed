@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpq", "mariadb-connector-c"]
+
+[package]
+name = "kitchen-sync"
+version = "2.21"
+description = "Fast efficiently sync database without dumping & reloading"
+homepage = "https://github.com/willbryant/kitchen_sync"
+
+[source]
+url = "https://github.com/willbryant/kitchen_sync/archive/refs/tags/v2.21.tar.gz"
+sha256 = "0a2c25001069c90135a91b1cc70c1b9096c3c6e127f6a14f1b45cdbb0c209f09"
+
+[build]
+system = "cmake"

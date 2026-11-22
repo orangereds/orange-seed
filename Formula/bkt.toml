@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bkt"
+version = "0.8.2"
+description = "CLI utility for caching the output of subprocesses"
+homepage = "https://github.com/dimo414/bkt"
+
+[source]
+url = "https://github.com/dimo414/bkt/archive/refs/tags/0.8.2.tar.gz"
+sha256 = "d9128a13070ebc564bcc70210062bdd60eb757fd0f5d075c50e9aa7f714c6562"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pcre2"]
+
+[package]
+name = "fdupes"
+version = "2.4.0"
+description = "Identify or delete duplicate files"
+homepage = "https://github.com/adrianlopezroche/fdupes"
+
+[source]
+url = "https://github.com/adrianlopezroche/fdupes/releases/download/v2.4.0/fdupes-2.4.0.tar.gz"
+sha256 = "527b27a39d031dcbe1d29a220b3423228c28366c2412887eb72c25473d7b1736"
+
+[build]
+system = "autotools"

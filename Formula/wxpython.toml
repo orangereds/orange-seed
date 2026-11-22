@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cython", "doxygen", "python-setuptools", "sip", "numpy", "pillow", "python@3.15", "wxwidgets"]
+
+[package]
+name = "wxpython"
+version = "4.3.2"
+description = "Python bindings for wxWidgets"
+homepage = "https://www.wxpython.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0b/a7/da0cde189c0764e33ddb9f326005596956855de90d889a8025d517396ab6/wxpython-4.3.2.tar.gz"
+sha256 = "5531baa9344488a15081a6b2eaeb67af047d12a814cf657c082360ccc37204fb"
+
+[build]
+system = "autotools"

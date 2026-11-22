@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "ncurses", "openssl@4"]
+
+[package]
+name = "sngrep"
+version = "1.9.0"
+description = "Command-line tool for displaying SIP calls message flows"
+homepage = "https://github.com/irontec/sngrep"
+
+[source]
+url = "https://github.com/irontec/sngrep/releases/download/v1.9.0/sngrep-1.9.0.tar.gz"
+sha256 = "db1d45a27c5682a83ac9caedbca9a0af530c6da744b645d3f9b336d7ad2fc6a9"
+
+[build]
+system = "autotools"

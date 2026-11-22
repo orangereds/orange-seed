@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "csprecon"
+version = "0.5.0"
+description = "Discover new target domains using Content Security Policy"
+homepage = "https://edoardottt.com/"
+
+[source]
+url = "https://github.com/edoardottt/csprecon/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "d5ac261e9afa4a5d84bcacf8583fbbe9e7ced73b4de9f40558b6e046d7e1f258"
+
+[build]
+system = "autotools"

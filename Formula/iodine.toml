@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "iodine"
+version = "0.9.1"
+description = "Tunnel IPv4 traffic through a DNS server"
+homepage = "https://code.kryo.se/iodine"
+
+[source]
+url = "https://github.com/yarrick/iodine/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "9c1017dc9ede3a4300ce3026d98b502897e76ae93072ae5045d97b169516f84b"
+
+[build]
+system = "autotools"

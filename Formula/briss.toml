@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "briss"
+version = "0.9"
+description = "Crop PDF files"
+homepage = "https://briss.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/briss/release%200.9/briss-0.9.tar.gz"
+sha256 = "45dd668a9ceb9cd59529a9fefe422a002ee1554a61be07e6fc8b3baf33d733d9"
+
+[build]
+system = "autotools"

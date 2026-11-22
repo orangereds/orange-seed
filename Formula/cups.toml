@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4"]
+
+[package]
+name = "cups"
+version = "2.4.20-source_1"
+description = "Common UNIX Printing System"
+homepage = "https://github.com/OpenPrinting/cups"
+
+[source]
+url = "https://github.com/OpenPrinting/cups/releases/download/v2.4.20/cups-2.4.20-source.tar.gz"
+sha256 = "ab4d9cd7f3e58060091d2b24972223d6401675f11c49b65abf4f6ef31dea22ff"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

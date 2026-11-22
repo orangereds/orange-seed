@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "leakcanary-shark"
+version = "0"
+description = "CLI Java memory leak explorer for LeakCanary"
+homepage = "https://square.github.io/leakcanary/shark/"
+
+[source]
+url = "https://github.com/square/leakcanary/releases/download/v2.14/shark-cli-2.14.zip"
+sha256 = "4a1022a4610fd6a4a1306b264f95985c4210e169e2bd4b0ad19bbdcc16d6beef"
+
+[build]
+system = "autotools"

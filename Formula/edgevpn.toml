@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "edgevpn"
+version = "0.37.2"
+description = "Immutable, decentralized, statically built p2p VPN"
+homepage = "https://mudler.github.io/edgevpn"
+
+[source]
+url = "https://github.com/mudler/edgevpn/archive/refs/tags/v0.37.2.tar.gz"
+sha256 = "b7bab4833cd651973aa54241d6516f6d91efe97b67f98704634e479e13e7d30c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "intltool", "libtool", "pkgconf", "cairo", "etl", "ffmpeg", "fftw", "fontconfig", "freetype", "fribidi", "glib", "glibmm@2.66", "harfbuzz", "imagemagick", "imath", "libmng", "libpng", "libsigc++@2", "libxml++", "libzip", "mlt", "openexr", "pango", "liblqr", "libomp", "little-cms2"]
+
+[package]
+name = "synfig"
+version = "1.5.5_4"
+description = "Command-line renderer"
+homepage = "https://www.synfig.org/"
+
+[source]
+url = "https://github.com/synfig/synfig/releases/download/v1.5.5/synfig-1.5.5.tar.gz"
+sha256 = "95783c92925bd8ae494e00fdab0340caba9b19d2a0aac989fd8c200434b26f06"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "rust"]
+
+[package]
+name = "fend"
+version = "1.5.9"
+description = "Arbitrary-precision unit-aware calculator"
+homepage = "https://printfn.github.io/fend"
+
+[source]
+url = "https://github.com/printfn/fend/archive/refs/tags/v1.5.9.tar.gz"
+sha256 = "3622b09d197d4be374880f3f97256633d0481e7a3c7da2f69f2cb5141aac1721"
+
+[build]
+system = "autotools"

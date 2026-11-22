@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "djlint"
+version = "1.54.0"
+description = "Lint & Format HTML Templates"
+homepage = "https://djlint.com"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e3/c8/ac99e8a7aafda0561cd89120e6b0c0e6972f79f8c40c6c679ca1da3a1fc3/djlint-1.54.0.tar.gz"
+sha256 = "2086b83e151af72c20595e15d6017469bc69dfb4f832558d7f374a252e99f01b"
+
+[build]
+system = "autotools"

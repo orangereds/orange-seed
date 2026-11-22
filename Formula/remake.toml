@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "remake"
+version = "4.3-1.6"
+description = "GNU Make with improved error handling, tracing, and a debugger"
+homepage = "https://bashdb.sourceforge.net/remake/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bashdb/remake/4.3%2Bdbg-1.6/remake-4.3%2Bdbg-1.6.tar.gz"
+sha256 = "f6a0c6179cd92524ad5dd04787477c0cd45afb5822d977be93d083b810647b87"
+
+[build]
+system = "autotools"

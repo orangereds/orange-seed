@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "progress"
+version = "0.17"
+description = "Coreutils progress viewer"
+homepage = "https://github.com/Xfennec/progress"
+
+[source]
+url = "https://github.com/Xfennec/progress/archive/refs/tags/v0.17.tar.gz"
+sha256 = "ee9538fce98895dcf0d108087d3ee2e13f5c08ed94c983f0218a7a3d153b725d"
+
+[build]
+system = "make"

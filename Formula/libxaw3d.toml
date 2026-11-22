@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "libx11", "libxext", "libxmu", "libxpm", "libxt"]
+
+[package]
+name = "libxaw3d"
+version = "0_1"
+description = "X.Org: 3D Athena widget set based on the Xt library"
+homepage = "https://www.x.org"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXaw3d-1.6.6.tar.gz"
+sha256 = "0cdb8f51c390b0f9f5bec74454e53b15b6b815bc280f6b7c969400c9ef595803"
+
+[build]
+system = "autotools"

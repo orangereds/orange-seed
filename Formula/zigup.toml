@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.14"]
+
+[package]
+name = "zigup"
+version = "2025_05_24"
+description = "Download and manage zig compilers"
+homepage = "https://github.com/marler8997/zigup"
+
+[source]
+url = "https://github.com/marler8997/zigup/archive/refs/tags/v2025_05_24.tar.gz"
+sha256 = "d88e6d9c9629c88aba78c3bae2fb89ae4bea11f2818911f6d5559e7e79bcae69"
+
+[build]
+system = "autotools"

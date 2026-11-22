@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jid"
+version = "1.1.3"
+description = "Json incremental digger"
+homepage = "https://github.com/simeji/jid"
+
+[source]
+url = "https://github.com/simeji/jid/archive/refs/tags/v1.1.3.tar.gz"
+sha256 = "5d1092316e13eb3029a76ffd749cf1ad8642511fe3762f00635feea32d24b7d1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,26 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust", "python@3.15"]
+
+[package]
+name = "influxdb"
+version = "0"
+description = "Time series, events, and metrics database"
+homepage = "https://influxdata.com/time-series-platform/influxdb/"
+
+[source]
+url = "https://github.com/influxdata/influxdb.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/influxdb/bin/influxdb3 serve"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/influxdb/influxdb3.log"
+error_log_path = "var/log/influxdb/influxdb3.log"
+
+[service.env]
+INFLUXDB3_NODE_ID = "default"
+
+[build]
+system = "autotools"

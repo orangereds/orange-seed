@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zellij"
+version = "0.46.0"
+description = "Pluggable terminal workspace, with terminal multiplexer as the base feature"
+homepage = "https://zellij.dev"
+
+[source]
+url = "https://github.com/zellij-org/zellij/archive/refs/tags/v0.46.0.tar.gz"
+sha256 = "2dfa237fea447f3cc98954e81b0097b9d25841010036720e11f67880fe7861f0"
+
+[service]
+run = "opt/zellij/bin/zellij web"
+keep_alive = true
+log_path = "var/log/zellij.log"
+error_log_path = "var/log/zellij.log"
+
+[build]
+system = "autotools"

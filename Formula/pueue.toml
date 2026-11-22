@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pueue"
+version = "4.0.5"
+description = "Command-line tool for managing long-running shell commands"
+homepage = "https://github.com/Nukesor/pueue"
+
+[source]
+url = "https://github.com/Nukesor/pueue/archive/refs/tags/v4.0.5.tar.gz"
+sha256 = "1df97d8253ced4b987adc1f9dcbedb03153380cd8d04eb92f6a76d9340a5cd99"
+
+[service]
+run = "opt/pueue/bin/pueued --verbose"
+working_dir = "var"
+log_path = "var/log/pueued.log"
+error_log_path = "var/log/pueued.log"
+
+[build]
+system = "autotools"

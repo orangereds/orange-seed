@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pk"
+version = "2.0.0"
+description = "Field extractor command-line utility"
+homepage = "https://github.com/johnmorrow/pk"
+
+[source]
+url = "https://github.com/johnmorrow/pk/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "e1d70b683cbf8d1be505e818d91ef07c6938c82affc914eaf88f25d4f81edd56"
+
+[build]
+system = "autotools"

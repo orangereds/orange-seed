@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ios-sim"
+version = "9.0.0"
+description = "Command-line application launcher for the iOS Simulator"
+homepage = "https://github.com/ios-control/ios-sim"
+
+[source]
+url = "https://github.com/ios-control/ios-sim/archive/refs/tags/9.0.0.tar.gz"
+sha256 = "8c72c8c5f9b0682c218678549c08ca01b3ac2685417fc2ab5b4b803d65a21958"
+
+[build]
+system = "autotools"

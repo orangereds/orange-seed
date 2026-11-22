@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libevent"]
+
+[package]
+name = "ocproxy"
+version = "1.60_1"
+description = "User-level SOCKS and port forwarding proxy"
+homepage = "https://github.com/cernekee/ocproxy"
+
+[source]
+url = "https://github.com/cernekee/ocproxy/archive/refs/tags/v1.60.tar.gz"
+sha256 = "a7367647f07df33869e2f79da66b6f104f6495ae806b12a8b8d9ca82fb7899ac"
+
+[build]
+system = "autotools"

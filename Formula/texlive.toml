@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "clisp", "fontconfig", "freetype", "gd", "ghostscript", "gmp", "graphite2", "harfbuzz", "icu4c@79", "jpeg-turbo", "libpng", "libx11", "libxft", "lua", "luajit", "mpfr", "openjdk", "openssl@4", "perl", "pixman", "potrace", "pstoedit", "python@3.15", "tcl-tk"]
+
+[package]
+name = "texlive"
+version = "20260301-source_3"
+description = "Free software distribution for the TeX typesetting system"
+homepage = "https://www.tug.org/texlive/"
+
+[source]
+url = "https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2026/texlive-20260301-source.tar.xz"
+sha256 = "cb120d314d3ceb23ac608af17ddd2c623afcf02331f400a0f25eead5b8ac1d70"
+
+[build]
+system = "autotools"

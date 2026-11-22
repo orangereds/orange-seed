@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "spiffe-helper"
+version = "0.12.3"
+description = "Tool that can be used to retrieve and manage SVIDs on behalf of a workload"
+homepage = "https://github.com/spiffe/spiffe-helper"
+
+[source]
+url = "https://github.com/spiffe/spiffe-helper/archive/refs/tags/v0.12.3.tar.gz"
+sha256 = "c6307f6c25991c9cd2bddec73f4bbee036d29267f2059c43742db4f44fb2dc78"
+
+[build]
+system = "autotools"

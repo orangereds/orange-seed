@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fftw"]
+
+[package]
+name = "itpp"
+version = "4.3.1"
+description = "Library of math, signal, and communication classes and functions"
+homepage = "https://itpp.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/itpp/itpp/4.3.1/itpp-4.3.1.tar.bz2"
+sha256 = "50717621c5dfb5ed22f8492f8af32b17776e6e06641dfe3a3a8f82c8d353b877"
+
+[build]
+system = "cmake"

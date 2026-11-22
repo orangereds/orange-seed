@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-sed", "pkgconf", "gnupg", "libassuan", "libgcrypt", "libgpg-error", "openssl@4"]
+
+[package]
+name = "monkeysphere"
+version = "0.44.orig_10"
+description = "Use the OpenPGP web of trust to verify ssh connections"
+homepage = "https://tracker.debian.org/pkg/monkeysphere"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/monkeysphere/monkeysphere_0.44.orig.tar.gz"
+sha256 = "6ac6979fa1a4a0332cbea39e408b9f981452d092ff2b14ed3549be94918707aa"
+
+[build]
+system = "autotools"

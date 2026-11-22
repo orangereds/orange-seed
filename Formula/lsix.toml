@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["imagemagick", "bash"]
+
+[package]
+name = "lsix"
+version = "1.9.1"
+description = "Shows thumbnails in terminal using sixel graphics"
+homepage = "https://github.com/hackerb9/lsix"
+
+[source]
+url = "https://github.com/hackerb9/lsix/archive/refs/tags/1.9.1.tar.gz"
+sha256 = "310e25389da13c19a0793adcea87f7bc9aa8acc92d9534407c8fbd5227a0e05d"
+
+[build]
+system = "autotools"

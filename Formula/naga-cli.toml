@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "naga-cli"
+version = "30.0.2.crate"
+description = "Shader translation command-line tool"
+homepage = "https://wgpu.rs/"
+
+[source]
+url = "https://static.crates.io/crates/naga-cli/naga-cli-30.0.2.crate"
+sha256 = "473dda3f32f3e73239cc348210f8ad88e52995749f0a7c0ce14093039534b140"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glibmm@2.66"]
+
+[package]
+name = "etl"
+version = "0"
+description = "Extensible Template Library"
+homepage = "https://synfig.org"
+
+[source]
+url = "https://github.com/synfig/synfig/releases/download/v1.5.5/ETL-1.5.5.tar.gz"
+sha256 = "570c898f1c976fac3026866d718ea3f48f8bce1b232ed8cbedc65921c4e3cc25"
+
+[build]
+system = "autotools"

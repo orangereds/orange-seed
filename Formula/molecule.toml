@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ansible", "certifi", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "molecule"
+version = "26.11.0"
+description = "Automated testing for Ansible roles"
+homepage = "https://docs.ansible.com/projects/molecule/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/29/40/126b3198761054132f2ee59f89224428e7a10208b395d985d012c8b15d37/molecule-26.11.0.tar.gz"
+sha256 = "706bb3d9a34e1531cfe1cda294974aad4ccba70af3ecb2d434266e0df73b0c09"
+
+[build]
+system = "autotools"

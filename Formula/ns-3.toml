@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "open-mpi"]
+
+[package]
+name = "ns-3"
+version = "0"
+description = "Discrete-event network simulator"
+homepage = "https://www.nsnam.org/"
+
+[source]
+url = "https://gitlab.com/nsnam/ns-3-dev/-/archive/ns-3.49/ns-3-dev-ns-3.49.tar.gz"
+sha256 = "da24e895f41f7480e3b80fce0f9eca76923de1ea8848b5fb72cdae5b24b94b79"
+
+[build]
+system = "cmake"

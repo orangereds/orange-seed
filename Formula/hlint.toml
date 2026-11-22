@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc@9.12", "gmp"]
+
+[package]
+name = "hlint"
+version = "3.10"
+description = "Haskell source code suggestions"
+homepage = "https://github.com/ndmitchell/hlint"
+
+[source]
+url = "https://hackage.haskell.org/package/hlint-3.10/hlint-3.10.tar.gz"
+sha256 = "d99672337c06b455884ac14418d562701143141d0d7e46af476817c2ae3efe37"
+
+[build]
+system = "autotools"

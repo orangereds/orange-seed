@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "paml"
+version = "4.10.10"
+description = "Phylogenetic analyses of DNA or protein sequences using maximum likelihood"
+homepage = "https://github.com/abacus-gene/paml"
+
+[source]
+url = "https://github.com/abacus-gene/paml/archive/refs/tags/v4.10.10.tar.gz"
+sha256 = "173e8754ad78000371099a96910f2c72b03a7b7b13c717405dc23385ae2f2c0f"
+
+[build]
+system = "autotools"

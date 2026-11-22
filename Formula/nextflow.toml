@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@25"]
+
+[package]
+name = "nextflow"
+version = "26.10.7"
+description = "Reproducible scientific workflows"
+homepage = "https://nextflow.io"
+
+[source]
+url = "https://github.com/nextflow-io/nextflow/archive/refs/tags/v26.10.7.tar.gz"
+sha256 = "2c81e696ed514642d6064ca38e1bb357829844e65db615faab1b07fda710f72b"
+
+[build]
+system = "autotools"

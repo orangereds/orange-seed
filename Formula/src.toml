@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "rcs"]
+
+[package]
+name = "src"
+version = "1.46"
+description = "Simple revision control: RCS reloaded with a modern UI"
+homepage = "http://www.catb.org/~esr/src/"
+
+[source]
+url = "https://gitlab.com/esr/src/-/archive/1.46/src-1.46.tar.bz2"
+sha256 = "272f145f13d659283ec66ae832798c8ae1ec1ee384638091b76a5231e1a0b439"
+
+[build]
+system = "autotools"

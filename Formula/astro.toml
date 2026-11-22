@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "podman"]
+
+[package]
+name = "astro"
+version = "1.47.0"
+description = "To build and run Airflow DAGs locally and interact with the Astronomer API"
+homepage = "https://www.astronomer.io/"
+
+[source]
+url = "https://github.com/astronomer/astro-cli/archive/refs/tags/v1.47.0.tar.gz"
+sha256 = "d0b7363c415507c77aade69b070490b84c9e4df35f972f77714ddf8d733bb16d"
+
+[build]
+system = "autotools"

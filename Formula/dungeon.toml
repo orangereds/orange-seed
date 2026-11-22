@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc"]
+
+[package]
+name = "dungeon"
+version = "4.1_3"
+description = "Classic text adventure game"
+homepage = "https://github.com/GOFAI/dungeon"
+
+[source]
+url = "https://github.com/GOFAI/dungeon/archive/refs/tags/4.1.tar.gz"
+sha256 = "b88c49ef60e908e8611257fbb5a6a41860e1058760df2dfcb7eb141eb34e198b"
+
+[build]
+system = "autotools"

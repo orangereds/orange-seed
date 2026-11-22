@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "openssl@4"]
+
+[package]
+name = "sem-cli"
+version = "0.30.1"
+description = "Semantic version control CLI with entity-level diffs and blame"
+homepage = "https://ataraxy-labs.github.io/sem/"
+
+[source]
+url = "https://github.com/Ataraxy-Labs/sem/archive/refs/tags/v0.30.1.tar.gz"
+sha256 = "6222e5f74b6694c16154f2585b8bd9964010befabf1ee916d55af8a459b31dfe"
+
+[build]
+system = "autotools"

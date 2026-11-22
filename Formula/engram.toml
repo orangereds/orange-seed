@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "engram"
+version = "3.7.2"
+description = "Persistent memory system for AI coding agents"
+homepage = "https://engram.gentlemanprogramming.com/"
+
+[source]
+url = "https://github.com/Gentleman-Programming/engram/archive/refs/tags/v3.7.2.tar.gz"
+sha256 = "a30998518af97f6a1d00b027e38b3738954cac341d6eb21c96089f929d1ff2ff"
+
+[build]
+system = "autotools"

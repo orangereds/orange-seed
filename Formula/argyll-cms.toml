@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo", "libpng", "libtiff", "openssl@4"]
+
+[package]
+name = "argyll-cms"
+version = "0"
+description = "ICC compatible color management system"
+homepage = "https://www.argyllcms.com/"
+
+[source]
+url = "https://www.argyllcms.com/Argyll_V3.5.0_src.zip"
+sha256 = "f8576ce5589fd15620abb73ff049ea31f55ddbd1bba6d1ffa87452658e7bc85f"
+
+[build]
+system = "autotools"

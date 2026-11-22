@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gtk4", "meson", "ninja", "pkgconf", "librsvg"]
+
+[package]
+name = "adwaita-icon-theme"
+version = "51.0"
+description = "Icons for the GNOME project"
+homepage = "https://developer.gnome.org"
+
+[source]
+url = "https://download.gnome.org/sources/adwaita-icon-theme/51/adwaita-icon-theme-51.0.tar.xz"
+sha256 = "ba561cf3c96305a47179fa5605856ad695c9238ea07f7093aebd9ba80c4e323b"
+
+[build]
+system = "autotools"

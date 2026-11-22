@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "commitlint"
+version = "21.2.4"
+description = "Lint commit messages according to a commit convention"
+homepage = "https://commitlint.js.org/#/"
+
+[source]
+url = "https://registry.npmjs.org/commitlint/-/commitlint-21.2.4.tgz"
+sha256 = "2943f4661aefbe10ccdb2a5da1b795e92b475a821eece7a687094a100619b4b6"
+
+[build]
+system = "autotools"

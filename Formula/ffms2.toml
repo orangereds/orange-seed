@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "python@3.15", "vapoursynth", "ffmpeg"]
+
+[package]
+name = "ffms2"
+version = "5.0_6"
+description = "Libav/ffmpeg based source library and Avisynth plugin"
+homepage = "https://github.com/FFMS/ffms2"
+
+[source]
+url = "https://github.com/FFMS/ffms2/archive/refs/tags/5.0.tar.gz"
+sha256 = "7770af0bbc0063f9580a6a5c8e7c51f1788f171d7da0b352e48a1e60943a8c3c"
+
+[build]
+system = "autotools"

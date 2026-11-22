@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bdw-gc"]
+
+[package]
+name = "vlang"
+version = "0.5.2"
+description = "V programming language"
+homepage = "https://vlang.io"
+
+[source]
+url = "https://github.com/vlang/v/archive/refs/tags/0.5.2.tar.gz"
+sha256 = "1a05f646fba9516ec6307979b282d0cc5327075bef268d40c0ca7d0b887e4f52"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "isl", "libmpc", "m68k-elf-binutils", "mpfr", "zstd"]
+
+[package]
+name = "m68k-elf-gcc"
+version = "0"
+description = "GNU compiler collection m68k-elf"
+homepage = "https://gcc.gnu.org"
+
+[source]
+url = "https://ftpmirror.gnu.org/gcc/gcc-16.2.0/gcc-16.2.0.tar.xz"
+sha256 = "e6738e29597f733270731aa90600f37ffdc045079dfc27ec7e8192cc81085c3e"
+
+[build]
+system = "autotools"

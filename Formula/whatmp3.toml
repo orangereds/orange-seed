@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["flac", "lame", "mktorrent"]
+
+[package]
+name = "whatmp3"
+version = "3.9"
+description = "Small script to create mp3 torrents out of FLACs"
+homepage = "https://github.com/RecursiveForest/whatmp3"
+
+[source]
+url = "https://github.com/RecursiveForest/whatmp3/archive/refs/tags/v3.9.tar.gz"
+sha256 = "4ee468ff5a380c3ee4dbfadfd25ac76797ac63203b21588a997f339e124559f4"
+
+[build]
+system = "make"

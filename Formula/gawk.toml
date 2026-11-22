@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "mpfr", "readline", "gettext"]
+
+[package]
+name = "gawk"
+version = "5.4.2"
+description = "GNU awk utility"
+homepage = "https://www.gnu.org/software/gawk/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gawk/gawk-5.4.2.tar.xz"
+sha256 = "b95e4909533b5f988c6b5e5539b3b3ddf76e7d7df02ca2e5b5b7d6f62db78e6a"
+
+[build]
+system = "autotools"

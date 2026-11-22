@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "fontconfig", "freetype", "libx11", "libxrender"]
+
+[package]
+name = "libxft"
+version = "0"
+description = "X.Org: X FreeType library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXft-2.3.9.tar.xz"
+sha256 = "60a25b78945ed6932635b3bb1899a517d31df7456e69867ffba27f89ff3976f5"
+
+[build]
+system = "autotools"

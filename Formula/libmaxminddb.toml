@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "libmaxminddb"
+version = "1.14.1"
+description = "C library for the MaxMind DB file format"
+homepage = "https://maxmind.github.io/libmaxminddb/"
+
+[source]
+url = "https://github.com/maxmind/libmaxminddb/releases/download/1.14.1/libmaxminddb-1.14.1.tar.gz"
+sha256 = "ca5c87d41339f8bc4daabb53e8a9356b3c995f2d2419b85d7bff823b2ecc252d"
+
+[build]
+system = "autotools"

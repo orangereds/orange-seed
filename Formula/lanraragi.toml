@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cpanminus", "pkgconf", "ghostscript", "imagemagick", "libarchive", "libffi", "node", "openssl@4", "perl", "redis", "zstd"]
+
+[package]
+name = "lanraragi"
+version = "0"
+description = "Web application for archival and reading of manga/doujinshi"
+homepage = "https://lrr.tvc-16.science"
+
+[source]
+url = "https://github.com/Difegue/LANraragi/archive/refs/tags/v.0.9.82.tar.gz"
+sha256 = "e511e963d419469a7a296495d06c54541916efb922369b409f314600723e7bd7"
+
+[build]
+system = "autotools"

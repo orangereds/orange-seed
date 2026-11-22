@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libx11"]
+
+[package]
+name = "xlispstat"
+version = "3.52.23_1"
+description = "Statistical data science environment based on Lisp"
+homepage = "https://homepage.stat.uiowa.edu/~luke/xls/xlsinfo/"
+
+[source]
+url = "https://homepage.cs.uiowa.edu/~luke/xls/xlispstat/current/xlispstat-3-52-23.tar.gz"
+sha256 = "9bf165eb3f92384373dab34f9a56ec8455ff9e2bf7dff6485e807767e6ce6cf4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "beagle", "openjdk"]
+
+[package]
+name = "beast"
+version = "10.6.0"
+description = "Bayesian Evolutionary Analysis Sampling Trees"
+homepage = "https://beast.community/"
+
+[source]
+url = "https://github.com/beast-dev/beast-mcmc/archive/refs/tags/v10.6.0.tar.gz"
+sha256 = "1b012f15d90438a532950e5156ba495f763157478edd46853b763ac53a0831af"
+
+[build]
+system = "autotools"

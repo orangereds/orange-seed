@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "autojump"
+version = "0_3"
+description = "Shell extension to jump to frequently used directories"
+homepage = "https://github.com/wting/autojump"
+
+[source]
+url = "https://github.com/wting/autojump/archive/refs/tags/release-v22.5.3.tar.gz"
+sha256 = "00daf3698e17ac3ac788d529877c03ee80c3790472a85d0ed063ac3a354c37b1"
+
+[build]
+system = "autotools"

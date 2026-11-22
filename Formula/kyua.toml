@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "atf", "lua", "lutok"]
+
+[package]
+name = "kyua"
+version = "0.15.2"
+description = "Testing framework for infrastructure software"
+homepage = "https://github.com/freebsd/kyua"
+
+[source]
+url = "https://github.com/freebsd/kyua/releases/download/kyua-0.15.2/kyua-0.15.2.tar.gz"
+sha256 = "469499eab896790a46b2083dfe89f09c8cad3bf79ce45848619a61f287b68837"
+
+[build]
+system = "autotools"

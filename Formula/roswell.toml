@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "roswell"
+version = "26.10.119"
+description = "Lisp installer and launcher for major environments"
+homepage = "https://github.com/roswell/roswell"
+
+[source]
+url = "https://github.com/roswell/roswell/archive/refs/tags/v26.10.119.tar.gz"
+sha256 = "211c99ab4e077c5ba3d3fc43e095c31a2f0706bdde26664b2981095d01296a39"
+
+[build]
+system = "autotools"

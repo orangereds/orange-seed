@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "nuxi"
+version = "4.0.3"
+description = "Nuxt CLI (nuxi) for creating and managing Nuxt projects"
+homepage = "https://github.com/nuxt/cli"
+
+[source]
+url = "https://registry.npmjs.org/nuxi/-/nuxi-4.0.3.tgz"
+sha256 = "105b33031536605ab6651b01d501eafcf0f97aa865b980975c05100a04801587"
+
+[build]
+system = "autotools"

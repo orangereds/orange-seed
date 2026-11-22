@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "clair"
+version = "4.8.0"
+description = "Vulnerability Static Analysis for Containers"
+homepage = "https://quay.github.io/clair/"
+
+[source]
+url = "https://github.com/quay/clair/archive/refs/tags/v4.8.0.tar.gz"
+sha256 = "354cfddb1e4594fd5982fdf55096f8b0e19649bcc5024156170a409aabcf3081"
+
+[build]
+system = "autotools"

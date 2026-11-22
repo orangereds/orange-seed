@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "signify-osx"
+version = "1.4"
+description = "Cryptographically sign and verify files"
+homepage = "https://man.openbsd.org/signify.1"
+
+[source]
+url = "https://github.com/jpouellet/signify-osx/archive/refs/tags/1.4.tar.gz"
+sha256 = "5aa954fe6c54f2fc939771779e5bb64298e46d0a4ae3d08637df44c7ed8d2897"
+
+[build]
+system = "make"

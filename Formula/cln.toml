@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "wget", "texinfo", "gmp"]
+
+[package]
+name = "cln"
+version = "1.3.7"
+description = "Class Library for Numbers"
+homepage = "https://www.ginac.de/CLN/"
+
+[source]
+url = "https://www.ginac.de/CLN/cln-1.3.7.tar.bz2"
+sha256 = "7c7ed8474958337e4df5bb57ea5176ad0365004cbb98b621765bc4606a10d86b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "aom", "aribb24", "dav1d", "fontconfig", "freetype", "frei0r", "gnutls", "harfbuzz", "jpeg-xl", "lame", "libass", "libbluray", "librist", "libsoxr", "libssh", "libvidstab", "libvmaf", "libvorbis", "libvpx", "libx11", "libxcb", "opencore-amr", "openjpeg", "opus", "rav1e", "rubberband", "sdl2-compat", "snappy", "speex", "srt", "svt-av1", "tesseract", "theora", "webp", "x264", "x265", "xvid", "xz", "zeromq", "zimg", "libarchive", "libogg", "libsamplerate", "nasm"]
+
+[package]
+name = "ffmpeg@7"
+version = "0_4"
+description = "Play, record, convert, and stream audio and video"
+homepage = "https://ffmpeg.org/"
+
+[source]
+url = "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz"
+sha256 = "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

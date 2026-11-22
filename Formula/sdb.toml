@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "vala", "glib"]
+
+[package]
+name = "sdb"
+version = "2.6.2"
+description = "Ondisk/memory hashtable based on CDB"
+homepage = "https://www.radare.org/"
+
+[source]
+url = "https://github.com/radareorg/sdb/archive/refs/tags/2.6.2.tar.gz"
+sha256 = "ca634db0bc0f85f1e65b05c576b791905422426df0f0a6d99cd4d0e1a40b1e8a"
+
+[build]
+system = "autotools"

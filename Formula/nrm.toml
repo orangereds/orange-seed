@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "nrm"
+version = "2.1.0"
+description = "NPM registry manager, fast switch between different registries"
+homepage = "https://github.com/Pana/nrm"
+
+[source]
+url = "https://registry.npmjs.org/nrm/-/nrm-2.1.0.tgz"
+sha256 = "cdad289ac8e72878ab72575ee61551b5d1cb6334097d6904f5ce30603ae5c74f"
+
+[build]
+system = "autotools"

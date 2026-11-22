@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "hwloc", "libevent"]
+
+[package]
+name = "pmix"
+version = "6.1.0"
+description = "Process Management Interface for HPC environments"
+homepage = "https://openpmix.org/"
+
+[source]
+url = "https://github.com/openpmix/openpmix/releases/download/v6.1.0/pmix-6.1.0.tar.bz2"
+sha256 = "bb9021c8e100a376f5070ecca727f83a29b5f652dfe381793b88daa79a3b98a2"
+
+[build]
+system = "autotools"

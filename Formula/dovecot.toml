@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "lua", "openldap", "openssl@4"]
+
+[package]
+name = "dovecot"
+version = "2.4.5_1"
+description = "IMAP/POP3 server"
+homepage = "https://dovecot.org/"
+
+[source]
+url = "https://dovecot.org/releases/2.4/dovecot-2.4.5.tar.gz"
+sha256 = "868c2686a61b5f8e00a3e4721789b1ab46e6528fd773a5fbed07a6ecba7731e6"
+
+[service]
+run = "dovecot -F"
+log_path = "var/log/dovecot/dovecot.log"
+error_log_path = "var/log/dovecot/dovecot.log"
+
+[build]
+system = "autotools"

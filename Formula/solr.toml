@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "solr"
+version = "0"
+description = "Enterprise search platform from the Apache Lucene project"
+homepage = "https://solr.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=solr/solr/10.1.0/solr-10.1.0.tgz"
+sha256 = "67c2303404fbce6ca12e82b1f88bde74359b0068a0c882b1046dfb06f9671c38"
+
+[service]
+run = "opt/solr/bin/solr start -f --user-managed --solr-home var/lib/solr"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

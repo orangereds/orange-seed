@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup", "libgit2", "libssh2", "openssl@4"]
+
+[package]
+name = "cargo-clone"
+version = "1.2.4_1"
+description = "Cargo subcommand to fetch the source code of a Rust crate"
+homepage = "https://github.com/JanLikar/cargo-clone"
+
+[source]
+url = "https://github.com/JanLikar/cargo-clone/archive/refs/tags/v1.2.4.tar.gz"
+sha256 = "58e86bd3440fc103572f6d8ff20ff1f99cf1e676cddb29975f204a9cb03f5b14"
+
+[build]
+system = "autotools"

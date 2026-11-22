@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpcap", "openssl@4"]
+
+[package]
+name = "tcpdump"
+version = "4.99.7"
+description = "Command-line packet analyzer"
+homepage = "https://www.tcpdump.org/"
+
+[source]
+url = "https://www.tcpdump.org/release/tcpdump-4.99.7.tar.gz"
+sha256 = "8be364e28d3b745ef1459b385cd2f4bc0e1ebad7a5d2ebdf70071d6c9b5b9a54"
+
+[build]
+system = "autotools"

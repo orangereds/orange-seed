@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["grep"]
+
+[package]
+name = "tofuenv"
+version = "1.0.7"
+description = "OpenTofu version manager inspired by tfenv"
+homepage = "https://tofuutils.github.io/tofuenv/"
+
+[source]
+url = "https://github.com/tofuutils/tofuenv/archive/refs/tags/v1.0.7.tar.gz"
+sha256 = "047c6a01a0d4c7ded2cf126ae1e891bb3479b2544ec2d2f0d3951de2d08f6c7d"
+
+[build]
+system = "autotools"

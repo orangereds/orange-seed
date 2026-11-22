@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["exiftool", "ffmpeg", "gdk-pixbuf", "librsvg", "poppler", "py3cairo", "pygobject3", "python@3.15"]
+
+[package]
+name = "mat2"
+version = "0.15.0"
+description = "Metadata anonymization toolkit"
+homepage = "https://github.com/jvoisin/mat2"
+
+[source]
+url = "https://files.pythonhosted.org/packages/01/3d/53616b3b1070f284a196147360f3a6179fb08d0362e7cee8c41d91c834c8/mat2-0.15.0.tar.gz"
+sha256 = "0732df32ebbd800e3a680339fa049c96624e59430c9ddbf4136ad82459ef6231"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "blogc"
+version = "0.20.1"
+description = "Blog compiler with template engine and markup language"
+homepage = "https://blogc.rgm.io/"
+
+[source]
+url = "https://github.com/blogc/blogc/releases/download/v0.20.1/blogc-0.20.1.tar.xz"
+sha256 = "d1289367362b7b11b438670fe703ff2c751e795393c06e1999d6b9a6e438fdd8"
+
+[build]
+system = "autotools"

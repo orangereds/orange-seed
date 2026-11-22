@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gickup"
+version = "0.10.47"
+description = "Backup all your repositories with Ease"
+homepage = "https://cooperspencer.github.io/gickup-documentation/"
+
+[source]
+url = "https://github.com/cooperspencer/gickup/archive/refs/tags/v0.10.47.tar.gz"
+sha256 = "ad7ef9de7c55e6f3822326120cb7a823a69bb966489c105bfc4e2ece673a412c"
+
+[build]
+system = "autotools"

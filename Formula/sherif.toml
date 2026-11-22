@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sherif"
+version = "1.13.0"
+description = "Opinionated, zero-config linter for JavaScript monorepos"
+homepage = "https://github.com/QuiiBz/sherif"
+
+[source]
+url = "https://github.com/QuiiBz/sherif/archive/refs/tags/v1.13.0.tar.gz"
+sha256 = "5d5f97533ecce6fc0abce023f7e6bf6490d4c4cd8042691a4ea44cd83cd0fa6d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor"]
+
+[package]
+name = "wumpus"
+version = "1.12"
+description = "Exact clone of the ancient BASIC Hunt the Wumpus game"
+homepage = "http://www.catb.org/~esr/wumpus/"
+
+[source]
+url = "https://gitlab.com/esr/wumpus/-/archive/1.12/wumpus-1.12.tar.bz2"
+sha256 = "0963a7690e0e739f757d59dc1df07083fa96d3a27d800d571a1977a6d0fa48ef"
+
+[build]
+system = "autotools"

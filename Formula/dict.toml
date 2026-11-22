@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtool", "libmaa"]
+
+[package]
+name = "dict"
+version = "0"
+description = "Dictionary Server Protocol (RFC2229) client"
+homepage = "https://dict.org/bin/Dict"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dict/dictd/dictd-1.13.3/dictd-1.13.3.tar.gz"
+sha256 = "192129dfb38fa723f48a9586c79c5198fc4904fec1757176917314dd073f1171"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "signmykey"
+version = "0.8.9"
+description = "Automated SSH Certificate Authority"
+homepage = "https://signmykey.io/"
+
+[source]
+url = "https://github.com/signmykeyio/signmykey/archive/refs/tags/v0.8.9.tar.gz"
+sha256 = "106a3a3d07aa2841d280ab378ce382a2bfca10101080936e2b02c4cc4e7d7392"
+
+[build]
+system = "autotools"

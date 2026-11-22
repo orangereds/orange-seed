@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@21"]
+
+[package]
+name = "parquet-cli"
+version = "0"
+description = "Apache Parquet command-line tools and utilities"
+homepage = "https://parquet.apache.org/"
+
+[source]
+url = "https://github.com/apache/parquet-java/archive/refs/tags/apache-parquet-1.18.2.tar.gz"
+sha256 = "713252b84a1a1efb19bdaef1a36e8c2f49b7f2b4edc881f63f37e081a31c0938"
+
+[build]
+system = "autotools"

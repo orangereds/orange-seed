@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["glow"]
+
+[package]
+name = "xdg-ninja"
+version = "0.2.0.2"
+description = "Check your $HOME for unwanted files and directories"
+homepage = "https://github.com/b3nj5m1n/xdg-ninja"
+
+[source]
+url = "https://github.com/b3nj5m1n/xdg-ninja/archive/refs/tags/v0.2.0.2.tar.gz"
+sha256 = "6adfe289821b6b5e3778130e0d1fd1851398e3bce51ddeed6c73e3eddcb806c6"
+
+[build]
+system = "autotools"

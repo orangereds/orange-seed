@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "riff"
+version = "3.7.0"
+description = "Diff filter highlighting which line parts have changed"
+homepage = "https://github.com/walles/riff"
+
+[source]
+url = "https://github.com/walles/riff/archive/refs/tags/3.7.0.tar.gz"
+sha256 = "996d3037788c971fde859720557a04b6910e68b887e058df037a868fddad726b"
+
+[build]
+system = "autotools"

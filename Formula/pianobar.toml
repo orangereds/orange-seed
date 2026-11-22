@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ffmpeg", "json-c", "libao", "libgcrypt"]
+
+[package]
+name = "pianobar"
+version = "2024.12.21_2"
+description = "Command-line player for https://pandora.com"
+homepage = "https://6xq.net/pianobar/"
+
+[source]
+url = "https://6xq.net/pianobar/pianobar-2024.12.21.tar.bz2"
+sha256 = "16f4dd2d64da38690946a9670e59bc72a789cf6a323f792e159bb3a39cf4a7f5"
+
+[build]
+system = "make"

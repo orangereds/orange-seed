@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rip2"
+version = "0.9.7"
+description = "Safe and ergonomic alternative to rm"
+homepage = "https://github.com/MilesCranmer/rip2"
+
+[source]
+url = "https://github.com/MilesCranmer/rip2/archive/refs/tags/v0.9.7.tar.gz"
+sha256 = "8f3dbd77775e4b632e99eff6cd3b0ac4e9f886d7e879d8648484cf3e7d0e0cee"
+
+[build]
+system = "autotools"

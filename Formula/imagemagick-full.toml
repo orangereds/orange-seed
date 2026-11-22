@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "fontconfig", "freetype", "ghostscript", "glib", "jpeg-turbo", "jpeg-xl", "libheif", "liblqr", "libpng", "libraw", "librsvg", "libtiff", "libtool", "libultrahdr", "libzip", "little-cms2", "openexr", "openjpeg", "webp", "xz", "gdk-pixbuf", "gettext", "imath", "libomp"]
+
+[package]
+name = "imagemagick-full"
+version = "0"
+description = "Tools and libraries to manipulate images in many formats"
+homepage = "https://imagemagick.org"
+
+[source]
+url = "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-36/ImageMagick-7.1.2-36.7z"
+sha256 = "a954685c1272e629cae8c546338309430851fee0878a7c3d7b9eaa5f6efb495c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

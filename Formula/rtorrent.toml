@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "libtool", "pkgconf", "libtorrent-rakshasa", "xmlrpc-c"]
+
+[package]
+name = "rtorrent"
+version = "0.16.28"
+description = "Ncurses BitTorrent client based on libtorrent-rakshasa"
+homepage = "https://github.com/rakshasa/rtorrent"
+
+[source]
+url = "https://github.com/rakshasa/rtorrent/releases/download/v0.16.28/rtorrent-0.16.28.tar.gz"
+sha256 = "5b668c625c45fb452018c27480e1a01ccbc33d850cb109209966651dabec207a"
+
+[build]
+system = "autotools"

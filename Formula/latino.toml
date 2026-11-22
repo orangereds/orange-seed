@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "latino"
+version = "0"
+description = "Open source programming language for Latinos and Hispanic speakers"
+homepage = "https://www.lenguajelatino.org/"
+
+[source]
+url = "https://github.com/lenguaje-latino/latino.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

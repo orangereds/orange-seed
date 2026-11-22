@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "cbfmt"
+version = "0.2.0"
+description = "Format codeblocks inside markdown and org documents"
+homepage = "https://github.com/lukas-reineke/cbfmt"
+
+[source]
+url = "https://github.com/lukas-reineke/cbfmt/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "42973e9b1e95f4f3d7e72ef17a41333dab1e04d3d91c7930aabfc08f72c14126"
+
+[build]
+system = "autotools"

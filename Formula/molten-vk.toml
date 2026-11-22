@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "molten-vk"
+version = "6c09849fe88c48eaed08413aa022aaa136a3a057"
+description = "Implementation of the Vulkan graphics and compute API on top of Metal"
+homepage = "https://github.com/KhronosGroup/MoltenVK"
+
+[source]
+url = "https://github.com/KhronosGroup/MoltenVK/archive/refs/tags/v1.4.2.tar.gz"
+sha256 = "6864db532f1dbbdb621a8d0ec13f24edae318fd9269dd3dd0cdff791334bb1cb"
+
+[build]
+system = "autotools"

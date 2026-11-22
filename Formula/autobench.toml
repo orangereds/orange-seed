@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["httperf"]
+
+[package]
+name = "autobench"
+version = "2.1.2"
+description = "Automatic webserver benchmark tool"
+homepage = "https://web.archive.org/web/20260501190636/http://www.xenoclast.org/autobench/"
+
+[source]
+url = "https://distfiles.macports.org/autobench/autobench-2.1.2.tar.gz"
+sha256 = "d8b4d30aaaf652df37dff18ee819d8f42751bc40272d288ee2a5d847eaf0423b"
+
+[build]
+system = "make"

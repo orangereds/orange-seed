@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "kotofetch"
+version = "0.2.23"
+description = "Small, configurable CLI that displays Japanese quotes in the terminal"
+homepage = "https://github.com/hxpe-dev/kotofetch"
+
+[source]
+url = "https://github.com/hxpe-dev/kotofetch/archive/refs/tags/v0.2.23.tar.gz"
+sha256 = "19afeff83d166bb31410b2fd7c69b12468f918534f22a435ce2e6e3b620d5594"
+
+[build]
+system = "autotools"

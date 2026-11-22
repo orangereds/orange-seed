@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "pygit2", "python@3.15"]
+
+[package]
+name = "literate-git"
+version = "0"
+description = "Render hierarchical git repositories into HTML"
+homepage = "https://github.com/bennorth/literate-git"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3f/83/8891468bd2e70fdd89e50bcdb5249adfca85fa29d08b99a97e0a899d2044/literategit-0.5.6.tar.gz"
+sha256 = "9cdb07088fe7be59d4f24239b90b9c041d8c2c42de7af3c53681e8272f9010b6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mlton", "gmp"]
+
+[package]
+name = "smlpkg"
+version = "0.1.7"
+description = "Package manager for Standard ML libraries and programs"
+homepage = "https://github.com/diku-dk/smlpkg"
+
+[source]
+url = "https://github.com/diku-dk/smlpkg/archive/refs/tags/v0.1.7.tar.gz"
+sha256 = "61940ff900196b440d2b2adbae3b59512336b26d25a5259f7df4c9b521bbf1d3"
+
+[build]
+system = "autotools"

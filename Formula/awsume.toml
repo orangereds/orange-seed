@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "awsume"
+version = "4.5.5_2"
+description = "Utility for easily assuming AWS IAM roles from the command-line"
+homepage = "https://awsu.me"
+
+[source]
+url = "https://github.com/trek10inc/awsume/archive/refs/tags/4.5.5.tar.gz"
+sha256 = "33946d1dbd62394024b1d11c09aeb1eb566981b99e0d8eed5255b948e74ccebc"
+
+[build]
+system = "autotools"

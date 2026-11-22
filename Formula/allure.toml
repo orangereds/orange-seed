@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "allure"
+version = "0"
+description = "Flexible lightweight test report tool"
+homepage = "https://allurereport.org/"
+
+[source]
+url = "https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline/2.46.2/allure-commandline-2.46.2.zip"
+sha256 = "43da085ce226c239c886d2818e4eec7be2a9a09ac0f3f42a6b092cdb27be696e"
+
+[build]
+system = "autotools"

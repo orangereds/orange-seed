@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "hiredis"
+version = "1.5.1"
+description = "Minimalistic client for Redis"
+homepage = "https://github.com/redis/hiredis"
+
+[source]
+url = "https://github.com/redis/hiredis/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "f5ec19151c0f4f15ca018c22b17b6f6739a672a4fc0c085b692aef69a154ebef"
+
+[build]
+system = "make"

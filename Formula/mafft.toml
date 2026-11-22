@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mafft"
+version = "0"
+description = "Multiple alignments with fast Fourier transforms"
+homepage = "https://mafft.cbrc.jp/alignment/software/"
+
+[source]
+url = "https://gitlab.com/sysimm/mafft.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "make"

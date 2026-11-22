@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "graphviz", "python@3.15"]
+
+[package]
+name = "eralchemy"
+version = "1.7.0_1"
+description = "Simple entity relation (ER) diagrams generation"
+homepage = "https://github.com/eralchemy/eralchemy"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1b/cc/d41f21c662b244efedabac91705834c59dcf43b09e74dbc2b5ff32ea8b1c/eralchemy-1.7.0.tar.gz"
+sha256 = "926376fdab2e1ca8eec05698c457d17718ed1458fa574b67e815c43ae52b377a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "pcre2", "serd", "zix"]
+
+[package]
+name = "sord"
+version = "0.16.22"
+description = "C library for storing RDF data in memory"
+homepage = "https://drobilla.net/software/sord.html"
+
+[source]
+url = "https://download.drobilla.net/sord-0.16.22.tar.xz"
+sha256 = "bb23b34b216579136795d518cffa73d91cf205594ce9accebfd408afb839173f"
+
+[build]
+system = "autotools"

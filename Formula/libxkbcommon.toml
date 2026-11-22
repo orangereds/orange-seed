@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "pkgconf", "libxcb", "xkeyboard-config"]
+
+[package]
+name = "libxkbcommon"
+version = "0"
+description = "Keyboard handling library"
+homepage = "https://xkbcommon.org/"
+
+[source]
+url = "https://github.com/xkbcommon/libxkbcommon/archive/refs/tags/xkbcommon-1.13.2.tar.gz"
+sha256 = "acc4d5f7c3cbba5f9f8d08d8bdbeede84ecede46792f47929aa9321873385528"
+
+[build]
+system = "autotools"

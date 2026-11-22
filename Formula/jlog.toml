@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "jlog"
+version = "2.6.0"
+description = "Pure C message queue with subscribers and publishers for logs"
+homepage = "https://labs.omniti.com/labs/jlog"
+
+[source]
+url = "https://github.com/omniti-labs/jlog/archive/refs/tags/2.6.0.tar.gz"
+sha256 = "c3c6e745557f789c2cef3e3760e3c68ee585727a0d55c14ad9cb3e8232f4e46b"
+
+[build]
+system = "autotools"

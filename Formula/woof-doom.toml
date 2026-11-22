@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fluid-synth", "libebur128", "libsndfile", "libxmp", "openal-soft", "sdl3", "yyjson"]
+
+[package]
+name = "woof-doom"
+version = "0"
+description = "Woof! is a continuation of the Boom/MBF bloodline of Doom source ports"
+homepage = "https://fabiangreffrath.github.io/woof/"
+
+[source]
+url = "https://github.com/fabiangreffrath/woof/archive/refs/tags/woof_16.0.0.tar.gz"
+sha256 = "293bc5ad61eaac191ee1cb652c797819459a7f7819d4aec78a847c8e13695342"
+
+[build]
+system = "cmake"

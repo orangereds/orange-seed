@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libfuse", "openssl@4"]
+
+[package]
+name = "dislocker"
+version = "0.7.4"
+description = "FUSE driver to read/write Windows' BitLocker-ed volumes"
+homepage = "https://github.com/Aorimn/dislocker"
+
+[source]
+url = "https://github.com/Aorimn/dislocker/archive/refs/tags/v0.7.4.tar.gz"
+sha256 = "c39261727a4993af13f90beec5ce1b56932f8a6d813df26e437ed0a668cf4141"
+
+[build]
+system = "cmake"

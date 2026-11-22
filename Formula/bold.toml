@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.14"]
+
+[package]
+name = "bold"
+version = "0.2.0"
+description = "Drop-in replacement for Apple system linker ld"
+homepage = "https://codeberg.org/kubkon/bold"
+
+[source]
+url = "https://codeberg.org/kubkon/bold/archive/v0.2.0.tar.gz"
+sha256 = "23f334869f73d85fdc761df4a4d2c43864ae31563280f52568f314ccae393e46"
+
+[build]
+system = "autotools"

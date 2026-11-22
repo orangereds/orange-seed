@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitbatch"
+version = "0.6.1"
+description = "Manage your git repositories in one place"
+homepage = "https://github.com/isacikgoz/gitbatch"
+
+[source]
+url = "https://github.com/isacikgoz/gitbatch/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "0ef36a4ea0b6cf4beb51928dd51281ec106006ba800c439d2588515c1bfeaf41"
+
+[build]
+system = "autotools"

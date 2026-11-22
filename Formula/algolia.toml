@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "algolia"
+version = "1.18.0"
+description = "Command-line tool to manage Algolia applications, accounts, and search resources"
+homepage = "https://www.algolia.com/doc/tools/cli/get-started"
+
+[source]
+url = "https://github.com/algolia/cli/archive/refs/tags/v1.18.0.tar.gz"
+sha256 = "aaf4870c8b64e4c3a3fbbd3a6650424924e5dac2b3a9900ce7b96f89905a751b"
+
+[build]
+system = "autotools"

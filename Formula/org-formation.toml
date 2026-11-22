@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "org-formation"
+version = "0"
+description = "Infrastructure as Code (IaC) tool for AWS Organizations"
+homepage = "https://github.com/org-formation/org-formation-cli"
+
+[source]
+url = "https://registry.npmjs.org/aws-organization-formation/-/aws-organization-formation-1.0.17.tgz"
+sha256 = "347b3b10690569cbd36104ea612f0de9b9092afd0e81115818f648f68235ec4a"
+
+[build]
+system = "autotools"

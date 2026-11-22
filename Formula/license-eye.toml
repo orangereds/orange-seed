@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "license-eye"
+version = "0"
+description = "Tool to check and fix license headers and resolve dependency licenses"
+homepage = "https://skywalking.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=skywalking/eyes/0.9.0/skywalking-license-eye-0.9.0-src.tgz"
+sha256 = "59265a26cbf51f24eeace490eab59c82513c7428d7ca26e004df8e94756027e6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "vc"]
+
+[package]
+name = "veccore"
+version = "0.8.2"
+description = "C++ Library for Portable SIMD Vectorization"
+homepage = "https://github.com/root-project/veccore"
+
+[source]
+url = "https://github.com/root-project/veccore/archive/refs/tags/v0.8.2.tar.gz"
+sha256 = "1268bca92acf00acd9775f1e79a2da7b1d902733d17e283e0dd5e02c41ac9666"
+
+[build]
+system = "cmake"

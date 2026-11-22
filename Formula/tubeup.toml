@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "certifi", "cffi", "curl-impersonate", "pycparser", "python@3.15"]
+
+[package]
+name = "tubeup"
+version = "2026.5.8_4"
+description = "Use yt-dlp to download video/metadata and upload to the Internet Archive"
+homepage = "https://github.com/bibanon/tubeup"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7e/44/6deb75f6d3a553fe3f8dfbd7c0fdea15f31b67272808efad98303803cca7/tubeup-2026.5.8.tar.gz"
+sha256 = "4c75423a429493bddaf78ede0031947938b3eb35435847ee6597b49a4be76ad7"
+
+[build]
+system = "autotools"

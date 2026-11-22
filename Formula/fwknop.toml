@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gpgme", "libassuan", "libgpg-error", "texinfo"]
+
+[package]
+name = "fwknop"
+version = "2.6.11_1"
+description = "Single Packet Authorization and Port Knocking"
+homepage = "https://www.cipherdyne.org/fwknop/"
+
+[source]
+url = "https://www.cipherdyne.org/fwknop/download/fwknop-2.6.11.tar.gz"
+sha256 = "bcb4e0e2eb5fcece5083d506da8471f68e33fb6b17d9379c71427a95f9ca1ec8"
+
+[build]
+system = "autotools"

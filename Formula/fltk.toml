@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "jpeg-turbo", "libpng"]
+
+[package]
+name = "fltk"
+version = "1.4.5-source"
+description = "Cross-platform C++ GUI toolkit"
+homepage = "https://www.fltk.org/"
+
+[source]
+url = "https://github.com/fltk/fltk/releases/download/release-1.4.5/fltk-1.4.5-source.tar.bz2"
+sha256 = "b5a52489b7ffae196db2076adb4c1b18170db0d047f5e93539a382603461564b"
+
+[build]
+system = "cmake"

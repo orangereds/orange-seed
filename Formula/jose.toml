@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "jansson", "openssl@4"]
+
+[package]
+name = "jose"
+version = "15"
+description = "C-language implementation of Javascript Object Signing and Encryption"
+homepage = "https://github.com/latchset/jose"
+
+[source]
+url = "https://github.com/latchset/jose/releases/download/v15/jose-15.tar.xz"
+sha256 = "1d055c445392aa48d709ecd6e56220384ae2b480496e270818bddf1f219c8659"
+
+[build]
+system = "autotools"

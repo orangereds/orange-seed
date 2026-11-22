@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kamel"
+version = "0"
+description = "Apache Camel K CLI"
+homepage = "https://camel.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=camel/camel-k/2.11.0/camel-k-sources-2.11.0.tar.gz"
+sha256 = "aace4782b7f4fcb5ff7c49f8c4ead8a5d33b1139678c6f9253c6c37e83d4e78b"
+
+[build]
+system = "autotools"

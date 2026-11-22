@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libxls"
+version = "1.6.4"
+description = "Read binary Excel files from C/C++"
+homepage = "https://github.com/libxls/libxls"
+
+[source]
+url = "https://github.com/libxls/libxls/releases/download/v1.6.4/libxls-1.6.4.tar.gz"
+sha256 = "064ee1da6cf3d481d8af4a936e0e0ce0190114e468fb7dfef5a81610746081e0"
+
+[build]
+system = "autotools"

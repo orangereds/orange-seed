@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fast_float", "meson", "ninja", "pkgconf", "python@3.15", "vulkan-headers", "little-cms2", "shaderc", "vulkan-loader"]
+
+[package]
+name = "libplacebo"
+version = "7.387.0"
+description = "Reusable library for GPU-accelerated image/video processing primitives"
+homepage = "https://code.videolan.org/videolan/libplacebo"
+
+[source]
+url = "https://code.videolan.org/videolan/libplacebo/-/archive/v7.387.0/libplacebo-v7.387.0.tar.bz2"
+sha256 = "14ceeeb14d1c08fcdb1a782a06129da11f842c6fddbf3a43c1c4061406ad03d2"
+
+[build]
+system = "autotools"

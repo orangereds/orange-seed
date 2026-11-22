@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "calc"
+version = "2.17.0.2"
+description = "Arbitrary precision calculator"
+homepage = "http://www.isthe.com/chongo/tech/comp/calc/"
+
+[source]
+url = "https://github.com/lcn2/calc/archive/refs/tags/v2.17.0.2.tar.gz"
+sha256 = "12471c2c23ae6b8a010be7472ef58e877a94022bd2e8c172cb60bede98b6417f"
+
+[build]
+system = "autotools"

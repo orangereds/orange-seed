@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc", "open-mpi"]
+
+[package]
+name = "pnetcdf"
+version = "1.15.1"
+description = "Parallel netCDF library for scientific data using the OpenMPI library"
+homepage = "https://parallel-netcdf.github.io/index.html"
+
+[source]
+url = "https://parallel-netcdf.github.io/Release/pnetcdf-1.15.1.tar.gz"
+sha256 = "169c6adab08ba49154f14261225992601c573971b823c2066008a8ff57973f8a"
+
+[build]
+system = "autotools"

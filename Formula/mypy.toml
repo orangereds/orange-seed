@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "mypy"
+version = "2.4.1"
+description = "Experimental optional static type checker for Python"
+homepage = "https://www.mypy-lang.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4a/3c/78ecece71ee4b5445389a4ccd11627cfb9c69e4de554d11060171f376305/mypy-2.4.1.tar.gz"
+sha256 = "63b590965691e540a335fa74dadf31a7069142f6b72e234689bbd244edf55623"
+
+[build]
+system = "autotools"

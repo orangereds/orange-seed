@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dhcping"
+version = "1.2"
+description = "Perform a dhcp-request to check whether a dhcp-server is running"
+homepage = "https://www.mavetju.org/unix/general.php"
+
+[source]
+url = "https://www.mavetju.org/download/dhcping-1.2.tar.gz"
+sha256 = "32ef86959b0bdce4b33d4b2b216eee7148f7de7037ced81b2116210bc7d3646a"
+
+[build]
+system = "autotools"

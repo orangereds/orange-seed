@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "flvstreamer"
+version = "2.1c1"
+description = "Stream audio and video from flash & RTMP Servers"
+homepage = "https://www.nongnu.org/flvstreamer/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/flvstreamer/source/flvstreamer-2.1c1.tar.gz"
+sha256 = "e90e24e13a48c57b1be01e41c9a7ec41f59953cdb862b50cf3e667429394d1ee"
+
+[build]
+system = "autotools"

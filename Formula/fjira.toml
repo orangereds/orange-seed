@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fjira"
+version = "1.5.6"
+description = "Fuzzy-find cli jira interface"
+homepage = "https://github.com/mk-5/fjira"
+
+[source]
+url = "https://github.com/mk-5/fjira/archive/refs/tags/1.5.6.tar.gz"
+sha256 = "f708f29646a69d371f93bdb09bb5811fc00baa13ab1374bee0719f5b81a6e82b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "openssl@4", "pkgconf", "readline"]
+
+[package]
+name = "pyenv"
+version = "2.8.15"
+description = "Python version management"
+homepage = "https://github.com/pyenv/pyenv"
+
+[source]
+url = "https://github.com/pyenv/pyenv/archive/refs/tags/v2.8.15.tar.gz"
+sha256 = "85546cbdaa5f4431d98b6412e359ab2abb28f7d94df56bba35240b59c3b111f3"
+
+[build]
+system = "autotools"

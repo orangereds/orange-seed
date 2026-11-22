@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "nlohmann-json"]
+
+[package]
+name = "xtl"
+version = "0.8.2"
+description = "X template library"
+homepage = "https://github.com/xtensor-stack/xtl"
+
+[source]
+url = "https://github.com/xtensor-stack/xtl/archive/refs/tags/0.8.2.tar.gz"
+sha256 = "8fb38d6a5856aab5740d2ccb3d791d289f648d4cc506b94a1338fe5fce100c11"
+
+[build]
+system = "cmake"

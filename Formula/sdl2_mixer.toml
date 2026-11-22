@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "flac", "fluid-synth", "game-music-emu", "libvorbis", "libxmp", "mpg123", "opusfile", "sdl2-compat", "wavpack"]
+
+[package]
+name = "sdl2_mixer"
+version = "0"
+description = "Sample multi-channel audio mixer library"
+homepage = "https://github.com/libsdl-org/SDL_mixer"
+
+[source]
+url = "https://github.com/libsdl-org/SDL_mixer/releases/download/release-2.8.2/SDL2_mixer-2.8.2.tar.gz"
+sha256 = "938dff531d00ace2296557a6599abe6f34599e2f34f0a4a08a397e2ccac8b8f7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle@8", "openjdk", "pkgconf", "abseil", "protobuf"]
+
+[package]
+name = "protoc-gen-grpc-java"
+version = "1.85.1"
+description = "Protoc plugin for gRPC Java"
+homepage = "https://grpc.io/docs/languages/java/"
+
+[source]
+url = "https://github.com/grpc/grpc-java/archive/refs/tags/v1.85.1.tar.gz"
+sha256 = "67436b0b6666cd928dc6b7f32c738fce63c2b1b98984dbf351049af5203a853c"
+
+[build]
+system = "autotools"

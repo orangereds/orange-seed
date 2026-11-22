@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libx11", "libxmu"]
+
+[package]
+name = "xclip"
+version = "0.13_1"
+description = "Access X11 clipboards from the command-line"
+homepage = "https://github.com/astrand/xclip"
+
+[source]
+url = "https://github.com/astrand/xclip/archive/refs/tags/0.13.tar.gz"
+sha256 = "ca5b8804e3c910a66423a882d79bf3c9450b875ac8528791fb60ec9de667f758"
+
+[build]
+system = "autotools"

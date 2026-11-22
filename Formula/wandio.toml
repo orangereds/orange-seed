@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "lz4", "lzo", "xz", "zstd"]
+
+[package]
+name = "wandio"
+version = "4.2.7"
+description = "Transparently read from and write to zip, bzip2, lzma or zstd archives"
+homepage = "https://github.com/LibtraceTeam/wandio"
+
+[source]
+url = "https://github.com/LibtraceTeam/wandio/archive/refs/tags/4.2.7-1.tar.gz"
+sha256 = "45021795b5c4d1609ba509358e730ea605c4c9621704d75214abb003f37602ab"
+
+[build]
+system = "autotools"

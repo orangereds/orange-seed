@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "stellar-cli"
+version = "30.0.1.crate"
+description = "Stellar command-line tool for interacting with the Stellar network"
+homepage = "https://developers.stellar.org"
+
+[source]
+url = "https://static.crates.io/crates/stellar-cli/stellar-cli-30.0.1.crate"
+sha256 = "c33c65392d9227c4628ecbb73041ae62bf81b25579badbabd27ebbbd6fa58992"
+
+[build]
+system = "autotools"

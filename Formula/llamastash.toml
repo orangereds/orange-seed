@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "llama.cpp"]
+
+[package]
+name = "llamastash"
+version = "0.12.0"
+description = "Terminal-native local LLM orchestrator and proxy"
+homepage = "https://github.com/llamastash/llamastash"
+
+[source]
+url = "https://github.com/llamastash/llamastash/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "924d1229a3824aa877112d946ab2cec94ad62c5acc5de0b7d5eb46961186f7e8"
+
+[service]
+run = "llamastash"
+keep_alive = true
+log_path = "var/log/llamastash.log"
+error_log_path = "var/log/llamastash.log"
+
+[build]
+system = "autotools"

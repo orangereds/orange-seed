@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "n"
+version = "12.0.0"
+description = "Node version management"
+homepage = "https://github.com/tj/n"
+
+[source]
+url = "https://github.com/tj/n/archive/refs/tags/v12.0.0.tar.gz"
+sha256 = "3fbcf08440f25df6b1fd415c5f7fb860ef6c76a3c3d8e72c5bfa73b24f45bf84"
+
+[build]
+system = "make"

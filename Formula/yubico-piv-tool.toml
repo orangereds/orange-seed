@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["check", "cmake", "gengetopt", "help2man", "pkgconf", "openssl@4"]
+
+[package]
+name = "yubico-piv-tool"
+version = "2.7.3"
+description = "Command-line tool for the YubiKey PIV application"
+homepage = "https://developers.yubico.com/yubico-piv-tool/"
+
+[source]
+url = "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-2.7.3.tar.gz"
+sha256 = "fcb25c42f54298ece8b20684fb3c581ed9195a162cbc55180a4161501be93181"
+
+[build]
+system = "cmake"

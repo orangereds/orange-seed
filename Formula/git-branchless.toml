@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2"]
+
+[package]
+name = "git-branchless"
+version = "0.11.1"
+description = "High-velocity, monorepo-scale workflow for Git"
+homepage = "https://github.com/arxanas/git-branchless"
+
+[source]
+url = "https://github.com/arxanas/git-branchless/archive/refs/tags/v0.11.1.tar.gz"
+sha256 = "e71f3e0b6cdbe9948dcabd6e70a18a29285d8a6af3e54bf91192f1aea7099c7c"
+
+[build]
+system = "autotools"

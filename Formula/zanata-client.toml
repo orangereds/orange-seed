@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@8"]
+
+[package]
+name = "zanata-client"
+version = "0_2"
+description = "Zanata translation system command-line client"
+homepage = "http://zanata.org/"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=org/zanata/zanata-cli/4.6.2/zanata-cli-4.6.2-dist.tar.gz"
+sha256 = "6d4bac8c5b908abf734ff23e0aca9b05f4bc13e66588c526448f241d90473132"
+
+[build]
+system = "autotools"

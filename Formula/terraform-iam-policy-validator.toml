@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "terraform-iam-policy-validator"
+version = "0_5"
+description = "CLI to validate AWS IAM policies in Terraform templates for best practices"
+homepage = "https://github.com/awslabs/terraform-iam-policy-validator"
+
+[source]
+url = "https://files.pythonhosted.org/packages/89/6b/bdb90f2fcb4a0033f138d52d5b24af9a2f8a84703ef94cbc31d51f0afaed/tf_policy_validator-0.0.9.tar.gz"
+sha256 = "ec8496bb8d45642a61f36dba95c867ac8ca5438bfc5bebafe8e3eec03a50d181"
+
+[build]
+system = "autotools"

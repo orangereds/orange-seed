@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "grc"
+version = "1.13_1"
+description = "Colorize logfiles and command output"
+homepage = "https://kassiopeia.juls.savba.sk/~garabik/software/grc.html"
+
+[source]
+url = "https://github.com/garabik/grc/archive/refs/tags/v1.13.tar.gz"
+sha256 = "a7b10d4316b59ca50f6b749f1d080cea0b41cb3b7258099c3eb195659d1f144f"
+
+[build]
+system = "autotools"

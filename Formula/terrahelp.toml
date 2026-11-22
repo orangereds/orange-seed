@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terrahelp"
+version = "0.7.5"
+description = "Tool providing extra functionality for Terraform"
+homepage = "https://github.com/opencredo/terrahelp"
+
+[source]
+url = "https://github.com/opencredo/terrahelp/archive/refs/tags/v0.7.5.tar.gz"
+sha256 = "bfcffdf06e1db075872a6283d1f1cc6858b8139bf10dd480969b419aa6fc01f7"
+
+[build]
+system = "autotools"

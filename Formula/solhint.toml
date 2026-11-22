@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "solhint"
+version = "6.2.5"
+description = "Linter for Solidity code"
+homepage = "https://protofire.github.io/solhint/"
+
+[source]
+url = "https://registry.npmjs.org/solhint/-/solhint-6.2.5.tgz"
+sha256 = "1cf4d8f03a5600e171fad6147e603ddd5672f3763abacdc8f2412dea40ab435e"
+
+[build]
+system = "autotools"

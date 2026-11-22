@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "pydantic", "python@3.14", "ripgrep", "rpds-py"]
+
+[package]
+name = "omnara"
+version = "1.7.0"
+description = "Talk to Your AI Agents from Anywhere"
+homepage = "https://omnara.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/11/3d/4d46acda35a59e64aa9f0ce174e82ae5caf6e23363f4cdf754da59525f87/omnara-1.7.0.tar.gz"
+sha256 = "989710438f7d6aa68a26a2dbad35e92c177733550e5a2fe95a97d6fc5002152f"
+
+[build]
+system = "autotools"

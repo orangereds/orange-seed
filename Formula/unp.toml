@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["p7zip"]
+
+[package]
+name = "unp"
+version = "2.0"
+description = "Unpack everything with one command"
+homepage = "https://tracker.debian.org/pkg/unp"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/u/unp/unp_2.0.tar.xz"
+sha256 = "651764eeed41331e699ead891334e3d9512048f6891d55db7761412323622970"
+
+[build]
+system = "autotools"

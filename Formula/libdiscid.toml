@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libdiscid"
+version = "0.7.0"
+description = "C library for creating MusicBrainz and freedb disc IDs"
+homepage = "https://musicbrainz.org/doc/libdiscid"
+
+[source]
+url = "https://ftp.musicbrainz.org/pub/musicbrainz/libdiscid/libdiscid-0.7.0.tar.gz"
+sha256 = "c230ed462c5ed7d7403ceb6984c57c8d05de42386d796bcd893636c0b0ba222f"
+
+[build]
+system = "autotools"

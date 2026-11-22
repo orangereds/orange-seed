@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "apigeecli"
+version = "2.17.0"
+description = "Apigee management API command-line interface"
+homepage = "https://cloud.google.com/apigee/docs"
+
+[source]
+url = "https://github.com/apigee/apigeecli/archive/refs/tags/v2.17.0.tar.gz"
+sha256 = "9b9fc5f70732b08d21165bbd2c39cbb88f73c700480a8fda8bc52c6b2da9cff0"
+
+[build]
+system = "autotools"

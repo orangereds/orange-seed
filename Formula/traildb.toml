@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "judy", "libarchive"]
+
+[package]
+name = "traildb"
+version = "0.6"
+description = "Blazingly-fast database for log-structured data"
+homepage = "https://traildb.io/"
+
+[source]
+url = "https://github.com/traildb/traildb/archive/refs/tags/0.6.tar.gz"
+sha256 = "f73515fe56c547f861296cf8eecc98b8e8bf00d175ad9fb7f4b981ad7cf8b67c"
+
+[build]
+system = "autotools"

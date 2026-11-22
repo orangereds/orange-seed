@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "apify-cli"
+version = "1.13.0"
+description = "Apify command-line interface"
+homepage = "https://docs.apify.com/cli/"
+
+[source]
+url = "https://registry.npmjs.org/apify-cli/-/apify-cli-1.13.0.tgz"
+sha256 = "2b05a1e3ec43ad9cac97b2f9022a0b74a9048c0f4150ca5becc48dc5cc47b892"
+
+[build]
+system = "autotools"

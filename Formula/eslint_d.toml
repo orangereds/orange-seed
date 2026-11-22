@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "eslint_d"
+version = "15.1.1"
+description = "Speed up eslint to accelerate your development workflow"
+homepage = "https://github.com/mantoni/eslint_d.js"
+
+[source]
+url = "https://registry.npmjs.org/eslint_d/-/eslint_d-15.1.1.tgz"
+sha256 = "41e3aa6e49daa1659e09565870160bd1b30bc63e63bb2c167c7ce06799245fcf"
+
+[service]
+run = "opt/eslint_d/bin/eslint_d start"
+keep_alive = true
+working_dir = "var/eslint_d"
+log_path = "var/log/eslint_d.log"
+error_log_path = "var/log/eslint_d.err.log"
+
+[build]
+system = "autotools"

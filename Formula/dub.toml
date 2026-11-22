@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ldc", "pkgconf"]
+
+[package]
+name = "dub"
+version = "1.42.0"
+description = "Build tool for D projects"
+homepage = "https://code.dlang.org/getting_started"
+
+[source]
+url = "https://github.com/dlang/dub/archive/refs/tags/v1.42.0.tar.gz"
+sha256 = "7f0a5133885a71b89f7a683d8f3e3616e070238424b36ae04fdbc0d7b99e3027"
+
+[build]
+system = "autotools"

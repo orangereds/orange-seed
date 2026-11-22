@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "container-use"
+version = "0.4.2"
+description = "Dev envs for coding agents. Run multiple agents safely with your stack"
+homepage = "https://container-use.com/introduction"
+
+[source]
+url = "https://github.com/dagger/container-use/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "951105f0b4a9bfd9f52e7bb3a2d245e800df4b8449704cd34001833ee888a02d"
+
+[build]
+system = "autotools"

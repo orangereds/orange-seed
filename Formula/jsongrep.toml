@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jsongrep"
+version = "0.10.0"
+description = "Query tool for JSON, YAML, TOML, and other structured formats"
+homepage = "https://github.com/micahkepe/jsongrep"
+
+[source]
+url = "https://github.com/micahkepe/jsongrep/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "2467abc8e7f94219b70b5fd99a3a28937ca442721f1967fc910e3ce64dd0515c"
+
+[build]
+system = "autotools"

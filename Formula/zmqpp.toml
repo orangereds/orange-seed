@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zeromq"]
+
+[package]
+name = "zmqpp"
+version = "4.2.0"
+description = "High-level C++ binding for zeromq"
+homepage = "https://zeromq.github.io/zmqpp/"
+
+[source]
+url = "https://github.com/zeromq/zmqpp/archive/refs/tags/4.2.0.tar.gz"
+sha256 = "c1d4587df3562f73849d9e5f8c932ca7dcfc7d8bec31f62d7f35073ef81f4d29"
+
+[build]
+system = "make"

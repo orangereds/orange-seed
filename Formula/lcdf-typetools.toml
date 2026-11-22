@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lcdf-typetools"
+version = "2.110"
+description = "Manipulate OpenType and multiple-master fonts"
+homepage = "https://www.lcdf.org/type/"
+
+[source]
+url = "https://www.lcdf.org/type/lcdf-typetools-2.110.tar.gz"
+sha256 = "517f9ee879208679d3224a14d5e6eb20598fc648d5c3562708083d003088a934"
+
+[build]
+system = "autotools"

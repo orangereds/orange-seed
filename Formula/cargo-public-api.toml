@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup"]
+
+[package]
+name = "cargo-public-api"
+version = "0.52.0"
+description = "List and diff the public API of Rust library crates"
+homepage = "https://github.com/cargo-public-api/cargo-public-api"
+
+[source]
+url = "https://github.com/cargo-public-api/cargo-public-api/archive/refs/tags/v0.52.0.tar.gz"
+sha256 = "0e0bd4bee8f3faae66bc2888d0e212f18239568210b6c92dc4c76d20ac1a68ac"
+
+[build]
+system = "autotools"

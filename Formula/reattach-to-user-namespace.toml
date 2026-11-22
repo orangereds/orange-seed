@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "reattach-to-user-namespace"
+version = "2.9"
+description = "Reattach process (e.g., tmux) to background"
+homepage = "https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard"
+
+[source]
+url = "https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard/archive/refs/tags/v2.9.tar.gz"
+sha256 = "e4df00ead6b267a027a4ea35032bcfa114d91e709b1986ec0cbaee6825cec436"
+
+[build]
+system = "autotools"

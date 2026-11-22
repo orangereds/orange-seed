@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "helm", "kubernetes-cli"]
+
+[package]
+name = "testkube"
+version = "2.15.2"
+description = "Kubernetes-native framework for test definition and execution"
+homepage = "https://testkube.io"
+
+[source]
+url = "https://github.com/kubeshop/testkube/archive/refs/tags/2.15.2.tar.gz"
+sha256 = "ebfb7b594adc0fa2e3f4530156386bc557d81f000db569ea3c5306485758cb6d"
+
+[build]
+system = "autotools"

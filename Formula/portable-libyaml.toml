@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "portable-libyaml"
+version = "0"
+description = "YAML Parser"
+homepage = "https://github.com/yaml/libyaml"
+
+[source]
+url = "https://github.com/yaml/libyaml/releases/download/0.2.6/yaml-0.2.6.tar.gz"
+sha256 = "43b393a117bd4fe39812fddc94e3d654359a3ae05653dcf0110a1122d1747e61"
+
+[build]
+system = "autotools"

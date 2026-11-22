@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "sipsak"
+version = "0.9.8.1_1"
+description = "SIP Swiss army knife"
+homepage = "https://github.com/nils-ohlmeier/sipsak/"
+
+[source]
+url = "https://github.com/nils-ohlmeier/sipsak/releases/download/0.9.8.1/sipsak-0.9.8.1.tar.gz"
+sha256 = "c6faa022cd8c002165875d4aac83b7a2b59194f0491802924117fc6ac980c778"
+
+[build]
+system = "autotools"

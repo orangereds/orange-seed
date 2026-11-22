@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "emacs", "hpack", "pkgconf", "ghc", "gmp", "icu4c@79"]
+
+[package]
+name = "agda"
+version = "2.8.0.2_2"
+description = "Dependently typed functional programming language"
+homepage = "https://wiki.portal.chalmers.se/agda/"
+
+[source]
+url = "https://github.com/agda/agda/archive/refs/tags/v2.8.0.2.tar.gz"
+sha256 = "c29ee2c06a7feb812fcb7f0543a2ddf800a9f806d09cc7813cee9c733a169b6d"
+
+[build]
+system = "autotools"

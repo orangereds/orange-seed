@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "bazel@8"
+version = "0"
+description = "Google's own build tool"
+homepage = "https://bazel.build/"
+
+[source]
+url = "https://github.com/bazelbuild/bazel/releases/download/8.9.0/bazel-8.9.0-dist.zip"
+sha256 = "6320f08f70285bcae626ce10dc3e281088b748532b182d7ad77453acd146a8b3"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

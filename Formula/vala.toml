@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "glib", "graphviz", "pkgconf", "gettext"]
+
+[package]
+name = "vala"
+version = "0.56.19_1"
+description = "Compiler for the GObject type system"
+homepage = "https://wiki.gnome.org/Projects/Vala"
+
+[source]
+url = "https://download.gnome.org/sources/vala/0.56/vala-0.56.19.tar.xz"
+sha256 = "5ad7cbbfcc0de61b403d6797c9ef60455bfbebd8e162aec33b5b0b097adfb9d5"
+
+[build]
+system = "autotools"

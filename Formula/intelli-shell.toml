@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "intelli-shell"
+version = "3.4.8"
+description = "Like IntelliSense, but for shells"
+homepage = "https://lasantosr.github.io/intelli-shell/"
+
+[source]
+url = "https://github.com/lasantosr/intelli-shell/archive/refs/tags/v3.4.8.tar.gz"
+sha256 = "b51b7b92c7f7cb7a418bb91f49479a1c388e336d0405298633c4fb7e1edbb9b0"
+
+[build]
+system = "autotools"

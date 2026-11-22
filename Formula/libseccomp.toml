@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gperf"]
+
+[package]
+name = "libseccomp"
+version = "2.6.2"
+description = "Interface to the Linux Kernel's syscall filtering mechanism"
+homepage = "https://github.com/seccomp/libseccomp"
+
+[source]
+url = "https://github.com/seccomp/libseccomp/releases/download/v2.6.2/libseccomp-2.6.2.tar.gz"
+sha256 = "6b845d352c6d7887d8d134c43d86850d40f5dcee11ad1675c18197ae4d869d42"
+
+[build]
+system = "autotools"

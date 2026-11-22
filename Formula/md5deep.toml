@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "md5deep"
+version = "0_1"
+description = "Recursively compute digests on files/directories"
+homepage = "https://github.com/jessek/hashdeep"
+
+[source]
+url = "https://github.com/jessek/hashdeep/archive/refs/tags/release-4.4.tar.gz"
+sha256 = "dbda8ab42a9c788d4566adcae980d022d8c3d52ee732f1cbfa126c551c8fcc46"
+
+[build]
+system = "autotools"

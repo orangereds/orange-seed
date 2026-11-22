@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "k0sctl"
+version = "0.33.1"
+description = "Bootstrapping and management tool for k0s clusters"
+homepage = "https://github.com/k0sproject/k0sctl"
+
+[source]
+url = "https://github.com/k0sproject/k0sctl/archive/refs/tags/v0.33.1.tar.gz"
+sha256 = "0106b84cd80db5af0cd6796302904b990c908a8bb76baba07e11c944d66bca52"
+
+[build]
+system = "autotools"

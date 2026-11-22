@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "python@3.15", "readline", "bash", "make"]
+
+[package]
+name = "bup"
+version = "0.34.1"
+description = "Backup tool"
+homepage = "https://bup.github.io/"
+
+[source]
+url = "https://github.com/bup/bup/archive/refs/tags/0.34.1.tar.gz"
+sha256 = "3ffe5c8bf9da8c291972939959517f98b41f7c62476557bcc00ffa6b54752fe4"
+
+[build]
+system = "make"

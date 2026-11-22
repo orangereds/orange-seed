@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "h3"
+version = "4.6.0"
+description = "Hexagonal hierarchical geospatial indexing system"
+homepage = "https://uber.github.io/h3/"
+
+[source]
+url = "https://github.com/uber/h3/archive/refs/tags/v4.6.0.tar.gz"
+sha256 = "071be536307b9d6c84e3c024ed9aa4b35f8af5a1eff7f1238c04831fa4a77e68"
+
+[build]
+system = "cmake"

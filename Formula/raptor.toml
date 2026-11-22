@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "raptor"
+version = "0_1"
+description = "RDF parser toolkit"
+homepage = "https://librdf.org/raptor/"
+
+[source]
+url = "https://download.librdf.org/source/raptor2-2.0.16.tar.gz"
+sha256 = "089db78d7ac982354bdbf39d973baf09581e6904ac4c92a98c5caadb3de44680"
+
+[build]
+system = "autotools"

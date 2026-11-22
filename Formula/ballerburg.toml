@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl3", "cmake"]
+
+[package]
+name = "ballerburg"
+version = "1.2.3"
+description = "Castle combat game"
+homepage = "https://baller.frama.io/"
+
+[source]
+url = "https://framagit.org/baller/ballerburg/-/archive/v1.2.3/ballerburg-v1.2.3.tar.bz2"
+sha256 = "2e55087c70e10a827a270493732d3928f8fb0abb6b583661f80cbbe1efac80f7"
+
+[build]
+system = "cmake"

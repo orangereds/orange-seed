@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "lld", "llvm", "ninja", "wasm-component-ld", "wasm-tools", "wasmtime"]
+
+[package]
+name = "wasi-libc"
+version = "59cbe140561db52fc505555e859de884e0ee7f00"
+description = "Libc implementation for WebAssembly"
+homepage = "https://wasi.dev"
+
+[source]
+url = "https://github.com/WebAssembly/wasi-libc/archive/refs/tags/wasi-sdk-34.tar.gz"
+sha256 = "21bc47f96cf0eb535e532697dce4cdfdbc91f59223bdc00d8495d191888c5fe8"
+
+[build]
+system = "cmake"

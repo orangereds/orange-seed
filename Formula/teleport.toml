@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["binaryen", "go", "lld", "llvm", "node", "pkgconf", "pnpm", "rust", "rust-wasm", "libfido2"]
+
+[package]
+name = "teleport"
+version = "18.11.10"
+description = "Modern SSH server for teams managing distributed infrastructure"
+homepage = "https://goteleport.com/"
+
+[source]
+url = "https://github.com/gravitational/teleport/archive/refs/tags/v18.11.10.tar.gz"
+sha256 = "59462f339440cda54cef30e554e0e1322a05eadbff84d062d1085e4a8ed7eb6d"
+
+[build]
+system = "autotools"

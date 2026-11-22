@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "statix"
+version = "0.5.8"
+description = "Lints and suggestions for the nix programming language"
+homepage = "https://github.com/oppiliappan/statix"
+
+[source]
+url = "https://github.com/oppiliappan/statix/archive/refs/tags/v0.5.8.tar.gz"
+sha256 = "547ee83df5814c18f8577b5ca25a1f12a416900b6eaa95821386a28090e8a89d"
+
+[build]
+system = "autotools"

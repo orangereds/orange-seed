@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "ronn-ng", "pkgconf", "glib", "taglib", "gettext"]
+
+[package]
+name = "castget"
+version = "0_1"
+description = "Command-line podcast and RSS enclosure downloader"
+homepage = "https://castget.johndal.com/"
+
+[source]
+url = "https://github.com/mlj/castget/archive/refs/tags/rel_2_0_1.tar.gz"
+sha256 = "8cefeb8c76daa791953ee1a555473cc83a29a2d18a29adeb2aef7a41e2212f49"
+
+[build]
+system = "autotools"

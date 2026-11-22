@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxkbfile"]
+
+[package]
+name = "xkbcomp"
+version = "1.5.0"
+description = "XKB keyboard description compiler"
+homepage = "https://www.x.org"
+
+[source]
+url = "https://www.x.org/releases/individual/app/xkbcomp-1.5.0.tar.xz"
+sha256 = "2ac31f26600776db6d9cd79b3fcd272263faebac7eb85fb2f33c7141b8486060"
+
+[build]
+system = "autotools"

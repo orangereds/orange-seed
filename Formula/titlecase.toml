@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "titlecase"
+version = "1.015"
+description = "Script to convert text to title case"
+homepage = "http://plasmasturm.org/code/titlecase/"
+
+[source]
+url = "https://github.com/ap/titlecase/archive/refs/tags/v1.015.tar.gz"
+sha256 = "908ef5c40d103200bcc9bd8a55171f20e14d09166aaa556dc91611567d695811"
+
+[build]
+system = "autotools"

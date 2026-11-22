@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "counts"
+version = "1.0.7"
+description = "Tool for ad hoc profiling"
+homepage = "https://github.com/nnethercote/counts"
+
+[source]
+url = "https://github.com/nnethercote/counts/archive/refs/tags/1.0.7.tar.gz"
+sha256 = "a5685538819838ba2fba0b78d11b5d80e37753b9015735f71f0c2065442fe9d8"
+
+[build]
+system = "autotools"

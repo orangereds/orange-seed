@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "leaves"
+version = "0.2.0"
+description = "Text-mode disk usage visualization utility"
+homepage = "https://github.com/patonw/leaves"
+
+[source]
+url = "https://github.com/patonw/leaves/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "e7635268ddfeddadb2d29ec4f7af22599a5ce6a006082d1621d4de32fd93496b"
+
+[build]
+system = "autotools"

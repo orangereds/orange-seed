@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "binocle"
+version = "0.3.2"
+description = "Graphical tool to visualize binary data"
+homepage = "https://github.com/sharkdp/binocle"
+
+[source]
+url = "https://github.com/sharkdp/binocle/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "b58d450f343539242b9f146606f5e70d0d183e12ce03e1b003c5197e6e41727b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gx"
+version = "0.14.3"
+description = "Language-agnostic, universal package manager"
+homepage = "https://github.com/whyrusleeping/gx"
+
+[source]
+url = "https://github.com/whyrusleeping/gx/archive/refs/tags/v0.14.3.tar.gz"
+sha256 = "2c0b90ddfd3152863f815c35b37e94d027216c6ba1c6653a94b722bf6e2b015d"
+
+[build]
+system = "autotools"

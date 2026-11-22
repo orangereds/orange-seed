@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "quicktype"
+version = "26.0.0"
+description = "Generate types and converters from JSON, Schema, and GraphQL"
+homepage = "https://app.quicktype.io"
+
+[source]
+url = "https://registry.npmjs.org/quicktype/-/quicktype-26.0.0.tgz"
+sha256 = "55de624945e4f04fcc6d64c3ed6fcf2d1d6accd958e13c028deed8118b310c16"
+
+[build]
+system = "autotools"

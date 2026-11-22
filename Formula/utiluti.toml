@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "utiluti"
+version = "1.5"
+description = "macOS command-line tool to work with default apps"
+homepage = "https://github.com/scriptingosx/utiluti"
+
+[source]
+url = "https://github.com/scriptingosx/utiluti/archive/refs/tags/v1.5.tar.gz"
+sha256 = "84acd1d0e63d85fcb4663639f040ddc5763a2ac317a6e1613de2d2c245faabc7"
+
+[build]
+system = "autotools"

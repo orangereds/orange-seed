@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "scala@3.3"
+version = "0"
+description = "JVM-based programming language"
+homepage = "https://www.scala-lang.org/"
+
+[source]
+url = "https://github.com/scala/scala3/releases/download/3.3.9/scala3-3.3.9.tar.gz"
+sha256 = "ba96214801ea01b0d0aee45f00c94d3f61ed40d0f2aa748aff11c7f136737d7c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

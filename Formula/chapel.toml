@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gmp", "hwloc", "jemalloc", "llvm@22", "pkgconf", "python@3.15"]
+
+[package]
+name = "chapel"
+version = "2.10.0"
+description = "Programming language for productive parallel computing at scale"
+homepage = "https://chapel-lang.org/"
+
+[source]
+url = "https://github.com/chapel-lang/chapel/releases/download/2.10.0/chapel-2.10.0.tar.gz"
+sha256 = "55234b391e32757fbdcf78a4c9517a1f0f8075e4d73a68005fc4ac251ef6b5d4"
+
+[build]
+system = "autotools"

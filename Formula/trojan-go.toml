@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "trojan-go"
+version = "0"
+description = "Trojan proxy in Go"
+homepage = "https://p4gefau1t.github.io/trojan-go/"
+
+[source]
+url = "https://github.com/p4gefau1t/trojan-go.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/trojan-go/bin/trojan-go -config etc/trojan-go/config.json"
+keep_alive = true
+
+[build]
+system = "autotools"

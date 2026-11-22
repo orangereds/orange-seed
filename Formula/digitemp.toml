@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libusb-compat"]
+
+[package]
+name = "digitemp"
+version = "3.7.2"
+description = "Read temperature sensors in a 1-Wire net"
+homepage = "https://www.digitemp.com/"
+
+[source]
+url = "https://github.com/bcl/digitemp/archive/refs/tags/v3.7.2.tar.gz"
+sha256 = "683df4ab5cc53a45fe4f860c698f148d34bcca91b3e0568a342f32d64d12ba24"
+
+[build]
+system = "autotools"

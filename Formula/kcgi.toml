@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bmake"]
+
+[package]
+name = "kcgi"
+version = "0"
+description = "Minimal CGI and FastCGI library for C/C++"
+homepage = "https://kristaps.bsd.lv/kcgi/"
+
+[source]
+url = "https://github.com/kristapsdz/kcgi/archive/refs/tags/VERSION_1_0_1.tar.gz"
+sha256 = "d2b9f377ca31c3ac6ec47e7ec0f46b8f208a33ca80701777a20e355937fc5934"
+
+[build]
+system = "make"

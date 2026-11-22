@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "talhelper"
+version = "3.1.17"
+description = "Configuration helper for talos clusters"
+homepage = "https://budimanjojo.github.io/talhelper/latest/"
+
+[source]
+url = "https://github.com/budimanjojo/talhelper/archive/refs/tags/v3.1.17.tar.gz"
+sha256 = "204a1431f215802cc32bd89cc26eddf4eb8c9b0809da386c5f99cc69eec143e0"
+
+[build]
+system = "autotools"

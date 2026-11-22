@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk", "rlwrap"]
+
+[package]
+name = "clojure"
+version = "0"
+description = "Dynamic, general-purpose programming language"
+homepage = "https://clojure.org"
+
+[source]
+url = "https://github.com/clojure/brew-install/releases/download/1.12.7.1681/clojure-tools-1.12.7.1681.tar.gz"
+sha256 = "791c12b5f5a0986ae7456cc50f8db7715992ecc330273305846034ed1bacd6da"
+
+[build]
+system = "autotools"

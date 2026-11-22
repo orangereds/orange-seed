@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "gsettings-desktop-schemas", "meson", "ninja", "pkgconf", "vala", "duktape", "glib"]
+
+[package]
+name = "libproxy"
+version = "0.5.12"
+description = "Library that provides automatic proxy configuration management"
+homepage = "https://libproxy.github.io/libproxy/"
+
+[source]
+url = "https://github.com/libproxy/libproxy/archive/refs/tags/0.5.12.tar.gz"
+sha256 = "a1fa55991998b80a567450a9e84382421a7176a84446c95caaa8b72cf09fa86f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "energy"
+version = "2.5.6"
+description = "CLI is used to initialize the Energy development environment tools"
+homepage = "https://energye.github.io"
+
+[source]
+url = "https://github.com/energye/energy/archive/refs/tags/v2.5.6.tar.gz"
+sha256 = "7dcc439e32a6b1723b7809175eb43856b7817899350bbf47f794b1103dfec69e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libheif", "node", "pillow", "pydantic", "python@3.14", "ripgrep", "rpds-py", "tirith"]
+
+[package]
+name = "hermes-agent"
+version = "0.22.4_1"
+description = "Self-improving AI agent that creates skills from experience"
+homepage = "https://hermes-agent.nousresearch.com"
+
+[source]
+url = "https://github.com/NousResearch/hermes-agent/archive/refs/tags/v0.22.4.tar.gz"
+sha256 = "808464c45097ebc4febaed2d08bb936095262c6997ba7c49ee1a0c4e7f7c593e"
+
+[build]
+system = "autotools"

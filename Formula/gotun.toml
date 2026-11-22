@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gotun"
+version = "0.8.1"
+description = "Lightweight HTTP proxy over SSH"
+homepage = "https://github.com/Sesame2/gotun"
+
+[source]
+url = "https://github.com/Sesame2/gotun/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "4448e9cd2efaf1ea5c1da50f39d3ea967632e15cffc36d2e1041f5c03b615750"
+
+[build]
+system = "autotools"

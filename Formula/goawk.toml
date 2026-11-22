@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goawk"
+version = "1.32.0"
+description = "POSIX-compliant AWK interpreter written in Go"
+homepage = "https://benhoyt.com/writings/goawk/"
+
+[source]
+url = "https://github.com/benhoyt/goawk/archive/refs/tags/v1.32.0.tar.gz"
+sha256 = "5425248c199bf506987af0deff9109bbdeecfb723f11b30c712c54a10b78f1a9"
+
+[build]
+system = "autotools"

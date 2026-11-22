@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "ruby"]
+
+[package]
+name = "rails-mcp-server"
+version = "2.0.0_1"
+description = "MCP server for Rails applications"
+homepage = "https://github.com/maquina-app/rails-mcp-server"
+
+[source]
+url = "https://github.com/maquina-app/rails-mcp-server/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "181ca5a798aa073048ab9bc171ba4107f35ec5a4ac9abacd29bdf54e935a9913"
+
+[build]
+system = "autotools"

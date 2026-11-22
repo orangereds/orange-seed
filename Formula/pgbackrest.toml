@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "pkgconf", "libpq", "libssh2", "lz4", "openssl@4", "zstd"]
+
+[package]
+name = "pgbackrest"
+version = "2.60.1"
+description = "Reliable PostgreSQL Backup & Restore"
+homepage = "https://pgbackrest.org"
+
+[source]
+url = "https://github.com/pgbackrest/pgbackrest/releases/download/release/2.60.1/pgbackrest-2.60.1.tar.gz"
+sha256 = "c6d8190fee982f0febdd2ca5ca112f83b4b0905ef9949e9cf64a46a6cc138026"
+
+[build]
+system = "autotools"

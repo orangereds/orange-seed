@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "check", "texinfo"]
+
+[package]
+name = "netmask"
+version = "2.5.0"
+description = "IP address netmask generation utility"
+homepage = "https://github.com/tlby/netmask"
+
+[source]
+url = "https://github.com/tlby/netmask/releases/download/v2.5.0/netmask-2.5.0.tar.gz"
+sha256 = "5975a37fb84ca7035050e10a10fe48322d8ce184b83bc8482f3f3b49882f4c73"
+
+[build]
+system = "autotools"

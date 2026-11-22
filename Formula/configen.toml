@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "configen"
+version = "1.1.2"
+description = "Configuration file code generator for use in Xcode projects"
+homepage = "https://github.com/theappbusiness/ConfigGenerator"
+
+[source]
+url = "https://github.com/theappbusiness/ConfigGenerator/archive/refs/tags/1.1.2.tar.gz"
+sha256 = "24a0d51f90b36d56c2f75ced9653cf34fe396fd687305903b31eeb822d520608"
+
+[build]
+system = "autotools"

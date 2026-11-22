@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm"]
+
+[package]
+name = "kubetail"
+version = "0.18.2"
+description = "Logging tool for Kubernetes with a real-time web dashboard"
+homepage = "https://www.kubetail.com/"
+
+[source]
+url = "https://github.com/kubetail-org/kubetail/archive/refs/tags/cli/v0.18.2.tar.gz"
+sha256 = "07e3162f58acffc25fb7bb880936a4901272180198480859ad4930a21c0c840d"
+
+[build]
+system = "autotools"

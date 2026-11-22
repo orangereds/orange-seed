@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "newrelic-cli"
+version = "0.117.0"
+description = "Command-line interface for New Relic"
+homepage = "https://github.com/newrelic/newrelic-cli"
+
+[source]
+url = "https://github.com/newrelic/newrelic-cli/archive/refs/tags/v0.117.0.tar.gz"
+sha256 = "8c5c23d5be832fb185813036b7b423e54a40c3065723d77f305a30709c5ce2c4"
+
+[build]
+system = "autotools"

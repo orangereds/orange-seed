@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "salmon"
+version = "2.12.0"
+description = "Transcript-level quantification from RNA-seq reads"
+homepage = "https://github.com/COMBINE-lab/salmon"
+
+[source]
+url = "https://github.com/COMBINE-lab/salmon/archive/refs/tags/v2.12.0.tar.gz"
+sha256 = "af408eaeeb08274e65ada719c5e5a9ad79b15c5a51c7590f81ef2a66b2d3571c"
+
+[build]
+system = "autotools"

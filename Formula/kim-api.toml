@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "gcc"]
+
+[package]
+name = "kim-api"
+version = "2.4.2"
+description = "Knowledgebase of Interatomic Models (KIM) API"
+homepage = "https://openkim.org"
+
+[source]
+url = "https://s3.openkim.org/kim-api/kim-api-2.4.2.txz"
+sha256 = "1710bd6ceaea093062e000d2308719c51cc0a2d2def1bdcb0a03df8ed867b11f"
+
+[build]
+system = "cmake"

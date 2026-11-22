@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "gdtoolkit"
+version = "4.5.0_2"
+description = "Independent set of GDScript tools - parser, linter, formatter, and more"
+homepage = "https://github.com/Scony/godot-gdscript-toolkit"
+
+[source]
+url = "https://files.pythonhosted.org/packages/de/39/041c1705dba6450c67e23be0c70d0fcff035e7d240b6695fc59efd8dafb6/gdtoolkit-4.5.0.tar.gz"
+sha256 = "1ab17fb5400d86e4ae66d9c94992f4e3a9b6c27d618d4094782e66101efb3e9a"
+
+[build]
+system = "autotools"

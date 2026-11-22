@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl12-compat", "gettext"]
+
+[package]
+name = "lgeneral"
+version = "1.4.4"
+description = "Turn-based strategy engine heavily inspired by Panzer General"
+homepage = "https://lgames.sourceforge.io/LGeneral/"
+
+[source]
+url = "https://downloads.sourceforge.net/lgeneral/lgeneral/lgeneral-1.4.4.tar.gz"
+sha256 = "0a26b495716cdcab63b49a294ba31649bc0abe74ce0df48276e52f4a6f323a95"
+
+[build]
+system = "autotools"

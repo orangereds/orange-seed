@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fswatch"
+version = "1.22.0"
+description = "Monitor a directory for changes and run a shell command"
+homepage = "https://emcrisostomo.github.io/fswatch/"
+
+[source]
+url = "https://github.com/emcrisostomo/fswatch/releases/download/1.22.0/fswatch-1.22.0.tar.gz"
+sha256 = "fa6e2becba0a629964b466b39c5997e72d8a6da40d82b88190aae7359065c758"
+
+[build]
+system = "autotools"

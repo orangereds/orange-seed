@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libevent", "libuv", "openssl@4"]
+
+[package]
+name = "libwebsockets"
+version = "5.1.0"
+description = "C websockets server library"
+homepage = "https://github.com/warmcat/libwebsockets"
+
+[source]
+url = "https://github.com/warmcat/libwebsockets/archive/refs/tags/v5.1.0.tar.gz"
+sha256 = "9acbba00aaa9e6178ae09c6f920d95449b527c1417e81d2cdd4103bc6d64d13f"
+
+[build]
+system = "cmake"

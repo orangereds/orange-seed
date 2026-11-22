@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libebml"]
+
+[package]
+name = "libmatroska"
+version = "1.7.2"
+description = "Extensible, open standard container format for audio/video"
+homepage = "https://www.matroska.org/"
+
+[source]
+url = "https://dl.matroska.org/downloads/libmatroska/libmatroska-1.7.2.tar.xz"
+sha256 = "f3e4d406daf7f1399962c43940e4a87de089474d5bcfbf2e6ca516e98bb87cfc"
+
+[build]
+system = "cmake"

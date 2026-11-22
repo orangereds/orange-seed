@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libpthread-stubs"
+version = "0.5"
+description = "X.Org: pthread-stubs.pc"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/libpthread-stubs-0.5.tar.xz"
+sha256 = "59da566decceba7c2a7970a4a03b48d9905f1262ff94410a649224e33d2442bc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "svlint"
+version = "0.9.5.crate"
+description = "SystemVerilog linter"
+homepage = "https://github.com/dalance/svlint"
+
+[source]
+url = "https://static.crates.io/crates/svlint/svlint-0.9.5.crate"
+sha256 = "211e5b1c7318d29882248f3073b65d2d478693903a0ed8764231269d465812e3"
+
+[build]
+system = "autotools"

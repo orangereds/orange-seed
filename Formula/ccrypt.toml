@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ccrypt"
+version = "1.11"
+description = "Encrypt and decrypt files and streams"
+homepage = "https://ccrypt.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ccrypt/1.11/ccrypt-1.11.tar.gz"
+sha256 = "b19c47500a96ee5fbd820f704c912f6efcc42b638c0a6aa7a4e3dc0a6b51a44f"
+
+[build]
+system = "autotools"

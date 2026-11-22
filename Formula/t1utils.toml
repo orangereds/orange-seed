@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "t1utils"
+version = "1.42"
+description = "Command-line tools for dealing with Type 1 fonts"
+homepage = "https://www.lcdf.org/type/"
+
+[source]
+url = "https://www.lcdf.org/type/t1utils-1.42.tar.gz"
+sha256 = "61877935b1987044ddff4bb90a05200ca7164678a355e170bf5f1a5556cc9f29"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "zycore-c"
+version = "1.5.2"
+description = "Zyan Core Library for C"
+homepage = "https://github.com/zyantific/zycore-c"
+
+[source]
+url = "https://github.com/zyantific/zycore-c/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "943f91eb9ab2a8cc01ab9f8b785e769a273502071e0ee8011cdfcaad93947cec"
+
+[build]
+system = "cmake"

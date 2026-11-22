@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dialog", "bash"]
+
+[package]
+name = "backupninja"
+version = "0_1"
+description = "Backup automation tool"
+homepage = "https://0xacab.org/liberate/backupninja"
+
+[source]
+url = "https://0xacab.org/liberate/backupninja/-/archive/backupninja_upstream/1.2.2/backupninja-backupninja_upstream-1.2.2.tar.gz"
+sha256 = "93ddc72f085d46145b289d35dac1d72e998c15bec1833db78e474b53c9768774"
+
+[build]
+system = "autotools"

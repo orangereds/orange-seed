@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "asio", "async_simple", "frozen", "iguana"]
+
+[package]
+name = "yalantinglibs"
+version = "0.6.1"
+description = "Collection of modern C++ libraries"
+homepage = "https://alibaba.github.io/yalantinglibs/en/"
+
+[source]
+url = "https://github.com/alibaba/yalantinglibs/archive/refs/tags/0.6.1.tar.gz"
+sha256 = "2ef2089a49a08f764c558e9caf46e1d37697b111e04a48e5c5156f57f3afff24"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "shmcat"
+version = "1.10"
+description = "Tool that dumps shared memory segments (System V and POSIX)"
+homepage = "https://shmcat.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/shmcat/shmcat-1.10.tar.xz"
+sha256 = "821212924bf9ef3fbd7a357b4f1065898c12635b86fa5d7bad259533d251076e"
+
+[build]
+system = "autotools"

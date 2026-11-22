@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "graphviz", "qt3d", "qtbase", "qtconnectivity", "qtdeclarative", "qtpositioning", "qtscxml", "qtsvg", "qttools", "qtlocation", "qtwebchannel", "qtwebengine"]
+
+[package]
+name = "gammaray"
+version = "3.4.1"
+description = "Examine and manipulate Qt application internals at runtime"
+homepage = "https://www.kdab.com/software-technologies/developer-tools/gammaray/"
+
+[source]
+url = "https://github.com/KDAB/GammaRay/releases/download/v3.4.1/gammaray-3.4.1.tar.gz"
+sha256 = "f3b9e28a6d799a3b798e9e0dfde52481a9b8aa6aeb68c65890b3736731603740"
+
+[build]
+system = "cmake"

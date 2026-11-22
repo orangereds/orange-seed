@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gtk+", "autoconf", "automake", "gtk+3", "pkgconf", "glib", "jpeg-turbo", "libpng", "libtiff", "sane-backends", "at-spi2-core", "cairo", "gdk-pixbuf", "gettext", "harfbuzz", "pango"]
+
+[package]
+name = "xsane"
+version = "0.999_7"
+description = "Graphical scanning frontend"
+homepage = "https://gitlab.com/sane-project/frontend/xsane"
+
+[source]
+url = "https://ftp.osuosl.org/pub/blfs/conglomeration/xsane/xsane-0.999.tar.gz"
+sha256 = "5782d23e67dc961c81eef13a87b17eb0144cae3d1ffc5cf7e0322da751482b4b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "docbook-xsl", "pkgconf", "libevent"]
+
+[package]
+name = "saldl"
+version = "41"
+description = "CLI downloader optimized for speed and early preview"
+homepage = "https://saldl.github.io/"
+
+[source]
+url = "https://github.com/saldl/saldl/archive/refs/tags/v41.tar.gz"
+sha256 = "fc9980922f1556fd54a8c04fd671933fdc5b1e6847c1493a5fec89e164722d8e"
+
+[build]
+system = "autotools"

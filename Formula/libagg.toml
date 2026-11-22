@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "libagg"
+version = "0_1"
+description = "High fidelity 2D graphics library for C++"
+homepage = "https://agg.sourceforge.net/antigrain.com/"
+
+[source]
+url = "https://ftp2.osuosl.org/pub/blfs/8.0/a/agg-2.5.tar.gz"
+sha256 = "ab1edc54cc32ba51a62ff120d501eecd55fceeedf869b9354e7e13812289911f"
+
+[build]
+system = "autotools"

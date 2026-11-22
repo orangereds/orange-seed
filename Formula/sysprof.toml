@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gettext", "meson", "ninja", "pkgconf", "cairo", "elfutils", "glib", "graphene", "gtk4", "hicolor-icon-theme", "json-glib", "libadwaita", "libdex", "libpanel", "libunwind", "pango", "polkit", "systemd"]
+
+[package]
+name = "sysprof"
+version = "51.0"
+description = "Statistical, system-wide profiler"
+homepage = "https://gitlab.gnome.org/GNOME/sysprof"
+
+[source]
+url = "https://download.gnome.org/sources/sysprof/51/sysprof-51.0.tar.xz"
+sha256 = "f2c8d9c5c8294ce3fdc8be7d9f4be56a72ed71522cb54987f1723a8cfd91637d"
+
+[build]
+system = "autotools"

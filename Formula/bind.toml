@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline", "meson", "ninja", "lmdb", "pkgconf", "jemalloc", "json-c", "libidn2", "libnghttp2", "libuv", "openssl@4", "userspace-rcu"]
+
+[package]
+name = "bind"
+version = "9.20.31"
+description = "Implementation of the DNS protocols"
+homepage = "https://www.isc.org/bind/"
+
+[source]
+url = "https://downloads.isc.org/isc/bind9/9.20.31/bind-9.20.31.tar.xz"
+sha256 = "9bfecd503ec79209d321053689c794da9f8dba993a24e9cd6bd7aa87cdf4122f"
+
+[service]
+run = "named -f -L var/log/named/named.log"
+
+[build]
+system = "autotools"

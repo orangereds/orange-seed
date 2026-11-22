@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "kuto"
+version = "0.3.6"
+description = "Reverse JS bundler"
+homepage = "https://github.com/samthor/kuto"
+
+[source]
+url = "https://registry.npmjs.org/kuto/-/kuto-0.3.6.tgz"
+sha256 = "4e4ac78f04caebf634674fea2266d1701b20aa0a132513e58b25f8875d0b81e1"
+
+[build]
+system = "autotools"

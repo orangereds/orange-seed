@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libxcrypt"
+version = "4.5.2"
+description = "Extended crypt library for descrypt, md5crypt, bcrypt, and others"
+homepage = "https://github.com/besser82/libxcrypt"
+
+[source]
+url = "https://github.com/besser82/libxcrypt/releases/download/v4.5.2/libxcrypt-4.5.2.tar.xz"
+sha256 = "71513a31c01a428bccd5367a32fd95f115d6dac50fb5b60c779d5c7942aec071"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "unum"
+version = "3.6-15.1.0"
+description = "Interconvert numbers, Unicode, and HTML/XHTML entities"
+homepage = "https://www.fourmilab.ch/webtools/unum/"
+
+[source]
+url = "https://www.fourmilab.ch/webtools/unum/prior-releases/3.6-15.1.0/unum.tar.gz"
+sha256 = "9e4cb91aff389091f8c04122107ce3f7face4389ee27a9fb398b574dda20b457"
+
+[build]
+system = "autotools"

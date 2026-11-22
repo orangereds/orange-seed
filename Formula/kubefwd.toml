@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubefwd"
+version = "1.25.18"
+description = "Bulk port forwarding Kubernetes services for local development"
+homepage = "https://kubefwd.com"
+
+[source]
+url = "https://github.com/txn2/kubefwd/archive/refs/tags/v1.25.18.tar.gz"
+sha256 = "5c6e0f7a9407729a0fd948078b259790554eec9a15506c935083e688c3cbf371"
+
+[build]
+system = "autotools"

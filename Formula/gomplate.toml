@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gomplate"
+version = "5.3.1"
+description = "Command-line Golang template processor"
+homepage = "https://gomplate.ca/"
+
+[source]
+url = "https://github.com/hairyhenderson/gomplate/archive/refs/tags/v5.3.1.tar.gz"
+sha256 = "4f3e313a9eaaa677d5f69406a62adaf1191daf4901a92729d1a6e8b3be954a2a"
+
+[build]
+system = "autotools"

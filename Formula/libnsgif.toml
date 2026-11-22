@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["netsurf-buildsystem"]
+
+[package]
+name = "libnsgif"
+version = "1.0.0-src"
+description = "Decoding library for the GIF image file format"
+homepage = "https://www.netsurf-browser.org/projects/libnsgif/"
+
+[source]
+url = "https://download.netsurf-browser.org/libs/releases/libnsgif-1.0.0-src.tar.gz"
+sha256 = "6014c842f61454d2f5a0f8243d7a8d7bde9b7da3ccfdca2d346c7c0b2c4c061b"
+
+[build]
+system = "make"

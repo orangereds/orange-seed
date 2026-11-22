@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "graphviz", "python@3.15"]
+
+[package]
+name = "graphviz2drawio"
+version = "1.2.0_1"
+description = "Convert graphviz (dot) files into draw.io / lucid (mxGraph) format"
+homepage = "https://github.com/hbmartin/graphviz2drawio/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ac/5e/c83be8d5beed742079976c2b2bd75f3505166e0ef5aa2ffe67cbced0a94a/graphviz2drawio-1.2.0.tar.gz"
+sha256 = "75a4775dd975c932ff7e2bfa49cc5ec6c8f1dffe77a3b5b56d40ae3850af692b"
+
+[build]
+system = "autotools"

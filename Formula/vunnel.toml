@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15", "rpds-py", "xxhash", "zstd"]
+
+[package]
+name = "vunnel"
+version = "0.68.0"
+description = "Tool for collecting vulnerability data from various sources"
+homepage = "https://github.com/anchore/vunnel"
+
+[source]
+url = "https://files.pythonhosted.org/packages/04/68/6909f0155af888a8298ffd15c6914c55d25aa995c2ef799f9c11a6bbc9ab/vunnel-0.68.0.tar.gz"
+sha256 = "506d2aa67878cbc6401a22970047a11785f9aef378967051e170fa42dddfa7dd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "brew-gem"
+version = "1.3.4"
+description = "Install RubyGems as Homebrew formulae"
+homepage = "https://github.com/sportngin/brew-gem"
+
+[source]
+url = "https://github.com/sportngin/brew-gem/archive/refs/tags/v1.3.4.tar.gz"
+sha256 = "0c8b02d3bb475db2a635c9b40892f2b4106c6d721beb540215cd1dd3064742e9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "isponsorblocktv"
+version = "2.11.0_1"
+description = "SponsorBlock client for all YouTube TV clients"
+homepage = "https://github.com/dmunozv04/iSponsorBlockTV"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0d/2a/5355d641aaf481b00da635aa128ce5fc5f6937af96e49ad4996d9849880f/isponsorblocktv-2.11.0.tar.gz"
+sha256 = "48b7004b91682fc24f4c77e619a0102bd64518006e45f7766157e409c3bb4df9"
+
+[service]
+run = "opt/isponsorblocktv/bin/iSponsorBlockTV"
+keep_alive = true
+log_path = "var/log/iSponsorBlockTV.log"
+error_log_path = "var/log/iSponsorBlockTV.log"
+
+[service.env]
+PYTHONUNBUFFERED = "1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "megacmd"
+version = "0.016"
+description = "Command-line client for mega.co.nz storage service"
+homepage = "https://github.com/t3rm1n4l/megacmd"
+
+[source]
+url = "https://github.com/t3rm1n4l/megacmd/archive/refs/tags/0.016.tar.gz"
+sha256 = "def4cda692860c85529c8de9b0bdb8624a30f57d265f7e70994fc212e5da7e40"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elfutils"]
+
+[package]
+name = "vtable-dumper"
+version = "1.2"
+description = "List contents of virtual tables in a shared library"
+homepage = "https://github.com/lvc/vtable-dumper"
+
+[source]
+url = "https://github.com/lvc/vtable-dumper/archive/refs/tags/1.2.tar.gz"
+sha256 = "6993781b6a00936fc5f76dc0db4c410acb46b6d6e9836ddbe2e3c525c6dd1fd2"
+
+[build]
+system = "autotools"

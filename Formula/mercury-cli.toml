@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mercury-cli"
+version = "0.13.2"
+description = "CLI interface for Mercury banking"
+homepage = "https://github.com/MercuryTechnologies/mercury-cli"
+
+[source]
+url = "https://github.com/MercuryTechnologies/mercury-cli/archive/refs/tags/v0.13.2.tar.gz"
+sha256 = "076dd214fe19f4e4796d1f694575898bc1409642c9e2ba06c439e224525a5a82"
+
+[build]
+system = "autotools"

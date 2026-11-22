@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-format-staged"
+version = "4.0.2"
+description = "Git command to transform staged files using a formatting command"
+homepage = "https://github.com/hallettj/git-format-staged"
+
+[source]
+url = "https://github.com/hallettj/git-format-staged/archive/refs/tags/v4.0.2.tar.gz"
+sha256 = "1144e9ebf9fdecb3ba4fd9520b72dafa80ede998b833ec9865547c9b1410bdf3"
+
+[build]
+system = "autotools"

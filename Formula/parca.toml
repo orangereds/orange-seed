@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm"]
+
+[package]
+name = "parca"
+version = "0.30.0"
+description = "Continuous profiling for analysis of CPU and memory usage"
+homepage = "https://www.parca.dev/"
+
+[source]
+url = "https://github.com/parca-dev/parca/archive/refs/tags/v0.30.0.tar.gz"
+sha256 = "61ca1b92fe77547542c0b4908ad8f295ddcde409ce48e5133dbfefd468d44bd7"
+
+[build]
+system = "autotools"

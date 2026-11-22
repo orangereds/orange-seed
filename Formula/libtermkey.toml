@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtool", "pkgconf", "unibilium"]
+
+[package]
+name = "libtermkey"
+version = "0.22"
+description = "Library for processing keyboard entry from the terminal"
+homepage = "https://www.leonerd.org.uk/code/libtermkey/"
+
+[source]
+url = "https://www.leonerd.org.uk/code/libtermkey/libtermkey-0.22.tar.gz"
+sha256 = "6945bd3c4aaa83da83d80a045c5563da4edd7d0374c62c0d35aec09eb3014600"
+
+[build]
+system = "make"

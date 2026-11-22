@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gist"
+version = "6.1.0"
+description = "Command-line utility for uploading Gists"
+homepage = "https://defunkt.io/gist/"
+
+[source]
+url = "https://github.com/defunkt/gist/archive/refs/tags/v6.1.0.tar.gz"
+sha256 = "53c72eb07bcdd71b1a8fdd3f81a3cc44a332b92c34a30632e45d6941c10f3096"
+
+[build]
+system = "autotools"

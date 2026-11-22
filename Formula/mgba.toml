@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["qt@5", "sdl2-compat", "qttools", "freetype", "qtbase", "qtmultimedia", "sdl3", "cmake", "pkgconf", "ffmpeg", "libepoxy", "libpng", "libzip", "lua", "sqlite", "libelf"]
+
+[package]
+name = "mgba"
+version = "0.10.5_2"
+description = "Game Boy Advance emulator"
+homepage = "https://mgba.io/"
+
+[source]
+url = "https://github.com/mgba-emu/mgba/archive/refs/tags/0.10.5.tar.gz"
+sha256 = "91d6fbd32abcbdf030d58d3f562de25ebbc9d56040d513ff8e5c19bee9dacf14"
+
+[build]
+system = "autotools"

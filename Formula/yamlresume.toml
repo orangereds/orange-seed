@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "yamlresume"
+version = "0.18.1"
+description = "Resumes as code in YAML"
+homepage = "https://github.com/yamlresume/yamlresume"
+
+[source]
+url = "https://registry.npmjs.org/yamlresume/-/yamlresume-0.18.1.tgz"
+sha256 = "f5be97cd293c29d0f8786427c2072c1e3d9b0cf8913533061c094fe8c785da27"
+
+[build]
+system = "autotools"

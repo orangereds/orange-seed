@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "lame", "libao", "libvorbis", "mad"]
+
+[package]
+name = "cdrdao"
+version = "0"
+description = "Record CDs in Disk-At-Once mode"
+homepage = "https://cdrdao.sourceforge.net/"
+
+[source]
+url = "https://github.com/cdrdao/cdrdao/archive/refs/tags/rel_1_2_6.tar.gz"
+sha256 = "ba3eadcae7b62a709e9e23988d7fb41f822c408dcec9bd99ff1a343d1bcbc524"
+
+[build]
+system = "autotools"

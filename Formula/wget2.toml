@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "doxygen", "graphviz", "libtool", "pandoc", "pkgconf", "texinfo", "brotli", "gnutls", "gpgme", "libidn2", "libnghttp2", "libpsl", "lzlib", "pcre2", "xz", "zstd", "gnu-sed", "gettext"]
+
+[package]
+name = "wget2"
+version = "2.3.0"
+description = "Successor of GNU Wget, a file and recursive website downloader"
+homepage = "https://gitlab.com/gnuwget/wget2"
+
+[source]
+url = "https://ftpmirror.gnu.org/wget/wget2-2.3.0.tar.gz"
+sha256 = "4f1915b2a55a789a15f2f9ada7cc44bca81418e648f76fd88a7f4dd028b2149f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "surfraw"
+version = "2.3.0"
+description = "Shell Users' Revolutionary Front Rage Against the Web"
+homepage = "https://gitlab.com/surfraw/Surfraw"
+
+[source]
+url = "https://ftp.openbsd.org/pub/OpenBSD/distfiles/surfraw-2.3.0.tar.gz"
+sha256 = "ad0420583c8cdd84a31437e59536f8070f15ba4585598d82638b950e5c5c3625"
+
+[build]
+system = "autotools"

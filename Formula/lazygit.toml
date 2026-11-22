@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lazygit"
+version = "0.66.3"
+description = "Simple terminal UI for git commands"
+homepage = "https://github.com/jesseduffield/lazygit/"
+
+[source]
+url = "https://github.com/jesseduffield/lazygit/archive/refs/tags/v0.66.3.tar.gz"
+sha256 = "49e80d28e03e53048105f6ebb5afefbe5caacffa8549347d8a59eab3a00dafe1"
+
+[build]
+system = "autotools"

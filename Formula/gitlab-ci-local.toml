@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gitlab-ci-local"
+version = "4.77.1"
+description = "Run gitlab pipelines locally as shell executor or docker executor"
+homepage = "https://github.com/firecow/gitlab-ci-local"
+
+[source]
+url = "https://registry.npmjs.org/gitlab-ci-local/-/gitlab-ci-local-4.77.1.tgz"
+sha256 = "90581c3103c29b0c2dbddd8991ab10866d46b58174f7c29b7bf73f23aef83879"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dockerize"
+version = "0.16.0"
+description = "Utility to simplify running applications in docker containers"
+homepage = "https://github.com/jwilder/dockerize"
+
+[source]
+url = "https://github.com/jwilder/dockerize/archive/refs/tags/v0.16.0.tar.gz"
+sha256 = "f24dd9242c203f96c199c66c05c43a12acead1b11ab4266c1e1ab6bdf3292669"
+
+[build]
+system = "autotools"

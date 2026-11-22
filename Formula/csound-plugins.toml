@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "csound", "faust", "fluid-synth", "hdf5", "libpng", "libwebsockets", "openssl@4", "python@3.15", "stk", "wiiuse"]
+
+[package]
+name = "csound-plugins"
+version = "7.0.0"
+description = "Additional opcodes for Csound"
+homepage = "https://github.com/csound/plugins"
+
+[source]
+url = "https://github.com/csound/plugins/archive/refs/tags/7.0.0.tar.gz"
+sha256 = "5f00ccc3fa28437d2206bbf49136ec0a4fa0f0fd2104f56506232c49219b0df9"
+
+[build]
+system = "autotools"

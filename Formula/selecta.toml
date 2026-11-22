@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "selecta"
+version = "0.0.8"
+description = "Fuzzy text selector for files and anything else you need to select"
+homepage = "https://github.com/garybernhardt/selecta"
+
+[source]
+url = "https://github.com/garybernhardt/selecta/archive/refs/tags/v0.0.8.tar.gz"
+sha256 = "737aae1677fdec1781408252acbb87eb615ad3de6ad623d76c5853e54df65347"
+
+[build]
+system = "autotools"

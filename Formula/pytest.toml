@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pytest"
+version = "9.2.0"
+description = "Simple powerful testing with Python"
+homepage = "https://docs.pytest.org/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/79/42/bb4641652e58dedeac2ec51abc1f8cae4fee4ec63899a0999016229a0f2a/pytest-9.2.0.tar.gz"
+sha256 = "97c4f3b1f3c7414aa36465e09b8220f1d03627993bd51b1282e193753c80557b"
+
+[build]
+system = "autotools"

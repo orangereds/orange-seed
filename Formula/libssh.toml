@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4"]
+
+[package]
+name = "libssh"
+version = "0.12.2_1"
+description = "C library SSHv1/SSHv2 client and server protocols"
+homepage = "https://www.libssh.org/"
+
+[source]
+url = "https://www.libssh.org/files/0.12/libssh-0.12.2.tar.xz"
+sha256 = "49560f677d96e3706a904ac2de1116e25f3680937d51e5c92198fcba4a1c1e9f"
+
+[build]
+system = "cmake"

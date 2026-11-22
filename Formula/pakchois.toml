@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pakchois"
+version = "0.4"
+description = "PKCS #11 wrapper library"
+homepage = "https://www.manyfish.co.uk/pakchois/"
+
+[source]
+url = "https://www.manyfish.co.uk/pakchois/pakchois-0.4.tar.gz"
+sha256 = "d73dc5f235fe98e4d1e8c904f40df1cf8af93204769b97dbb7ef7a4b5b958b9a"
+
+[build]
+system = "autotools"

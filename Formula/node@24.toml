@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python@3.13", "brotli", "c-ares", "hdrhistogram_c", "icu4c@79", "libnghttp2", "libnghttp3", "libngtcp2", "libuv", "openssl@4", "simdjson", "sqlite", "uvwasi", "zstd", "llvm"]
+
+[package]
+name = "node@24"
+version = "11_1"
+description = "Open-source, cross-platform JavaScript runtime environment"
+homepage = "https://nodejs.org/"
+
+[source]
+url = "https://nodejs.org/dist/v24.22.3/node-v24.22.3.tar.xz"
+sha256 = "48ca3aa8a9b02133356922ef4fc80200e00598c80a4ef446f7c39a459222593d"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

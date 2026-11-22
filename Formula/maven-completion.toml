@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "maven-completion"
+version = "20200420"
+description = "Bash completion for Maven"
+homepage = "https://github.com/juven/maven-bash-completion"
+
+[source]
+url = "https://github.com/juven/maven-bash-completion/archive/refs/tags/20200420.tar.gz"
+sha256 = "eb4ef412d140e19e7d3ce23adb7f8fcce566f44388cfdc8c1e766a3c4b183d3d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "reveal-md"
+version = "6.1.4"
+description = "Get beautiful reveal.js presentations from your Markdown files"
+homepage = "https://github.com/webpro/reveal-md"
+
+[source]
+url = "https://registry.npmjs.org/reveal-md/-/reveal-md-6.1.4.tgz"
+sha256 = "699d44c19f8437f294464ca457d35ad779e6f605299a38ea293b7aa75363d6f9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "influxdb@2"]
+
+[package]
+name = "influxdb-cli"
+version = "2.9.1"
+description = "CLI for managing resources in InfluxDB v2"
+homepage = "https://influxdata.com/time-series-platform/influxdb/"
+
+[source]
+url = "https://github.com/influxdata/influx-cli/archive/refs/tags/v2.9.1.tar.gz"
+sha256 = "5a16c3866640518339a31fe03a25c341f6f9ae5c2fbd149c5bc47e95e6e9e8b9"
+
+[build]
+system = "autotools"

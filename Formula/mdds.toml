@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "boost"]
+
+[package]
+name = "mdds"
+version = "4.0.0"
+description = "Multi-dimensional data structure and indexing algorithm"
+homepage = "https://gitlab.com/mdds/mdds"
+
+[source]
+url = "https://gitlab.com/api/v4/projects/mdds%2Fmdds/packages/generic/source/4.0.0/mdds-4.0.0.tar.bz2"
+sha256 = "4b04787c31c706ca1f3bd5a24e186b41f78ce772dfd22feb26737369ef522502"
+
+[build]
+system = "autotools"

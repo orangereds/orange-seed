@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "isl", "libmpc", "mpfr", "zstd", "make"]
+
+[package]
+name = "gcc@14"
+version = "0"
+description = "GNU compiler collection"
+homepage = "https://gcc.gnu.org/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gcc/gcc-14.4.0/gcc-14.4.0.tar.xz"
+sha256 = "752b6f567beac83159c77a7680b1316bdd784738bff9a9d070112c09da90f6d9"
+
+[build]
+system = "autotools"

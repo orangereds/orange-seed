@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "byteman"
+version = "0"
+description = "Java bytecode manipulation tool for testing, monitoring and tracing"
+homepage = "https://byteman.jboss.org/"
+
+[source]
+url = "https://downloads.jboss.org/byteman/4.0.28.1/byteman-download-4.0.28.1-bin.zip"
+sha256 = "764fd560ac2c33f0e207a256951f40c59ee3a2fa9b2cb5996bd65f027ce680ec"
+
+[build]
+system = "autotools"

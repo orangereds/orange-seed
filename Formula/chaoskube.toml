@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chaoskube"
+version = "0.39.2"
+description = "Periodically kills random pods in your Kubernetes cluster"
+homepage = "https://github.com/linki/chaoskube"
+
+[source]
+url = "https://github.com/linki/chaoskube/archive/refs/tags/v0.39.2.tar.gz"
+sha256 = "135d9570499cef12a3d4fffe46e815a639c79d0cf39113ccec09cf3905141f17"
+
+[build]
+system = "autotools"

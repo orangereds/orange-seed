@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "coreutils", "pkgconf", "rust", "certifi", "libyaml", "mlx", "numpy", "protobuf", "python@3.15", "sentencepiece"]
+
+[package]
+name = "mlx-lm"
+version = "0_1"
+description = "Run LLMs with MLX"
+homepage = "https://github.com/ml-explore/mlx-lm"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e1/46/eff1c17019b82912020d4d716527e6fcf4ac392b55cddef03eeb60566ab4/mlx_lm-0.32.2.tar.gz"
+sha256 = "1af8a92f6a141c3e2bf5b0369ac4464203a8e2189c47b9e40d3e921e5b3a1fe9"
+
+[service]
+run = "opt/mlx-lm/bin/mlx_lm.server"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/mlx-lm.log"
+error_log_path = "var/log/mlx-lm.log"
+
+[build]
+system = "autotools"

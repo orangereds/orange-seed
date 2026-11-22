@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dexidp"
+version = "2.46.1"
+description = "OpenID Connect Identity and OAuth 2.0 Provider"
+homepage = "https://dexidp.io"
+
+[source]
+url = "https://github.com/dexidp/dex/archive/refs/tags/v2.46.1.tar.gz"
+sha256 = "05e2e149b53f9876269362fefa9061b4b1abd3d5437f23247d79e44a77ac487d"
+
+[service]
+run = "opt/dexidp/bin/dex serve etc/dexidp/config.yaml"
+keep_alive = true
+log_path = "var/log/dex.log"
+error_log_path = "var/log/dex.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "seam"
+version = "0"
+description = "Command-line interface (CLI) for interacting and developing with the Seam API"
+homepage = "https://github.com/seamapi/cli"
+
+[source]
+url = "https://registry.npmjs.org/@seamapi/cli/-/cli-0.60.0.tgz"
+sha256 = "5148bd00e93ae65a7bbc7ca96a6f2850f6ab87d6d79f57dd4b4c935b8b6d23ae"
+
+[build]
+system = "autotools"

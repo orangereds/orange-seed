@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "scons", "sphinx-doc", "glib", "json-glib"]
+
+[package]
+name = "rmlint"
+version = "2.11.0"
+description = "Extremely fast tool to remove dupes and other lint from your filesystem"
+homepage = "https://rmlint.readthedocs.io/en/master/"
+
+[source]
+url = "https://github.com/sahib/rmlint/archive/refs/tags/v2.11.0.tar.gz"
+sha256 = "e7a20caf7f0162791f947a89931de76750daadd72be7719477278f3e949f00df"
+
+[build]
+system = "autotools"

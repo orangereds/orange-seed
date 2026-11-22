@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cd-discid"
+version = "1.4_2"
+description = "Read CD and get CDDB discid information"
+homepage = "https://linukz.org/cd-discid.shtml"
+
+[source]
+url = "https://linukz.org/download/cd-discid-1.4.tar.gz"
+sha256 = "ffd68cd406309e764be6af4d5cbcc309e132c13f3597c6a4570a1f218edd2c63"
+
+[build]
+system = "autotools"

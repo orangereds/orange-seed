@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "adwaita-icon-theme", "at-spi2-core", "cairo", "gdk-pixbuf", "gettext", "glib", "gtk+3", "harfbuzz", "libpng", "pango"]
+
+[package]
+name = "xmedcon"
+version = "0.26.2"
+description = "Medical image conversion toolkit"
+homepage = "https://xmedcon.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/xmedcon/XMedCon-Source/0.26.2/xmedcon-0.26.2-gtk3.tar.gz"
+sha256 = "fff4fca2860974b0d2b4ec1c5813c4fc80ca9fa8d44cef6f15ad50eda1e7e5cc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "topfew"
+version = "2.0.0"
+description = "Finds the field values which appear most often in a stream of records"
+homepage = "https://github.com/timbray/topfew"
+
+[source]
+url = "https://github.com/timbray/topfew/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "89b9abe7304eb6bb50cc5b3152783e50600439955f73b6175c6db8aec75c0ac9"
+
+[build]
+system = "autotools"

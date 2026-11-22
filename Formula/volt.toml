@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "volt"
+version = "0.3.7"
+description = "Meta-level vim package manager"
+homepage = "https://github.com/vim-volt/volt"
+
+[source]
+url = "https://github.com/vim-volt/volt/archive/refs/tags/v0.3.7.tar.gz"
+sha256 = "db64e9a04426d2b1c0873e1ffd7a4c2d0f1ffe61688bee670bb16089b9c98639"
+
+[build]
+system = "autotools"

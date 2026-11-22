@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "pear"
+version = "3.0.0"
+description = "Peer-to-peer application runtime"
+homepage = "https://docs.pears.com"
+
+[source]
+url = "https://registry.npmjs.org/pear/-/pear-3.0.0.tgz"
+sha256 = "5f45f33e4dabf589392ca6fe7ea28eda546069a3d3e946fa58080191a419f02c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nettoe"
+version = "1.5.1"
+description = "Tic Tac Toe-like game for the console"
+homepage = "https://nettoe.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/nettoe/nettoe/1.5.1/nettoe-1.5.1.tar.gz"
+sha256 = "dbc2c08e7e0f7e60236954ee19a165a350ab3e0bcbbe085ecd687f39253881cb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["argon2", "libgcrypt", "libgpg-error", "lz4", "lzo", "xz", "zstd", "gettext"]
+
+[package]
+name = "dar"
+version = "2.8.6"
+description = "Backup directory tree and files"
+homepage = "http://dar.linux.free.fr/doc/index.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dar/dar/2.8.6/dar-2.8.6.tar.gz"
+sha256 = "d56caeb6c86f751cb454d8fef45f3daecc508f208290d9f51e8c75bba5dc46c5"
+
+[build]
+system = "autotools"

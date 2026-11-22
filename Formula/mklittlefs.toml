@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mklittlefs"
+version = "0"
+description = "Creates LittleFS images for ESP8266, ESP32, Pico RP2040, and RP2350"
+homepage = "https://github.com/earlephilhower/mklittlefs"
+
+[source]
+url = "https://github.com/earlephilhower/mklittlefs/releases/download/4.1.0/mklittlefs-source.zip"
+sha256 = "4fa5565e2e9185898182557e25860f0fe5536f8133ef0247574105a75b5ae4d6"
+
+[build]
+system = "autotools"

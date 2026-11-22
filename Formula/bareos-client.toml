@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cli11", "cmake", "cpp-gsl", "fmt", "utf8cpp", "jansson", "lzo", "openssl@3", "readline", "xxhash", "gettext"]
+
+[package]
+name = "bareos-client"
+version = "25.1.2"
+description = "Client for Bareos (Backup Archiving REcovery Open Sourced)"
+homepage = "https://www.bareos.com/"
+
+[source]
+url = "https://github.com/bareos/bareos/archive/refs/tags/Release/25.1.2.tar.gz"
+sha256 = "adb393484d4b808f5f9b6321c7474f0d256c3fb472e2ff538af2645f4f5f132c"
+
+[service]
+run = "bareos-fd -f"
+log_path = "var/run/bareos-fd.log"
+error_log_path = "var/run/bareos-fd.log"
+
+[build]
+system = "cmake"

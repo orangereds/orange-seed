@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ldc", "pkgconf", "curl", "dbus", "sqlite", "systemd"]
+
+[package]
+name = "onedrive-cli"
+version = "2.5.12"
+description = "Folder synchronization with OneDrive"
+homepage = "https://abraunegg.github.io"
+
+[source]
+url = "https://github.com/abraunegg/onedrive/archive/refs/tags/v2.5.12.tar.gz"
+sha256 = "7d23679f244b44ab4ff015e940795ec8bfd24de97bea469d6a31f110ca12d61d"
+
+[service]
+run = "opt/onedrive-cli/bin/onedrive --monitor"
+keep_alive = true
+working_dir = "Dir.home"
+log_path = "var/log/onedrive.log"
+error_log_path = "var/log/onedrive.log"
+
+[build]
+system = "autotools"

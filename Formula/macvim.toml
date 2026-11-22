@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "libsodium", "cscope", "lua", "python@3.15", "ruby"]
+
+[package]
+name = "macvim"
+version = "9.2.1252"
+description = "GUI for vim, made for macOS"
+homepage = "https://macvim.org"
+
+[source]
+url = "https://github.com/macvim-dev/macvim/archive/refs/tags/release-184.tar.gz"
+sha256 = "af1467e2d4c360bb8934815ac31259918f25f32b4787aaf9955443f14dc58bbd"
+
+[build]
+system = "autotools"

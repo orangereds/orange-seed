@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "flex", "pkgconf"]
+
+[package]
+name = "ibex"
+version = "2.9.1"
+description = "C++ library for constraint processing over real numbers"
+homepage = "https://ibex-team.github.io/ibex-lib/"
+
+[source]
+url = "https://github.com/ibex-team/ibex-lib/archive/refs/tags/ibex-2.9.1.tar.gz"
+sha256 = "b3cd09c3be137fd2ff0f2570c3bcbdfcd9ea62fcf04d45d058db3b0dbb1d8872"
+
+[build]
+system = "cmake"

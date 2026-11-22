@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "shntool"
+version = "3.0.10.orig"
+description = "Multi-purpose tool for manipulating and analyzing WAV files"
+homepage = "http://shnutils.freeshell.org/shntool/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/s/shntool/shntool_3.0.10.orig.tar.gz"
+sha256 = "74302eac477ca08fb2b42b9f154cc870593aec8beab308676e4373a5e4ca2102"
+
+[build]
+system = "autotools"

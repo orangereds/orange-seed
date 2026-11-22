@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "align"
+version = "1.7.5"
+description = "Text column alignment filter"
+homepage = "https://kinzler.com/me/align/"
+
+[source]
+url = "https://kinzler.com/me/align/align-1.7.5.tgz"
+sha256 = "cc692fb9dee0cc288757e708fc1a3b6b56ca1210ca181053a371cb11746969dd"
+
+[build]
+system = "autotools"

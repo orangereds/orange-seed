@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["memcached"]
+
+[package]
+name = "libmemcached"
+version = "1.0.18_2"
+description = "C and C++ client library to the memcached server"
+homepage = "https://libmemcached.org/"
+
+[source]
+url = "https://launchpad.net/libmemcached/1.0/1.0.18/+download/libmemcached-1.0.18.tar.gz"
+sha256 = "e22c0bb032fde08f53de9ffbc5a128233041d9f33b5de022c0978a2149885f82"
+
+[build]
+system = "autotools"

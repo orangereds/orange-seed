@@ -1,0 +1,25 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "icu4c@78", "krb5", "openssl@3", "readline"]
+
+[package]
+name = "postgresql@13"
+version = "0"
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+
+[source]
+url = "https://ftp.postgresql.org/pub/source/v13.23/postgresql-13.23.tar.bz2"
+sha256 = "6ec3c82726af92b7dec873fa1cdf881eca92a4219787dfad05acb6b10e041fd6"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/postgresql@13/bin/postgres -D f.postgresql_datadir"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "f.postgresql_log_path"
+error_log_path = "f.postgresql_log_path"
+
+[build]
+system = "autotools"

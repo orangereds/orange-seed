@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "rulesync"
+version = "43.11.0"
+description = "Unified AI rules management CLI tool"
+homepage = "https://github.com/dyoshikawa/rulesync"
+
+[source]
+url = "https://registry.npmjs.org/rulesync/-/rulesync-43.11.0.tgz"
+sha256 = "77fb87e7a2c983692a99fa93009ff129fb2056819601a895c20f0a4ec1a78f27"
+
+[build]
+system = "autotools"

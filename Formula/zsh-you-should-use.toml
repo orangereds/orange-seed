@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zsh-you-should-use"
+version = "1.11.1"
+description = "ZSH plugin that reminds you to use existing aliases for commands you just typed"
+homepage = "https://github.com/MichaelAquilina/zsh-you-should-use"
+
+[source]
+url = "https://github.com/MichaelAquilina/zsh-you-should-use/archive/refs/tags/1.11.1.tar.gz"
+sha256 = "4d884aed12f1301f4620888e322c406c215b719e49385aa3088dc84c8ed383ed"
+
+[build]
+system = "autotools"

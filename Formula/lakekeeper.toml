@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "postgresql@19", "openssl@4"]
+
+[package]
+name = "lakekeeper"
+version = "0.15.1"
+description = "Apache Iceberg REST Catalog"
+homepage = "https://docs.lakekeeper.io"
+
+[source]
+url = "https://github.com/lakekeeper/lakekeeper/archive/refs/tags/v0.15.1.tar.gz"
+sha256 = "8d8e0bd868aa718d1a0e10d1d2ce6ab6dde363ecaf781ab25c512e67ce895e67"
+
+[build]
+system = "autotools"

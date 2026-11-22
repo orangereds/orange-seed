@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tcl-tk@8"]
+
+[package]
+name = "wordnet"
+version = "3.1_2"
+description = "Lexical database for the English language"
+homepage = "https://wordnet.princeton.edu/"
+
+[source]
+url = "https://wordnetcode.princeton.edu/3.0/WordNet-3.0.tar.bz2"
+sha256 = "6c492d0c7b4a40e7674d088191d3aa11f373bb1da60762e098b8ee2dda96ef22"
+
+[build]
+system = "autotools"

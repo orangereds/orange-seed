@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "rust", "libyaml", "openssl@4"]
+
+[package]
+name = "ruby"
+version = "4.0.10"
+description = "Powerful, clean, object-oriented scripting language"
+homepage = "https://www.ruby-lang.org/"
+
+[source]
+url = "https://cache.ruby-lang.org/pub/ruby/4.0/ruby-4.0.10.tar.gz"
+sha256 = "b53eef3371fa5d3e3b74340edcd015f06d5d8853968d4e539a5264fce41ed9f1"
+
+[build]
+system = "autotools"

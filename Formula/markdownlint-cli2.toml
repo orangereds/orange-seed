@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "markdownlint-cli2"
+version = "0.24.2"
+description = "Fast, flexible, config-based cli for linting Markdown/CommonMark files"
+homepage = "https://github.com/DavidAnson/markdownlint-cli2"
+
+[source]
+url = "https://registry.npmjs.org/markdownlint-cli2/-/markdownlint-cli2-0.24.2.tgz"
+sha256 = "4a18029af95ff232e08b8c0b4ba20ef521a7e45cc6216e26cbe4a14ddce3a24b"
+
+[build]
+system = "autotools"

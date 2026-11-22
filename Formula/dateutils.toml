@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "dateutils"
+version = "0.4.12"
+description = "Tools to manipulate dates with a focus on financial data"
+homepage = "https://www.fresse.org/dateutils/"
+
+[source]
+url = "https://github.com/hroptatyr/dateutils/releases/download/v0.4.12/dateutils-0.4.12.tar.xz"
+sha256 = "1e0593116e1a229242255cf890f210cbe120e6f05e9d877faf8d85da675ade1a"
+
+[build]
+system = "autotools"

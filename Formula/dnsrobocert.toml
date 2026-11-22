@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "dnsrobocert"
+version = "3.28.0_1"
+description = "Manage Let's Encrypt SSL certificates based on DNS challenges"
+homepage = "https://dnsrobocert.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c1/44/1adbcbe795b6cbaceaebdcb1eb3cc36cb2d02825d6870a0f04b730c6cc22/dnsrobocert-3.28.0.tar.gz"
+sha256 = "13f8d02305400273079e60d59f5e71e8c5d7648b6e14e1cf7d8a0629b6ab6c17"
+
+[build]
+system = "autotools"

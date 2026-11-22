@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "execline", "skalibs"]
+
+[package]
+name = "s6"
+version = "2.15.1.1"
+description = "Small & secure supervision software suite"
+homepage = "https://skarnet.org/software/s6/"
+
+[source]
+url = "https://skarnet.org/software/s6/s6-2.15.1.1.tar.gz"
+sha256 = "62080839eb5b04d51efd4ef6e7b43e29b5d0576efce9eb319ace32ea90c05931"
+
+[build]
+system = "autotools"

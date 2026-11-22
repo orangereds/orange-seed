@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "gi-docgen"
+version = "0_1"
+description = "Documentation tool for GObject-based libraries"
+homepage = "https://gnome.pages.gitlab.gnome.org/gi-docgen/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/43/23/386dad008d1f1dc3c7188db63ea5bf82ceb41a5914fb050e6e09a14a457a/gi_docgen-2026.1.tar.gz"
+sha256 = "65ac3c4f2b4255d1c616fb8eae55139b6ca10071545ca2272759ffd2ccf2c7b5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goproxy"
+version = "2.0.7"
+description = "Global proxy for Go modules"
+homepage = "https://goproxy.io/"
+
+[source]
+url = "https://github.com/goproxyio/goproxy/archive/refs/tags/v2.0.7.tar.gz"
+sha256 = "d87f3928467520f8d6b0ba8adcbf5957dc6eb2dc9936249edd6568ceb01a71ca"
+
+[build]
+system = "autotools"

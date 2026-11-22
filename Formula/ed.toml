@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ed"
+version = "1.22.6.tar.lz"
+description = "Classic UNIX line editor"
+homepage = "https://www.gnu.org/software/ed/ed.html"
+
+[source]
+url = "https://ftpmirror.gnu.org/ed/ed-1.22.6.tar.lz"
+sha256 = "3f33b22135219c39c3c695f7b7171c2567d3e2a17c798c0a90607320cbb268f2"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

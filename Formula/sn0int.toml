@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "sphinx-doc", "libsodium"]
+
+[package]
+name = "sn0int"
+version = "0.26.1"
+description = "Semi-automatic OSINT framework and package manager"
+homepage = "https://sn0int.readthedocs.io/en/stable/"
+
+[source]
+url = "https://github.com/kpcyrd/sn0int/archive/refs/tags/v0.26.1.tar.gz"
+sha256 = "cf10bff93098586ba7dd885bf56af489ce0177bd1889a13b004fc38f026e71ea"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tomcat", "apr", "openjdk", "openssl@4"]
+
+[package]
+name = "tomcat-native"
+version = "0"
+description = "Lets Tomcat use some native resources for performance"
+homepage = "https://tomcat.apache.org/native-doc/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tomcat/tomcat-connectors/native/2.0.17/source/tomcat-native-2.0.17-src.tar.gz"
+sha256 = "35a8aee8ab2ccce587dfea5ea3c78847f72f733fec4184ab7521d0d3a34d29a5"
+
+[build]
+system = "autotools"

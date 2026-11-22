@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pyenv"]
+
+[package]
+name = "pyenv-pip-migrate"
+version = "20181205"
+description = "Migrate pip packages from one Python version to another"
+homepage = "https://github.com/pyenv/pyenv-pip-migrate"
+
+[source]
+url = "https://github.com/pyenv/pyenv-pip-migrate/archive/refs/tags/v20181205.tar.gz"
+sha256 = "c064c76b854fa905c40e71b5223699bacf18ca492547aad93cdde2b98ca4e58c"
+
+[build]
+system = "autotools"

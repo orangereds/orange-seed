@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust"]
+
+[package]
+name = "ts_query_ls"
+version = "3.16.0"
+description = "LSP implementation for Tree-sitter's query files"
+homepage = "https://github.com/ribru17/ts_query_ls"
+
+[source]
+url = "https://github.com/ribru17/ts_query_ls/archive/refs/tags/v3.16.0.tar.gz"
+sha256 = "2e145fdb7fef06ac73a77a377d5e879af41c8e7194928abb7c2536263b2f519d"
+
+[build]
+system = "autotools"

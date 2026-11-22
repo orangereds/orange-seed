@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libelf"
+version = "0.8.13_1"
+description = "ELF object file access library"
+homepage = "https://fossies.org/linux/misc/old/libelf-0.8.13.tar.gz/"
+
+[source]
+url = "https://cdn.netbsd.org/pub/pkgsrc/distfiles/libelf-0.8.13.tar.gz"
+sha256 = "591a9b4ec81c1f2042a97aa60564e0cb79d041c52faa7416acb38bc95bd2c76d"
+
+[build]
+system = "autotools"

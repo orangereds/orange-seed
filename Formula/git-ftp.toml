@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "curl", "libssh2"]
+
+[package]
+name = "git-ftp"
+version = "1.6.0_1"
+description = "Git-powered FTP client"
+homepage = "https://git-ftp.github.io/"
+
+[source]
+url = "https://github.com/git-ftp/git-ftp/archive/refs/tags/1.6.0.tar.gz"
+sha256 = "088b58d66c420e5eddc51327caec8dcbe8bddae557c308aa739231ed0490db01"
+
+[build]
+system = "autotools"

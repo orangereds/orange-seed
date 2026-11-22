@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libxcb"]
+
+[package]
+name = "xcb-util-renderutil"
+version = "0.3.10"
+description = "Convenience functions for the X Render extension"
+homepage = "https://xcb.freedesktop.org"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-renderutil-0.3.10.tar.gz"
+sha256 = "e04143c48e1644c5e074243fa293d88f99005b3c50d1d54358954404e635128a"
+
+[build]
+system = "autotools"

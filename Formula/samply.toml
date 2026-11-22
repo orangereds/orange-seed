@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "samply"
+version = "0.13.1"
+description = "CLI sampling profiler"
+homepage = "https://github.com/mstange/samply"
+
+[source]
+url = "https://github.com/mstange/samply/archive/refs/tags/samply-v0.13.1.tar.gz"
+sha256 = "7002789471f8ef3a36f4d4db7be98f2847724e2b81a53c5e23d5cae022fb704b"
+
+[build]
+system = "autotools"

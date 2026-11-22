@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sk"
+version = "5.9.0"
+description = "Fuzzy Finder in rust!"
+homepage = "https://github.com/skim-rs/skim"
+
+[source]
+url = "https://github.com/skim-rs/skim/archive/refs/tags/v5.9.0.tar.gz"
+sha256 = "ef0a254a8bdf5ffc52dd5ebf909e7ed0498976b445dfadb8c412c29c1279baed"
+
+[build]
+system = "autotools"

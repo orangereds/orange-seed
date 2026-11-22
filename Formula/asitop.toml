@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "asitop"
+version = "0.0.24"
+description = "Perf monitoring CLI tool for Apple Silicon"
+homepage = "https://tlkh.github.io/asitop/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/93/bc/8755d818efc33dd758322086a23f08bee5e1f7769c339a8be5c142adbbbc/asitop-0.0.24.tar.gz"
+sha256 = "5df7b59304572a948f71cf94b87adc613869a8a87a933595b1b3e26bf42c3e37"
+
+[build]
+system = "autotools"

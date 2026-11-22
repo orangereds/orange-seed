@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mergelog"
+version = "4.5"
+description = "Merges httpd logs from web servers behind round-robin DNS"
+homepage = "https://mergelog.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mergelog/mergelog/4.5/mergelog-4.5.tar.gz"
+sha256 = "fd97c5b9ae88fbbf57d3be8d81c479e0df081ed9c4a0ada48b1ab8248a82676d"
+
+[build]
+system = "autotools"

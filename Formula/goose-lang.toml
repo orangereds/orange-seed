@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "goose-lang"
+version = "2026.4"
+description = "Systems programming language with flat, pointer-free data structures"
+homepage = "https://aardappel.github.io/goose/"
+
+[source]
+url = "https://github.com/aardappel/goose/archive/refs/tags/v2026.4.tar.gz"
+sha256 = "943d785fb191de7b52539e9cf16715701babcacd339323f786729c2132343d9b"
+
+[build]
+system = "cmake"

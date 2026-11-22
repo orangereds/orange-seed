@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "flow-cli"
+version = "2.19.0"
+description = "Command-line interface that provides utilities for building Flow applications"
+homepage = "https://onflow.org"
+
+[source]
+url = "https://github.com/onflow/flow-cli/archive/refs/tags/v2.19.0.tar.gz"
+sha256 = "6dc750c4ff4230b66220d136309b6820af17d45468c28f3adc14f9eefc536583"
+
+[build]
+system = "autotools"

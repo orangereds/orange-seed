@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cxgo"
+version = "0.5.2"
+description = "Transpiling C to Go"
+homepage = "https://gotranspile.dev"
+
+[source]
+url = "https://github.com/gotranspile/cxgo/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "942393dc381dcf47724c93b5d6c4cd7695c0000628ecb7f30c5b99be4676ae83"
+
+[build]
+system = "autotools"

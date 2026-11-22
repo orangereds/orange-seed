@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "graphviz", "qtbase", "qtdeclarative"]
+
+[package]
+name = "grantlee"
+version = "5.3.1"
+description = "Libraries for text templating with Qt"
+homepage = "https://github.com/steveire/grantlee"
+
+[source]
+url = "https://github.com/steveire/grantlee/releases/download/v5.3.1/grantlee-5.3.1.tar.gz"
+sha256 = "ba288ae9ed37ec0c3622ceb40ae1f7e1e6b2ea89216ad8587f0863d64be24f06"
+
+[build]
+system = "cmake"

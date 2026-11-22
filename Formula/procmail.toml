@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "procmail"
+version = "3.24"
+description = "Autonomous mail processor"
+homepage = "https://github.com/BuGlessRB/procmail"
+
+[source]
+url = "https://github.com/BuGlessRB/procmail/archive/refs/tags/v3.24.tar.gz"
+sha256 = "514ea433339783e95df9321e794771e4887b9823ac55fdb2469702cf69bd3989"
+
+[build]
+system = "autotools"

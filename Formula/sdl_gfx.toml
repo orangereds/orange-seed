@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sdl12-compat"]
+
+[package]
+name = "sdl_gfx"
+version = "2.0.28"
+description = "Graphics drawing primitives and other support functions"
+homepage = "https://www.ferzkopp.net/wordpress/2016/01/02/sdl_gfx-sdl2_gfx/"
+
+[source]
+url = "https://github.com/ferzkopp/SDL_gfx/archive/refs/tags/v2.0.28.tar.gz"
+sha256 = "7ed950ae0a5be3be1610bdecaba2fd71c8413927f10e4da267df6d75ea4b35c6"
+
+[build]
+system = "cmake"

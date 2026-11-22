@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-xargs"
+version = "0.1.19"
+description = "CLI for making updates across multiple Github repositories with a single command"
+homepage = "https://github.com/gruntwork-io/git-xargs"
+
+[source]
+url = "https://github.com/gruntwork-io/git-xargs/archive/refs/tags/v0.1.19.tar.gz"
+sha256 = "23cedaeb706b0dc96a132b134e3038d79c88518aa590f152f531a7c38d37bba6"
+
+[build]
+system = "autotools"

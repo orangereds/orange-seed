@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "ghc@9.12", "gmp"]
+
+[package]
+name = "haskell-language-server"
+version = "2.15.0.0-src_1"
+description = "Integration point for ghcide and haskell-ide-engine. One IDE to rule them all"
+homepage = "https://github.com/haskell/haskell-language-server"
+
+[source]
+url = "https://github.com/haskell/haskell-language-server/releases/download/2.15.0.0/haskell-language-server-2.15.0.0-src.tar.gz"
+sha256 = "a6ecf9eeac802dfa358f151d4309803ca082671ed18195d1db0d60771a2159e2"
+
+[build]
+system = "autotools"

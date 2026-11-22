@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "neocmakelsp"
+version = "0.12.0"
+description = "Another cmake lsp"
+homepage = "https://neocmakelsp.github.io/"
+
+[source]
+url = "https://github.com/neocmakelsp/neocmakelsp/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "4852cb598c984e920c9e3a36dd23804c2515b778c14ebdfc9b8a85407402e569"
+
+[build]
+system = "cmake"

@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lsof"
+version = "4.99.7_1"
+description = "Utility to list open files"
+homepage = "https://github.com/lsof-org/lsof"
+
+[source]
+url = "https://github.com/lsof-org/lsof/archive/refs/tags/4.99.7.tar.gz"
+sha256 = "bac1b0acbc50aede42fc97dffaa0b0475e97973e36a6351de5f349c6155afc68"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

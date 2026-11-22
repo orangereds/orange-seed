@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["berkeley-db", "tkrzw", "autoconf", "automake", "libtool", "pkgconf", "glib", "gettext"]
+
+[package]
+name = "libpinyin"
+version = "2.10.3"
+description = "Library to deal with pinyin"
+homepage = "https://github.com/libpinyin/libpinyin"
+
+[source]
+url = "https://github.com/libpinyin/libpinyin/archive/refs/tags/2.10.3.tar.gz"
+sha256 = "a49286721fb2b0234d86c095db9226246b0aa4a0bb6a885d0902da2743c56476"
+
+[build]
+system = "autotools"

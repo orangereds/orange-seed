@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "libtool", "pkgconf", "readline"]
+
+[package]
+name = "augeas"
+version = "1.15.0"
+description = "Configuration editing tool and API"
+homepage = "https://augeas.net/"
+
+[source]
+url = "https://github.com/hercules-team/augeas/releases/download/release-1.15.0/augeas-1.15.0.tar.gz"
+sha256 = "95b2b5c4c10c964024c694d6349024e8033dcfa1aaba88884ea09394908d30ff"
+
+[build]
+system = "autotools"

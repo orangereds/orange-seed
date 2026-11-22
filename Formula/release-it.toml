@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "release-it"
+version = "21.1.2"
+description = "Generic CLI tool to automate versioning and package publishing related tasks"
+homepage = "https://github.com/release-it/release-it"
+
+[source]
+url = "https://registry.npmjs.org/release-it/-/release-it-21.1.2.tgz"
+sha256 = "f1a86b64bbe50643920ac52ee0a406b5b7007f94ff156be2e85fd87536161145"
+
+[build]
+system = "autotools"

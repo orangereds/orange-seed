@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sqlmux"
+version = "0.11.0"
+description = "Terminal database client with tmux-style panes and Vim keybindings"
+homepage = "https://github.com/kackerx/sqlmux"
+
+[source]
+url = "https://github.com/kackerx/sqlmux/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "49409df9a00fdbf9ca6b8951e8fb11a35070ad2c9456feea8de0870203eb1225"
+
+[build]
+system = "autotools"

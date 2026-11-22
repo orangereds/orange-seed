@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nim", "pkgconf", "ffmpeg", "ggml", "libass", "whisper.cpp"]
+
+[package]
+name = "auto-editor"
+version = "31.9.0"
+description = "Effort free video editing!"
+homepage = "https://auto-editor.com"
+
+[source]
+url = "https://github.com/WyattBlue/auto-editor/archive/refs/tags/31.9.0.tar.gz"
+sha256 = "4e17be20d523878a33b64fa1c9876e9b200a7740bd66f63b0db16e7c9da9896d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ca-certificates"]
+
+[package]
+name = "openssl@3.0"
+version = "0"
+description = "Cryptography and SSL/TLS Toolkit"
+homepage = "https://openssl-library.org"
+
+[source]
+url = "https://github.com/openssl/openssl/releases/download/openssl-3.0.22/openssl-3.0.22.tar.gz"
+sha256 = "67ebca7e50d17383028045486653492195b83db95f8558709701bb47b5c1ef81"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

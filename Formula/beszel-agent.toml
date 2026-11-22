@@ -1,0 +1,25 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "beszel-agent"
+version = "0"
+description = "Agent for the Beszel lightweight server monitoring platform"
+homepage = "https://beszel.dev"
+
+[source]
+url = "https://github.com/henrygd/beszel.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/beszel-agent/bin/beszel-agent"
+keep_alive = true
+log_path = "var/log/beszel-agent.log"
+error_log_path = "var/log/beszel-agent.log"
+
+[service.env]
+DATA_DIR = "lib/beszel-agent"
+
+[build]
+system = "autotools"

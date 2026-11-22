@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "intltool", "pkgconf", "adwaita-icon-theme", "glib", "gtk+3", "gtkdatabox", "pango", "at-spi2-core", "cairo", "gdk-pixbuf", "harfbuzz"]
+
+[package]
+name = "klavaro"
+version = "3.14_1"
+description = "Free touch typing tutor program"
+homepage = "https://klavaro.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/klavaro/klavaro-3.14.tar.bz2"
+sha256 = "87187e49d301c510e6964098cdb612126bf030d2a875fd799eadcad3eae56dab"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "sdl2-compat"]
+
+[package]
+name = "rvvm"
+version = "0.6"
+description = "RISC-V Virtual Machine"
+homepage = "https://github.com/LekKit/RVVM"
+
+[source]
+url = "https://github.com/LekKit/RVVM/archive/refs/tags/v0.6.tar.gz"
+sha256 = "97e98c95d8785438758b81fb5c695b8eafb564502c6af7f52555b056e3bb7d7a"
+
+[build]
+system = "cmake"

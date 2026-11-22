@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "pydantic", "python@3.15"]
+
+[package]
+name = "slither-analyzer"
+version = "0_1"
+description = "Solidity static analysis framework written in Python 3"
+homepage = "https://blog.trailofbits.com/2018/10/19/slither-a-solidity-static-analysis-framework/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/05/c2/01a0c06017ac631db4d37cc36dce18be2eabd80576270d356688e5121908/slither_analyzer-0.11.6.tar.gz"
+sha256 = "72aff6c1924a8641c1c8e4d84f9a4e6c97b5bfb3221bf71a11ffaee46d2f7da2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "pwned"
+version = "14.0.0"
+description = "CLI for the 'Have I been pwned?' service"
+homepage = "https://github.com/wKovacs64/pwned"
+
+[source]
+url = "https://registry.npmjs.org/pwned/-/pwned-14.0.0.tgz"
+sha256 = "ff28cbf472891e333a7ba2b9ed499a0d1f8814b199d015a5c5ee6ec6a6917349"
+
+[build]
+system = "autotools"

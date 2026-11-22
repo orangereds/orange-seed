@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gmp"]
+
+[package]
+name = "mlton"
+version = "20241230"
+description = "Whole-program, optimizing compiler for Standard ML"
+homepage = "http://mlton.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mlton/mlton/20241230/mlton-20241230.src.tgz"
+sha256 = "cd170218f67b76c3fcb4d487ba8841518babcebb41e4702074668e61156ca6f6"
+
+[build]
+system = "make"

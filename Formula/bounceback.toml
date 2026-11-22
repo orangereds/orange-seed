@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bounceback"
+version = "1.5.3"
+description = "Stealth redirector for red team operation security"
+homepage = "https://github.com/D00Movenok/BounceBack"
+
+[source]
+url = "https://github.com/D00Movenok/BounceBack/archive/refs/tags/v1.5.3.tar.gz"
+sha256 = "47673a62ab5fdef6d1d34e5ce84b0f9faa0e481a50a0580276a2b89544d067f3"
+
+[service]
+run = "opt/bounceback/bin/bounceback --config etc/bounceback.yml"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/bounceback.log"
+error_log_path = "var/log/bounceback.log"
+
+[build]
+system = "autotools"

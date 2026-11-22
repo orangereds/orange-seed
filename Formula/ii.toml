@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ii"
+version = "2.0"
+description = "Minimalist IRC client"
+homepage = "https://tools.suckless.org/ii/"
+
+[source]
+url = "https://dl.suckless.org/tools/ii-2.0.tar.gz"
+sha256 = "4f67afcd208c07939b88aadbf21497a702ad0a07f9b5a6ce861f9f39ffe5425b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "phpunit"
+version = "13.4.8.phar"
+description = "Programmer-oriented testing framework for PHP"
+homepage = "https://phpunit.de"
+
+[source]
+url = "https://phar.phpunit.de/phpunit-13.4.8.phar"
+sha256 = "260c6fb64aa6172a42f3b72e382441b8d80ed19d2e976bb7da0bed92c9deaaf0"
+
+[build]
+system = "autotools"

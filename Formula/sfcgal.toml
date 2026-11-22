@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen", "nlohmann-json", "boost", "cgal", "gmp", "mpfr"]
+
+[package]
+name = "sfcgal"
+version = "0_1"
+description = "C++ wrapper library around CGAL"
+homepage = "https://sfcgal.gitlab.io/SFCGAL/"
+
+[source]
+url = "https://gitlab.com/sfcgal/SFCGAL/-/archive/v2.3.0/SFCGAL-v2.3.0.tar.gz"
+sha256 = "5f6aa1838e5ae31523ebf410cde0240b7a88d7e062b7ffff945e4fae2aaba0fa"
+
+[build]
+system = "cmake"

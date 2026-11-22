@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "ronn", "shellcheck"]
+
+[package]
+name = "actionlint"
+version = "1.7.12"
+description = "Static checker for GitHub Actions workflow files"
+homepage = "https://rhysd.github.io/actionlint/"
+
+[source]
+url = "https://github.com/rhysd/actionlint/archive/refs/tags/v1.7.12.tar.gz"
+sha256 = "454800bd4f854592bcfe79b161f71d56e35940eb7016e48a26dd356adc9d400a"
+
+[build]
+system = "autotools"

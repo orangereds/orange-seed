@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc@9.12", "gmp", "z3"]
+
+[package]
+name = "cryptol"
+version = "3.6.0_1"
+description = "Domain-specific language for specifying cryptographic algorithms"
+homepage = "https://galoisinc.github.io/cryptol/master/RefMan.html"
+
+[source]
+url = "https://hackage.haskell.org/package/cryptol-3.6.0/cryptol-3.6.0.tar.gz"
+sha256 = "cc0a7ef3b20f4543386209b9077c0d9064c22e0db81f30e8ab4cc8f5dc4a8d93"
+
+[build]
+system = "autotools"

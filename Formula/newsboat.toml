@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "gettext", "pkgconf", "rust", "xz", "json-c", "make", "llvm"]
+
+[package]
+name = "newsboat"
+version = "2.45.1"
+description = "RSS/Atom feed reader for text terminals"
+homepage = "https://newsboat.org/"
+
+[source]
+url = "https://newsboat.org/releases/2.45.1/newsboat-2.45.1.tar.xz"
+sha256 = "bf7dd8c99f60220b659607a03d8f56ecaba4f697ac29984504108575b4a41474"
+
+[build]
+system = "autotools"

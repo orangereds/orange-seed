@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fish", "python@3.15"]
+
+[package]
+name = "virtualfish"
+version = "2.5.9_6"
+description = "Python virtual environment manager for the fish shell"
+homepage = "https://virtualfish.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1f/4e/343d044d61e80a44163d15ad2f6ca20eca0cb4fef4058caf8e5e55fc3dd9/virtualfish-2.5.9.tar.gz"
+sha256 = "9beada15b00c5b38c700ed8dfd76fe35ad0c716dec391536cc322ddd1bccf5e2"
+
+[build]
+system = "autotools"

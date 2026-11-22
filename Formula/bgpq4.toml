@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "bgpq4"
+version = "1.17"
+description = "BGP filtering automation for Cisco, Juniper, BIRD and OpenBGPD routers"
+homepage = "https://github.com/bgp/bgpq4"
+
+[source]
+url = "https://github.com/bgp/bgpq4/archive/refs/tags/1.17.tar.gz"
+sha256 = "f420e82da10b991399203e01ea2ea3369408ac367425bf48a2e0af145b96bbf4"
+
+[build]
+system = "autotools"

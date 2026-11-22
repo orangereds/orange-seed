@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "prism-cli"
+version = "5.16.0"
+description = "Set of packages for API mocking and contract testing"
+homepage = "https://stoplight.io/open-source/prism"
+
+[source]
+url = "https://registry.npmjs.org/@stoplight/prism-cli/-/prism-cli-5.16.0.tgz"
+sha256 = "666ebea18de24d25766c6b0c6f8eaacb0f2fd1e695635d53dd78638c7fe25b89"
+
+[build]
+system = "autotools"

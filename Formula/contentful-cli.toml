@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "contentful-cli"
+version = "4.0.14"
+description = "Contentful command-line tools"
+homepage = "https://github.com/contentful/contentful-cli"
+
+[source]
+url = "https://registry.npmjs.org/contentful-cli/-/contentful-cli-4.0.14.tgz"
+sha256 = "6e3e5576ffc6e8c782778d1f79e6d27a08386213f631d295b51491f93cdc7a5b"
+
+[build]
+system = "autotools"

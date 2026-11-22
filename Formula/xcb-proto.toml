@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python@3.15"]
+
+[package]
+name = "xcb-proto"
+version = "1.17.0_1"
+description = "X.Org: XML-XCB protocol descriptions for libxcb code generation"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz"
+sha256 = "2c1bacd2110f4799f74de6ebb714b94cf6f80fb112316b1219480fd22562148c"
+
+[build]
+system = "autotools"

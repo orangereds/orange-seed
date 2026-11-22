@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "chafa", "ffmpeg"]
+
+[package]
+name = "lazycut"
+version = "0.4.0"
+description = "Terminal-based video trimming TUI"
+homepage = "https://github.com/ozemin/lazycut"
+
+[source]
+url = "https://github.com/ozemin/lazycut/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "ca435f59c1d16e71b9917f36f731887eba001d8a06813f02d1785306e92578c5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "llvm"]
+
+[package]
+name = "bender"
+version = "0.32.1"
+description = "Dependency management tool for hardware projects"
+homepage = "https://github.com/pulp-platform/bender"
+
+[source]
+url = "https://github.com/pulp-platform/bender/archive/refs/tags/v0.32.1.tar.gz"
+sha256 = "0541a4b536588b05601e02b28e35a7506e04fa877dccd15d7d5d477b0f95ff3f"
+
+[build]
+system = "autotools"

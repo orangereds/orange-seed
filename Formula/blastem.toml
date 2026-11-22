@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["imagemagick", "pillow", "pkgconf", "python@3.15", "glew", "sdl2-compat"]
+
+[package]
+name = "blastem"
+version = "1.0.0"
+description = "Fast and accurate Genesis emulator"
+homepage = "https://www.retrodev.com/blastem/"
+
+[source]
+url = "https://www.retrodev.com/repos/blastem/archive/v1.0.0.tar.gz"
+sha256 = "ad35793e3e6d8f3a23914aecc2b28fe3aeb13ab9416d7d9ecbeba2781a755ceb"
+
+[build]
+system = "autotools"

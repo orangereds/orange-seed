@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "html2markdown"
+version = "2.5.2"
+description = "Convert HTML to Markdown"
+homepage = "https://html-to-markdown.com"
+
+[source]
+url = "https://github.com/JohannesKaufmann/html-to-markdown/archive/refs/tags/v2.5.2.tar.gz"
+sha256 = "1086b066a17bf49d8bec8fa493e07a54580924ad866ed7e8052692accba706dc"
+
+[build]
+system = "autotools"

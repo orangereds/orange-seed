@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rbenv"]
+
+[package]
+name = "rbenv-binstubs"
+version = "1.5_1"
+description = "Make rbenv aware of bundler binstubs"
+homepage = "https://github.com/Purple-Devs/rbenv-binstubs"
+
+[source]
+url = "https://github.com/Purple-Devs/rbenv-binstubs/archive/refs/tags/v1.5.tar.gz"
+sha256 = "305000b8ba5b829df1a98fc834b7868b9e817815c661f429b0e28c1f613f4d0c"
+
+[build]
+system = "autotools"

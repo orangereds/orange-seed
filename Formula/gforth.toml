@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["emacs", "libtool"]
+
+[package]
+name = "gforth"
+version = "0.7.3_3"
+description = "Implementation of the ANS Forth language"
+homepage = "https://www.gnu.org/software/gforth/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gforth/gforth-0.7.3.tar.gz"
+sha256 = "2f62f2233bf022c23d01c920b1556aa13eab168e3236b13352ac5e9f18542bb0"
+
+[build]
+system = "autotools"

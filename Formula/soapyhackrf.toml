@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hackrf", "soapysdr"]
+
+[package]
+name = "soapyhackrf"
+version = "0"
+description = "SoapySDR HackRF module"
+homepage = "https://github.com/pothosware/SoapyHackRF/wiki"
+
+[source]
+url = "https://github.com/pothosware/SoapyHackRF/archive/refs/tags/soapy-hackrf-0.3.6.tar.gz"
+sha256 = "7bdecb65074f0c30af707234fbb970687626d4b6e1768592325aa706ae46e572"
+
+[build]
+system = "cmake"

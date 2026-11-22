@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hypre", "metis", "open-mpi", "openblas", "suite-sparse"]
+
+[package]
+name = "mfem"
+version = "4.10"
+description = "Free, lightweight, scalable C++ library for FEM"
+homepage = "https://mfem.org/"
+
+[source]
+url = "https://github.com/mfem/mfem/archive/refs/tags/v4.10.tar.gz"
+sha256 = "d5aabe991b8b5569aa26e2b5d4b59ac617ee10ebac3d45fd6ff9c74b2c1a47dd"
+
+[build]
+system = "cmake"

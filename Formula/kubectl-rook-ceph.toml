@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubectl-rook-ceph"
+version = "0.10.0"
+description = "Rook plugin for Ceph management"
+homepage = "https://rook.io/"
+
+[source]
+url = "https://github.com/rook/kubectl-rook-ceph/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "868320447f35b54bc000200b983d82dbd58ff0966734217bab3006034e967331"
+
+[build]
+system = "autotools"

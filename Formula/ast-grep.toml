@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ast-grep"
+version = "0.51.3"
+description = "Code searching, linting, rewriting"
+homepage = "https://ast-grep.github.io/"
+
+[source]
+url = "https://github.com/ast-grep/ast-grep/archive/refs/tags/0.51.3.tar.gz"
+sha256 = "2a40a15fe439f24e24a88d2dd0bd3433a47bbd5032d43f6a4aa2522e397e8def"
+
+[build]
+system = "autotools"

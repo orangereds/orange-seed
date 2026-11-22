@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "noti"
+version = "0"
+description = "Trigger notifications when a process completes"
+homepage = "https://codeberg.org/roble/noti"
+
+[source]
+url = "https://codeberg.org/roble/noti/releases/download/3.9.0/noti3.9.0.tar.gz"
+sha256 = "02b18016f6a78a1adf3cdcc5b20d884437edd0cf21588415e022d637372619b8"
+
+[build]
+system = "autotools"

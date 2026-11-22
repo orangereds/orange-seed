@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libpq", "openssl@3", "pydantic", "python@3.14", "rpds-py"]
+
+[package]
+name = "sgr"
+version = "0_15"
+description = "Command-line client for Splitgraph, a version control system for data"
+homepage = "https://www.splitgraph.com/docs/sgr-advanced/getting-started/introduction"
+
+[source]
+url = "https://files.pythonhosted.org/packages/dd/61/7d6cf822edb39d2426f6f185c7fc4de0ad4b80e0da3e5f50d94952795c11/splitgraph-0.3.12.tar.gz"
+sha256 = "76a4476002b5ac5a2b9fba36b6fcffd85b878bcc25f5aae411387e04a5532459"
+
+[build]
+system = "autotools"

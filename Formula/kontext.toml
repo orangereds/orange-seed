@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kontext"
+version = "1.24.1"
+description = "Identity, credentials, and governance for AI agents"
+homepage = "https://kontext.security"
+
+[source]
+url = "https://github.com/kontext-security/kontext/archive/refs/tags/v1.24.1.tar.gz"
+sha256 = "c9ff46d5cbd4bbaac0c2d8c83f307c55c0bde508dc549bd5968bd6182709f5c6"
+
+[build]
+system = "autotools"

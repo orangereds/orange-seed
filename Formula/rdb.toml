@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rdb"
+version = "1.3.2"
+description = "Redis RDB parser"
+homepage = "https://github.com/HDT3213/rdb/"
+
+[source]
+url = "https://github.com/HDT3213/rdb/archive/refs/tags/v1.3.2.tar.gz"
+sha256 = "d5e29babc24a21e9270a651c4fc4382bff8c62b5624ba754cc9f81cb8bb2073e"
+
+[build]
+system = "autotools"

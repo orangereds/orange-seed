@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "dita-ot"
+version = "4.4.2"
+description = "DITA Open Toolkit is an implementation of the OASIS DITA specification"
+homepage = "https://www.dita-ot.org/"
+
+[source]
+url = "https://github.com/dita-ot/dita-ot/releases/download/4.4.2/dita-ot-4.4.2.zip"
+sha256 = "9b2b2a1d883cf25eb690eb7fa2386d37c04ce4fd55f606dd853660c45d18c3a3"
+
+[build]
+system = "autotools"

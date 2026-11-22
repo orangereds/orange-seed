@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "boost"]
+
+[package]
+name = "arabica"
+version = "20200425"
+description = "XML toolkit written in C++"
+homepage = "https://www.jezuk.co.uk/tags/arabica.html"
+
+[source]
+url = "https://github.com/jezhiggins/arabica/archive/refs/tags/2020-April.tar.gz"
+sha256 = "b00c7b8afd2c3f17b5a22171248136ecadf0223b598fd9631c23f875a5ce87fe"
+
+[build]
+system = "autotools"

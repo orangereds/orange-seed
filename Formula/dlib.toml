@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "jpeg-turbo", "libpng", "openblas"]
+
+[package]
+name = "dlib"
+version = "20.1"
+description = "C++ library for machine learning"
+homepage = "https://dlib.net/"
+
+[source]
+url = "https://github.com/davisking/dlib/archive/refs/tags/v20.1.tar.gz"
+sha256 = "fbbc5f5819c598c54cc682b78813226467f36c0c0ffa19ad527412d87970fdb8"
+
+[build]
+system = "cmake"

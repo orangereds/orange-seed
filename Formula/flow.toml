@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "flow"
+version = "0.340.0"
+description = "Static type checker for JavaScript"
+homepage = "https://flow.org/"
+
+[source]
+url = "https://github.com/facebook/flow/archive/refs/tags/v0.340.0.tar.gz"
+sha256 = "278ea54ca9f93a1e6636baedafc2b96b32007b13fdeb50763b787988fe59d7a6"
+
+[build]
+system = "autotools"

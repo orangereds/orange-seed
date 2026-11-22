@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libevent", "libuv", "openssl@4", "protobuf-c"]
+
+[package]
+name = "cnats"
+version = "3.15.0"
+description = "C client for the NATS messaging system"
+homepage = "https://github.com/nats-io/nats.c"
+
+[source]
+url = "https://github.com/nats-io/nats.c/archive/refs/tags/v3.15.0.tar.gz"
+sha256 = "aed133ecf121b0ec454c9d28d34edab41898f56a67dacce09a1a645e84c0edfe"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fakesteak"
+version = "0.2.4"
+description = "ASCII Matrix-like steak demo"
+homepage = "https://github.com/domsson/fakesteak"
+
+[source]
+url = "https://github.com/domsson/fakesteak/archive/refs/tags/v0.2.4.tar.gz"
+sha256 = "0f183a2727e84d2e128e3192d4cff3e180393c9c39b598fa1c4bfe8c70a4eb1a"
+
+[build]
+system = "make"

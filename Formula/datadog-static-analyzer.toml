@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "datadog-static-analyzer"
+version = "0.9.13"
+description = "Static analysis tool for code quality and security"
+homepage = "https://docs.datadoghq.com/security/code_security/static_analysis/"
+
+[source]
+url = "https://github.com/DataDog/datadog-static-analyzer/archive/refs/tags/0.9.13.tar.gz"
+sha256 = "67e6377e7a8b6958a5501c8e8d29c21319f05e1f671e9ac6c3a85ca63f30278a"
+
+[build]
+system = "autotools"

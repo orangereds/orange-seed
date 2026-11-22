@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mapscii"
+version = "0.3.1"
+description = "Whole World In Your Console"
+homepage = "https://github.com/rastapasta/mapscii"
+
+[source]
+url = "https://registry.npmjs.org/mapscii/-/mapscii-0.3.1.tgz"
+sha256 = "21f18b687975f1decef998664ef6d292cf2379d9e4308a5b4cbb66af240341b3"
+
+[build]
+system = "autotools"

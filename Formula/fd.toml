@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fd"
+version = "10.5.2"
+description = "Simple, fast and user-friendly alternative to find"
+homepage = "https://github.com/sharkdp/fd"
+
+[source]
+url = "https://github.com/sharkdp/fd/archive/refs/tags/v10.5.2.tar.gz"
+sha256 = "8991b6504cac33c00528050622dfe3f2a0db1be1a6faf99f69b46d1a8f737dc5"
+
+[build]
+system = "autotools"

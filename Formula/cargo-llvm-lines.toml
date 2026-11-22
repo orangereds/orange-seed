@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-llvm-lines"
+version = "0.4.48"
+description = "Count lines of LLVM IR per generic function"
+homepage = "https://github.com/dtolnay/cargo-llvm-lines"
+
+[source]
+url = "https://github.com/dtolnay/cargo-llvm-lines/archive/refs/tags/0.4.48.tar.gz"
+sha256 = "7eb44a0296047711a9c2c301296ba2c4968203c8fde65f8405de577dfd7c5107"
+
+[build]
+system = "autotools"

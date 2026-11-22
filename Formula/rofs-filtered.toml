@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libfuse@2"]
+
+[package]
+name = "rofs-filtered"
+version = "0"
+description = "Filtered read-only filesystem for FUSE"
+homepage = "https://github.com/gburca/rofs-filtered/"
+
+[source]
+url = "https://github.com/gburca/rofs-filtered/archive/refs/tags/rel-1.7.tar.gz"
+sha256 = "d66066dfd0274a2fb7b71dd929445377dd23100b9fa43e3888dbe3fc7e8228e8"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lsusb"
+version = "1.0"
+description = "List USB devices, just like the Linux lsusb command"
+homepage = "https://github.com/jlhonora/lsusb"
+
+[source]
+url = "https://github.com/jlhonora/lsusb/releases/download/1.0/lsusb-1.0.tar.gz"
+sha256 = "68cfa4a820360ecf3bbd2a24a58f287d41f66c62ada99468c36d5bf33f9a3b94"
+
+[build]
+system = "autotools"

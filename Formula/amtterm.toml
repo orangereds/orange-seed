@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["glib", "meson", "ninja", "pkgconf", "gnutls"]
+
+[package]
+name = "amtterm"
+version = "0"
+description = "Serial-over-LAN (sol) client for Intel AMT"
+homepage = "https://www.kraxel.org/blog/linux/amtterm/"
+
+[source]
+url = "https://gitlab.com/kraxel/amtterm/-/archive/amtterm-1.8-1/amtterm-amtterm-1.8-1.tar.bz2"
+sha256 = "d2da2effaa4e8d499a81c9185a3ccde48abffcafaac0d991218dd8974d055719"
+
+[build]
+system = "autotools"

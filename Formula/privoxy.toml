@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pcre2"]
+
+[package]
+name = "privoxy"
+version = "4.2.0-stable-src"
+description = "Advanced filtering web proxy"
+homepage = "https://www.privoxy.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ijbswa/Sources/4.2.0%20%28stable%29/privoxy-4.2.0-stable-src.tar.gz"
+sha256 = "6f91267f81f626c416994db89ab62f4d09246eebf4754b81186e13a18ee9028f"
+
+[service]
+run = "privoxy --no-daemon etc/privoxy/config"
+keep_alive = true
+working_dir = "var"
+error_log_path = "var/log/privoxy/logfile"
+
+[build]
+system = "autotools"

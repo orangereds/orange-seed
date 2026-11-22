@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "texinfo", "gsl"]
+
+[package]
+name = "unuran"
+version = "1.12.0"
+description = "UNU.RAN - Universal Non-Uniform RANdom number generator"
+homepage = "https://statmath.wu.ac.at/unuran/"
+
+[source]
+url = "https://github.com/unuran/unuran/archive/refs/tags/unuran-1.12.0.tar.gz"
+sha256 = "9c8f6c5229615dc4871af11bca92fab9083f45ab66871d98031e05578e0567f9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dufs"
+version = "0.47.0"
+description = "Static file server"
+homepage = "https://github.com/sigoden/dufs"
+
+[source]
+url = "https://github.com/sigoden/dufs/archive/refs/tags/v0.47.0.tar.gz"
+sha256 = "bab9d4fa1654adc6c88523b61bb8697f575334248cf554282e1f87e2329c0569"
+
+[build]
+system = "autotools"

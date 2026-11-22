@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "bench"
+version = "1.0.13"
+description = "Command-line benchmark tool"
+homepage = "https://github.com/Gabriella439/bench"
+
+[source]
+url = "https://hackage.haskell.org/package/bench-1.0.13/bench-1.0.13.tar.gz"
+sha256 = "170c396f59e37851ed626c07756dc394841f7597895e691bf26049fee9725a6c"
+
+[build]
+system = "autotools"

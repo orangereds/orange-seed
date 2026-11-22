@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "autocycler"
+version = "0.8.1"
+description = "Tool for generating consensus long-read assemblies for bacterial genomes"
+homepage = "https://github.com/rrwick/Autocycler"
+
+[source]
+url = "https://github.com/rrwick/Autocycler/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "086e307fa45978ceac16c4916e36455d8796a930acc4d6ec911ca3e034a81c23"
+
+[build]
+system = "autotools"

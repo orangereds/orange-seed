@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "zmij"
+version = "1.2"
+description = "Fast floating-point-to-string conversion library for C and C++"
+homepage = "https://github.com/vitaut/zmij"
+
+[source]
+url = "https://github.com/vitaut/zmij/archive/refs/tags/v1.2.tar.gz"
+sha256 = "13e11c9309fab358d5b6f656050e4f3efa1d20ecf15958ae9055382d07b0268f"
+
+[build]
+system = "cmake"

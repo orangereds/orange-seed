@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "daktilo"
+version = "0.6.0"
+description = "Plays typewriter sounds every time you press a key"
+homepage = "https://daktilo.cli.rs"
+
+[source]
+url = "https://github.com/orhun/daktilo/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "594987ad0697a29e3d0dc25b220e5680cfaecedf2175fd6c17ba827fc7bc2978"
+
+[build]
+system = "autotools"

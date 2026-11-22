@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils", "gnu-sed", "diffutils", "gpatch"]
+
+[package]
+name = "quilt"
+version = "0.69"
+description = "Work with series of patches"
+homepage = "https://savannah.nongnu.org/projects/quilt"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/quilt/quilt-0.69.tar.gz"
+sha256 = "555ddffde22da3c86d1caf5a9c1fb8a152ac2b84730437bd39cc08849c9f4852"
+
+[build]
+system = "autotools"

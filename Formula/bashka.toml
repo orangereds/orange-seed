@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bashka"
+version = "0.12.0"
+description = "Static verification of installation bash scripts"
+homepage = "https://github.com/dmtrKovalenko/bashka"
+
+[source]
+url = "https://github.com/dmtrKovalenko/bashka/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "352436b9932fb98ab5aacf7344ef483220309eccd43886ed51ed06c81eba48d1"
+
+[build]
+system = "autotools"

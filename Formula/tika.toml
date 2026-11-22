@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "tika"
+version = "0"
+description = "Content analysis toolkit"
+homepage = "https://tika.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tika/4.2.0/tika-app-4.2.0.zip"
+sha256 = "c610c35c3ec09855be28fa27c64f0488864da6f2006c054aad59eb6ded010ccf"
+
+[service]
+run = "opt/tika/bin/tika-rest-server"
+working_dir = "var/tika"
+
+[build]
+system = "autotools"

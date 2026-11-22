@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "talisman"
+version = "1.37.0"
+description = "Tool to detect and prevent secrets from getting checked in"
+homepage = "https://thoughtworks.github.io/talisman/"
+
+[source]
+url = "https://github.com/thoughtworks/talisman/archive/refs/tags/v1.37.0.tar.gz"
+sha256 = "40f9ab7d43fadf75abe7a4d71fac5ff083f71b63afada282146827725460d2d1"
+
+[build]
+system = "autotools"

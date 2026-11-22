@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "slackdump"
+version = "4.5.5"
+description = "Export Slack data without admin privileges"
+homepage = "https://github.com/rusq/slackdump"
+
+[source]
+url = "https://github.com/rusq/slackdump/archive/refs/tags/v4.5.5.tar.gz"
+sha256 = "641147fa55f7462133891649046d187a23141b07aa1c7ab29798fc37d4b9329b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm"]
+
+[package]
+name = "autobrr"
+version = "1.91.1"
+description = "Modern, easy to use download automation for torrents and usenet"
+homepage = "https://autobrr.com/"
+
+[source]
+url = "https://github.com/autobrr/autobrr/archive/refs/tags/v1.91.1.tar.gz"
+sha256 = "336a300b521ec59869047680032d0af5f3c42d56264fa82a3670e1bf3cb3c3d3"
+
+[service]
+run = "opt/autobrr/bin/autobrr --config var/autobrr/"
+keep_alive = true
+log_path = "var/log/autobrr.log"
+
+[build]
+system = "autotools"

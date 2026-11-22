@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "lucky-commit"
+version = "2.2.5"
+description = "Customize your git commit hashes!"
+homepage = "https://github.com/not-an-aardvark/lucky-commit"
+
+[source]
+url = "https://github.com/not-an-aardvark/lucky-commit/archive/refs/tags/v2.2.5.tar.gz"
+sha256 = "cab69b87afac8b2e8db3949397695809977199ccc4894b8af53e59da7f917126"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tldx"
+version = "1.6.1"
+description = "Domain Availability Research Tool"
+homepage = "https://brandonyoung.dev/blog/introducing-tldx/"
+
+[source]
+url = "https://github.com/brandonyoungdev/tldx/archive/refs/tags/v1.6.1.tar.gz"
+sha256 = "b0e90ffe2ccc6d7175fdac8ad7fa9c289cd22c3655219b873b4ad7f1010af248"
+
+[build]
+system = "autotools"

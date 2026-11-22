@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "openlore"
+version = "3.7.0"
+description = "Persistent architectural memory and structural cognition for AI coding agents"
+homepage = "https://github.com/clay-good/OpenLore"
+
+[source]
+url = "https://registry.npmjs.org/openlore/-/openlore-3.7.0.tgz"
+sha256 = "56c77ac468a476e33586f51dbb931f619286a35113b1fcd7ed961457a53f12ea"
+
+[build]
+system = "autotools"

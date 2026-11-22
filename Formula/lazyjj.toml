@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "jj"]
+
+[package]
+name = "lazyjj"
+version = "0.6.1"
+description = "TUI for Jujutsu/jj"
+homepage = "https://github.com/Cretezy/lazyjj"
+
+[source]
+url = "https://github.com/Cretezy/lazyjj/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "34a702d55ec4c5d0ca016d4f71f4061ccca347ac88c80018229f6cf50141e208"
+
+[build]
+system = "autotools"

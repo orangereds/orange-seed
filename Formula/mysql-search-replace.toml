@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "mysql-search-replace"
+version = "4.1.4"
+description = "Database search and replace script in PHP"
+homepage = "https://interconnectit.com/products/search-and-replace-for-wordpress-databases/"
+
+[source]
+url = "https://github.com/interconnectit/Search-Replace-DB/archive/refs/tags/4.1.4.tar.gz"
+sha256 = "f753d8d70994abce3b5d72b5eac590cb2116b8b44d4fe01d4c3b41d57dd6c13d"
+
+[build]
+system = "autotools"

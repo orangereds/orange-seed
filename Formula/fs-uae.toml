@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "autoconf", "automake", "libtool", "flac", "mpg123", "python@3.15", "sdl3", "sdl3_image", "sdl3_ttf", "zstd", "gettext", "pkgconf", "glib", "libmpeg2", "libpng"]
+
+[package]
+name = "fs-uae"
+version = "3.2.35"
+description = "Amiga emulator"
+homepage = "https://fs-uae.net/"
+
+[source]
+url = "https://github.com/FrodeSolheim/fs-uae/releases/download/v3.2.35/fs-uae-3.2.35.tar.xz"
+sha256 = "f3d3cb8d3df34b0b0125c45a5a3e187ff71050be5dc8455cc4505c0380269117"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "kibi"
+version = "0.3.3"
+description = "Text editor in ≤1024 lines of code, written in Rust"
+homepage = "https://github.com/ilai-deutel/kibi"
+
+[source]
+url = "https://github.com/ilai-deutel/kibi/archive/refs/tags/v0.3.3.tar.gz"
+sha256 = "a7a7b6f6937f39ae86fd4f556034a3744bb99091c102bc6f38b281ee751d10e9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["luajit", "lua"]
+
+[package]
+name = "luarocks"
+version = "3.13.0_1"
+description = "Package manager for the Lua programming language"
+homepage = "https://luarocks.org/"
+
+[source]
+url = "https://luarocks.org/releases/luarocks-3.13.0.tar.gz"
+sha256 = "245bf6ec560c042cb8948e3d661189292587c5949104677f1eecddc54dbe7e37"
+
+[build]
+system = "autotools"

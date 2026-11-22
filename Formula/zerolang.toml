@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zerolang"
+version = "0.3.4"
+description = "Programming language for agents with explicit effects and predictable memory"
+homepage = "https://zerolang.ai/"
+
+[source]
+url = "https://github.com/vercel-labs/zerolang/archive/refs/tags/v0.3.4.tar.gz"
+sha256 = "222c6ca439103441c7c2169351b0aeb841c6f5eca985c07dc53f131173e5c2a7"
+
+[build]
+system = "autotools"

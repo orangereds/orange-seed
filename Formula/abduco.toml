@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "abduco"
+version = "0.6"
+description = "Provides session management: i.e. separate programs from terminals"
+homepage = "https://www.brain-dump.org/projects/abduco/"
+
+[source]
+url = "https://github.com/martanne/abduco/releases/download/v0.6/abduco-0.6.tar.gz"
+sha256 = "c90909e13fa95770b5afc3b59f311b3d3d2fdfae23f9569fa4f96a3e192a35f4"
+
+[build]
+system = "make"

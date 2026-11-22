@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "g2"
+version = "1.1"
+description = "Friendly git client"
+homepage = "https://orefalo.github.io/g2/"
+
+[source]
+url = "https://github.com/orefalo/g2/archive/refs/tags/v1.1.tar.gz"
+sha256 = "bc534a4cb97be200ba4e3cc27510d8739382bb4c574e3cf121f157c6415bdfba"
+
+[build]
+system = "autotools"

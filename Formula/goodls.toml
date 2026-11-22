@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goodls"
+version = "3.4.0"
+description = "CLI tool to download shared files and folders from Google Drive"
+homepage = "https://github.com/tanaikech/goodls"
+
+[source]
+url = "https://github.com/tanaikech/goodls/archive/refs/tags/v3.4.0.tar.gz"
+sha256 = "5acda68a159e8bc7d8dfe164a2bb44a8868240db9394b6c5eff93233260a4b8b"
+
+[build]
+system = "autotools"

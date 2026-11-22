@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "immich-cli"
+version = "0"
+description = "Command-line interface for self-hosted photo manager Immich"
+homepage = "https://immich.app/docs/features/command-line-interface"
+
+[source]
+url = "https://registry.npmjs.org/@immich/cli/-/cli-3.4.2.tgz"
+sha256 = "8d969b209e8bae9c24138eed99352ee813f03a3b36528802d60de9f50fa39f7b"
+
+[build]
+system = "autotools"

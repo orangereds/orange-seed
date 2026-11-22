@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["brotli", "go", "lld", "node", "rust", "rust-wasm", "zstd", "webify", "bash"]
+
+[package]
+name = "anubis"
+version = "1.28.2"
+description = "Protect resources from scraper bots"
+homepage = "https://anubis.techaro.lol"
+
+[source]
+url = "https://github.com/TecharoHQ/anubis/archive/refs/tags/v1.28.2.tar.gz"
+sha256 = "3b20d01efec1cf41ae2df59183fe15841495fe22871b7126028abc6c368be4fd"
+
+[build]
+system = "autotools"

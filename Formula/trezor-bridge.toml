@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "trezor-bridge"
+version = "76108294092c023a4ece99eb3219559cea0d5066_1"
+description = "Trezor Communication Daemon"
+homepage = "https://github.com/trezor/trezord-go"
+
+[source]
+url = "https://github.com/trezor/trezord-go/archive/refs/tags/v2.0.33.tar.gz"
+sha256 = "c80e0ba0e727ae2f7bd7a8b0f7082681296d478d1034c64a8bba64ce29239ffa"
+
+[service]
+run = "opt/trezor-bridge/bin/trezord-go"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

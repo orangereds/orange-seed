@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "brename"
+version = "2.15.0"
+description = "Cross-platform command-line tool for safe batch renaming via regular expressions"
+homepage = "https://github.com/shenwei356/brename"
+
+[source]
+url = "https://github.com/shenwei356/brename/archive/refs/tags/v2.15.0.tar.gz"
+sha256 = "ad957eea95c7b1f8283a08c46f7128e0f944d29e139bf63557da17f1906b47df"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "infat"
+version = "3.1.2"
+description = "Tool to set default openers for file formats and url schemes on macOS"
+homepage = "https://github.com/philocalyst/infat"
+
+[source]
+url = "https://github.com/philocalyst/infat/archive/refs/tags/v3.1.2.tar.gz"
+sha256 = "ad32dd35fd8f6f77648416ff26504faab308c63de895cb3e45ac622eda71a9d6"
+
+[build]
+system = "autotools"

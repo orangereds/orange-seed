@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "txr"
+version = "303"
+description = "Lisp-like programming language for convenient data munging"
+homepage = "https://www.nongnu.org/txr/"
+
+[source]
+url = "https://www.kylheku.com/cgit/txr/snapshot/txr-303.tar.bz2"
+sha256 = "b985117b7e55b98f1cd6952d749542e8f1e6c23c7c107fea64ade27f59bd0ae5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "labctl"
+version = "0.1.116"
+description = "CLI tool for interacting with iximiuz labs and playgrounds"
+homepage = "https://labs.iximiuz.com/playgrounds"
+
+[source]
+url = "https://github.com/iximiuz/labctl/archive/refs/tags/v0.1.116.tar.gz"
+sha256 = "6398ff8ff6f67207a3709f458abc21ccfb25c782216305f6f1a2e7e79985e17d"
+
+[build]
+system = "autotools"

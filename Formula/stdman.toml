@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "stdman"
+version = "2026.11.13"
+description = "Formatted C++ stdlib man pages from cppreference.com"
+homepage = "https://github.com/jeaye/stdman"
+
+[source]
+url = "https://github.com/jeaye/stdman/archive/refs/tags/2026.11.13.tar.gz"
+sha256 = "deb29cc1df1ff34618f2cd4b222295db68428c462d7526aed92bd13400019740"
+
+[build]
+system = "autotools"

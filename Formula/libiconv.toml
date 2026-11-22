@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "libiconv"
+version = "1.19.1"
+description = "Conversion library"
+homepage = "https://www.gnu.org/software/libiconv/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libiconv/libiconv-1.19.1.tar.gz"
+sha256 = "9a06844846d664d7122161700c10a64480d7c7bcead3091925a785b38c91edab"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

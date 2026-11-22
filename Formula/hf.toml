@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "git-lfs", "libyaml", "python@3.15"]
+
+[package]
+name = "hf"
+version = "0"
+description = "Client library for huggingface.co hub"
+homepage = "https://huggingface.co/docs/huggingface_hub/guides/cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b5/3b/2fcef1eabe52aec90fc8cd253cc154da1d02a446d7bbcdec59b4a51d4be7/huggingface_hub-2.4.0.tar.gz"
+sha256 = "13a6158b9e3393d9d3f248ce99074d50c2a0a1449fb9d8e2f710751e2084c188"
+
+[build]
+system = "autotools"

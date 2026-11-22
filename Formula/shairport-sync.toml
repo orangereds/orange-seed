@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "ffmpeg", "libao", "libconfig", "libdaemon", "libsoxr", "openssl@4", "popt", "pulseaudio"]
+
+[package]
+name = "shairport-sync"
+version = "5.6.3"
+description = "AirTunes emulator that adds multi-room capability"
+homepage = "https://github.com/mikebrady/shairport-sync"
+
+[source]
+url = "https://github.com/mikebrady/shairport-sync/archive/refs/tags/5.6.3.tar.gz"
+sha256 = "670f9cefdb9c2d70f7df71890e63ab0a31d08a815dd0734245d935bfd01e766e"
+
+[service]
+run = "opt/shairport-sync/bin/shairport-sync --use-stderr --verbose"
+keep_alive = true
+log_path = "var/log/shairport-sync.log"
+error_log_path = "var/log/shairport-sync.log"
+
+[build]
+system = "autotools"

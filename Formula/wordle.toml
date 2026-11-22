@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wordle"
+version = "0"
+description = "Play wordle in command-line"
+homepage = "https://git.hanabi.in/wordle-cli"
+
+[source]
+url = "https://git.hanabi.in/repos/wordle-cli.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

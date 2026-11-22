@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cbmbasic"
+version = "1.0"
+description = "Commodore BASIC V2 as a scripting language"
+homepage = "https://github.com/mist64/cbmbasic"
+
+[source]
+url = "https://downloads.sourceforge.net/project/cbmbasic/cbmbasic/1.0/cbmbasic-1.0.tgz"
+sha256 = "2735dedf3f9ad93fa947ad0fb7f54acd8e84ea61794d786776029c66faf64b04"
+
+[build]
+system = "autotools"

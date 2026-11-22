@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "qemu"]
+
+[package]
+name = "macpine"
+version = "1.2.3"
+description = "Lightweight Linux VMs on MacOS"
+homepage = "https://beringresearch.github.io/macpine/"
+
+[source]
+url = "https://github.com/beringresearch/macpine/archive/refs/tags/v1.2.3.tar.gz"
+sha256 = "010522b05de0ff6d228beefb272922eb6d4850388d1a76f05b47b41f6e0a31e3"
+
+[service]
+run = "alpine"
+
+[build]
+system = "autotools"

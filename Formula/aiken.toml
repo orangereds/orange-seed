@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "aiken"
+version = "1.1.24"
+description = "Modern smart contract platform for Cardano"
+homepage = "https://aiken-lang.org/"
+
+[source]
+url = "https://github.com/aiken-lang/aiken/archive/refs/tags/v1.1.24.tar.gz"
+sha256 = "0508470ea01156ef7e275d97f12ceadc99d952897d4cb7454f790b15bfe31d0e"
+
+[build]
+system = "autotools"

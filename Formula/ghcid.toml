@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "ghcid"
+version = "1.0.0"
+description = "Very low feature GHCi based IDE"
+homepage = "https://github.com/ndmitchell/ghcid"
+
+[source]
+url = "https://github.com/ndmitchell/ghcid/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "6317ed3a0c83c1d1d5b03ca40d7b6906d208850b46dd6a372ea90345946f3b4f"
+
+[build]
+system = "autotools"

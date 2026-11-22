@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "python-setuptools", "qtshadertools", "pkgconf", "llvm", "python@3.15", "qt3d", "qtbase", "qtcanvaspainter", "qtcharts", "qtconnectivity", "qtdatavis3d", "qtdeclarative", "qtgraphs", "qthttpserver", "qtlocation", "qtmultimedia", "qtnetworkauth", "qtpositioning", "qtquick3d", "qtremoteobjects", "qtscxml", "qtsensors", "qtserialbus", "qtserialport", "qtspeech", "qtsvg", "qttools", "qtwebchannel", "qtwebsockets", "qtwebengine", "qtwebview"]
+
+[package]
+name = "pyside"
+version = "0_1"
+description = "Official Python bindings for Qt"
+homepage = "https://wiki.qt.io/Qt_for_Python"
+
+[source]
+url = "https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.12.0-src/pyside-setup-everywhere-src-6.12.0.tar.xz"
+sha256 = "099c1a597cf33c1b000e11cf68a0b82d216fb802bf81726efc720394f10c7751"
+
+[build]
+system = "cmake"

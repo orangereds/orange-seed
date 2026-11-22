@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4", "samba"]
+
+[package]
+name = "termscp"
+version = "1.2.2"
+description = "Feature rich terminal file transfer and explorer"
+homepage = "https://termscp.rs"
+
+[source]
+url = "https://github.com/veeso/termscp/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "d660d7dc47ce7230d426d3d20a875d2b675d610f3e91b79385fc946f1ec45adf"
+
+[build]
+system = "autotools"

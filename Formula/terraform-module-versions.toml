@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraform-module-versions"
+version = "3.3.13"
+description = "CLI that checks Terraform code for module updates"
+homepage = "https://github.com/keilerkonzept/terraform-module-versions"
+
+[source]
+url = "https://github.com/keilerkonzept/terraform-module-versions/archive/refs/tags/v3.3.13.tar.gz"
+sha256 = "b85fbeb788c6fca0c328a29a1aab839cd556a7506105f544326a6e322d2aaf80"
+
+[build]
+system = "autotools"

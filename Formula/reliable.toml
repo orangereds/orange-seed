@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "reliable"
+version = "1.4.6"
+description = "Simple packet acknowledgement system for UDP-based protocols"
+homepage = "https://github.com/mas-bandwidth/reliable"
+
+[source]
+url = "https://github.com/mas-bandwidth/reliable/archive/refs/tags/v1.4.6.tar.gz"
+sha256 = "7c4a0750d64748f69cb1b05ebaf44e3037914b91bab622ac36ac90d0c2c271f5"
+
+[build]
+system = "cmake"

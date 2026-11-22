@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "nodeenv"
+version = "1.12.0"
+description = "Node.js virtual environment builder"
+homepage = "https://ekalinin.github.io/nodeenv/"
+
+[source]
+url = "https://github.com/ekalinin/nodeenv/archive/refs/tags/1.12.0.tar.gz"
+sha256 = "f3440cca5e907a733727b799d065ec56a9cd4be99ef5608eee0b7689d137893d"
+
+[build]
+system = "autotools"

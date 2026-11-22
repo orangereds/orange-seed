@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "tweakcc"
+version = "4.4.0"
+description = "Customize your Claude Code themes, thinking verbs, and more"
+homepage = "https://github.com/Piebald-AI/tweakcc"
+
+[source]
+url = "https://registry.npmjs.org/tweakcc/-/tweakcc-4.4.0.tgz"
+sha256 = "125b94a0c97743f3374071c78a3fc22829c5ee9497a7740a5f652ba7629d8d9d"
+
+[build]
+system = "autotools"

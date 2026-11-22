@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cppunit", "libtool", "maven", "pkgconf", "openjdk", "openssl@4"]
+
+[package]
+name = "zookeeper"
+version = "0"
+description = "Centralized server for distributed coordination of services"
+homepage = "https://zookeeper.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=zookeeper/zookeeper-3.9.7/apache-zookeeper-3.9.7.tar.gz"
+sha256 = "43142998ccb71a65cb18a354d1086163da9217a71d39b7c0464be9de41a286b8"
+
+[service]
+run = "opt/zookeeper/bin/zkServer start-foreground"
+working_dir = "var"
+
+[service.env]
+SERVER_JVMFLAGS = "-Dapple.awt.UIElement=true"
+
+[build]
+system = "autotools"

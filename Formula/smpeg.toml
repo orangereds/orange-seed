@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "sdl12-compat"]
+
+[package]
+name = "smpeg"
+version = "0_1"
+description = "SDL MPEG Player Library"
+homepage = "https://icculus.org/smpeg/"
+
+[source]
+url = "https://github.com/icculus/smpeg/archive/refs/tags/release_0_4_5.tar.gz"
+sha256 = "e2e53bfd2e6401e2c29e5eb3929be0e8698bc9e4c9d731751f67e77b408f1f74"
+
+[build]
+system = "autotools"

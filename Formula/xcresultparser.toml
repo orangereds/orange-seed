@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcresultparser"
+version = "2.3.0"
+description = "Parse binary .xcresult bundles from Xcode builds and test runs"
+homepage = "https://github.com/a7ex/xcresultparser"
+
+[source]
+url = "https://github.com/a7ex/xcresultparser/archive/refs/tags/2.3.0.tar.gz"
+sha256 = "2ee9d6af50c7c9a06b7c444e8384998100b22eeb0f86424055caf26859bdb25d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "bitchx"
+version = "1.2.1_1"
+description = "Text-based, scriptable IRC client"
+homepage = "https://bitchx.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bitchx/ircii-pana/bitchx-1.2.1/bitchx-1.2.1.tar.gz"
+sha256 = "2d270500dd42b5e2b191980d584f6587ca8a0dbda26b35ce7fadb519f53c83e2"
+
+[build]
+system = "autotools"

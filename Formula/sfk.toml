@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sfk"
+version = "2.0.0.3"
+description = "Command-line tools collection"
+homepage = "http://stahlworks.com/dev/swiss-file-knife.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/swissfileknife/1-swissfileknife/2.0.0.3/sfk-2.0.0.tar.gz"
+sha256 = "b7e2e3848e3126dcee916056bff5f8340acae9158f3610049de2cde999ccca63"
+
+[build]
+system = "autotools"

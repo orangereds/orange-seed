@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dstask"
+version = "1.0.1"
+description = "Git-powered personal task tracker"
+homepage = "https://github.com/naggie/dstask"
+
+[source]
+url = "https://github.com/naggie/dstask/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "afca526d049874e2609d91c0e5f186d614c684ec13b2fe517e00ec4eeb4f70da"
+
+[build]
+system = "autotools"

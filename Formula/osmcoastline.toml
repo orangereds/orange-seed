@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libosmium", "protozero", "gdal", "geos", "libspatialite", "lz4"]
+
+[package]
+name = "osmcoastline"
+version = "2.5.0_1"
+description = "Extracts coastline data from OpenStreetMap planet file"
+homepage = "https://osmcode.org/osmcoastline/"
+
+[source]
+url = "https://github.com/osmcode/osmcoastline/archive/refs/tags/v2.5.0.tar.gz"
+sha256 = "7980c77acbbf460d6de7df1d30b2f2d9da550db1512d0e828623851c687b238a"
+
+[build]
+system = "cmake"

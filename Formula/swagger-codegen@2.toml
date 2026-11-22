@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@21"]
+
+[package]
+name = "swagger-codegen@2"
+version = "2.4.53"
+description = "Generate clients, server stubs, and docs from an OpenAPI spec"
+homepage = "https://swagger.io/tools/swagger-codegen/"
+
+[source]
+url = "https://github.com/swagger-api/swagger-codegen/archive/refs/tags/v2.4.53.tar.gz"
+sha256 = "70f603ee89ed6c9249965930e375141e211b979f41e21fe6f13a32b563c2cade"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

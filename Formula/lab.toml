@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lab"
+version = "0.25.1"
+description = "Git wrapper for GitLab"
+homepage = "https://zaquestion.github.io/lab"
+
+[source]
+url = "https://github.com/zaquestion/lab/archive/refs/tags/v0.25.1.tar.gz"
+sha256 = "f8cccdfbf1ca5a2c76f894321a961dfe0dc7a781d95baff5181eafd155707d79"
+
+[build]
+system = "autotools"

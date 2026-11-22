@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bindgen", "glslang", "libxrandr", "libxrender", "libxshmfence", "libyaml", "meson", "ninja", "pkgconf", "python-setuptools", "python@3.15", "rust", "xorgproto", "libclc", "libpng", "libx11", "libxcb", "libxext", "libxfixes", "llvm", "spirv-llvm-translator", "spirv-tools", "xcb-util-keysyms", "zstd", "molten-vk"]
+
+[package]
+name = "mesa"
+version = "26.3.1"
+description = "Graphics Library"
+homepage = "https://www.mesa3d.org/"
+
+[source]
+url = "https://archive.mesa3d.org/mesa-26.3.1.tar.xz"
+sha256 = "4e4e438eac7b840a9383988cbb7c08dad8041da544b9319fc26d319fa7348961"
+
+[build]
+system = "autotools"

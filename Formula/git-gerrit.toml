@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-gerrit"
+version = "0.3.0"
+description = "Gerrit code review helper scripts"
+homepage = "https://github.com/fbzhong/git-gerrit"
+
+[source]
+url = "https://github.com/fbzhong/git-gerrit/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "433185315db3367fef82a7332c335c1c5e0b05dabf8d4fbeff9ecf6cc7e422eb"
+
+[build]
+system = "autotools"

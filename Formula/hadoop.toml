@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@17"]
+
+[package]
+name = "hadoop"
+version = "0"
+description = "Framework for distributed processing of large data sets"
+homepage = "https://hadoop.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=hadoop/common/hadoop-3.5.0/hadoop-3.5.0.tar.gz"
+sha256 = "82b9c2b89c2c903dc1047b1297da42ae5bcbf4a3e7355940c337eb5a51404850"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "adns", "ncurses", "pcre2"]
+
+[package]
+name = "apachetop"
+version = "0.23.2"
+description = "Top-like display of Apache log"
+homepage = "https://github.com/tessus/apachetop"
+
+[source]
+url = "https://github.com/tessus/apachetop/releases/download/0.23.2/apachetop-0.23.2.tar.gz"
+sha256 = "f94a34180808c3edb24c1779f72363246dd4143a89f579ef2ac168a45b04443f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["opentofu", "node", "llvm"]
+
+[package]
+name = "cdktf"
+version = "0_1"
+description = "Cloud Development Kit for Terraform"
+homepage = "https://github.com/hashicorp/terraform-cdk"
+
+[source]
+url = "https://registry.npmjs.org/cdktf-cli/-/cdktf-cli-0.21.0.tgz"
+sha256 = "5885318063a55b44f87c917fe5806379937f7aecad5fe766bc898a1519de56b6"
+
+[build]
+system = "autotools"

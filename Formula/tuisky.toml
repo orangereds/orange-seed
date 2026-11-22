@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "tuisky"
+version = "0.2.2"
+description = "TUI client for bluesky"
+homepage = "https://github.com/sugyan/tuisky"
+
+[source]
+url = "https://github.com/sugyan/tuisky/archive/refs/tags/v0.2.2.tar.gz"
+sha256 = "b3db8969aa5152692f7178a17f51d694a2cc4e06bb8ff18e43b0f4c7a5d83fa8"
+
+[build]
+system = "autotools"

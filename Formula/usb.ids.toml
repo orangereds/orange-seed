@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "usb.ids"
+version = "2026.06.26.orig"
+description = "Repository of vendor, device, subsystem and device class IDs used in USB devices"
+homepage = "http://www.linux-usb.org/usb-ids.html"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/u/usb.ids/usb.ids_2026.06.26.orig.tar.xz"
+sha256 = "bbd6b4c8d9fff1e2602551b6a73b8ca0475d1aed93a1807d680d02556c49f8e3"
+
+[build]
+system = "autotools"

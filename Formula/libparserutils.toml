@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["netsurf-buildsystem"]
+
+[package]
+name = "libparserutils"
+version = "0.2.5-src"
+description = "Library for building efficient parsers"
+homepage = "https://www.netsurf-browser.org/projects/libparserutils/"
+
+[source]
+url = "https://download.netsurf-browser.org/libs/releases/libparserutils-0.2.5-src.tar.gz"
+sha256 = "317ed5c718f17927b5721974bae5de32c3fd6d055db131ad31b4312a032ed139"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rune"
+version = "0.14.2"
+description = "Embeddable dynamic programming language for Rust"
+homepage = "https://rune-rs.github.io"
+
+[source]
+url = "https://github.com/rune-rs/rune/archive/refs/tags/0.14.2.tar.gz"
+sha256 = "a858800d066f47e101c9b613d04dbc3f3d6d2bdb932da92f37c1ccdc79077337"
+
+[build]
+system = "autotools"

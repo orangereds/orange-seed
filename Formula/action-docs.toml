@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "action-docs"
+version = "2.5.1"
+description = "Generate docs for GitHub actions"
+homepage = "https://github.com/npalm/action-docs"
+
+[source]
+url = "https://registry.npmjs.org/action-docs/-/action-docs-2.5.1.tgz"
+sha256 = "f7d93433a6d3e532b30b3fc068fa263d16f7c38da91422450507b469bd36a64a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "boost", "cairo", "freetype", "gdal", "harfbuzz", "icu4c@79", "jpeg-turbo", "libavif", "libpng", "libpq", "libtiff", "libxml2", "openssl@4", "proj", "protozero", "sqlite", "webp"]
+
+[package]
+name = "mapnik"
+version = "4.3.2_2"
+description = "Toolkit for developing mapping applications"
+homepage = "https://mapnik.org/"
+
+[source]
+url = "https://github.com/mapnik/mapnik/releases/download/v4.3.2/mapnik-v4.3.2.tar.bz2"
+sha256 = "1858a9d57f4d2007d717ea84af23bcb32bd984fbc635426b79124fe9f7a682c4"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "pydantic", "python@3.15", "xxhash", "zstd"]
+
+[package]
+name = "langgraph-cli"
+version = "0"
+description = "Command-line interface for deploying apps to the LangGraph platform"
+homepage = "https://www.github.com/langchain-ai/langgraph"
+
+[source]
+url = "https://files.pythonhosted.org/packages/34/cd/0840c6dccf0baf6ef3688d379b353da36ecb32e02124a8ef09584a83d27b/langgraph_cli-0.4.43.tar.gz"
+sha256 = "61d03423ab598e6597d9217fe0ffd697aa9c61607adb133acfaf21a62bd1e422"
+
+[build]
+system = "autotools"

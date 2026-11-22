@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "leetsolv"
+version = "1.2.0"
+description = "CLI tool for DSA problem revision with spaced repetition"
+homepage = "https://github.com/eannchen/leetsolv"
+
+[source]
+url = "https://github.com/eannchen/leetsolv/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "430303725aed7340f70d09e2461a82806e9f8ee195a98b8f0af6f0fc09236cd2"
+
+[build]
+system = "autotools"

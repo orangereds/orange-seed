@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openssl@4"]
+
+[package]
+name = "btpd"
+version = "0.16_2"
+description = "BitTorrent Protocol Daemon"
+homepage = "https://github.com/btpd/btpd"
+
+[source]
+url = "https://github.com/btpd/btpd/archive/refs/tags/v0.16.tar.gz"
+sha256 = "9cda656f67edb2cdc3b51d43b7f0510c4e65a0f55cd1317a7113051429d6c9e5"
+
+[build]
+system = "autotools"

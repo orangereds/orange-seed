@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dekit"
+version = "0.10.3"
+description = "Process manager for dev and prod"
+homepage = "https://dekit.run"
+
+[source]
+url = "https://github.com/pvolok/dekit/archive/refs/tags/v0.10.3.tar.gz"
+sha256 = "175467fb30195c084df4bd38bf2000fad80f7e03b1e3488c29e3b114f3587ca9"
+
+[build]
+system = "autotools"

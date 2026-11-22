@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "tunnelite"
+version = "1.3.2_1"
+description = "Secure tunneling to local applications"
+homepage = "https://tunnelite.com"
+
+[source]
+url = "https://github.com/cristipufu/tunnelite/archive/refs/tags/v1.3.2.tar.gz"
+sha256 = "384af1fbac09b5cda738127b55cd178deb5e43bd7dbb90e7f2e73f458212e726"
+
+[build]
+system = "autotools"

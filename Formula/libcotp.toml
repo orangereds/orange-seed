@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libgcrypt"]
+
+[package]
+name = "libcotp"
+version = "4.2.2"
+description = "C library that generates TOTP and HOTP"
+homepage = "https://github.com/paolostivanin/libcotp"
+
+[source]
+url = "https://github.com/paolostivanin/libcotp/archive/refs/tags/v4.2.2.tar.gz"
+sha256 = "52baa968de23be3d54465f214ba2733f848702b211711ba625db2535e14433b7"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfcmt"
+version = "4.14.21"
+description = "Notify the execution result of terraform command"
+homepage = "https://suzuki-shunsuke.github.io/tfcmt/"
+
+[source]
+url = "https://github.com/suzuki-shunsuke/tfcmt/archive/refs/tags/v4.14.21.tar.gz"
+sha256 = "38302ccc161530ec206f0b257ad009d9a1ce61e83a47fe9981758c300c3d7a38"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ov"
+version = "0.55.0"
+description = "Feature-rich terminal-based text viewer"
+homepage = "https://noborus.github.io/ov/"
+
+[source]
+url = "https://github.com/noborus/ov/archive/refs/tags/v0.55.0.tar.gz"
+sha256 = "a715b1ef3e8a4d4525155a4d30458d44b2aab2c9741fe89dea8bfd3640691bb5"
+
+[build]
+system = "autotools"

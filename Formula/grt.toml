@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "grt"
+version = "0.2.4"
+description = "Gesture Recognition Toolkit for real-time machine learning"
+homepage = "https://nickgillian.com/grt/"
+
+[source]
+url = "https://github.com/nickgillian/grt/archive/refs/tags/v0.2.4.tar.gz"
+sha256 = "55bcabe7a58916461dc4341758eff2a45bd5b236c263dfe6e58c176c1a7e1ac4"
+
+[build]
+system = "cmake"

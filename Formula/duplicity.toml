@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "rust", "certifi", "cryptography", "gnupg", "librsync", "libsodium", "libyaml", "python@3.15"]
+
+[package]
+name = "duplicity"
+version = "3.2.2_1"
+description = "Bandwidth-efficient encrypted backup"
+homepage = "https://gitlab.com/duplicity/duplicity"
+
+[source]
+url = "https://files.pythonhosted.org/packages/48/af/f7790e2222213629076c3dc608f8b1175939cdbe0b78cabb818ef1b6d99d/duplicity-3.2.2.tar.gz"
+sha256 = "2ab85e429c72d2398f6b7627b8e2b99026bcd5c909749c15085fc569777a2861"
+
+[build]
+system = "autotools"

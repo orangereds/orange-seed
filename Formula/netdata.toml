@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "corrosion", "go", "pkgconf", "rust", "abseil", "dlib", "json-c", "libuv", "libyaml", "lz4", "openssl@4", "pcre2", "protobuf", "snappy", "zstd"]
+
+[package]
+name = "netdata"
+version = "2.13.0"
+description = "Diagnose infrastructure problems with metrics, visualizations & alarms"
+homepage = "https://www.netdata.cloud/"
+
+[source]
+url = "https://github.com/netdata/netdata/releases/download/v2.13.0/netdata-v2.13.0.tar.gz"
+sha256 = "510db7699c76c44f3d4bcebec854d5a29ecdc3cf3bfadfe78e27ee7ea87f8491"
+
+[service]
+run = "netdata -D"
+working_dir = "var"
+
+[build]
+system = "cmake"

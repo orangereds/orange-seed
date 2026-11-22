@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "countdown"
+version = "1.5.0"
+description = "Terminal countdown timer"
+homepage = "https://github.com/antonmedv/countdown"
+
+[source]
+url = "https://github.com/antonmedv/countdown/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "ac83ec593674a367913413796e8708680cbb6504c8f68ce17152d800a92ccf3b"
+
+[build]
+system = "autotools"

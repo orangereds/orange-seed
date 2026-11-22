@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ty"
+version = "0.0.107"
+description = "Extremely fast Python type checker, written in Rust"
+homepage = "https://docs.astral.sh/ty/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e1/21/096166a4d1118a6ce923223d53d14dc6262046604b6f1e667882db8d80b3/ty-0.0.107.tar.gz"
+sha256 = "e792277547cd55f5e75208665da705825f0af627397aa7abb169d5ad994277ca"
+
+[build]
+system = "autotools"

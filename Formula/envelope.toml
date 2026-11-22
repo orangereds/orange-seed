@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "rust"]
+
+[package]
+name = "envelope"
+version = "0.8.1"
+description = "Environment variables CLI tool"
+homepage = "https://github.com/mattrighetti/envelope"
+
+[source]
+url = "https://github.com/mattrighetti/envelope/archive/refs/tags/0.8.1.tar.gz"
+sha256 = "1c26bfa03ecc9326c3b3095e3b432adcc68dae5f0f7aa118e77211cba88949cd"
+
+[build]
+system = "autotools"

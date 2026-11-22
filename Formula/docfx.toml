@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "dotnet"]
+
+[package]
+name = "docfx"
+version = "2.81.0"
+description = "Tools for building and publishing API documentation for .NET projects"
+homepage = "https://dotnet.github.io/docfx/"
+
+[source]
+url = "https://github.com/dotnet/docfx/archive/refs/tags/v2.81.0.tar.gz"
+sha256 = "55b492cab70a7f883ea5e9a7a134a23d25d70e97153b61d1083ad6b5fa6e2d68"
+
+[build]
+system = "autotools"

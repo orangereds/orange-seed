@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["concurrencykit", "jlog"]
+
+[package]
+name = "fq"
+version = "0.13.12"
+description = "Brokered message queue optimized for performance"
+homepage = "https://github.com/circonus-labs/fq"
+
+[source]
+url = "https://github.com/circonus-labs/fq/archive/refs/tags/v0.13.12.tar.gz"
+sha256 = "4329fa7678437c2d22f021ec8a5bed2b7a7eeb608bbfe4c8749f8520011b12d3"
+
+[build]
+system = "make"

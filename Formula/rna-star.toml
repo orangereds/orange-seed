@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libomp"]
+
+[package]
+name = "rna-star"
+version = "2.7.11b"
+description = "RNA-seq aligner"
+homepage = "https://github.com/alexdobin/STAR"
+
+[source]
+url = "https://github.com/alexdobin/STAR/archive/refs/tags/2.7.11b.tar.gz"
+sha256 = "3f65305e4112bd154c7e22b333dcdaafc681f4a895048fa30fa7ae56cac408e7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "jailkit"
+version = "2.23_1"
+description = "Utilities to create limited user accounts in a chroot jail"
+homepage = "https://olivier.sessink.nl/jailkit/"
+
+[source]
+url = "https://olivier.sessink.nl/jailkit/jailkit-2.23.tar.bz2"
+sha256 = "aa27dc1b2dbbbfcec2b970731f44ced7079afc973dc066757cea1beb4e8ce59c"
+
+[build]
+system = "autotools"

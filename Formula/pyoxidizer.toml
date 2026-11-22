@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pyoxidizer"
+version = "0.24.0"
+description = "Modern Python application packaging and distribution tool"
+homepage = "https://github.com/indygreg/PyOxidizer"
+
+[source]
+url = "https://github.com/indygreg/PyOxidizer/archive/refs/tags/pyoxidizer/0.24.0.tar.gz"
+sha256 = "d52a2727a18a3414d7ec920b8523ef4d19cb2e6db3f1276b65a83e5dd4ae8d24"
+
+[build]
+system = "autotools"

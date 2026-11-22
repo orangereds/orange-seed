@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "texinfo"
+version = "7.3_1"
+description = "Official documentation format of the GNU project"
+homepage = "https://www.gnu.org/software/texinfo/"
+
+[source]
+url = "https://ftpmirror.gnu.org/texinfo/texinfo-7.3.tar.xz"
+sha256 = "51f74eb0f51cfa9873b85264dfdd5d46e8957ec95b88f0fb762f63d9e164c72e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "spoof-mac"
+version = "0_5"
+description = "Spoof your MAC address in macOS"
+homepage = "https://feross.org/spoofmac/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9c/59/cc52a4c5d97b01fac7ff048353f8dc96f217eadc79022f78455e85144028/SpoofMAC-2.1.1.tar.gz"
+sha256 = "48426efe033a148534e1d4dc224c4f1b1d22299c286df963c0b56ade4c7dc297"
+
+[service]
+run = "opt/spoof-mac/bin/spoof-mac randomize en0"
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

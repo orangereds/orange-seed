@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pipgrip"
+version = "0.13.0_1"
+description = "Lightweight pip dependency resolver"
+homepage = "https://github.com/ddelange/pipgrip"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c9/19/98d11e877fb1c13d1f0d66cd584db57acc4da35312f7cd4625374a31ef01/pipgrip-0.13.0.tar.gz"
+sha256 = "d1ccbd1147a658b1ff8ba77d4c9f4151f2deb0637be07a86cb0e74fb21da73b5"
+
+[build]
+system = "autotools"

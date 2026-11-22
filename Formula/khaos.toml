@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "khaos"
+version = "0.10.0"
+description = "Kafka traffic simulator for observability and chaos engineering"
+homepage = "https://github.com/aleksandarskrbic/khaos"
+
+[source]
+url = "https://github.com/aleksandarskrbic/khaos/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "e300394c907321c0e427da8eb7e80a510a9dc6f94cb86cc1ac1630dda376824f"
+
+[build]
+system = "autotools"

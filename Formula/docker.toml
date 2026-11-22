@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man"]
+
+[package]
+name = "docker"
+version = "0"
+description = "Pack, ship and run any application as a lightweight container"
+homepage = "https://www.docker.com/"
+
+[source]
+url = "https://github.com/docker/cli.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python@3.14", "sqlite"]
+
+[package]
+name = "botan@2"
+version = "0"
+description = "Cryptographic algorithms and formats library in C++"
+homepage = "https://botan.randombit.net/"
+
+[source]
+url = "https://botan.randombit.net/releases/Botan-2.19.5.tar.xz"
+sha256 = "dfeea0e0a6f26d6724c4af01da9a7b88487adb2d81ba7c72fcaf52db522c9ad4"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

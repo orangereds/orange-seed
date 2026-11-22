@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mono"]
+
+[package]
+name = "nuget"
+version = "0"
+description = "Package manager for Microsoft development platform including .NET"
+homepage = "https://www.nuget.org/"
+
+[source]
+url = "https://dist.nuget.org/win-x86-commandline/v8.0.0/nuget.exe"
+sha256 = "d4ddb222cb8fca8200b59e82286c0cba9c29b4fce6f9835fdfa54e67c9483d07"
+
+[build]
+system = "autotools"

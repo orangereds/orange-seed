@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libgit2", "ruby"]
+
+[package]
+name = "licensed"
+version = "0"
+description = "Cache and verify the licenses of dependencies"
+homepage = "https://github.com/licensee/licensed"
+
+[source]
+url = "https://github.com/licensee/licensed.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

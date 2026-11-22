@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "k8sgpt"
+version = "0.4.41"
+description = "Scanning your k8s clusters, diagnosing, and triaging issues in simple English"
+homepage = "https://k8sgpt.ai/"
+
+[source]
+url = "https://github.com/k8sgpt-ai/k8sgpt/archive/refs/tags/v0.4.41.tar.gz"
+sha256 = "5bf358be47b5e7a9f78bf70318244acb737f5916084c85212f898aa6d12e323c"
+
+[build]
+system = "autotools"

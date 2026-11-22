@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "ftxui"
+version = "0"
+description = "C++ Functional Terminal User Interface"
+homepage = "https://arthursonzogni.github.io/FTXUI/"
+
+[source]
+url = "https://github.com/ArthurSonzogni/FTXUI/releases/download/v7.0.3/source.tar.gz"
+sha256 = "be506d647bf6eed2e7927f99ea080bcccff0938d9a35617756161d5b76df8b8a"
+
+[build]
+system = "cmake"

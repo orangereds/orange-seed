@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nasm"]
+
+[package]
+name = "openh264"
+version = "2.7.0"
+description = "H.264 codec from Cisco"
+homepage = "https://www.openh264.org/"
+
+[source]
+url = "https://github.com/cisco/openh264/archive/refs/tags/v2.7.0.tar.gz"
+sha256 = "5178775c8b440073e70920e97d195efff721c0e56d0a78cc82c919e95d54924d"
+
+[build]
+system = "make"

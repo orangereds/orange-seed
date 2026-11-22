@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "flex", "pkgconf"]
+
+[package]
+name = "libnl"
+version = "3.12.0"
+description = "Netlink Library Suite"
+homepage = "https://github.com/thom311/libnl"
+
+[source]
+url = "https://github.com/thom311/libnl/releases/download/libnl3_12_0/libnl-3.12.0.tar.gz"
+sha256 = "fc51ca7196f1a3f5fdf6ffd3864b50f4f9c02333be28be4eeca057e103c0dd18"
+
+[build]
+system = "autotools"

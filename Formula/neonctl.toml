@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["esbuild", "node"]
+
+[package]
+name = "neonctl"
+version = "9.9.0"
+description = "Neon CLI tool"
+homepage = "https://neon.tech/docs/reference/neon-cli"
+
+[source]
+url = "https://registry.npmjs.org/neonctl/-/neonctl-9.9.0.tgz"
+sha256 = "c1e77d8c40ae4538221392a5394a2b73c705daacb9805f6f8d257a6a01a43bb2"
+
+[build]
+system = "autotools"

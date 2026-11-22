@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zookeeper", "openjdk"]
+
+[package]
+name = "druid"
+version = "0"
+description = "High-performance, column-oriented, distributed data store"
+homepage = "https://druid.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=druid/39.0.0/apache-druid-39.0.0-bin.tar.gz"
+sha256 = "219fa33ea9eaf2f8e745de8f5bfba3e630152cb78ff763f8690e935edef90516"
+
+[build]
+system = "autotools"

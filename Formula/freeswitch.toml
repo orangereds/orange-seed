@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "freetype", "jpeg-turbo", "ldns", "libks", "libnatpmp", "libpng", "libpq", "libsndfile", "libtiff", "lua", "miniupnpc", "opencore-amr", "openssl@4", "opus", "pcre2", "signalwire-client-c", "sofia-sip", "speex", "speexdsp", "sqlite", "nasm"]
+
+[package]
+name = "freeswitch"
+version = "1.11.4"
+description = "Telephony platform to route various communication protocols"
+homepage = "https://freeswitch.org"
+
+[source]
+url = "https://files.freeswitch.org/releases/freeswitch/freeswitch-1.11.4.-release.tar.gz"
+sha256 = "981582e8a1b2ec1424314a4321f7e6e504911e9785bd1a3ddccefabd7c5403f9"
+
+[service]
+run = "opt/freeswitch/bin/freeswitch -nc -nonat"
+keep_alive = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cdsclient"
+version = "4.07"
+description = "Tools for querying CDS databases for astronomical data"
+homepage = "https://cdsarc.cds.unistra.fr/doc/cdsclient.html"
+
+[source]
+url = "https://cdsarc.cds.unistra.fr/ftp/pub/sw/cdsclient-4.07.tar.gz"
+sha256 = "4a0a02cb1dc48bc9a0873ebb3ef9b031f9288baf13a3573f885a8504f9c317c5"
+
+[build]
+system = "autotools"

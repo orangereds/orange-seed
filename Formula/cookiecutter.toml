@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "cookiecutter"
+version = "2.7.1_5"
+description = "Utility that creates projects from templates"
+homepage = "https://github.com/cookiecutter/cookiecutter"
+
+[source]
+url = "https://files.pythonhosted.org/packages/92/03/f4c96d8fd4f5e8af0210bf896eb63927f35d3014a8e8f3bf9d2c43ad3332/cookiecutter-2.7.1.tar.gz"
+sha256 = "ca7bb7bc8c6ff441fbf53921b5537668000e38d56e28d763a1b73975c66c6138"
+
+[build]
+system = "autotools"

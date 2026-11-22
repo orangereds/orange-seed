@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "python@3.15", "jpeg-turbo", "libpng", "numpy", "pillow", "pytorch", "webp"]
+
+[package]
+name = "torchvision"
+version = "0.29.2"
+description = "Datasets, transforms, and models for computer vision"
+homepage = "https://pytorch.org/vision/stable/index.html"
+
+[source]
+url = "https://github.com/pytorch/vision/archive/refs/tags/v0.29.2.tar.gz"
+sha256 = "6239575329eb0149ff7a7f5cabfab254129f758961afdba650aab37276d8196d"
+
+[build]
+system = "cmake"

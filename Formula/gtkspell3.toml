@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "gobject-introspection", "gtk-doc", "intltool", "libtool", "pkgconf", "vala", "enchant", "glib", "gtk+3", "at-spi2-core", "cairo", "gdk-pixbuf", "harfbuzz", "pango"]
+
+[package]
+name = "gtkspell3"
+version = "3.0.10_4"
+description = "Gtk widget for highlighting and replacing misspelled words"
+homepage = "https://gtkspell.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gtkspell/3.0.10/gtkspell3-3.0.10.tar.xz"
+sha256 = "b040f63836b347eb344f5542443dc254621805072f7141d49c067ecb5a375732"
+
+[build]
+system = "autotools"

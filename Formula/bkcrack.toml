@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "bkcrack"
+version = "1.8.1"
+description = "Crack legacy zip encryption with Biham and Kocher's known plaintext attack"
+homepage = "https://github.com/kimci86/bkcrack"
+
+[source]
+url = "https://github.com/kimci86/bkcrack/archive/refs/tags/v1.8.1.tar.gz"
+sha256 = "bb6a6d0bb1ccbb3c39cf8b3113581b5514b127023bbe0e864992c57e79346053"
+
+[build]
+system = "cmake"

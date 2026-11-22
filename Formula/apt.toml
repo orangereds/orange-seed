@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "docbook", "docbook-xsl", "doxygen", "gettext", "libxslt", "po4a", "w3m", "berkeley-db@5", "bzip2", "dpkg", "lz4", "openssl@4", "perl", "sequoia-sqv", "systemd", "xxhash", "xz", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "apt"
+version = "12"
+description = "Advanced Package Tool"
+homepage = "https://wiki.debian.org/Apt"
+
+[source]
+url = "https://salsa.debian.org/apt-team/apt/-/archive/3.3.8/apt-3.3.8.tar.bz2"
+sha256 = "c61e7ae1117d6be89464a78e1f70bde5f181d086c50fe1df1f79b8f9ac12eb3d"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

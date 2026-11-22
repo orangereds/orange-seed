@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libplctag"
+version = "2.7.2"
+description = "Portable and simple API for accessing AB PLC data over Ethernet"
+homepage = "https://github.com/libplctag/libplctag"
+
+[source]
+url = "https://github.com/libplctag/libplctag/archive/refs/tags/v2.7.2.tar.gz"
+sha256 = "09057d893a418e10c977267fe57a0195a4b8a4d7e512acc2d9ccef0314823056"
+
+[build]
+system = "cmake"

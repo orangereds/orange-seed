@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust"]
+
+[package]
+name = "boa"
+version = "0.22"
+description = "Embeddable and experimental Javascript engine written in Rust"
+homepage = "https://github.com/boa-dev/boa"
+
+[source]
+url = "https://github.com/boa-dev/boa/archive/refs/tags/v0.22.tar.gz"
+sha256 = "fd12f2cc173e162d0775b6dd07d4cbde0fc2485661a816cc4ef12f8239db96e7"
+
+[build]
+system = "autotools"

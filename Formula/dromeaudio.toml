@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "dromeaudio"
+version = "0.3.0"
+description = "Small C++ audio manipulation and playback library"
+homepage = "https://github.com/joshb/dromeaudio/"
+
+[source]
+url = "https://github.com/joshb/DromeAudio/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "d226fa3f16d8a41aeea2d0a32178ca15519aebfa109bc6eee36669fa7f7c6b83"
+
+[build]
+system = "cmake"

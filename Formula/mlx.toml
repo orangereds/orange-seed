@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fmt", "nanobind", "nlohmann-json", "python-setuptools", "robin-map", "python@3.15"]
+
+[package]
+name = "mlx"
+version = "0.32.4"
+description = "Array framework for Apple silicon"
+homepage = "https://ml-explore.github.io/mlx/build/html/index.html"
+
+[source]
+url = "https://github.com/ml-explore/mlx/archive/refs/tags/v0.32.4.tar.gz"
+sha256 = "0276db8d7bf1af8db6d4ae25c7c550abea4d5b3b6a16207610a5d4a0c19fe1a0"
+
+[build]
+system = "cmake"

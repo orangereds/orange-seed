@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "nfdump"
+version = "1.7.10"
+description = "Tools to collect and process netflow data on the command-line"
+homepage = "https://github.com/phaag/nfdump"
+
+[source]
+url = "https://github.com/phaag/nfdump/archive/refs/tags/v1.7.10.tar.gz"
+sha256 = "9a1bc84eb484c7383eea3b48ad2abe5b9ffe7e90aab3fda7055aa3f64be0cc29"
+
+[build]
+system = "autotools"

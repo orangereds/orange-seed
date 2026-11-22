@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "phive"
+version = "0.16.0.phar"
+description = "Phar Installation and Verification Environment (PHIVE)"
+homepage = "https://phar.io"
+
+[source]
+url = "https://github.com/phar-io/phive/releases/download/0.16.0/phive-0.16.0.phar"
+sha256 = "1525f25afec4bcdc0aa8db7bb4b0063851332e916698daf90c747461642a42ed"
+
+[build]
+system = "autotools"

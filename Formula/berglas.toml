@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "berglas"
+version = "2.0.19"
+description = "Tool for managing secrets on Google Cloud"
+homepage = "https://github.com/GoogleCloudPlatform/berglas"
+
+[source]
+url = "https://github.com/GoogleCloudPlatform/berglas/archive/refs/tags/v2.0.19.tar.gz"
+sha256 = "2a44df65587814d80a776cd876b8127af2fa6dd6509bef71aff17bd9b1796340"
+
+[build]
+system = "autotools"

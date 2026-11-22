@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "mercury"
+version = "0"
+description = "Logic/functional programming language"
+homepage = "https://mercurylang.org/"
+
+[source]
+url = "https://dl.mercurylang.org/release/mercury-srcdist-22.01.9.tar.gz"
+sha256 = "582639d89530dd6539c3af01b841f682e6554c3ca5c09be124e789d7ca4b2b58"
+
+[build]
+system = "autotools"

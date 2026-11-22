@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zuban"
+version = "e75a39fec6f375f5002d54c5607b44bedc025a4b"
+description = "Python language server and type checker, written in Rust"
+homepage = "https://zubanls.com/"
+
+[source]
+url = "https://github.com/zubanls/zuban/archive/refs/tags/v0.10.2.tar.gz"
+sha256 = "70b9ee27d93d1615cbfa24e7e40d44698066e2e0723383554a9403bda3e4165b"
+
+[build]
+system = "autotools"

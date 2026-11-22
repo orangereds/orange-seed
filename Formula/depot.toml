@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "depot"
+version = "2.103.33"
+description = "Build your Docker images in the cloud"
+homepage = "https://depot.dev/"
+
+[source]
+url = "https://github.com/depot/cli/archive/refs/tags/v2.103.33.tar.gz"
+sha256 = "acbd39479157e3668e3bf70793398b031a7a7b3ee82afae93a35f4346ef8c564"
+
+[build]
+system = "autotools"

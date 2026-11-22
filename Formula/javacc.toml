@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "openjdk"]
+
+[package]
+name = "javacc"
+version = "7.0.13"
+description = "Parser generator for use with Java applications"
+homepage = "https://javacc.github.io/javacc/"
+
+[source]
+url = "https://github.com/javacc/javacc/archive/refs/tags/javacc-7.0.13.tar.gz"
+sha256 = "d1bfebb4ca9261c5c3b16b00280b3278a41b193ca8503f2987f72de453bf99c6"
+
+[build]
+system = "autotools"

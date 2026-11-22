@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fftw"]
+
+[package]
+name = "zita-convolver"
+version = "4.0.3"
+description = "Fast, partitioned convolution engine library"
+homepage = "https://kokkinizita.linuxaudio.org/linuxaudio/"
+
+[source]
+url = "https://kokkinizita.linuxaudio.org/linuxaudio/downloads/zita-convolver-4.0.3.tar.bz2"
+sha256 = "9aa11484fb30b4e6ef00c8a3281eebcfad9221e3937b1beb5fe21b748d89325f"
+
+[build]
+system = "make"

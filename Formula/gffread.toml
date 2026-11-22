@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gffread"
+version = "0.12.9"
+description = "GFF/GTF format conversions, region filtering, FASTA sequence extraction"
+homepage = "https://github.com/gpertea/gffread"
+
+[source]
+url = "https://github.com/gpertea/gffread/releases/download/v0.12.9/gffread-0.12.9.tar.gz"
+sha256 = "3ee1a3a2db938569bcccb1e8d908503392ebf0a3f203ddaff1b967b8ade614d1"
+
+[build]
+system = "autotools"

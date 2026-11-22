@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pocketbase"
+version = "0"
+description = "Open source backend for your next project in 1 file"
+homepage = "https://pocketbase.io/"
+
+[source]
+url = "https://ganigeorgiev.com/api/git/pocketbase/pocketbase/archive?rev=refs/tags/v0.42.3"
+sha256 = "35e6d0ba99995a37380ce966ff1c7aa95aa193940c8917151ed2c76280e87e29"
+
+[build]
+system = "autotools"

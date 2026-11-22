@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ghc", "gmp"]
+
+[package]
+name = "cabal-install"
+version = "3.18.2.0"
+description = "Command-line interface for Cabal and Hackage"
+homepage = "https://www.haskell.org/cabal/"
+
+[source]
+url = "https://hackage.haskell.org/package/cabal-install-3.18.2.0/cabal-install-3.18.2.0.tar.gz"
+sha256 = "1d55fea99bf82b2f4a2ae51bd47313167048ba05aac6290a30752d91cd5f7cb8"
+
+[build]
+system = "autotools"

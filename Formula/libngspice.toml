@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libngspice"
+version = "0"
+description = "Spice circuit simulator as shared library"
+homepage = "https://ngspice.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/47/ngspice-47.tar.gz"
+sha256 = "894e649651f1838a14095e5a5439e7d3aa63e87ede14d283173fda4fcdef675f"
+
+[build]
+system = "autotools"

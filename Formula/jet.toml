@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jet"
+version = "2.16.1"
+description = "Type safe SQL builder with code generation and auto query result data mapping"
+homepage = "https://github.com/go-jet/jet"
+
+[source]
+url = "https://github.com/go-jet/jet/archive/refs/tags/v2.16.1.tar.gz"
+sha256 = "b718fe71acf9f87a5e8c464b8b1ff611a48984d3b77e6a838db14e6014ef9bed"
+
+[build]
+system = "autotools"

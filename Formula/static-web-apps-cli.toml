@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "static-web-apps-cli"
+version = "2.1.0"
+description = "SWA CLI serves as a local development tool for Azure Static Web Apps"
+homepage = "https://azure.github.io/static-web-apps-cli/"
+
+[source]
+url = "https://registry.npmjs.org/@azure/static-web-apps-cli/-/static-web-apps-cli-2.1.0.tgz"
+sha256 = "e1df5e6c83c7e9e23f74dbb2eb21080b01ec012fa7f321e44f29c5c4601a89c7"
+
+[build]
+system = "autotools"

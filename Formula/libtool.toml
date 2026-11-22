@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["m4"]
+
+[package]
+name = "libtool"
+version = "2.6.2"
+description = "Generic library support script"
+homepage = "https://www.gnu.org/software/libtool/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libtool/libtool-2.6.2.tar.xz"
+sha256 = "2ef1067c16c97db930fd740cc9bc3d3ba9a583804ae5ac42cc3e8719e49e191e"
+
+[build]
+system = "autotools"

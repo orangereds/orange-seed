@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mecab"
+version = "0.996.orig"
+description = "Yet another part-of-speech and morphological analyzer"
+homepage = "https://taku910.github.io/mecab/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/mecab/mecab_0.996.orig.tar.gz"
+sha256 = "e073325783135b72e666145c781bb48fada583d5224fb2490fb6c1403ba69c59"
+
+[build]
+system = "autotools"

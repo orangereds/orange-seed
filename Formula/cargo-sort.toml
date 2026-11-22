@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-sort"
+version = "2.1.5"
+description = "Tool to check that your Cargo.toml dependencies are sorted alphabetically"
+homepage = "https://github.com/devinr528/cargo-sort"
+
+[source]
+url = "https://github.com/DevinR528/cargo-sort/archive/refs/tags/v2.1.5.tar.gz"
+sha256 = "40e7d5940538bc5e87aacb0bd9462a342d99d9ab128ccaed62d750f7671498a9"
+
+[build]
+system = "autotools"

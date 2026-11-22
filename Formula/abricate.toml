@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["any2fasta", "bioperl", "blast"]
+
+[package]
+name = "abricate"
+version = "1.4.0_1"
+description = "Find antimicrobial resistance and virulence genes in contigs"
+homepage = "https://github.com/tseemann/abricate"
+
+[source]
+url = "https://github.com/tseemann/abricate/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "cbafe0efbdb7a0ac3d3bcd3cb2ca4a0152474d20b68c5f98da5a4c7cc25676eb"
+
+[build]
+system = "autotools"

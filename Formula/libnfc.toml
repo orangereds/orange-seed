@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libusb-compat"]
+
+[package]
+name = "libnfc"
+version = "1.8.0"
+description = "Low level NFC SDK and Programmers API"
+homepage = "https://github.com/nfc-tools/libnfc"
+
+[source]
+url = "https://github.com/nfc-tools/libnfc/releases/download/libnfc-1.8.0/libnfc-1.8.0.tar.bz2"
+sha256 = "6d9ad31c86408711f0a60f05b1933101c7497683c2e0d8917d1611a3feba3dd5"
+
+[build]
+system = "autotools"

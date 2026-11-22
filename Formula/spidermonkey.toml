@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cbindgen", "pkgconf", "python@3.15", "rust", "icu4c@79", "nspr", "readline", "lld"]
+
+[package]
+name = "spidermonkey"
+version = "153.7.0"
+description = "JavaScript-C Engine"
+homepage = "https://spidermonkey.dev"
+
+[source]
+url = "https://archive.mozilla.org/pub/firefox/releases/153.7.0esr/source/firefox-153.7.0esr.source.tar.xz"
+sha256 = "7f8715ee7de2cf36a156216a9b1c7f26d1653010e65793bb2fce66e12edb6ea0"
+
+[build]
+system = "autotools"

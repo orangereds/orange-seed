@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doctest", "pandoc", "pkgconf", "ffmpeg", "libdeflate", "libunistring", "ncurses"]
+
+[package]
+name = "notcurses"
+version = "3.0.17_1"
+description = "Blingful character graphics/TUI library"
+homepage = "https://nick-black.com/dankwiki/index.php/Notcurses"
+
+[source]
+url = "https://github.com/dankamongmen/notcurses/archive/refs/tags/v3.0.17.tar.gz"
+sha256 = "b0fbe824984fe25b5a16770dbd00b85d44db5d09cc35bd881b95335d0db53128"
+
+[build]
+system = "cmake"

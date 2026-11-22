@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "icu4c@79"]
+
+[package]
+name = "zk"
+version = "0.15.7"
+description = "Plain text note-taking assistant"
+homepage = "https://zk-org.github.io/zk/"
+
+[source]
+url = "https://github.com/zk-org/zk/archive/refs/tags/v0.15.7.tar.gz"
+sha256 = "69a9f72a0b18d89b2a7ec080aa3c2fbca0e5cfb31bfa89bf47e64c3f8a2d1ad0"
+
+[build]
+system = "autotools"

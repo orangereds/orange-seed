@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ratty"
+version = "0.6.0"
+description = "GPU-rendered terminal emulator with inline 3D graphics"
+homepage = "https://ratty-term.org/"
+
+[source]
+url = "https://github.com/orhun/ratty/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "84a5e38d6b811f158333f30e827621a8a70610306b0ab56ea14043cb306cfae9"
+
+[build]
+system = "autotools"

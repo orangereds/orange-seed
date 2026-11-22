@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "pam-reattach"
+version = "1.3"
+description = "PAM module for reattaching to the user's GUI (Aqua) session"
+homepage = "https://github.com/fabianishere/pam_reattach"
+
+[source]
+url = "https://github.com/fabianishere/pam_reattach/archive/refs/tags/v1.3.tar.gz"
+sha256 = "b1b735fa7832350a23457f7d36feb6ec939e5e1de987b456b6c28f5738216570"
+
+[build]
+system = "cmake"

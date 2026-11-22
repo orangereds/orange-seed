@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "yuque-dl"
+version = "1.0.87"
+description = "Knowledge base downloader for Yuque"
+homepage = "https://github.com/gxr404/yuque-dl"
+
+[source]
+url = "https://registry.npmjs.org/yuque-dl/-/yuque-dl-1.0.87.tgz"
+sha256 = "9427489b455e752f32faacc9b0a4b264a6bd373d4e01133d2c813f80e0544019"
+
+[build]
+system = "autotools"

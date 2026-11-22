@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-sed"]
+
+[package]
+name = "hashcat"
+version = "8.0.0"
+description = "World's fastest and most advanced password recovery utility"
+homepage = "https://hashcat.net/hashcat/"
+
+[source]
+url = "https://hashcat.net/files/hashcat-8.0.0.tar.gz"
+sha256 = "d6a7533e1e250a236a8b99d0b725cdd76d8fdce744c7eeacb2bf42210fe4761b"
+
+[build]
+system = "autotools"

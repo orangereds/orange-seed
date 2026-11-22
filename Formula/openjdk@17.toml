@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2"]
+
+[package]
+name = "openjdk@17"
+version = "0"
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.org/"
+
+[source]
+url = "https://github.com/openjdk/jdk17u/archive/refs/tags/jdk-17.0.21.1-ga.tar.gz"
+sha256 = "e25ed894ac1c20173e52435d56bc3d44030e7a468a9fd12d184a097e3ebde752"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

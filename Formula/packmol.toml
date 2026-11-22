@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc"]
+
+[package]
+name = "packmol"
+version = "21.2.3"
+description = "Packing optimization for molecular dynamics simulations"
+homepage = "https://www.ime.unicamp.br/~martinez/packmol/"
+
+[source]
+url = "https://github.com/m3g/packmol/archive/refs/tags/v21.2.3.tar.gz"
+sha256 = "b26af58d407b1c8d786aa6c2bb6bfa40d741aaa0424db51300fdd6fd66dd4813"
+
+[build]
+system = "cmake"

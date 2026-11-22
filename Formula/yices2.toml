@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "gmp"]
+
+[package]
+name = "yices2"
+version = "0"
+description = "Yices SMT Solver"
+homepage = "https://yices.csl.sri.com/"
+
+[source]
+url = "https://github.com/SRI-CSL/yices2/archive/refs/tags/yices-2.8.0.tar.gz"
+sha256 = "cb4c58c3508a5e67c156ba26182cd540af644fb7ba39b2873feebf73f21201b2"
+
+[build]
+system = "autotools"

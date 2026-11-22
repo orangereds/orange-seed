@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "libao", "libvorbis", "mpg123", "speex", "libogg"]
+
+[package]
+name = "vgmstream"
+version = "r2168"
+description = "Library for playing streamed audio formats from video games"
+homepage = "https://vgmstream.org"
+
+[source]
+url = "https://github.com/vgmstream/vgmstream.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

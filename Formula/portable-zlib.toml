@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "portable-zlib"
+version = "0"
+description = "General-purpose lossless data-compression library"
+homepage = "https://zlib.net/"
+
+[source]
+url = "https://zlib.net/zlib-1.4.tar.gz"
+sha256 = "02dd159783677a749c04adbdd02b55b8a2bcc7e054f51b76b549199a916ad584"
+
+[build]
+system = "autotools"

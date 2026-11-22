@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lzip"]
+
+[package]
+name = "lziprecover"
+version = "1.26"
+description = "Data recovery tool and decompressor for files in the lzip compressed data format"
+homepage = "https://www.nongnu.org/lzip/lziprecover.html"
+
+[source]
+url = "https://download.savannah.nongnu.org/releases/lzip/lziprecover/lziprecover-1.26.tar.gz"
+sha256 = "e234005a756d5649f41686116d3e548736d4a77e5a5ec37b943ca6650787801d"
+
+[build]
+system = "autotools"

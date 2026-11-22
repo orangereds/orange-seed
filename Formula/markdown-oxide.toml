@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "markdown-oxide"
+version = "0.25.12"
+description = "Personal Knowledge Management System for the LSP"
+homepage = "https://oxide.md"
+
+[source]
+url = "https://github.com/Feel-ix-343/markdown-oxide/archive/refs/tags/v0.25.12.tar.gz"
+sha256 = "fc7c472c2bd93a9b8f58848d71f054ed02442310f5328081f3036a7ce79040cb"
+
+[build]
+system = "autotools"

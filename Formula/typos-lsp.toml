@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typos-lsp"
+version = "0.1.58"
+description = "Language Server for typos-cli"
+homepage = "https://github.com/tekumara/typos-lsp"
+
+[source]
+url = "https://github.com/tekumara/typos-lsp/archive/refs/tags/v0.1.58.tar.gz"
+sha256 = "cece3ab47c2c54aebb57cebe6cc3511e7391f7482145fb34f581d81f6f8d1f2e"
+
+[build]
+system = "autotools"

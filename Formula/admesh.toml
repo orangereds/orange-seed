@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "admesh"
+version = "0.98.5"
+description = "Processes triangulated solid meshes"
+homepage = "https://github.com/admesh/admesh"
+
+[source]
+url = "https://github.com/admesh/admesh/releases/download/v0.98.5/admesh-0.98.5.tar.gz"
+sha256 = "0d7994bfa587c4e958b2ac7c7d2fb90dfb6c5463d32513ada169cf710a438535"
+
+[build]
+system = "autotools"

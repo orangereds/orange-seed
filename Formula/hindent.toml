@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "hindent"
+version = "6.3.0"
+description = "Haskell pretty printer"
+homepage = "https://github.com/mihaimaruseac/hindent"
+
+[source]
+url = "https://github.com/mihaimaruseac/hindent/archive/refs/tags/v6.3.0.tar.gz"
+sha256 = "2726bdbf137691624997f181c29392f22f8566ebc87c5f82e420adfb0068ef07"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "httpyac"
+version = "6.16.7"
+description = "Quickly and easily send REST, SOAP, GraphQL and gRPC requests"
+homepage = "https://httpyac.github.io/"
+
+[source]
+url = "https://registry.npmjs.org/httpyac/-/httpyac-6.16.7.tgz"
+sha256 = "e6bc615ef8b58ea9334fcac3e2000eb3e49926dca1ec7087456e9aa6c402000e"
+
+[build]
+system = "autotools"

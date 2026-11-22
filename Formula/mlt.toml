@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "fftw", "fontconfig", "frei0r", "gdk-pixbuf", "glib", "libdv", "libexif", "libsamplerate", "libvidstab", "libvorbis", "opencv", "pango", "qt5compat", "qtbase", "qtsvg", "rubberband", "sdl2-compat", "sox", "freetype", "gettext", "harfbuzz", "libomp"]
+
+[package]
+name = "mlt"
+version = "7.42.0_1"
+description = "Author, manage, and run multitrack audio/video compositions"
+homepage = "https://www.mltframework.org/"
+
+[source]
+url = "https://github.com/mltframework/mlt/releases/download/v7.42.0/mlt-7.42.0.tar.gz"
+sha256 = "8800e343f43aaa885bd5d9d23553030fa220aa3e2f0c94d9fd6a936d41638cdd"
+
+[build]
+system = "cmake"

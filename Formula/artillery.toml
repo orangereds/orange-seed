@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "artillery"
+version = "2.0.34"
+description = "Cloud-native performance & reliability testing for developers and SREs"
+homepage = "https://www.artillery.io/"
+
+[source]
+url = "https://registry.npmjs.org/artillery/-/artillery-2.0.34.tgz"
+sha256 = "ed6ff0b9cec653120805889eb0504bde36e923fda24dea817f2691af4ccb1188"
+
+[build]
+system = "autotools"

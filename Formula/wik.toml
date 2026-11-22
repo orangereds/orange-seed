@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "wik"
+version = "2.0.1_5"
+description = "View Wikipedia pages from your terminal"
+homepage = "https://github.com/yashsinghcodes/wik"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ee/93/4a221efc5995f8ee24731a145277de0beb68477f30cdf76954355cd6c62f/wik-2.0.1.tar.gz"
+sha256 = "a12141d06967a7c21dee62fdd6d6086e4cb3f14ea18fae4aa294e39dfd5f23e2"
+
+[build]
+system = "autotools"

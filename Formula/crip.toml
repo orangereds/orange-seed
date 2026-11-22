@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graalvm", "maven"]
+
+[package]
+name = "crip"
+version = "2.7.1"
+description = "Tool to extract server certificates"
+homepage = "https://github.com/Hakky54/certificate-ripper"
+
+[source]
+url = "https://github.com/Hakky54/certificate-ripper/archive/refs/tags/2.7.1.tar.gz"
+sha256 = "d73bc25c3ab37467764310e8573895953b4ff80cf045d96c90aa3c24a67a4f05"
+
+[build]
+system = "autotools"

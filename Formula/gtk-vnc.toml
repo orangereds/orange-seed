@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "gdk-pixbuf", "glib", "gmp", "gnutls", "gtk+3"]
+
+[package]
+name = "gtk-vnc"
+version = "1.6.0"
+description = "VNC viewer widget for GTK"
+homepage = "https://gitlab.gnome.org/GNOME/gtk-vnc"
+
+[source]
+url = "https://download.gnome.org/sources/gtk-vnc/1.6/gtk-vnc-1.6.0.tar.xz"
+sha256 = "0e1a1023f191a842e994e5d10053bbe0e76d5f5fb9ec2eb525e2f8fdea57347f"
+
+[build]
+system = "autotools"

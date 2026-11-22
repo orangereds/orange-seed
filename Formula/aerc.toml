@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "scdoc", "notmuch"]
+
+[package]
+name = "aerc"
+version = "0.22.0"
+description = "Email client that runs in your terminal"
+homepage = "https://aerc-mail.org/"
+
+[source]
+url = "https://git.sr.ht/~rjarry/aerc/archive/0.22.0.tar.gz"
+sha256 = "f1cd5e358fd836051d4d88c189ecaa025a108b729281985525b45b13bc49e70f"
+
+[build]
+system = "make"

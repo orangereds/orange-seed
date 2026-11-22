@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gotags"
+version = "1.4.1"
+description = "Tag generator for Go, compatible with ctags"
+homepage = "https://github.com/jstemmer/gotags"
+
+[source]
+url = "https://github.com/jstemmer/gotags/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "2df379527eaa7af568734bc4174febe7752eb5af1b6194da84cd098b7c873343"
+
+[build]
+system = "autotools"

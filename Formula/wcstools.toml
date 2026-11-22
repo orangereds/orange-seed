@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "wcstools"
+version = "3.9.7"
+description = "Tools for using World Coordinate Systems (WCS) in astronomical images"
+homepage = "http://tdc-www.harvard.edu/wcstools/"
+
+[source]
+url = "https://distfiles.macports.org/wcstools/wcstools-3.9.7.tar.gz"
+sha256 = "525f6970eb818f822db75c1526b3122b1af078affa572dce303de37df5c7b088"
+
+[build]
+system = "autotools"

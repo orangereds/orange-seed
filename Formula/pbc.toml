@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gmp"]
+
+[package]
+name = "pbc"
+version = "1.0.0"
+description = "Pairing-based cryptography"
+homepage = "https://crypto.stanford.edu/pbc/"
+
+[source]
+url = "https://crypto.stanford.edu/pbc/files/pbc-1.0.0.tar.gz"
+sha256 = "18275a367283077bafe35f443200499e3b19c4a3754953da2a1b2f0d6b5922dc"
+
+[build]
+system = "autotools"

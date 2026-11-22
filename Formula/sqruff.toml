@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sqruff"
+version = "0.44.0"
+description = "Fast SQL formatter/linter"
+homepage = "https://github.com/quarylabs/sqruff"
+
+[source]
+url = "https://github.com/quarylabs/sqruff/archive/refs/tags/v0.44.0.tar.gz"
+sha256 = "24345a86b4b5ec5f312f8951071f75d1b0b918077bfe23fa21642034abd8641d"
+
+[build]
+system = "autotools"

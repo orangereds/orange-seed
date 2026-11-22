@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "terminal-notifier"]
+
+[package]
+name = "sql-language-server"
+version = "1.7.1_1"
+description = "Language Server for SQL"
+homepage = "https://github.com/joe-re/sql-language-server"
+
+[source]
+url = "https://registry.npmjs.org/sql-language-server/-/sql-language-server-1.7.1.tgz"
+sha256 = "c92fe8ae8756f86bc893ec3dff6d85653de242eb671af0430807064db79d9cd6"
+
+[build]
+system = "autotools"

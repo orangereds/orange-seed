@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "xz", "zstd"]
+
+[package]
+name = "minizip-ng"
+version = "4.2.2"
+description = "Zip file manipulation library with minizip 1.x compatibility layer"
+homepage = "https://github.com/zlib-ng/minizip-ng"
+
+[source]
+url = "https://github.com/zlib-ng/minizip-ng/archive/refs/tags/4.2.2.tar.gz"
+sha256 = "71af7b9799856d8b03619df3949e9c1be9703f8de0795af71399ba283cb27aac"
+
+[build]
+system = "cmake"

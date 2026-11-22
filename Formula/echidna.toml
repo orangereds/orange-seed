@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ghc@9.10", "haskell-stack", "pkgconf", "solidity", "crytic-compile", "gmp", "libff", "libyaml", "secp256k1", "slither-analyzer"]
+
+[package]
+name = "echidna"
+version = "2.4.0"
+description = "Ethereum smart contract fuzzer"
+homepage = "https://secure-contracts.com/program-analysis/echidna/index.html"
+
+[source]
+url = "https://github.com/crytic/echidna/archive/refs/tags/v2.4.0.tar.gz"
+sha256 = "9d0e9340d8164704beb2472b02b25ff3cab1b9538d885f936d3199532a6d219c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "crit"
+version = "0.24.0"
+description = "Your feedback loop with the agent: review plans and code locally"
+homepage = "https://crit.md/"
+
+[source]
+url = "https://github.com/tomasz-tomczyk/crit/archive/refs/tags/v0.24.0.tar.gz"
+sha256 = "ad667b91f7ade11c0ac0a9527e7d099766f1a6f5cbcaec3344769c04afc957c1"
+
+[build]
+system = "autotools"

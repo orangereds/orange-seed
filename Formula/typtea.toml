@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "typtea"
+version = "0.1.6"
+description = "Minimal terminal-based typing speed tester"
+homepage = "https://github.com/ashish0kumar/typtea"
+
+[source]
+url = "https://github.com/ashish0kumar/typtea/archive/refs/tags/v0.1.6.tar.gz"
+sha256 = "d2c5580b46c39189b28de3fde92ae51a811efc063a1d819bbc2db359a7c34f98"
+
+[build]
+system = "autotools"

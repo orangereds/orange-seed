@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk"]
+
+[package]
+name = "openapi-generator"
+version = "0"
+description = "Generate clients, server & docs from an OpenAPI spec (v2, v3)"
+homepage = "https://openapi-generator.tech/"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=org/openapitools/openapi-generator-cli/7.27.0/openapi-generator-cli-7.27.0.jar"
+sha256 = "db9c4b738727698748746144394cb7ee96512fe50166555baaeeca9311ee1dba"
+
+[build]
+system = "autotools"

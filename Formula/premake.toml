@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "premake"
+version = "5.0.0"
+description = "Write once, build anywhere Lua-based build system"
+homepage = "https://premake.github.io/"
+
+[source]
+url = "https://github.com/premake/premake-core/archive/refs/tags/v5.0.0.tar.gz"
+sha256 = "ed52d17463112d6b93bc6e34bb6e15c6332e1f313ad5259fdde60e270aa30aec"
+
+[build]
+system = "autotools"

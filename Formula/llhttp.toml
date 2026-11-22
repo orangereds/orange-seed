@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "llhttp"
+version = "9.4.4"
+description = "Port of http_parser to llparse"
+homepage = "https://llhttp.org/"
+
+[source]
+url = "https://github.com/nodejs/llhttp/archive/refs/tags/release/v9.4.4.tar.gz"
+sha256 = "5600adb1498f82a9c719b8eb19310021737388e0d92362a6d47be532710d3c96"
+
+[build]
+system = "cmake"

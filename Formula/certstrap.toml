@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "certstrap"
+version = "1.4.1"
+description = "Tools to bootstrap CAs, certificate requests, and signed certificates"
+homepage = "https://github.com/square/certstrap"
+
+[source]
+url = "https://github.com/square/certstrap/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "7a016b02ad2fbf6a1c6dd010561b6bfe16add5e58d039db5d9ad8fcd724657e8"
+
+[build]
+system = "autotools"

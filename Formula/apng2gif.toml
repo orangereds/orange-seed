@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpng"]
+
+[package]
+name = "apng2gif"
+version = "1.8-src"
+description = "Convert APNG animations into animated GIF format"
+homepage = "https://apng2gif.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/apng2gif/1.8/apng2gif-1.8-src.zip"
+sha256 = "9a07e386017dc696573cd7bc7b46b2575c06da0bc68c3c4f1c24a4b39cdedd4d"
+
+[build]
+system = "autotools"

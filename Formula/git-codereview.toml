@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-codereview"
+version = "1.22.0"
+description = "Tool for working with Gerrit code reviews"
+homepage = "https://pkg.go.dev/golang.org/x/review/git-codereview"
+
+[source]
+url = "https://github.com/golang/review/archive/refs/tags/v1.22.0.tar.gz"
+sha256 = "ecf3d44f0a294a7e8d5e9a4203e67a1a2348380cd84d8f502aa1c436983a5e8d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost"]
+
+[package]
+name = "stuntman"
+version = "0"
+description = "Implementation of the STUN protocol"
+homepage = "https://www.stunprotocol.org"
+
+[source]
+url = "https://www.stunprotocol.org/stunserver-1.2.16.tgz"
+sha256 = "4479e1ae070651dfc4836a998267c7ac2fba4f011abcfdca3b8ccd7736d4fd26"
+
+[build]
+system = "autotools"

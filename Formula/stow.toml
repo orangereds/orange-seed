@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "stow"
+version = "2.4.1"
+description = "Organize software neatly under a single directory tree (e.g. /usr/local)"
+homepage = "https://www.gnu.org/software/stow/"
+
+[source]
+url = "https://ftpmirror.gnu.org/stow/stow-2.4.1.tar.gz"
+sha256 = "2a671e75fc207303bfe86a9a7223169c7669df0a8108ebdf1a7fe8cd2b88780b"
+
+[build]
+system = "autotools"

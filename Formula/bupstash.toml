@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libsodium"]
+
+[package]
+name = "bupstash"
+version = "0.12.0-src+deps_1"
+description = "Easy and efficient encrypted backups"
+homepage = "https://bupstash.io"
+
+[source]
+url = "https://github.com/andrewchambers/bupstash/releases/download/v0.12.0/bupstash-v0.12.0-src+deps.tar.gz"
+sha256 = "e3054c03b0d57ba718bd2cab8c24df13153369dea311e5a595d586ad24865793"
+
+[build]
+system = "autotools"

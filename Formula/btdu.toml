@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["btrfs-progs", "dub", "ldc", "ncurses"]
+
+[package]
+name = "btdu"
+version = "0.7.2"
+description = "Sampling disk usage profiler for btrfs"
+homepage = "https://github.com/CyberShadow/btdu"
+
+[source]
+url = "https://github.com/CyberShadow/btdu/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "695ded59fb2029c8ae48ca0f990e68928841cdf36a4cf4cbc2485460cadbbd67"
+
+[build]
+system = "autotools"

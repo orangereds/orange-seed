@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.15"]
+
+[package]
+name = "nkt"
+version = "0.3.1"
+description = "TUI for fast and simple interacting with your BibLaTeX database"
+homepage = "https://git.sr.ht/~fjebaker/nkt"
+
+[source]
+url = "https://git.sr.ht/~fjebaker/nkt/archive/0.3.1.tar.gz"
+sha256 = "cfcede02c12cfe2fca4465fa3d87c03158202e4606c1ba3db46851dbb0451ccd"
+
+[build]
+system = "autotools"

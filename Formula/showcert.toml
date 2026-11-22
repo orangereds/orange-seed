@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libmagic", "python@3.15"]
+
+[package]
+name = "showcert"
+version = "0.4.16_2"
+description = "X.509 TLS certificate reader and creator"
+homepage = "https://github.com/yaroslaff/showcert"
+
+[source]
+url = "https://files.pythonhosted.org/packages/32/d1/2728789232c766247375f98cb9d224f1db4070c5ed836468dc8c7c1359e8/showcert-0.4.16.tar.gz"
+sha256 = "ae4ccd86b2fc6c5e4701be4c2b08b499966de1312bccbc58496fec69f1e1fcfc"
+
+[build]
+system = "autotools"

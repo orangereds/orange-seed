@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "readline"]
+
+[package]
+name = "libxml2"
+version = "2.15.4"
+description = "GNOME XML library"
+homepage = "https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home"
+
+[source]
+url = "https://download.gnome.org/sources/libxml2/2.15/libxml2-2.15.4.tar.xz"
+sha256 = "98087fd181d9070724f3fbc65c7377db03038eb92bd882374daff44940138821"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

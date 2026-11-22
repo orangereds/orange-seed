@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "git-mediate"
+version = "1.2.0"
+description = "Utility to help resolve merge conflicts"
+homepage = "https://github.com/Peaker/git-mediate"
+
+[source]
+url = "https://github.com/Peaker/git-mediate/archive/refs/tags/1.2.0.tar.gz"
+sha256 = "841f48c18f83f3be05a7227f429310d0ff3fc2275e285b46fc23c38bd7407ac7"
+
+[build]
+system = "autotools"

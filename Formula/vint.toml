@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "vint"
+version = "test_mode"
+description = "Vim script Language Lint"
+homepage = "https://github.com/Vimjas/vint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9c/c7/d5fbe5f778edee83cba3aea8cc3308db327e4c161e0656e861b9cc2cb859/vim-vint-0.3.21.tar.gz"
+sha256 = "5dc59b2e5c2a746c88f5f51f3fafea3d639c6b0fdbb116bb74af27bf1c820d97"
+
+[build]
+system = "autotools"

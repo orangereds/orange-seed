@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype", "glib", "jpeg-turbo", "libpng", "libtiff", "md4c", "pcre2", "sqlite", "webp", "zstd", "gettext"]
+
+[package]
+name = "qt@5"
+version = "0"
+description = "Cross-platform application and UI framework"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/archive/qt/5.15/5.15.19/single/qt-everywhere-opensource-src-5.15.19.tar.xz"
+sha256 = "173c2326dae138bbb0d98921e9d911e55c00163d93a6db29f294b5e19ff306ae"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

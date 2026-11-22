@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "coacd"
+version = "1.0.14"
+description = "Approximate convex decomposition for 3D meshes with collision-aware concavity"
+homepage = "https://github.com/SarahWeiii/CoACD"
+
+[source]
+url = "https://github.com/SarahWeiii/CoACD/archive/refs/tags/1.0.14.tar.gz"
+sha256 = "7a5d898c55a48668b19592a3bb8c5e3eb103836cda6883ca8955dfdce056d322"
+
+[build]
+system = "cmake"

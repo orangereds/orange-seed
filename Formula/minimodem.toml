@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "fftw", "libsndfile", "pulseaudio"]
+
+[package]
+name = "minimodem"
+version = "0.24.orig"
+description = "General-purpose software audio FSK modem"
+homepage = "http://www.whence.com/minimodem/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/minimodem/minimodem_0.24.orig.tar.gz"
+sha256 = "f8cca4db8e3f284d67f843054d6bb4d88a3db5e77b26192410e41e9a06f4378e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tmux"]
+
+[package]
+name = "tmux-xpanes"
+version = "4.2.0"
+description = "Ultimate terminal divider powered by tmux"
+homepage = "https://github.com/greymd/tmux-xpanes"
+
+[source]
+url = "https://github.com/greymd/tmux-xpanes/archive/refs/tags/v4.2.0.tar.gz"
+sha256 = "d5253a13ffc7a63134c62847d23951972b75bd01b333f6c02449b1cd1e502030"
+
+[build]
+system = "autotools"

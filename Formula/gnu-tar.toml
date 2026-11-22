@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext"]
+
+[package]
+name = "gnu-tar"
+version = "0_1"
+description = "GNU version of the tar archiving utility"
+homepage = "https://www.gnu.org/software/tar/"
+
+[source]
+url = "https://ftpmirror.gnu.org/tar/tar-1.35.tar.gz"
+sha256 = "14d55e32063ea9526e057fbf35fcabd53378e769787eff7919c3755b02d2b57e"
+
+[build]
+system = "autotools"

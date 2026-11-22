@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "intltool", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gtk+3", "hicolor-icon-theme", "libofx", "libsoup", "pango", "at-spi2-core", "harfbuzz"]
+
+[package]
+name = "homebank"
+version = "5.10.4"
+description = "Manage your personal accounts at home"
+homepage = "https://www.gethomebank.org/en/index.php"
+
+[source]
+url = "https://www.gethomebank.org/public/sources/homebank-5.10.4.tar.gz"
+sha256 = "f8072131328e7c1d6ca336f809e265e483c6d6d21f3654bc520700d27deae2d8"
+
+[build]
+system = "autotools"

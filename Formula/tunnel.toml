@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tunnel"
+version = "0.5.15"
+description = "Expose local servers to the internet securely"
+homepage = "https://github.com/labstack/tunnel-client"
+
+[source]
+url = "https://github.com/labstack/tunnel-client/archive/refs/tags/v0.5.15.tar.gz"
+sha256 = "7a57451416b76dbf220e69c7dd3e4c33dc84758a41cdb9337a464338565e3e6e"
+
+[build]
+system = "autotools"

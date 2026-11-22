@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gettext"]
+
+[package]
+name = "cracklib"
+version = "2.10.4"
+description = "LibCrack password checking library"
+homepage = "https://github.com/cracklib/cracklib"
+
+[source]
+url = "https://github.com/cracklib/cracklib/releases/download/v2.10.4/cracklib-2.10.4.tar.bz2"
+sha256 = "4f2d151a2930ab2644def5f9e0e4dad7446ccbd3f2dd41960e91398d93c3129e"
+
+[build]
+system = "autotools"

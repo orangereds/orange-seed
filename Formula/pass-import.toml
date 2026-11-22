@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "pass-import"
+version = "3.5_10"
+description = "Pass extension for importing data from most existing password managers"
+homepage = "https://www.passwordstore.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f1/69/1d763287f49eb2d43f14280a1af9f6c2aa54a306071a4723a9723a6fb613/pass-import-3.5.tar.gz"
+sha256 = "e3e5ec38f58511904a82214f8a80780729dfe84628d7c5d6b1cedee20ff3fb23"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tombi"
+version = "1.11.3"
+description = "TOML formatter, linter and language server"
+homepage = "https://github.com/tombi-toml/tombi"
+
+[source]
+url = "https://github.com/tombi-toml/tombi/archive/refs/tags/v1.11.3.tar.gz"
+sha256 = "eade922c86cad61a7c418f07a82791ce471a1be93e3421c105d2c9dfcbf1d08e"
+
+[build]
+system = "autotools"

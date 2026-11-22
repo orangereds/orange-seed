@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "wthrr"
+version = "1.2.1"
+description = "Weather Companion for the Terminal"
+homepage = "https://github.com/ttytm/wthrr-the-weathercrab"
+
+[source]
+url = "https://github.com/ttytm/wthrr-the-weathercrab/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "ff5b47f2046ebefa9ff28cb52ece49a06f7b89230578801c338c77802aa721e0"
+
+[build]
+system = "autotools"

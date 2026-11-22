@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cmake", "certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "conan"
+version = "2.34.0"
+description = "Distributed, open source, package manager for C/C++"
+homepage = "https://conan.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/63/d5/d7d5bd89e5870923be85940bf63885fc0b80d2c347ea236325003488a8e1/conan-2.34.0.tar.gz"
+sha256 = "9c65681300550638be20a25908673b8683533e8fc2dbbdac38ea0d9642a8124d"
+
+[build]
+system = "autotools"

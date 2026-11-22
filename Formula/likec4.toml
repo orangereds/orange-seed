@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graphviz", "node"]
+
+[package]
+name = "likec4"
+version = "1.61.0"
+description = "Architecture modeling tool with live diagrams from code"
+homepage = "https://likec4.dev"
+
+[source]
+url = "https://registry.npmjs.org/likec4/-/likec4-1.61.0.tgz"
+sha256 = "892ea1363fa213f7425215bff61e59dbc4f336d0f855eef26a184e2697ed5853"
+
+[build]
+system = "autotools"

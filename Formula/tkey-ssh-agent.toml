@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pinentry-mac"]
+
+[package]
+name = "tkey-ssh-agent"
+version = "1.1.1"
+description = "SSH agent for use with the TKey security stick"
+homepage = "https://tillitis.se/"
+
+[source]
+url = "https://github.com/tillitis/tkey-ssh-agent/archive/refs/tags/v1.1.1.tar.gz"
+sha256 = "cdd91008020d1c68778c8bc9869e77f230a314cb389621e3fa0aa1034283faea"
+
+[service]
+run = "macos: ["
+keep_alive = true
+log_path = "var/log/tkey-ssh-agent.log"
+error_log_path = "var/log/tkey-ssh-agent.log"
+
+[build]
+system = "autotools"

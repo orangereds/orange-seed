@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "tabiew"
+version = "0.16.0"
+description = "TUI to view and query tabular files (CSV,TSV, Parquet, etc.)"
+homepage = "https://github.com/shshemi/tabiew"
+
+[source]
+url = "https://github.com/shshemi/tabiew/archive/refs/tags/v0.16.0.tar.gz"
+sha256 = "e90301e79d0f0e6416e85204ed78d9e80752ca9fff76f9456f3edb9e8de6b8b4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "magic-wormhole.rs"
+version = "0.8.1"
+description = "Rust implementation of Magic Wormhole, with new features and enhancements"
+homepage = "https://github.com/magic-wormhole/magic-wormhole.rs"
+
+[source]
+url = "https://github.com/magic-wormhole/magic-wormhole.rs/archive/refs/tags/0.8.1.tar.gz"
+sha256 = "90e8b1d7270a4c251f78376e10948c994df1a559152eca7eedd4aecbf70b70d9"
+
+[build]
+system = "autotools"

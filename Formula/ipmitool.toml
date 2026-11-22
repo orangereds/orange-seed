@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openssl@4"]
+
+[package]
+name = "ipmitool"
+version = "0_3"
+description = "Utility for IPMI control with kernel driver or LAN interface"
+homepage = "https://codeberg.org/IPMITool/ipmitool"
+
+[source]
+url = "https://codeberg.org/IPMITool/ipmitool/archive/IPMITOOL_1_8_19.tar.gz"
+sha256 = "ce13c710fea3c728ba03a2a65f2dd45b7b13382b6f57e25594739f2e4f20d010"
+
+[build]
+system = "autotools"

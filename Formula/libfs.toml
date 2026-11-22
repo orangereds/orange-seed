@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xtrans", "xorgproto"]
+
+[package]
+name = "libfs"
+version = "0"
+description = "X.Org: X Font Service client library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libFS-1.0.10.tar.gz"
+sha256 = "38daddf6aaad25d93c6ff762c9629b8f10b19e8c4b70fcf117ec38c440ff9ae2"
+
+[build]
+system = "autotools"

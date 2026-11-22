@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "quien"
+version = "0.12.0"
+description = "Better WHOIS and domain intelligence toolkit"
+homepage = "https://benword.com/quien-a-better-whois-and-domain-intelligence-toolkit"
+
+[source]
+url = "https://github.com/retlehs/quien/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "49eef2d196a1b9c1e46c037c8fa300f6ced71c952828761fb4810ad8151e14c2"
+
+[build]
+system = "autotools"

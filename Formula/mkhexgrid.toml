@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "gd"]
+
+[package]
+name = "mkhexgrid"
+version = "0.1.1.src"
+description = "Fully-configurable hex grid generator"
+homepage = "https://www.nomic.net/~uckelman/mkhexgrid/"
+
+[source]
+url = "https://www.nomic.net/~uckelman/mkhexgrid/releases/mkhexgrid-0.1.1.src.tar.bz2"
+sha256 = "122609261cc91c2063ab5315d4316a27c9a0ab164f663a6cb781dd87310be3dc"
+
+[build]
+system = "autotools"

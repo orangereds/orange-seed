@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["avro-c", "librdkafka", "libserdes", "yajl"]
+
+[package]
+name = "kcat"
+version = "0_1"
+description = "Generic command-line non-JVM Apache Kafka producer and consumer"
+homepage = "https://github.com/edenhill/kcat"
+
+[source]
+url = "https://github.com/edenhill/kcat.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

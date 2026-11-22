@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libusb"]
+
+[package]
+name = "picotool"
+version = "2.3.1"
+description = "Tool for interacting with RP2040/RP2350 devices and binaries"
+homepage = "https://github.com/raspberrypi/picotool"
+
+[source]
+url = "https://github.com/raspberrypi/picotool/archive/refs/tags/2.3.1.tar.gz"
+sha256 = "07946d294ab5c474b610660c53c5d94216e4ab13555de075ed521f98afc4f44c"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@18", "postgresql@19", "libpq", "gettext"]
+
+[package]
+name = "pg_cron"
+version = "1.6.8_1"
+description = "Run periodic jobs in PostgreSQL"
+homepage = "https://github.com/citusdata/pg_cron"
+
+[source]
+url = "https://github.com/citusdata/pg_cron/archive/refs/tags/v1.6.8.tar.gz"
+sha256 = "c19ab9bb35406c60fb51ecda993737c083850abe424acb6c1030439d00a1f8e4"
+
+[build]
+system = "autotools"

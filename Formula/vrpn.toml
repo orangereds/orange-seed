@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hidapi", "jsoncpp", "libusb"]
+
+[package]
+name = "vrpn"
+version = "07.36_1"
+description = "Virtual reality peripheral network"
+homepage = "https://github.com/vrpn/vrpn/wiki"
+
+[source]
+url = "https://github.com/vrpn/vrpn/archive/refs/tags/v07.36.tar.gz"
+sha256 = "bed00ae060fc7c0cfdaa2fa01f6f2db4976d431971e8824b710eb63cfbba0df7"
+
+[build]
+system = "cmake"

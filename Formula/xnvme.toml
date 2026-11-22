@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "xnvme"
+version = "0"
+description = "Cross-platform libraries and tools for efficient I/O and low-level control"
+homepage = "https://xnvme.io/"
+
+[source]
+url = "https://github.com/xnvme/xnvme/releases/download/v0.7.5/xnvme-fat-0.7.5.tar.gz"
+sha256 = "67e1e55966f150c68cbe386112202cb3d1af8831b7202a251986b7e63cf34f3a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lnk"
+version = "0.9.1"
+description = "Git-native dotfiles management that doesn't suck"
+homepage = "https://github.com/yarlson/lnk"
+
+[source]
+url = "https://github.com/yarlson/lnk/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "2cbc8f994b7888d2d384a1ed34e1fd73477e1c73b9a05f638d2ad940c6c458ae"
+
+[build]
+system = "autotools"

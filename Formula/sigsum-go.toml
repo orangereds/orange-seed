@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sigsum-go"
+version = "1.0.0"
+description = "Key transparency toolkit"
+homepage = "https://sigsum.org"
+
+[source]
+url = "https://git.glasklar.is/sigsum/core/sigsum-go/-/archive/v1.0.0/sigsum-go-v1.0.0.tar.bz2"
+sha256 = "804854f2ca7579e1d7aba49d9579d24d72de9152cadd4fe1cb902aabfa08a888"
+
+[build]
+system = "autotools"

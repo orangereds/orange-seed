@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["netsurf-buildsystem", "pkgconf", "libdom", "libhubbub", "libparserutils", "libwapcaplet"]
+
+[package]
+name = "libsvgtiny"
+version = "0.1.8-src"
+description = "Implementation of SVG Tiny"
+homepage = "https://www.netsurf-browser.org/projects/libsvgtiny/"
+
+[source]
+url = "https://download.netsurf-browser.org/libs/releases/libsvgtiny-0.1.8-src.tar.gz"
+sha256 = "c357227f02e83fb2a76b12b901191a082229db1f007362e8f31c754510c2a01c"
+
+[build]
+system = "make"

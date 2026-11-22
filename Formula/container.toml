@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "container"
+version = "1.7.1_2"
+description = "Create and run Linux containers using lightweight virtual machines"
+homepage = "https://apple.github.io/container/documentation/"
+
+[source]
+url = "https://github.com/apple/container/archive/refs/tags/1.7.1.tar.gz"
+sha256 = "ef497b524624048ee45d57b0f7fdd675d6d420fcb30ab4a039779d752d9dea66"
+
+[service]
+run = "opt/container/bin/container system start --disable-kernel-install"
+working_dir = "var"
+log_path = "var/log/container.log"
+error_log_path = "var/log/container.log"
+
+[build]
+system = "autotools"

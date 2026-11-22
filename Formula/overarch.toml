@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["leiningen", "openjdk"]
+
+[package]
+name = "overarch"
+version = "0"
+description = "Data driven description of software architecture"
+homepage = "https://github.com/soulspace-org/overarch"
+
+[source]
+url = "https://github.com/soulspace-org/overarch/releases/download/v0.44.0/overarch.jar"
+sha256 = "d229d1aeed53004c25229d886ae30c94c476904fa88500ea2e516b5268d3e877"
+
+[build]
+system = "autotools"

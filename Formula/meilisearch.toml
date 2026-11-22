@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "meilisearch"
+version = "1.57.0"
+description = "Ultra relevant, instant and typo-tolerant full-text search API"
+homepage = "https://docs.meilisearch.com/"
+
+[source]
+url = "https://github.com/meilisearch/meilisearch/archive/refs/tags/v1.57.0.tar.gz"
+sha256 = "efe82a64d647e4959729306c3cee50c0b08f3bcbd72785c67cd55ea189fbd0ad"
+
+[service]
+run = "opt/meilisearch/bin/meilisearch --db-path #{var}/meilisearch/data.ms"
+working_dir = "var"
+log_path = "var/log/meilisearch.log"
+error_log_path = "var/log/meilisearch.log"
+
+[build]
+system = "autotools"

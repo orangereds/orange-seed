@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jansson", "openssl@4"]
+
+[package]
+name = "ircd-hybrid"
+version = "8.2.47"
+description = "High-performance secure IRC server"
+homepage = "https://www.ircd-hybrid.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ircd-hybrid/ircd-hybrid/ircd-hybrid-8.2.47/ircd-hybrid-8.2.47.tgz"
+sha256 = "d5f253f6dd1a93e7183323f410b7e2269ba4392d3d00a0e7dc6248f6f9864ffe"
+
+[service]
+run = "opt/ircd-hybrid/bin/ircd"
+working_dir = "HOMEBREW_PREFIX"
+error_log_path = "var/ircd.log"
+
+[build]
+system = "autotools"

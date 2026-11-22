@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "berkeley-db"
+version = "0_4"
+description = "High performance key/value database"
+homepage = "https://www.oracle.com/database/technologies/related/berkeleydb.html"
+
+[source]
+url = "https://download.oracle.com/berkeley-db/db-18.1.40.tar.gz"
+sha256 = "0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

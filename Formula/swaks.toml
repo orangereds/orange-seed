@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "swaks"
+version = "20240103.0"
+description = "SMTP command-line test tool"
+homepage = "https://www.jetmore.org/john/code/swaks/"
+
+[source]
+url = "https://www.jetmore.org/john/code/swaks/files/swaks-20240103.0.tar.gz"
+sha256 = "0e531b4d164058802e7266b14f4dc1897099d096f930820de2f9b5eb08dcdbe8"
+
+[build]
+system = "autotools"

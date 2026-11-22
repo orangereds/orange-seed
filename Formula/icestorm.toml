@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libftdi", "libusb", "python@3.15"]
+
+[package]
+name = "icestorm"
+version = "1.1_1"
+description = "Tools for analyzing and creating Lattice iCE40 FPGA bitstream files"
+homepage = "https://prjicestorm.readthedocs.io"
+
+[source]
+url = "https://github.com/YosysHQ/icestorm/archive/refs/tags/v1.1.tar.gz"
+sha256 = "928dd541d15540a796a3d320122794d8d76acff90783de8c5747f613e474652f"
+
+[build]
+system = "make"

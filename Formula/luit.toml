@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "luit"
+version = "20260907"
+description = "Filter run between arbitrary application and UTF-8 terminal emulator"
+homepage = "https://invisible-island.net/luit/"
+
+[source]
+url = "https://invisible-mirror.net/archives/luit/luit-20260907.tgz"
+sha256 = "97bd13da3e3aa59785d64504d37389612a327953bb7581508c5fea5182f9f561"
+
+[build]
+system = "autotools"

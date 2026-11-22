@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["texinfo", "bdw-gc", "gmp", "llvm"]
+
+[package]
+name = "ecl"
+version = "26.5.5"
+description = "Embeddable Common Lisp"
+homepage = "https://ecl.common-lisp.dev"
+
+[source]
+url = "https://ecl.common-lisp.dev/static/files/release/ecl-26.5.5.tgz"
+sha256 = "a01a5bcda8c5b73e59dda3494fd13e5fec5db6aa1dad782c3cc3bb57f1633435"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust"]
+
+[package]
+name = "probe-rs-tools"
+version = "0.32.0"
+description = "Collection of on chip debugging tools to communicate with microchips"
+homepage = "https://probe.rs"
+
+[source]
+url = "https://github.com/probe-rs/probe-rs/archive/refs/tags/v0.32.0.tar.gz"
+sha256 = "9c4ba2046d4709f6a07e47933b1aa7edaf72a4d0a9f482b81d81798879070229"
+
+[build]
+system = "autotools"

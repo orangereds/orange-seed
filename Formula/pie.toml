@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "re2c", "php@8.5"]
+
+[package]
+name = "pie"
+version = "0_1"
+description = "PHP Installer for Extensions"
+homepage = "https://github.com/php/pie"
+
+[source]
+url = "https://github.com/php/pie/releases/download/1.5.5/pie.phar"
+sha256 = "2ca0dff6868f1b53c095625674deef38ac698588e0a25e4321cd834a5b7553bc"
+
+[build]
+system = "autotools"

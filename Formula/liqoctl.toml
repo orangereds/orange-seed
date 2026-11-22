@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "liqoctl"
+version = "1.3.0"
+description = "Is a CLI tool to install and manage Liqo-enabled clusters"
+homepage = "https://liqo.io"
+
+[source]
+url = "https://github.com/liqotech/liqo/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "a019185fb160aa93210b1701dece8571e029a089e213f8c1efeec4ebce18bb48"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libusb"]
+
+[package]
+name = "ems-flasher"
+version = "0.03"
+description = "Software for flashing the EMS Gameboy USB cart"
+homepage = "https://lacklustre.net/projects/ems-flasher/"
+
+[source]
+url = "https://lacklustre.net/projects/ems-flasher/ems-flasher-0.03.tgz"
+sha256 = "d77723a3956e00a9b8af9a3545ed2c55cd2653d65137e91b38523f7805316786"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fetch"
+version = "0.4.9"
+description = "Download assets from a commit, branch, or tag of GitHub repositories"
+homepage = "https://www.gruntwork.io/"
+
+[source]
+url = "https://github.com/gruntwork-io/fetch/archive/refs/tags/v0.4.9.tar.gz"
+sha256 = "4d0a62de2afe4519324815570fbf0eea75edb7b29734844f403d91f13b32e034"
+
+[build]
+system = "autotools"

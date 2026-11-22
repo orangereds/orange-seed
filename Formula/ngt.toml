@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libomp"]
+
+[package]
+name = "ngt"
+version = "2.8.2"
+description = "Neighborhood graph and tree for indexing high-dimensional data"
+homepage = "https://github.com/NGT-labs/NGT"
+
+[source]
+url = "https://github.com/NGT-labs/NGT/archive/refs/tags/v2.8.2.tar.gz"
+sha256 = "21a76b3fa337a7da9cfcdb8917f983297e8f768de7757c72c3d65a2377cfa123"
+
+[build]
+system = "cmake"

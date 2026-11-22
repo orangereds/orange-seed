@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aqua"
+version = "2.66.1"
+description = "Declarative CLI Version manager"
+homepage = "https://aquaproj.github.io/"
+
+[source]
+url = "https://github.com/aquaproj/aqua/archive/refs/tags/v2.66.1.tar.gz"
+sha256 = "a906dcf62c7054e4c8694178a0ef890c95ab30a54e34f4476a3e74cd283d8cb9"
+
+[build]
+system = "autotools"

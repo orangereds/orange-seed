@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "yaz"]
+
+[package]
+name = "yazpp"
+version = "1.9.2"
+description = "C++ API for the Yaz toolkit"
+homepage = "https://www.indexdata.com/resources/software/yazpp/"
+
+[source]
+url = "https://ftp.indexdata.com/pub/yazpp/yazpp-1.9.2.tar.gz"
+sha256 = "92516d1d889dd6ff617d92b3af0ba28861dbd1fc436cfcadd0fde65ca9f34fe9"
+
+[build]
+system = "autotools"

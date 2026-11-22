@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sickle"
+version = "1.33"
+description = "Windowed adaptive trimming for FASTQ files using quality"
+homepage = "https://github.com/najoshi/sickle"
+
+[source]
+url = "https://github.com/najoshi/sickle/archive/refs/tags/v1.33.tar.gz"
+sha256 = "eab271d25dc799e2ce67c25626128f8f8ed65e3cd68e799479bba20964624734"
+
+[build]
+system = "autotools"

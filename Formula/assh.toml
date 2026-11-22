@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "assh"
+version = "2.17.3"
+description = "Advanced SSH config - Regex, aliases, gateways, includes and dynamic hosts"
+homepage = "https://v1.manfred.life/assh/"
+
+[source]
+url = "https://github.com/moul/assh/archive/refs/tags/v2.17.3.tar.gz"
+sha256 = "531cb10be20c86f464637428cc216525bb33e4651dc8aa801c09034521497172"
+
+[build]
+system = "autotools"

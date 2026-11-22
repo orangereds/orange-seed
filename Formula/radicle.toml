@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "rust"]
+
+[package]
+name = "radicle"
+version = "0"
+description = "Sovereign code forge built on Git"
+homepage = "https://radicle.xyz"
+
+[source]
+url = "https://files.radicle.xyz/releases/latest/heartwood-1.10.3.tar.gz"
+sha256 = "011bd76d05328438f6c53a06f8952f1ef03fb4dc9ad47adb00190361cd1fd364"
+
+[build]
+system = "autotools"

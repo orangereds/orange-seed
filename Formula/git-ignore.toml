@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "git-ignore"
+version = "1.4.0"
+description = "List, fetch and generate .gitignore templates"
+homepage = "https://github.com/sondr3/git-ignore"
+
+[source]
+url = "https://github.com/sondr3/git-ignore/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "58b2ae7c5fdc057d6935ee411c4a8225151b7ea2368c863d9b21bf4ccafb11a5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["librdkafka", "wandio"]
+
+[package]
+name = "bgpstream"
+version = "0"
+description = "For live and historical BGP data analysis"
+homepage = "https://bgpstream.caida.org/"
+
+[source]
+url = "https://github.com/CAIDA/libbgpstream/releases/download/v2.3.0/libbgpstream-2.3.0.tar.gz"
+sha256 = "c6be2c761ed216edc23a85409a5de3639172bc42db115c8574c2108ace7481a4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust", "opus"]
+
+[package]
+name = "termusic"
+version = "0.13.2"
+description = "Music Player TUI written in Rust"
+homepage = "https://github.com/tramhao/termusic"
+
+[source]
+url = "https://github.com/tramhao/termusic/archive/refs/tags/v0.13.2.tar.gz"
+sha256 = "661e1c39135f6eeb01cb6df199b8dcdd902ac456e96bd204ea4fda7ec6ae41ef"
+
+[build]
+system = "autotools"

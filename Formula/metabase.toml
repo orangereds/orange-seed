@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "metabase"
+version = "0"
+description = "Business intelligence report server"
+homepage = "https://www.metabase.com/"
+
+[source]
+url = "https://downloads.metabase.com/v0.65.6/metabase.jar"
+sha256 = "3f2ae1dcf20bf6a0ee8947e243a8fb45de7a2b9477d210ede40e97aa4bdcb6ab"
+
+[service]
+run = "opt/metabase/bin/metabase"
+keep_alive = true
+working_dir = "var/metabase"
+log_path = "var/metabase/server.log"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

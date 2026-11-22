@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-docset"
+version = "0.3.1"
+description = "Cargo subcommand to generate a Dash/Zeal docset for your Rust packages"
+homepage = "https://github.com/Robzz/cargo-docset"
+
+[source]
+url = "https://github.com/Robzz/cargo-docset/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "98e7aec301ad5840d442f6027bba02b41de3f03b1f3c85b23adcc6dd7ca8c415"
+
+[build]
+system = "autotools"

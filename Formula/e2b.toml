@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "e2b"
+version = "0"
+description = "CLI to manage E2B sandboxes and templates"
+homepage = "https://e2b.dev"
+
+[source]
+url = "https://registry.npmjs.org/@e2b/cli/-/cli-2.24.0.tgz"
+sha256 = "e86f704e77a3ea586f453b97fbe99c979dc5385d7097b1a1c0dbd0ae31dc7939"
+
+[build]
+system = "autotools"

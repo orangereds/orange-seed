@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "juju"
+version = "4.0.16"
+description = "DevOps management tool"
+homepage = "https://canonical.com/juju"
+
+[source]
+url = "https://github.com/juju/juju/archive/refs/tags/v4.0.16.tar.gz"
+sha256 = "d01fdd2778628b99d6c920d523efdfb6271a98e9ff32311fd953bcd59b901691"
+
+[build]
+system = "autotools"

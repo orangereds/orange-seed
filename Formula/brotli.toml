@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "brotli"
+version = "1.2.1"
+description = "Generic-purpose lossless compression algorithm by Google"
+homepage = "https://github.com/google/brotli"
+
+[source]
+url = "https://github.com/google/brotli/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "98d35d11a78dc453aebb7d10c3748f3f73ff78c8267c0dc697b8631f67bf7e8f"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libx11", "lv2"]
+
+[package]
+name = "suil"
+version = "0.10.26"
+description = "Lightweight C library for loading and wrapping LV2 plugin UIs"
+homepage = "https://drobilla.net/software/suil.html"
+
+[source]
+url = "https://download.drobilla.net/suil-0.10.26.tar.xz"
+sha256 = "62808916602c47d201a1ec2d246323a8048243f2bf972f859f0db1db4662ee43"
+
+[build]
+system = "autotools"

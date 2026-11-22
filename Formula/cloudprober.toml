@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloudprober"
+version = "0.14.7"
+description = "Active monitoring software to detect failures before your customers do"
+homepage = "https://cloudprober.org"
+
+[source]
+url = "https://github.com/cloudprober/cloudprober/archive/refs/tags/v0.14.7.tar.gz"
+sha256 = "ea4d84380546b761270d88c46c109002b96e93c609048f599f21c9f77dc77fad"
+
+[build]
+system = "autotools"

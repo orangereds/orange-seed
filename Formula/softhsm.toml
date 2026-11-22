@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "softhsm"
+version = "2.7.0"
+description = "Cryptographic store accessible through a PKCS#11 interface"
+homepage = "https://www.softhsm.org/"
+
+[source]
+url = "https://github.com/softhsm/SoftHSMv2/archive/refs/tags/2.7.0.tar.gz"
+sha256 = "be14a5820ec457eac5154462ffae51ba5d8a643f6760514d4b4b83a77be91573"
+
+[build]
+system = "autotools"

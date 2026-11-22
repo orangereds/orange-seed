@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hishtory"
+version = "0.335"
+description = "Your shell history: synced, queryable, and in context"
+homepage = "https://hishtory.dev"
+
+[source]
+url = "https://github.com/ddworken/hishtory/archive/refs/tags/v0.335.tar.gz"
+sha256 = "f312acc99195ca035db7b6612408169ce3a14c170f85dba238f9a29ca7825a3d"
+
+[build]
+system = "autotools"

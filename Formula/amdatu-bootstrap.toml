@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@8"]
+
+[package]
+name = "amdatu-bootstrap"
+version = "0_2"
+description = "Bootstrapping OSGi development"
+homepage = "https://bitbucket.org/amdatuadm/amdatu-bootstrap/"
+
+[source]
+url = "https://bitbucket.org/amdatuadm/amdatu-bootstrap/downloads/bootstrap-bin-r9.zip"
+sha256 = "937ef932a740665439ea0118ed417ff7bdc9680b816b8b3c81ecfd6d0fc4773b"
+
+[build]
+system = "autotools"

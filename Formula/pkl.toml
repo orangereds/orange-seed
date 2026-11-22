@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@21"]
+
+[package]
+name = "pkl"
+version = "0.33.1"
+description = "CLI for the Pkl programming language"
+homepage = "https://pkl-lang.org"
+
+[source]
+url = "https://github.com/apple/pkl/archive/refs/tags/0.33.1.tar.gz"
+sha256 = "1e244cff4c27cacf800a7db5efeb3c2709364556e67e37bb8369705db49a7a1a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cmctl"
+version = "2.6.2"
+description = "Command-line tool to manage cert-manager"
+homepage = "https://cert-manager.io"
+
+[source]
+url = "https://github.com/cert-manager/cmctl/archive/refs/tags/v2.6.2.tar.gz"
+sha256 = "5dd1bc9a68e0d3a76776746b4c20b60e44516176b97921dd5d8e71c304726182"
+
+[build]
+system = "autotools"

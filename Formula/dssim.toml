@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "nasm"]
+
+[package]
+name = "dssim"
+version = "3.4.0"
+description = "RGBA Structural Similarity Rust implementation"
+homepage = "https://kornel.ski/dssim"
+
+[source]
+url = "https://github.com/kornelski/dssim/archive/refs/tags/3.4.0.tar.gz"
+sha256 = "5267e79f4604558d9f24ce02aa20597396a9b052d0ad1b2f8000d4d6bd162126"
+
+[build]
+system = "autotools"

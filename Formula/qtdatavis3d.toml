@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "qtbase", "qtdeclarative"]
+
+[package]
+name = "qtdatavis3d"
+version = "0_1"
+description = "Provides functionality for 3D visualization"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtdatavis3d-everywhere-src-6.12.0.tar.xz"
+sha256 = "5f79b948eb1e81ff7f69e335b075c1b48953d88f5d97970b537e348dbbaa98dc"
+
+[build]
+system = "cmake"

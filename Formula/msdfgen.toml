@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "freetype", "libpng", "tinyxml2"]
+
+[package]
+name = "msdfgen"
+version = "1.13.1"
+description = "Multi-channel signed distance field generator"
+homepage = "https://github.com/Chlumsky/msdfgen"
+
+[source]
+url = "https://github.com/Chlumsky/msdfgen/archive/refs/tags/v1.13.1.tar.gz"
+sha256 = "ad381b09ef61af235690ea96eefafd01fd35f5163bcb6ad73db7904997675b71"
+
+[build]
+system = "cmake"

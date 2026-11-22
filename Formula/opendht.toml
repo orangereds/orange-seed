@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "argon2", "asio", "fmt", "gnutls", "msgpack-cxx", "nettle", "readline"]
+
+[package]
+name = "opendht"
+version = "4.4.2"
+description = "C++17 Distributed Hash Table implementation"
+homepage = "https://github.com/savoirfairelinux/opendht"
+
+[source]
+url = "https://github.com/savoirfairelinux/opendht/archive/refs/tags/v4.4.2.tar.gz"
+sha256 = "0d88f16c3173b799815a39743df3fb1e1f4da76604b9f6fb391d6af41017bd02"
+
+[build]
+system = "cmake"

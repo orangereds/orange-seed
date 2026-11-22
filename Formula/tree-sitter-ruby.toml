@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tree-sitter"]
+
+[package]
+name = "tree-sitter-ruby"
+version = "0"
+description = "Ruby grammar for tree-sitter"
+homepage = "https://github.com/tree-sitter/tree-sitter-ruby"
+
+[source]
+url = "https://github.com/tree-sitter/tree-sitter-ruby/releases/download/v0.23.1/tree-sitter-ruby.tar.xz"
+sha256 = "bf2ac68d0311f5e3b0859ef0748aafce5cfeb20b60c4b70b24707128abc12e00"
+
+[build]
+system = "make"

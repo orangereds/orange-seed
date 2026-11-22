@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lld", "llvm", "mtools", "nasm"]
+
+[package]
+name = "limine"
+version = "12.11.1"
+description = "Modern, secure, portable, multiprotocol bootloader and boot manager"
+homepage = "https://github.com/Limine-Bootloader/Limine"
+
+[source]
+url = "https://github.com/Limine-Bootloader/Limine/releases/download/v12.11.1/limine-12.11.1.tar.gz"
+sha256 = "95b4b52fbafeebad14d5faf9e73bf974da58f68d41d1713bcc452712baddebbd"
+
+[build]
+system = "autotools"

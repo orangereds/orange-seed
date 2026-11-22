@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "glbinding@2"
+version = "2.1.4"
+description = "C++ binding for the OpenGL API"
+homepage = "https://glbinding.org/"
+
+[source]
+url = "https://github.com/cginternals/glbinding/archive/refs/tags/v2.1.4.tar.gz"
+sha256 = "cb5971b086c0d217b2304d31368803fd2b8c12ee0d41c280d40d7c23588f8be2"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

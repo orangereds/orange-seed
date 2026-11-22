@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xtrans", "libice"]
+
+[package]
+name = "libsm"
+version = "0"
+description = "X.Org: X Session Management Library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libSM-1.2.6.tar.xz"
+sha256 = "be7c0abdb15cbfd29ac62573c1c82e877f9d4047ad15321e7ea97d1e43d835be"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "libetpan"
+version = "1.10.1_1"
+description = "Portable mail library handling several protocols"
+homepage = "https://www.etpan.org/libetpan.html"
+
+[source]
+url = "https://github.com/dinhvh/libetpan/archive/refs/tags/1.10.1.tar.gz"
+sha256 = "87bacdc62661a2a7aa5fe9f1f28d2f7c7a53256633ac5129903916c59f80c4c2"
+
+[build]
+system = "autotools"

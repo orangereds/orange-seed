@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "fakecloud"
+version = "0.52.0"
+description = "Free, open-source local AWS cloud emulator for integration testing"
+homepage = "https://fakecloud.dev/"
+
+[source]
+url = "https://github.com/faiscadev/fakecloud/archive/refs/tags/v0.52.0.tar.gz"
+sha256 = "6c1f227ed9cb60e5aad9bce3b383c3e8b69bd76e35ea51992cf4cd25a5f81d01"
+
+[service]
+run = "opt/fakecloud/bin/fakecloud"
+keep_alive = true
+
+[build]
+system = "autotools"

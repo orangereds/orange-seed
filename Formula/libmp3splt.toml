@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "libid3tag", "libogg", "libtool", "libvorbis", "mad", "gettext"]
+
+[package]
+name = "libmp3splt"
+version = "0.9.2_7"
+description = "Utility library to split mp3, ogg, and FLAC files"
+homepage = "https://mp3splt.sourceforge.net/mp3splt_page/home.php"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mp3splt/libmp3splt/0.9.2/libmp3splt-0.9.2.tar.gz"
+sha256 = "30eed64fce58cb379b7cc6a0d8e545579cb99d0f0f31eb00b9acc8aaa1b035dc"
+
+[build]
+system = "autotools"

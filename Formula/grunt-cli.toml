@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "grunt-cli"
+version = "1.5.0"
+description = "JavaScript Task Runner"
+homepage = "https://gruntjs.com/"
+
+[source]
+url = "https://registry.npmjs.org/grunt-cli/-/grunt-cli-1.5.0.tgz"
+sha256 = "4f7f52cf9f3bc62ebc7ae60d2db5c7f896cb0915ad1202dab9285d6117d7536d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "flatbuffers", "pybind11", "python-setuptools", "python@3.15", "abseil", "protobuf"]
+
+[package]
+name = "sentencepiece"
+version = "0.2.3"
+description = "Unsupervised text tokenizer and detokenizer"
+homepage = "https://github.com/google/sentencepiece"
+
+[source]
+url = "https://github.com/google/sentencepiece/archive/refs/tags/v0.2.3.tar.gz"
+sha256 = "aeabf9b2ae1a77cda6e721ab1fb9f6e44b8ba4ddb8d7343dc5b02aec70fab324"
+
+[build]
+system = "cmake"

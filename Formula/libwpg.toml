@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf", "librevenge", "libwpd"]
+
+[package]
+name = "libwpg"
+version = "0.3.4"
+description = "Library for reading and parsing Word Perfect Graphics format"
+homepage = "https://libwpg.sourceforge.net/"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libwpg-0.3.4.tar.xz"
+sha256 = "b55fda9440d1e070630eb2487d8b8697cf412c214a27caee9df69cec7c004de3"
+
+[build]
+system = "autotools"

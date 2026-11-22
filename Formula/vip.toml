@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "vip"
+version = "19971113"
+description = "Program that provides for interactive editing in a pipeline"
+homepage = "https://users.cs.duke.edu/~des/vip.html"
+
+[source]
+url = "https://users.cs.duke.edu/~des/scripts/vip"
+sha256 = "171278e8bd43abdbd3a4c35addda27a0d3c74fc784dbe60e4783d317ac249d11"
+
+[build]
+system = "autotools"

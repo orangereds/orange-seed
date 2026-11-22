@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "serie"
+version = "0.11.0"
+description = "Rich git commit graph in your terminal"
+homepage = "https://lusingander.github.io/serie/"
+
+[source]
+url = "https://github.com/lusingander/serie/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "ca6c8ae0799917ef19febc23f08f2495e05a69748536e51bfce67b0236644af9"
+
+[build]
+system = "autotools"

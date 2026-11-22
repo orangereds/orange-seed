@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "purescript"]
+
+[package]
+name = "spago"
+version = "1.0.5"
+description = "PureScript package manager and build tool"
+homepage = "https://github.com/purescript/spago"
+
+[source]
+url = "https://registry.npmjs.org/spago/-/spago-1.0.5.tgz"
+sha256 = "8d91fafa73a6ed23b7ab0176f0b5a20416b1ce083848d65b85d2b2650922af36"
+
+[build]
+system = "autotools"

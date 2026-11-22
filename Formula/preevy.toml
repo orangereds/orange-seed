@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "preevy"
+version = "0.0.67"
+description = "Quickly deploy preview environments to the cloud"
+homepage = "https://preevy.dev/"
+
+[source]
+url = "https://registry.npmjs.org/preevy/-/preevy-0.0.67.tgz"
+sha256 = "7f07237d5d5112250b7ee8a3f2ee1af3df1ef2f6cfa984040aef2e2a884b30e7"
+
+[build]
+system = "autotools"

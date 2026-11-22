@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "network-doctor"
+version = "2.2.1"
+description = "Network troubleshooting TUI"
+homepage = "https://github.com/heymaikol/network-doctor/"
+
+[source]
+url = "https://github.com/heymaikol/network-doctor/archive/refs/tags/v2.2.1.tar.gz"
+sha256 = "3739b4e1a6686c381cb06af46988b6b9c9a3995822b1dd42363a0e66cffe3e8d"
+
+[build]
+system = "autotools"

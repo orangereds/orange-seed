@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python-setuptools", "adwaita-icon-theme", "graphviz", "gtk+3", "gtksourceview4", "pygobject3", "python@3.15"]
+
+[package]
+name = "zim"
+version = "0.77.2"
+description = "Graphical text editor used to maintain a collection of wiki pages"
+homepage = "https://zim-wiki.org/"
+
+[source]
+url = "https://github.com/zim-desktop-wiki/zim-desktop-wiki/archive/refs/tags/0.77.2.tar.gz"
+sha256 = "59586bb272b49e4c876870301a7cc71c92f15de5ad5ea6612fba1f8613061d50"
+
+[build]
+system = "autotools"

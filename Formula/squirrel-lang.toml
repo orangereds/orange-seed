@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "squirrel-lang"
+version = "0"
+description = "High level, imperative, object-oriented programming language"
+homepage = "http://www.squirrel-lang.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/squirrel/squirrel3/squirrel%203.2%20stable/squirrel_3_2_stable.tar.gz"
+sha256 = "211f1452f00b24b94f60ba44b50abe327fd2735600a7bacabc5b774b327c81db"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "libuv", "lpeg", "luajit", "luv", "tree-sitter", "unibilium", "utf8proc"]
+
+[package]
+name = "neovim"
+version = "0.12.6"
+description = "Ambitious Vim-fork focused on extensibility and agility"
+homepage = "https://neovim.io/"
+
+[source]
+url = "https://github.com/neovim/neovim/archive/refs/tags/v0.12.6.tar.gz"
+sha256 = "8629fdc5eb951daf89a76f68cad12f2f1e03fab0d539150ba3fe6d177d254b7f"
+
+[build]
+system = "cmake"

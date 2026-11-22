@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "caddy"
+version = "2.11.9"
+description = "Powerful, enterprise-ready, open source web server with automatic HTTPS"
+homepage = "https://caddyserver.com/"
+
+[source]
+url = "https://github.com/caddyserver/caddy/archive/refs/tags/v2.11.9.tar.gz"
+sha256 = "fefbe1f72b7a7e244f348c20eba377bb1e6964f51594229d2f38c49eaa2aa9a4"
+
+[service]
+run = "opt/caddy/bin/caddy run --config etc/Caddyfile"
+keep_alive = true
+log_path = "var/log/caddy.log"
+error_log_path = "var/log/caddy.log"
+
+[build]
+system = "autotools"

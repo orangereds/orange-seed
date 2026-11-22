@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ccheck"
+version = "1.0.1"
+description = "Check X509 certificate expiration from the command-line, with TAP output"
+homepage = "https://github.com/nerdlem/ccheck"
+
+[source]
+url = "https://github.com/nerdlem/ccheck/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "2325ea8476cce5111b8f848ca696409092b1d1d9c41bd46de7e3145374ed32cf"
+
+[build]
+system = "autotools"

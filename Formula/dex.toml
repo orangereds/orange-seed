@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dex"
+version = "1.0"
+description = "Dextrous text editor"
+homepage = "https://github.com/tihirvon/dex"
+
+[source]
+url = "https://github.com/tihirvon/dex/archive/refs/tags/v1.0.tar.gz"
+sha256 = "4468b53debe8da6391186dccb78288a8a77798cb4c0a00fab9a7cdc711cd2123"
+
+[build]
+system = "autotools"

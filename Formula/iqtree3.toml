@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "eigen"]
+
+[package]
+name = "iqtree3"
+version = "c61110f3a4fa05325b45c97b2134792ff9d55d4c"
+description = "Phylogenetics by maximum likelihood"
+homepage = "http://www.iqtree.org"
+
+[source]
+url = "https://github.com/iqtree/iqtree3/archive/refs/tags/v3.1.4.tar.gz"
+sha256 = "8bcba50d25263fb7e5d52d308f7d2a35545dd53f96e04cf44e6a0515be0f823b"
+
+[build]
+system = "cmake"

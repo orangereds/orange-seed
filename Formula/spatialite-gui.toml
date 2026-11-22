@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freexl", "geos", "libpq", "librasterlite2", "librttopo", "libspatialite", "libtiff", "libxlsxwriter", "libxml2", "lz4", "minizip", "openjpeg", "proj", "sqlite", "virtualpg", "webp", "wxwidgets", "xz", "zstd"]
+
+[package]
+name = "spatialite-gui"
+version = "0_16"
+description = "GUI tool supporting SpatiaLite"
+homepage = "https://www.gaia-gis.it/fossil/spatialite_gui/index"
+
+[source]
+url = "https://www.gaia-gis.it/gaia-sins/spatialite-gui-sources/spatialite_gui-2.1.0-beta1.tar.gz"
+sha256 = "ba48d96df18cebc3ff23f69797207ae1582cce62f4596b69bae300ca3c23db33"
+
+[build]
+system = "autotools"

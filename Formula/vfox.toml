@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vfox"
+version = "1.1.0"
+description = "Version manager with support for Java, Node.js, Flutter, .NET & more"
+homepage = "https://vfox.dev/"
+
+[source]
+url = "https://github.com/version-fox/vfox/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "0ebd9ebd3e2c49f286cde749664b67665849360e193b2f78633223ffe57e5f54"
+
+[build]
+system = "autotools"

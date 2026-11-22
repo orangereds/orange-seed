@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "json5"
+version = "2.2.3"
+description = "JSON enhanced with usability features"
+homepage = "https://json5.org/"
+
+[source]
+url = "https://github.com/json5/json5/archive/refs/tags/v2.2.3.tar.gz"
+sha256 = "a98d1dd7c6b101fd99ae692102dc05a65f072b3e6f8077d3658819440bf76637"
+
+[build]
+system = "autotools"

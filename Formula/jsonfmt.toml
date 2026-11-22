@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jsonfmt"
+version = "0.5.2"
+description = "Like gofmt, but for JSON files"
+homepage = "https://github.com/caarlos0/jsonfmt"
+
+[source]
+url = "https://github.com/caarlos0/jsonfmt/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "07494aaec99d4c8cd7f0cea1bacd32e1d20321e541848aa6aafa64d64d89c9ab"
+
+[build]
+system = "autotools"

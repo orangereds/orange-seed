@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "temporal"
+version = "1.10.1"
+description = "Command-line interface for running and interacting with Temporal Server and UI"
+homepage = "https://temporal.io/"
+
+[source]
+url = "https://github.com/temporalio/cli/archive/refs/tags/v1.10.1.tar.gz"
+sha256 = "80e81a40a2da38f6ec13bc61e9cd4dd9441ba865507cd253cf94850538dc9a9a"
+
+[service]
+run = "opt/temporal/bin/temporal server start-dev"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/temporal.log"
+error_log_path = "var/log/temporal.log"
+
+[build]
+system = "autotools"

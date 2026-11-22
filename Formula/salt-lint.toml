@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "salt-lint"
+version = "0.9.2"
+description = "Check for best practices in SaltStack"
+homepage = "https://salt-lint.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e5/e9/4df64ca147c084ca1cdbea9210549758d07f4ed94ac37d1cd1c99288ef5c/salt-lint-0.9.2.tar.gz"
+sha256 = "7f74e682e7fd78722a6d391ea8edc9fc795113ecfd40657d68057d404ee7be8e"
+
+[build]
+system = "autotools"

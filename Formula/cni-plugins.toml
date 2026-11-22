@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cni-plugins"
+version = "1.10.0"
+description = "Container Network Interface plugins"
+homepage = "https://www.cni.dev"
+
+[source]
+url = "https://github.com/containernetworking/plugins/archive/refs/tags/v1.10.0.tar.gz"
+sha256 = "15a36f0a88e90704126d2d523a9704c4cab2439a4a19c9ac23961b31c2a311c6"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

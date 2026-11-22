@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cql"
+version = "0.8.1"
+description = "Decentralized SQL database with blockchain features"
+homepage = "https://covenantsql.io"
+
+[source]
+url = "https://github.com/CovenantSQL/CovenantSQL/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "73abb65106e5045208aa4a7cda56bc7c17ba377557ae47d60dad39a63f9c88a6"
+
+[build]
+system = "autotools"

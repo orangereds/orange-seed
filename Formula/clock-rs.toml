@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "clock-rs"
+version = "0.2.1"
+description = "Modern, digital clock that effortlessly runs in your terminal"
+homepage = "https://github.com/Oughie/clock-rs"
+
+[source]
+url = "https://github.com/Oughie/clock-rs/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "cb344326f7ed45eb252d74d27d35cddf61b8df9566e60f25e129da696e083344"
+
+[build]
+system = "autotools"

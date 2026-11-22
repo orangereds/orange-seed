@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "wget", "libomp"]
+
+[package]
+name = "mmseqs2"
+version = "19-ab57c"
+description = "Software suite for very fast sequence search and clustering"
+homepage = "https://mmseqs.com/"
+
+[source]
+url = "https://github.com/soedinglab/MMseqs2/archive/refs/tags/19-ab57c.tar.gz"
+sha256 = "68b20700b82c93f2a30a8a7fbe545ab6ec715bfccb13ddcab144d3f3f504c5a4"
+
+[build]
+system = "autotools"

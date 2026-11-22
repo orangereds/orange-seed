@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "numpy", "opencv", "pillow", "python@3.15", "llvm"]
+
+[package]
+name = "dvr-scan"
+version = "0"
+description = "Extract scenes with motion from videos"
+homepage = "https://www.dvr-scan.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/99/0c/adc2d879b29d557007191d30b4d573744a0f2c0e76f1cdfc426260b26c2c/dvr_scan-2.0.tar.gz"
+sha256 = "f48f4365fff3dd56b84dde6d4e02e1164fe86462cd142cf522d4acfaea51672e"
+
+[build]
+system = "autotools"

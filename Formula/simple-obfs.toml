@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "autoconf", "automake", "libtool", "xmlto", "libev"]
+
+[package]
+name = "simple-obfs"
+version = "0_1"
+description = "Simple obfusacting plugin of shadowsocks-libev"
+homepage = "https://github.com/shadowsocks/simple-obfs"
+
+[source]
+url = "https://github.com/shadowsocks/simple-obfs.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

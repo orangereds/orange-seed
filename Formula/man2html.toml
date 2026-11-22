@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "man2html"
+version = "0"
+description = "Convert nroff man pages to HTML"
+homepage = "https://savannah.nongnu.org/projects/man2html/"
+
+[source]
+url = "https://www.mhonarc.org/release/misc/man2html3.0.1.tar.gz"
+sha256 = "a3dd7fdd80785c14c2f5fa54a59bf93ca5f86f026612f68770a0507a3d4e5a29"
+
+[build]
+system = "autotools"

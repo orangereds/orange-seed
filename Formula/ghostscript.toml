@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "fontconfig", "freetype", "jbig2dec", "jpeg-turbo", "leptonica", "libarchive", "libidn", "libpng", "libtiff", "little-cms2", "openjpeg", "tesseract"]
+
+[package]
+name = "ghostscript"
+version = "0"
+description = "Interpreter for PostScript and PDF"
+homepage = "https://www.ghostscript.com/"
+
+[source]
+url = "https://github.com/ArtifexSoftware/ghostpdl-downloads/releases/download/gs10080/ghostpdl-10.08.0.tar.xz"
+sha256 = "94943e3c4adb7115d132b3c28b913672f2e62e6a9d802f7e754e716b1634174a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "direvent"
+version = "5.5"
+description = "Monitors events in the file system directories"
+homepage = "https://www.gnu.org.ua/software/direvent/direvent.html"
+
+[source]
+url = "https://ftpmirror.gnu.org/direvent/direvent-5.5.tar.gz"
+sha256 = "0e16c0b4b3e6f7673e9b4f31d81ab01236ad22f83538512f3b2f58f9f96fdcb7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "brotli"]
+
+[package]
+name = "woff2"
+version = "1.0.2"
+description = "Utilities to create and convert Web Open Font File (WOFF) files"
+homepage = "https://github.com/google/woff2"
+
+[source]
+url = "https://github.com/google/woff2/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "add272bb09e6384a4833ffca4896350fdb16e0ca22df68c0384773c67a175594"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "glib", "lua", "openjdk", "python@3.15"]
+
+[package]
+name = "lcm"
+version = "1.5.3"
+description = "Libraries and tools for message passing and data marshalling"
+homepage = "https://lcm-proj.github.io/"
+
+[source]
+url = "https://github.com/lcm-proj/lcm/archive/refs/tags/v1.5.3.tar.gz"
+sha256 = "f7e693d50e229e37de00387ac8ab9228e16559dd57bddd155c4b5ca1c233834e"
+
+[build]
+system = "cmake"

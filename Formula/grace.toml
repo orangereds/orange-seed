@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fftw", "jpeg-turbo", "libice", "libpng", "libsm", "libx11", "libxext", "libxmu", "libxp", "libxpm", "libxt", "openmotif"]
+
+[package]
+name = "grace"
+version = "5.1.25.orig_5"
+description = "WYSIWYG 2D plotting tool for X11"
+homepage = "https://plasma-gate.weizmann.ac.il/Grace/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/g/grace/grace_5.1.25.orig.tar.gz"
+sha256 = "751ab9917ed0f6232073c193aba74046037e185d73b77bab0f5af3e3ff1da2ac"
+
+[build]
+system = "autotools"

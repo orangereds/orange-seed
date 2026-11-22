@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "fltk@1.3", "jpeg-turbo", "libpng", "openssl@4"]
+
+[package]
+name = "dillo"
+version = "3.3.0"
+description = "Fast and small graphical web browser"
+homepage = "https://dillo-browser.org/"
+
+[source]
+url = "https://dillo-browser.org/release/3.3.0/dillo-3.3.0.tar.gz"
+sha256 = "db1863261d5efbd27b090e430c88064082b891cea1edf7a14e234cca51754f60"
+
+[build]
+system = "autotools"

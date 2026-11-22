@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zlint"
+version = "3.7.3"
+description = "X.509 Certificate Linter focused on Web PKI standards and requirements"
+homepage = "https://zmap.io/"
+
+[source]
+url = "https://github.com/zmap/zlint/archive/refs/tags/v3.7.3.tar.gz"
+sha256 = "43509828d64135a47b7cc25e7e45acfa01abcc787669ec2bd86cc423fc822c6b"
+
+[build]
+system = "autotools"

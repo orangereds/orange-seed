@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen"]
+
+[package]
+name = "elektra"
+version = "0.11.0"
+description = "Framework to access config settings in a global key database"
+homepage = "https://www.libelektra.org"
+
+[source]
+url = "https://www.libelektra.org/ftp/elektra/releases/elektra-0.11.0.tar.gz"
+sha256 = "4e1f7c986010555a1d30ef2d23c0636373e993bab88e5ec238cac18a469b5cc2"
+
+[build]
+system = "cmake"

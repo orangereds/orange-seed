@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hmmer"
+version = "3.4"
+description = "Build profile HMMs and scan against sequence databases"
+homepage = "https://hmmer.org/"
+
+[source]
+url = "https://eddylab.org/software/hmmer/hmmer-3.4.tar.gz"
+sha256 = "ca70d94fd0cf271bd7063423aabb116d42de533117343a9b27a65c17ff06fbf3"
+
+[build]
+system = "autotools"

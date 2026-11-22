@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "lua", "python@3.15"]
+
+[package]
+name = "vim-classic"
+version = "8.3.1"
+description = "Vim 8 long term support version with no LLM-generated code"
+homepage = "https://vim-classic.org/"
+
+[source]
+url = "https://git.sr.ht/~sircmpwn/vim-classic/archive/v8.3.1.tar.gz"
+sha256 = "1d9baef8dab6751145b7c4460e85c0af1f4c432bf8ff03d8db13b977fca31e8c"
+
+[build]
+system = "autotools"

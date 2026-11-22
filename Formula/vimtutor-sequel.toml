@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["vim"]
+
+[package]
+name = "vimtutor-sequel"
+version = "1.3.2"
+description = "Advanced vimtutor for intermediate vim users"
+homepage = "https://github.com/micahkepe/vimtutor-sequel"
+
+[source]
+url = "https://github.com/micahkepe/vimtutor-sequel/archive/refs/tags/v1.3.2.tar.gz"
+sha256 = "c02ae36fcf847e619a2b3774c6e2f00b8c08d7df77047fb169d694d96aed76d8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "cmake"]
+
+[package]
+name = "timewarrior"
+version = "0"
+description = "Command-line time tracking application"
+homepage = "https://timewarrior.net/"
+
+[source]
+url = "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.10.0/timew-1.10.0.tar.gz"
+sha256 = "a9c9966cfd9fed6c4d4895dc2de530902e736608f4033799af4fe06edf0dd438"
+
+[build]
+system = "cmake"

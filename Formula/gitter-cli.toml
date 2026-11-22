@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gitter-cli"
+version = "0.8.5"
+description = "Extremely simple Gitter client for terminals"
+homepage = "https://github.com/RodrigoEspinosa/gitter-cli"
+
+[source]
+url = "https://github.com/RodrigoEspinosa/gitter-cli/archive/refs/tags/v0.8.5.tar.gz"
+sha256 = "c4e335620fc1be50569f3b7543c28ba2c6121b1c7e6d041464b29a31b3d84c25"
+
+[build]
+system = "autotools"

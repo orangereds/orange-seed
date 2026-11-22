@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "vpcs"
+version = "0.8.5"
+description = "Virtual PC simulator for testing IP routing"
+homepage = "https://vpcs.sourceforge.net/"
+
+[source]
+url = "https://github.com/GNS3/vpcs/archive/refs/tags/v0.8.5.tar.gz"
+sha256 = "1d5443366db189d50331d2b83a23bdb172568b3b77bb0890d9cc8307e58d0023"
+
+[build]
+system = "autotools"

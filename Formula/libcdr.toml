@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf", "icu4c@79", "librevenge", "little-cms2"]
+
+[package]
+name = "libcdr"
+version = "0.1.9"
+description = "C++ library to parse the file format of CorelDRAW documents"
+homepage = "https://wiki.documentfoundation.org/DLP/Libraries/libcdr"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libcdr/libcdr-0.1.9.tar.xz"
+sha256 = "f7bb6abdd7f226820f288a93dd8d07759833c0250d9e202af90f9b312c4665a3"
+
+[build]
+system = "autotools"

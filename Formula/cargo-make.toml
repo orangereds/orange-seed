@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-make"
+version = "0.37.24"
+description = "Rust task runner and build tool"
+homepage = "https://sagiegurari.github.io/cargo-make/"
+
+[source]
+url = "https://github.com/sagiegurari/cargo-make/archive/refs/tags/0.37.24.tar.gz"
+sha256 = "a7f6f7332862442e6020e8d8b2568a6fa8eed28156be0dddd61982e1e644cf02"
+
+[build]
+system = "autotools"

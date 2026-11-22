@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "willgit"
+version = "1.0.0"
+description = "William's miscellaneous git tools"
+homepage = "https://github.com/DanielVartanov/willgit"
+
+[source]
+url = "https://github.com/DanielVartanov/willgit/archive/refs/tags/1.0.0.tar.gz"
+sha256 = "3bb99d6ec2614a90f40962311daf51f393b3d0abfdb0f9e0a14ba7340b33a2c8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["avisynthplus", "meson", "ninja", "pkgconf", "ffmpeg", "python@3.15", "vapoursynth", "xxhash"]
+
+[package]
+name = "vapoursynth-bestsource"
+version = "0"
+description = "Audio/video source and FFmpeg wrapper"
+homepage = "https://github.com/vapoursynth/bestsource"
+
+[source]
+url = "https://github.com/vapoursynth/bestsource/archive/refs/tags/R23.tar.gz"
+sha256 = "1cbc9586bd83668be130b2d69faa46448d3f6a2e2c075dae2977a87358e8986b"
+
+[build]
+system = "autotools"

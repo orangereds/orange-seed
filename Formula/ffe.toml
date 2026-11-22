@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "texinfo", "libgcrypt"]
+
+[package]
+name = "ffe"
+version = "0.4.1d"
+description = "Parse flat file structures and print them in different formats"
+homepage = "https://github.com/igitur/ffe"
+
+[source]
+url = "https://github.com/igitur/ffe/archive/refs/tags/v0.4.1d.tar.gz"
+sha256 = "2a5914de7779b9021031810ccafbcb8c15d47b17662559e976b304478c3d949c"
+
+[build]
+system = "autotools"

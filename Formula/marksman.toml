@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@9"]
+
+[package]
+name = "marksman"
+version = "2026-02-08"
+description = "Language Server Protocol for Markdown"
+homepage = "https://github.com/artempyanykh/marksman"
+
+[source]
+url = "https://github.com/artempyanykh/marksman/archive/refs/tags/2026-02-08.tar.gz"
+sha256 = "a3ba5f8ef5be5d7ede2ec5ae9f303d2d776f476734ff66254be8e6df0e0f090e"
+
+[build]
+system = "autotools"

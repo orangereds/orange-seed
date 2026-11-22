@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@18", "postgresql@19"]
+
+[package]
+name = "hypopg"
+version = "1.4.5_1"
+description = "Hypothetical Indexes for PostgreSQL"
+homepage = "https://github.com/HypoPG/hypopg"
+
+[source]
+url = "https://github.com/HypoPG/hypopg/archive/refs/tags/1.4.5.tar.gz"
+sha256 = "9d1981af0c55ac75ab4e2648e0050ee626c1af4c68b24259e3c744ff5211ce49"
+
+[build]
+system = "autotools"

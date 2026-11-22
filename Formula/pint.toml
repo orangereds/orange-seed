@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pint"
+version = "0.90.0"
+description = "Prometheus rule linter/validator"
+homepage = "https://cloudflare.github.io/pint/"
+
+[source]
+url = "https://github.com/cloudflare/pint/archive/refs/tags/v0.90.0.tar.gz"
+sha256 = "f069c1c34fc31950bf3fd2b89216c531ac750e92d19101e486e8ce7db51ca767"
+
+[build]
+system = "autotools"

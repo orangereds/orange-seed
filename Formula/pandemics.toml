@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["librsvg", "node", "pandoc", "pandoc-crossref"]
+
+[package]
+name = "pandemics"
+version = "0.12.1"
+description = "Converts your markdown document in a simplified framework"
+homepage = "https://pandemics.gitlab.io"
+
+[source]
+url = "https://registry.npmjs.org/pandemics/-/pandemics-0.12.1.tgz"
+sha256 = "9be418ec78ca512cc66d57a7533a5acda003c8bc488d7fff7fa2905c9ad39e29"
+
+[build]
+system = "autotools"

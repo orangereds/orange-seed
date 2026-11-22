@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "util-macros", "libx11", "libxau", "libxext"]
+
+[package]
+name = "libxp"
+version = "0"
+description = "X Print Client Library"
+homepage = "https://gitlab.freedesktop.org/xorg/lib/libxp"
+
+[source]
+url = "https://gitlab.freedesktop.org/xorg/lib/libxp/-/archive/libXp-1.0.4/libxp-libXp-1.0.4.tar.bz2"
+sha256 = "81468f6d5d8d8f847aac50af60b36c43d84d976d907ab1dfd667683dbfb5fb90"
+
+[build]
+system = "autotools"

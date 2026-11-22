@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "cunit"]
+
+[package]
+name = "libiscsi"
+version = "1.20.3"
+description = "Client library and utilities for iscsi"
+homepage = "https://github.com/sahlberg/libiscsi"
+
+[source]
+url = "https://github.com/sahlberg/libiscsi/archive/refs/tags/1.20.3.tar.gz"
+sha256 = "212f6e1fd8e7ddb4b02208aafc6de600f6f330f40359babeefdd83b0c79d47a1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man"]
+
+[package]
+name = "git-get"
+version = "0.6.1"
+description = "Better way to clone, organize and manage multiple git repositories"
+homepage = "https://github.com/grdl/git-get"
+
+[source]
+url = "https://github.com/grdl/git-get/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "82a24231bffacc0a8eaf50d21892ac6160f5f616cafccd2381b8bc9845452ff4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-prolog"]
+
+[package]
+name = "logtalk"
+version = "3.103.0"
+description = "Declarative object-oriented logic programming language"
+homepage = "https://logtalk.org/"
+
+[source]
+url = "https://github.com/LogtalkDotOrg/logtalk3/archive/refs/tags/lgt31030stable.tar.gz"
+sha256 = "c461388e4d5715dbceadf570b3ad48efc71998c20f35a4b4e2f3cd22b5f020c7"
+
+[build]
+system = "autotools"

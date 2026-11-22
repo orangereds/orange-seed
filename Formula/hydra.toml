@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libssh", "mariadb-connector-c", "openssl@4", "pcre2"]
+
+[package]
+name = "hydra"
+version = "9.7_1"
+description = "Network logon cracker which supports many services"
+homepage = "https://github.com/vanhauser-thc/thc-hydra"
+
+[source]
+url = "https://github.com/vanhauser-thc/thc-hydra/archive/refs/tags/v9.7.tar.gz"
+sha256 = "8dbe11e5858b8c1aab7bd670bc39a3483accd09e147d3dd981fe11a7fa0d10de"
+
+[build]
+system = "autotools"

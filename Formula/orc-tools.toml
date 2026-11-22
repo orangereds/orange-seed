@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "orc-tools"
+version = "0"
+description = "ORC java command-line tools and utilities"
+homepage = "https://orc.apache.org/"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=org/apache/orc/orc-tools/2.3.1/orc-tools-2.3.1-uber.jar"
+sha256 = "05110c26350d384da0315291b13490a1aa4879d8b80af1d1117fd072d46bdff0"
+
+[build]
+system = "autotools"

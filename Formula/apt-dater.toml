@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "pkgconf", "glib", "popt", "coreutils"]
+
+[package]
+name = "apt-dater"
+version = "1.0.4_3"
+description = "Manage package updates on remote hosts using SSH"
+homepage = "https://github.com/DE-IBH/apt-dater"
+
+[source]
+url = "https://github.com/DE-IBH/apt-dater/archive/refs/tags/v1.0.4.tar.gz"
+sha256 = "a4bd5f70a199b844a34a3b4c4677ea56780c055db7c557ff5bd8f2772378a4d6"
+
+[build]
+system = "autotools"

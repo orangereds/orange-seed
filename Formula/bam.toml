@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bam"
+version = "0.5.1"
+description = "Build system that uses Lua to describe the build process"
+homepage = "https://matricks.github.io/bam/"
+
+[source]
+url = "https://github.com/matricks/bam/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "cc8596af3325ecb18ebd6ec2baee550e82cb7b2da19588f3f843b02e943a15a9"
+
+[build]
+system = "autotools"

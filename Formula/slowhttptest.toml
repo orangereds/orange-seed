@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "slowhttptest"
+version = "1.10.0"
+description = "Simulates application layer denial of service attacks"
+homepage = "https://github.com/shekyan/slowhttptest"
+
+[source]
+url = "https://github.com/shekyan/slowhttptest/archive/refs/tags/v1.10.0.tar.gz"
+sha256 = "9e1e18e32c761b97eb92d4c3680bcbe60dc2fae852c1dc339460ac50c51be444"
+
+[build]
+system = "autotools"

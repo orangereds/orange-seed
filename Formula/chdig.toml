@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "chdig"
+version = "26.11.1"
+description = "Dig into ClickHouse with TUI interface"
+homepage = "https://github.com/azat/chdig"
+
+[source]
+url = "https://github.com/azat/chdig/archive/refs/tags/v26.11.1.tar.gz"
+sha256 = "c385cc9f1aba57e49aea577ff0b68bb279cd5d3366d90074e4fa4a67aaa2b499"
+
+[build]
+system = "autotools"

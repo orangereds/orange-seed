@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "chars"
+version = "0.7.0"
+description = "Command-line tool to display information about unicode characters"
+homepage = "https://github.com/boinkor-net/chars/"
+
+[source]
+url = "https://github.com/boinkor-net/chars/archive/refs/tags/v0.7.0.tar.gz"
+sha256 = "2f79843a3b1173870b41ebce491a54812b13a44090d0ae30a6f572caa91f0736"
+
+[build]
+system = "autotools"

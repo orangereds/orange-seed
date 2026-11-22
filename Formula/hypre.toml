@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "open-mpi", "openblas"]
+
+[package]
+name = "hypre"
+version = "3.2.1"
+description = "Library featuring parallel multigrid methods for grid problems"
+homepage = "https://computing.llnl.gov/projects/hypre-scalable-linear-solvers-multigrid-methods"
+
+[source]
+url = "https://github.com/hypre-space/hypre/archive/refs/tags/v3.2.1.tar.gz"
+sha256 = "3083cf943e1dab54517acae36afad72a4ada2c72c9567e525fc9c6efedb14e0c"
+
+[build]
+system = "cmake"

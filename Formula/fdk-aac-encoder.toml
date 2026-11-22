@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "fdk-aac"]
+
+[package]
+name = "fdk-aac-encoder"
+version = "1.0.9"
+description = "Command-line encoder frontend for libfdk-aac"
+homepage = "https://github.com/nu774/fdkaac"
+
+[source]
+url = "https://github.com/nu774/fdkaac/archive/refs/tags/v1.0.9.tar.gz"
+sha256 = "be6de0851c447d132e9bff0141068ee6fec6d37e21973ea9304480c68178058b"
+
+[build]
+system = "autotools"

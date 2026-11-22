@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "http-server"
+version = "14.1.1"
+description = "Simple zero-configuration command-line HTTP server"
+homepage = "https://github.com/http-party/http-server"
+
+[source]
+url = "https://registry.npmjs.org/http-server/-/http-server-14.1.1.tgz"
+sha256 = "9e1ceb265d09a4d86dcf509cb4ba6dcd2e03254b1d13030198766fe3897fd7a5"
+
+[build]
+system = "autotools"

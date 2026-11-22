@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "neo4j-mcp"
+version = "2.1.1"
+description = "Neo4j official Model Context Protocol server for AI tools"
+homepage = "https://neo4j.com/docs/mcp/current/"
+
+[source]
+url = "https://github.com/neo4j/mcp/archive/refs/tags/v2.1.1.tar.gz"
+sha256 = "8597bc20aad4ff3aa94fa66d1a0cfbda44517289570b237d68ce2d2fc35c6237"
+
+[build]
+system = "autotools"

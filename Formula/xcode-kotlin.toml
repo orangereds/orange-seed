@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle"]
+
+[package]
+name = "xcode-kotlin"
+version = "2.2.2"
+description = "Kotlin Native Xcode Plugin"
+homepage = "https://touchlab.co/xcodekotlin"
+
+[source]
+url = "https://github.com/touchlab/xcode-kotlin/archive/refs/tags/2.2.2.tar.gz"
+sha256 = "551f3f450f4fcfbddb01134e8ca666ef26a0a6144b88a654070c1ac31b064a99"
+
+[build]
+system = "autotools"

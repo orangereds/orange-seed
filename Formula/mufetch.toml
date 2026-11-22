@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mufetch"
+version = "0.1.1"
+description = "Neofetch-style music cli"
+homepage = "https://github.com/ashish0kumar/mufetch"
+
+[source]
+url = "https://github.com/ashish0kumar/mufetch/archive/refs/tags/v0.1.1.tar.gz"
+sha256 = "c6cba3e87e21809c640e540d396d3f72bdaa4fd42fdb79de43ada7cd6a589f0e"
+
+[build]
+system = "autotools"

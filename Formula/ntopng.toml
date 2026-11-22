@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "libtool", "pkgconf", "valkey", "hiredis", "json-c", "libmaxminddb", "libsodium", "mariadb-connector-c", "ndpi", "openssl@4", "rrdtool", "sqlite", "zeromq", "zstd"]
+
+[package]
+name = "ntopng"
+version = "7.0_2"
+description = "Next generation version of the original ntop"
+homepage = "https://www.ntop.org/products/traffic-analysis/ntop/"
+
+[source]
+url = "https://github.com/ntop/ntopng/archive/refs/tags/7.0.tar.gz"
+sha256 = "fba4607596526d26c15bec3619a9b1ec7c0a482fdd4495cbbf29bb4cb2271521"
+
+[build]
+system = "autotools"

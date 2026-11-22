@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pandoc"]
+
+[package]
+name = "checkmake"
+version = "0.3.2"
+description = "Linter/analyzer for Makefiles"
+homepage = "https://github.com/checkmake/checkmake"
+
+[source]
+url = "https://github.com/checkmake/checkmake/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "450412ba6500ef7c4c8a0150a5e1a3d2e76591ce9f37609bcbd5508298ad9bef"
+
+[build]
+system = "autotools"

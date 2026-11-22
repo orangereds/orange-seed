@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbt", "openjdk"]
+
+[package]
+name = "gitbucket"
+version = "0"
+description = "Git platform powered by Scala offering"
+homepage = "https://gitbucket.github.io/"
+
+[source]
+url = "https://github.com/gitbucket/gitbucket/releases/download/4.48.0/gitbucket.war"
+sha256 = "bbd08775a5a19d51a4358f481fb16eceecb992b2b0c83bfac414e54717310359"
+
+[service]
+run = "["
+
+[build]
+system = "autotools"

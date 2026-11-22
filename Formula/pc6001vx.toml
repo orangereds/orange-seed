@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "qttools", "ffmpeg", "qtbase", "qtdeclarative", "qtmultimedia", "sdl2-compat", "gettext"]
+
+[package]
+name = "pc6001vx"
+version = "0"
+description = "PC-6001 emulator"
+homepage = "https://github.com/eighttails/PC6001VX"
+
+[source]
+url = "https://eighttails.up.seesaa.net/bin/PC6001VX_4.6.0_src.tar.gz"
+sha256 = "a5d5961464064f899abc50ab41c6392f8488f62d9acd8dfd1aade2b27393fc24"
+
+[build]
+system = "cmake"

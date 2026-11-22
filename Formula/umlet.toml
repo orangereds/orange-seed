@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "umlet"
+version = "0"
+description = "This UML tool aimed at providing a fast way of creating UML diagrams"
+homepage = "https://www.umlet.com/"
+
+[source]
+url = "https://www.umlet.com/download/umlet_15_1/umlet-standalone-15.1.zip"
+sha256 = "33aa1559b3a63c14f2812f9316463d3d6b9c15f60b0f7decb8d52e5a914b308a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "boost", "lua", "openssl@4"]
+
+[package]
+name = "pdnsrec"
+version = "0"
+description = "Non-authoritative/recursing DNS server"
+homepage = "https://www.powerdns.com/powerdns-recursor"
+
+[source]
+url = "https://downloads.powerdns.com/releases/pdns-recursor-5.4.9.tar.xz"
+sha256 = "66feabd86e32d5fb38e50664e79942f64badeb7232d7dec5bc3da268b4e381ff"
+
+[build]
+system = "autotools"

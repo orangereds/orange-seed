@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lzip"]
+
+[package]
+name = "lunzip"
+version = "1.16"
+description = "Decompressor for lzip files"
+homepage = "https://www.nongnu.org/lzip/lunzip.html"
+
+[source]
+url = "https://download.savannah.nongnu.org/releases/lzip/lunzip/lunzip-1.16.tar.gz"
+sha256 = "f13809a1aeaf953f32b07f822c3804bfb11056c08d465b93750b4e45190becda"
+
+[build]
+system = "autotools"

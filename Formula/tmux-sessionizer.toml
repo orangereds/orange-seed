@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tmux-sessionizer"
+version = "0.6.1a"
+description = "Tool for opening git repositories as tmux sessions"
+homepage = "https://github.com/jrmoulton/tmux-sessionizer/"
+
+[source]
+url = "https://github.com/jrmoulton/tmux-sessionizer/archive/refs/tags/v0.6.1a.tar.gz"
+sha256 = "ce0a7756d2eb94d753cea5d4696e3683907d8d3237c2ac4e29cb91b0aa91b707"
+
+[build]
+system = "autotools"

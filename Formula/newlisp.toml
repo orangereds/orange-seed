@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "newlisp"
+version = "10.7.5.orig"
+description = "Lisp-like, general-purpose scripting language"
+homepage = "https://www.newlisp.org/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/n/newlisp/newlisp_10.7.5.orig.tar.gz"
+sha256 = "dc2d0ff651c2b275bc4af3af8ba59851a6fb6e1eaddc20ae75fb60b1e90126ec"
+
+[build]
+system = "autotools"

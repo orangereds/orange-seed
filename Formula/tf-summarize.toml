@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tf-summarize"
+version = "0.3.20"
+description = "CLI to print the summary of the terraform plan"
+homepage = "https://github.com/dineshba/tf-summarize"
+
+[source]
+url = "https://github.com/dineshba/tf-summarize/archive/refs/tags/v0.3.20.tar.gz"
+sha256 = "e2e6d173581109e155e86690738a85780947d886c7c3236187467ff2174f62b1"
+
+[build]
+system = "autotools"

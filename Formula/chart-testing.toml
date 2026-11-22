@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "helm", "yamllint", "yamale"]
+
+[package]
+name = "chart-testing"
+version = "0"
+description = "Testing and linting Helm charts"
+homepage = "https://github.com/helm/chart-testing"
+
+[source]
+url = "https://github.com/helm/chart-testing.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

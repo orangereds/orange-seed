@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "b2sum"
+version = "20190724"
+description = "BLAKE2 b2sum reference binary"
+homepage = "https://github.com/BLAKE2/BLAKE2"
+
+[source]
+url = "https://github.com/BLAKE2/BLAKE2/archive/refs/tags/20190724.tar.gz"
+sha256 = "7f2c72859d462d604ab3c9b568c03e97b50a4052092205ad18733d254070ddc2"
+
+[build]
+system = "make"

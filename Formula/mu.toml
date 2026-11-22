@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cli11", "cmake", "emacs", "libgpg-error", "libtool", "meson", "ninja", "pkgconf", "texinfo", "fmt", "glib", "gmime", "guile", "tl-expected", "xapian", "llvm", "gettext"]
+
+[package]
+name = "mu"
+version = "1.14.4"
+description = "Tool for searching e-mail messages stored in the maildir-format"
+homepage = "https://www.djcbsoftware.nl/code/mu/"
+
+[source]
+url = "https://github.com/djcb/mu/releases/download/v1.14.4/mu-1.14.4.tar.xz"
+sha256 = "3714ea0d1e4811bd2c160cc2e222dc00723485df9756e2d90f2bb66e90f894f7"
+
+[build]
+system = "autotools"

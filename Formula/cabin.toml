@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ninja"]
+
+[package]
+name = "cabin"
+version = "0.18.0"
+description = "Package manager and build system for C/C++"
+homepage = "https://cabinpkg.com"
+
+[source]
+url = "https://github.com/cabinpkg/cabin/archive/refs/tags/0.18.0.tar.gz"
+sha256 = "2b4545a884df243eae5aa1fa214384cc8b6628ce92ad4f8768ff7d2e270901f3"
+
+[build]
+system = "autotools"

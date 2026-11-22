@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "pkgconf", "glib", "pcre2", "uchardet", "gettext"]
+
+[package]
+name = "rpl"
+version = "2.1.2"
+description = "Text replacement utility"
+homepage = "https://github.com/rrthomas/rpl"
+
+[source]
+url = "https://github.com/rrthomas/rpl/releases/download/v2.1.2/rpl-2.1.2.tar.gz"
+sha256 = "7994ef8663a51779ab1fb3a730cf2ae6cda81cc905b6db9ae0e858f63cb8b3e1"
+
+[build]
+system = "autotools"

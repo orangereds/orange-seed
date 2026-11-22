@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "claudekit"
+version = "0.9.5"
+description = "Intelligent guardrails and workflow automation for Claude Code"
+homepage = "https://github.com/carlrannaberg/claudekit"
+
+[source]
+url = "https://registry.npmjs.org/claudekit/-/claudekit-0.9.5.tgz"
+sha256 = "9059948267aeaf80b8d06805b7960fa508efbe6b446eb1ddda6e616987276c23"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "rust"]
+
+[package]
+name = "doge"
+version = "0.2.9"
+description = "Command-line DNS client"
+homepage = "https://dog.ramfield.net/"
+
+[source]
+url = "https://github.com/Dj-Codeman/dog_community/archive/refs/tags/v0.2.9.tar.gz"
+sha256 = "21d459f1f88d6a1e001a747b84782f180c01de8f3c39f3a1389c352b2f2edc88"
+
+[build]
+system = "autotools"

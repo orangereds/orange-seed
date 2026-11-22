@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbt", "astgen", "coreutils", "openjdk@25", "php"]
+
+[package]
+name = "joern"
+version = "4.0.688"
+description = "Open-source code analysis platform based on code property graphs"
+homepage = "https://joern.io/"
+
+[source]
+url = "https://github.com/joernio/joern/archive/refs/tags/v4.0.688.tar.gz"
+sha256 = "41967bf280adc7fbdd4544d934eacb47e68570fce524a0d68ca6f97f927ac6b6"
+
+[build]
+system = "autotools"

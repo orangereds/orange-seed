@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "clusterawsadm"
+version = "0"
+description = "Home for bootstrapping, AMI, EKS, and other helpers in Cluster API Provider AWS"
+homepage = "https://cluster-api-aws.sigs.k8s.io/clusterawsadm/clusterawsadm.html"
+
+[source]
+url = "https://github.com/kubernetes-sigs/cluster-api-provider-aws.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

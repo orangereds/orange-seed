@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cql-proxy"
+version = "0.2.1"
+description = "DataStax cql-proxy enables Cassandra apps to use Astra DB without code changes"
+homepage = "https://github.com/datastax/cql-proxy"
+
+[source]
+url = "https://github.com/datastax/cql-proxy/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "41a6d8a65446f2cb65b004de561adccae58a2066119c21e0fb24bf3999dd58c2"
+
+[build]
+system = "autotools"

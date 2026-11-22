@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "xz", "berkeley-db@5"]
+
+[package]
+name = "nvi"
+version = "1.81.6.orig_6"
+description = "44BSD re-implementation of vi"
+homepage = "https://repo.or.cz/nvi.git"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/n/nvi/nvi_1.81.6.orig.tar.gz"
+sha256 = "8bc348889159a34cf268f80720b26f459dbd723b5616107d36739d007e4c978d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "redress"
+version = "1.2.103"
+description = "Tool for analyzing stripped Go binaries compiled with the Go compiler"
+homepage = "https://github.com/goretk/redress"
+
+[source]
+url = "https://github.com/goretk/redress/archive/refs/tags/v1.2.103.tar.gz"
+sha256 = "a66566344f2e32694ea4406f42abadb2d02a43ed5341d1609602c709b49e0df0"
+
+[build]
+system = "autotools"

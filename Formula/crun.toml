@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "go-md2man", "pkgconf", "python@3.15", "json-c", "libcap", "libseccomp", "systemd"]
+
+[package]
+name = "crun"
+version = "1.31.tar.zst"
+description = "Fast and lightweight fully featured OCI runtime and C library"
+homepage = "https://github.com/containers/crun"
+
+[source]
+url = "https://github.com/containers/crun/releases/download/1.31/crun-1.31.tar.zst"
+sha256 = "cb76a7951438205466725307e4061da6d1dfdc202bdf675cf209c7037b94002b"
+
+[build]
+system = "autotools"

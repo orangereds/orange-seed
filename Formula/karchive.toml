@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "extra-cmake-modules", "pkgconf", "qttools", "openssl@4", "qtbase", "xz", "zstd"]
+
+[package]
+name = "karchive"
+version = "6.32.0"
+description = "Reading, creating, and manipulating file archives"
+homepage = "https://api.kde.org/karchive-index.html"
+
+[source]
+url = "https://download.kde.org/stable/frameworks/6.32/karchive-6.32.0.tar.xz"
+sha256 = "30687d9be0aea05a4ef887212abd91d7c4337cb9f166610f98eac2b01407fb1f"
+
+[build]
+system = "cmake"

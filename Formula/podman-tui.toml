@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "podman-tui"
+version = "2.0.0"
+description = "Podman Terminal User Interface"
+homepage = "https://github.com/containers/podman-tui"
+
+[source]
+url = "https://github.com/containers/podman-tui/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "32c8ffced718cda2d5b4bcedddb71299aaa035f035de6886100ab0f6469ca3dd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "nlohmann-json", "pkgconf", "chromaprint", "faad2", "ffmpeg", "flac", "fluid-synth", "fmt", "game-music-emu", "icu4c@79", "lame", "libao", "libid3tag", "libmikmod", "libmpdclient", "libnfs", "libnpupnp", "libogg", "libsamplerate", "libshout", "libsndfile", "libsoxr", "libvorbis", "mpg123", "opus", "pcre2", "sqlite", "wavpack", "llvm"]
+
+[package]
+name = "mpd"
+version = "0.24.20"
+description = "Music Player Daemon"
+homepage = "https://www.musicpd.org/"
+
+[source]
+url = "https://github.com/MusicPlayerDaemon/MPD/archive/refs/tags/v0.24.20.tar.gz"
+sha256 = "176f6c26ced73108ea6007e03f76f0c273b3a08d1231017442238a170b14477c"
+
+[service]
+run = "opt/mpd/bin/mpd --no-daemon"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

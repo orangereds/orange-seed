@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "tmux"]
+
+[package]
+name = "workmux"
+version = "0.1.284"
+description = "Git worktrees + tmux windows for zero-friction parallel dev"
+homepage = "https://workmux.raine.dev"
+
+[source]
+url = "https://github.com/raine/workmux/archive/refs/tags/v0.1.284.tar.gz"
+sha256 = "d56db075ebdd1f3d176f10219bfa1ed0b6c20e97b5290236a37e0a172c5a2d79"
+
+[build]
+system = "autotools"

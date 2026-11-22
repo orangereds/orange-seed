@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "rename"
+version = "1.601"
+description = "Perl-powered file rename script with many helpful built-ins"
+homepage = "http://plasmasturm.org/code/rename"
+
+[source]
+url = "https://github.com/ap/rename/archive/refs/tags/v1.601.tar.gz"
+sha256 = "e8fd67b662b9deddfb6a19853652306f8694d7959dfac15538a9b67339c87af4"
+
+[build]
+system = "autotools"

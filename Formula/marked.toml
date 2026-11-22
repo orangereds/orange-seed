@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "marked"
+version = "18.2.1"
+description = "Markdown parser and compiler built for speed"
+homepage = "https://marked.js.org/"
+
+[source]
+url = "https://registry.npmjs.org/marked/-/marked-18.2.1.tgz"
+sha256 = "d66c5213fc203466186060105b01f51896764ba64b3797d2620d02e28e34b8ca"
+
+[build]
+system = "autotools"

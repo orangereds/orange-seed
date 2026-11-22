@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "ballerina"
+version = "2201.14.2-swan-lake"
+description = "Programming Language for Network Distributed Applications"
+homepage = "https://ballerina.io"
+
+[source]
+url = "https://dist.ballerina.io/downloads/2201.14.2/ballerina-2201.14.2-swan-lake.zip"
+sha256 = "4217b97a1893bf18db573d0db06b67ed92c547f109a06aaab63595f8d2b45e1e"
+
+[build]
+system = "autotools"

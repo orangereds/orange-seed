@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "ctcache"
+version = "1.2.0"
+description = "Cache for clang-tidy static analysis results"
+homepage = "https://github.com/matus-chochlik/ctcache"
+
+[source]
+url = "https://github.com/matus-chochlik/ctcache/archive/refs/tags/1.2.0.tar.gz"
+sha256 = "8a5423bf81599f4613c771b144dbbad1125af86eac622fc0d500f8dc1105a16b"
+
+[build]
+system = "autotools"

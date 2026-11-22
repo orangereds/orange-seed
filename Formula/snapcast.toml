@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "flac", "libogg", "libsoxr", "libvorbis", "openssl@4", "opus"]
+
+[package]
+name = "snapcast"
+version = "0.35.0_1"
+description = "Synchronous multiroom audio player"
+homepage = "https://github.com/snapcast/snapcast"
+
+[source]
+url = "https://github.com/snapcast/snapcast/archive/refs/tags/v0.35.0.tar.gz"
+sha256 = "cb75a71479bf52910bf5f47ae8120ec41c89459b0d77d7cd560e674e437ef050"
+
+[build]
+system = "cmake"

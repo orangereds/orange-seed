@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "argocd-vault-plugin"
+version = "1.18.1"
+description = "Argo CD plugin to retrieve secrets from Secret Management tools"
+homepage = "https://argocd-vault-plugin.readthedocs.io"
+
+[source]
+url = "https://github.com/argoproj-labs/argocd-vault-plugin/archive/refs/tags/v1.18.1.tar.gz"
+sha256 = "687141d21c1baaedab6b6d4f5e11e72faf6eec7f7d889be7095a48a888080e32"
+
+[build]
+system = "autotools"

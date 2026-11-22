@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fence"
+version = "0.1.67"
+description = "Lightweight sandbox for commands with network and filesystem restrictions"
+homepage = "https://github.com/fencesandbox/fence"
+
+[source]
+url = "https://github.com/fencesandbox/fence/archive/refs/tags/v0.1.67.tar.gz"
+sha256 = "f2e55bd108816d224f45b3115e0c8feba2cb1a92055f0ebf7839f82b87a84f35"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "libfuse"]
+
+[package]
+name = "sshfs"
+version = "3.7.7"
+description = "File system client based on SSH File Transfer Protocol"
+homepage = "https://github.com/libfuse/sshfs"
+
+[source]
+url = "https://github.com/libfuse/sshfs/archive/refs/tags/sshfs-3.7.7.tar.gz"
+sha256 = "3f2873a2b7e7bdd3179ce2a5ee00d219a043cbd75d5be42ccb9707123a90418f"
+
+[build]
+system = "autotools"

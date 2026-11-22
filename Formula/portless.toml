@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "portless"
+version = "0.18.1"
+description = "Replace port numbers with stable, named local URLs for humans and agents"
+homepage = "https://portless.sh"
+
+[source]
+url = "https://registry.npmjs.org/portless/-/portless-0.18.1.tgz"
+sha256 = "f362d68270a847e8193be946c26c44eff0f2649e33c2cfe60af135f711e04ca9"
+
+[build]
+system = "autotools"

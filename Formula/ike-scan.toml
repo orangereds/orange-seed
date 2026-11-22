@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openssl@4"]
+
+[package]
+name = "ike-scan"
+version = "1.9.5"
+description = "Discover and fingerprint IKE hosts"
+homepage = "https://github.com/royhills/ike-scan"
+
+[source]
+url = "https://github.com/royhills/ike-scan/archive/refs/tags/1.9.5.tar.gz"
+sha256 = "5152bf06ac82d0cadffb93a010ffb6bca7efd35ea169ca7539cf2860ce2b263f"
+
+[build]
+system = "autotools"

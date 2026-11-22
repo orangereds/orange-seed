@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libfabric"
+version = "2.7.0"
+description = "OpenFabrics libfabric"
+homepage = "https://ofiwg.github.io/libfabric/"
+
+[source]
+url = "https://github.com/ofiwg/libfabric/releases/download/v2.7.0/libfabric-2.7.0.tar.bz2"
+sha256 = "366000427e194d4ce22e272519b608afbebb1fc9915bcf5da924157a8a47fe10"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gnupg@1.4"
+version = "0_1"
+description = "GNU Privacy Guard (OpenPGP)"
+homepage = "https://www.gnupg.org/"
+
+[source]
+url = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-1.4.23.tar.bz2"
+sha256 = "c9462f17e651b6507848c08c430c791287cd75491f8b5a8b50c6ed46b12678ba"
+
+[build]
+system = "autotools"

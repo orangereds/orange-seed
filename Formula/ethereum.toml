@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ethereum"
+version = "1.17.10"
+description = "Official Go implementation of the Ethereum protocol"
+homepage = "https://geth.ethereum.org/"
+
+[source]
+url = "https://github.com/ethereum/go-ethereum/archive/refs/tags/v1.17.10.tar.gz"
+sha256 = "d947e1e82eef5ffb46900d1047f207ed5e6f6d2049970cf3f1442669a175fd27"
+
+[build]
+system = "autotools"

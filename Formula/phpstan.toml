@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "phpstan"
+version = "0"
+description = "PHP Static Analysis Tool"
+homepage = "https://phpstan.org/"
+
+[source]
+url = "https://github.com/phpstan/phpstan/releases/download/2.3.7/phpstan.phar"
+sha256 = "87fa9aa451bb9b61d7c65d40ec7d14d5bab67e3ad74ce75a09b3140d6f22631a"
+
+[build]
+system = "autotools"

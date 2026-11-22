@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openjdk"]
+
+[package]
+name = "beagle"
+version = "4.2.0"
+description = "Evaluate the likelihood of sequence evolution on trees"
+homepage = "https://github.com/beagle-dev/beagle-lib"
+
+[source]
+url = "https://github.com/beagle-dev/beagle-lib/archive/refs/tags/v4.2.0.tar.gz"
+sha256 = "b62bcfce58dadacece78d140c0b2f0e2c255408c96cb95d23f01ea5b7eea1970"
+
+[build]
+system = "cmake"

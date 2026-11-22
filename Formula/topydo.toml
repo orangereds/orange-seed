@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "topydo"
+version = "0.16"
+description = "Todo list application using the todo.txt format"
+homepage = "https://github.com/topydo/topydo"
+
+[source]
+url = "https://files.pythonhosted.org/packages/11/6a/8278ac5a59ec633322dcdff278bf74ce8c9d513370cf41d1ecfa5e0376d0/topydo-0.16.tar.gz"
+sha256 = "64a12a990ee39950f0a6e14a5c18e6b35c9e4e4f11cfa40c613d5feb4f086b75"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxfixes", "xorgproto"]
+
+[package]
+name = "libxcomposite"
+version = "0"
+description = "X.Org: Client library for the Composite extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXcomposite-0.4.7.tar.xz"
+sha256 = "8bdf310967f484503fa51714cf97bff0723d9b673e0eecbf92b3f97c060c8ccb"
+
+[build]
+system = "autotools"

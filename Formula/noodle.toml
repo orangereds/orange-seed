@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "zig"]
+
+[package]
+name = "noodle"
+version = "0.11.0"
+description = "Terminal REST client with file-based collections"
+homepage = "https://noodlerest.dev"
+
+[source]
+url = "https://github.com/noodle-rest/noodle/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "5f6bbf259008ce1c76faf29ea8176985dd64c72535ced78ecde9ab37fea67eda"
+
+[build]
+system = "autotools"

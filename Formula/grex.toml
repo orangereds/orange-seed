@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "grex"
+version = "1.4.6"
+description = "Command-line tool for generating regular expressions"
+homepage = "https://pemistahl.github.io/grex-js/"
+
+[source]
+url = "https://github.com/pemistahl/grex/archive/refs/tags/v1.4.6.tar.gz"
+sha256 = "2ab9cb4c3d921711f23ea33a9e60dc11e9eaab450b16d1f2247bea2276822433"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "gumbo-parser"
+version = "0.14.1"
+description = "C99 library for parsing HTML5"
+homepage = "https://codeberg.org/gumbo-parser/gumbo-parser"
+
+[source]
+url = "https://codeberg.org/gumbo-parser/gumbo-parser/archive/0.14.1.tar.gz"
+sha256 = "ba5d13b9b508ec693613b3b61518163aced38f8e885f7e28dc047348a4e61365"
+
+[build]
+system = "autotools"

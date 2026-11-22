@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "i2c-tools"
+version = "4.4"
+description = "Heterogeneous set of I2C tools for Linux"
+homepage = "https://i2c.wiki.kernel.org/index.php/I2C_Tools"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/software/utils/i2c-tools/i2c-tools-4.4.tar.xz"
+sha256 = "8b15f0a880ab87280c40cfd7235cfff28134bf14d5646c07518b1ff6642a2473"
+
+[build]
+system = "make"

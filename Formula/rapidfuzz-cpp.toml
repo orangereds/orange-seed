@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "rapidfuzz-cpp"
+version = "3.3.4"
+description = "Rapid fuzzy string matching in C++ using the Levenshtein Distance"
+homepage = "https://rapidfuzz.github.io/rapidfuzz-cpp/"
+
+[source]
+url = "https://github.com/rapidfuzz/rapidfuzz-cpp/archive/refs/tags/v3.3.4.tar.gz"
+sha256 = "a0dd2ef361cac165e12076696e7c7e8d069a2908abd9599ad4bd190de33f9881"
+
+[build]
+system = "cmake"

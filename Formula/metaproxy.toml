@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "boost", "yaz", "yazpp"]
+
+[package]
+name = "metaproxy"
+version = "1.22.6"
+description = "Z39.50 proxy and router utilizing Yaz toolkit"
+homepage = "https://www.indexdata.com/resources/software/metaproxy/"
+
+[source]
+url = "https://ftp.indexdata.com/pub/metaproxy/metaproxy-1.22.6.tar.gz"
+sha256 = "9d28790771a5591d546ec24b1b4df6894d9ff95031dcd3db9814f65636cc1081"
+
+[build]
+system = "autotools"

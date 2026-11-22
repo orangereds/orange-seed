@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext"]
+
+[package]
+name = "libapplewm"
+version = "0"
+description = "Xlib-based library for the Apple-WM extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://www.x.org/releases/individual/lib/libAppleWM-1.4.1.tar.bz2"
+sha256 = "5e5c85bcd81152b7bd33083135bfe2287636e707bba25f43ea09e1422c121d65"
+
+[build]
+system = "autotools"

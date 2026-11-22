@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ffsend"
+version = "0.2.77"
+description = "Fully featured Firefox Send client"
+homepage = "https://gitlab.com/timvisee/ffsend"
+
+[source]
+url = "https://github.com/timvisee/ffsend/archive/refs/tags/v0.2.77.tar.gz"
+sha256 = "b13329704c5eab7c74ebc29c3f2209290ea00e758139daaefc0ab0d5728c2fa4"
+
+[build]
+system = "autotools"

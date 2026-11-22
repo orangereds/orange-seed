@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["appstream-glib", "autoconf", "automake", "gettext", "intltool", "itstool", "libtool", "pkgconf", "yelp-tools", "adwaita-icon-theme", "at-spi2-core", "cairo", "flac", "gdk-pixbuf", "glib", "gtk+3", "harfbuzz", "hicolor-icon-theme", "id3lib", "libid3tag", "libogg", "libvorbis", "pango", "speex", "taglib", "wavpack"]
+
+[package]
+name = "easy-tag"
+version = "0_12"
+description = "Application for viewing and editing audio file tags"
+homepage = "https://wiki.gnome.org/Apps/EasyTAG"
+
+[source]
+url = "https://download.gnome.org/sources/easytag/2.4/easytag-2.4.3.tar.xz"
+sha256 = "fc51ee92a705e3c5979dff1655f7496effb68b98f1ada0547e8cbbc033b67dd5"
+
+[build]
+system = "autotools"

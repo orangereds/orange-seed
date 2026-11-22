@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "jpeg-turbo", "libpng"]
+
+[package]
+name = "ffmpegthumbnailer"
+version = "2.4.2"
+description = "Create thumbnails for your video files"
+homepage = "https://github.com/dirkvdb/ffmpegthumbnailer"
+
+[source]
+url = "https://github.com/dirkvdb/ffmpegthumbnailer/archive/refs/tags/v2.4.2.tar.gz"
+sha256 = "56816a9e3f9fc2a86d37cbc970933f826937ddc4e48733748085ca72ffa776d6"
+
+[build]
+system = "cmake"

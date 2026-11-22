@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "b2-tools"
+version = "0"
+description = "B2 Cloud Storage Command-Line Tools"
+homepage = "https://github.com/Backblaze/B2_Command_Line_Tool"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6d/51/24ac5f9aa1a07ee431208e4622afe9ee4f74819445b285386248f1207db5/b2-5.0.3.tar.gz"
+sha256 = "ffd86e0f6127592b078db94e0044c9ec13dfb85b46a379316dd9d617b1545494"
+
+[build]
+system = "autotools"

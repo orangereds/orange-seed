@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf"]
+
+[package]
+name = "atmos"
+version = "1.234.1"
+description = "Universal Tool for DevOps and Cloud Automation"
+homepage = "https://atmos.tools"
+
+[source]
+url = "https://github.com/cloudposse/atmos/archive/refs/tags/v1.234.1.tar.gz"
+sha256 = "b118a9189ca01c6212e7aa0a10c4d1552a25477b5e556556664edcc2b22d359d"
+
+[build]
+system = "autotools"

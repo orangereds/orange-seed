@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libidn2", "lz4", "openssl@4", "popt", "xxhash", "zstd"]
+
+[package]
+name = "rsync"
+version = "3.5.2"
+description = "Utility that provides fast incremental file transfer"
+homepage = "https://rsync.samba.org/"
+
+[source]
+url = "https://github.com/RsyncProject/rsync/releases/download/v3.5.2/rsync-3.5.2.tar.gz"
+sha256 = "a10d591825251e070f74c98df3daad195def4ed81b4a2de16169026aea33f6c8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mcphost"
+version = "0.34.0"
+description = "CLI host for LLMs to interact with tools via MCP"
+homepage = "https://github.com/mark3labs/mcphost"
+
+[source]
+url = "https://github.com/mark3labs/mcphost/archive/refs/tags/v0.34.0.tar.gz"
+sha256 = "997e8b2fe3f5adb7f6b051c66166df8ffa1c6dba5de46fcc4e0975ed934ad743"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mkbrr"
+version = "1.27.0"
+description = "Is a tool to create, modify and inspect torrent files. Fast"
+homepage = "https://mkbrr.com/introduction"
+
+[source]
+url = "https://github.com/autobrr/mkbrr/archive/refs/tags/v1.27.0.tar.gz"
+sha256 = "a9056b74dfe805890a7b629c9aa642297909ee5d8829bbae2594d957ef6c72f1"
+
+[build]
+system = "autotools"

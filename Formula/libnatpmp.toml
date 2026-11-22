@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libnatpmp"
+version = "0"
+description = "NAT port mapping protocol library"
+homepage = "https://miniupnp.tuxfamily.org/libnatpmp.html"
+
+[source]
+url = "https://miniupnp.tuxfamily.org/files/download.php?file=libnatpmp-20230423.tar.gz"
+sha256 = "0684ed2c8406437e7519a1bd20ea83780db871b3a3a5d752311ba3e889dbfc70"
+
+[build]
+system = "make"

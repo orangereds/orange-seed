@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jqfmt"
+version = "0.1.0"
+description = "Opinionated formatter for jq"
+homepage = "https://github.com/noperator/jqfmt"
+
+[source]
+url = "https://github.com/noperator/jqfmt/archive/refs/tags/v0.1.0.tar.gz"
+sha256 = "5435c3166921ea103513d516c4d56ee00755d6b0b798f3edbdabfc06a1d98268"
+
+[build]
+system = "autotools"

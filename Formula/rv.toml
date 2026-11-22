@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rv"
+version = "0.7.2"
+description = "Ruby version manager"
+homepage = "https://github.com/spinel-coop/rv"
+
+[source]
+url = "https://github.com/spinel-coop/rv/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "3336a90e0cd559b8ba6b1887f51df78a0fb74e0e8abe858686c80e31f67fa29d"
+
+[build]
+system = "autotools"

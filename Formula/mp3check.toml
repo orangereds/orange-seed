@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mp3check"
+version = "0.8.7"
+description = "Tool to check mp3 files for consistency"
+homepage = "https://code.google.com/archive/p/mp3check/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mp3check/mp3check-0.8.7.tgz"
+sha256 = "27d976ad8495671e9b9ce3c02e70cb834d962b6fdf1a7d437bb0e85454acdd0e"
+
+[build]
+system = "autotools"

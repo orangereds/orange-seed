@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "firefly"
+version = "1.5.0"
+description = "Create and manage the Hyperledger FireFly stack for blockchain interaction"
+homepage = "https://hyperledger-firefly.github.io/firefly/latest/"
+
+[source]
+url = "https://github.com/hyperledger-firefly/cli/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "f9c73ca146af0e9e5ed5ef68d45c5733375f211233e5093ca060c9ddf8587f0b"
+
+[build]
+system = "autotools"

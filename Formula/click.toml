@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "click"
+version = "0.6.3"
+description = "Command-line interactive controller for Kubernetes"
+homepage = "https://github.com/databricks/click"
+
+[source]
+url = "https://github.com/databricks/click/archive/refs/tags/v0.6.3.tar.gz"
+sha256 = "da64d1d205b6136f318dea967eec4e9d67569be8f332875afcc6b31c9a0ef1b7"
+
+[build]
+system = "autotools"

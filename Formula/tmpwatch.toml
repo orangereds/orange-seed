@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tmpwatch"
+version = "2.11"
+description = "Find and remove files not accessed in a specified time"
+homepage = "https://pagure.io/tmpwatch"
+
+[source]
+url = "https://releases.pagure.org/tmpwatch/tmpwatch-2.11.tar.bz2"
+sha256 = "93168112b2515bc4c7117e8113b8d91e06b79550d2194d62a0c174fe6c2aa8d4"
+
+[build]
+system = "autotools"

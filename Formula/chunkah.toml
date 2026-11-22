@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4", "zlib-ng-compat"]
+
+[package]
+name = "chunkah"
+version = "0.7.1"
+description = "OCI building tool for content-based layers"
+homepage = "https://github.com/coreos/chunkah"
+
+[source]
+url = "https://github.com/coreos/chunkah/releases/download/v0.7.1/chunkah-0.7.1.tar.gz"
+sha256 = "12c0101532e4c65cd63244f28ed801296df9d0a7302e3646026387f684fb690b"
+
+[build]
+system = "autotools"

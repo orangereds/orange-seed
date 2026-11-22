@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "sysaidmin"
+version = "0.2.5_21"
+description = "GPT-powered sysadmin"
+homepage = "https://github.com/skorokithakis/sysaidmin"
+
+[source]
+url = "https://files.pythonhosted.org/packages/01/d8/f2b32cc85a544d1487bbdda7ec48d214c0e551d2d0ae6bbbb49d707fe297/sysaidmin-0.2.5.tar.gz"
+sha256 = "77c40710cead7bdcc6cb98b38d74dd05e1e1c24dbc450e3b983869a7c06da91f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "gettext", "glib"]
+
+[package]
+name = "glyr"
+version = "1.0.10_3"
+description = "Music related metadata search engine with command-line interface and C API"
+homepage = "https://github.com/sahib/glyr"
+
+[source]
+url = "https://github.com/sahib/glyr/archive/refs/tags/1.0.10.tar.gz"
+sha256 = "77e8da60221c8d27612e4a36482069f26f8ed74a1b2768ebc373c8144ca806e8"
+
+[build]
+system = "cmake"

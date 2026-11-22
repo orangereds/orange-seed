@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15"]
+
+[package]
+name = "twine"
+version = "7.0.0_1"
+description = "Utilities for interacting with PyPI"
+homepage = "https://github.com/pypa/twine"
+
+[source]
+url = "https://files.pythonhosted.org/packages/92/3c/58f808a359700f39a967dffede33efeac809262c03303fa3eec6afff8f49/twine-7.0.0.tar.gz"
+sha256 = "85cdb29c518efef867360ae4acd4b0dfd61c8654a22fca08e6f8539f05022177"
+
+[build]
+system = "autotools"

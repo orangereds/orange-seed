@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lynis"
+version = "3.1.7"
+description = "Security and system auditing tool to harden systems"
+homepage = "https://cisofy.com/lynis/"
+
+[source]
+url = "https://github.com/CISOfy/lynis/archive/refs/tags/3.1.7.tar.gz"
+sha256 = "48d829d0dc2c583a3e838cc09a7190b69a3af844bcb913c7cf9c0226b04b95c5"
+
+[build]
+system = "autotools"

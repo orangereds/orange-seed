@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "quint"
+version = "0.33.1"
+description = "Core tool for the Quint specification language"
+homepage = "https://quint-lang.org"
+
+[source]
+url = "https://registry.npmjs.org/@informalsystems/quint/-/quint-0.33.1.tgz"
+sha256 = "a219b8566a2e559840a46ee85fc70e7e202c7c02e01e3eb9d393fa32ef692bd6"
+
+[build]
+system = "autotools"

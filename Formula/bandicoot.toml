@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "clblast", "openblas"]
+
+[package]
+name = "bandicoot"
+version = "0"
+description = "C++ library for GPU accelerated linear algebra"
+homepage = "https://coot.sourceforge.io/"
+
+[source]
+url = "https://gitlab.com/bandicoot-lib/bandicoot-code/-/archive/5.0.0/bandicoot-code-5.0.0.tar.bz2"
+sha256 = "875f64e13d370d9659a719a389ada4bbc1cd2caa38c68d52087c9a8ff88ef64f"
+
+[build]
+system = "cmake"

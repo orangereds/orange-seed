@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "glib", "libx11", "readline", "spidermonkey@140", "gettext"]
+
+[package]
+name = "gjs"
+version = "1.90.1_2"
+description = "JavaScript Bindings for GNOME"
+homepage = "https://gitlab.gnome.org/GNOME/gjs/wikis/Home"
+
+[source]
+url = "https://download.gnome.org/sources/gjs/1.90/gjs-1.90.1.tar.xz"
+sha256 = "05ceaa80f48e3782e5c44938572fad863e02b8c4a6c55657a99aa81db8ce9efa"
+
+[build]
+system = "autotools"

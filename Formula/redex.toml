@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libevent", "libtool", "boost", "jsoncpp", "python@3.15"]
+
+[package]
+name = "redex"
+version = "2026.09.09_1"
+description = "Bytecode optimizer for Android apps"
+homepage = "https://fbredex.com/"
+
+[source]
+url = "https://github.com/facebook/redex/archive/refs/tags/v2026.09.09.tar.gz"
+sha256 = "9bea5953cd1e06f6c32ec913c79c11893624caf621a62f3b4d065a6c77e0988e"
+
+[build]
+system = "autotools"

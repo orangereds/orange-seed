@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "yacas"
+version = "1.9.1"
+description = "General purpose computer algebra system"
+homepage = "https://www.yacas.org/"
+
+[source]
+url = "https://github.com/grzegorzmazur/yacas/archive/refs/tags/v1.9.1.tar.gz"
+sha256 = "36333e9627a0ed27def7a3d14628ecaab25df350036e274b37f7af1d1ff7ef5b"
+
+[build]
+system = "cmake"

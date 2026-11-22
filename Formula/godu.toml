@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "godu"
+version = "1.5.2"
+description = "Simple golang utility helping to discover large files/folders"
+homepage = "https://github.com/viktomas/godu"
+
+[source]
+url = "https://github.com/viktomas/godu/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "09869710652969b8a9d227dea4ac33893b1f538197b101affa6a8a9aa6a50474"
+
+[build]
+system = "autotools"

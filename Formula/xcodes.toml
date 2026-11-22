@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcodes"
+version = "2.2.0"
+description = "Command-line tool to install and switch between multiple versions of Xcode"
+homepage = "https://github.com/XcodesOrg/xcodes"
+
+[source]
+url = "https://github.com/XcodesOrg/xcodes/archive/refs/tags/2.2.0.tar.gz"
+sha256 = "29fcc60507f1b226d1a7384dac34c2b0e56067575bb428fc7bb2d3d030683fa9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libpq", "luajit", "mariadb-connector-c"]
+
+[package]
+name = "sysbench"
+version = "1.0.20_7"
+description = "System performance benchmark tool"
+homepage = "https://github.com/akopytov/sysbench"
+
+[source]
+url = "https://github.com/akopytov/sysbench/archive/refs/tags/1.0.20.tar.gz"
+sha256 = "e8ee79b1f399b2d167e6a90de52ccc90e52408f7ade1b9b7135727efe181347f"
+
+[build]
+system = "autotools"

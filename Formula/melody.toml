@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "melody"
+version = "0.20.0"
+description = "Language that compiles to regular expressions"
+homepage = "https://yoav-lavi.github.io/melody/book"
+
+[source]
+url = "https://github.com/yoav-lavi/melody/archive/refs/tags/v0.20.0.tar.gz"
+sha256 = "b0dd1b0ecc1af97f09f98a9a741e0dddbf92380c9980140140ff1b4262b9a44a"
+
+[build]
+system = "autotools"

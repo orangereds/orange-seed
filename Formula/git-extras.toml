@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-extras"
+version = "7.5.0"
+description = "Small git utilities"
+homepage = "https://github.com/tj/git-extras"
+
+[source]
+url = "https://github.com/tj/git-extras/archive/refs/tags/7.5.0.tar.gz"
+sha256 = "bcfe0eabdccc806e53a10130fed6fb02373720ddeb670eecc5cc84d041d79880"
+
+[build]
+system = "make"

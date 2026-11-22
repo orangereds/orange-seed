@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libupnp"
+version = "22.2.4"
+description = "Portable UPnP development kit"
+homepage = "https://pupnp.sourceforge.io/"
+
+[source]
+url = "https://github.com/pupnp/pupnp/releases/download/release-22.2.4/libupnp-22.2.4.tar.bz2"
+sha256 = "3beac41548eac76d22633724d13324a391cc656c6bcf070ed9957abb87efd2de"
+
+[build]
+system = "cmake"

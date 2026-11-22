@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "microplane"
+version = "0.0.37"
+description = "CLI tool to make git changes across many repos"
+homepage = "https://github.com/Clever/microplane"
+
+[source]
+url = "https://github.com/Clever/microplane/archive/refs/tags/v0.0.37.tar.gz"
+sha256 = "437f65748272de89b8a6990f0f9fca57addf6ff6f8e4de077869976d2ce36154"
+
+[build]
+system = "autotools"

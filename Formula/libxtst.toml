@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "libx11", "libxext", "libxi", "xorgproto"]
+
+[package]
+name = "libxtst"
+version = "0"
+description = "X.Org: Client API for the XTEST & RECORD extensions"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXtst-1.2.6.tar.gz"
+sha256 = "f30f2d4f8370077de9f35220a539bf34c042ca02a55669a4d8f345c661ce7839"
+
+[build]
+system = "autotools"

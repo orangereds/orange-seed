@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "mkdocs-material"
+version = "0"
+description = "Material Design theme for MkDocs"
+homepage = "https://squidfunk.github.io/mkdocs-material/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/99/bf/c47389fa622b513c2d115eb4c16075ef04a5f4d8156039f46cb26e5c70a9/mkdocs_material-9.8.2.tar.gz"
+sha256 = "005d942bdbfa22efa049f4818c31d42fb36bed6d362adb641dd7a2e948078f9d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bottom"
+version = "0.15.0"
+description = "Yet another cross-platform graphical process/system monitor"
+homepage = "https://clementtsang.github.io/bottom/"
+
+[source]
+url = "https://github.com/ClementTsang/bottom/archive/refs/tags/0.15.0.tar.gz"
+sha256 = "9b38fd551ef9e67bb8dc09a658e7c9594913fc5c43154f264d5b776416ad1c4d"
+
+[build]
+system = "autotools"

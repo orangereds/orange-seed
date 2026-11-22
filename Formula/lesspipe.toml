@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bash"]
+
+[package]
+name = "lesspipe"
+version = "2.30"
+description = "Input filter for the pager less"
+homepage = "https://lesspipe.org"
+
+[source]
+url = "https://github.com/wofr06/lesspipe/archive/refs/tags/v2.30.tar.gz"
+sha256 = "c54867a84b91acce772d24728c97c142b4b9a02034e322ed2d2a5755745b621d"
+
+[build]
+system = "autotools"

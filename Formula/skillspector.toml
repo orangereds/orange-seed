@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libyaml", "numpy", "pydantic", "python@3.15", "xxhash", "yara", "zstd"]
+
+[package]
+name = "skillspector"
+version = "2.13.6"
+description = "Security scanner for AI agent skills"
+homepage = "https://github.com/NVIDIA/SkillSpector"
+
+[source]
+url = "https://github.com/NVIDIA/SkillSpector/archive/refs/tags/v2.13.6.tar.gz"
+sha256 = "758b8d04ee6300d76242bfca1ea7e17c33faa7500f49640dbcceb5d23c3322e9"
+
+[build]
+system = "autotools"

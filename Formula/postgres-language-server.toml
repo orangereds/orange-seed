@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "node", "rust", "tree-sitter", "tree-sitter-cli", "libpg_query"]
+
+[package]
+name = "postgres-language-server"
+version = "0.28.2"
+description = "Language Server for Postgres"
+homepage = "https://pg-language-server.com/"
+
+[source]
+url = "https://github.com/supabase-community/postgres-language-server/archive/refs/tags/0.28.2.tar.gz"
+sha256 = "738f169880dffae0c219c88b5c2dae3d2b79fca147e4804f4f4d3362d210afcd"
+
+[build]
+system = "autotools"

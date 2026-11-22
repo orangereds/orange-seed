@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["texinfo", "libgcrypt", "argp-standalone"]
+
+[package]
+name = "freeipmi"
+version = "1.6.20"
+description = "In-band and out-of-band IPMI (v1.5/2.0) software"
+homepage = "https://www.gnu.org/software/freeipmi/"
+
+[source]
+url = "https://ftpmirror.gnu.org/freeipmi/freeipmi-1.6.20.tar.gz"
+sha256 = "9cc644530ee629ffb94d6fd209e7cb4a8b8ae6677f89d2dc461efed9b2e709f2"
+
+[build]
+system = "autotools"

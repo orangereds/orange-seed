@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "uncover"
+version = "1.2.1"
+description = "Tool to discover exposed hosts on the internet using multiple search engines"
+homepage = "https://github.com/projectdiscovery/uncover"
+
+[source]
+url = "https://github.com/projectdiscovery/uncover/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "80e5e8531ac53a24b4acba2ab96e5ab33ecc137a3e0baa97caabae0c859b64eb"
+
+[build]
+system = "autotools"

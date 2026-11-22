@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bob"
+version = "4.3.0"
+description = "Version manager for neovim"
+homepage = "https://github.com/MordechaiHadad/bob"
+
+[source]
+url = "https://github.com/MordechaiHadad/bob/archive/refs/tags/v4.3.0.tar.gz"
+sha256 = "1f026e303bf79274da0ef2ad72ea5de3d3b75001fc17998437f9e3ce2ce87454"
+
+[build]
+system = "autotools"

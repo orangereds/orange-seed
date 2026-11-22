@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ucon64"
+version = "2.2.2-src"
+description = "ROM backup tool and emulator's Swiss Army knife program"
+homepage = "https://ucon64.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ucon64/ucon64/ucon64-2.2.2/ucon64-2.2.2-src.tar.gz"
+sha256 = "e100ad4a30f6c19abde98e361c6a0ecac4e40477f54cfb75498c5ccd21fb3a18"
+
+[build]
+system = "autotools"

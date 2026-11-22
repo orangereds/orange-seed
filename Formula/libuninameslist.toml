@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libuninameslist"
+version = "0"
+description = "Library of Unicode names and annotation data"
+homepage = "https://github.com/fontforge/libuninameslist"
+
+[source]
+url = "https://github.com/fontforge/libuninameslist/releases/download/20260918/libuninameslist-dist-20260918.tar.gz"
+sha256 = "deb2ec02640c232a4bc333c2cd301ee6b286914eeeb0ccc31ccafe326aed0029"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "lua"]
+
+[package]
+name = "fennel-ls"
+version = "0.2.4"
+description = "Language Server for Fennel"
+homepage = "https://git.sr.ht/~xerool/fennel-ls/"
+
+[source]
+url = "https://git.sr.ht/~xerool/fennel-ls/archive/0.2.4.tar.gz"
+sha256 = "d50a48e2c65e84c87694cf7fd142ffcfc3a573567a1610a0b1accb97930ee2d5"
+
+[build]
+system = "make"

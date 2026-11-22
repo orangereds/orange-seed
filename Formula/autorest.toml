@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "autorest"
+version = "3.8.0"
+description = "Swagger (OpenAPI) Specification code generator"
+homepage = "https://github.com/Azure/autorest"
+
+[source]
+url = "https://registry.npmjs.org/autorest/-/autorest-3.8.0.tgz"
+sha256 = "0d1739956d385d7f0951d4622078c73d9dada27340ca39cfaaa8ba7f8ab5bae1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "juicefs"
+version = "1.4.2"
+description = "Cloud-based, distributed POSIX file system built on top of Redis and S3"
+homepage = "https://juicefs.com"
+
+[source]
+url = "https://github.com/juicedata/juicefs/archive/refs/tags/v1.4.2.tar.gz"
+sha256 = "d398e39c4545b63685aa8846fb8847d3f5f37c93ea8436e49f6cf19d16e8091c"
+
+[build]
+system = "autotools"

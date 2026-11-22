@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "snooze"
+version = "0.6"
+description = "Run a command at a particular time"
+homepage = "https://github.com/leahneukirchen/snooze"
+
+[source]
+url = "https://github.com/leahneukirchen/snooze/archive/refs/tags/v0.6.tar.gz"
+sha256 = "3a4a2f3f00d42e30647d9af79c8e417990ced6c3f0565474b1ca717938b1e2ab"
+
+[build]
+system = "make"

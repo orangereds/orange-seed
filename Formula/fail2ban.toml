@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sphinx-doc", "python@3.15"]
+
+[package]
+name = "fail2ban"
+version = "1.1.1"
+description = "Scan log files and ban IPs showing malicious signs"
+homepage = "https://www.fail2ban.org/"
+
+[source]
+url = "https://github.com/fail2ban/fail2ban/archive/refs/tags/1.1.1.tar.gz"
+sha256 = "4be0ea0488e32de260058462a44a040f0542cd26a9fb6fa6d2514f9dd8ec1609"
+
+[service]
+run = "opt/fail2ban/bin/fail2ban-client -x start"
+
+[build]
+system = "autotools"

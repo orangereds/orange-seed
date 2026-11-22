@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "glances"
+version = "4.5.9"
+description = "Alternative to top/htop"
+homepage = "https://nicolargo.github.io/glances/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/49/5b/55cabe18c354a0418540e8864e36929854cc0eb2101180d9723e8aaa4fe2/glances-4.5.9.tar.gz"
+sha256 = "c197954341ee5a7f8657e87456884b1f52af4bc966f6ab3f1d4c37cf580f5fa0"
+
+[build]
+system = "autotools"

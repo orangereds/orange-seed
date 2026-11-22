@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "eigen", "rapidjson", "spdlog", "fmt"]
+
+[package]
+name = "vowpal-wabbit"
+version = "9.11.9"
+description = "Online learning algorithm"
+homepage = "https://vowpalwabbit.org"
+
+[source]
+url = "https://github.com/VowpalWabbit/vowpal_wabbit/archive/refs/tags/9.11.9.tar.gz"
+sha256 = "d45593dd0c2a6fbc39dfe1754ac23c27cb93b972e363fd756c54db05c50f613c"
+
+[build]
+system = "cmake"

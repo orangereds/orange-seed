@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "bdw-gc", "mariadb-connector-c", "mbedtls@3", "pcre2"]
+
+[package]
+name = "neko"
+version = "2.4.1_1"
+description = "High-level, dynamically typed programming language"
+homepage = "https://nekovm.org/"
+
+[source]
+url = "https://github.com/HaxeFoundation/neko/archive/refs/tags/v2-4-1.tar.gz"
+sha256 = "702282028190dffa2078b00cca515b8e2ba889186a221df2226d2b6deb3ffaca"
+
+[build]
+system = "cmake"

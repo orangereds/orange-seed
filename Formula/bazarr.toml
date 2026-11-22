@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "ffmpeg", "numpy", "pillow", "python@3.15", "unar"]
+
+[package]
+name = "bazarr"
+version = "0_1"
+description = "Companion to Sonarr and Radarr for managing and downloading subtitles"
+homepage = "https://www.bazarr.media"
+
+[source]
+url = "https://github.com/morpheus65535/bazarr/releases/download/v1.6.2/bazarr.zip"
+sha256 = "82d1c61ea8508b28503d820bd5924360cc503467e7de51fa29205cac34c2627b"
+
+[service]
+run = "opt/bazarr/bin/bazarr"
+keep_alive = true
+log_path = "var/log/bazarr.log"
+error_log_path = "var/log/bazarr.log"
+
+[build]
+system = "autotools"

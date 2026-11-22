@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "write-good"
+version = "1.0.8"
+description = "Naive linter for English prose"
+homepage = "https://github.com/btford/write-good"
+
+[source]
+url = "https://registry.npmjs.org/write-good/-/write-good-1.0.8.tgz"
+sha256 = "f54db3db8db0076fd1c05411c7f3923f055176632c51dc4046ab216e51130221"
+
+[build]
+system = "autotools"

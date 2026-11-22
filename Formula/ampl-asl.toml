@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "ampl-asl"
+version = "1.0.2"
+description = "AMPL Solver Library"
+homepage = "https://ampl.com/"
+
+[source]
+url = "https://github.com/ampl/asl/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "cf907bcd14ed172d75e3d0fd34f11b3f8e42154d696cf0f8c73e217f5bf149c6"
+
+[build]
+system = "cmake"

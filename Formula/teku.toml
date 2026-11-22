@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@25"]
+
+[package]
+name = "teku"
+version = "0"
+description = "Java Implementation of the Ethereum 2.0 Beacon Chain"
+homepage = "https://docs.teku.consensys.net/"
+
+[source]
+url = "https://github.com/ConsenSys/teku.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

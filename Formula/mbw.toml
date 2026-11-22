@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "mbw"
+version = "2.0"
+description = "Memory Bandwidth Benchmark"
+homepage = "https://github.com/raas/mbw/"
+
+[source]
+url = "https://github.com/raas/mbw/archive/refs/tags/v2.0.tar.gz"
+sha256 = "557f670e13ff663086fe239e4184d8ca6154b004bd5fde2b0a748e5aa543c87f"
+
+[build]
+system = "cmake"

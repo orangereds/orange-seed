@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jq", "pcre2"]
+
+[package]
+name = "zsv"
+version = "1.4.4"
+description = "Tabular data swiss-army knife CLI"
+homepage = "https://github.com/liquidaty/zsv"
+
+[source]
+url = "https://github.com/liquidaty/zsv/archive/refs/tags/v1.4.4.tar.gz"
+sha256 = "99486b6901d6b576bf15afceb0bcc888ceeb3f555a6d489547eefe67eff52079"
+
+[build]
+system = "autotools"

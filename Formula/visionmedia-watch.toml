@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "visionmedia-watch"
+version = "0.4.0"
+description = "Periodically executes the given command"
+homepage = "https://github.com/tj/watch"
+
+[source]
+url = "https://github.com/tj/watch/archive/refs/tags/0.4.0.tar.gz"
+sha256 = "d37ead189a644661d219b566170122b80d44f235c0df6df71b2b250f3b412547"
+
+[build]
+system = "make"

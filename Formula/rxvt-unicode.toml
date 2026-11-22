@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "fontconfig", "freetype", "libx11", "libxext", "libxft", "libxmu", "libxrender", "libxt"]
+
+[package]
+name = "rxvt-unicode"
+version = "9.32"
+description = "Rxvt fork with Unicode support"
+homepage = "https://software.schmorp.de/pkg/rxvt-unicode.html"
+
+[source]
+url = "https://dist.schmorp.de/rxvt-unicode/rxvt-unicode-9.32.tar.bz2"
+sha256 = "2f81c16bffb16f97c4633032e08a7ef08c000f81eb05853e950febc6c33328dd"
+
+[build]
+system = "cmake"

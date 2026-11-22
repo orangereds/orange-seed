@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hdf5", "libaec", "zstd"]
+
+[package]
+name = "netcdf"
+version = "4.10.1_1"
+description = "Libraries and data formats for array-oriented scientific data"
+homepage = "https://www.unidata.ucar.edu/software/netcdf/"
+
+[source]
+url = "https://github.com/Unidata/netcdf-c/archive/refs/tags/v4.10.1.tar.gz"
+sha256 = "33c27231c478c3b35da7c7758fbdd02da1fe407abcb16ddfe195f69d164f930d"
+
+[build]
+system = "cmake"

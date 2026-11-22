@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openssl@4", "readline"]
+
+[package]
+name = "pwsafe"
+version = "0.2.0_4"
+description = "Generate passwords and manage encrypted password databases"
+homepage = "https://github.com/nsd20463/pwsafe"
+
+[source]
+url = "https://src.fedoraproject.org/repo/pkgs/pwsafe/pwsafe-0.2.0.tar.gz/4bb36538a2772ecbf1a542bc7d4746c0/pwsafe-0.2.0.tar.gz"
+sha256 = "61e91dc5114fe014a49afabd574eda5ff49b36c81a6d492c03fcb10ba6af47b7"
+
+[build]
+system = "autotools"

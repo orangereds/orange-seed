@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "sqlite"]
+
+[package]
+name = "vcprompt"
+version = "1.3.0"
+description = "Provide version control info in shell prompts"
+homepage = "https://github.com/powerman/vcprompt"
+
+[source]
+url = "https://github.com/powerman/vcprompt/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "3db5ebad2e333d43b464b665c8d43b35156b0f144052f10c340a5c5007a6874d"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf", "librevenge"]
+
+[package]
+name = "libabw"
+version = "0.1.4"
+description = "Library for parsing AbiWord documents"
+homepage = "https://wiki.documentfoundation.org/DLP/Libraries/libabw"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libabw/libabw-0.1.4.tar.xz"
+sha256 = "fa2685a3440da6e03a66a778480d93cb95f6064e4541e58e37397680760fd6a0"
+
+[build]
+system = "autotools"

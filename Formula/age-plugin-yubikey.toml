@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "age-plugin-yubikey"
+version = "0.5.1"
+description = "Plugin for encrypting files with age and PIV tokens such as YubiKeys"
+homepage = "https://github.com/str4d/age-plugin-yubikey"
+
+[source]
+url = "https://github.com/str4d/age-plugin-yubikey/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "51e4680ad7ad7f56535e4f3018531bd0196815659378709979617d4f17102700"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "double-conversion", "fftw", "gdcm", "hdf5", "jpeg-turbo", "libpng", "libtiff", "vtk", "freetype", "glew"]
+
+[package]
+name = "itk"
+version = "0_1"
+description = "Insight Toolkit is a toolkit for performing registration and segmentation"
+homepage = "https://itk.org"
+
+[source]
+url = "https://github.com/InsightSoftwareConsortium/ITK/releases/download/v5.4.7/InsightToolkit-5.4.7.tar.gz"
+sha256 = "4907033e0e93fb04734df8556b88a670ba630b4f42b52e9f25ed4d084a7ab925"
+
+[build]
+system = "autotools"

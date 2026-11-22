@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "cmark-gfm", "llvm"]
+
+[package]
+name = "standardese"
+version = "0_25"
+description = "Next-gen documentation generator for C++"
+homepage = "https://standardese.github.io"
+
+[source]
+url = "https://github.com/standardese/standardese.git"
+sha256 = "e5f03ea321572dd52b9241c2a01838dfe7e6df7e363a8d19bfeac5861baf5d3f"
+
+[build]
+system = "cmake"

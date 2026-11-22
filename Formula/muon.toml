@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "scdoc", "libarchive", "ninja", "pkgconf"]
+
+[package]
+name = "muon"
+version = "0.7.1"
+description = "Meson-compatible build system"
+homepage = "https://muon.build"
+
+[source]
+url = "https://git.sr.ht/~lattis/muon/archive/0.7.1.tar.gz"
+sha256 = "967a99ade648a850807d5637c80d55043ded34556e9dcbfec8736d6de52f96c5"
+
+[build]
+system = "autotools"

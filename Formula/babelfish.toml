@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "fish"]
+
+[package]
+name = "babelfish"
+version = "1.2.1"
+description = "Translate bash scripts to fish"
+homepage = "https://github.com/bouk/babelfish"
+
+[source]
+url = "https://github.com/bouk/babelfish/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "967a9020e905f01b0d3150a37f35d21e8d051c634eebf479bc1503d95f81a1d9"
+
+[build]
+system = "autotools"

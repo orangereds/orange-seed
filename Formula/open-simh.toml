@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpng", "vde"]
+
+[package]
+name = "open-simh"
+version = "3.12-3"
+description = "Multi-system computer simulator"
+homepage = "https://opensimh.org/"
+
+[source]
+url = "https://github.com/open-simh/simh/archive/refs/tags/v3.12-3.tar.gz"
+sha256 = "9d0370c79e8910fa1cd2b19d23885bfaa5564df86101c40481dd9b6e64593b18"
+
+[build]
+system = "autotools"

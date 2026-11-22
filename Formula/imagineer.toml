@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "nasm"]
+
+[package]
+name = "imagineer"
+version = "0.25.1"
+description = "Image processing and conversion from the terminal"
+homepage = "https://github.com/foresterre/imagineer"
+
+[source]
+url = "https://github.com/foresterre/imagineer/archive/refs/tags/v0.25.1.tar.gz"
+sha256 = "16ed8ebe47f7af676b333a8abc11bf60b0ab490bbda0de9cf8a04cbf50d5f8c9"
+
+[build]
+system = "autotools"

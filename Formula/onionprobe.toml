@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15", "tor"]
+
+[package]
+name = "onionprobe"
+version = "1.4.1_5"
+description = "Test and monitoring tool for Tor Onion Services"
+homepage = "https://tpo.pages.torproject.net/onion-services/onionprobe/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/30/d0/6441b228ce174481ace50dec6a19ce6298eebdb35d06f40f7b1de66f51c4/onionprobe-1.4.1.tar.gz"
+sha256 = "45c12c89829e344422974aa9d56cc653d1e20a2f225e73ee18aeb995ca47a2be"
+
+[build]
+system = "autotools"

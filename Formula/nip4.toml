@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "flex", "meson", "ninja", "pkgconf", "cairo", "gdk-pixbuf", "glib", "graphene", "gsl", "gtk4", "hicolor-icon-theme", "libxml2", "pango", "vips", "gettext"]
+
+[package]
+name = "nip4"
+version = "9.1.5"
+description = "Image processing spreadsheet"
+homepage = "https://github.com/libvips/nip4"
+
+[source]
+url = "https://github.com/libvips/nip4/releases/download/v9.1.5/nip4-9.1.5.tar.xz"
+sha256 = "ceea7a00f9e8182195c3b4a62416145dbc303f44f62a09bfce0690fd6fbf1ecc"
+
+[build]
+system = "autotools"

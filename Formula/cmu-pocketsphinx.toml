@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "cmu-pocketsphinx"
+version = "5.1.1"
+description = "Lightweight speech recognition engine for mobile devices"
+homepage = "https://cmusphinx.github.io/"
+
+[source]
+url = "https://github.com/cmusphinx/pocketsphinx/archive/refs/tags/v5.1.1.tar.gz"
+sha256 = "e2db414eb66618cd0a98de77507db32517a48f6900b06bfb94c0acc4bef5761d"
+
+[build]
+system = "cmake"

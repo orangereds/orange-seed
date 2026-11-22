@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "globus-cli"
+version = "0"
+description = "Command-line interface to Globus"
+homepage = "https://docs.globus.org/cli/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4d/c6/0b0f5482eed6600e3110e41298bea7982fec708910401f2d0b74f18ffff6/globus_cli-3.44.0.tar.gz"
+sha256 = "44881798eeeff7c41a56997c48c7d0de4ba9ac3149cbdd5125f4dfea43d6375a"
+
+[build]
+system = "autotools"

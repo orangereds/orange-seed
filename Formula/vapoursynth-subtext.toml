@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "ffmpeg", "libass", "python@3.15", "vapoursynth"]
+
+[package]
+name = "vapoursynth-subtext"
+version = "0_1"
+description = "VapourSynth filters - Subtitling filter"
+homepage = "https://www.vapoursynth.com"
+
+[source]
+url = "https://github.com/vapoursynth/subtext/archive/refs/tags/R7.tar.gz"
+sha256 = "5390048844b6bfaa2ef574a52158f5a31f5568790d98e64c99ac5543bf45d38d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "docbook-xsl", "gettext", "nlohmann-json", "pkgconf", "utf8cpp", "boost", "flac", "fmt", "gmp", "libebml", "libmatroska", "libogg", "libvorbis", "pugixml", "qtbase"]
+
+[package]
+name = "mkvtoolnix"
+version = "103.0"
+description = "Matroska media files manipulation tools"
+homepage = "https://mkvtoolnix.download/"
+
+[source]
+url = "https://mkvtoolnix.download/sources/mkvtoolnix-103.0.tar.xz"
+sha256 = "d609bc395c409eade05d0a3a5aedd26e09739e232ed03b0f937cf8bd9448c590"
+
+[build]
+system = "autotools"

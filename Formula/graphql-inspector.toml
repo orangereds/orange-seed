@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "graphql-inspector"
+version = "0"
+description = "Validate schema, get schema change notifications, validate operations, and more"
+homepage = "https://the-guild.dev/graphql/inspector"
+
+[source]
+url = "https://registry.npmjs.org/@graphql-inspector/cli/-/cli-7.0.8.tgz"
+sha256 = "6e286fd779e0243849037f01373bd59578708fc521d8983d94eb2a64dfe86936"
+
+[build]
+system = "autotools"

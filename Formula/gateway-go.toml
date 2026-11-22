@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gateway-go"
+version = "2.0.12"
+description = "GateWay Client for OpenIoTHub"
+homepage = "https://github.com/OpenIoTHub"
+
+[source]
+url = "https://github.com/OpenIoTHub/gateway-go/archive/refs/tags/v2.0.12.tar.gz"
+sha256 = "b06175c5c5ee602ca1a2c4652033c865a12e226eee7adfefb0dde807a3c5ff63"
+
+[service]
+run = "opt/gateway-go/bin/gateway-go -c etc/gateway-go.yaml"
+keep_alive = true
+log_path = "var/log/gateway-go.log"
+error_log_path = "var/log/gateway-go.log"
+
+[build]
+system = "autotools"

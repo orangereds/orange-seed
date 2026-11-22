@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "voro++", "fftw", "jpeg-turbo", "kim-api", "libpng", "open-mpi", "libomp"]
+
+[package]
+name = "lammps"
+version = "20260930-update1"
+description = "Molecular Dynamics Simulator"
+homepage = "https://docs.lammps.org/"
+
+[source]
+url = "https://github.com/lammps/lammps/releases/download/stable_30Sep2026_update1/lammps-src-30Sep2026_update1.tar.gz"
+sha256 = "60e648992f6edf3c47e2093a1c0a0bcce42fb89b7ac4370f15ab56abc0b0eea6"
+
+[build]
+system = "cmake"

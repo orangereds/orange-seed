@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc", "hwloc", "libxc", "open-mpi", "openblas", "pkgconf", "python@3.15", "scalapack", "libomp"]
+
+[package]
+name = "nwchem"
+version = "7.3.1_1"
+description = "High-performance computational chemistry tools"
+homepage = "https://nwchemgit.github.io"
+
+[source]
+url = "https://github.com/nwchemgit/nwchem/releases/download/v7.3.1-release/nwchem-7.3.1-release.revision-23c3b41b-src.2025-11-06.tar.xz"
+sha256 = "7bc6f9bae6e4bf45750968e97a3206b0b026eabd8aa7b5e54317a9a26afcbe60"
+
+[build]
+system = "autotools"

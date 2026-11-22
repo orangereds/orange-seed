@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpng", "autoconf", "automake", "libtool"]
+
+[package]
+name = "icoutils"
+version = "0.32.3"
+description = "Create and extract MS Windows icons and cursors"
+homepage = "https://www.nongnu.org/icoutils/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/icoutils/icoutils-0.32.3.tar.bz2"
+sha256 = "17abe02d043a253b68b47e3af69c9fc755b895db68fdc8811786125df564c6e0"
+
+[build]
+system = "autotools"

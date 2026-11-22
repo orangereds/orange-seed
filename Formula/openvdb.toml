@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "jemalloc", "tbb", "zstd"]
+
+[package]
+name = "openvdb"
+version = "14.0.0"
+description = "Sparse volumetric data processing toolkit"
+homepage = "https://www.openvdb.org/"
+
+[source]
+url = "https://github.com/AcademySoftwareFoundation/openvdb/archive/refs/tags/v14.0.0.tar.gz"
+sha256 = "2c38592a42a9dc1f3e9749418cc9d286d88ed912232dafee954ce5156174e5b0"
+
+[build]
+system = "cmake"

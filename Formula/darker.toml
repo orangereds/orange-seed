@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "darker"
+version = "3.0.0_2"
+description = "Apply Black formatting only in regions changed since last commit"
+homepage = "https://github.com/akaihola/darker"
+
+[source]
+url = "https://files.pythonhosted.org/packages/df/78/ad6af1661c2eca0ec69b7ff7c99d95dcae29c5e0071c7ebc98e6670f4663/darker-3.0.0.tar.gz"
+sha256 = "eb53776f037fcf42b1f5a56f62fb841cd871d95a78a388536dc91dc4355ce8bb"
+
+[build]
+system = "autotools"

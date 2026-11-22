@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust"]
+
+[package]
+name = "martin"
+version = "1.16.1"
+description = "Blazing fast tile server, tile generation, and mbtiles tooling"
+homepage = "https://martin.maplibre.org"
+
+[source]
+url = "https://github.com/maplibre/martin/archive/refs/tags/martin-v1.16.1.tar.gz"
+sha256 = "e64c4c43af3eb5940c825c70619f6c670e7af4a5853498c39237b6b7e57e42a2"
+
+[build]
+system = "autotools"

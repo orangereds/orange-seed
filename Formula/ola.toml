@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cppunit", "libtool", "pkgconf", "abseil", "liblo", "libmicrohttpd", "libusb", "numpy", "protobuf"]
+
+[package]
+name = "ola"
+version = "0.10.9_18"
+description = "Open Lighting Architecture for lighting control information"
+homepage = "https://www.openlighting.org/ola/"
+
+[source]
+url = "https://github.com/OpenLightingProject/ola/releases/download/0.10.9/ola-0.10.9.tar.gz"
+sha256 = "44073698c147fe641507398253c2e52ff8dc7eac8606cbf286c29f37939a4ebf"
+
+[service]
+run = "opt/ola/bin/olad --no-http-quit"
+error_log_path = "var/log/olad.log"
+
+[build]
+system = "autotools"

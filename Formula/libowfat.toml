@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libowfat"
+version = "0.34.orig"
+description = "Reimplements libdjb"
+homepage = "http://www.fefe.de/libowfat/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/libo/libowfat/libowfat_0.34.orig.tar.xz"
+sha256 = "d4330d373ac9581b397bc24a22ad1f7f5d58a7fe36d9d239fe352ceffc5d304b"
+
+[build]
+system = "autotools"

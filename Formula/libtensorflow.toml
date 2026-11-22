@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bazel@7", "meson", "ninja", "python@3.13", "openblas", "gnu-getopt"]
+
+[package]
+name = "libtensorflow"
+version = "2.21.0_1"
+description = "C interface for Google's OS library for Machine Intelligence"
+homepage = "https://www.tensorflow.org/"
+
+[source]
+url = "https://github.com/tensorflow/tensorflow/archive/refs/tags/v2.21.0.tar.gz"
+sha256 = "ef3568bb4865d6c1b2564fb5689c19b6b9a5311572cd1f2ff9198636a8520921"
+
+[build]
+system = "autotools"

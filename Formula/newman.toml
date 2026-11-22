@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "newman"
+version = "6.2.3"
+description = "Command-line collection runner for Postman"
+homepage = "https://www.getpostman.com"
+
+[source]
+url = "https://registry.npmjs.org/newman/-/newman-6.2.3.tgz"
+sha256 = "c0fc355b28dfbf835098e224f24a0f43c81f04f2ca7998fc15aa22b5ee3b92fd"
+
+[build]
+system = "autotools"

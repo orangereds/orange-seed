@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "onnxruntime"]
+
+[package]
+name = "magika"
+version = "1.1.0_3"
+description = "Fast and accurate AI powered file content types detection"
+homepage = "https://securityresearch.google/magika/"
+
+[source]
+url = "https://github.com/google/magika/archive/refs/tags/cli/v1.1.0.tar.gz"
+sha256 = "87fd85f33d2c644d657de024b83cdc36bbdcf4a2961be5e93fe74e081477076c"
+
+[build]
+system = "autotools"

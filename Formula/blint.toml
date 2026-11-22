@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "rust", "tl-expected", "certifi", "libyaml", "lief", "pydantic", "python@3.15", "rpds-py", "sqlite"]
+
+[package]
+name = "blint"
+version = "4.0.1"
+description = "Security linter and SBOM generator for binaries"
+homepage = "https://github.com/owasp-dep-scan/blint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/69/b3/dd4898b70f09ed74a1ce2ca93af7b92dd7ecd379497397f7404c8c14811e/blint-4.0.1.tar.gz"
+sha256 = "7e6aaf6df449af2f8abc897848a5a145d09e0b7ecc333888842e1a32d7760f68"
+
+[build]
+system = "cmake"

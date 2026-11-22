@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "gradle-profiler"
+version = "0.26.0"
+description = "Profiling and benchmarking tool for Gradle builds"
+homepage = "https://github.com/gradle/gradle-profiler/"
+
+[source]
+url = "https://github.com/gradle/gradle-profiler/releases/download/v0.26.0/gradle-profiler-0.26.0.zip"
+sha256 = "c573cdaffac8ecfa60cdd0624274511f46cbdde77fbba39ce35eae0fae7c9877"
+
+[build]
+system = "autotools"

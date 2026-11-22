@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-auth", "aws-c-common", "aws-c-event-stream", "aws-c-http", "aws-c-io", "aws-c-s3", "aws-crt-cpp"]
+
+[package]
+name = "aws-sdk-cpp"
+version = "1.11.935"
+description = "AWS SDK for C++"
+homepage = "https://github.com/aws/aws-sdk-cpp"
+
+[source]
+url = "https://github.com/aws/aws-sdk-cpp/archive/refs/tags/1.11.935.tar.gz"
+sha256 = "dac4a116685289fb6101c6cd4fd821ae1ea261149bfa822c133567f5e6e5dbc6"
+
+[build]
+system = "cmake"

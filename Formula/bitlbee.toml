@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gnutls", "libgcrypt", "libgpg-error", "gettext"]
+
+[package]
+name = "bitlbee"
+version = "3.6"
+description = "IRC to other chat networks gateway"
+homepage = "https://www.bitlbee.org/"
+
+[source]
+url = "https://get.bitlbee.org/src/bitlbee-3.6.tar.gz"
+sha256 = "9f15de46f29b46bf1e39fc50bdf4515e71b17f551f3955094c5da792d962107e"
+
+[service]
+run = "bitlbee"
+
+[build]
+system = "autotools"

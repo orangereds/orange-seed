@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kafkactl"]
+
+[package]
+name = "kafkactl-aws-plugin"
+version = "1.3.1"
+description = "AWS Plugin for kafkactl"
+homepage = "https://deviceinsight.github.io/kafkactl/"
+
+[source]
+url = "https://github.com/deviceinsight/kafkactl-plugins/archive/refs/tags/v1.3.1.tar.gz"
+sha256 = "f7f5b961061c863131a9f84e8a6aa7d7273a16b1c3ad4fb86888edebda345eb1"
+
+[build]
+system = "autotools"

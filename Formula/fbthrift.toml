@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "mvfst", "zstd", "fizz", "fmt", "folly", "gflags", "glog", "openssl@4", "wangle", "xxhash"]
+
+[package]
+name = "fbthrift"
+version = "2026.10.26.00"
+description = "Facebook's branch of Apache Thrift, including a new C++ server"
+homepage = "https://github.com/meta/fbthrift"
+
+[source]
+url = "https://github.com/meta/fbthrift/archive/refs/tags/v2026.10.26.00.tar.gz"
+sha256 = "6ad18cfc24297120a536a0ef9c5a84f409c9aa4376057328e8dca9d45587d5a1"
+
+[build]
+system = "cmake"

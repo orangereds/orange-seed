@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm@19", "zstd"]
+
+[package]
+name = "lld@19"
+version = "0"
+description = "LLVM Project Linker"
+homepage = "https://lld.llvm.org/"
+
+[source]
+url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/llvm-project-19.1.7.src.tar.xz"
+sha256 = "82401fea7b79d0078043f7598b835284d6650a75b93e64b6f761ea7b63097501"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

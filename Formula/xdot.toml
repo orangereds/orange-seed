@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["adwaita-icon-theme", "graphviz", "gtk+3", "numpy", "py3cairo", "pygobject3", "python@3.15"]
+
+[package]
+name = "xdot"
+version = "1.6"
+description = "Interactive viewer for graphs written in Graphviz's dot language"
+homepage = "https://github.com/jrfonseca/xdot.py"
+
+[source]
+url = "https://files.pythonhosted.org/packages/32/68/13f80d47bffda03eaf05bd076d1b2ef9a1cf39b461b37e32f303bcf048de/xdot-1.6.tar.gz"
+sha256 = "ebddefc3e3aa9fd8b2e2ed884ed844043f843428b79dccda831803add55cc51d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libheinz"
+version = "0"
+description = "C++ base library of Heinz Maier-Leibnitz Zentrum"
+homepage = "https://jugit.fz-juelich.de/mlz/lib/heinz"
+
+[source]
+url = "https://jugit.fz-juelich.de/mlz/lib/heinz/-/archive/v4.1.0/heinz-v4.1.0.tar.bz2"
+sha256 = "86daa9a501270bc0d1b8dfa1e83ed2dc1b598b0bd129cc73abca70018138a3ff"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gat"
+version = "0.31.0"
+description = "Cat alternative written in Go"
+homepage = "https://github.com/koki-develop/gat"
+
+[source]
+url = "https://github.com/koki-develop/gat/archive/refs/tags/v0.31.0.tar.gz"
+sha256 = "424ad788c91081fe5db432f99d108802bb96ef5688b0ccb263cc4ca673efb155"
+
+[build]
+system = "autotools"

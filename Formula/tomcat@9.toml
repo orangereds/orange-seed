@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "tomcat@9"
+version = "0"
+description = "Implementation of Java Servlet and JavaServer Pages"
+homepage = "https://tomcat.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tomcat/tomcat-9/v9.0.124/bin/apache-tomcat-9.0.124.tar.gz"
+sha256 = "f217a5ba31336742d73eaf928ae020227e68da777103bf402a1951f3bd817f1a"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/tomcat@9/bin/catalina run"
+keep_alive = true
+
+[build]
+system = "autotools"

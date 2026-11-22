@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "protobuf", "tmux"]
+
+[package]
+name = "mosh"
+version = "1.4.0_43"
+description = "Remote terminal application"
+homepage = "https://mosh.org"
+
+[source]
+url = "https://github.com/mobile-shell/mosh/releases/download/mosh-1.4.0/mosh-1.4.0.tar.gz"
+sha256 = "872e4b134e5df29c8933dff12350785054d2fd2839b5ae6b5587b14db1465ddd"
+
+[build]
+system = "autotools"

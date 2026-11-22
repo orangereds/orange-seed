@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gnutls"]
+
+[package]
+name = "libmicrohttpd"
+version = "1.0.11"
+description = "Light HTTP/1.1 server library"
+homepage = "https://www.gnu.org/software/libmicrohttpd/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-1.0.11.tar.gz"
+sha256 = "f227a044b75688e449b58ddedf0582255cc562899ff69f173a8ef76439744b4e"
+
+[build]
+system = "autotools"

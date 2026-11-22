@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "docbook-xsl"]
+
+[package]
+name = "jemalloc"
+version = "5.4.0"
+description = "Implementation of malloc emphasizing fragmentation avoidance"
+homepage = "https://jemalloc.net/"
+
+[source]
+url = "https://github.com/jemalloc/jemalloc/releases/download/5.4.0/jemalloc-5.4.0.tar.bz2"
+sha256 = "200776fac271093e7c2f21edd6d62657ecd2be578d9328633f2a86bfa6ef4f1d"
+
+[build]
+system = "autotools"

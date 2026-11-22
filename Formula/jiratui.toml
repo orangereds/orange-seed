@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libmagic", "libyaml", "pillow", "pydantic", "python@3.15"]
+
+[package]
+name = "jiratui"
+version = "1.20.0"
+description = "Textual User Interface for interacting with Atlassian Jira from your shell"
+homepage = "https://jiratui.sh/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d8/ed/a76a00336b61b96c875220c63bc1282f1b1450aae61e6f73f8d07ba9554e/jiratui-1.20.0.tar.gz"
+sha256 = "a0765a83ffe7e8e5677c300f516946158e353edf8528a7b9e273600a87e4aaf4"
+
+[build]
+system = "autotools"

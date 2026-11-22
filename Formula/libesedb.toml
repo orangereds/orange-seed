@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libesedb"
+version = "0"
+description = "Library and tools for Extensible Storage Engine (ESE) Database files"
+homepage = "https://github.com/libyal/libesedb"
+
+[source]
+url = "https://github.com/libyal/libesedb/releases/download/20260704/libesedb-experimental-20260704.tar.gz"
+sha256 = "78f5e4cd11b551e673db270a9d40abf3c8ec8523b91939a9251ca80ee5a83bd1"
+
+[build]
+system = "autotools"

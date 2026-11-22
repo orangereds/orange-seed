@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "karn"
+version = "0.1.0"
+description = "Manage multiple Git identities"
+homepage = "https://github.com/prydonius/karn"
+
+[source]
+url = "https://github.com/prydonius/karn/archive/refs/tags/v0.1.0.tar.gz"
+sha256 = "96f10ff263468b9f91244edf16d8ea548c9d281cba9b2597eaf5270f9e6127e3"
+
+[build]
+system = "autotools"

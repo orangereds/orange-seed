@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "awscli@1"
+version = "0"
+description = "Official Amazon AWS command-line interface"
+homepage = "https://aws.amazon.com/cli/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6d/b5/4024da68f7096bc2041f87dfce73b07f24b9cdb0d66cbf77675dfbb290d5/awscli-1.46.3.tar.gz"
+sha256 = "9b1146f4159bdf98688d900e2ffd0ac05c18f7fb28641c6b0817e64574e3ce1f"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

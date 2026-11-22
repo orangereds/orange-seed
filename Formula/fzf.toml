@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fzf"
+version = "0.75.0"
+description = "Command-line fuzzy finder written in Go"
+homepage = "https://junegunn.github.io/fzf/"
+
+[source]
+url = "https://github.com/junegunn/fzf/archive/refs/tags/v0.75.0.tar.gz"
+sha256 = "165f6e0c1b9ba082346233681e3f1d1374e37f9fd3c1d7b6dfe09659ab893faa"
+
+[build]
+system = "autotools"

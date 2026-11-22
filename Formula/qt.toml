@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "vulkan-headers", "qt3d", "qt5compat", "qtbase", "qtcanvaspainter", "qtcharts", "qtconnectivity", "qtdatavis3d", "qtdeclarative", "qtgraphs", "qtgrpc", "qthttpserver", "qtimageformats", "qtlanguageserver", "qtlocation", "qtlottie", "qtmultimedia", "qtnetworkauth", "qtpositioning", "qtquick3d", "qtquick3dphysics", "qtquickeffectmaker", "qtquicktimeline", "qtremoteobjects", "qtscxml", "qtsensors", "qtserialbus", "qtserialport", "qtshadertools", "qtspeech", "qtsvg", "qttasktree", "qttools", "qttranslations", "qtvirtualkeyboard", "qtwebchannel", "qtwebsockets", "qtwebengine", "qtwebview"]
+
+[package]
+name = "qt"
+version = "6.12.0"
+description = "Cross-platform application and UI framework"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/md5sums.txt"
+sha256 = "f82126a39b6e93da4f986f846addfe21082fd4a314bbcec69d5cf64b86cb348e"
+
+[build]
+system = "autotools"

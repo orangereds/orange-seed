@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gnutls", "gstreamer", "taglib", "gettext"]
+
+[package]
+name = "pianod"
+version = "0"
+description = "Pandora client with multiple control interfaces"
+homepage = "https://deviousfish.com/pianod/"
+
+[source]
+url = "https://deviousfish.com/Downloads/pianod2/pianod2-421.tar.gz"
+sha256 = "760d2f013f6a8bf10993813f61a7929119470861351ba74d7add754e35c57d28"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen"]
+
+[package]
+name = "poselib"
+version = "2.0.5"
+description = "Minimal solvers for calibrated camera pose estimation"
+homepage = "https://github.com/PoseLib/PoseLib/"
+
+[source]
+url = "https://github.com/PoseLib/PoseLib/archive/refs/tags/v2.0.5.tar.gz"
+sha256 = "a9493e6725c58e6ae541fe416c0a6179185a60006880ff3ddf32737a43695668"
+
+[build]
+system = "cmake"

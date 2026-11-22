@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libident", "openssl@4"]
+
+[package]
+name = "ngircd"
+version = "28"
+description = "Lightweight Internet Relay Chat server"
+homepage = "https://ngircd.barton.de/"
+
+[source]
+url = "https://arthur.barton.de/pub/ngircd/ngircd-28.tar.xz"
+sha256 = "b48ba320a931d445ae335c47f88a9406a20f5c71c623bee5f7755d0522d435ee"
+
+[build]
+system = "autotools"

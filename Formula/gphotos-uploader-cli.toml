@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gphotos-uploader-cli"
+version = "6.0.0"
+description = "Command-line tool to mass upload media folders to Google Photos"
+homepage = "https://gphotosuploader.github.io/gphotos-uploader-cli/"
+
+[source]
+url = "https://github.com/gphotosuploader/gphotos-uploader-cli/archive/refs/tags/v6.0.0.tar.gz"
+sha256 = "99fdc60442f8ff39a01dc97544509749553279ea03caee230a055eb0fcdf0e7e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ghostscript"]
+
+[package]
+name = "libspectre"
+version = "0.2.12_2"
+description = "Small library for rendering Postscript documents"
+homepage = "https://wiki.freedesktop.org/www/Software/libspectre/"
+
+[source]
+url = "https://libspectre.freedesktop.org/releases/libspectre-0.2.12.tar.gz"
+sha256 = "55a7517cd3572bd2565df0cf450944a04d5273b279ebb369a895391957f0f960"
+
+[build]
+system = "autotools"

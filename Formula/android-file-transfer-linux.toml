@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "readline"]
+
+[package]
+name = "android-file-transfer-linux"
+version = "4.6"
+description = "Command-line MTP client for Android and other MTP devices"
+homepage = "https://whoozle.github.io/android-file-transfer-linux/"
+
+[source]
+url = "https://github.com/whoozle/android-file-transfer-linux/archive/refs/tags/v4.6.tar.gz"
+sha256 = "d8bcbd1ea5854e2653661f7e953c955531eed540ca9aee966ae9bb64149f69e4"
+
+[build]
+system = "cmake"

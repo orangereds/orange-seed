@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "sqlite"]
+
+[package]
+name = "cortexso"
+version = "0.1.1"
+description = "Drop-in, local AI alternative to the OpenAI stack"
+homepage = "https://jan.ai/cortex"
+
+[source]
+url = "https://registry.npmjs.org/cortexso/-/cortexso-0.1.1.tgz"
+sha256 = "48efc16761eebfdd60e50211049554e7b781b30e56461042c6bf100e84d8d244"
+
+[build]
+system = "autotools"

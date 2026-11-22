@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docutils", "gettext", "meson", "ninja", "pkgconf", "cyrus-sasl", "glib", "gnutls", "json-c", "libiscsi", "libssh2", "readline"]
+
+[package]
+name = "libvirt"
+version = "12.9.0"
+description = "C virtualization API"
+homepage = "https://libvirt.org/"
+
+[source]
+url = "https://download.libvirt.org/libvirt-12.9.0.tar.xz"
+sha256 = "dcf579d8a949f4cbf56820529d48f200382a48ea12855ffded7c16a189353cd7"
+
+[service]
+run = "libvirtd -f etc/libvirt/libvirtd.conf"
+keep_alive = true
+
+[service.env]
+PATH = "bin"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "argtable3"
+version = "0_1"
+description = "ANSI C library for parsing GNU-style command-line options"
+homepage = "https://www.argtable.org"
+
+[source]
+url = "https://github.com/argtable/argtable3/releases/download/v3.3.1/argtable-v3.3.1.tar.gz"
+sha256 = "c08bca4b88ddb9234726b75455b3b1670d7c864d8daf198eaa7a3b4d41addf2c"
+
+[build]
+system = "cmake"

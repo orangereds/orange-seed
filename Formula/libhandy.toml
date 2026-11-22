@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "at-spi2-core", "cairo", "fribidi", "gdk-pixbuf", "glib", "gtk+3", "pango", "harfbuzz"]
+
+[package]
+name = "libhandy"
+version = "1.8.3"
+description = "Building blocks for modern adaptive GNOME apps"
+homepage = "https://gitlab.gnome.org/GNOME/libhandy"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/libhandy/-/archive/1.8.3/libhandy-1.8.3.tar.gz"
+sha256 = "7e7670f5d0a6d0adc24b888da44dab938a6f52472b8944d6dd4e31b6d3569a5f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@18", "postgresql@19"]
+
+[package]
+name = "postgresql-hll"
+version = "2.21_1"
+description = "PostgreSQL extension adding HyperLogLog data structures as a native data type"
+homepage = "https://github.com/citusdata/postgresql-hll"
+
+[source]
+url = "https://github.com/citusdata/postgresql-hll/archive/refs/tags/v2.21.tar.gz"
+sha256 = "808de7603e6f954690b7f1a4514f264ce0557f8c4bb9a0e8c0ba0249df4098ce"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cline"
+version = "3.0.3"
+description = "AI-powered coding agent for complex work"
+homepage = "https://cline.bot"
+
+[source]
+url = "https://registry.npmjs.org/cline/-/cline-3.0.3.tgz"
+sha256 = "760e4c66e4ead40db61f89ad4433546a33507f8182e02d000cf1fe6809e635b3"
+
+[build]
+system = "autotools"

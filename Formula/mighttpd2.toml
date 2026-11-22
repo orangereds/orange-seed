@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "mighttpd2"
+version = "4.0.12"
+description = "HTTP server"
+homepage = "https://kazu-yamamoto.github.io/mighttpd2/"
+
+[source]
+url = "https://hackage.haskell.org/package/mighttpd2-4.0.12/mighttpd2-4.0.12.tar.gz"
+sha256 = "958f4f097a889dd128d53951c9dd351f85a88ab8180c3d0be8811eb34060230b"
+
+[build]
+system = "autotools"

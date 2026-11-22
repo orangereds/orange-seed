@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "gnutls", "gettext"]
+
+[package]
+name = "ucommon"
+version = "7.0.1.orig"
+description = "GNU C++ runtime library for threads, sockets, and parsing"
+homepage = "https://www.gnu.org/software/commoncpp/"
+
+[source]
+url = "https://ftp.debian.org/debian/pool/main/u/ucommon/ucommon_7.0.1.orig.tar.gz"
+sha256 = "99fd0e2c69f24e4ca93d01a14bc3fc4e40d69576f235f80f7a8ab37c16951f3e"
+
+[build]
+system = "autotools"

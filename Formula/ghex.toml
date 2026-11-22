@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gettext", "itstool", "meson", "ninja", "pkgconf", "cairo", "glib", "gtk4", "hicolor-icon-theme", "libadwaita", "pango"]
+
+[package]
+name = "ghex"
+version = "50.4"
+description = "GNOME hex editor"
+homepage = "https://wiki.gnome.org/Apps/Ghex"
+
+[source]
+url = "https://download.gnome.org/sources/ghex/50/ghex-50.4.tar.xz"
+sha256 = "e2bcf62438edaf04ca961aef8dafd35a2d208aa45f00ee557000b37214c0972e"
+
+[build]
+system = "autotools"

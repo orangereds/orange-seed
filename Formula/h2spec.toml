@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "h2spec"
+version = "0"
+description = "Conformance testing tool for HTTP/2 implementation"
+homepage = "https://github.com/summerwind/h2spec"
+
+[source]
+url = "https://github.com/summerwind/h2spec.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

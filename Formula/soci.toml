@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sqlite"]
+
+[package]
+name = "soci"
+version = "4.1.4"
+description = "Database access library for C++"
+homepage = "https://soci.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/soci/soci/soci-4.1.4/soci-4.1.4.zip"
+sha256 = "2fa7f41391101cd8d8ebdf870188030934fa6122f47063dc03c195d8135a746f"
+
+[build]
+system = "cmake"

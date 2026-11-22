@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pcre2"]
+
+[package]
+name = "swig"
+version = "4.5.1"
+description = "Generate scripting interfaces to C/C++ code"
+homepage = "https://www.swig.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/swig/swig/swig-4.5.1/swig-4.5.1.tar.gz"
+sha256 = "7fec50b27deddab5455a9633780b6341eddfb96215a7619e93a76eb27178f653"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm"]
+
+[package]
+name = "openlist"
+version = "4.2.10"
+description = "New AList fork addressing anti-trust issues"
+homepage = "https://doc.oplist.org/"
+
+[source]
+url = "https://github.com/OpenListTeam/OpenList/archive/refs/tags/v4.2.10.tar.gz"
+sha256 = "4e45a675ee4719a98038a64f0f2095bd82146bb7342466f42d2407f5d3e701f7"
+
+[build]
+system = "autotools"

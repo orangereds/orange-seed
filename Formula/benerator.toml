@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@11"]
+
+[package]
+name = "benerator"
+version = "0"
+description = "Tool for realistic test data generation"
+homepage = "https://rapiddweller.github.io/homebrew-benerator/"
+
+[source]
+url = "https://github.com/rapiddweller/rapiddweller-benerator-ce/releases/download/3.2.1/rapiddweller-benerator-ce-3.2.1-jdk-11-dist.tar.gz"
+sha256 = "5d1b3de2344f0c2a1719eed5ab8154a75597a5d7693c373734e0603a45e5f96d"
+
+[build]
+system = "autotools"

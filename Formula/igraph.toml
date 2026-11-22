@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "arpack", "glpk", "gmp", "openblas"]
+
+[package]
+name = "igraph"
+version = "1.0.1"
+description = "Network analysis package"
+homepage = "https://igraph.org/"
+
+[source]
+url = "https://github.com/igraph/igraph/releases/download/1.0.1/igraph-1.0.1.tar.gz"
+sha256 = "969f2d7d22f67e788d8638c9a8c96615f50d7819c08978b3ef4a787bb6daa96c"
+
+[build]
+system = "cmake"

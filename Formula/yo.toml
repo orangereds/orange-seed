@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "yo"
+version = "7.0.1"
+description = "CLI tool for running Yeoman generators"
+homepage = "https://yeoman.io"
+
+[source]
+url = "https://registry.npmjs.org/yo/-/yo-7.0.1.tgz"
+sha256 = "466f653547a99ae4cf0de84beac13b8a882804f56718d81df3a2327343bbf7f4"
+
+[build]
+system = "autotools"

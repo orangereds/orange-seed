@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kata"
+version = "0.23.0_source"
+description = "Local-first, federated issue tracker for humans and coding agents"
+homepage = "https://katatracker.com"
+
+[source]
+url = "https://github.com/kenn-io/kata/releases/download/v0.23.0/kata_0.23.0_source.tar.gz"
+sha256 = "51db4ca405595a99c92cb57702f233e4f054365b6c0ff58e99c7a4499c3e19d5"
+
+[build]
+system = "autotools"

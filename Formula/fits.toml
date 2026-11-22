@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["exiftool", "libmediainfo", "openjdk"]
+
+[package]
+name = "fits"
+version = "1.6.0"
+description = "File Information Tool Set"
+homepage = "https://harvard-lts.github.io/fits/"
+
+[source]
+url = "https://github.com/harvard-lts/fits/releases/download/1.6.0/fits-1.6.0.zip"
+sha256 = "32e436effe7251c5b067ec3f02321d5baf4944b3f0d1010fb8ec42039d9e3b73"
+
+[build]
+system = "autotools"

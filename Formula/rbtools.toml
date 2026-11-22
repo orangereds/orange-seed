@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "rbtools"
+version = "7.0"
+description = "CLI and API for working with code and document reviews on Review Board"
+homepage = "https://www.reviewboard.org/downloads/rbtools/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5b/fc/51d1604226036ed182ede25e5cc84d1bb9f583d15b88315108bbbcafb23f/rbtools-7.0.tar.gz"
+sha256 = "2e02491f07181a0a1d8faf2bf9f8c7e89eb73fe5ec59a0f7859e1e0bfb4cbf33"
+
+[build]
+system = "autotools"

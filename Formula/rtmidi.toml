@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "rtmidi"
+version = "6.1.0"
+description = "API for realtime MIDI input/output"
+homepage = "https://github.com/thestk/rtmidi"
+
+[source]
+url = "https://github.com/thestk/rtmidi/archive/refs/tags/6.1.0.tar.gz"
+sha256 = "809ce56bfa67b80afcfa566927ce242a60b6f4c1bacc7e89486fbcf5624c5721"
+
+[build]
+system = "cmake"

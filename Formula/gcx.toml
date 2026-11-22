@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gcx"
+version = "1.8.0"
+description = "CLI for managing Grafana Cloud resources"
+homepage = "https://github.com/grafana/gcx"
+
+[source]
+url = "https://github.com/grafana/gcx/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "fc9ff8a6c3d010d1f6529ebb83eab57d6a81745e76caa5cdb0bbf4c633a07008"
+
+[build]
+system = "autotools"

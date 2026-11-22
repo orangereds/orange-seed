@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbcl", "zstd"]
+
+[package]
+name = "ocicl"
+version = "2.21.0"
+description = "OCI-based ASDF system distribution and management tool for Common Lisp"
+homepage = "https://github.com/ocicl/ocicl"
+
+[source]
+url = "https://github.com/ocicl/ocicl/archive/refs/tags/v2.21.0.tar.gz"
+sha256 = "4ed3f547768d412f7910e3ce2d1067f8fb426a4de65094ed748078b7e59375a5"
+
+[build]
+system = "autotools"

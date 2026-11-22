@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "flex"]
+
+[package]
+name = "splint"
+version = "3.1.2.src"
+description = "Secure Programming Lint"
+homepage = "https://splint.org/"
+
+[source]
+url = "https://splint.org/downloads/splint-3.1.2.src.tgz"
+sha256 = "c78db643df663313e3fa9d565118391825dd937617819c6efc7966cdf444fb0a"
+
+[build]
+system = "autotools"

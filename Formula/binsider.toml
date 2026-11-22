@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "binsider"
+version = "0.3.2"
+description = "Analyzes ELF binaries"
+homepage = "https://binsider.dev/"
+
+[source]
+url = "https://github.com/orhun/binsider/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "78d8ccb0497fd32bdd3c46d1ca6557725154af179021b30a00150e96e4ead8f8"
+
+[build]
+system = "autotools"

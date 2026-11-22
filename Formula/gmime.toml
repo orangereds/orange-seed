@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "gobject-introspection", "pkgconf", "glib", "gpgme", "libidn2", "gettext", "libgpg-error"]
+
+[package]
+name = "gmime"
+version = "3.2.15_1"
+description = "MIME mail utilities"
+homepage = "https://github.com/jstedfast/gmime"
+
+[source]
+url = "https://github.com/jstedfast/gmime/releases/download/3.2.15/gmime-3.2.15.tar.xz"
+sha256 = "84cd2a481a27970ec39b5c95f72db026722904a2ccf3fdbd57b280cf2d02b5c4"
+
+[build]
+system = "autotools"

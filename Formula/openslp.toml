@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "openslp"
+version = "2.0.0"
+description = "Implementation of Service Location Protocol"
+homepage = "http://www.openslp.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/openslp/2.0.0/2.0.0%20Release/openslp-2.0.0.tar.gz"
+sha256 = "924337a2a8e5be043ebaea2a78365c7427ac6e9cee24610a0780808b2ba7579b"
+
+[build]
+system = "autotools"

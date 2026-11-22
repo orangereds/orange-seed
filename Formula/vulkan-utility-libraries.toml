@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "vulkan-headers"]
+
+[package]
+name = "vulkan-utility-libraries"
+version = "0"
+description = "Utility Libraries for Vulkan"
+homepage = "https://github.com/KhronosGroup/Vulkan-Utility-Libraries"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-Utility-Libraries/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "a5308b62e3bac84cf45c4d7dd5b830aabace4847fdb71f4fd7db3be034c2bebf"
+
+[build]
+system = "cmake"

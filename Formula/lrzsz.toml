@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lrzsz"
+version = "0.13.1"
+description = "Tools for zmodem/xmodem/ymodem file transfer"
+homepage = "https://www.ohse.de/uwe/software/lrzsz.html"
+
+[source]
+url = "https://www.ohse.de/uwe/releases/lrzsz-0.13.1.tar.gz"
+sha256 = "112f91059fbd118e016d800c1a5c5a1702e965d8b9bfbda6015e44e20bfb93c9"
+
+[build]
+system = "autotools"

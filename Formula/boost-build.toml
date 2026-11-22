@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "boost-build"
+version = "0"
+description = "C++ build system"
+homepage = "https://www.boost.org/build/"
+
+[source]
+url = "https://github.com/boostorg/build/archive/refs/tags/boost-1.92.0.tar.gz"
+sha256 = "bf2d9efb60cded0eca0c0be37e5c8a9fda7a3977a5c675b353aefced66ff3444"
+
+[build]
+system = "autotools"

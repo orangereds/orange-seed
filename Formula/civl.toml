@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk", "z3"]
+
+[package]
+name = "civl"
+version = "1.22-5854_1"
+description = "Concurrency Intermediate Verification Language"
+homepage = "https://vsl.cis.udel.edu/civl/"
+
+[source]
+url = "https://vsl.cis.udel.edu/lib/sw/civl/1.22/r5854/release/CIVL-1.22_5854.tgz"
+sha256 = "daf5c5a7295909d45a26d8775a8e7677495d69ab9c303638394ec189c4956b0e"
+
+[build]
+system = "autotools"

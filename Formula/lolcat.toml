@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "lolcat"
+version = "0"
+description = "Rainbows and unicorns in your console!"
+homepage = "https://github.com/busyloop/lolcat"
+
+[source]
+url = "https://github.com/busyloop/lolcat.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

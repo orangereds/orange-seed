@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "coder"
+version = "2.38.10"
+description = "Tool for provisioning self-hosted development environments with Terraform"
+homepage = "https://coder.com"
+
+[source]
+url = "https://github.com/coder/coder/archive/refs/tags/v2.38.10.tar.gz"
+sha256 = "0f5d4a367d7f6410b392430fb631ffb54157e6e30c06394147f7f619451185df"
+
+[build]
+system = "autotools"

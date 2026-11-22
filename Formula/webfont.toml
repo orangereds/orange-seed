@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "webfont"
+version = "12.7.0"
+description = "Generator of fonts from SVG icons, with TTF encoding and WOFF/WOFF2 decoding"
+homepage = "https://webfont.js.org/"
+
+[source]
+url = "https://registry.npmjs.org/webfont/-/webfont-12.7.0.tgz"
+sha256 = "11eb5d46f7034bfd43b6040791757137b3711732ad0d109e54e559321e9ffa20"
+
+[build]
+system = "autotools"

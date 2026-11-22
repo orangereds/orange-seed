@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pipx"
+version = "1.18.19"
+description = "Execute binaries from Python packages in isolated environments"
+homepage = "https://pipx.pypa.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5e/10/8f2e475617869a6c679e4a46df2e48ed26ae060b80e137adbb215a22dec5/pipx-1.18.19.tar.gz"
+sha256 = "2ee63572a0ba01ebb977781db3ece8df61c66b750b9ee9ced3effdbca34da861"
+
+[build]
+system = "autotools"

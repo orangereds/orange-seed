@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ansilove", "pillow", "python@3.15"]
+
+[package]
+name = "durdraw"
+version = "0.31.1"
+description = "Versatile ASCII and ANSI Art text editor for drawing in the terminal"
+homepage = "https://durdraw.org"
+
+[source]
+url = "https://github.com/cmang/durdraw/archive/refs/tags/0.31.1.tar.gz"
+sha256 = "c87f67cdb6c1e419bc3ef5d165d06c7408629777fb9d52adddb5c822892a39fb"
+
+[build]
+system = "autotools"

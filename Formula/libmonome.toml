@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "liblo"]
+
+[package]
+name = "libmonome"
+version = "1.4.11"
+description = "Library for easy interaction with monome devices"
+homepage = "https://monome.org/"
+
+[source]
+url = "https://github.com/monome/libmonome/archive/refs/tags/v1.4.11.tar.gz"
+sha256 = "8eff3e5fe159d2a718e578808b129a8603b45e91c54f194704c20916acf181d6"
+
+[build]
+system = "cmake"

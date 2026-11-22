@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["awscli", "python@3.15"]
+
+[package]
+name = "awscli-local"
+version = "0"
+description = "Thin wrapper around the `aws` command-line interface for use with LocalStack"
+homepage = "https://www.localstack.cloud/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b1/56/fb8eed90e00285f34ba97239c94c63daa963ce1746d2a99b2f66b893ba92/awscli_local-0.23.0.tar.gz"
+sha256 = "59aa31190d578967a4d376440320810e00ffd7dabba5dcb9eab6ae7a4c633441"
+
+[build]
+system = "autotools"

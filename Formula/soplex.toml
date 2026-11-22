@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "gmp", "mpfr"]
+
+[package]
+name = "soplex"
+version = "8.1.0"
+description = "Optimization package for solving linear programming problems (LPs)"
+homepage = "https://soplex.zib.de/"
+
+[source]
+url = "https://soplex.zib.de/download/release/soplex-8.1.0.tgz"
+sha256 = "e7daa1725d9cf01ea1f0a548fa396e7dcc945c1e81af626c2c98503b0c4e5990"
+
+[build]
+system = "cmake"

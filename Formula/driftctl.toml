@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "driftctl"
+version = "0.40.0"
+description = "Detect, track and alert on infrastructure drift"
+homepage = "https://github.com/snyk/driftctl"
+
+[source]
+url = "https://github.com/snyk/driftctl/archive/refs/tags/v0.40.0.tar.gz"
+sha256 = "30781d35092dd1dd1b34f22e63e3130a062cf4a3f511f61be013a0ff2a0c7767"
+
+[build]
+system = "autotools"

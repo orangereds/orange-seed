@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "intltool", "libtool", "pkgconf", "glib", "imagemagick", "libpng", "libtiff", "pstoedit", "fontconfig", "freetype", "liblqr", "libomp", "little-cms2"]
+
+[package]
+name = "autotrace"
+version = "0.31.12"
+description = "Convert bitmap to vector graphics"
+homepage = "https://autotrace.sourceforge.net/"
+
+[source]
+url = "https://github.com/autotrace/autotrace/archive/refs/tags/0.31.12.tar.gz"
+sha256 = "0db44ad1be129ccc679f5c314d3f041528fcc111e1210c27f2546dad9793cb6f"
+
+[build]
+system = "autotools"

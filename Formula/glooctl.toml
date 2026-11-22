@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "glooctl"
+version = "1.22.8"
+description = "Envoy-Powered API Gateway"
+homepage = "https://docs.solo.io/gloo-edge/main/reference/cli/glooctl/"
+
+[source]
+url = "https://github.com/solo-io/gloo/archive/refs/tags/v1.22.8.tar.gz"
+sha256 = "fd4b381c81a253bbd7b64efe5c6e0037f015a4784c023ae057bee3a9b5eec0cd"
+
+[build]
+system = "autotools"

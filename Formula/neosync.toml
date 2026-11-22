@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "neosync"
+version = "0.5.41"
+description = "CLI for interfacing with Neosync"
+homepage = "https://www.neosync.dev/"
+
+[source]
+url = "https://github.com/nucleuscloud/neosync/archive/refs/tags/v0.5.41.tar.gz"
+sha256 = "f11966321826d40d28b087b1daa81519e600759b9813b0e686ec49397a466a21"
+
+[build]
+system = "autotools"

@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "arcadedb"
+version = "26.11.1"
+description = "Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector"
+homepage = "https://arcadedb.com"
+
+[source]
+url = "https://github.com/ArcadeData/arcadedb/releases/download/26.11.1/arcadedb-26.11.1.tar.gz"
+sha256 = "a9dceafa61c1863aca16486b40cc866be212167dd555edc8a420f43d84598cf5"
+
+[service]
+run = "opt/arcadedb/bin/arcadedb-server"
+keep_alive = true
+working_dir = "var/arcadedb"
+log_path = "var/log/arcadedb/server.log"
+error_log_path = "var/log/arcadedb/server-error.log"
+
+[build]
+system = "autotools"

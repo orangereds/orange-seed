@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4", "xz"]
+
+[package]
+name = "scamper"
+version = "0"
+description = "Advanced traceroute and network measurement utility"
+homepage = "https://www.caida.org/catalog/software/scamper/"
+
+[source]
+url = "https://www.caida.org/catalog/software/scamper/code/scamper-cvs-20261019.tar.gz"
+sha256 = "83fedacbea65c03d8ef754e0240d4dbfc2efb0cf3f62a5980d0d213c807c7698"
+
+[build]
+system = "autotools"

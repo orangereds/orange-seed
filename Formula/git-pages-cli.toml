@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-pages-cli"
+version = "0"
+description = "Tool for publishing a site to a git-pages server"
+homepage = "https://codeberg.org/git-pages/git-pages-cli"
+
+[source]
+url = "https://codeberg.org/git-pages/git-pages-cli/releases/download/v1.13.1/git-pages-cli-src.zip"
+sha256 = "dd1dcd3ed8072d9583e50fcccad5b6e905d82d783626baf2a7987450bf9362ad"
+
+[build]
+system = "autotools"

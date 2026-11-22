@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fzy"
+version = "1.1"
+description = "Fast, simple fuzzy text selector with an advanced scoring algorithm"
+homepage = "https://github.com/jhawthorn/fzy"
+
+[source]
+url = "https://github.com/jhawthorn/fzy/archive/refs/tags/1.1.tar.gz"
+sha256 = "93d300d9c6c7063b2c6bda4e08a9704a029ec33f609718cd95443d1a890aff4e"
+
+[build]
+system = "make"

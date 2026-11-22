@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["adwaita-icon-theme", "gtk4", "libadwaita", "py3cairo", "pygobject3", "python@3.15"]
+
+[package]
+name = "nicotine-plus"
+version = "0"
+description = "Graphical client for the Soulseek peer-to-peer network"
+homepage = "https://nicotine-plus.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7c/b9/883c0dbe7476b591852ac56c306b014574615d34cb95b8c9b2f6497355b1/nicotine_plus-3.3.11.tar.gz"
+sha256 = "e27f562e3ba835116483bebf906aef5dab4cbe87b338e4511fa10ad6db14becc"
+
+[build]
+system = "autotools"

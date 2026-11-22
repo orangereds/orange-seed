@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "krb5", "libunistring", "openssl@4", "zlib-ng-compat"]
+
+[package]
+name = "gss-ntlmssp"
+version = "0_1"
+description = "NTLM authentication plugin for GSSAPI"
+homepage = "https://github.com/gssapi/gss-ntlmssp"
+
+[source]
+url = "https://github.com/gssapi/gss-ntlmssp/releases/download/v1.3.2/gssntlmssp-1.3.2.tar.gz"
+sha256 = "e5cc8d74e5f88cfe74622b14d1d28e85710dec898b754c2c78969f25147bbb55"
+
+[build]
+system = "autotools"

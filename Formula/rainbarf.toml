@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "rainbarf"
+version = "1.6"
+description = "CPU/RAM/battery stats chart bar for tmux (and GNU screen)"
+homepage = "https://github.com/creaktive/rainbarf"
+
+[source]
+url = "https://github.com/creaktive/rainbarf/archive/refs/tags/v1.6.tar.gz"
+sha256 = "30d62e289177a99c07ca620dd20090caa44fc282cd1530f2383a0b4f4d37dcf8"
+
+[build]
+system = "autotools"

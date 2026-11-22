@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "zug"]
+
+[package]
+name = "lager"
+version = "0.1.3"
+description = "C++ lib for value-oriented design using unidirectional data-flow architecture"
+homepage = "https://sinusoid.es/lager/"
+
+[source]
+url = "https://github.com/arximboldi/lager/archive/refs/tags/v0.1.3.tar.gz"
+sha256 = "55d3442d2d4306aad78fa2af5d3db01af65f4fdbfc58c4620fba13dbde82e599"
+
+[build]
+system = "cmake"

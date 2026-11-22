@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gum"]
+
+[package]
+name = "mdt"
+version = "1.4.0"
+description = "Command-line markdown todo list manager"
+homepage = "https://github.com/basilioss/mdt"
+
+[source]
+url = "https://github.com/basilioss/mdt/archive/refs/tags/1.4.0.tar.gz"
+sha256 = "542998a034c93ca52e72708c1d3779e597f778faf2ee70d8cf11873185332d31"
+
+[build]
+system = "autotools"

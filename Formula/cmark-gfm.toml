@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "cmark-gfm"
+version = "0.29.0.gfm.14"
+description = "C implementation of GitHub Flavored Markdown"
+homepage = "https://github.com/github/cmark-gfm"
+
+[source]
+url = "https://github.com/github/cmark-gfm/archive/refs/tags/0.29.0.gfm.14.tar.gz"
+sha256 = "1c1acf50c5e9939e170b6e017ec06fcf94abeb383670b819d091a285b7ba11fe"
+
+[build]
+system = "cmake"

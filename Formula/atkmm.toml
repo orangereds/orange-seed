@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "at-spi2-core", "glib", "glibmm", "libsigc++", "gettext"]
+
+[package]
+name = "atkmm"
+version = "2.36.4"
+description = "Official C++ interface for the ATK accessibility toolkit library"
+homepage = "https://www.gtkmm.org/"
+
+[source]
+url = "https://download.gnome.org/sources/atkmm/2.36/atkmm-2.36.4.tar.xz"
+sha256 = "19cd0758ed752cb89f5bf02247663dfad0926d9351984a20e3c6cf7da62552ac"
+
+[build]
+system = "autotools"

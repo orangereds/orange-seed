@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "sproxy"
+version = "1.02_1"
+description = "HTTP proxy server collecting URLs in a 'siege-friendly' manner"
+homepage = "https://www.joedog.org/sproxy-home/"
+
+[source]
+url = "https://download.joedog.org/sproxy/sproxy-1.02.tar.gz"
+sha256 = "29b84ba66112382c948dc8c498a441e5e6d07d2cd5ed3077e388da3525526b72"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "htmlhint"
+version = "1.9.2"
+description = "Static code analysis tool you need for your HTML"
+homepage = "https://htmlhint.com"
+
+[source]
+url = "https://registry.npmjs.org/htmlhint/-/htmlhint-1.9.2.tgz"
+sha256 = "c32775c6abf4ed12bbb87c7310ff76802270989f4880a25196d196b7c7fe7c17"
+
+[build]
+system = "autotools"

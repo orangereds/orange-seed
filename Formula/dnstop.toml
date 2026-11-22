@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dnstop"
+version = "20140915"
+description = "Console tool to analyze DNS traffic"
+homepage = "http://dns.measurement-factory.com/tools/dnstop/index.html"
+
+[source]
+url = "https://cdn.netbsd.org/pub/pkgsrc/distfiles/dnstop-20140915.tar.gz"
+sha256 = "b4b03d02005b16e98d923fa79957ea947e3aa6638bb267403102d12290d0c57a"
+
+[build]
+system = "autotools"

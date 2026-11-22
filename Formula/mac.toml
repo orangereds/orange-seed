@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "mac"
+version = "13.50"
+description = "Monkey's Audio lossless codec"
+homepage = "https://www.monkeysaudio.com"
+
+[source]
+url = "https://monkeysaudio.com/files/MAC_1350_SDK.zip"
+sha256 = "64a347668211efbc564a8543b28be612895caddf0a5f317b9404255fcffc0be1"
+
+[build]
+system = "cmake"

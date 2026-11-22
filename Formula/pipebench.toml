@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pipebench"
+version = "0.40.orig"
+description = "Measure the speed of STDIN/STDOUT communication"
+homepage = "https://www.habets.pp.se/synscan/programs_pipebench.html"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/p/pipebench/pipebench_0.40.orig.tar.gz"
+sha256 = "ca764003446222ad9dbd33bbc7d94cdb96fa72608705299b6cc8734cd3562211"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ekphos"
+version = "0.60.20"
+description = "Terminal-based markdown research tool inspired by Obsidian"
+homepage = "https://ekphos.nostacks.xyz/"
+
+[source]
+url = "https://github.com/nostacks/ekphos/archive/refs/tags/v0.60.20.tar.gz"
+sha256 = "1f2d2e6a55a7870b25a977f02a715390f8f5d93fc2bbd805ca2e3a94a71f8649"
+
+[build]
+system = "autotools"

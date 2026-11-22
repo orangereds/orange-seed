@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+", "at-spi2-core", "harfbuzz", "pango"]
+
+[package]
+name = "gerbv"
+version = "2.13.0"
+description = "Gerber (RS-274X) viewer"
+homepage = "https://gerbv.github.io/"
+
+[source]
+url = "https://github.com/gerbv/gerbv/archive/refs/tags/v2.13.0.tar.gz"
+sha256 = "0479b333efffadc118b7e3080be5621d8890fdcd2376edbe40a686d5c3642784"
+
+[build]
+system = "cmake"

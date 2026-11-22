@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libffcall"
+version = "2.6"
+description = "GNU Foreign Function Interface library"
+homepage = "https://www.gnu.org/software/libffcall/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libffcall/libffcall-2.6.tar.gz"
+sha256 = "7e3951d642a1884adaf7f15c60df1bf8fbde686daa9fa69df1a514471b8cff39"
+
+[build]
+system = "autotools"

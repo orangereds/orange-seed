@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["perl"]
+
+[package]
+name = "wakeonlan"
+version = "0.50"
+description = "Sends magic packets to wake up network-devices"
+homepage = "https://github.com/jpoliv/wakeonlan"
+
+[source]
+url = "https://github.com/jpoliv/wakeonlan/archive/refs/tags/v0.50.tar.gz"
+sha256 = "cbbf9d75db0cc0b8deb9d43ae0b0a320864bc6f00e032771f11a926b0aa2463f"
+
+[build]
+system = "autotools"

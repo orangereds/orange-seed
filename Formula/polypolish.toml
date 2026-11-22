@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "polypolish"
+version = "0.7.1"
+description = "Short-read polishing tool for long-read assemblies"
+homepage = "https://github.com/rrwick/Polypolish"
+
+[source]
+url = "https://github.com/rrwick/Polypolish/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "4e00dce9e3c1a224fdfe16b0e3632df13a250f43a36c302fd579683bbd325086"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cfitsio"]
+
+[package]
+name = "wcslib"
+version = "8.10"
+description = "Library and utilities for the FITS World Coordinate System"
+homepage = "https://www.atnf.csiro.au/computing/software/wcs/"
+
+[source]
+url = "https://www.atnf.csiro.au/computing/software/wcs/wcslib-releases/wcslib-8.10.tar.bz2"
+sha256 = "447ecb7be9b43798f4d7f10855f3f39f826ad550bc9b330ced4736960fc65289"
+
+[build]
+system = "autotools"

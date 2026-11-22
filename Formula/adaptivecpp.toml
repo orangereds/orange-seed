@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libomp"]
+
+[package]
+name = "adaptivecpp"
+version = "25.10.0_1"
+description = "SYCL and C++ standard parallelism for CPUs and GPUs"
+homepage = "https://adaptivecpp.github.io/"
+
+[source]
+url = "https://github.com/AdaptiveCpp/AdaptiveCpp/archive/refs/tags/v25.10.0.tar.gz"
+sha256 = "334b16ebff373bd2841f83332c2ae9a45ec192f2cf964d5fdfe94e1140776059"
+
+[build]
+system = "autotools"

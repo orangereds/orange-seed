@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fx-upscale"
+version = "1.3.2"
+description = "Metal-powered video upscaling"
+homepage = "https://github.com/finnvoor/fx-upscale"
+
+[source]
+url = "https://github.com/finnvoor/fx-upscale/archive/refs/tags/1.3.2.tar.gz"
+sha256 = "4dc10cbbd23acbede656215259ac3644e9472915840243409b34c6bc471ff11d"
+
+[build]
+system = "autotools"

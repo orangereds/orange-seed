@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "tbb"]
+
+[package]
+name = "onedpl"
+version = "0"
+description = "C++ standard library algorithms with support for execution policies"
+homepage = "https://github.com/uxlfoundation/oneDPL"
+
+[source]
+url = "https://github.com/uxlfoundation/oneDPL/archive/refs/tags/oneDPL-release-2022.14.0.tar.gz"
+sha256 = "1e40549d300265aac5459e6e52b5aa5ae9073586067c4a4a38a21c3511ca0373"
+
+[build]
+system = "cmake"

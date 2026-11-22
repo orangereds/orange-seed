@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "cmark"
+version = "0.31.2"
+description = "Strongly specified, highly compatible implementation of Markdown"
+homepage = "https://commonmark.org/"
+
+[source]
+url = "https://github.com/commonmark/cmark/archive/refs/tags/0.31.2.tar.gz"
+sha256 = "f9bc5ca38bcb0b727f0056100fac4d743e768872e3bacec7746de28f5700d697"
+
+[build]
+system = "cmake"

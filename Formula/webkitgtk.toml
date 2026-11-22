@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "gobject-introspection", "gperf", "ninja", "perl", "pkgconf", "python@3.15", "ruby", "unifdef", "at-spi2-core", "cairo", "enchant", "expat", "fontconfig", "freetype", "gdk-pixbuf", "glib", "gstreamer", "gtk+3", "harfbuzz", "icu4c@79", "jpeg-turbo", "jpeg-xl", "libavif", "libdrm", "libepoxy", "libgcrypt", "libnotify", "libpng", "libsecret", "libsoup", "libtasn1", "libwpe", "libx11", "libxcomposite", "libxml2", "libxslt", "libxt", "little-cms2", "mesa", "openjpeg", "pango", "sqlite", "sysprof", "systemd", "wayland", "webp", "woff2", "wpebackend-fdo", "zlib-ng-compat"]
+
+[package]
+name = "webkitgtk"
+version = "2.54.3"
+description = "GTK interface to WebKit"
+homepage = "https://webkitgtk.org"
+
+[source]
+url = "https://webkitgtk.org/releases/webkitgtk-2.54.3.tar.xz"
+sha256 = "2779c1b46f88762e8400650271ba14452dc4e30b37059981552d8b562b7d0862"
+
+[build]
+system = "cmake"

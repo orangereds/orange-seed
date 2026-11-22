@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "css-crush"
+version = "5.0.1"
+description = "Extensible PHP based CSS preprocessor"
+homepage = "https://the-echoplex.net/csscrush"
+
+[source]
+url = "https://github.com/peteboere/css-crush/archive/refs/tags/v5.0.1.tar.gz"
+sha256 = "98b93ae9acb1586a1bdefeb377065206f62cb5f00f3ac065b65dff9dc5d0a979"
+
+[build]
+system = "autotools"

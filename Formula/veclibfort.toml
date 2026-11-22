@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc"]
+
+[package]
+name = "veclibfort"
+version = "0.4.3"
+description = "GNU Fortran compatibility for Apple's vecLib"
+homepage = "https://github.com/mcg1969/vecLibFort"
+
+[source]
+url = "https://github.com/mcg1969/vecLibFort/archive/refs/tags/0.4.3.tar.gz"
+sha256 = "fe9e7e0596bfb4aa713b2273b21e7d96c0d7a6453ee4b214a8a50050989d5586"
+
+[build]
+system = "make"

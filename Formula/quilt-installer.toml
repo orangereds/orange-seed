@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "quilt-installer"
+version = "0.15.1.jar"
+description = "Installer for Quilt for the vanilla launcher"
+homepage = "https://quiltmc.org/"
+
+[source]
+url = "https://maven.quiltmc.org/repository/release/org/quiltmc/quilt-installer/0.15.1/quilt-installer-0.15.1.jar"
+sha256 = "0a229138caa1b87fd8f5622038410696f98bb85871a279640e7002404c4d0dc2"
+
+[build]
+system = "autotools"

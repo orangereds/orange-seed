@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "podlet"
+version = "0.3.2"
+description = "Generate podman quadlet files from a podman command or compose file"
+homepage = "https://github.com/containers/podlet"
+
+[source]
+url = "https://github.com/containers/podlet/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "2dee85888e0f4ad1d8d7f6c7579d00faa69bb8dbcb4708706ef8db92e41f9bef"
+
+[build]
+system = "autotools"

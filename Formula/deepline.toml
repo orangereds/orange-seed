@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "deepline"
+version = "0.3.552"
+description = "CLI for Deepline data enrichment and durable plays"
+homepage = "https://code.deepline.com"
+
+[source]
+url = "https://registry.npmjs.org/deepline/-/deepline-0.3.552.tgz"
+sha256 = "b822559b49f132a6f4205d353638fa38827553b4c8263edebc5ccfccc7e1c745"
+
+[build]
+system = "autotools"

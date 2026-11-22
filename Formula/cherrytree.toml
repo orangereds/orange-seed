@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "pkgconf", "adwaita-icon-theme", "at-spi2-core", "atkmm@2.28", "cairo", "cairomm@1.14", "enchant", "fmt", "fribidi", "gdk-pixbuf", "glib", "glibmm@2.66", "gspell", "gtk+3", "gtkmm3", "gtksourceview4", "harfbuzz", "librsvg", "libsigc++@2", "libxml++", "pango", "pangomm@2.46", "spdlog", "sqlite", "uchardet", "vte3"]
+
+[package]
+name = "cherrytree"
+version = "1.7.3"
+description = "Hierarchical note taking application featuring rich text and syntax highlighting"
+homepage = "https://www.giuspen.com/cherrytree/"
+
+[source]
+url = "https://github.com/giuspen/cherrytree/releases/download/v1.7.3/cherrytree_1.7.3.tar.xz"
+sha256 = "c7da94b3e249d6edf64a57bdf51a53749fd9b36a13b0fbaa34cc30270347c71f"
+
+[build]
+system = "cmake"

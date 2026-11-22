@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "jpeg-turbo", "libpng", "libtiff", "wxwidgets"]
+
+[package]
+name = "iccdev"
+version = "2.4.2.6"
+description = "Developer tools for interacting with and manipulating ICC profiles"
+homepage = "https://github.com/InternationalColorConsortium/iccDEV"
+
+[source]
+url = "https://github.com/InternationalColorConsortium/iccDEV/archive/refs/tags/v2.4.2.6.tar.gz"
+sha256 = "78b05fe86a3bdf2dbacf9453a20f81e9ccac8f278d767a6e3e38efbbe8a4bb1e"
+
+[build]
+system = "cmake"

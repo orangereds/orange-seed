@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "basti"
+version = "1.8.1"
+description = "Securely connect to RDS, Elasticache, and other AWS resources in VPCs"
+homepage = "https://www.basti.app"
+
+[source]
+url = "https://registry.npmjs.org/basti/-/basti-1.8.1.tgz"
+sha256 = "cfcda8ebe4f095a5b891a471174787d7ea07c5ea6c06fdd02e44803d42d5e358"
+
+[build]
+system = "autotools"

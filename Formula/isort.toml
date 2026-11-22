@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "isort"
+version = "9.0.2"
+description = "Sort Python imports automatically"
+homepage = "https://pycqa.github.io/isort/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/da/cf/068066b8fdab91cd40bcd63e483137908710a3d25a4d3a01b538be45d9d6/isort-9.0.2.tar.gz"
+sha256 = "d2298980ce44350f11d9d24c8150eaef1883431ec203dddbb4e9b5c3ceb54c70"
+
+[build]
+system = "autotools"

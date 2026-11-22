@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook"]
+
+[package]
+name = "docbook-xsl"
+version = "0_1"
+description = "XML vocabulary to create presentation-neutral documents"
+homepage = "https://github.com/docbook/xslt10-stylesheets"
+
+[source]
+url = "https://github.com/docbook/xslt10-stylesheets/releases/download/release%2F1.79.2/docbook-xsl-nons-1.79.2.tar.bz2"
+sha256 = "ee8b9eca0b7a8f89075832a2da7534bce8c5478fc8fc2676f512d5d87d832102"
+
+[build]
+system = "autotools"

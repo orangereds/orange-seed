@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "s3scanner"
+version = "3.1.1"
+description = "Scan for misconfigured S3 buckets across S3-compatible APIs!"
+homepage = "https://github.com/sa7mon/S3Scanner"
+
+[source]
+url = "https://github.com/sa7mon/S3Scanner/archive/refs/tags/v3.1.1.tar.gz"
+sha256 = "2d333c31909baa21e024d11db1b03647fff3d210d73fa7fa47f598d3d459a20c"
+
+[build]
+system = "autotools"

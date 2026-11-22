@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nethogs"
+version = "0.9.0"
+description = "Net top tool grouping bandwidth per process"
+homepage = "https://raboof.github.io/nethogs/"
+
+[source]
+url = "https://github.com/raboof/nethogs/archive/refs/tags/v0.9.0.tar.gz"
+sha256 = "5961bef2155c05695d2fe7e79aa11194981b5afd1cad9bf1f259c7f30d5487c3"
+
+[build]
+system = "make"

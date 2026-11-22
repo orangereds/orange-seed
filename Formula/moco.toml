@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "moco"
+version = "0"
+description = "Stub server with Maven, Gradle, Scala, and shell integration"
+homepage = "https://github.com/dreamhead/moco"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=com/github/dreamhead/moco-runner/1.6.1/moco-runner-1.6.1-standalone.jar"
+sha256 = "f61ea62275e2b11590472b74de933a65f62ea05ff4de8b94f6b06173773301b1"
+
+[build]
+system = "autotools"

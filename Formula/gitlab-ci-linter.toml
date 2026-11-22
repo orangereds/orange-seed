@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitlab-ci-linter"
+version = "2.4.0"
+description = "Command-line tool to lint GitLab CI YAML files"
+homepage = "https://gitlab.com/orobardet/gitlab-ci-linter"
+
+[source]
+url = "https://gitlab.com/orobardet/gitlab-ci-linter/-/archive/v2.4.0/gitlab-ci-linter-v2.4.0.tar.bz2"
+sha256 = "caacfabcb3e5d01b821c685d443b709c464b999a60f72bd67ead4a2d991547d7"
+
+[build]
+system = "autotools"

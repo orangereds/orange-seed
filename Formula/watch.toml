@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "pkgconf", "ncurses"]
+
+[package]
+name = "watch"
+version = "0"
+description = "Executes a program periodically, showing output fullscreen"
+homepage = "https://gitlab.com/procps-ng/procps"
+
+[source]
+url = "https://downloads.sourceforge.net/project/procps-ng/Production/procps-ng-4.0.7.tar.xz"
+sha256 = "9d2021f47a4501c667862c9942a92d1953694b21d11bcd1702e83eb594e3d67d"
+
+[build]
+system = "autotools"

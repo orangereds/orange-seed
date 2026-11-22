@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xa"
+version = "2.4.1"
+description = "6502 cross assembler"
+homepage = "https://www.floodgap.com/retrotech/xa/"
+
+[source]
+url = "https://www.floodgap.com/retrotech/xa/dists/xa-2.4.1.tar.gz"
+sha256 = "63c12a6a32a8e364f34f049d8b2477f4656021418f08b8d6b462be0ed3be3ac3"
+
+[build]
+system = "autotools"

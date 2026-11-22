@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hugo"
+version = "0.170.1"
+description = "Configurable static site generator"
+homepage = "https://gohugo.io/"
+
+[source]
+url = "https://github.com/gohugoio/hugo/archive/refs/tags/v0.170.1.tar.gz"
+sha256 = "bfbac02de9f08914545490ef17501cb0d89e63cc95e05e51d5bd9907da20505b"
+
+[build]
+system = "autotools"

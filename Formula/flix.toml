@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mill", "scala", "openjdk"]
+
+[package]
+name = "flix"
+version = "0.80.0"
+description = "Statically typed functional, imperative, and logic programming language"
+homepage = "https://flix.dev/"
+
+[source]
+url = "https://github.com/flix/flix/archive/refs/tags/v0.80.0.tar.gz"
+sha256 = "7a6bdc6d87b607001122e82846bf113d74b5dc6615f1b532015d354537efcc83"
+
+[build]
+system = "autotools"

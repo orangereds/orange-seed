@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "snowball"
+version = "3.2.0"
+description = "Stemming algorithms"
+homepage = "https://snowballstem.org"
+
+[source]
+url = "https://github.com/snowballstem/snowball/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "c33aea097734daae5c445efe6e399cb078f66325b40d54791df577ffaa53c2d7"
+
+[build]
+system = "autotools"

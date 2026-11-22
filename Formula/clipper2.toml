@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "clipper2"
+version = "0"
+description = "Polygon clipping and offsetting library"
+homepage = "https://github.com/AngusJohnson/Clipper2"
+
+[source]
+url = "https://github.com/AngusJohnson/Clipper2/releases/download/Clipper2_2.0.1/Clipper2_2.0.1.zip"
+sha256 = "63e893fc40c3453c9d14cbe98bc7647f16a9d5846ae25b513d8a1ed5b8421144"
+
+[build]
+system = "cmake"

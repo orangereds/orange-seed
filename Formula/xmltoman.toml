@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils"]
+
+[package]
+name = "xmltoman"
+version = "0.4_4"
+description = "XML to manpage converter"
+homepage = "https://sourceforge.net/projects/xmltoman/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/xmltoman/xmltoman/xmltoman-0.4.tar.gz/xmltoman-0.4.tar.gz"
+sha256 = "948794a316aaecd13add60e17e476beae86644d066cb60171fc6b779f2df14b0"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "certifi", "gdal", "numpy", "python@3.15"]
+
+[package]
+name = "rasterio"
+version = "1.5.2"
+description = "Reads and writes geospatial raster datasets"
+homepage = "https://rasterio.readthedocs.io/en/stable/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/51/90/bd0a124e164f5fe776084c9731b43ab136b31281a18608e617cdb5f2be70/rasterio-1.5.2.tar.gz"
+sha256 = "e65a15b7bd22ce8f8ce8159856669dc9fafabf66cde6156e8f8e71d55abcd515"
+
+[build]
+system = "autotools"

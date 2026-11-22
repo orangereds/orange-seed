@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "colormake"
+version = "0.9.20140503"
+description = "Wrapper around make to colorize the output"
+homepage = "https://github.com/pagekite/Colormake"
+
+[source]
+url = "https://github.com/pagekite/Colormake/archive/refs/tags/0.9.20140503.tar.gz"
+sha256 = "a3f9fae9a455ac96be1cce0371b28bda33a9af73b06fa8e4329aa2f693d68d22"
+
+[build]
+system = "autotools"

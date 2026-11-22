@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "help2man", "pkgconf", "boost", "htmlcxx", "jsoncpp", "rhash", "tidy-html5", "tinyxml2"]
+
+[package]
+name = "lgogdownloader"
+version = "3.20"
+description = "Unofficial downloader for GOG.com games"
+homepage = "https://sites.google.com/site/gogdownloader/"
+
+[source]
+url = "https://github.com/Sude-/lgogdownloader/releases/download/v3.20/lgogdownloader-3.20.tar.gz"
+sha256 = "14dbbaf7d6764143444dbb5be8a53d8fdea6d8647204e05ed81f8dd5e80a4fde"
+
+[build]
+system = "cmake"

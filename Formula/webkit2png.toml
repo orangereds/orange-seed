@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "webkit2png"
+version = "0.7"
+description = "Create screenshots of webpages from the terminal"
+homepage = "https://www.paulhammond.org/webkit2png/"
+
+[source]
+url = "https://github.com/paulhammond/webkit2png/archive/refs/tags/v0.7.tar.gz"
+sha256 = "9b810edb6f54cc23ba86b0212f203e6c3bbafc3cbdb62b9c33887548c91015bf"
+
+[build]
+system = "autotools"

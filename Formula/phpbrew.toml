@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php@8.4"]
+
+[package]
+name = "phpbrew"
+version = "0_1"
+description = "Brew & manage PHP versions in pure PHP at HOME"
+homepage = "https://phpbrew.github.io/phpbrew"
+
+[source]
+url = "https://github.com/phpbrew/phpbrew/releases/download/2.2.0/phpbrew.phar"
+sha256 = "3247b8438888827d068542b2891392e3beffebe122f4955251fa4f9efa0da03d"
+
+[build]
+system = "autotools"

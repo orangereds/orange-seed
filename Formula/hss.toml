@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "hss"
+version = "1.10"
+description = "Interactive parallel SSH client"
+homepage = "https://github.com/six-ddc/hss"
+
+[source]
+url = "https://github.com/six-ddc/hss/archive/refs/tags/1.10.tar.gz"
+sha256 = "570585d660e64ba29e574f68bae5f2e38905d9a5f6ce0e9e36d82c5342fddf2b"
+
+[build]
+system = "autotools"

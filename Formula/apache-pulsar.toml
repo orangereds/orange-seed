@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@25"]
+
+[package]
+name = "apache-pulsar"
+version = "0"
+description = "Cloud-native distributed messaging and streaming platform"
+homepage = "https://pulsar.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=pulsar/pulsar-5.0.1/apache-pulsar-5.0.1-src.tar.gz"
+sha256 = "687e2670dfb71ad10fd9972957de7426e4596a095b08781364950c4aa3fcafde"
+
+[service]
+run = "opt/apache-pulsar/bin/pulsar standalone"
+log_path = "var/log/pulsar/output.log"
+error_log_path = "var/log/pulsar/error.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15", "rpds-py"]
+
+[package]
+name = "borgmatic"
+version = "2.2.0"
+description = "Simple wrapper script for the Borg backup software"
+homepage = "https://torsion.org/borgmatic/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d9/6e/76e1bff53c336ad7d5698fa4abf948faf2d820e9f5c2b99917a14268a9a9/borgmatic-2.2.0.tar.gz"
+sha256 = "2f3a1e8f697b267e64fac9aaec628e68f89075854807436956c64d3b8542af3b"
+
+[build]
+system = "autotools"

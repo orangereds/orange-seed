@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-mutants"
+version = "27.1.0"
+description = "Inject bugs and see if your tests catch them"
+homepage = "https://mutants.rs/"
+
+[source]
+url = "https://github.com/sourcefrog/cargo-mutants/archive/refs/tags/v27.1.0.tar.gz"
+sha256 = "e57d8c31a8edee7d9265949aef896768729c824626897938e98a5d162a82bda0"
+
+[build]
+system = "autotools"

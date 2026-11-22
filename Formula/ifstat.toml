@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ifstat"
+version = "1.1.orig"
+description = "Tool to report network interface bandwidth"
+homepage = "http://gael.roualland.free.fr/ifstat/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/i/ifstat/ifstat_1.1.orig.tar.gz"
+sha256 = "8599063b7c398f9cfef7a9ec699659b25b1c14d2bc0f535aed05ce32b7d9f507"
+
+[build]
+system = "autotools"

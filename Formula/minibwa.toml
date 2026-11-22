@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "minibwa"
+version = "0.7"
+description = "Successor of BWA-MEM for short-read alignment"
+homepage = "https://github.com/lh3/minibwa"
+
+[source]
+url = "https://github.com/lh3/minibwa/archive/refs/tags/v0.7.tar.gz"
+sha256 = "8a1129bcba045e4af4b6fbf73b3fc6b42208afbab870c774c5f0cd2716d748ae"
+
+[build]
+system = "autotools"

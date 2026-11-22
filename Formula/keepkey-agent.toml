@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cryptography", "hidapi", "libsodium", "libusb", "python@3.14"]
+
+[package]
+name = "keepkey-agent"
+version = "0_12"
+description = "Keepkey Hardware-based SSH/GPG agent"
+homepage = "https://github.com/romanz/trezor-agent"
+
+[source]
+url = "https://files.pythonhosted.org/packages/65/72/4bf47a7bc8dc93d2ac21672a0db4bc58a78ec5cee3c4bcebd0b4092a9110/keepkey_agent-0.9.0.tar.gz"
+sha256 = "47c85de0c2ffb53c5d7bd2f4d2230146a416e82511259fad05119c4ef74be70c"
+
+[build]
+system = "autotools"

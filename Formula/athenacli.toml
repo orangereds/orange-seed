@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "athenacli"
+version = "1.7.0_2"
+description = "CLI tool for AWS Athena service"
+homepage = "https://athenacli.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/31/1b/fb72060d66d8afaaba86b5ead8c4edaf4a37a2a175baa8ac391c3ee60a48/athenacli-1.7.0.tar.gz"
+sha256 = "1c81f420035ae4d6ed202da659ba640982880c65c7e7755c0b5a6d25adc2ac25"
+
+[build]
+system = "autotools"

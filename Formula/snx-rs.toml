@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "snx-rs"
+version = "6.7.0"
+description = "Open-source client for Check Point VPN tunnels"
+homepage = "https://github.com/ancwrd1/snx-rs"
+
+[source]
+url = "https://github.com/ancwrd1/snx-rs/archive/refs/tags/v6.7.0.tar.gz"
+sha256 = "5aaa03284d696e5b2f503a337645094cd17fa7b6ee7ffca4ecf9f78289431015"
+
+[service]
+run = "opt/snx-rs/bin/snx-rs -m command -l info"
+keep_alive = true
+log_path = "var/log/snx-rs.log"
+error_log_path = "var/log/snx-rs.log"
+
+[build]
+system = "autotools"

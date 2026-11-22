@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "authoscope"
+version = "0.8.1"
+description = "Scriptable network authentication cracker"
+homepage = "https://github.com/kpcyrd/authoscope"
+
+[source]
+url = "https://github.com/kpcyrd/authoscope/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "fd70d3d86421ac791362bf8d1063a1d5cd4f5410b0b8f5871c42cb48c8cc411a"
+
+[build]
+system = "autotools"

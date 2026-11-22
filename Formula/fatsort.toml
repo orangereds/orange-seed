@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man"]
+
+[package]
+name = "fatsort"
+version = "1.7.679"
+description = "Sorts FAT16 and FAT32 partitions"
+homepage = "https://fatsort.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/fatsort/fatsort-1.7.679.tar.xz"
+sha256 = "1012f551382639d69e194eabfbe99342ede7c856b1cd6788287f9dfd4bd8d122"
+
+[build]
+system = "autotools"

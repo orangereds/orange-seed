@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "jsdoc3"
+version = "0"
+description = "API documentation generator for JavaScript"
+homepage = "https://jsdoc.app/"
+
+[source]
+url = "https://registry.npmjs.org/jsdoc/-/jsdoc-4.0.5.tgz"
+sha256 = "a590c432d7a190fea72445db6b3e2f8d1f457832caa88e617dbb24984141f971"
+
+[build]
+system = "autotools"

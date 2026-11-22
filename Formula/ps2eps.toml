@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ghostscript"]
+
+[package]
+name = "ps2eps"
+version = "1.72"
+description = "Convert PostScript to EPS files"
+homepage = "https://github.com/roland-bless/ps2eps"
+
+[source]
+url = "https://github.com/roland-bless/ps2eps/archive/refs/tags/v1.72.tar.gz"
+sha256 = "03bd71d8f1cc86369ec865486e8d371f3bd9a3741e86c9f0780797b9ab0a3fd4"
+
+[build]
+system = "autotools"

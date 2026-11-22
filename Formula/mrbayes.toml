@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "beagle", "open-mpi"]
+
+[package]
+name = "mrbayes"
+version = "3.2.8"
+description = "Bayesian inference of phylogenies and evolutionary models"
+homepage = "https://nbisweden.github.io/MrBayes/"
+
+[source]
+url = "https://github.com/NBISweden/MrBayes/archive/refs/tags/v3.2.8.tar.gz"
+sha256 = "331ceb0af036d07cd8bd7091d39632f6d102d8b98c160409d19df3958db85dc2"
+
+[build]
+system = "autotools"

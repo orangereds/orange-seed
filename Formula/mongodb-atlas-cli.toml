@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "mongosh"]
+
+[package]
+name = "mongodb-atlas-cli"
+version = "1.60.1"
+description = "Atlas CLI enables you to manage your MongoDB Atlas"
+homepage = "https://www.mongodb.com/docs/atlas/cli/stable/"
+
+[source]
+url = "https://github.com/mongodb/mongodb-atlas-cli/archive/refs/tags/v1.60.1.tar.gz"
+sha256 = "f5160d1f60fad4aeb60e87baadf56d4f811706e60b6251a8e4f94b1913eb63a1"
+
+[build]
+system = "autotools"

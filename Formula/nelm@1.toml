@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nelm@1"
+version = "1.30.4"
+description = "Kubernetes deployment tool that manages and deploys Helm Charts"
+homepage = "https://github.com/werf/nelm"
+
+[source]
+url = "https://github.com/werf/nelm/archive/refs/tags/v1.30.4.tar.gz"
+sha256 = "23d7af4dbd8e0a1f39e6e377008bc9f7f0a014c9351a1d0139ddbbaded22e752"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

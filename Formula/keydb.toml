@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4"]
+
+[package]
+name = "keydb"
+version = "6.3.4_1"
+description = "Multithreaded fork of Redis"
+homepage = "https://keydb.dev"
+
+[source]
+url = "https://github.com/Snapchat/KeyDB/archive/refs/tags/v6.3.4.tar.gz"
+sha256 = "229190b251f921e05aff7b0d2f04b5676c198131e2abbec1e2cfb2e61215e2f3"
+
+[build]
+system = "make"

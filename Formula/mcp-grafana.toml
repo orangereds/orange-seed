@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mcp-grafana"
+version = "2.3.0"
+description = "MCP server for Grafana"
+homepage = "https://github.com/grafana/mcp-grafana"
+
+[source]
+url = "https://github.com/grafana/mcp-grafana/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "90857dbd58efe2da1453ebbd56f85d3dab45dd9fc2942a0ea231cd81ad7fa659"
+
+[build]
+system = "autotools"

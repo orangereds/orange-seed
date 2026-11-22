@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "octobuild"
+version = "2.0.0"
+description = "Compiler cache for Unreal Engine"
+homepage = "https://github.com/octobuild/octobuild"
+
+[source]
+url = "https://github.com/octobuild/octobuild/archive/refs/tags/2.0.0.tar.gz"
+sha256 = "ff6c54184351fb03e1997c59db98eec705a5cea2969d72d220f50110d4c34853"
+
+[build]
+system = "autotools"

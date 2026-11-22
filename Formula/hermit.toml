@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hermit"
+version = "0.56.0"
+description = "Manages isolated, self-bootstrapping sets of tools in software projects"
+homepage = "https://cashapp.github.io/hermit"
+
+[source]
+url = "https://github.com/cashapp/hermit/archive/refs/tags/v0.56.0.tar.gz"
+sha256 = "0fd7beadf347693f24b843496a20f92ed465c98dff2673fa9d173a8a3ecde3ef"
+
+[build]
+system = "autotools"

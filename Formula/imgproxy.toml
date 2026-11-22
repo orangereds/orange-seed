@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "glib", "vips", "gettext"]
+
+[package]
+name = "imgproxy"
+version = "4.0.24"
+description = "Fast and secure server for resizing and converting remote images"
+homepage = "https://imgproxy.net"
+
+[source]
+url = "https://github.com/imgproxy/imgproxy/archive/refs/tags/v4.0.24.tar.gz"
+sha256 = "55fb080f48ff4c83a27bebe8c47099565484ea631f61bf8cb6de81d4826917d3"
+
+[build]
+system = "autotools"

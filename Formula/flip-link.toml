@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "flip-link"
+version = "0.1.12"
+description = "Adds zero-cost stack overflow protection to your embedded programs"
+homepage = "https://github.com/knurling-rs/flip-link"
+
+[source]
+url = "https://github.com/knurling-rs/flip-link/archive/refs/tags/v0.1.12.tar.gz"
+sha256 = "3608b9adddd5415d1a897947abaaf0438a8a4459292054dc7eb1f809ecab1366"
+
+[build]
+system = "autotools"

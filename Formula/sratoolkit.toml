@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hdf5"]
+
+[package]
+name = "sratoolkit"
+version = "3.4.1"
+description = "Data tools for INSDC Sequence Read Archive"
+homepage = "https://github.com/ncbi/sra-tools"
+
+[source]
+url = "https://github.com/ncbi/sra-tools/archive/refs/tags/3.4.1.tar.gz"
+sha256 = "874dcbb28b7ebffb5554839254e777b1137b0f0430815bab175068decfe96e98"
+
+[build]
+system = "cmake"

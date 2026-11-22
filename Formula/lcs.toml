@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "lcs"
+version = "4.07.4b"
+description = "Satirical console-based political role-playing/strategy game"
+homepage = "https://sourceforge.net/projects/lcsgame/"
+
+[source]
+url = "https://github.com/ashley-s-fox/Liberal-Crime-Squad/archive/59744167aff8d39b8e4b36fa2b529ad5671c9dd0.tar.gz"
+sha256 = "77832463f2c244e346b869d6e8586856d34134e32df02a3a1c54a7efd77ca445"
+
+[build]
+system = "autotools"

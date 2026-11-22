@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "cairo", "libpng", "libsigc++"]
+
+[package]
+name = "cairomm"
+version = "1.18.1"
+description = "Vector graphics library with cross-device output support"
+homepage = "https://cairographics.org/cairomm/"
+
+[source]
+url = "https://cairographics.org/releases/cairomm-1.18.1.tar.xz"
+sha256 = "e0e996a979ee52c840dca3ee74f5d005e3259b94ddce58f255d3b6f47c8cb41d"
+
+[build]
+system = "autotools"

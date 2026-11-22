@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "lame", "libfuse@2", "libid3tag", "libvorbis"]
+
+[package]
+name = "mp3fs"
+version = "1.1.1_5"
+description = "Read-only FUSE file system: transcodes audio formats to MP3"
+homepage = "https://khenriks.github.io/mp3fs/"
+
+[source]
+url = "https://github.com/khenriks/mp3fs/releases/download/v1.1.1/mp3fs-1.1.1.tar.gz"
+sha256 = "942b588fb623ea58ce8cac8844e6ff2829ad4bc9b4c163bba58e3fa9ebc15608"
+
+[build]
+system = "autotools"

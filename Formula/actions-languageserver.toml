@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "actions-languageserver"
+version = "0"
+description = "Language server for GitHub Actions YAML files"
+homepage = "https://github.com/actions/languageservices/tree/main/languageserver"
+
+[source]
+url = "https://github.com/actions/languageservices/archive/refs/tags/release-v0.3.61.tar.gz"
+sha256 = "90f142dbcb032afcae9b6530646ac168c4917a48170c824761b969e155cedc00"
+
+[build]
+system = "autotools"

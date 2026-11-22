@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "kondo"
+version = "0.9"
+description = "Save disk space by cleaning non-essential files from software projects"
+homepage = "https://github.com/tbillington/kondo"
+
+[source]
+url = "https://github.com/tbillington/kondo/archive/refs/tags/v0.9.tar.gz"
+sha256 = "188c577f1d21d783cd2b4b43a5cbae5ffe8b085e5773e10846af55968ddd50c4"
+
+[build]
+system = "autotools"

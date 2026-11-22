@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gmp", "mpfr"]
+
+[package]
+name = "mpfi"
+version = "1.5.5"
+description = "Multiple precision interval arithmetic library"
+homepage = "https://perso.ens-lyon.fr/nathalie.revol/software.html"
+
+[source]
+url = "https://gitlab.inria.fr/mpfi/mpfi/-/archive/1.5.5/mpfi-1.5.5.tar.bz2"
+sha256 = "4c5d0c43759ee3e2bd8e4ffce078e85e928925b8bea97206cdf1620b2225b463"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["doxygen", "ant", "boost", "cmake", "pkgconf", "python-setuptools", "swig", "apache-arrow", "c-blosc", "cfitsio", "epsilon", "freexl", "geos", "giflib", "hdf5", "imath", "jpeg-turbo", "jpeg-xl", "json-c", "libaec", "libarchive", "libdeflate", "libgeotiff", "libheif", "libkml", "liblerc", "libpng", "libpq", "libspatialite", "libtiff", "libxml2", "lz4", "netcdf", "numpy", "openexr", "openjpeg", "openssl@4", "pcre2", "poppler", "proj", "python@3.15", "qhull", "sfcgal", "sqlite", "unixodbc", "webp", "xerces-c", "xz", "zstd", "minizip", "uriparser"]
+
+[package]
+name = "gdal"
+version = "3.13.3_7"
+description = "Geospatial Data Abstraction Library"
+homepage = "https://gdal.org/en/stable/"
+
+[source]
+url = "https://github.com/OSGeo/gdal/releases/download/v3.13.3/gdal-3.13.3.tar.gz"
+sha256 = "5e0c388d83da2d686cc00a40272882432cdb54edff43d4af173e532844a0a0ea"
+
+[build]
+system = "cmake"

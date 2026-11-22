@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "cairo", "freetype", "glib", "jpeg-turbo", "jpeg-xl", "libavif", "librsvg", "libtiff", "webp", "gdk-pixbuf", "gettext"]
+
+[package]
+name = "chafa"
+version = "1.18.3_1"
+description = "Versatile and fast Unicode/ASCII/ANSI graphics renderer"
+homepage = "https://hpjansson.org/chafa/"
+
+[source]
+url = "https://hpjansson.org/chafa/releases/chafa-1.18.3.tar.xz"
+sha256 = "fb995ef21dce6c73dd0dd454ba3e0f7fac08e053ea16060a2e5ce69a3746ee27"
+
+[build]
+system = "autotools"

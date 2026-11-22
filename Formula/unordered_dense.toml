@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "unordered_dense"
+version = "5.3.3"
+description = "Hashmap and hashset based on robin-hood backward shift deletion"
+homepage = "https://github.com/martinus/unordered_dense"
+
+[source]
+url = "https://github.com/martinus/unordered_dense/archive/refs/tags/v5.3.3.tar.gz"
+sha256 = "862605ef21424c6c92881aac4cf8f09c3abd91c80588446c83892583228eca67"
+
+[build]
+system = "cmake"

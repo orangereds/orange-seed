@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "urlwatch"
+version = "2.29_10"
+description = "Get notified when a webpage changes"
+homepage = "https://thp.io/2008/urlwatch/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/76/a3/e3bc54a669fa3ec440ea9d8db64590e761343b02b6ae9fcfcdc05c28d9ea/urlwatch-2.29.tar.gz"
+sha256 = "f317ca8b123b15af510ec9e08bf885d8a8b574f502253e5ded200d757366da98"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "pkgconf", "rust", "libgit2"]
+
+[package]
+name = "gitlogue"
+version = "0.12.2"
+description = "Cinematic Git commit replay tool"
+homepage = "https://github.com/unhappychoice/gitlogue"
+
+[source]
+url = "https://github.com/unhappychoice/gitlogue/archive/refs/tags/v0.12.2.tar.gz"
+sha256 = "a2376359c8fa878da94b273513fad649085ce3c4a4d4efd61acb124530172e7e"
+
+[build]
+system = "autotools"

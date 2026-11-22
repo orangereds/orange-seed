@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rure"
+version = "0.2.5.crate"
+description = "C API for RUst's REgex engine"
+homepage = "https://github.com/rust-lang/regex/tree/HEAD/regex-capi"
+
+[source]
+url = "https://static.crates.io/crates/rure/rure-0.2.5.crate"
+sha256 = "8af70744723e3d5b88fec7869518bbd17883b7d9944f67c9b4a69ae4ed90dc9a"
+
+[build]
+system = "autotools"

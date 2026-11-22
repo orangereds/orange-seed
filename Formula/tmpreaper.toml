@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "tmpreaper"
+version = "1.6.18"
+description = "Clean up files in directories based on their age"
+homepage = "https://packages.debian.org/sid/tmpreaper"
+
+[source]
+url = "https://ftp.debian.org/debian/pool/main/t/tmpreaper/tmpreaper_1.6.18.tar.xz"
+sha256 = "2ae7de0775b49abd222d09ad71360d795b40aa7c31253363e64c182966a37c00"
+
+[build]
+system = "autotools"

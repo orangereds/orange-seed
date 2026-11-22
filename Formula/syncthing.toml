@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "syncthing"
+version = "2.1.7"
+description = "Open source continuous file synchronization application"
+homepage = "https://syncthing.net/"
+
+[source]
+url = "https://github.com/syncthing/syncthing/archive/refs/tags/v2.1.7.tar.gz"
+sha256 = "e9794cab0adf5b0a59d9b631e994dce055c57cb805228555bdfa68118be4bd0a"
+
+[service]
+run = "opt/syncthing/bin/syncthing --no-browser --no-restart"
+keep_alive = true
+log_path = "var/log/syncthing.log"
+error_log_path = "var/log/syncthing.log"
+
+[build]
+system = "autotools"

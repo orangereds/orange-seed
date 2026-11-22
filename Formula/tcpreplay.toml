@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libdnet"]
+
+[package]
+name = "tcpreplay"
+version = "4.6.2"
+description = "Replay saved tcpdump files at arbitrary speeds"
+homepage = "https://tcpreplay.appneta.com/"
+
+[source]
+url = "https://github.com/appneta/tcpreplay/releases/download/v4.6.2/tcpreplay-4.6.2.tar.gz"
+sha256 = "ac4cbc58b4121edb273bc7d4603dfd6a762e7d344981233c8a253425d9dddd8f"
+
+[build]
+system = "cmake"

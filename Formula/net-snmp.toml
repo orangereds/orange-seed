@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "net-snmp"
+version = "5.9.5.2_2"
+description = "Implements SNMP v1, v2c, and v3, using IPv4 and IPv6"
+homepage = "http://www.net-snmp.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/net-snmp/net-snmp/5.9.5.2/net-snmp-5.9.5.2.tar.gz"
+sha256 = "16707719f833184a4b72835dac359ae188123b06b5e42817c00790d7dc1384bf"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

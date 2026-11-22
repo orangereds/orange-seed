@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["curl", "openssl@4", "python@3.15"]
+
+[package]
+name = "fb-client"
+version = "0_1"
+description = "Shell-script client for https://paste.xinu.at"
+homepage = "https://paste.xinu.at"
+
+[source]
+url = "https://paste.xinu.at/data/client/fb-2.4.0.tar.gz"
+sha256 = "a3dd5580c7ba459c18f2d2ac39614422fd9c0dccb4545dbd683c77104062af39"
+
+[build]
+system = "make"

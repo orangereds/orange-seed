@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go-md2man"]
+
+[package]
+name = "picocom"
+version = "2024-07"
+description = "Minimal dumb-terminal emulation program"
+homepage = "https://gitlab.com/wsakernel/picocom"
+
+[source]
+url = "https://gitlab.com/wsakernel/picocom/-/archive/2024-07/picocom-2024-07.tar.gz"
+sha256 = "4379de2ec591a5848123f37ccdbc7fbeee6dd3520ef1ce4119d84202fc268a17"
+
+[build]
+system = "autotools"

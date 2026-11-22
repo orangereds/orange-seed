@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "stunnel"
+version = "5.82"
+description = "SSL tunneling program"
+homepage = "https://www.stunnel.org/"
+
+[source]
+url = "https://www.stunnel.org/downloads/stunnel-5.82.tar.gz"
+sha256 = "8e7438ccd6b3a2ab05182d0846e112a56a7f557ecdee40de07bf67820008bef7"
+
+[service]
+run = "opt/stunnel/bin/stunnel"
+
+[build]
+system = "autotools"

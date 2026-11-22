@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "xmlto", "openssl@4", "popt"]
+
+[package]
+name = "rabbitmq-c"
+version = "0.18.1"
+description = "C AMQP client library for RabbitMQ"
+homepage = "https://github.com/alanxz/rabbitmq-c"
+
+[source]
+url = "https://github.com/alanxz/rabbitmq-c/archive/refs/tags/v0.18.1.tar.gz"
+sha256 = "0779bd4f00175ff2f722f9dc43b542bea3bc606ed079e7099fa8a18627c2ddc9"
+
+[build]
+system = "cmake"

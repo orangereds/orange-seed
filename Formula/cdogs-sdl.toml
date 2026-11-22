@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "protobuf", "sdl2-compat", "sdl2_image", "sdl2_mixer"]
+
+[package]
+name = "cdogs-sdl"
+version = "2.5.0"
+description = "Classic overhead run-and-gun game"
+homepage = "https://cxong.github.io/cdogs-sdl/"
+
+[source]
+url = "https://github.com/cxong/cdogs-sdl/archive/refs/tags/2.5.0.tar.gz"
+sha256 = "18b594e85af9986b7e895aba0f72de05bdf0c73c808653ecd004c45c1842f147"
+
+[build]
+system = "cmake"

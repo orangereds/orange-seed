@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["esbuild", "node", "rust"]
+
+[package]
+name = "pnpm"
+version = "12.21.0"
+description = "Fast, disk space efficient package manager"
+homepage = "https://pnpm.io/"
+
+[source]
+url = "https://github.com/pnpm/pnpm/archive/refs/tags/v12.21.0.tar.gz"
+sha256 = "bd6ddc516a5250de1236ee04cbaba0075667d8dbb754760ccaa47f6d0c477052"
+
+[build]
+system = "autotools"

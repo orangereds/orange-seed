@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "qhull"
+version = "2020.2.orig"
+description = "Computes convex hulls in n dimensions"
+homepage = "http://www.qhull.org/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/q/qhull/qhull_2020.2.orig.tar.gz"
+sha256 = "b5c2d7eb833278881b952c8a52d20179eab87766b00b865000469a45c1838b7e"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "elf2uf2-rs"
+version = "2.2.0"
+description = "Convert ELF files to UF2 for USB Flashing Bootloaders"
+homepage = "https://github.com/JoNil/elf2uf2-rs"
+
+[source]
+url = "https://github.com/JoNil/elf2uf2-rs/archive/refs/tags/2.2.0.tar.gz"
+sha256 = "7fd821623343bf6af63543a008caf49c1b7ad9f7e6df24403ae9c7a6bf325b54"
+
+[build]
+system = "autotools"

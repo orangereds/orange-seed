@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "kty"
+version = "0.3.1"
+description = "Terminal for Kubernetes"
+homepage = "https://kty.dev"
+
+[source]
+url = "https://github.com/grampelberg/kty/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "050c8b0df88f65e1a06863bea99495b77bf2045829825e7e130756f1828c6aa6"
+
+[build]
+system = "autotools"

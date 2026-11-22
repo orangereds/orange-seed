@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "functionalplus"
+version = "0.2.28"
+description = "Functional Programming Library for C++"
+homepage = "https://www.daiw.de/fplus-api-search/"
+
+[source]
+url = "https://github.com/Dobiasd/FunctionalPlus/archive/refs/tags/v0.2.28.tar.gz"
+sha256 = "8864a3e9bebde6ebed71b49ac2a036cedf9ae0f02ce758bc28c21e6a2ae15803"
+
+[build]
+system = "cmake"

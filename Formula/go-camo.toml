@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-camo"
+version = "3.1"
+description = "Secure image proxy server"
+homepage = "https://github.com/cactus/go-camo"
+
+[source]
+url = "https://github.com/cactus/go-camo/archive/refs/tags/v3.1.tar.gz"
+sha256 = "255081875bd70918a8f9a72ab6ea06a047cf5fb2eef8618c5c12a259787616bf"
+
+[build]
+system = "autotools"

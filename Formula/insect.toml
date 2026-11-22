@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "insect"
+version = "5.9.0"
+description = "High precision scientific calculator with support for physical units"
+homepage = "https://numbat.dev/"
+
+[source]
+url = "https://registry.npmjs.org/insect/-/insect-5.9.0.tgz"
+sha256 = "dcb8d696e9209157f596c7c102cdc436d520629d2aed71585767af77bde2cb70"
+
+[build]
+system = "autotools"

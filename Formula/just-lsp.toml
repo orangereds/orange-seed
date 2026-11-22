@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "just-lsp"
+version = "0.11.2"
+description = "Language server for just"
+homepage = "https://github.com/terror/just-lsp"
+
+[source]
+url = "https://github.com/terror/just-lsp/archive/refs/tags/0.11.2.tar.gz"
+sha256 = "1c79704097b7fadfa9ccfd8c39847841e15d9a33433ac7b01023eff0534a6700"
+
+[build]
+system = "autotools"

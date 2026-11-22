@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gowsdl"
+version = "0"
+description = "WSDL2Go code generation as well as its SOAP proxy"
+homepage = "https://github.com/hooklift/gowsdl"
+
+[source]
+url = "https://github.com/hooklift/gowsdl.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

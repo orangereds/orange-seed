@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "maven", "pkgconf", "openjdk"]
+
+[package]
+name = "duck"
+version = "9.5.4.45528"
+description = "Command-line interface for Cyberduck (a multi-protocol file transfer tool)"
+homepage = "https://duck.sh/"
+
+[source]
+url = "https://github.com/iterate-ch/cyberduck/archive/refs/tags/release-9-5-4.tar.gz"
+sha256 = "dce8e54c5f7b813b3cc42595f939b1f0135679cb4c802a5c0a1c4464a7086c75"
+
+[build]
+system = "autotools"

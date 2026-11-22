@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "python@3.15"]
+
+[package]
+name = "wllvm"
+version = "1.3.1_1"
+description = "Toolkit for building whole-program LLVM bitcode files"
+homepage = "https://pypi.org/project/wllvm/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4b/df/31d7519052bc21d0e9771e9a6540d6310bfb13bae7dacde060d8f647b8d3/wllvm-1.3.1.tar.gz"
+sha256 = "3e057a575f05c9ecc8669a8c4046f2bfdf0c69533b87b4fbfcabe0df230cc331"
+
+[build]
+system = "autotools"

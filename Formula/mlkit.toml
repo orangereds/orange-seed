@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "gmp", "mlton"]
+
+[package]
+name = "mlkit"
+version = "4.7.27"
+description = "Compiler for the Standard ML programming language"
+homepage = "https://melsman.github.io/mlkit"
+
+[source]
+url = "https://github.com/melsman/mlkit/archive/refs/tags/v4.7.27.tar.gz"
+sha256 = "c4e3aa2b1a1c9cd6f79d77110a9535b8c21478164967f77b737e38ce02dfd51c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["id3lib"]
+
+[package]
+name = "id3v2"
+version = "0.1.12"
+description = "Command-line editor"
+homepage = "https://id3v2.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/id3v2/id3v2/0.1.12/id3v2-0.1.12.tar.gz"
+sha256 = "8105fad3189dbb0e4cb381862b4fa18744233c3bbe6def6f81ff64f5101722bf"
+
+[build]
+system = "make"

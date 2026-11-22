@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-spice"
+version = "0.33.0"
+description = "Manage stacked Git branches"
+homepage = "https://abhinav.github.io/git-spice/"
+
+[source]
+url = "https://github.com/abhinav/git-spice/archive/refs/tags/v0.33.0.tar.gz"
+sha256 = "a14e45062a068aba6228dabaa94ffcd907ec522587d1ca2222a391d3cd545705"
+
+[build]
+system = "autotools"

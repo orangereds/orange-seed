@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "xorgproto"]
+
+[package]
+name = "libxxf86vm"
+version = "0"
+description = "X.Org: XFree86-VidMode X extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXxf86vm-1.1.7.tar.gz"
+sha256 = "9a983e3cbb7a57905262291a17da962293c0645f99efd475e3c85264bfddc337"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "fontconfig", "freetype", "libudfread"]
+
+[package]
+name = "libbluray"
+version = "1.5.0"
+description = "Blu-Ray disc playback library for media players like VLC"
+homepage = "https://www.videolan.org/developers/libbluray.html"
+
+[source]
+url = "https://download.videolan.org/videolan/libbluray/1.5.0/libbluray-1.5.0.tar.xz"
+sha256 = "f676408e91a5d321abf8b8d4dfdae36205c297dab5c54c3ec519639025f474a2"
+
+[build]
+system = "autotools"

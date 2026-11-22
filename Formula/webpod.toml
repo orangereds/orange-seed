@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "webpod"
+version = "1.0.0"
+description = "Deploy websites and apps anywhere"
+homepage = "https://webpod.dev"
+
+[source]
+url = "https://registry.npmjs.org/webpod/-/webpod-1.0.0.tgz"
+sha256 = "99b123e8d9f49b06d2dd0b886b81d2c2c64e510ba50eac2ba229e60b36719a7e"
+
+[build]
+system = "autotools"

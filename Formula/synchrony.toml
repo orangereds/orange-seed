@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "synchrony"
+version = "0"
+description = "Simple deobfuscator for mangled or obfuscated JavaScript files"
+homepage = "https://deobfuscate.relative.im/"
+
+[source]
+url = "https://registry.npmjs.org/deobfuscator/-/deobfuscator-2.4.6.tgz"
+sha256 = "c7fe43892389a34dec7d84328a68e381820cad9a03d5a93ed2e6e055645be7b6"
+
+[build]
+system = "autotools"

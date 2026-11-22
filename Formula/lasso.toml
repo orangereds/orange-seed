@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "libxml2", "libxmlsec1", "openssl@4", "gettext"]
+
+[package]
+name = "lasso"
+version = "2.9.0_6"
+description = "Library for Liberty Alliance and SAML protocols"
+homepage = "https://lasso.entrouvert.org/"
+
+[source]
+url = "https://dev.entrouvert.org/releases/lasso/lasso-2.9.0.tar.gz"
+sha256 = "63816c8219df48cdefeccb1acb35e04014ca6395b5263c70aacd5470ea95c351"
+
+[build]
+system = "autotools"

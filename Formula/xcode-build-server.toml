@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xcode-build-server"
+version = "1.3.0"
+description = "Build server protocol implementation for integrating Xcode with sourcekit-lsp"
+homepage = "https://github.com/SolaWing/xcode-build-server"
+
+[source]
+url = "https://github.com/SolaWing/xcode-build-server/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "92c4bb848af5c8128d4600a93f45e49b89ed953d885c60092459303a5d80e312"
+
+[build]
+system = "autotools"

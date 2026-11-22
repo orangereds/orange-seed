@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["crystal", "pkgconf", "bdw-gc", "libyaml", "openssl@4", "pcre2"]
+
+[package]
+name = "noir"
+version = "1.5.0"
+description = "Attack surface detector that identifies endpoints by static analysis"
+homepage = "https://owasp.org/www-project-noir/"
+
+[source]
+url = "https://github.com/owasp-noir/noir/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "e927dabd0585bff1b4e040572e0ae59565c87fa86d239419aff623a34bceb757"
+
+[build]
+system = "autotools"

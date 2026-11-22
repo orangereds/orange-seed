@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "opentofu"]
+
+[package]
+name = "terramaid"
+version = "2.15.3"
+description = "Utility for generating Mermaid diagrams from Terraform configurations"
+homepage = "https://github.com/RoseSecurity/Terramaid"
+
+[source]
+url = "https://github.com/RoseSecurity/Terramaid/archive/refs/tags/v2.15.3.tar.gz"
+sha256 = "8b5faba19093664ebdf504d8bdb38fe5f37de06c9dc6e6a3939564ec34a8e692"
+
+[build]
+system = "autotools"

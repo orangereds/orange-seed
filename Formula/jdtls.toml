@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "jdtls"
+version = "1.63.0"
+description = "Java language specific implementation of the Language Server Protocol"
+homepage = "https://github.com/eclipse-jdtls/eclipse.jdt.ls"
+
+[source]
+url = "https://www.eclipse.org/downloads/download.php?file=/jdtls/milestones/1.63.0/jdt-language-server-1.63.0-202610191322.tar.gz"
+sha256 = "b1f2abe0b3cccb462cf64fb4a5587c7d09df60cf8be7748b152cbd89d018bdc4"
+
+[build]
+system = "autotools"

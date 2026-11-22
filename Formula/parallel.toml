@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "parallel"
+version = "20261022"
+description = "Shell command parallelization utility"
+homepage = "https://savannah.gnu.org/projects/parallel/"
+
+[source]
+url = "https://ftpmirror.gnu.org/parallel/parallel-20261022.tar.bz2"
+sha256 = "4fb0d2d4d14a4ef6448c788cb2bcfde9fbe00b8d4bdc637a7e4c08f8c5453a55"
+
+[build]
+system = "autotools"

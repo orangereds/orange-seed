@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["buf", "dart-sdk", "dartaotruntime"]
+
+[package]
+name = "dart-sass"
+version = "3.3.0_1"
+description = "Reference implementation of Sass, written in Dart"
+homepage = "https://sass-lang.com/dart-sass"
+
+[source]
+url = "https://github.com/sass/dart-sass/archive/refs/tags/1.108.2.tar.gz"
+sha256 = "573b7d17d5369b7442534e158971c3cc1c439a19c4932b672a25b5c9d424a4ba"
+
+[build]
+system = "autotools"

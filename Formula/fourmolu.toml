@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "fourmolu"
+version = "0.21.0.0"
+description = "Formatter for Haskell source code"
+homepage = "https://fourmolu.github.io/"
+
+[source]
+url = "https://hackage.haskell.org/package/fourmolu-0.21.0.0/fourmolu-0.21.0.0.tar.gz"
+sha256 = "db321715aa08d24fbf58276dd6f705911d5ced07c00379e9ad10c09aaa064078"
+
+[build]
+system = "autotools"

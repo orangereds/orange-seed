@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "eigen", "ipopt"]
+
+[package]
+name = "ifopt"
+version = "2.1.4_1"
+description = "Light-weight C++ Interface to Nonlinear Programming Solvers"
+homepage = "https://wiki.ros.org/ifopt"
+
+[source]
+url = "https://github.com/ethz-adrl/ifopt/archive/refs/tags/2.1.4.tar.gz"
+sha256 = "da38f91a282f3ed305db163954c37d999b6e95f5d2c913a63bae3fef9ffb3a37"
+
+[build]
+system = "cmake"

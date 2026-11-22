@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "basis_universal"
+version = "2_50"
+description = "Basis Universal GPU texture codec command-line compression tool"
+homepage = "https://github.com/BinomialLLC/basis_universal"
+
+[source]
+url = "https://github.com/BinomialLLC/basis_universal/archive/refs/tags/v2_50.tar.gz"
+sha256 = "216e49e1f4213d4bfa4afaa07527e16bac28533dddd444197d3aa19230ac130c"
+
+[build]
+system = "cmake"

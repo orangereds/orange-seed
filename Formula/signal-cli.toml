@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "cmake", "docbook-xsl", "graalvm", "gradle", "protobuf", "python@3.15", "rust"]
+
+[package]
+name = "signal-cli"
+version = "0.14.10"
+description = "CLI and dbus interface for WhisperSystems/libsignal-service-java"
+homepage = "https://github.com/AsamK/signal-cli"
+
+[source]
+url = "https://github.com/AsamK/signal-cli/archive/refs/tags/v0.14.10.tar.gz"
+sha256 = "731ae50153fb628d3dee44da00267aa20ad0c8e655d90aeb6a6bc9f84109acc3"
+
+[build]
+system = "autotools"

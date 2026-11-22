@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "texmath"
+version = "0.13.3.5"
+description = "Haskell library for converting LaTeX math to MathML"
+homepage = "https://johnmacfarlane.net/texmath.html"
+
+[source]
+url = "https://hackage.haskell.org/package/texmath-0.13.3.5/texmath-0.13.3.5.tar.gz"
+sha256 = "6858245031f5d0247beff4020a71d24f5c732cc1be3062db00e8b185f677a212"
+
+[build]
+system = "autotools"

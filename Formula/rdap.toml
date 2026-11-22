@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rdap"
+version = "0.10.2"
+description = "Command-line client for the Registration Data Access Protocol"
+homepage = "https://www.openrdap.org"
+
+[source]
+url = "https://github.com/openrdap/rdap/archive/refs/tags/v0.10.2.tar.gz"
+sha256 = "90c8ad29468cfb774c166a371b164c1e2a37de088e52328f4b9d5c80c0e23d98"
+
+[build]
+system = "autotools"

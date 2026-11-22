@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "cinecli"
+version = "0.1.2_7"
+description = "Browse, inspect, and launch movie torrents directly from your terminal"
+homepage = "https://github.com/eyeblech/cinecli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/df/c6/bc46bf8f30ce881a8822ce7b4ead93f9cfaee466852c78cab3f8931f5639/cinecli-0.1.2.tar.gz"
+sha256 = "5e2e053a6b0f71070b8e7028dab69be47b8def42639b90f805f28da5a040a141"
+
+[build]
+system = "autotools"

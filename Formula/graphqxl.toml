@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "graphqxl"
+version = "0.40.2"
+description = "Language for creating big and scalable GraphQL server-side schemas"
+homepage = "https://gabotechs.github.io/graphqxl"
+
+[source]
+url = "https://github.com/gabotechs/graphqxl/archive/refs/tags/v0.40.2.tar.gz"
+sha256 = "2ddc205e3943e97273984e64bdac3d41c70b87eb408976d7d2108163fca35d4e"
+
+[build]
+system = "autotools"

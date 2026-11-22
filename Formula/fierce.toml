@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "fierce"
+version = "1.6.0"
+description = "DNS reconnaissance tool for locating non-contiguous IP space"
+homepage = "https://github.com/mschwager/fierce"
+
+[source]
+url = "https://github.com/mschwager/fierce/archive/refs/tags/1.6.0.tar.gz"
+sha256 = "1a19182bbce19e395aa7d2cba91322317bb1cad57357b778749986106e455a75"
+
+[build]
+system = "autotools"

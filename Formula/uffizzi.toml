@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby", "skaffold"]
+
+[package]
+name = "uffizzi"
+version = "2.4.21"
+description = "Self-serve developer platforms in minutes, not months with k8s virtual clusters"
+homepage = "https://uffizzi.com"
+
+[source]
+url = "https://github.com/UffizziCloud/uffizzi_cli/archive/refs/tags/v2.4.21.tar.gz"
+sha256 = "3f64e26f177fbf26840f0a3a044e26b1744eb139320cd94bc2a2e4e8111d0450"
+
+[build]
+system = "autotools"

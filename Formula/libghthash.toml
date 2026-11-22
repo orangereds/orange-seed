@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libghthash"
+version = "0.6.2"
+description = "Generic hash table for C++"
+homepage = "https://github.com/SimonKagstrom/libghthash"
+
+[source]
+url = "https://github.com/SimonKagstrom/libghthash/archive/refs/tags/v0.6.2.tar.gz"
+sha256 = "e7e5f77df3e2a9152e0805f279ac048af9e572b83e60d29257cc754f8f9c22d6"
+
+[build]
+system = "autotools"

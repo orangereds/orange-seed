@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "cassandra-reaper"
+version = "5.1.0-release"
+description = "Management interface for Cassandra"
+homepage = "https://cassandra-reaper.io/"
+
+[source]
+url = "https://github.com/thelastpickle/cassandra-reaper/releases/download/5.1.0/cassandra-reaper-5.1.0-release.tar.gz"
+sha256 = "47c7e4dd76f4d4e604facd2dcbb0aebf1cab693d5efec1ec6ed4b036dc6fb6b4"
+
+[service]
+run = "opt/cassandra-reaper/bin/cassandra-reaper"
+keep_alive = true
+log_path = "var/log/cassandra-reaper/service.log"
+error_log_path = "var/log/cassandra-reaper/service.err"
+
+[build]
+system = "autotools"

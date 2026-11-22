@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gtk+3", "gtksourceview4", "gtk4", "gtksourceview5", "cmake", "meson", "ninja", "pkgconf", "cairo", "cfitsio", "exiv2", "ffmpeg", "ffms2", "fftw", "gdk-pixbuf", "glib", "gsl", "healpix", "jpeg-turbo", "jpeg-xl", "libgit2", "libheif", "libpng", "libraw", "libtiff", "little-cms2", "opencv", "pango", "wcslib", "yyjson", "gettext", "libomp"]
+
+[package]
+name = "siril"
+version = "1.4.5_2"
+description = "Astronomical image processing tool"
+homepage = "https://www.siril.org"
+
+[source]
+url = "https://free-astro.org/download/siril-1.4.5.tar.bz2"
+sha256 = "ed30edc3535d6f8fde2cf84f23039db7c87380f16df740936bdc75362fa50a6d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "muffet"
+version = "2.11.9"
+description = "Fast website link checker in Go"
+homepage = "https://github.com/raviqqe/muffet"
+
+[source]
+url = "https://github.com/raviqqe/muffet/archive/refs/tags/v2.11.9.tar.gz"
+sha256 = "528852785fb2a01c78b0688cfdac726b0140900f6bb1e59541a5e80fe203e779"
+
+[build]
+system = "autotools"

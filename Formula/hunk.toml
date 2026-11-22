@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun"]
+
+[package]
+name = "hunk"
+version = "0.25.0"
+description = "Review-first terminal diff viewer for agent-authored changesets"
+homepage = "https://hunk.dev/"
+
+[source]
+url = "https://github.com/modem-dev/hunk/archive/refs/tags/v0.25.0.tar.gz"
+sha256 = "2c9fb535edf5eae1341395897cb0a875beb8b54ce63c3f2d1c467164057e8a6c"
+
+[build]
+system = "autotools"

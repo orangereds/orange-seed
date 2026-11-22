@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nbping"
+version = "0.7.1"
+description = "Ping Tool in Rust with Real-Time Data and Visualizations"
+homepage = "https://github.com/hanshuaikang/NBping"
+
+[source]
+url = "https://github.com/hanshuaikang/NBping/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "1a73f125601cac5ddc456b15d58b5145b859c46da24ce2024288fe4343050e5d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "principalmapper"
+version = "1.1.5_9"
+description = "Quickly evaluate IAM permissions in AWS"
+homepage = "https://github.com/nccgroup/PMapper"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3f/8c/3d2efe475e9244bd45e3a776ea8207f34a9bb15caaa02f6c95e473b2ada2/principalmapper-1.1.5.tar.gz"
+sha256 = "04cb9dcff0cc512df4714b3c4ea63a261001f271f95c8a453b2805290c57bbc2"
+
+[build]
+system = "autotools"

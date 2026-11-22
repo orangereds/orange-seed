@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "abseil", "protobuf"]
+
+[package]
+name = "protoc-gen-js"
+version = "4.0.3_1"
+description = "Protocol buffers JavaScript generator plugin"
+homepage = "https://github.com/protocolbuffers/protobuf-javascript"
+
+[source]
+url = "https://github.com/protocolbuffers/protobuf-javascript/archive/refs/tags/v4.0.3.tar.gz"
+sha256 = "43ea40481e7b5efdeccf4a0926226b0bd4f61386cdb819a55ce55f5828e32025"
+
+[build]
+system = "autotools"

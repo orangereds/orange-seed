@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "abseil", "boost", "capnp", "grpc", "hiredis", "log4cpp", "mongo-c-driver", "openssl@4", "protobuf"]
+
+[package]
+name = "fastnetmon"
+version = "1.2.9_15"
+description = "DDoS detection tool with sFlow, Netflow, IPFIX and port mirror support"
+homepage = "https://github.com/pavel-odintsov/fastnetmon/"
+
+[source]
+url = "https://github.com/pavel-odintsov/fastnetmon/archive/refs/tags/v1.2.9.tar.gz"
+sha256 = "5ecc10791af04fc1fd720a9a113060668426aa798d5b6c3921364213a31a5e9b"
+
+[service]
+run = "["
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/fastnetmon.log"
+error_log_path = "var/log/fastnetmon.log"
+
+[build]
+system = "cmake"

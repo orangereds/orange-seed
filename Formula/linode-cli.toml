@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "linode-cli"
+version = "0"
+description = "CLI for the Linode API"
+homepage = "https://github.com/linode/linode-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b6/0a/36c9413757ec5f0046fd547c864eb3903047e08adae6955a2865334ae815/linode_cli-5.70.0.tar.gz"
+sha256 = "4515ac4798293eb2dbba223e8e6fabac08c083cab1115e5c2e2ce171334bb07a"
+
+[build]
+system = "autotools"

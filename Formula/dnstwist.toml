@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libmaxminddb", "python@3.15", "ssdeep"]
+
+[package]
+name = "dnstwist"
+version = "20250130_14"
+description = "Test domains for typo squatting, phishing and corporate espionage"
+homepage = "https://dnstwist.it"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e7/0e/88b4c5c7f3077c0d2e8544a14e321fce80b3cf0148a46dec9724e27c61d3/dnstwist-20250130.tar.gz"
+sha256 = "8b6dd9c42a643a0e8b087903c0e6d75c0f6cebf94920ab0b7760ac2522c6bb42"
+
+[build]
+system = "autotools"

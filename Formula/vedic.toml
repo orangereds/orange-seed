@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "vedic"
+version = "2.0.6"
+description = "Simple Sanskrit programming language"
+homepage = "https://vedic-lang.github.io/"
+
+[source]
+url = "https://github.com/vedic-lang/vedic/archive/refs/tags/v2.0.6.tar.gz"
+sha256 = "9bfb68dfa8a79c02d52905eb1403267209dae80ad05287b7f3706f14071c4800"
+
+[build]
+system = "autotools"

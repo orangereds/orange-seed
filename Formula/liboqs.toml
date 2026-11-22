@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "ninja", "openssl@4"]
+
+[package]
+name = "liboqs"
+version = "0.16.0"
+description = "Library for quantum-safe cryptography"
+homepage = "https://openquantumsafe.org/"
+
+[source]
+url = "https://github.com/open-quantum-safe/liboqs/archive/refs/tags/0.16.0.tar.gz"
+sha256 = "162d5b510518ee5f285f82fa1f16402a885176e818bf1b1a4c3c91c9a2f01eae"
+
+[build]
+system = "cmake"

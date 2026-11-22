@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpq", "python@3.15"]
+
+[package]
+name = "pg_activity"
+version = "3.6.2"
+description = "Top-like interactive monitoring tool for PostgreSQL server activity"
+homepage = "https://github.com/dalibo/pg_activity"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6f/84/bda632898fc04b3d89d0ab3863e8aedad90b01c19edf32f45d48fe21dae0/pg_activity-3.6.2.tar.gz"
+sha256 = "82ea53a0eeea1fa8015e5eb9d1d1501431e3308e9ee65a7d898d9bf75ba3620a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "libsigc++@2"]
+
+[package]
+name = "glibmm@2.66"
+version = "0"
+description = "C++ interface to glib"
+homepage = "https://gtkmm.gnome.org/"
+
+[source]
+url = "https://download.gnome.org/sources/glibmm/2.66/glibmm-2.66.10.tar.xz"
+sha256 = "2b61780203aed98e701d3ea57c8f353e7c8ada9706a79be782f6c5153dd035c0"
+
+[build]
+system = "autotools"

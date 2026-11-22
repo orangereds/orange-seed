@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "osdctl"
+version = "0.68.0"
+description = "CLI tool for managed OpenShift clusters"
+homepage = "https://github.com/openshift/osdctl"
+
+[source]
+url = "https://github.com/openshift/osdctl/archive/refs/tags/v0.68.0.tar.gz"
+sha256 = "2592057c6a6e87e1a72a7a4d6a61902db1669fe47ef4aacfde59e9dc0859a7fc"
+
+[build]
+system = "autotools"

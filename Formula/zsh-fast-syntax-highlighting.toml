@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zsh-fast-syntax-highlighting"
+version = "1.56"
+description = "Feature-rich syntax highlighting for Zsh"
+homepage = "https://github.com/zdharma-continuum/fast-syntax-highlighting"
+
+[source]
+url = "https://github.com/zdharma-continuum/fast-syntax-highlighting/archive/refs/tags/v1.56.tar.gz"
+sha256 = "9e5045510ef86beae658b5fcf58e7b6c76f5b63788498b956d54bc1038faa806"
+
+[build]
+system = "autotools"

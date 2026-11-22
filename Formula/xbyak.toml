@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "xbyak"
+version = "7.46"
+description = "C++ JIT assembler for x86 (IA32), x64 (AMD64, x86-64)"
+homepage = "https://github.com/herumi/xbyak"
+
+[source]
+url = "https://github.com/herumi/xbyak/archive/refs/tags/v7.46.tar.gz"
+sha256 = "70fe65d7ea3a15764d1dadd8a92e1c9a118bf760698f8dd5e1a7f20d5e0a1ec0"
+
+[build]
+system = "cmake"

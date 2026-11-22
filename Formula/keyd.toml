@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "keyd"
+version = "2.6.0"
+description = "Key remapping daemon for Linux"
+homepage = "https://github.com/rvaiya/keyd"
+
+[source]
+url = "https://github.com/rvaiya/keyd/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "697089681915b89d9e98caf93d870dbd4abce768af8a647d54650a6a90744e26"
+
+[service]
+run = "opt/keyd/bin/keyd"
+keep_alive = true
+log_path = "var/log/keyd.log"
+error_log_path = "var/log/keyd.log"
+
+[build]
+system = "make"

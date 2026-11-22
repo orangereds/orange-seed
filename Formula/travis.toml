@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ruby@3.4"]
+
+[package]
+name = "travis"
+version = "1.14.0_2"
+description = "Command-line client for Travis CI"
+homepage = "https://github.com/travis-ci/travis.rb/"
+
+[source]
+url = "https://github.com/travis-ci/travis.rb/archive/refs/tags/v1.14.0.tar.gz"
+sha256 = "6fe418bf33b025a106dd99762aa8ebc595b4b549d4087c6921d5565b741f7361"
+
+[build]
+system = "autotools"

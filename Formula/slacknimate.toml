@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "slacknimate"
+version = "1.1.0"
+description = "Text animation for Slack messages"
+homepage = "https://github.com/mroth/slacknimate"
+
+[source]
+url = "https://github.com/mroth/slacknimate/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "71c7a65192c8bbb790201787fabbb757de87f8412e0d41fe386c6b4343cb845c"
+
+[build]
+system = "autotools"

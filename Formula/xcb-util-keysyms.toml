@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libxcb"]
+
+[package]
+name = "xcb-util-keysyms"
+version = "0.4.1"
+description = "Standard X constants and conversion to/from keycodes"
+homepage = "https://xcb.freedesktop.org"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-keysyms-0.4.1.tar.gz"
+sha256 = "1fa21c0cea3060caee7612b6577c1730da470b88cbdf846fa4e3e0ff78948e54"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fleet-cli"
+version = "0.17.0"
+description = "Manage large fleets of Kubernetes clusters"
+homepage = "https://fleet.rancher.io/"
+
+[source]
+url = "https://github.com/rancher/fleet/archive/refs/tags/v0.17.0.tar.gz"
+sha256 = "584631ac15d92f89f4791bbd47306a16812e89ae6901b069a6a0a1151812931a"
+
+[build]
+system = "autotools"

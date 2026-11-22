@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "baidupcs-go"
+version = "4.0.2"
+description = "Terminal utility for Baidu Network Disk"
+homepage = "https://github.com/qjfoidnh/BaiduPCS-Go"
+
+[source]
+url = "https://github.com/qjfoidnh/BaiduPCS-Go/archive/refs/tags/v4.0.2.tar.gz"
+sha256 = "12904ec8daee445b357f59d604103108a324f5b1c60cb0d8324f5df216683553"
+
+[build]
+system = "autotools"

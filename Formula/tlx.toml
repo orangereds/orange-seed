@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "tlx"
+version = "0.6.1"
+description = "Collection of Sophisticated C++ Data Structures, Algorithms and Helpers"
+homepage = "https://tlx.github.io"
+
+[source]
+url = "https://github.com/tlx/tlx/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "24dd1acf36dd43b8e0414420e3f9adc2e6bb0e75047e872a06167961aedad769"
+
+[build]
+system = "cmake"

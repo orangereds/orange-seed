@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "node", "rust"]
+
+[package]
+name = "anchor"
+version = "1.2.2"
+description = "Solana Program Framework"
+homepage = "https://anchor-lang.com"
+
+[source]
+url = "https://github.com/otter-sec/anchor/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "2e4dd35104e003ef09890c35b29b45e1bf66f8f214dc749adbcecae9c0e467e2"
+
+[build]
+system = "autotools"

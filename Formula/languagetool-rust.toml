@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "languagetool-rust"
+version = "3.0.1"
+description = "LanguageTool API in Rust"
+homepage = "https://docs.rs/languagetool-rust"
+
+[source]
+url = "https://github.com/jeertmans/languagetool-rust/archive/refs/tags/v3.0.1.tar.gz"
+sha256 = "fc3dfcb73f21c58bb143b5f31495892755bc1e945aa64f522f3640e1cf77de31"
+
+[build]
+system = "autotools"

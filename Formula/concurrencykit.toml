@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "concurrencykit"
+version = "0.7.2"
+description = "Aid design and implementation of concurrent systems"
+homepage = "https://github.com/concurrencykit/ck"
+
+[source]
+url = "https://github.com/concurrencykit/ck/archive/refs/tags/0.7.2.tar.gz"
+sha256 = "568ebe0bc1988a23843fce6426602e555b7840bf6714edcdf0ed530214977f1b"
+
+[build]
+system = "autotools"

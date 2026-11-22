@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ios-deploy"
+version = "1.12.2"
+description = "Install and debug iPhone apps from the command-line"
+homepage = "https://github.com/ios-control/ios-deploy"
+
+[source]
+url = "https://github.com/ios-control/ios-deploy/archive/refs/tags/1.12.2.tar.gz"
+sha256 = "2a1e9836192967f60194334261e7af4de2ba72e4047a3e54376e5caa57a1db70"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "hicolor-icon-theme"
+version = "0.18"
+description = "Fallback theme for FreeDesktop.org icon themes"
+homepage = "https://wiki.freedesktop.org/www/Software/icon-theme/"
+
+[source]
+url = "https://icon-theme.freedesktop.org/releases/hicolor-icon-theme-0.18.tar.xz"
+sha256 = "db0e50a80aa3bf64bb45cbca5cf9f75efd9348cf2ac690b907435238c3cf81d7"
+
+[build]
+system = "autotools"

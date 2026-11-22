@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf"]
+
+[package]
+name = "foma"
+version = "0.10.0_1"
+description = "Finite-state compiler and C library"
+homepage = "https://github.com/mhulden/foma"
+
+[source]
+url = "https://github.com/mhulden/foma/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "32fff2bd0a8338716adfee71505277d8562dabd48be9bf15620c38b15c8c404e"
+
+[build]
+system = "cmake"

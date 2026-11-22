@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lz4", "lzo"]
+
+[package]
+name = "lrzip"
+version = "0.7.3"
+description = "Compression program with a very high compression ratio"
+homepage = "https://github.com/ckolivas/lrzip"
+
+[source]
+url = "https://github.com/ckolivas/lrzip/releases/download/v0.7.3/lrzip-0.7.3.tar.xz"
+sha256 = "6928862de7c4bbb3cfbcd12fae9fd0a7d230d5bbf27486e52c4de60717ebfdbb"
+
+[build]
+system = "autotools"

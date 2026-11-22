@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "re2c", "rust", "libarchive", "libunistring", "pcre2", "sqlite"]
+
+[package]
+name = "lnav"
+version = "0.14.1"
+description = "Curses-based tool for viewing and analyzing log files"
+homepage = "https://lnav.org/"
+
+[source]
+url = "https://github.com/tstack/lnav/releases/download/v0.14.1/lnav-0.14.1.tar.gz"
+sha256 = "870c896a6973e1e973007be1d66bba3aef23b2aa68411fb5cc85bb7dd21a7fb0"
+
+[build]
+system = "autotools"

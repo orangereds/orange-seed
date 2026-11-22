@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo"]
+
+[package]
+name = "vncsnapshot"
+version = "1.2a-src_2"
+description = "Command-line utility for taking VNC snapshots"
+homepage = "https://sourceforge.net/projects/vncsnapshot/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/vncsnapshot/vncsnapshot/1.2a/vncsnapshot-1.2a-src.tar.gz"
+sha256 = "20f5bdf6939a0454bc3b41e87e41a5f247d7efd1445f4fac360e271ddbea14ee"
+
+[build]
+system = "autotools"

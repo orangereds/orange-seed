@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["diamond", "openblas", "libomp"]
+
+[package]
+name = "proteinortho"
+version = "6.3.7"
+description = "Detecting orthologous genes within different species"
+homepage = "https://gitlab.com/paulklemm_PHD/proteinortho"
+
+[source]
+url = "https://gitlab.com/paulklemm_PHD/proteinortho/-/archive/v6.3.7/proteinortho-v6.3.7.tar.gz"
+sha256 = "9ebc51af7f9653a24d93cb930afebf4fbc3df5be088c121ddf56928556187830"
+
+[build]
+system = "autotools"

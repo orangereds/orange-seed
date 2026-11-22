@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rbspy"
+version = "0.56.0"
+description = "Sampling profiler for Ruby"
+homepage = "https://rbspy.github.io/"
+
+[source]
+url = "https://github.com/rbspy/rbspy/archive/refs/tags/v0.56.0.tar.gz"
+sha256 = "0108a8539103fe9ba86bb4500a7ec6d67770681eb02a1c84196e4fa7664a5ae4"
+
+[build]
+system = "autotools"

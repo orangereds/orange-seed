@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm@21", "pkgconf", "swig", "brotli", "freetype", "gumbo-parser", "harfbuzz", "jbig2dec", "jpeg-turbo", "leptonica", "openjpeg", "openssl@4", "python@3.15", "tesseract", "libarchive"]
+
+[package]
+name = "mupdf"
+version = "1.28.6-source"
+description = "Lightweight PDF and XPS viewer"
+homepage = "https://mupdf.com/"
+
+[source]
+url = "https://mupdf.com/downloads/archive/mupdf-1.28.6-source.tar.gz"
+sha256 = "dc85000640a45d90ca9b77b061f6ca67cce0c4d4fbecf8819647baf573eef101"
+
+[build]
+system = "autotools"

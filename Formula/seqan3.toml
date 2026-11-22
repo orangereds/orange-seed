@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cereal", "cmake", "gcc"]
+
+[package]
+name = "seqan3"
+version = "3.4.2-Source"
+description = "Modern C++ library for sequence analysis"
+homepage = "https://www.seqan.de"
+
+[source]
+url = "https://github.com/seqan/seqan3/releases/download/3.4.2/seqan3-3.4.2-Source.tar.xz"
+sha256 = "47568bb116981f06276cec9b433482d38d9b12f5f5d83299734c469eb9d80448"
+
+[build]
+system = "cmake"

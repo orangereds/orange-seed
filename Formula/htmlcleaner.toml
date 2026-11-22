@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk"]
+
+[package]
+name = "htmlcleaner"
+version = "0_1"
+description = "HTML parser written in Java"
+homepage = "https://htmlcleaner.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/htmlcleaner/htmlcleaner/htmlcleaner%20v2.29/htmlcleaner-src-2.29.zip"
+sha256 = "9fc68d7161be6f34f781e109bf63894d260428f186d88f315b1d2e3a33495350"
+
+[build]
+system = "autotools"

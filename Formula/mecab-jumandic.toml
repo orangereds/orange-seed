@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mecab"]
+
+[package]
+name = "mecab-jumandic"
+version = "7.0-20130310"
+description = "See mecab"
+homepage = "https://taku910.github.io/mecab/"
+
+[source]
+url = "https://www.mirrorservice.org/sites/distfiles.macports.org/mecab/mecab-jumandic-7.0-20130310.tar.gz"
+sha256 = "eaf216758edee9a159bc3d02507007318686b9537943268c4565cc1f9ef07f15"
+
+[build]
+system = "autotools"

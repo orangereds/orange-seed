@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "sickchill"
+version = "2026.10.8_4"
+description = "Automatic Video Library Manager for TV Shows"
+homepage = "https://sickchill.github.io"
+
+[source]
+url = "https://github.com/SickChill/sickchill/archive/refs/tags/2026.10.8.tar.gz"
+sha256 = "52b8d786ccfb6870da996bf9b62530dd80d01e818470d8340967c3a8d006cdbb"
+
+[service]
+run = "opt/sickchill/bin/sickchill --datadir var/sickchill --quiet --nolaunch"
+keep_alive = true
+working_dir = "var/sickchill"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "icon"
+version = "9.5.25a"
+description = "General-purpose programming language"
+homepage = "https://www2.cs.arizona.edu/icon/"
+
+[source]
+url = "https://github.com/gtownsend/icon/archive/refs/tags/v9.5.25a.tar.gz"
+sha256 = "ab15b7fc5a96e8b4da1b76cc6c7935400879f8a54b0fcf94a947c02815f21006"
+
+[build]
+system = "autotools"

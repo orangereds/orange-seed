@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hexhog"
+version = "0.1.3"
+description = "Hex viewer/editor"
+homepage = "https://github.com/DVDTSB/hexhog"
+
+[source]
+url = "https://github.com/DVDTSB/hexhog/archive/refs/tags/v0.1.3.tar.gz"
+sha256 = "5858dcb32b3f12647784c9a6ba2e107e157b9a82884bcfed3e994a70c7584b29"
+
+[build]
+system = "autotools"

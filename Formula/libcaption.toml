@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libcaption"
+version = "0.8"
+description = "Free open-source CEA608 / CEA708 closed-caption encoder/decoder"
+homepage = "https://github.com/szatmary/libcaption"
+
+[source]
+url = "https://github.com/szatmary/libcaption/archive/refs/tags/v0.8.tar.gz"
+sha256 = "8567765a457de43a6e834502cf42fd0622901428d9820c73495df275e01cb904"
+
+[build]
+system = "cmake"

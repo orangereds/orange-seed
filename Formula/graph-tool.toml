@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cgal", "pkgconf", "py3cairo", "python-setuptools", "pygobject3", "python-matplotlib", "boost", "boost-python3", "cairomm", "gmp", "numpy", "python@3.15", "scipy", "zstd", "llvm", "cairo", "libomp", "libsigc++"]
+
+[package]
+name = "graph-tool"
+version = "14_1"
+description = "Efficient network analysis for Python 3"
+homepage = "https://graph-tool.skewed.de/"
+
+[source]
+url = "https://downloads.skewed.de/graph-tool/graph-tool-3.9.tar.bz2"
+sha256 = "812ab3575cae13dd6faad96e4d932797a7a71a84480a1eacbb874f2ebafc7c69"
+
+[build]
+system = "autotools"

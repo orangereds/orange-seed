@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zns"
+version = "0.6.0"
+description = "CLI tool for querying DNS records with readable, colored output"
+homepage = "https://github.com/znscli/zns"
+
+[source]
+url = "https://github.com/znscli/zns/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "ca22ea3cdf0e46f79c64e5a7d442e4242d5d27acd6d4c031f677aabeac0c7b14"
+
+[build]
+system = "autotools"

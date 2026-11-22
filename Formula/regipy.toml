@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "regipy"
+version = "6.5.0"
+description = "Offline registry hive parsing tool"
+homepage = "https://github.com/mkorman90/regipy"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8f/2f/dff9b51191b02c9639fe7bac600a1d658a4a9467d98805ac8fcd6d3d5fd0/regipy-6.5.0.tar.gz"
+sha256 = "8c01a71a1232ed4fc945e2463b35e1ef01f32751fdb8a5adf84de895121976ec"
+
+[build]
+system = "autotools"

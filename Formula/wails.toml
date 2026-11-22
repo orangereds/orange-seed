@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wails"
+version = "3.1.0"
+description = "Create beautiful applications using Go"
+homepage = "https://wails.io"
+
+[source]
+url = "https://github.com/wailsapp/wails/archive/refs/tags/v3.1.0.tar.gz"
+sha256 = "d98866b5f7a2e2378a3cc5ca76422bcef27d669bbe1dd5792a35db2589262e1f"
+
+[build]
+system = "autotools"

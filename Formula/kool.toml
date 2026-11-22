@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kool"
+version = "3.9.0"
+description = "Web apps development with containers made easy"
+homepage = "https://kool.dev"
+
+[source]
+url = "https://github.com/kool-dev/kool/archive/refs/tags/3.9.0.tar.gz"
+sha256 = "af98db1eb6b7e90f528ae5802a059c563881de77477909a90f7bf9d2b47e70de"
+
+[build]
+system = "autotools"

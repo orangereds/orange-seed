@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "scons"]
+
+[package]
+name = "gpsd"
+version = "3.27.5"
+description = "Global Positioning System (GPS) daemon"
+homepage = "https://gpsd.gitlab.io/gpsd/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/gpsd/gpsd-3.27.5.tar.xz"
+sha256 = "dc4a62bad835282bae788772bc7cc8f8bec4c7a48e8dceeb37477a89091c4656"
+
+[service]
+run = "gpsd -N -F var/gpsd.sock"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/gpsd.log"
+error_log_path = "var/log/gpsd.log"
+
+[build]
+system = "autotools"

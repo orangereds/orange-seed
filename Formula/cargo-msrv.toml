@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-msrv"
+version = "0.19.6"
+description = "Find the minimum supported Rust version (MSRV) for your project"
+homepage = "https://foresterre.github.io/cargo-msrv"
+
+[source]
+url = "https://github.com/foresterre/cargo-msrv/archive/refs/tags/v0.19.6.tar.gz"
+sha256 = "bd1108422a7dd76acba5bdd787a4bb36f4d97333b624aec3531f7d860dc2838a"
+
+[build]
+system = "autotools"

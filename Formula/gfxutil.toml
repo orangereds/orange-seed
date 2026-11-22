@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gfxutil"
+version = "1.84b"
+description = "Device Properties conversion tool"
+homepage = "https://github.com/acidanthera/gfxutil"
+
+[source]
+url = "https://github.com/acidanthera/gfxutil/archive/refs/tags/1.84b.tar.gz"
+sha256 = "f1b3779fd917b8fa9b4286f0e451617fa450e740df6e780651341dfebec868d9"
+
+[build]
+system = "autotools"

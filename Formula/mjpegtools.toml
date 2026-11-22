@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jpeg-turbo"]
+
+[package]
+name = "mjpegtools"
+version = "2.2.1_1"
+description = "Record and playback videos and perform simple edits"
+homepage = "https://mjpeg.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mjpeg/mjpegtools/2.2.1/mjpegtools-2.2.1.tar.gz"
+sha256 = "b180536d7d9960b05e0023a197b00dcb100929a49aab71d19d55f4a1b210f49a"
+
+[build]
+system = "autotools"

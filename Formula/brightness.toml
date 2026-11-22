@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "brightness"
+version = "1.2"
+description = "Change macOS display brightness from the command-line"
+homepage = "https://github.com/nriley/brightness"
+
+[source]
+url = "https://github.com/nriley/brightness/archive/refs/tags/1.2.tar.gz"
+sha256 = "6094c9f0d136f4afaa823d299f5ea6100061c1cec7730bf45c155fd98761f86b"
+
+[build]
+system = "autotools"

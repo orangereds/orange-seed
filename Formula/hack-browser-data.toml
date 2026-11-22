@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hack-browser-data"
+version = "1.2.0"
+description = "Command-line tool for decrypting and exporting browser data"
+homepage = "https://github.com/moonD4rk/HackBrowserData"
+
+[source]
+url = "https://github.com/moonD4rk/HackBrowserData/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "539b7c36be4bd8f6fa567f10cb1c49fdb5a908b947b74a35bad900e3acf4f747"
+
+[build]
+system = "autotools"

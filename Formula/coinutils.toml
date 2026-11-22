@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openblas"]
+
+[package]
+name = "coinutils"
+version = "2.11.13"
+description = "COIN-OR utilities"
+homepage = "https://github.com/coin-or/CoinUtils"
+
+[source]
+url = "https://github.com/coin-or/CoinUtils/archive/refs/tags/releases/2.11.13.tar.gz"
+sha256 = "ddfea48e10209215748bc9f90a8c04abbb912b662c1aefaf280018d0a181ef79"
+
+[build]
+system = "autotools"

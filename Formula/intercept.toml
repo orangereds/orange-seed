@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "intercept"
+version = "1.0.12"
+description = "Static Application Security Testing (SAST) tool"
+homepage = "https://intercept.cc"
+
+[source]
+url = "https://github.com/xfhg/intercept/archive/refs/tags/v1.0.12.tar.gz"
+sha256 = "2732a3e895a9685ba6f112e7e372627aebfa340a94bf4716462b382075593308"
+
+[build]
+system = "autotools"

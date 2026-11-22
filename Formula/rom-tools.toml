@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asio", "pkgconf", "flac", "sdl3", "utf8proc", "zstd"]
+
+[package]
+name = "rom-tools"
+version = "0.289"
+description = "Tools for Multiple Arcade Machine Emulator"
+homepage = "https://www.mamedev.org/"
+
+[source]
+url = "https://github.com/mamedev/mame/archive/refs/tags/mame0289.tar.gz"
+sha256 = "0929cc749afabcef892900e10dd90bd8b05f94a7dde8f367ac6a5d2082589f84"
+
+[build]
+system = "autotools"

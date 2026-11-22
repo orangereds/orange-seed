@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["crystal", "help2man", "bdw-gc", "lz4", "openssl@4", "pcre2", "coreutils"]
+
+[package]
+name = "lavinmq"
+version = "2.11.1"
+description = "Message broker implementing the AMQP 0-9-1 and MQTT protocols"
+homepage = "https://lavinmq.com"
+
+[source]
+url = "https://github.com/cloudamqp/lavinmq/archive/refs/tags/v2.11.1.tar.gz"
+sha256 = "b81aee386d797c06d2c9aad62e526e6d8458eb1873bb8c3928cfe45d0c7a8ae3"
+
+[service]
+run = "opt/lavinmq/bin/lavinmq -c etc/lavinmq/lavinmq.ini"
+keep_alive = true
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml", "opam", "pkgconf", "gnupg"]
+
+[package]
+name = "zero-install"
+version = "0install-2.18.tbz"
+description = "Decentralised cross-platform software installation system"
+homepage = "https://0install.net/"
+
+[source]
+url = "https://github.com/0install/0install/releases/download/v2.18/0install-2.18.tbz"
+sha256 = "648c4b318c1a26dfcb44065c226ab8ca723795924ad80a3bf39ae1ce0e9920c3"
+
+[build]
+system = "autotools"

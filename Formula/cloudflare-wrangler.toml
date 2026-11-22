@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cloudflare-wrangler"
+version = "0"
+description = "CLI tool for Cloudflare Workers"
+homepage = "https://developers.cloudflare.com/workers/"
+
+[source]
+url = "https://registry.npmjs.org/wrangler/-/wrangler-4.166.0.tgz"
+sha256 = "3333bd0b9491c76c2717582f69cb0d1ab2dab1c014e86aa859bc3ce04fa91d40"
+
+[build]
+system = "autotools"

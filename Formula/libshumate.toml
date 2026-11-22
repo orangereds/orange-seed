@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "cairo", "gdk-pixbuf", "glib", "graphene", "gtk4", "json-glib", "libsoup", "pango", "protobuf-c", "sqlite"]
+
+[package]
+name = "libshumate"
+version = "1.7.1"
+description = "Shumate is a GTK toolkit providing widgets for embedded maps"
+homepage = "https://gitlab.gnome.org/GNOME/libshumate"
+
+[source]
+url = "https://download.gnome.org/sources/libshumate/1.7/libshumate-1.7.1.tar.xz"
+sha256 = "5316878f7d6a2124d8d53bdd3a34b3656f1c2337b2082aa59ed667969c0bd8f4"
+
+[build]
+system = "autotools"

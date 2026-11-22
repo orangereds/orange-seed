@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "any2fasta"
+version = "0.8.1"
+description = "Convert various sequence formats to FASTA"
+homepage = "https://github.com/tseemann/any2fasta"
+
+[source]
+url = "https://github.com/tseemann/any2fasta/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "73f4f2c1eb0cb5525703a5368fe4b34ddd252e64af1f9c3aba2ba63d8f9723b6"
+
+[build]
+system = "autotools"

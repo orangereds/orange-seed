@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "pkgconf", "bdw-gc", "glib", "libgee", "gettext"]
+
+[package]
+name = "zile"
+version = "2.6.4"
+description = "Text editor development kit"
+homepage = "https://www.gnu.org/software/zile/"
+
+[source]
+url = "https://ftpmirror.gnu.org/zile/zile-2.6.4.tar.gz"
+sha256 = "d5d44b85cb490643d0707e1a2186f3a32998c2f6eabaa9481479b65caeee57c0"
+
+[build]
+system = "autotools"

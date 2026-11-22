@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "asciidoc", "pkgconf", "xmlto", "lz4", "zeromq"]
+
+[package]
+name = "czmq"
+version = "4.2.1"
+description = "High-level C binding for ZeroMQ"
+homepage = "http://czmq.zeromq.org/"
+
+[source]
+url = "https://github.com/zeromq/czmq/releases/download/v4.2.1/czmq-4.2.1.tar.gz"
+sha256 = "5d720a204c2a58645d6f7643af15d563a712dad98c9d32c1ed913377daa6ac39"
+
+[build]
+system = "autotools"

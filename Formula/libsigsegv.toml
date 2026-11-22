@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "libsigsegv"
+version = "2.16"
+description = "Library for handling page faults in user mode"
+homepage = "https://www.gnu.org/software/libsigsegv/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libsigsegv/libsigsegv-2.16.tar.gz"
+sha256 = "f8b2fac06c091fc29d6474733d118dc163ed7cd6be4783240d31ad7af11efa30"
+
+[build]
+system = "autotools"

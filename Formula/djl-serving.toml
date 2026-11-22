@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "djl-serving"
+version = "0"
+description = "This module contains an universal model serving implementation"
+homepage = "https://github.com/deepjavalibrary/djl-serving"
+
+[source]
+url = "https://publish.djl.ai/djl-serving/serving-0.40.0.tar"
+sha256 = "30463317ae3a012572101a1feb1b7ab4af341434e43a99a092552673936eaa52"
+
+[service]
+run = "opt/djl-serving/bin/djl-serving run"
+keep_alive = true
+working_dir = "var/djl-serving"
+
+[build]
+system = "autotools"

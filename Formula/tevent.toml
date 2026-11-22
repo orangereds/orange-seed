@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmocka", "pkgconf", "talloc"]
+
+[package]
+name = "tevent"
+version = "0.17.2"
+description = "Event system based on the talloc memory management library"
+homepage = "https://tevent.samba.org"
+
+[source]
+url = "https://www.samba.org/ftp/tevent/tevent-0.17.2.tar.gz"
+sha256 = "e53b1ac288d017d66dde0471cd429a806168ecf07179d7f019572d7a7e05f0d6"
+
+[build]
+system = "autotools"

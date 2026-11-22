@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zsh-navigation-tools"
+version = "2.2.7"
+description = "Zsh curses-based tools, e.g. multi-word history searcher"
+homepage = "https://github.com/z-shell/zsh-navigation-tools"
+
+[source]
+url = "https://github.com/z-shell/zsh-navigation-tools/archive/refs/tags/v2.2.7.tar.gz"
+sha256 = "ee832b81ce678a247b998675111c66aa1873d72aa33c2593a65626296ca685fc"
+
+[build]
+system = "make"

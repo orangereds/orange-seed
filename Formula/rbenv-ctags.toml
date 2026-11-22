@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rbenv", "universal-ctags"]
+
+[package]
+name = "rbenv-ctags"
+version = "1.0.2_1"
+description = "Automatically generate ctags for rbenv Ruby stdlibs"
+homepage = "https://github.com/tpope/rbenv-ctags"
+
+[source]
+url = "https://github.com/tpope/rbenv-ctags/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "94b38c277a5de3f53aac0e7f4ffacf30fb6ddeb31c0597c1bcd78b0175c86cbe"
+
+[build]
+system = "autotools"

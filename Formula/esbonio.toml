@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "esbonio"
+version = "2.1.0"
+description = "Language server for working with Sphinx projects"
+homepage = "https://github.com/swyddfa/esbonio"
+
+[source]
+url = "https://files.pythonhosted.org/packages/68/e6/b40e53f2efc28fc18319795800cd3cc1dca6215cf34b55d0183361adebff/esbonio-2.1.0.tar.gz"
+sha256 = "7fd6973616c88689800ff3de17ce929c6dfe34fedf6e2c142e2b7ceab8b2ebbd"
+
+[build]
+system = "autotools"

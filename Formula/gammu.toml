@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "glib", "gettext"]
+
+[package]
+name = "gammu"
+version = "0"
+description = "Command-line utility to control a phone"
+homepage = "https://wammu.eu/gammu/"
+
+[source]
+url = "https://github.com/gammu/gammu/releases/download/1.45.2/Gammu-1.45.2.tar.gz"
+sha256 = "92478c1c6d8df193f3d5e36648fd05fc3eff26254034f025cad2a0ffba5aec23"
+
+[build]
+system = "cmake"

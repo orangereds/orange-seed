@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libcec"
+version = "8.1.7"
+description = "Control devices with TV remote control and HDMI cabling"
+homepage = "https://libcec.pulse-eight.com/"
+
+[source]
+url = "https://github.com/Pulse-Eight/libcec/archive/refs/tags/libcec-8.1.7.tar.gz"
+sha256 = "e4ac4d1dd3559cf83189d29ab40fc5537b5a2beceb82916ef173dac7e50dbfa0"
+
+[build]
+system = "cmake"

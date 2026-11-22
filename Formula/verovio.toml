@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "verovio"
+version = "0"
+description = "Command-line MEI music notation engraver"
+homepage = "https://www.verovio.org"
+
+[source]
+url = "https://github.com/rism-digital/verovio/archive/refs/tags/version-6.4.1.tar.gz"
+sha256 = "401e555ab19825d6843f662c8d4e40a310f0f63f349461d24b685d6e32209fbc"
+
+[build]
+system = "cmake"

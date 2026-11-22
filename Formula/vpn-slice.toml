@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "vpn-slice"
+version = "0.16.1_2"
+description = "Vpnc-script replacement for easy and secure split-tunnel VPN setup"
+homepage = "https://github.com/dlenski/vpn-slice"
+
+[source]
+url = "https://files.pythonhosted.org/packages/74/fd/6c9472e8ed83695abace098d83ba0df4ea48e29e7b2f6c77ced73b9f7dce/vpn-slice-0.16.1.tar.gz"
+sha256 = "28d02dd1b41210b270470350f28967320b3a34321d57cc9736f53d6121e9ceaa"
+
+[build]
+system = "autotools"

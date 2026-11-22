@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["apache-flink"]
+
+[package]
+name = "apache-flink-cdc"
+version = "3.7.0"
+description = "Flink CDC is a streaming data integration tool"
+homepage = "https://nightlies.apache.org/flink/flink-cdc-docs-stable/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=flink/flink-cdc-3.7.0/flink-cdc-3.7.0-2.2-bin.tar.gz"
+sha256 = "0f282635bae64818ee6792db312fe517955980028e51174b8348c57bd00ea592"
+
+[build]
+system = "autotools"

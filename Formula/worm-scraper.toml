@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "worm-scraper"
+version = "9.2.2"
+description = "Scrape Worm, Ward, and Glow-worm web serials into EPUB ebooks"
+homepage = "https://github.com/domenic/worm-scraper"
+
+[source]
+url = "https://registry.npmjs.org/worm-scraper/-/worm-scraper-9.2.2.tgz"
+sha256 = "c8ead11dfbfeeed92c6e02fd9de88c6ef293564e017ab678d3ebf7d3f9f6c4c1"
+
+[build]
+system = "autotools"

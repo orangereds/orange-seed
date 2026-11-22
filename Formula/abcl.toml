@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "openjdk", "rlwrap"]
+
+[package]
+name = "abcl"
+version = "0"
+description = "Armed Bear Common Lisp: a full implementation of Common Lisp"
+homepage = "https://abcl.org/"
+
+[source]
+url = "https://abcl.org/releases/1.9.2/abcl-src-1.9.2.tar.gz"
+sha256 = "4e2f4b8f85e2d95d95e5bdbcd9fa17ad6131a17e2fcf12bc19ffb97b48bc1d38"
+
+[build]
+system = "autotools"

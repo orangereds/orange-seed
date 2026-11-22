@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pyqt", "boost", "cgns", "double-conversion", "eigen", "fontconfig", "freetype", "hdf5", "jpeg-turbo", "jsoncpp", "libharu", "libogg", "libpng", "libtiff", "lz4", "netcdf", "nlohmann-json", "proj", "pugixml", "python@3.15", "qtbase", "qtdeclarative", "sqlite", "theora", "utf8cpp", "xz"]
+
+[package]
+name = "vtk"
+version = "0"
+description = "Toolkit for 3D computer graphics, image processing, and visualization"
+homepage = "https://www.vtk.org/"
+
+[source]
+url = "https://www.vtk.org/files/release/9.7/VTK-9.7.2.tar.gz"
+sha256 = "fecef55df5caec6298ce190024060a90ce3bb515033c0f18968b9ab5c12bf796"
+
+[build]
+system = "cmake"

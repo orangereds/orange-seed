@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "domain-check"
+version = "1.2.1"
+description = "CLI tool for checking domain availability using RDAP and WHOIS protocols"
+homepage = "https://github.com/saidutt46/domain-check"
+
+[source]
+url = "https://github.com/saidutt46/domain-check/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "175e738e72042bd6d6175f7a29b3ca69fca382560f98fd6a6429409d5a86a811"
+
+[build]
+system = "autotools"

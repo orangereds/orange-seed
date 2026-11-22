@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-passbolt-cli"
+version = "0.5.3"
+description = "CLI for passbolt"
+homepage = "https://www.passbolt.com/"
+
+[source]
+url = "https://github.com/passbolt/go-passbolt-cli/archive/refs/tags/v0.5.3.tar.gz"
+sha256 = "e9150c09cd05d78b666cfdbe8475dd0124bbd8a4719561411a9ec82ea1980893"
+
+[build]
+system = "autotools"

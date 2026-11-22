@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libpointing"
+version = "1.0.8"
+description = "Provides direct access to HID pointing devices"
+homepage = "https://github.com/INRIA/libpointing"
+
+[source]
+url = "https://github.com/INRIA/libpointing/archive/refs/tags/v1.0.8.tar.gz"
+sha256 = "697581d27101c9816f1b19715e7ace85a5345857d65e4eaa82840cf2051435d6"
+
+[build]
+system = "autotools"

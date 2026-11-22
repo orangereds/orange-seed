@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nim", "htslib"]
+
+[package]
+name = "slivar"
+version = "0.1.0"
+description = "Filter and annotate genetic variants with expressions, for trios and cohorts"
+homepage = "https://github.com/brentp/slivar"
+
+[source]
+url = "https://github.com/brentp/slivar/archive/refs/tags/v0.3.4.tar.gz"
+sha256 = "144475352296b44174f9702c8796c0db16ba78e9125f6cae2b16df0df7156423"
+
+[build]
+system = "autotools"

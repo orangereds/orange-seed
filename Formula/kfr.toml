@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake"]
+
+[package]
+name = "kfr"
+version = "7.2.0"
+description = "Fast, modern C++ DSP framework"
+homepage = "https://www.kfrlib.com/"
+
+[source]
+url = "https://github.com/kfrlib/kfr/archive/refs/tags/7.2.0.tar.gz"
+sha256 = "4f1603d5b6e609c25d25cff58fe7154a371583fd6d379615b342e44223be0763"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitsign"
+version = "0.18.0"
+description = "Keyless Git signing using Sigstore"
+homepage = "https://github.com/sigstore/gitsign"
+
+[source]
+url = "https://github.com/sigstore/gitsign/archive/refs/tags/v0.18.0.tar.gz"
+sha256 = "d87dbb00624d0e6874ef2df37b3bb3b3a89416c3a19114753d3c3cb932dcdcba"
+
+[build]
+system = "autotools"

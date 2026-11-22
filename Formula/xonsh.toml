@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "xonsh"
+version = "0.25.0"
+description = "Python-powered, cross-platform, Unix-gazing shell language and command prompt"
+homepage = "https://xon.sh"
+
+[source]
+url = "https://files.pythonhosted.org/packages/35/e3/b0632485c281227e04f6d0fd215df09cf37d7eee247928f1dd7e14a4dc4b/xonsh-0.25.0.tar.gz"
+sha256 = "87949263855c7b5338092c57b573ee8b959f001352a5631f98cef413995d5c7b"
+
+[build]
+system = "autotools"

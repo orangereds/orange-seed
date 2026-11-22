@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "markdown"
+version = "0"
+description = "Text-to-HTML conversion tool"
+homepage = "https://daringfireball.net/projects/markdown/"
+
+[source]
+url = "https://daringfireball.net/projects/downloads/Markdown_1.0.1.zip"
+sha256 = "6520e9b6a58c5555e381b6223d66feddee67f675ed312ec19e9cee1b92bc0137"
+
+[build]
+system = "autotools"

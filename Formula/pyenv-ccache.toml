@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ccache", "pyenv"]
+
+[package]
+name = "pyenv-ccache"
+version = "0.0.2"
+description = "Make Python build faster, using the leverage of `ccache`"
+homepage = "https://github.com/pyenv/pyenv-ccache"
+
+[source]
+url = "https://github.com/pyenv/pyenv-ccache/archive/refs/tags/v0.0.2.tar.gz"
+sha256 = "ebfb8a5ed754df485b3f391078c5dc913f0587791a5e3815e61078f0db180b9e"
+
+[build]
+system = "autotools"

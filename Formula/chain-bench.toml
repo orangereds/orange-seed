@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chain-bench"
+version = "0.1.10"
+description = "Software supply chain auditing tool based on CIS benchmark"
+homepage = "https://github.com/aquasecurity/chain-bench"
+
+[source]
+url = "https://github.com/aquasecurity/chain-bench/archive/refs/tags/v0.1.10.tar.gz"
+sha256 = "5bfeaacd9cf7d272e88597135bff7f329d455a810aaf2b6a763ac55e18d383c1"
+
+[build]
+system = "autotools"

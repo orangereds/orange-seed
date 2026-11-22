@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libdvdread"]
+
+[package]
+name = "libdvdnav"
+version = "7.0.0"
+description = "DVD navigation library"
+homepage = "https://www.videolan.org/developers/libdvdnav.html"
+
+[source]
+url = "https://download.videolan.org/pub/videolan/libdvdnav/7.0.0/libdvdnav-7.0.0.tar.xz"
+sha256 = "a2a18f5ad36d133c74bf9106b6445806fa253b09141a46392550394b647b221e"
+
+[build]
+system = "autotools"

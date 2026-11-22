@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "certifi", "cryptography", "libfuse", "pydantic", "python@3.15", "sqlite"]
+
+[package]
+name = "s3ql"
+version = "6.4.0"
+description = "POSIX-compliant FUSE filesystem using object store as block storage"
+homepage = "https://github.com/s3ql/s3ql"
+
+[source]
+url = "https://github.com/s3ql/s3ql/releases/download/s3ql-6.4.0/s3ql-6.4.0.tar.gz"
+sha256 = "3edf5ecbe6ef3d1276b1d1533524ccc3f452a0068d966756fc42088b92567d64"
+
+[build]
+system = "autotools"

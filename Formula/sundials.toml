@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "open-mpi", "openblas", "suite-sparse"]
+
+[package]
+name = "sundials"
+version = "7.9.0"
+description = "Nonlinear and differential/algebraic equations solver"
+homepage = "https://computing.llnl.gov/projects/sundials"
+
+[source]
+url = "https://github.com/llnl/sundials/releases/download/v7.9.0/sundials-7.9.0.tar.gz"
+sha256 = "13f898a27b48fe3449483f9e438a800ed545abf93bc2e2ceec2d1e00ae8db5ef"
+
+[build]
+system = "cmake"

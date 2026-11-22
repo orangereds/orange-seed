@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "wgsl-analyzer"
+version = "2026-11-02"
+description = "Language server implementation for WGSL and WESL"
+homepage = "https://wgsl-analyzer.github.io"
+
+[source]
+url = "https://github.com/wgsl-analyzer/wgsl-analyzer/archive/refs/tags/2026-11-02.tar.gz"
+sha256 = "0ef0ec3f9a2cc4dc90bb6323b3b851e7d287895304cd8aaa95bd1c39ac1d1b23"
+
+[build]
+system = "autotools"

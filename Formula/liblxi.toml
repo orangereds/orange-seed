@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "liblxi"
+version = "1.22_1"
+description = "Simple C API for communicating with LXI compatible instruments"
+homepage = "https://lxi-tools.github.io"
+
+[source]
+url = "https://github.com/lxi-tools/liblxi/archive/refs/tags/v1.22.tar.gz"
+sha256 = "d33ca3990513223880ec238eb2e5aa1cc93aff51c470ef0db9df3e0c332493d5"
+
+[build]
+system = "autotools"

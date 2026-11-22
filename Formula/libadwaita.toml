@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dart-sass", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "fribidi", "glib", "graphene", "gtk4", "pango"]
+
+[package]
+name = "libadwaita"
+version = "1.10.0"
+description = "Building blocks for modern adaptive GNOME applications"
+homepage = "https://gnome.pages.gitlab.gnome.org/libadwaita/"
+
+[source]
+url = "https://download.gnome.org/sources/libadwaita/1.10/libadwaita-1.10.0.tar.xz"
+sha256 = "b1bf56239269d101a6391ad4553c910eff9cc6170b803916405477ef60a66c84"
+
+[build]
+system = "autotools"

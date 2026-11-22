@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dropbox-uploader"
+version = "1.0"
+description = "Bash script for interacting with Dropbox"
+homepage = "https://www.andreafabrizi.it/2016/01/01/Dropbox-Uploader/"
+
+[source]
+url = "https://github.com/andreafabrizi/Dropbox-Uploader/archive/refs/tags/1.0.tar.gz"
+sha256 = "8c9be8bd38fb3b0f0b4d1a863132ad38c8299ac62ecfbd1e818addf32b48d84c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python-setuptools", "numpy", "openjdk", "python@3.15"]
+
+[package]
+name = "polynote"
+version = "0"
+description = "Polyglot notebook with first-class Scala support"
+homepage = "https://polynote.org/"
+
+[source]
+url = "https://github.com/polynote/polynote/releases/download/0.7.2/polynote-dist.tar.gz"
+sha256 = "a43afd3a19343b93ec2d323731f18c296ed0af33b7a56420af2ade40dd14c17b"
+
+[build]
+system = "autotools"

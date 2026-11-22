@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "elfutils", "zlib-ng-compat"]
+
+[package]
+name = "libbpf"
+version = "1.8.0"
+description = "Berkeley Packet Filter library"
+homepage = "https://github.com/libbpf/libbpf"
+
+[source]
+url = "https://github.com/libbpf/libbpf/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "b7a1e685f90f6a63ead0dd85d053694b222975da8d09c1a966041cff6f0055ff"
+
+[build]
+system = "make"

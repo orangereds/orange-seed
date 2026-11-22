@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust"]
+
+[package]
+name = "mcpc"
+version = "0.8.0"
+description = "Universal command-line client for the Model Context Protocol (MCP)"
+homepage = "https://github.com/apify/mcpc"
+
+[source]
+url = "https://registry.npmjs.org/@apify/mcpc/-/mcpc-0.8.0.tgz"
+sha256 = "593387a3026351ee1e529fb211740768029efcccfef6e62f9cb6d1c20b78947e"
+
+[build]
+system = "autotools"

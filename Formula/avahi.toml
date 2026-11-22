@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "m4", "perl", "pkgconf", "xmltoman", "dbus", "expat", "gdbm", "glib", "libcap", "libdaemon", "systemd"]
+
+[package]
+name = "avahi"
+version = "0.9-rc5"
+description = "Service Discovery for Linux using mDNS/DNS-SD"
+homepage = "https://avahi.org"
+
+[source]
+url = "https://github.com/avahi/avahi/archive/refs/tags/v0.9-rc5.tar.gz"
+sha256 = "5b0a9d88110b0fc8aaafc5cc0a26e83e7d2a4aca3a36bc27c9b626db7ead27b0"
+
+[build]
+system = "autotools"

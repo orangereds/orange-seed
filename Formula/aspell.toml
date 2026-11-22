@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "aspell"
+version = "0.60.8.3_1"
+description = "Spell checker with better logic than ispell"
+homepage = "http://aspell.net/"
+
+[source]
+url = "https://ftpmirror.gnu.org/aspell/aspell-0.60.8.3.tar.gz"
+sha256 = "0534eae11132405120d11e46bf595bd5dd189bc124ba77a5dd6aae861b48a162"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "west"
+version = "1.5.0"
+description = "Zephyr meta-tool"
+homepage = "https://github.com/zephyrproject-rtos/west"
+
+[source]
+url = "https://files.pythonhosted.org/packages/54/8e/ddb81e2635e58d156092556934a2cffe245978c91e4a08e11d72591f46e4/west-1.5.0.tar.gz"
+sha256 = "7088fe0e9afe0719ebee95c51c529149f7bcfc919d83a8206d35fa9c683ed0a5"
+
+[build]
+system = "autotools"

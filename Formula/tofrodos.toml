@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tofrodos"
+version = "3.0.0"
+description = "Converts DOS <-> UNIX text files, alias tofromdos"
+homepage = "https://github.com/ChristopherHeng/tofrodos"
+
+[source]
+url = "https://github.com/ChristopherHeng/tofrodos/archive/refs/tags/3.0.0.tar.gz"
+sha256 = "3c2e14a33d704b48cde344540095a09e696f6b7907169ae6f2ff78ab54ad6f8d"
+
+[build]
+system = "autotools"

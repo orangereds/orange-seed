@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "speex"]
+
+[package]
+name = "libebur128"
+version = "1.2.6"
+description = "Library implementing the EBU R128 loudness standard"
+homepage = "https://github.com/jiixyj/libebur128"
+
+[source]
+url = "https://github.com/jiixyj/libebur128/archive/refs/tags/v1.2.6.tar.gz"
+sha256 = "baa7fc293a3d4651e244d8022ad03ab797ca3c2ad8442c43199afe8059faa613"
+
+[build]
+system = "cmake"

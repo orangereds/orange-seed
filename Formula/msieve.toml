@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp"]
+
+[package]
+name = "msieve"
+version = "0"
+description = "C library for factoring large integers"
+homepage = "https://sourceforge.net/projects/msieve/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/msieve/msieve/Msieve%20v1.53/msieve153_src.tar.gz"
+sha256 = "c5fcbaaff266a43aa8bca55239d5b087d3e3f138d1a95d75b776c04ce4d93bb4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mediamtx"
+version = "0"
+description = "Zero-dependency real-time media server and media proxy"
+homepage = "https://mediamtx.org"
+
+[source]
+url = "https://github.com/bluenviron/mediamtx.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/mediamtx/bin/mediamtx etc/mediamtx/mediamtx.yml"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/mediamtx/output.log"
+error_log_path = "var/log/mediamtx/error.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["net-snmp", "openssl@4", "gettext"]
+
+[package]
+name = "monitoring-plugins"
+version = "3.0.3_1"
+description = "Plugins for nagios compatible monitoring systems"
+homepage = "https://www.monitoring-plugins.org"
+
+[source]
+url = "https://www.monitoring-plugins.org/download/monitoring-plugins-3.0.3.tar.gz"
+sha256 = "a1df32ef4791defd5418907b54be1549c81598fd02e339c4595d2d26107b3280"
+
+[build]
+system = "autotools"

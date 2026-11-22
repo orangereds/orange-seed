@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "nushell"
+version = "0.117.0"
+description = "Modern shell for the GitHub era"
+homepage = "https://www.nushell.sh"
+
+[source]
+url = "https://github.com/nushell/nushell/archive/refs/tags/0.117.0.tar.gz"
+sha256 = "ccb5640f8f88b48787c946daf87a349972b939c2edbc5a3b4ca6fc0921bddd6b"
+
+[build]
+system = "autotools"

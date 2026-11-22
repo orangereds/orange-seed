@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "burrow"
+version = "1.9.6"
+description = "Kafka Consumer Lag Checking"
+homepage = "https://github.com/linkedin/Burrow"
+
+[source]
+url = "https://github.com/linkedin/Burrow/archive/refs/tags/v1.9.6.tar.gz"
+sha256 = "3dcb0af9ff5741c2d2b3ac39211b9087e1f5dfc7f45ffa18bf9007504d91219f"
+
+[service]
+run = "opt/burrow/bin/burrow --config-dir etc/burrow"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/burrow.log"
+error_log_path = "var/log/burrow.log"
+
+[build]
+system = "autotools"

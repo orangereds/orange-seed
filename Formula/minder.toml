@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "minder"
+version = "0.4.0"
+description = "CLI for interacting with Stacklok's Minder platform"
+homepage = "https://mindersec.github.io/"
+
+[source]
+url = "https://github.com/mindersec/minder/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "8369884bc19980d6caef536c0d4146d580caf89b32632c59be4354b0befdb2db"
+
+[build]
+system = "autotools"

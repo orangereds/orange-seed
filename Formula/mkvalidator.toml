@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "mkvalidator"
+version = "0.6.0"
+description = "Tool to verify Matroska and WebM files for spec conformance"
+homepage = "https://www.matroska.org/downloads/mkvalidator.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/matroska/mkvalidator/mkvalidator-0.6.0.tar.bz2"
+sha256 = "f9eaa2138fade7103e6df999425291d2947c5355294239874041471e3aa243f0"
+
+[build]
+system = "cmake"

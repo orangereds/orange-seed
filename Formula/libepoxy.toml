@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "libepoxy"
+version = "1.5.10"
+description = "Library for handling OpenGL function pointer management"
+homepage = "https://github.com/anholt/libepoxy"
+
+[source]
+url = "https://download.gnome.org/sources/libepoxy/1.5/libepoxy-1.5.10.tar.xz"
+sha256 = "072cda4b59dd098bba8c2363a6247299db1fa89411dc221c8b81b8ee8192e623"
+
+[build]
+system = "autotools"

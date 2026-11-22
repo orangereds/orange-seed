@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "embulk"
+version = "0.11.5.jar"
+description = "Data transfer between various databases, file formats and services"
+homepage = "https://www.embulk.org/"
+
+[source]
+url = "https://github.com/embulk/embulk/releases/download/v0.11.5/embulk-0.11.5.jar"
+sha256 = "e2f298db60c2fe1cc17c377edf7215c7005b5d106d151b1a4278a508e4a32e47"
+
+[build]
+system = "autotools"

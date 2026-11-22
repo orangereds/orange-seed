@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hookdeck"
+version = "3.2.0"
+description = "Forward webhook events from Hookdeck to a local server"
+homepage = "https://hookdeck.com"
+
+[source]
+url = "https://github.com/hookdeck/hookdeck-cli/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "6926f7f18dd78a4c0f501bba9b49898d21253558ae4dbb0064d4f665307a1839"
+
+[build]
+system = "autotools"

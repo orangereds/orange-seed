@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "c-ares", "glib", "gnutls", "libgcrypt", "libmaxminddb", "libnghttp2", "libnghttp3", "libsmi", "libssh", "lua", "lz4", "pcre2", "speexdsp", "zstd", "libgpg-error"]
+
+[package]
+name = "wireshark"
+version = "4.6.10"
+description = "Network analyzer and capture tool - without graphical user interface"
+homepage = "https://www.wireshark.org"
+
+[source]
+url = "https://www.wireshark.org/download/src/all-versions/wireshark-4.6.10.tar.xz"
+sha256 = "268f41bdf8acee561b670217cf6ea74cf9e779477543e59f92f1cd00294a03dd"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bbrew"
+version = "2.3.2"
+description = "TUI for managing Homebrew, Flatpak, and Mac App Store packages"
+homepage = "https://bold-brew.com"
+
+[source]
+url = "https://github.com/Valkyrie00/bold-brew/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "2e22f351e9726128746a3f2f8591e9d1a2f525cbe1aca6b0af6a20f6f909faec"
+
+[build]
+system = "autotools"

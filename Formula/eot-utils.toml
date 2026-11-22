@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "eot-utils"
+version = "0"
+description = "Tools to convert fonts from OTF/TTF to EOT format"
+homepage = "https://www.w3.org/Tools/eot-utils/"
+
+[source]
+url = "https://www.w3.org/Tools/eot-utils/eot-utilities-1.1.tar.gz"
+sha256 = "4eed49dac7052e4147deaddbe025c7dfb404fc847d9fe71e1c42eba5620e6431"
+
+[build]
+system = "autotools"

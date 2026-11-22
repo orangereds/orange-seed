@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "libpcap", "systemd"]
+
+[package]
+name = "umockdev"
+version = "0.20.0"
+description = "Mock hardware devices for creating unit tests and bug reporting"
+homepage = "https://launchpad.net/umockdev"
+
+[source]
+url = "https://github.com/martinpitt/umockdev/releases/download/0.20.0/umockdev-0.20.0.tar.xz"
+sha256 = "c6ea246c457d29d5892c6622bf4812737aee975153497f3462c572e61b0404be"
+
+[build]
+system = "autotools"

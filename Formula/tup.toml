@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libfuse"]
+
+[package]
+name = "tup"
+version = "0.8_1"
+description = "File-based build system"
+homepage = "https://gittup.org/tup/"
+
+[source]
+url = "https://github.com/gittup/tup/archive/refs/tags/v0.8.tar.gz"
+sha256 = "45ca35c4c1d140f3faaab7fabf9d68fd9c21074af2af9a720cff4b27cab47d07"
+
+[build]
+system = "autotools"

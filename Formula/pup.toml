@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "pup"
+version = "2.6.1_source"
+description = "CLI companion with 200+ commands across 33+ Datadog products"
+homepage = "https://www.datadoghq.com"
+
+[source]
+url = "https://github.com/DataDog/pup/releases/download/v2.6.1/pup_2.6.1_source.tar.gz"
+sha256 = "4ed81032e258254450f52433bcb10759cd23cddbd3865ce9fd529b1d707758c7"
+
+[build]
+system = "autotools"

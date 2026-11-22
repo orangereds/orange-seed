@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "uptimed"
+version = "0.4.7"
+description = "Utility to track your highest uptimes"
+homepage = "https://github.com/rpodgorny/uptimed/"
+
+[source]
+url = "https://github.com/rpodgorny/uptimed/archive/refs/tags/v0.4.7.tar.gz"
+sha256 = "2f669d2968ca1d0865b7a97791c9dbcca759631a1afc5d6702964f070a57252b"
+
+[service]
+run = "uptimed -f -p var/run/uptimed.pid"
+working_dir = "opt_prefix"
+
+[build]
+system = "autotools"

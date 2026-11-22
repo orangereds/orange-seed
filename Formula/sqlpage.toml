@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust", "unixodbc"]
+
+[package]
+name = "sqlpage"
+version = "0.48.0"
+description = "Web app builder using SQL queries to create dynamic webapps quickly"
+homepage = "https://sql-page.com/"
+
+[source]
+url = "https://github.com/sqlpage/SQLpage/archive/refs/tags/v0.48.0.tar.gz"
+sha256 = "ec5d243878ba7675f22b3e69b6517575c3179438d9457025739e83daca7b556e"
+
+[build]
+system = "autotools"

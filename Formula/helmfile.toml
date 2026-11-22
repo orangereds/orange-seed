@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "helm"]
+
+[package]
+name = "helmfile"
+version = "1.8.4"
+description = "Deploy Kubernetes Helm Charts"
+homepage = "https://github.com/helmfile/helmfile"
+
+[source]
+url = "https://github.com/helmfile/helmfile/archive/refs/tags/v1.8.4.tar.gz"
+sha256 = "920f59113da7a09ab0d4b693c2b0d3a36cc5be9b974d146b2d6b76f572409468"
+
+[build]
+system = "autotools"

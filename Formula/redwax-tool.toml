@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "apr", "apr-util", "ldns", "libical", "nspr", "nss", "openssl@4", "p11-kit", "unbound"]
+
+[package]
+name = "redwax-tool"
+version = "1.0.0_2"
+description = "Universal certificate conversion tool"
+homepage = "https://redwax.eu/rt/"
+
+[source]
+url = "https://redwax.eu/dist/rt/redwax-tool-1.0.0.tar.bz2"
+sha256 = "dd2d7e6ce1ee9b78bc3a2d076f4c1b282b61e9a3a20456566d3e62d32dc12d5e"
+
+[build]
+system = "autotools"

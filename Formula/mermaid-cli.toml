@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mermaid-cli"
+version = "12.2.0"
+description = "CLI for Mermaid library"
+homepage = "https://github.com/mermaid-js/mermaid-cli"
+
+[source]
+url = "https://registry.npmjs.org/@mermaid-js/mermaid-cli/-/mermaid-cli-12.2.0.tgz"
+sha256 = "5aea6d89f3c54cfdff969430e1bcdc0212459806d74fd450d4a36d3144869a3b"
+
+[build]
+system = "autotools"

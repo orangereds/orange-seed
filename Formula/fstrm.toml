@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libevent"]
+
+[package]
+name = "fstrm"
+version = "0.6.1"
+description = "Frame Streams implementation in C"
+homepage = "https://github.com/farsightsec/fstrm"
+
+[source]
+url = "https://dl.farsightsecurity.com/dist/fstrm/fstrm-0.6.1.tar.gz"
+sha256 = "bca4ac1e982a2d923ccd24cce2c98f4ceeed5009694430f73fc0dcebca8f098f"
+
+[build]
+system = "autotools"

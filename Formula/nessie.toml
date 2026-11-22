@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@21"]
+
+[package]
+name = "nessie"
+version = "0.110.1"
+description = "Transactional Catalog for Data Lakes with Git-like semantics"
+homepage = "https://projectnessie.org"
+
+[source]
+url = "https://github.com/projectnessie/nessie/archive/refs/tags/nessie-0.110.1.tar.gz"
+sha256 = "1c509dec4cbbeca5098e0f170082a1fad4111ffed007a489451f0c11701c2b86"
+
+[service]
+run = "opt/nessie/bin/nessie"
+keep_alive = true
+log_path = "var/log/nessie.log"
+error_log_path = "var/log/nessie.log"
+
+[build]
+system = "autotools"

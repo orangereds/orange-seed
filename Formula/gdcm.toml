@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "python@3.15", "swig", "charls", "json-c", "openjpeg", "openssl@4"]
+
+[package]
+name = "gdcm"
+version = "3.2.7_1"
+description = "Grassroots DICOM library and utilities for medical files"
+homepage = "https://sourceforge.net/projects/gdcm/"
+
+[source]
+url = "https://github.com/malaterre/GDCM/archive/refs/tags/v3.2.7.tar.gz"
+sha256 = "b7b17b70c009677cf244cc7837b88386441e097f8861fdeee83aa27d1bc1b090"
+
+[build]
+system = "autotools"

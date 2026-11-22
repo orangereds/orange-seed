@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "localtunnel"
+version = "2.0.2"
+description = "Exposes your localhost to the world for easy testing and sharing"
+homepage = "https://theboroer.github.io/localtunnel-www/"
+
+[source]
+url = "https://registry.npmjs.org/localtunnel/-/localtunnel-2.0.2.tgz"
+sha256 = "6fb76f0ac6b92989669a5b7bb519361e07301965ea1f5a04d813ed59ab2e0c34"
+
+[build]
+system = "autotools"

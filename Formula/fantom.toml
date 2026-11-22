@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "fantom"
+version = "1.0.84"
+description = "Object oriented, portable programming language"
+homepage = "https://fantom.org/"
+
+[source]
+url = "https://github.com/fantom-lang/fantom/releases/download/v1.0.84/fantom-1.0.84.zip"
+sha256 = "3ea9f6728a43cca961ae4094a4cd8cb381d3dc3c57d08b023c9cb19b334bc4d5"
+
+[build]
+system = "autotools"

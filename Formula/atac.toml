@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "oniguruma"]
+
+[package]
+name = "atac"
+version = "0.24.0"
+description = "Simple API client (Postman-like) in your terminal"
+homepage = "https://github.com/Julien-cpsn/ATAC"
+
+[source]
+url = "https://github.com/Julien-cpsn/ATAC/archive/refs/tags/v0.24.0.tar.gz"
+sha256 = "7d39488b1dbf30ad370c6fc033922db104aac42796188ee870adfe3e735d9d54"
+
+[build]
+system = "autotools"

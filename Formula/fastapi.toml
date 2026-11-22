@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "fastapi"
+version = "0.165.0"
+description = "CLI for FastAPI framework"
+homepage = "https://fastapi.tiangolo.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/27/f9/e7820ef181026fea100bde02d811445bf8e883362d7092b6928767147056/fastapi-0.165.0.tar.gz"
+sha256 = "dd94d4128319c1e1d50535ab023ab698f850a4d2822f0e181747b46f4ff3c0ab"
+
+[build]
+system = "autotools"

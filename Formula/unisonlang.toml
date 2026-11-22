@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elm", "elm-format", "ghc@9.10", "haskell-stack", "node", "pkgconf", "libyaml", "sqlite"]
+
+[package]
+name = "unisonlang"
+version = "2.0.1"
+description = "Friendly programming language from the future"
+homepage = "https://unison-lang.org/"
+
+[source]
+url = "https://github.com/unisonweb/unison/archive/refs/tags/release/2.0.1.tar.gz"
+sha256 = "a946203ef9b836f181d843406b42d62785e89fbcc3ba970cd61f960bda520aed"
+
+[build]
+system = "autotools"

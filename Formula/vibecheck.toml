@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vibecheck"
+version = "1.7.7"
+description = "AI-powered git commit assistant written in Go"
+homepage = "https://vibe.raashed.xyz"
+
+[source]
+url = "https://github.com/rshdhere/vibecheck/archive/refs/tags/v1.7.7.tar.gz"
+sha256 = "8fef335a930a1c752465e871125d269a72df4f39b6cec65ca6531383faba4f9c"
+
+[build]
+system = "autotools"

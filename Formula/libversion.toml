@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libversion"
+version = "3.0.5"
+description = "Advanced version string comparison library"
+homepage = "https://github.com/repology/libversion"
+
+[source]
+url = "https://github.com/repology/libversion/archive/refs/tags/3.0.5.tar.gz"
+sha256 = "b2da53a5adc8189332dbdf9bddd4f7ce897bcefac3755d8bcaf2a9a620682acd"
+
+[build]
+system = "cmake"

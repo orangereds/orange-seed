@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wifitui"
+version = "0.13.0"
+description = "Fast featureful friendly wifi terminal UI"
+homepage = "https://github.com/shazow/wifitui"
+
+[source]
+url = "https://github.com/shazow/wifitui/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "bdcf779c341916e692f3dad26b33121a2acab6e35d68b95e5415cf1e249b5e2e"
+
+[build]
+system = "autotools"

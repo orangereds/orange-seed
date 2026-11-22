@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "freetype", "glib", "jpeg-turbo", "libarchive", "libpng", "libtiff", "little-cms2", "gettext"]
+
+[package]
+name = "libgxps"
+version = "0.3.2_3"
+description = "GObject based library for handling and rendering XPS documents"
+homepage = "https://wiki.gnome.org/Projects/libgxps"
+
+[source]
+url = "https://download.gnome.org/sources/libgxps/0.3/libgxps-0.3.2.tar.xz"
+sha256 = "6d27867256a35ccf9b69253eb2a88a32baca3b97d5f4ef7f82e3667fa435251c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

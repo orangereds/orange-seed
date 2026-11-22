@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gittuf"
+version = "0"
+description = "Security layer for Git repositories"
+homepage = "https://gittuf.dev/"
+
+[source]
+url = "https://github.com/gittuf/gittuf/releases/download/v0.18.0/gittuf.src.tar.gz"
+sha256 = "feb0b809fd9deb6a846c1839e714a2739b7219241fbc2c03ba37b3fdfcef4cc7"
+
+[build]
+system = "autotools"

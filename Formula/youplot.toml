@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "youplot"
+version = "0.5.0"
+description = "Command-line tool that draw plots on the terminal"
+homepage = "https://github.com/red-data-tools/YouPlot/"
+
+[source]
+url = "https://github.com/red-data-tools/YouPlot/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "2d17a58a5faf684d5df1008d373caed796a88f880dab1d36023bacae97096180"
+
+[build]
+system = "autotools"

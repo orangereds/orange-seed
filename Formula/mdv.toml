@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "mdv"
+version = "1.7.5_1"
+description = "Styled terminal markdown viewer"
+homepage = "https://github.com/axiros/terminal_markdown_viewer"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d0/32/f5e1b8c70dc40b02604fbd0be3ff0bd5e01ee99c9fddf8f423b10d07cd31/mdv-1.7.5.tar.gz"
+sha256 = "eb84ed52a2b68d2e083e007cb485d14fac1deb755fd8f35011eff8f2889df6e9"
+
+[build]
+system = "autotools"

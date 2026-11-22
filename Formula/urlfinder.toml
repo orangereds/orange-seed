@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "urlfinder"
+version = "2026.6.16"
+description = "Extracting URLs and subdomains from JS files on a website"
+homepage = "https://github.com/pingc0y/URLFinder"
+
+[source]
+url = "https://github.com/pingc0y/URLFinder/archive/refs/tags/2026.6.16.tar.gz"
+sha256 = "12041f7a02fa0f8dbe502d838fb3c5e4c84def44c1bf18efb39e4fdb096f464a"
+
+[build]
+system = "autotools"

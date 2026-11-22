@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gnu-sed"]
+
+[package]
+name = "jupp"
+version = "3.1jupp41"
+description = "Professional screen editor for programmers"
+homepage = "https://mbsd.evolvis.org/jupp.htm"
+
+[source]
+url = "https://mbsd.evolvis.org/MirOS/dist/jupp/joe-3.1jupp41.tgz"
+sha256 = "7bb8ea8af519befefff93ec3c9e32108d7f2b83216c9bc7b01aef5098861c82f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "node", "rustup"]
+
+[package]
+name = "wasm-bindgen"
+version = "0.2.130"
+description = "Facilitating high-level interactions between Wasm modules and JavaScript"
+homepage = "https://wasm-bindgen.github.io/wasm-bindgen/"
+
+[source]
+url = "https://github.com/wasm-bindgen/wasm-bindgen/archive/refs/tags/0.2.130.tar.gz"
+sha256 = "d4adfbf05d68171bacfe07fef38e7de98e97aa51e06e53937e2786202d34c35b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "purescript"
+version = "0.15.17"
+description = "Strongly typed programming language that compiles to JavaScript"
+homepage = "https://www.purescript.org/"
+
+[source]
+url = "https://github.com/purescript/purescript/archive/refs/tags/v0.15.17.tar.gz"
+sha256 = "9c397f31c6864491d3f2588acb8e58ecde493c39ec380aaf845458213f1ddab0"
+
+[build]
+system = "autotools"

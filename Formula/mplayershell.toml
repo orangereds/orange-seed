@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mplayer"]
+
+[package]
+name = "mplayershell"
+version = "0.9.3"
+description = "Improved visual experience for MPlayer on macOS"
+homepage = "https://github.com/lisamelton/MPlayerShell"
+
+[source]
+url = "https://github.com/lisamelton/MPlayerShell/archive/refs/tags/0.9.3.tar.gz"
+sha256 = "a1751207de9d79d7f6caa563a3ccbf9ea9b3c15a42478ff24f5d1e9ff7d7226a"
+
+[build]
+system = "autotools"

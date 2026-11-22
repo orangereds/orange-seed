@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "gnupg", "terminal-notifier"]
+
+[package]
+name = "gopass"
+version = "1.17.4"
+description = "Slightly more awesome Standard Unix Password Manager for Teams"
+homepage = "https://www.gopass.pw/"
+
+[source]
+url = "https://github.com/gopasspw/gopass/releases/download/v1.17.4/gopass-1.17.4.tar.gz"
+sha256 = "de75d2a43cd7ae54cdeac2e3074456ab2a79901c607a24166804878269415989"
+
+[build]
+system = "make"

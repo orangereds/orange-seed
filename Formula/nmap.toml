@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "python-setuptools", "liblinear", "libssh2", "lua", "openssl@4", "pcre2", "python@3.15"]
+
+[package]
+name = "nmap"
+version = "7.993"
+description = "Port scanning utility for large networks"
+homepage = "https://nmap.org/"
+
+[source]
+url = "https://nmap.org/dist/nmap-7.993.tar.bz2"
+sha256 = "270e55f04915bfcecb5db8feb959d4c5ba86a48c094520a4f1c07571e1c79c59"
+
+[build]
+system = "autotools"

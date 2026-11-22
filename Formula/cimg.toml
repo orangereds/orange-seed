@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cimg"
+version = "0"
+description = "C++ toolkit for image processing"
+homepage = "https://cimg.eu/"
+
+[source]
+url = "https://cimg.eu/files/CImg_4.0.8.zip"
+sha256 = "ac19142becada361283b18b27f6eaf49b121e857224117d52c214d1650e53b92"
+
+[build]
+system = "autotools"

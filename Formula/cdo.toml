@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["eccodes", "hdf5", "libaec", "netcdf", "proj", "llvm"]
+
+[package]
+name = "cdo"
+version = "2.6.6-1"
+description = "Climate Data Operators"
+homepage = "https://code.mpimet.mpg.de/projects/cdo"
+
+[source]
+url = "https://code.mpimet.mpg.de/attachments/download/30254/cdo-2.6.6_1.tar.gz"
+sha256 = "8a98fe0e0969c4ced89030ab0b755fe9578ce4df3989cc86480fcf9c89a6d91f"
+
+[build]
+system = "autotools"

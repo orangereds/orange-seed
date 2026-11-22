@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "spim"
+version = "9.1.24"
+description = "MIPS32 simulator"
+homepage = "https://spimsimulator.sourceforge.net/"
+
+[source]
+url = "https://src.fedoraproject.org/repo/pkgs/spim/spimsimulator-spim-20230804.tar.gz/sha512/628801e566c73ad4e0ebce04dedb97b1d55618cd7709cac6a1742c46523ce6be9e820c2e3afc87207ee9bc0304880ac2e15563630cde1d43c0dfb1022b6767b9/spimsimulator-spim-20230804.tar.gz"
+sha256 = "f163fc3e9d58ea9d63d24c0df2b0ff374354d5ecfeda8d8aefab8e6e6ffa9924"
+
+[build]
+system = "autotools"

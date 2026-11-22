@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "python@3.14", "sphinx-doc", "xz"]
+
+[package]
+name = "ghc@9.8"
+version = "0"
+description = "Glorious Glasgow Haskell Compilation System"
+homepage = "https://haskell.org/ghc/"
+
+[source]
+url = "https://downloads.haskell.org/~ghc/9.8.4/ghc-9.8.4-src.tar.xz"
+sha256 = "17e8188f3c8a5c2f73fb4e35d01032e8dc258835ec876d52c8ad8ee3d24b2fc5"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

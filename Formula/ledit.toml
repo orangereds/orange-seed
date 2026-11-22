@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml-findlib", "camlp-streams", "camlp5", "ocaml"]
+
+[package]
+name = "ledit"
+version = "2.08_1"
+description = "Line editor for interactive commands"
+homepage = "https://pauillac.inria.fr/~ddr/ledit/"
+
+[source]
+url = "https://github.com/chetmurthy/ledit/archive/refs/tags/2.08.tar.gz"
+sha256 = "0f10f70bcdde68ce6514d4eedeb0774653322385a642d1ee696438b5594050f1"
+
+[build]
+system = "autotools"

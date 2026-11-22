@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "kaitai-struct-compiler"
+version = "0.11"
+description = "Compiler for generating binary data parsers"
+homepage = "https://kaitai.io/"
+
+[source]
+url = "https://github.com/kaitai-io/kaitai_struct_compiler/releases/download/0.11/kaitai-struct-compiler-0.11.zip"
+sha256 = "ff89389d9dc9e770d78a24af328763cb1f8e7b31ce7766c9edf10669a060f2a2"
+
+[build]
+system = "autotools"

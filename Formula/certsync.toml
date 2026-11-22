@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "certsync"
+version = "0.1.6_13"
+description = "Dump NTDS with golden certificates and UnPAC the hash"
+homepage = "https://github.com/zblurx/certsync"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c8/75/3928920bdbfb0af317446236fad17b47a1d6aad507f1ae2eed6bbf7e7ad9/certsync-0.1.6.tar.gz"
+sha256 = "bbfffd10f36edcb8c4d2d5033f2a2e1e7d641e41d6c5bd11069e7b0827fa1c8d"
+
+[build]
+system = "autotools"

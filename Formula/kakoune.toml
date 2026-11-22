@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "kakoune"
+version = "10.2"
+description = "Selection-based modal text editor"
+homepage = "https://github.com/mawww/kakoune"
+
+[source]
+url = "https://github.com/mawww/kakoune/releases/download/v2026.05.21/kakoune-2026.05.21.tar.bz2"
+sha256 = "be1deb3fe9808a0733ab1057309da380bb757307e8fdbb22dc478b674b6bad34"
+
+[build]
+system = "make"

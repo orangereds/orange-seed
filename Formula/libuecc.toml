@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libuecc"
+version = "7"
+description = "Very small Elliptic Curve Cryptography library"
+homepage = "https://git.universe-factory.net/fastd/libuecc"
+
+[source]
+url = "https://git.universe-factory.net/fastd/libuecc/archive/v7.tar.gz"
+sha256 = "80ef381fae912db88a33ebe1b4c7a722b98ed3b1939f75415068b025c5675818"
+
+[build]
+system = "cmake"

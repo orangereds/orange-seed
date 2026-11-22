@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "janet"
+version = "1.43.0"
+description = "Dynamic language and bytecode vm"
+homepage = "https://janet-lang.org"
+
+[source]
+url = "https://github.com/janet-lang/janet/archive/refs/tags/v1.43.0.tar.gz"
+sha256 = "9e01a7df04ef9b36c103238ac687e57ceeb5645fb7cc8782325a2844f6bb6a79"
+
+[build]
+system = "autotools"

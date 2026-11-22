@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "uni"
+version = "2.10.0"
+description = "Unicode database query tool for the command-line"
+homepage = "https://github.com/arp242/uni"
+
+[source]
+url = "https://github.com/arp242/uni/archive/refs/tags/v2.10.0.tar.gz"
+sha256 = "e9208bc0028d239f9cfbb701d98b14e93eddd138ac6433c6f2f5718244ffa5bf"
+
+[build]
+system = "autotools"

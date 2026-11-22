@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "libseccomp", "squashfs"]
+
+[package]
+name = "apptainer"
+version = "1.5.5"
+description = "Application container and unprivileged sandbox platform for Linux"
+homepage = "https://apptainer.org/"
+
+[source]
+url = "https://github.com/apptainer/apptainer/releases/download/v1.5.5/apptainer-1.5.5.tar.gz"
+sha256 = "d61347c9e554954ae662f40077a163d2af6422e65bbd254797606a8a36cf31c6"
+
+[build]
+system = "autotools"

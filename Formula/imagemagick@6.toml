@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "fontconfig", "freetype", "jpeg-turbo", "libpng", "libtiff", "libtool", "little-cms2", "openjpeg", "webp", "xz"]
+
+[package]
+name = "imagemagick@6"
+version = "0"
+description = "Tools and libraries to manipulate images in many formats"
+homepage = "https://legacy.imagemagick.org/"
+
+[source]
+url = "https://github.com/ImageMagick/ImageMagick6/releases/download/6.9.13-61/ImageMagick-6.9.13-61.7z"
+sha256 = "730ad78658a2f443b2384f4f0b4e741ee98ba7858f3e6db8963e1c8090571015"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

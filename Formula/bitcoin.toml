@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "capnp", "libevent", "zeromq"]
+
+[package]
+name = "bitcoin"
+version = "11"
+description = "Decentralized, peer to peer payment network"
+homepage = "https://bitcoincore.org/"
+
+[source]
+url = "https://bitcoincore.org/bin/bitcoin-core-32.1/bitcoin-32.1.tar.gz"
+sha256 = "a5f2f61e32cf7f790641c9ec306a3c88ca7b5a556946956b1f35ffd7e27813f9"
+
+[service]
+run = "opt/bitcoin/bin/bitcoind"
+
+[build]
+system = "cmake"

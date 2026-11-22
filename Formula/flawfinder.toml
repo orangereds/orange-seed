@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "flawfinder"
+version = "2.0.20"
+description = "Examines code and reports possible security weaknesses"
+homepage = "https://dwheeler.com/flawfinder/"
+
+[source]
+url = "https://dwheeler.com/flawfinder/flawfinder-2.0.20.tar.gz"
+sha256 = "9d732a4e0fef1cd4eaeefd4a0093f183c5981f6c843711ceae6a63419404996b"
+
+[build]
+system = "autotools"

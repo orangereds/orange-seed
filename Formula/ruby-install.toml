@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["xz"]
+
+[package]
+name = "ruby-install"
+version = "0.10.2"
+description = "Install Ruby, JRuby, Rubinius, TruffleRuby, or mruby"
+homepage = "https://github.com/postmodern/ruby-install"
+
+[source]
+url = "https://github.com/postmodern/ruby-install/releases/download/v0.10.2/ruby-install-0.10.2.tar.gz"
+sha256 = "65836158b8026992b2e96ed344f3d888112b2b105d0166ecb08ba3b4a0d91bf6"
+
+[build]
+system = "make"

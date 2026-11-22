@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["smake"]
+
+[package]
+name = "cdrtools"
+version = "3.02a09"
+description = "CD/DVD/Blu-ray premastering and recording software"
+homepage = "https://cdrtools.sourceforge.net/private/cdrecord.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/cdrtools/alpha/cdrtools-3.02a09.tar.gz"
+sha256 = "c7e4f732fb299e9b5d836629dadf5512aa5e6a5624ff438ceb1d056f4dcb07c2"
+
+[build]
+system = "autotools"

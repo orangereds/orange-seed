@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "protobuf"]
+
+[package]
+name = "protoc-gen-doc"
+version = "1.5.1_1"
+description = "Documentation generator plugin for Google Protocol Buffers"
+homepage = "https://github.com/pseudomuto/protoc-gen-doc"
+
+[source]
+url = "https://github.com/pseudomuto/protoc-gen-doc/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "75667f5e4f9b4fecf5c38f85a046180745fc73f518d85422d9c71cb845cd3d43"
+
+[build]
+system = "autotools"

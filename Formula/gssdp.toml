@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pandoc", "pkgconf", "vala", "glib", "libsoup", "gettext"]
+
+[package]
+name = "gssdp"
+version = "1.6.6"
+description = "GUPnP library for resource discovery and announcement over SSDP"
+homepage = "https://wiki.gnome.org/GUPnP/"
+
+[source]
+url = "https://download.gnome.org/sources/gssdp/1.6/gssdp-1.6.6.tar.xz"
+sha256 = "767d2275254ce0efeaeac64419ff9f4f0ad470d134ef672f5c556b2abb786bcb"
+
+[build]
+system = "autotools"

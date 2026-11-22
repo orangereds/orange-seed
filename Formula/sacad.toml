@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sacad"
+version = "3.0.4"
+description = "Automatic cover art downloader"
+homepage = "https://github.com/desbma/sacad"
+
+[source]
+url = "https://github.com/desbma/sacad/archive/refs/tags/3.0.4.tar.gz"
+sha256 = "31780c419c4ca14310c8ac7023faf03ecb17a0098013f134af9fa750810d322b"
+
+[build]
+system = "autotools"

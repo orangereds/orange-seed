@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dz6"
+version = "0.8.0"
+description = "Fast Vim-inspired TUI hex editor"
+homepage = "https://dz6.dev.br"
+
+[source]
+url = "https://github.com/mentebinaria/dz6/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "f995b1e8df20fca7bee48523e35e7bd9ec59f6df8066e342bbe8067176572887"
+
+[build]
+system = "autotools"

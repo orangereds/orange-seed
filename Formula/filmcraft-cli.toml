@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "filmcraft-cli"
+version = "0.20.1"
+description = "Headless FilmCraft CLI and MCP server to edit, render and export video projects"
+homepage = "https://getartcraft.com/apps/filmcraft"
+
+[source]
+url = "https://github.com/storytold/filmcraft/archive/refs/tags/v0.20.1.tar.gz"
+sha256 = "1f442d91aa31858ddd4dec9817a466e76c6dafb47f3e402f0f8b6be467c53fe4"
+
+[build]
+system = "autotools"

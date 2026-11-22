@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ioctl"
+version = "2.5.2"
+description = "Command-line interface for interacting with the IoTeX blockchain"
+homepage = "https://docs.iotex.io/"
+
+[source]
+url = "https://github.com/iotexproject/iotex-core/archive/refs/tags/v2.5.2.tar.gz"
+sha256 = "46a398f91bc4dcb9b08e3d3f885b4b3dc12e8105611faf5c058641b60c81e19a"
+
+[build]
+system = "autotools"

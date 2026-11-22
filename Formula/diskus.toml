@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "diskus"
+version = "0.9.0"
+description = "Minimal, fast alternative to 'du -sh'"
+homepage = "https://github.com/sharkdp/diskus"
+
+[source]
+url = "https://github.com/sharkdp/diskus/archive/refs/tags/v0.9.0.tar.gz"
+sha256 = "c4c9e4cd3cda25f55172130e3d6a58b389f0113fcefa96c73e4c80565547d1bf"
+
+[build]
+system = "autotools"

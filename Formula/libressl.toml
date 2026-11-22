@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "ca-certificates"]
+
+[package]
+name = "libressl"
+version = "4.4.1"
+description = "Version of the SSL/TLS protocol forked from OpenSSL"
+homepage = "https://www.libressl.org/"
+
+[source]
+url = "https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-4.4.1.tar.gz"
+sha256 = "290cdf1b53c086255dc302f118b98602a444e9ae6d11e9bfdd8c9b1b60aa3a22"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "llvm"]
+
+[package]
+name = "openldap"
+version = "2.7.2"
+description = "Open source suite of directory software"
+homepage = "https://www.openldap.org/software/"
+
+[source]
+url = "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.7.2.tgz"
+sha256 = "aad731aa22118ff327b9b4ddfc4b6f18ef9476586205da88a532e90940b523d2"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

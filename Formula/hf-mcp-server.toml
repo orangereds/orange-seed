@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "hf-mcp-server"
+version = "0.4.38"
+description = "MCP Server for Hugging Face"
+homepage = "https://github.com/evalstate/hf-mcp-server"
+
+[source]
+url = "https://registry.npmjs.org/@llmindset/hf-mcp-server/-/hf-mcp-server-0.4.38.tgz"
+sha256 = "27baaa374a04e19594962b03728e234d8b438705502c1b3ab391748d51a1bb03"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jq-lsp"
+version = "0.1.19"
+description = "Jq language server"
+homepage = "https://github.com/wader/jq-lsp"
+
+[source]
+url = "https://github.com/wader/jq-lsp/archive/refs/tags/v0.1.19.tar.gz"
+sha256 = "a209ea43c2ae6b0c1273a1cac8f6a8e1ac5f7e2d43c18160fda0690ea0656890"
+
+[build]
+system = "autotools"

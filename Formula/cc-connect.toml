@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "cc-connect"
+version = "1.5.3"
+description = "Bridges local AI coding agents to messaging platforms"
+homepage = "https://github.com/chenhg5/cc-connect"
+
+[source]
+url = "https://github.com/chenhg5/cc-connect/archive/refs/tags/v1.5.3.tar.gz"
+sha256 = "c3a47e27464dd33fbdfa0723e26e63b03350b9e15f78fd8b59e76eb15293e3af"
+
+[service]
+run = "opt/cc-connect/bin/cc-connect --config etc/cc-connect/config.toml"
+keep_alive = true
+working_dir = "var/cc-connect"
+
+[service.env]
+CC_LOG_FILE = "log/cc-connect.log"
+
+[build]
+system = "autotools"

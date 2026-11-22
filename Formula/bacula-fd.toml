@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "readline"]
+
+[package]
+name = "bacula-fd"
+version = "0"
+description = "Network backup solution"
+homepage = "https://www.bacula.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bacula/bacula/15.0.3/bacula-15.0.3.tar.gz"
+sha256 = "294afd3d2eb9d5b71c3d0e88fdf19eb513bfdb843b28d35c0552e4ae062827a1"
+
+[service]
+run = "opt/bacula-fd/bin/bacula-fd -f"
+
+[build]
+system = "autotools"

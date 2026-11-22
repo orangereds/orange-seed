@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "tclap", "abseil", "argon2", "cryptopp", "fruit", "jsoncpp", "libfuse@2", "protobuf", "sqlite", "uni-algo", "utf8proc"]
+
+[package]
+name = "securefs"
+version = "2.0.0_11"
+description = "Filesystem with transparent authenticated encryption"
+homepage = "https://github.com/netheril96/securefs"
+
+[source]
+url = "https://github.com/netheril96/securefs/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "d7fac7adc70c09473173aeadee5b7041d7e63fbf392ef40bdd77888590bb12a2"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["byacc", "cmake", "gengetopt", "pkgconf", "gmp", "json-c", "judy", "libdnet", "libunistring"]
+
+[package]
+name = "zmap"
+version = "4.4.0"
+description = "Network scanner for Internet-wide network studies"
+homepage = "https://zmap.io"
+
+[source]
+url = "https://github.com/zmap/zmap/archive/refs/tags/v4.4.0.tar.gz"
+sha256 = "be4521fdac10eddc9ba046399149064ca23d4630b7987301abdee9e0044b8d5c"
+
+[build]
+system = "cmake"

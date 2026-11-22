@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["erlang"]
+
+[package]
+name = "elixir"
+version = "1.20.5"
+description = "Functional metaprogramming aware language built on Erlang VM"
+homepage = "https://elixir-lang.org/"
+
+[source]
+url = "https://github.com/elixir-lang/elixir/archive/refs/tags/v1.20.5.tar.gz"
+sha256 = "3d99f2e129418800817e0e5a3ce4812c34537a32d50e37578189e90c79de7062"
+
+[build]
+system = "make"

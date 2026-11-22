@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pug"
+version = "0.6.5"
+description = "Drive terraform at terminal velocity"
+homepage = "https://github.com/leg100/pug"
+
+[source]
+url = "https://github.com/leg100/pug/archive/refs/tags/v0.6.5.tar.gz"
+sha256 = "a65d9d6e381b8e3efd22e90b0088f25c048734072ec6f132a39f1b7c20e9ea3f"
+
+[build]
+system = "autotools"

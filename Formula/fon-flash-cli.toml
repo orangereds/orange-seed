@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fon-flash-cli"
+version = "1.14.0"
+description = "Flash La Fonera and Atheros chipset compatible devices"
+homepage = "https://www.gargoyle-router.com/wiki/doku.php?id=fon_flash"
+
+[source]
+url = "https://github.com/ericpaulbishop/gargoyle/archive/refs/tags/1.14.0.tar.gz"
+sha256 = "bd3ba67ab9cd8c7474ce8f02a3a320b91aec72c6710e43c18dbe719b13f3820a"
+
+[build]
+system = "autotools"

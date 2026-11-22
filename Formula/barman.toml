@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libpq", "python@3.15"]
+
+[package]
+name = "barman"
+version = "3.21.0"
+description = "Backup and Recovery Manager for PostgreSQL"
+homepage = "https://pgbarman.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/41/3c/738de855112d6d6b305aaa235ec6bb1059d968a0f6c49792a3a91019db6e/barman-3.21.0.tar.gz"
+sha256 = "962108f674177f3a457d8f73cc7d545d4a1db1de5c5b135e1104ef12e1217275"
+
+[build]
+system = "autotools"

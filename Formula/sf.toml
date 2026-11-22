@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sf"
+version = "0"
+description = "Command-line toolkit for Salesforce development"
+homepage = "https://developer.salesforce.com/tools/salesforcecli"
+
+[source]
+url = "https://registry.npmjs.org/@salesforce/cli/-/cli-2.159.7.tgz"
+sha256 = "49def3406c701591c5a615a65f1f90f357a20d108c82f37a824819d7839dbe83"
+
+[build]
+system = "autotools"

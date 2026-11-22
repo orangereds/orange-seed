@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "itex2mml"
+version = "0"
+description = "Text filter to convert itex equations to MathML"
+homepage = "https://golem.ph.utexas.edu/~distler/blog/itex2MML.html"
+
+[source]
+url = "https://golem.ph.utexas.edu/~distler/blog/files/itexToMML-1.6.1.tar.gz"
+sha256 = "3ef2572aa3421cf4d12321905c9c3f6b68911c3c9283483b7a554007010be55f"
+
+[build]
+system = "autotools"

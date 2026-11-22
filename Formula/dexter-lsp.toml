@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dexter-lsp"
+version = "0.7.2"
+description = "Elixir LSP optimized for large codebases"
+homepage = "https://github.com/remoteoss/dexter"
+
+[source]
+url = "https://github.com/remoteoss/dexter/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "675ad9d59678db0f7c63bd5f0672f19d7e499a26359e8af6cd1ee5272b583b8f"
+
+[build]
+system = "autotools"

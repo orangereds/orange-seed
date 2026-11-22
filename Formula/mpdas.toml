@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libmpdclient"]
+
+[package]
+name = "mpdas"
+version = "0.4.5"
+description = "C++ client to submit tracks to audioscrobbler"
+homepage = "https://www.50hz.ws/mpdas/"
+
+[source]
+url = "https://www.50hz.ws/mpdas/mpdas-0.4.5.tar.gz"
+sha256 = "c9103d7b897e76cd11a669e1c062d74cb73574efc7ba87de3b04304464e8a9ca"
+
+[service]
+run = "opt/mpdas/bin/mpdas"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "make"

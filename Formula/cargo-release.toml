@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup", "libgit2"]
+
+[package]
+name = "cargo-release"
+version = "1.1.7"
+description = "Cargo subcommand `release`: everything about releasing a rust crate"
+homepage = "https://github.com/crate-ci/cargo-release"
+
+[source]
+url = "https://github.com/crate-ci/cargo-release/archive/refs/tags/v1.1.7.tar.gz"
+sha256 = "7ab7319bc32972954e1c71314ce32f4b475d4819df26aac9a829b36aebf54f84"
+
+[build]
+system = "autotools"

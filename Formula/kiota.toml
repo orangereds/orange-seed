@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "kiota"
+version = "1.39.0"
+description = "OpenAPI based HTTP Client code generator"
+homepage = "https://aka.ms/kiota/docs"
+
+[source]
+url = "https://github.com/microsoft/kiota/archive/refs/tags/v1.39.0.tar.gz"
+sha256 = "0008e9ffda62e2b962114c800867b0fb7f082706906956862a3fb48e4464bf2d"
+
+[build]
+system = "autotools"

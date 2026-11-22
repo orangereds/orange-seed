@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mailsy"
+version = "5.0.0"
+description = "Quickly generate a temporary email address"
+homepage = "https://github.com/BalliAsghar/Mailsy"
+
+[source]
+url = "https://registry.npmjs.org/mailsy/-/mailsy-5.0.0.tgz"
+sha256 = "ab89f60c2472f4b20ad7c507cff4653de6bd28411a39bfd9435829a1ad534414"
+
+[build]
+system = "autotools"

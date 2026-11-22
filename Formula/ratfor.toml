@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc"]
+
+[package]
+name = "ratfor"
+version = "1.07.orig"
+description = "Rational Fortran"
+homepage = "http://www.dgate.org/ratfor/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/r/ratfor/ratfor_1.07.orig.tar.gz"
+sha256 = "943b5de328d7b890cb444b17fb7dab656ffaa0d388c7d40b649d34b736b137ff"
+
+[build]
+system = "autotools"

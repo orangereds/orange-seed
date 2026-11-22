@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "uthash"
+version = "2.4.0"
+description = "C macros for hash tables and more"
+homepage = "https://troydhanson.github.io/uthash/"
+
+[source]
+url = "https://github.com/troydhanson/uthash/archive/refs/tags/v2.4.0.tar.gz"
+sha256 = "387ba027946d7c64e9aa19cc53b2edcd714f8f9dca9fa8e3aaef17e0e8e3d736"
+
+[build]
+system = "autotools"

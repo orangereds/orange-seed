@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "exercism"
+version = "3.5.9"
+description = "Command-line tool to interact with exercism.io"
+homepage = "https://exercism.io/cli/"
+
+[source]
+url = "https://github.com/exercism/cli/archive/refs/tags/v3.5.9.tar.gz"
+sha256 = "8595fc3e8b0ff3fcff7cc56a67bee58156665e71eee1ff9eace593568ec8debf"
+
+[build]
+system = "autotools"

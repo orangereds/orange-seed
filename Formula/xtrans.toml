@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xorgproto"]
+
+[package]
+name = "xtrans"
+version = "1.6.0"
+description = "X.Org: X Network Transport layer shared code"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/xtrans-1.6.0.tar.xz"
+sha256 = "faafea166bf2451a173d9d593352940ec6404145c5d1da5c213423ce4d359e92"
+
+[build]
+system = "autotools"

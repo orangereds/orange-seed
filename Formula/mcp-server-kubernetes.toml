@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mcp-server-kubernetes"
+version = "4.2.3"
+description = "MCP Server for kubernetes management commands"
+homepage = "https://github.com/Flux159/mcp-server-kubernetes"
+
+[source]
+url = "https://registry.npmjs.org/mcp-server-kubernetes/-/mcp-server-kubernetes-4.2.3.tgz"
+sha256 = "6c483fd6482ebdb2099ce43be6a5390621988f46fc4899a3ba1edf0c46410c65"
+
+[build]
+system = "autotools"

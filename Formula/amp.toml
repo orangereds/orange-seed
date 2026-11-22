@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust"]
+
+[package]
+name = "amp"
+version = "0.7.1"
+description = "Text editor for your terminal"
+homepage = "https://amp.rs"
+
+[source]
+url = "https://github.com/jmacdonald/amp/archive/refs/tags/0.7.1.tar.gz"
+sha256 = "59a65c2c4592eed188433fe7c4bf2ba84206f217bdafc5a2c7f97623f5607c12"
+
+[build]
+system = "autotools"

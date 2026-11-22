@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rex"
+version = "0_2"
+description = "Command-line tool which executes commands on remote servers"
+homepage = "https://www.rexify.org"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/F/FE/FERKI/Rex-1.16.1.tar.gz"
+sha256 = "b66ff756db8c8479ab99d2c9ec9827bf624b8bca2e96ef9ccf2395e279731662"
+
+[build]
+system = "autotools"

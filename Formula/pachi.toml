@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "wget", "abseil", "boost", "gflags", "glog", "hdf5", "katago", "openblas", "protobuf"]
+
+[package]
+name = "pachi"
+version = "12.90-homebrew_6"
+description = "Software for the Board Game of Go/Weiqi/Baduk"
+homepage = "https://pachi.or.cz/"
+
+[source]
+url = "https://github.com/pasky/pachi/archive/refs/tags/pachi-12.90-homebrew.tar.gz"
+sha256 = "786e111a9e2eaf3801ceeebc6f9ae4c21b15c7807992c4894993973b3a5e19cb"
+
+[build]
+system = "cmake"

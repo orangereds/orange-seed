@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "wordplay"
+version = "7.22"
+description = "Anagram generator"
+homepage = "https://hsvmovies.com/static_subpages/personal_orig/wordplay/"
+
+[source]
+url = "https://hsvmovies.com/static_subpages/personal_orig/wordplay/wordplay722.tar.Z"
+sha256 = "9436a8c801144ab32e38b1e168130ef43e7494f4b4939fcd510c7c5bf7f4eb6d"
+
+[build]
+system = "autotools"

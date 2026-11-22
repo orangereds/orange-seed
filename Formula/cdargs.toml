@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "cdargs"
+version = "2.1"
+description = "Directory bookmarking system - Enhanced cd utilities"
+homepage = "https://github.com/cbxbiker61/cdargs"
+
+[source]
+url = "https://github.com/cbxbiker61/cdargs/archive/refs/tags/2.1.tar.gz"
+sha256 = "062515c3fbd28c68f9fa54ff6a44b81cf647469592444af0872b5ecd7444df7d"
+
+[build]
+system = "autotools"

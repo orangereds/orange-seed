@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "vacuum"
+version = "0.42.3"
+description = "World's fastest OpenAPI & Swagger linter"
+homepage = "https://quobix.com/vacuum/"
+
+[source]
+url = "https://github.com/daveshanley/vacuum/archive/refs/tags/v0.42.3.tar.gz"
+sha256 = "670de61af66b69b55d080676ddac476da21a31b961f96810f1d17470c9429306"
+
+[build]
+system = "autotools"

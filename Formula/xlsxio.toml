@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libzip"]
+
+[package]
+name = "xlsxio"
+version = "0.2.37"
+description = "C library for reading values from and writing values to .xlsx files"
+homepage = "https://github.com/brechtsanders/xlsxio"
+
+[source]
+url = "https://github.com/brechtsanders/xlsxio/archive/refs/tags/0.2.37.tar.gz"
+sha256 = "b9fcb22e124d178f30d404e5a22ccac594353d71d845035795321cd53d6c4cee"
+
+[build]
+system = "make"

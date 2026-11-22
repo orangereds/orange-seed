@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfclean"
+version = "0.0.20"
+description = "Remove applied moved block, import block, etc"
+homepage = "https://github.com/takaishi/tfclean"
+
+[source]
+url = "https://github.com/takaishi/tfclean/archive/refs/tags/v0.0.20.tar.gz"
+sha256 = "b384e1732e1fb77b8552ff65c12123526dbf41854d95518f9574178021fb156e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "roblox-ts"
+version = "3.0.0"
+description = "TypeScript-to-Luau Compiler for Roblox"
+homepage = "https://roblox-ts.com/"
+
+[source]
+url = "https://registry.npmjs.org/roblox-ts/-/roblox-ts-3.0.0.tgz"
+sha256 = "94e7ee8db40d0fab605601312838ca8d6d72242e78a8f01e02467f53c4232757"
+
+[build]
+system = "autotools"

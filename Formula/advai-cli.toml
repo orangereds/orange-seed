@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "advai-cli"
+version = "0_2"
+description = "CLI for managing skills and external CLIs"
+homepage = "https://github.com/Advai-X/advai-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ca/2c/4e7e64f2c6895555a5cf6cc4b7fd030d1b265f77969d1f417cfd84bd802e/advai_cli-1.0.12.tar.gz"
+sha256 = "d3e9921e3a878df3f604a85fc62901b9aebbcfbff36beafe2b50f18ea6a7617c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "func-e"
+version = "1.6.0"
+description = "Easily run Envoy"
+homepage = "https://func-e.io"
+
+[source]
+url = "https://github.com/tetratelabs/func-e/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "98982018669fe59b2216d43cafac3760bbad346cec93b329d8943f56268b6446"
+
+[build]
+system = "autotools"

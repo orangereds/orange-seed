@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libplist", "openssl@4"]
+
+[package]
+name = "ldid-procursus"
+version = "2.1.5-procursus8"
+description = "Put real or fake signatures in a Mach-O binary"
+homepage = "https://github.com/ProcursusTeam/ldid"
+
+[source]
+url = "https://github.com/ProcursusTeam/ldid/archive/refs/tags/v2.1.5-procursus8.tar.gz"
+sha256 = "d8034f4c76c1d042e5e6984c79c5da5a0fb4c08e8d2fb20b3691ffa39d377000"
+
+[build]
+system = "make"

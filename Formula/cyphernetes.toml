@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cyphernetes"
+version = "0.18.2"
+description = "Kubernetes Query Language"
+homepage = "https://cyphernet.es"
+
+[source]
+url = "https://github.com/AvitalTamir/cyphernetes/archive/refs/tags/v0.18.2.tar.gz"
+sha256 = "98c48dbc4263854c74c9216274c8ec1cb327d9accbf0458f86c2231de8c889e9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "openssl@4", "qtbase", "llvm"]
+
+[package]
+name = "qxmpp"
+version = "13"
+description = "Cross-platform C++ XMPP client and server library"
+homepage = "https://invent.kde.org/libraries/qxmpp"
+
+[source]
+url = "https://invent.kde.org/libraries/qxmpp/-/archive/v1.17.2/qxmpp-v1.17.2.tar.bz2"
+sha256 = "810aefa4f6c5f64ab5f2e169d89d2a84b2c7c4cd52fe353b4afa366a23abe0bc"
+
+[build]
+system = "cmake"

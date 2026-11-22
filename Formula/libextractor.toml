@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libtool"]
+
+[package]
+name = "libextractor"
+version = "1.20"
+description = "Library to extract meta data from files"
+homepage = "https://www.gnu.org/software/libextractor/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libextractor/libextractor-1.20.tar.gz"
+sha256 = "f4fd6c67076e04e907a3032e42bbaa7c0b35aa3a503393c5d74e303ec3eb84b4"
+
+[build]
+system = "autotools"

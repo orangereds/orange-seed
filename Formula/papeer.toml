@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "papeer"
+version = "0.9.1"
+description = "Convert websites into eBooks and Markdown"
+homepage = "https://papeer.tech"
+
+[source]
+url = "https://github.com/lapwat/papeer/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "102c77d982228794028d83b637a2491de10fb34314a2a9f07a363a45fd73eaea"
+
+[build]
+system = "autotools"

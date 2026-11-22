@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "drydock"
+version = "1.4.1"
+description = "Dashboard for a fleet of Git repositories"
+homepage = "https://github.com/yetidevworks/drydock"
+
+[source]
+url = "https://github.com/yetidevworks/drydock/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "36aac94ee78b552de65c1574d52f63271ad97c75ef9ba7fecff4db5d5481e90f"
+
+[build]
+system = "autotools"

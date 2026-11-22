@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kube-bench"
+version = "0.16.0"
+description = "Checks Kubernetes deployment against security best practices (CIS Benchmark)"
+homepage = "https://github.com/aquasecurity/kube-bench"
+
+[source]
+url = "https://github.com/aquasecurity/kube-bench/archive/refs/tags/v0.16.0.tar.gz"
+sha256 = "41fb9a5db1030439270a6a969da49cccb5149bd760fa478c0ca8757d0ef7bcce"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["groff"]
+
+[package]
+name = "jove"
+version = "4.17.5.5"
+description = "Emacs-style editor with vi-like memory, CPU, and size requirements"
+homepage = "https://directory.fsf.org/wiki/Jove"
+
+[source]
+url = "https://github.com/jonmacs/jove/archive/refs/tags/4.17.5.5.tar.gz"
+sha256 = "4261d7cab02816eb03f3f356a0a2869d7f6168fce53478ede8e5fdd06a9ecfb9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "splitrail"
+version = "3.13.1"
+description = "Real-time token usage tracker and cost monitor for CLI coding agents"
+homepage = "https://splitrail.dev/"
+
+[source]
+url = "https://github.com/Piebald-AI/splitrail/archive/refs/tags/v3.13.1.tar.gz"
+sha256 = "53c1b7afa44f74490afbfd2b9493ad229889b710efeb7229d245d229f544c9fe"
+
+[build]
+system = "autotools"

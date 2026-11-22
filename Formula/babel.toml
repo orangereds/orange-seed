@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "babel"
+version = "0"
+description = "Compiler for writing next generation JavaScript"
+homepage = "https://babeljs.io/"
+
+[source]
+url = "https://registry.npmjs.org/@babel/cli/-/cli-8.1.0.tgz"
+sha256 = "b7a1c775b4427d5023009da693c3176650dc42b52e6c6d9207befbe489845c6a"
+
+[build]
+system = "autotools"

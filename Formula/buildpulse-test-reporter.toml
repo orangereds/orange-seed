@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "buildpulse-test-reporter"
+version = "0.29.0"
+description = "Connect your CI to BuildPulse to detect, track, and rank flaky tests"
+homepage = "https://buildpulse.io"
+
+[source]
+url = "https://github.com/buildpulse/test-reporter/archive/refs/tags/v0.29.0.tar.gz"
+sha256 = "605e87f4d566f14455f6c1e609eabd3fc2337a09d695fafc489011ce48b02035"
+
+[build]
+system = "autotools"

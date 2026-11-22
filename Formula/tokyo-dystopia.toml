@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tokyo-cabinet"]
+
+[package]
+name = "tokyo-dystopia"
+version = "0"
+description = "Lightweight full-text search system"
+homepage = "https://dbmx.net/tokyodystopia/"
+
+[source]
+url = "https://dbmx.net/tokyodystopia/tokyodystopia-0.9.15.tar.gz"
+sha256 = "28b43c592a127d1c9168eac98f680aa49d1137b4c14b8d078389bbad1a81830a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "certifi", "cffi", "libyaml", "node", "pandoc", "python@3.15", "rpds-py", "zeromq"]
+
+[package]
+name = "jupyterlab"
+version = "4.6.6_1"
+description = "Interactive environments for writing and running code"
+homepage = "https://jupyter.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/51/43/490a500e421a46900c8afb0c912c1bf3c9977c85831a3815e2c2139309a9/jupyterlab-4.6.6.tar.gz"
+sha256 = "5f6fbb409158167aeefb5781d6f0b228e24b493cb6e6f1320fb5bc8897acc223"
+
+[service]
+run = "opt/jupyterlab/bin/jupyter-lab"
+keep_alive = true
+log_path = "var/log/jupyterlab.log"
+error_log_path = "var/log/jupyterlab.log"
+
+[build]
+system = "autotools"

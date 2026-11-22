@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gnutls", "libidn2", "gettext"]
+
+[package]
+name = "msmtp"
+version = "1.8.34"
+description = "SMTP client that can be used as an SMTP plugin for Mutt"
+homepage = "https://marlam.de/msmtp/"
+
+[source]
+url = "https://marlam.de/msmtp/releases/msmtp-1.8.34.tar.xz"
+sha256 = "84e8fe2a5a80a1ee7802013b3fbdb846a3f27a4163cf37a1c6d7c7f888873ead"
+
+[build]
+system = "autotools"

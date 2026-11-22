@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libuv", "openssl@4"]
+
+[package]
+name = "qpid-proton"
+version = "0"
+description = "High-performance, lightweight AMQP 1.0 messaging library"
+homepage = "https://qpid.apache.org/proton/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=qpid/proton/0.41.1/qpid-proton-0.41.1.tar.gz"
+sha256 = "03d9ba7f88c62524c125de8b1aff997313dcddb35e98c5a7927c0844842f9121"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gnutls", "libassuan", "libgcrypt", "libgpg-error", "libksba", "libusb", "npth", "pinentry", "readline", "gettext"]
+
+[package]
+name = "gnupg"
+version = "2.5.24_1"
+description = "GNU Privacy Guard (OpenPGP)"
+homepage = "https://gnupg.org/"
+
+[source]
+url = "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.5.24.tar.bz2"
+sha256 = "bf149d01a2b9fcc0e4589b8ae8697d3d5c557ea48ed95a3fa55dd3b1187e6039"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl3", "autoconf", "autoconf-archive", "automake", "libtool", "pkgconf", "libogg", "libvorbis"]
+
+[package]
+name = "exult"
+version = "1.12.1"
+description = "Recreation of Ultima 7"
+homepage = "https://exult.sourceforge.io/"
+
+[source]
+url = "https://github.com/exult/exult/archive/refs/tags/v1.12.1.tar.gz"
+sha256 = "5e5113e31dd8010b8dfd00b6b08f76681dc1e88254d357c92f15c202f7ed7e1f"
+
+[build]
+system = "autotools"

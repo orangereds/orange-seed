@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "pkgconf", "glib", "libxau", "gettext"]
+
+[package]
+name = "libgtop"
+version = "2.40.0_1"
+description = "Library for portably obtaining information about processes"
+homepage = "https://gitlab.gnome.org/GNOME/libgtop"
+
+[source]
+url = "https://download.gnome.org/sources/libgtop/2.40/libgtop-2.40.0.tar.xz"
+sha256 = "78f3274c0c79c434c03655c1b35edf7b95ec0421430897fb1345a98a265ed2d4"
+
+[build]
+system = "autotools"

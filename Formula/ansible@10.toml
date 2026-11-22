@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "libsodium", "libssh", "libyaml", "openssl@3", "python@3.12"]
+
+[package]
+name = "ansible@10"
+version = "0_6"
+description = "Automate deployment, configuration, and upgrading"
+homepage = "https://www.ansible.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d4/64/29fdff6fe7682342adb54802c1cd90b2272d382e1743089af88f90a1d986/ansible-10.7.0.tar.gz"
+sha256 = "59d29e3de1080e740dfa974517d455217601b16d16880314d9be26145c68dc22"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

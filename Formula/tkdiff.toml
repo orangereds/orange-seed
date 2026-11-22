@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tcl-tk"]
+
+[package]
+name = "tkdiff"
+version = "6.0"
+description = "Graphical side by side diff utility"
+homepage = "https://tkdiff.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tkdiff/tkdiff/6.0/tkdiff-6-0.zip"
+sha256 = "4fa27c87846c1d6635da5beaa90ce4561638ee25a9169e455175afcf5288e453"
+
+[build]
+system = "autotools"

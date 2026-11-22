@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "flex", "swig", "c-ares", "libmaxminddb", "libuv", "node", "openssl@4", "python@3.15", "zeromq"]
+
+[package]
+name = "zeek"
+version = "9.0.1"
+description = "Network security monitor"
+homepage = "https://zeek.org/"
+
+[source]
+url = "https://github.com/zeek/zeek/releases/download/v9.0.1/zeek-9.0.1.tar.gz"
+sha256 = "fbee2eb5ee6ebd64ef0db830fbb9fa1d702d58807643c719e8338a59329197f2"
+
+[build]
+system = "cmake"

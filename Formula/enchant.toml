@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "aspell", "glib", "gettext", "groff"]
+
+[package]
+name = "enchant"
+version = "2.8.21"
+description = "Spellchecker wrapping library"
+homepage = "https://rrthomas.github.io/enchant/"
+
+[source]
+url = "https://github.com/rrthomas/enchant/releases/download/v2.8.21/enchant-2.8.21.tar.gz"
+sha256 = "dd2a762697c463148a8f59867089a5ebf2dd1449d869f93764b76c12bcf8acc0"
+
+[build]
+system = "autotools"

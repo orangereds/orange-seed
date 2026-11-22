@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "arf"
+version = "0.7.2"
+description = "Modern R console with syntax highlighting and fuzzy search"
+homepage = "https://github.com/eitsupi/arf"
+
+[source]
+url = "https://github.com/eitsupi/arf/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "7a145e05c6bec72c47f07718945b8f8b47b247f034c118a81fa0033de4160c0e"
+
+[build]
+system = "autotools"

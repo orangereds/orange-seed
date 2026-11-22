@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "json-c", "libnet", "libpcap", "openssl@3"]
+
+[package]
+name = "ssldump"
+version = "1.9"
+description = "SSLv3/TLS network protocol analyzer"
+homepage = "https://adulau.github.io/ssldump/"
+
+[source]
+url = "https://github.com/adulau/ssldump/archive/refs/tags/v1.9.tar.gz"
+sha256 = "c81ce58d79b6e6edb8d89822a85471ef51cfa7d63ad812df6f470b5d14ff6e48"
+
+[build]
+system = "cmake"

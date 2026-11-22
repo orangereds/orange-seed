@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bitrise"
+version = "3.4.1"
+description = "Command-line automation tool"
+homepage = "https://github.com/bitrise-io/bitrise"
+
+[source]
+url = "https://github.com/bitrise-io/bitrise/archive/refs/tags/v3.4.1.tar.gz"
+sha256 = "a9f7b2cc10857167c875124b301681b5fce02bacf52d02691943f9aba4025a57"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "markdown-toc"
+version = "1.2.0"
+description = "Generate a markdown TOC (table of contents) with Remarkable"
+homepage = "https://github.com/jonschlinkert/markdown-toc"
+
+[source]
+url = "https://registry.npmjs.org/markdown-toc/-/markdown-toc-1.2.0.tgz"
+sha256 = "4a5bf3efafb21217889ab240caacd795a1101bfbe07cd8abb228cc44937acd9c"
+
+[build]
+system = "autotools"

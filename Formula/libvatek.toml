@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libusb"]
+
+[package]
+name = "libvatek"
+version = "3.12.1"
+description = "User library to control VATek chips"
+homepage = "https://github.com/VisionAdvanceTechnologyInc/vatek_sdk_2"
+
+[source]
+url = "https://github.com/VisionAdvanceTechnologyInc/vatek_sdk_2/archive/refs/tags/v3.12.1.tar.gz"
+sha256 = "293a9d8f271fe960c987b0c620bbc1daacaf1fba00374c3431cab990456ba516"
+
+[build]
+system = "cmake"

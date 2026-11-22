@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "npm-check-updates"
+version = "23.1.1"
+description = "Find newer versions of dependencies than what your package.json allows"
+homepage = "https://github.com/raineorshine/npm-check-updates"
+
+[source]
+url = "https://registry.npmjs.org/npm-check-updates/-/npm-check-updates-23.1.1.tgz"
+sha256 = "725dd4f00b14a5d58913c665a263b432d88decffb92ab49654c2ca1499fab9f5"
+
+[build]
+system = "autotools"

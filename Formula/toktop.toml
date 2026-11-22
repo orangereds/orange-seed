@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "toktop"
+version = "0.1.5"
+description = "LLM usage monitor in terminal"
+homepage = "https://github.com/htin1/toktop"
+
+[source]
+url = "https://github.com/htin1/toktop/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "9e01566757971e7cf42dd881ea9e8a8a53bbda4dade210a3c80df71638418ee4"
+
+[build]
+system = "autotools"

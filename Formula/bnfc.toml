@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "sphinx-doc", "agda", "antlr", "bison", "flex", "openjdk", "gmp"]
+
+[package]
+name = "bnfc"
+version = "2.9.6.3"
+description = "BNF Converter"
+homepage = "https://github.com/BNFC/bnfc"
+
+[source]
+url = "https://github.com/BNFC/bnfc/archive/refs/tags/v2.9.6.3.tar.gz"
+sha256 = "f8d7356adcf8f068e6ae253402623cec0f19f1554c341f7346687a9654f5e109"
+
+[build]
+system = "autotools"

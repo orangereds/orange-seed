@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "pkgconf", "gnupg", "gmp", "nettle"]
+
+[package]
+name = "hopenpgp-tools"
+version = "0.26.2"
+description = "Command-line tools for OpenPGP-related operations"
+homepage = "https://hackage.haskell.org/package/hopenpgp-tools"
+
+[source]
+url = "https://hackage.haskell.org/package/hopenpgp-tools-0.26.2/hopenpgp-tools-0.26.2.tar.gz"
+sha256 = "bfac5a7d83d2560fba058c59e5b993bc3db7b31c11ccc13543f7ac510fde30b1"
+
+[build]
+system = "autotools"

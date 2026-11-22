@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "sdl2-compat", "sdl2_net"]
+
+[package]
+name = "open-tyrian"
+version = "2.1.20260913"
+description = "Open-source port of Tyrian"
+homepage = "https://github.com/opentyrian/opentyrian"
+
+[source]
+url = "https://github.com/opentyrian/opentyrian/archive/refs/tags/v2.1.20260913.tar.gz"
+sha256 = "dbcd96383d4fa571137242c36bd7eca054cf5a08a9bf2eec15ef230d6e60680d"
+
+[build]
+system = "autotools"

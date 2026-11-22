@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "offlineimap"
+version = "8.0.3"
+description = "Synchronizes emails between two repositories"
+homepage = "https://github.com/OfflineIMAP/offlineimap3"
+
+[source]
+url = "https://github.com/OfflineIMAP/offlineimap3/archive/refs/tags/v8.0.3.tar.gz"
+sha256 = "967a8ca24e5f665cd22941ba1173db10cbd908085ec22ab9b0e4a64c94007d85"
+
+[service]
+run = "opt/offlineimap/bin/offlineimap -q -u basic"
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

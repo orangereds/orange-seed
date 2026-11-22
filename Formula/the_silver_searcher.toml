@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "pcre2", "xz"]
+
+[package]
+name = "the_silver_searcher"
+version = "2.2.0"
+description = "Code-search similar to ack"
+homepage = "https://geoff.greer.fm/ag/"
+
+[source]
+url = "https://github.com/ggreer/the_silver_searcher/archive/refs/tags/2.2.0.tar.gz"
+sha256 = "6a0a19ca5e73b2bef9481c29a508d2413ca1a0a9a5a6b1bd9bbd695a7626cbf9"
+
+[build]
+system = "autotools"

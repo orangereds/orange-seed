@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "clinfo"
+version = "3.1.26.09.26"
+description = "Print information about OpenCL platforms and devices"
+homepage = "https://github.com/Oblomov/clinfo"
+
+[source]
+url = "https://github.com/Oblomov/clinfo/archive/refs/tags/3.1.26.09.26.tar.gz"
+sha256 = "e944132329c6613b686ba0fcd373b15ebb553c367a01a734af8519ddb095c01f"
+
+[build]
+system = "make"

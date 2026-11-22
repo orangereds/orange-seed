@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "pandoc", "pkgconf", "gmp"]
+
+[package]
+name = "patat"
+version = "0.15.2.0"
+description = "Terminal-based presentations using Pandoc"
+homepage = "https://github.com/jaspervdj/patat"
+
+[source]
+url = "https://hackage.haskell.org/package/patat-0.15.2.0/patat-0.15.2.0.tar.gz"
+sha256 = "d1f182ecdf145b8db1aacee1c4d46731d197b192e6ef855c3505067c1cea2b65"
+
+[build]
+system = "autotools"

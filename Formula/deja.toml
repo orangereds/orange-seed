@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "deja"
+version = "0.4.2"
+description = "Predictive ghost-text autosuggestions for zsh"
+homepage = "https://github.com/Giammarco-Ferranti/deja"
+
+[source]
+url = "https://github.com/Giammarco-Ferranti/deja/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "c122b5556558f87e754398ea1f1b8d0f5276d2249939db487b1b780f616ec1c8"
+
+[build]
+system = "autotools"

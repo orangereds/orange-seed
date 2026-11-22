@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pkgconf", "ffmpeg", "taglib"]
+
+[package]
+name = "navidrome"
+version = "0.64.2"
+description = "Modern Music Server and Streamer compatible with Subsonic/Airsonic"
+homepage = "https://www.navidrome.org"
+
+[source]
+url = "https://github.com/navidrome/navidrome/archive/refs/tags/v0.64.2.tar.gz"
+sha256 = "6d6de86c7509620dd445be9c22f2441225c9d86f009317c9b92923ad3a83ddb5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "uncrustify"
+version = "0.83.0"
+description = "Source code beautifier"
+homepage = "https://uncrustify.sourceforge.net/"
+
+[source]
+url = "https://github.com/uncrustify/uncrustify/archive/refs/tags/uncrustify-0.83.0.tar.gz"
+sha256 = "1d4d3ab3a991c66eb24cb0a3e690573b4882fd98bc6ec64a01c283998c20dc87"
+
+[build]
+system = "cmake"

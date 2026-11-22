@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libpng", "libx11", "libxcursor"]
+
+[package]
+name = "xcursorgen"
+version = "0"
+description = "Create an X cursor file from a collection of PNG images"
+homepage = "https://gitlab.freedesktop.org/xorg/app/xcursorgen"
+
+[source]
+url = "https://gitlab.freedesktop.org/xorg/app/xcursorgen/-/archive/xcursorgen-1.0.9/xcursorgen-xcursorgen-1.0.9.tar.bz2"
+sha256 = "a350f67323786aceef063e471d1661ae7e6d6ecb44e9143cf409070ad9ed053b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tree-sitter@0.25"
+version = "0.25.10"
+description = "Incremental parsing library"
+homepage = "https://tree-sitter.github.io/"
+
+[source]
+url = "https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.25.10.tar.gz"
+sha256 = "ad5040537537012b16ef6e1210a572b927c7cdc2b99d1ee88d44a7dcdc3ff44c"
+
+[install]
+keg_only = true
+
+[build]
+system = "make"

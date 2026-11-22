@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glibmm@2.66"]
+
+[package]
+name = "libxml++"
+version = "2.42.4"
+description = "C++ wrapper for libxml"
+homepage = "https://libxmlplusplus.sourceforge.net/"
+
+[source]
+url = "https://github.com/libxmlplusplus/libxmlplusplus/releases/download/2.42.4/libxml++-2.42.4.tar.xz"
+sha256 = "82c7bb4f20a227bba174158be475c1017f650b276f9268923c6601b5a545838f"
+
+[build]
+system = "autotools"

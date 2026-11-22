@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "libidn2", "libmaxminddb"]
+
+[package]
+name = "subnetcalc"
+version = "2.7.6"
+description = "IPv4/IPv6 subnet calculator"
+homepage = "https://www.nntb.no/~dreibh/subnetcalc/index.html"
+
+[source]
+url = "https://github.com/dreibh/subnetcalc/archive/refs/tags/subnetcalc-2.7.6.tar.gz"
+sha256 = "a0b3adb6b32b0b571d64dcf164278686de7bd1cb52b38aa1849c7e6121109210"
+
+[build]
+system = "cmake"

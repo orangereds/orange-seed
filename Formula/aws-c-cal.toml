@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-common", "openssl@4"]
+
+[package]
+name = "aws-c-cal"
+version = "1.0.0_1"
+description = "AWS Crypto Abstraction Layer"
+homepage = "https://github.com/awslabs/aws-c-cal"
+
+[source]
+url = "https://github.com/awslabs/aws-c-cal/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "9c6d424d206dd7822aa44fa39ce31575dcbaa83133620abdac8e56e4cea9667c"
+
+[build]
+system = "cmake"

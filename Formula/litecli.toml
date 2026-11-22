@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "litecli"
+version = "1.17.1_4"
+description = "CLI for SQLite Databases with auto-completion and syntax highlighting"
+homepage = "https://litecli.com"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e3/d5/afec99cc3eaba96214d77e76438d7fe5e6ea54704b0e47dd97d9696ccd6c/litecli-1.17.1.tar.gz"
+sha256 = "e2f7191eaba830b24dbbfc9171a495c62562df923ba1cc3b2db2652547c1bac8"
+
+[build]
+system = "autotools"

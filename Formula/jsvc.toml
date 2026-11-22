@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openjdk"]
+
+[package]
+name = "jsvc"
+version = "0"
+description = "Wrapper to launch Java applications as daemons"
+homepage = "https://commons.apache.org/daemon/jsvc.html"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=commons/daemon/source/commons-daemon-1.6.1-src.tar.gz"
+sha256 = "15ea9386b760ba74f2926fbc0a6853c1088a4c0dd5c46d0d1866f9ff091a6364"
+
+[build]
+system = "autotools"

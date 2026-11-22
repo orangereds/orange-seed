@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jpeg-turbo", "libpng"]
+
+[package]
+name = "htmldoc"
+version = "1.9.25-source"
+description = "Convert HTML to PDF or PostScript"
+homepage = "https://www.msweet.org/htmldoc/"
+
+[source]
+url = "https://github.com/michaelrsweet/htmldoc/releases/download/v1.9.25/htmldoc-1.9.25-source.zip"
+sha256 = "ffcc8b015eb2b84ee7c99a4c35504b695b6c4994ad0395d00ee458ebf259f338"
+
+[build]
+system = "autotools"

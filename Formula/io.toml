@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "io"
+version = "2017.09.06_1"
+description = "Small prototype-based programming language"
+homepage = "http://iolanguage.com/"
+
+[source]
+url = "https://github.com/IoLanguage/io/archive/refs/tags/2017.09.06.tar.gz"
+sha256 = "9ac5cd94bbca65c989cd254be58a3a716f4e4f16480f0dc81070457aa353c217"
+
+[build]
+system = "autotools"

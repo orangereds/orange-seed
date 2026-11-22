@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "openjdk@25"]
+
+[package]
+name = "trino"
+version = "0"
+description = "Distributed SQL query engine for big data"
+homepage = "https://trino.io"
+
+[source]
+url = "https://github.com/trinodb/trino/releases/download/484/trino-server-484.tar.gz"
+sha256 = "4b2d05f2e52fcc156b2f137cabc886353e5dde782d12bf71e290ffc13463b81a"
+
+[service]
+run = "opt/trino/bin/trino-server run"
+working_dir = "opt_libexec"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3"]
+
+[package]
+name = "ntp"
+version = "4.2.8p18"
+description = "Network Time Protocol (NTP) Distribution"
+homepage = "https://www.ntp.org"
+
+[source]
+url = "https://downloads.nwtime.org/ntp/4.2.8/ntp-4.2.8p18.tar.gz"
+sha256 = "cf84c5f3fb1a295284942624d823fffa634144e096cfc4f9969ac98ef5f468e5"
+
+[build]
+system = "autotools"

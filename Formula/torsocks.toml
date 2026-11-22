@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "torsocks"
+version = "2.5.0"
+description = "Use SOCKS-friendly applications with Tor"
+homepage = "https://gitlab.torproject.org/tpo/core/torsocks"
+
+[source]
+url = "https://gitlab.torproject.org/tpo/core/torsocks/-/archive/v2.5.0/torsocks-v2.5.0.tar.bz2"
+sha256 = "31a917328b221e955230b7663abfbc50d3a9b445a68cb0313c11cf884f8cb41f"
+
+[build]
+system = "autotools"

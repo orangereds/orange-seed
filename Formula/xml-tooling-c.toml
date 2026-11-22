@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "boost", "curl", "log4shib", "openssl@4", "xerces-c", "xml-security-c"]
+
+[package]
+name = "xml-tooling-c"
+version = "0_4"
+description = "Provides a higher level interface to XML processing"
+homepage = "https://wiki.shibboleth.net/confluence/display/OpenSAML/XMLTooling-C"
+
+[source]
+url = "https://shibboleth.net/downloads/c++-opensaml/3.3.0/xmltooling-3.3.0.tar.bz2"
+sha256 = "0a2c421be976f3a44b876d6b06ba1f6a2ffbc404f4622f8a65a66c3ba77cb047"
+
+[build]
+system = "autotools"

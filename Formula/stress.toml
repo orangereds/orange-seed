@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "stress"
+version = "1.0.7"
+description = "Tool to impose load on and stress test a computer system"
+homepage = "https://github.com/resurrecting-open-source-projects/stress"
+
+[source]
+url = "https://github.com/resurrecting-open-source-projects/stress/releases/download/1.0.7/stress-1.0.7.tar.gz"
+sha256 = "80d966622c4e8d0981f64f56c06a191ef7c9a32c2660b3b957ef7f014dfd78cd"
+
+[build]
+system = "autotools"

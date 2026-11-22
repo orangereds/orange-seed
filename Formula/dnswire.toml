@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libuv", "protobuf-c", "tinyframe"]
+
+[package]
+name = "dnswire"
+version = "0.5.1"
+description = "Library for encoding/decoding different DNS encapsulations"
+homepage = "https://codeberg.org/DNS-OARC/dnswire"
+
+[source]
+url = "https://www.dns-oarc.net/files/dnswire/dnswire-0.5.1.tar.gz"
+sha256 = "b0b52b95e20eda768256794097080b5f5725d9fe841ef03568c51987b02673b4"
+
+[build]
+system = "autotools"

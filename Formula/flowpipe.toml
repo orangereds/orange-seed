@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["corepack", "go", "node"]
+
+[package]
+name = "flowpipe"
+version = "1.2.4"
+description = "Cloud scripting engine"
+homepage = "https://flowpipe.io"
+
+[source]
+url = "https://github.com/turbot/flowpipe/archive/refs/tags/v1.2.4.tar.gz"
+sha256 = "7a73d678bcf32c3694ce01916f9154c07f189705338d9194b5e47a2858fa52df"
+
+[build]
+system = "autotools"

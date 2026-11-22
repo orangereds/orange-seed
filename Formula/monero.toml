@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libusb", "protobuf", "cmake", "pkgconf", "boost", "hidapi", "libsodium", "openssl@4", "readline", "unbound", "zeromq"]
+
+[package]
+name = "monero"
+version = "0"
+description = "Official Monero wallet and CPU miner"
+homepage = "https://www.getmonero.org/downloads/#cli"
+
+[source]
+url = "https://downloads.getmonero.org/cli/monero-source-v0.18.5.4.tar.bz2"
+sha256 = "3c5aabb6e8abcabb58169cf4ad60b11be23cd7384c051a40ed2b23490d842bab"
+
+[service]
+run = "opt/monero/bin/monerod --non-interactive"
+
+[build]
+system = "cmake"

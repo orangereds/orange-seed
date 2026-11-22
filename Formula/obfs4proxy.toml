@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "obfs4proxy"
+version = "0"
+description = "Pluggable transport proxy for Tor, implementing obfs4"
+homepage = "https://gitlab.com/yawning/obfs4"
+
+[source]
+url = "https://gitlab.com/yawning/obfs4/-/archive/obfs4proxy-0.0.14/obfs4-obfs4proxy-0.0.14.tar.gz"
+sha256 = "a4b7520e732b0f168832f6f2fdf1be57f3e2cce0612e743d3f6b51341a740903"
+
+[build]
+system = "autotools"

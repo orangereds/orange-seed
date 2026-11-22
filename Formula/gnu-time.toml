@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gnu-time"
+version = "0"
+description = "GNU implementation of time utility"
+homepage = "https://www.gnu.org/software/time/"
+
+[source]
+url = "https://ftpmirror.gnu.org/time/time-1.10.tar.gz"
+sha256 = "e8c29fb4ab599d8478e41e8618f50db8aede9c90af27d0d2ef28ae50d5de09c3"
+
+[build]
+system = "autotools"

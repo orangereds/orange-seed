@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ffmpeg", "freetype", "jpeg-turbo", "libnghttp2", "libpng", "libvorbis", "libx11", "libxext", "openjpeg", "openssl@4", "sdl2-compat", "theora", "xz", "libogg"]
+
+[package]
+name = "gpac"
+version = "26.07.0_2"
+description = "Multimedia framework for research and academic purposes"
+homepage = "https://gpac.io/"
+
+[source]
+url = "https://github.com/gpac/gpac/archive/refs/tags/v26.07.0.tar.gz"
+sha256 = "57822c1a74dcb83d76ff1f671e1b4fae2e7614e8194a5adb9f20661e0e9421dd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "postgresql@19", "libpg_query"]
+
+[package]
+name = "pgroll"
+version = "0.16.3"
+description = "Postgres zero-downtime migrations made easy"
+homepage = "https://pgroll.com"
+
+[source]
+url = "https://github.com/xataio/pgroll/archive/refs/tags/v0.16.3.tar.gz"
+sha256 = "28531c0021773e82867c7d0df8859d4fc2eadfc444c6e451f39c58265c9c2a69"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "imath", "libdeflate", "openjph", "zstd"]
+
+[package]
+name = "openexr"
+version = "3.5.4"
+description = "High dynamic-range image file format"
+homepage = "https://www.openexr.com/"
+
+[source]
+url = "https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v3.5.4.tar.gz"
+sha256 = "cedafe3171176d20baea4e887ceacc74cbe3a5a06fbb30d9f0a394a4416e5f7b"
+
+[build]
+system = "cmake"

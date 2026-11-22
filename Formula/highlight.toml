@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf", "lua"]
+
+[package]
+name = "highlight"
+version = "4.22"
+description = "Convert source code to formatted text with syntax highlighting"
+homepage = "http://andre-simon.de/doku/highlight/en/highlight.php"
+
+[source]
+url = "https://gitlab.com/saalen/highlight/-/archive/v4.22/highlight-v4.22.tar.gz"
+sha256 = "a44b3a8a02ff58d8e3a42aaa2a477d094094a7d962f2e5cd7ac115d3d7d0c779"
+
+[build]
+system = "make"

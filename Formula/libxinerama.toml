@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "xorgproto"]
+
+[package]
+name = "libxinerama"
+version = "0"
+description = "X.Org: API for Xinerama extension to X11 Protocol"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXinerama-1.1.6.tar.xz"
+sha256 = "d00fc1599c303dc5cbc122b8068bdc7405d6fcb19060f4597fc51bd3a8be51d7"
+
+[build]
+system = "autotools"

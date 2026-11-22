@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "ansible-creator"
+version = "0"
+description = "CLI tool for scaffolding Ansible Content"
+homepage = "https://ansible.readthedocs.io/projects/creator/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b6/d2/3aacc0516acf2b93e967fb11453604cd0b2ad3d657b8e1e8e67fd5b32ea1/ansible_creator-26.11.0.tar.gz"
+sha256 = "6d676f78ee4e1adbfd097f753552d5fe84e140ac71d009c88dc9549e28dba6dc"
+
+[build]
+system = "autotools"

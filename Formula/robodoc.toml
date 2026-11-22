@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "robodoc"
+version = "4.99.44"
+description = "Source code documentation tool"
+homepage = "https://github.com/gumpu/ROBODoc"
+
+[source]
+url = "https://web.archive.org/web/20260506043604/https://rfsber.home.xs4all.nl/Robo/archives/robodoc-4.99.44.tar.bz2"
+sha256 = "3721c3be9668a1503454618ed807ae0fba5068b15bc0ea63846787d7e9e78c0f"
+
+[build]
+system = "autotools"

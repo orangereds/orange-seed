@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "seaweedfs"
+version = "0"
+description = "Fast distributed storage system"
+homepage = "https://seaweedfs.com"
+
+[source]
+url = "https://github.com/seaweedfs/seaweedfs.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/seaweedfs/bin/weed server -dir=#{var}/seaweedfs -s3"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/seaweedfs.log"
+error_log_path = "var/log/seaweedfs.log"
+
+[build]
+system = "autotools"

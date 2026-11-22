@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "etcd"]
+
+[package]
+name = "vitess"
+version = "24.0.5"
+description = "Database clustering system for horizontal scaling of MySQL"
+homepage = "https://vitess.io"
+
+[source]
+url = "https://github.com/vitessio/vitess/archive/refs/tags/v24.0.5.tar.gz"
+sha256 = "1979489971e3422437ead3906e9c25af553f5c211d5e53b2a34ae89299b9612d"
+
+[build]
+system = "autotools"

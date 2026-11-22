@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qt5compat", "qtbase"]
+
+[package]
+name = "quazip"
+version = "1.7.2"
+description = "C++ wrapper over Gilles Vollant's ZIP/UNZIP package"
+homepage = "https://github.com/stachenov/quazip/"
+
+[source]
+url = "https://github.com/stachenov/quazip/archive/refs/tags/v1.7.2.tar.gz"
+sha256 = "5240f4a3475648773ba10af8b0ebe549cbfc5d6de00470a517330a80068a4f78"
+
+[build]
+system = "cmake"

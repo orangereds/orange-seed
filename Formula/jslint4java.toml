@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "jslint4java"
+version = "2.0.5-dist"
+description = "Java wrapper for JavaScript Lint (jsl)"
+homepage = "https://code.google.com/archive/p/jslint4java/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/jslint4java/jslint4java-2.0.5-dist.zip"
+sha256 = "078240b17256a0472f9981d68f11556238658ebaa67be49ea49958adafc96a81"
+
+[build]
+system = "autotools"

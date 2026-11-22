@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "sblim-sfcc"
+version = "2.2.8_1"
+description = "Project to enhance the manageability of GNU/Linux system"
+homepage = "https://sourceforge.net/projects/sblim/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sblim/sblim-sfcc/sblim-sfcc-2.2.8.tar.bz2"
+sha256 = "1b8f187583bc6c6b0a63aae0165ca37892a2a3bd4bb0682cd76b56268b42c3d6"
+
+[build]
+system = "autotools"

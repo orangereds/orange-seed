@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libev"]
+
+[package]
+name = "weighttp"
+version = "0.5"
+description = "Webserver benchmarking tool that supports multithreading"
+homepage = "https://redmine.lighttpd.net/projects/weighttp/wiki"
+
+[source]
+url = "https://github.com/lighttpd/weighttp/archive/refs/tags/weighttp-0.5.tar.gz"
+sha256 = "5900600cc108041d0e38abd02354d7d3b14649c827c4266c0d550b87904f1141"
+
+[build]
+system = "autotools"

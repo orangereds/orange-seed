@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["odin"]
+
+[package]
+name = "odinfmt"
+version = "0"
+description = "Formatter for The Odin Programming Language"
+homepage = "https://github.com/DanielGavin/ols"
+
+[source]
+url = "https://github.com/DanielGavin/ols/archive/refs/tags/dev-2026-11.tar.gz"
+sha256 = "9cbcb116d666075c51cf7c005faf7392a398c75e8adbea476d6a01f779793565"
+
+[build]
+system = "autotools"

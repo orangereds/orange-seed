@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust"]
+
+[package]
+name = "angular-cli"
+version = "0"
+description = "CLI tool for Angular"
+homepage = "https://angular.dev/cli/"
+
+[source]
+url = "https://registry.npmjs.org/@angular/cli/-/cli-22.3.0.tgz"
+sha256 = "cb7eb35f2aa5242e5e161c5a906eaf2f72dd78423d3dcff1b564ef8a23646336"
+
+[build]
+system = "autotools"

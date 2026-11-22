@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "elixir", "erlang", "gd", "libyaml", "openssl@4", "coreutils"]
+
+[package]
+name = "ejabberd"
+version = "26.09"
+description = "XMPP application server"
+homepage = "https://www.ejabberd.im"
+
+[source]
+url = "https://github.com/processone/ejabberd/archive/refs/tags/26.09.tar.gz"
+sha256 = "2853a0ccafc0343ba47a3a848267fd9971c521d594a29c4caa8114bc511f10ab"
+
+[service]
+run = "ejabberdctl foreground"
+working_dir = "var/lib/ejabberd"
+
+[service.env]
+HOME = "lib/ejabberd"
+
+[build]
+system = "autotools"

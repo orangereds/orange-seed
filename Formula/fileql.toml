@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fileql"
+version = "0.10.0"
+description = "Run SQL-like query on local files instead of database files using the GitQL SDK"
+homepage = "https://github.com/AmrDeveloper/FileQL"
+
+[source]
+url = "https://github.com/AmrDeveloper/FileQL/archive/refs/tags/0.10.0.tar.gz"
+sha256 = "c85976ffd14454be0f3f973d6d97621f10d8dc0d4814448bd66d2a376f6dfdc2"
+
+[build]
+system = "autotools"

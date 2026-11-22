@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "raven"
+version = "0_1"
+description = "Risk Analysis and Vulnerability Enumeration for CI/CD"
+homepage = "https://github.com/CycodeLabs/raven"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d8/b6/4bc5aecae28382720fca4e9492a623e3d821d96e8f4d06e4335c77779ebd/raven_cycode-1.0.9.tar.gz"
+sha256 = "a7cb02102b43dbaad3b50970f92090b86a3b3bb65aae9976a3887f4c8c935238"
+
+[build]
+system = "autotools"

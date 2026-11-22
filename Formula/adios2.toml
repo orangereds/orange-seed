@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "pybind11", "c-blosc2", "gcc", "libfabric", "libpng", "libsodium", "mpi4py", "nanobind", "numpy", "open-mpi", "openssl@4", "pugixml", "python@3.15", "sqlite", "yaml-cpp", "zeromq", "llvm", "lz4", "zstd"]
+
+[package]
+name = "adios2"
+version = "2.12.1_2"
+description = "Next generation of ADIOS developed in the Exascale Computing Program"
+homepage = "https://adios2.readthedocs.io"
+
+[source]
+url = "https://github.com/ornladios/ADIOS2/archive/refs/tags/v2.12.1.tar.gz"
+sha256 = "71edd8f721448311852122fca8d83ae497b43846e5bfcdfd275dc06bb7f3d0c5"
+
+[build]
+system = "autotools"

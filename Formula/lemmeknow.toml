@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "lemmeknow"
+version = "0.8.0.crate"
+description = "Fastest way to identify anything!"
+homepage = "https://github.com/swanandx/lemmeknow"
+
+[source]
+url = "https://static.crates.io/crates/lemmeknow/lemmeknow-0.8.0.crate"
+sha256 = "6a84dc3c9c3aba3b43b2bccec7ff9ca15ee94e6644eac129fef1ffd13d9e4733"
+
+[build]
+system = "autotools"

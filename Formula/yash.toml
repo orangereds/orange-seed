@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "gettext"]
+
+[package]
+name = "yash"
+version = "2.61"
+description = "Yet another shell: a POSIX-compliant command-line shell"
+homepage = "https://magicant.github.io/yash/"
+
+[source]
+url = "https://github.com/magicant/yash/releases/download/2.61/yash-2.61.tar.xz"
+sha256 = "a214966f4ff8b293aa5521a4d3ef6e87d707579eee616aa2f8218edaa920d447"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "texinfo", "x86_64-elf-gcc", "gmp", "mpfr", "python@3.15", "readline", "xz", "zstd"]
+
+[package]
+name = "x86_64-elf-gdb"
+version = "0"
+description = "GNU debugger for x86_64-elf cross development"
+homepage = "https://www.gnu.org/software/gdb/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gdb/gdb-18.1.tar.xz"
+sha256 = "cd9fc3fe2b47743840e42c1592d3d87f8302eb18639c0b8b4ba0898002e2348f"
+
+[build]
+system = "autotools"

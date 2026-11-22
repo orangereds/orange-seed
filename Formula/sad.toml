@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sad"
+version = "0.4.33"
+description = "CLI search and replace | Space Age seD"
+homepage = "https://github.com/ms-jpq/sad"
+
+[source]
+url = "https://github.com/ms-jpq/sad/archive/refs/tags/v0.4.33.tar.gz"
+sha256 = "ec2b533aaa6c39b4f87d6154854ead4fc381fc9fc9b727b2fc82e6ec4f7c1d8b"
+
+[build]
+system = "autotools"

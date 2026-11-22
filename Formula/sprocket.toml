@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "sprocket"
+version = "0.34.1"
+description = "Bioinformatics workflow engine built on the Workflow Description Language (WDL)"
+homepage = "https://sprocket.bio"
+
+[source]
+url = "https://github.com/stjude-rust-labs/sprocket/archive/refs/tags/v0.34.1.tar.gz"
+sha256 = "e5d13afcf1beb48cc8c5947ca35b02849c3cdd940490f3f936887fb54c026056"
+
+[build]
+system = "autotools"

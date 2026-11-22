@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "snowflake"
+version = "2.15.4"
+description = "Pluggable Transport using WebRTC, inspired by Flashproxy"
+homepage = "https://www.torproject.org"
+
+[source]
+url = "https://gitlab.torproject.org/tpo/anti-censorship/pluggable-transports/snowflake/-/archive/v2.15.4/snowflake-v2.15.4.tar.gz"
+sha256 = "eccdecb99db4bdb2f32d5f4988e97cb01b4b0c4ccf1a67f29b84d81bdf34f3f7"
+
+[build]
+system = "autotools"

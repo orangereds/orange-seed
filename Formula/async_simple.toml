@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "async_simple"
+version = "1.4"
+description = "Simple, light-weight and easy-to-use asynchronous components"
+homepage = "https://github.com/alibaba/async_simple"
+
+[source]
+url = "https://github.com/alibaba/async_simple/archive/refs/tags/1.4.tar.gz"
+sha256 = "6188f7a5f4211754fee758dfebf73759b74ce78c208719b5cc37d5ab4775d550"
+
+[build]
+system = "cmake"

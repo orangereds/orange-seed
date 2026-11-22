@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "roundup"
+version = "0.0.6"
+description = "Unit testing tool"
+homepage = "https://bmizerany.github.io/roundup"
+
+[source]
+url = "https://github.com/bmizerany/roundup/archive/refs/tags/v0.0.6.tar.gz"
+sha256 = "20741043ed5be7cbc54b1e9a7c7de122a0dacced77052e90e4ff08e41736f01c"
+
+[build]
+system = "autotools"

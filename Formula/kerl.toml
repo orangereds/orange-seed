@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "kerl"
+version = "4.4.0"
+description = "Easy building and installing of Erlang/OTP instances"
+homepage = "https://github.com/kerl/kerl"
+
+[source]
+url = "https://github.com/kerl/kerl/archive/refs/tags/4.4.0.tar.gz"
+sha256 = "0f32eb08172baffdca9264c5626f6d7fd650369365079fe21f8b8ab997885d8c"
+
+[build]
+system = "autotools"

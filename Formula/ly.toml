@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "ly"
+version = "0"
+description = "Parse, manipulate or create documents in LilyPond format"
+homepage = "https://github.com/frescobaldi/python-ly"
+
+[source]
+url = "https://files.pythonhosted.org/packages/94/a2/c21c90a3790612521feca435e1019eae6edc6a15084aab91b13b47a7486c/python_ly-0.9.10.tar.gz"
+sha256 = "18ef058b4d0fa235768b6669041174370f553d6c84eb7a4495f95bb315e0f18a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libptytty", "readline"]
+
+[package]
+name = "rlwrap"
+version = "0.48"
+description = "Readline wrapper: adds readline support to tools that lack it"
+homepage = "https://github.com/hanslub42/rlwrap"
+
+[source]
+url = "https://github.com/hanslub42/rlwrap/releases/download/v0.48/rlwrap-0.48.zip"
+sha256 = "50ab1eabbb4f5d8a74bcd49bdee91342206c86695a0b63063f48dd682770d5a2"
+
+[build]
+system = "autotools"

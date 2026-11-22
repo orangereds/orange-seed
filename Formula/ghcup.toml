@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "ghcup"
+version = "0.2.6.2-src"
+description = "Installer for the general purpose language Haskell"
+homepage = "https://www.haskell.org/ghcup/"
+
+[source]
+url = "https://github.com/haskell/ghcup-hs/releases/download/v0.2.6.2/ghcup-0.2.6.2-src.tar.gz"
+sha256 = "32d05d0a878a31e0ccdbdb6767dc4c2d1940330a9e9e1c477e0db3858825f168"
+
+[build]
+system = "autotools"

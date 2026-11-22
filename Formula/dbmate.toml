@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dbmate"
+version = "2.38.2"
+description = "Lightweight, framework-agnostic database migration tool"
+homepage = "https://github.com/amacneil/dbmate"
+
+[source]
+url = "https://github.com/amacneil/dbmate/archive/refs/tags/v2.38.2.tar.gz"
+sha256 = "e213692fd2c45790018966d118ccdb27040effc764058437a3006d2b1c9dff74"
+
+[build]
+system = "autotools"

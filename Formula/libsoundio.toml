@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libsoundio"
+version = "2.0.1-7"
+description = "Cross-platform audio input and output"
+homepage = "http://libsound.io"
+
+[source]
+url = "https://github.com/andrewrk/libsoundio/archive/refs/tags/2.0.1-7.tar.gz"
+sha256 = "941f1347dabab02c88ef57e225b04587c3f69824e550e1045e4a9119cd657a4e"
+
+[build]
+system = "cmake"

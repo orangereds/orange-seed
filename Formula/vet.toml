@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vet"
+version = "1.20.0"
+description = "Policy driven vetting of open source dependencies"
+homepage = "https://safedep.io/"
+
+[source]
+url = "https://github.com/safedep/vet/archive/refs/tags/v1.20.0.tar.gz"
+sha256 = "cef8d530f23af3b239fe051a31edf6aef3f0a22f40f755f10428ee19f3e10673"
+
+[build]
+system = "autotools"

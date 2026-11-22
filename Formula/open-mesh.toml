@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "open-mesh"
+version = "0"
+description = "Generic data structure to represent and manipulate polygonal meshes"
+homepage = "https://www.graphics.rwth-aachen.de/software/openmesh/"
+
+[source]
+url = "https://www.graphics.rwth-aachen.de/media/openmesh_static/Releases/11.0/OpenMesh-11.0.0.tar.bz2"
+sha256 = "9d22e65bdd6a125ac2043350a019ec4346ea83922cafdf47e125a03c16f6fa07"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "bdw-gc", "openssl@4", "unixodbc"]
+
+[package]
+name = "sagittarius-scheme"
+version = "0"
+description = "Free Scheme implementation supporting R6RS and R7RS"
+homepage = "https://github.com/ktakashi/sagittarius-scheme"
+
+[source]
+url = "https://github.com/ktakashi/sagittarius-scheme/releases/download/v0.9.15/sagittarius-0.9.15.tar.gz"
+sha256 = "945f1cf4b4bba4973e996f460e3ade9844314772ce9dc0b29ca51abc5bdaa1b1"
+
+[build]
+system = "cmake"

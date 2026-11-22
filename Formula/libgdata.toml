@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "gtk+3", "json-glib", "liboauth", "libsoup@2"]
+
+[package]
+name = "libgdata"
+version = "0.18.1_2"
+description = "GLib-based library for accessing online service APIs"
+homepage = "https://wiki.gnome.org/Projects/libgdata"
+
+[source]
+url = "https://download.gnome.org/sources/libgdata/0.18/libgdata-0.18.1.tar.xz"
+sha256 = "dd8592eeb6512ad0a8cf5c8be8c72e76f74bfe6b23e4dd93f0756ee0716804c7"
+
+[build]
+system = "autotools"

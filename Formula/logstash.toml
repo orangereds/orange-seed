@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle@8", "openjdk@21"]
+
+[package]
+name = "logstash"
+version = "9.5.6"
+description = "Tool for managing events and logs"
+homepage = "https://www.elastic.co/products/logstash"
+
+[source]
+url = "https://github.com/elastic/logstash/archive/refs/tags/v9.5.6.tar.gz"
+sha256 = "13511434181f0c048411d23d5cf1409122df2eb643daf3a2c4c76db8d89eebe1"
+
+[service]
+run = "opt/logstash/bin/logstash"
+working_dir = "var"
+log_path = "var/log/logstash.log"
+error_log_path = "var/log/logstash.log"
+
+[build]
+system = "autotools"

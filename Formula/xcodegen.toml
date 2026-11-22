@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcodegen"
+version = "2.48.0"
+description = "Generate your Xcode project from a spec file and your folder structure"
+homepage = "https://github.com/yonaskolb/XcodeGen"
+
+[source]
+url = "https://github.com/yonaskolb/XcodeGen/archive/refs/tags/2.48.0.tar.gz"
+sha256 = "366252b130fb65619dcb725f6ed450caa09c2e49038b5e171f0f25289cbbaf60"
+
+[build]
+system = "autotools"

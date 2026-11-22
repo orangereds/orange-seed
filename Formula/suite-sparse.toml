@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc", "gmp", "mpfr", "libomp"]
+
+[package]
+name = "suite-sparse"
+version = "7.14.1"
+description = "Suite of Sparse Matrix Software"
+homepage = "https://people.engr.tamu.edu/davis/suitesparse.html"
+
+[source]
+url = "https://github.com/DrTimothyAldenDavis/SuiteSparse/archive/refs/tags/v7.14.1.tar.gz"
+sha256 = "81e560e1f74546df139edb765b3f5bc865866da23062312ffe8fd821063c8397"
+
+[build]
+system = "cmake"

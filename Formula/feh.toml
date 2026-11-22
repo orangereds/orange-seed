@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["imlib2", "libexif", "libpng", "libx11", "libxinerama", "libxt"]
+
+[package]
+name = "feh"
+version = "3.13.1"
+description = "X11 image viewer"
+homepage = "https://feh.finalrewind.org/"
+
+[source]
+url = "https://feh.finalrewind.org/feh-3.13.1.tar.bz2"
+sha256 = "785cd3bf51e05f6bb86ab0d649b7ed20e31892eb635bc5a25c963bf934088445"
+
+[build]
+system = "make"

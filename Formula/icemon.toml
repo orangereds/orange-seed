@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "extra-cmake-modules", "pkgconf", "sphinx-doc", "icecream", "lzo", "qtbase", "zstd", "libarchive"]
+
+[package]
+name = "icemon"
+version = "3.4"
+description = "Icecream GUI Monitor"
+homepage = "https://kfunk.org/tag/icemon/"
+
+[source]
+url = "https://github.com/icecc/icemon/archive/refs/tags/v3.4.tar.gz"
+sha256 = "75f79aa21e0524e384c9041b558d3b55ad5e2ce9a8c851d6c7ca94ce0bfe7e9a"
+
+[build]
+system = "cmake"

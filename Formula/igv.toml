@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "igv"
+version = "0"
+description = "Interactive Genomics Viewer"
+homepage = "https://igv.org/doc/desktop/"
+
+[source]
+url = "https://data.broadinstitute.org/igv/projects/downloads/2.19/IGV_2.19.8.zip"
+sha256 = "7476fc44f15788f52dfe1d40e99748c7aedcb9dbf6a91f7634a81344e50d07a6"
+
+[build]
+system = "autotools"

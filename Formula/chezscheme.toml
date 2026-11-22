@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libx11", "xterm"]
+
+[package]
+name = "chezscheme"
+version = "0"
+description = "Implementation of the Chez Scheme language"
+homepage = "https://cisco.github.io/ChezScheme/"
+
+[source]
+url = "https://github.com/cisco/ChezScheme/releases/download/v10.4.1/csv10.4.1.tar.gz"
+sha256 = "2e74952db7bc177f0c3602e2217a341ba677d733eec4cd7726418c3a4e1ef308"
+
+[build]
+system = "autotools"

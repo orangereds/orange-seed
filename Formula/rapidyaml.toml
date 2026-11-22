@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "rapidyaml"
+version = "0"
+description = "Library to parse and emit YAML, and do it fast"
+homepage = "https://github.com/biojppm/rapidyaml"
+
+[source]
+url = "https://github.com/biojppm/rapidyaml/releases/download/v0.16.0/rapidyaml.v0.16.0.src.tgz"
+sha256 = "a0ce80a8f4211580c8703e57acb813a28ca6ec80908f6eb926be94be8e98d39d"
+
+[build]
+system = "cmake"

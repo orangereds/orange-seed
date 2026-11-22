@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libev", "libevent", "libuv", "openssl@4"]
+
+[package]
+name = "libcouchbase"
+version = "3.3.19_1"
+description = "C library for Couchbase"
+homepage = "https://docs.couchbase.com/c-sdk/current/hello-world/start-using-sdk.html"
+
+[source]
+url = "https://packages.couchbase.com/clients/c/libcouchbase-3.3.19.tar.gz"
+sha256 = "2d8a3d1a67e012cc562aa7cf6105def8e23a01930bc92459c43c119a13b3ebc8"
+
+[build]
+system = "cmake"

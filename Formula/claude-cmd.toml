@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "claude-cmd"
+version = "1.1.1"
+description = "Claude Code Commands Manager"
+homepage = "https://github.com/kiliczsh/claude-cmd"
+
+[source]
+url = "https://registry.npmjs.org/claude-cmd/-/claude-cmd-1.1.1.tgz"
+sha256 = "c6b990f7c55ec1281dca603b284d55b468ca7bbdfe217fc8091f5a8f85f16367"
+
+[build]
+system = "autotools"

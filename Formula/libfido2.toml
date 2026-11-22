@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "mandoc", "pkgconf", "libcbor", "openssl@4"]
+
+[package]
+name = "libfido2"
+version = "1.17.0_2"
+description = "Provides library functionality for FIDO U2F & FIDO 2.0, including USB"
+homepage = "https://developers.yubico.com/libfido2/"
+
+[source]
+url = "https://github.com/Yubico/libfido2/archive/refs/tags/1.17.0.tar.gz"
+sha256 = "ace062d14a482ff9325410ff63d06c8b5fe87e79ebc18dda07add2bc0188c77f"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook-xsl", "gobject-introspection", "meson", "ninja", "pkgconf", "gdk-pixbuf", "glib", "gettext"]
+
+[package]
+name = "libnotify"
+version = "0.8.9"
+description = "Library that sends desktop notifications to a notification daemon"
+homepage = "https://gitlab.gnome.org/GNOME/libnotify"
+
+[source]
+url = "https://download.gnome.org/sources/libnotify/0.8/libnotify-0.8.9.tar.xz"
+sha256 = "c906bb084027ea512f94a60fbfc0cc8d4f17e4b4d525bed370d07a6d8714c923"
+
+[build]
+system = "autotools"

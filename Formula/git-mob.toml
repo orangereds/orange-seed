@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "git-mob"
+version = "4.0.1"
+description = "CLI tool for including co-authors in commits"
+homepage = "https://github.com/rkotze/git-mob/blob/master/packages/git-mob"
+
+[source]
+url = "https://registry.npmjs.org/git-mob/-/git-mob-4.0.1.tgz"
+sha256 = "b2f2c558aa7674b1275bb4f92cd6b967c90a6ee8a8db7d3a567524bf33d78242"
+
+[build]
+system = "autotools"

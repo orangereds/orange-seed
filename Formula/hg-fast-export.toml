@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mercurial", "python@3.15"]
+
+[package]
+name = "hg-fast-export"
+version = "260405_1"
+description = "Fast Mercurial to Git converter"
+homepage = "https://repo.or.cz/fast-export.git"
+
+[source]
+url = "https://github.com/frej/fast-export/archive/refs/tags/v260405.tar.gz"
+sha256 = "23af10aed62096a25f54012e37a16f5137d221f7e862dd559eba1ecf56ff1dbe"
+
+[build]
+system = "autotools"

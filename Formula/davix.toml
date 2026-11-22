@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "openssl@4"]
+
+[package]
+name = "davix"
+version = "0.9.0_1"
+description = "Library and tools for advanced file I/O with HTTP-based protocols"
+homepage = "https://github.com/cern-fts/davix"
+
+[source]
+url = "https://github.com/cern-fts/davix/releases/download/R_0_9_0/davix-0.9.0.tar.gz"
+sha256 = "cf68461550fcd8fd88320658a42c55c7e7f6653e2be1461dfa95013adc56cced"
+
+[build]
+system = "cmake"

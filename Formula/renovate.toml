@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "renovate"
+version = "44.256.1"
+description = "Automated dependency updates. Flexible so you don't need to be"
+homepage = "https://github.com/renovatebot/renovate"
+
+[source]
+url = "https://registry.npmjs.org/renovate/-/renovate-44.256.1.tgz"
+sha256 = "f65babc74fe51233b33f2b72f0369b4718d520a63be8e2e5cdd53b7f360a4bb6"
+
+[build]
+system = "autotools"

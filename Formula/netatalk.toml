@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmark-gfm", "meson", "ninja", "pkgconf", "berkeley-db@5", "bstring", "cracklib", "iniparser", "libevent", "libgcrypt", "mariadb-connector-c", "openldap", "talloc"]
+
+[package]
+name = "netatalk"
+version = "4.6.1"
+description = "File server for Macs, compliant with Apple Filing Protocol (AFP)"
+homepage = "https://netatalk.io"
+
+[source]
+url = "https://github.com/Netatalk/netatalk/releases/download/netatalk-4-6-1/netatalk-4.6.1.tar.xz"
+sha256 = "c97412f7f4bbbbfa922664f52b9d6a5f75282b99a52fe0463134bb477fea715e"
+
+[build]
+system = "autotools"

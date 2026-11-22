@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libgcrypt", "libgpg-error"]
+
+[package]
+name = "libbdplus"
+version = "0.2.0"
+description = "Implements the BD+ System Specifications"
+homepage = "https://www.videolan.org/developers/libbdplus.html"
+
+[source]
+url = "https://get.videolan.org/libbdplus/0.2.0/libbdplus-0.2.0.tar.bz2"
+sha256 = "b93eea3eaef33d6e9155d2c34b068c505493aa5a4936e63274f4342ab0f40a58"
+
+[build]
+system = "autotools"

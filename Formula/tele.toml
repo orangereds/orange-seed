@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tele"
+version = "2.1.3"
+description = "Telegram client for the terminal: a keyboard-first TUI and a CLI"
+homepage = "https://github.com/sorokin-vladimir/tele"
+
+[source]
+url = "https://github.com/sorokin-vladimir/tele/archive/refs/tags/v2.1.3.tar.gz"
+sha256 = "bae71e369a0b71f0e982677c8b88279db14a8e06fa2a09191eda7d969653c2a7"
+
+[build]
+system = "autotools"

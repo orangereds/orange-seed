@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "shellspec"
+version = "0.28.1"
+description = "BDD unit testing framework for dash, bash, ksh, zsh and all POSIX shells"
+homepage = "https://shellspec.info/"
+
+[source]
+url = "https://github.com/shellspec/shellspec/archive/refs/tags/0.28.1.tar.gz"
+sha256 = "400d835466429a5fe6c77a62775a9173729d61dd43e05dfa893e8cf6cb511783"
+
+[build]
+system = "make"

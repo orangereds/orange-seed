@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mantra"
+version = "3.1"
+description = "Tool to hunt down API key leaks in JS files and pages"
+homepage = "https://amolo.com.br"
+
+[source]
+url = "https://github.com/brosck/mantra/archive/refs/tags/v3.1.tar.gz"
+sha256 = "379894f36ef04a6b4e57e77112070e23dcc75569d1df98a8f128fe24a8b5e0b1"
+
+[build]
+system = "autotools"

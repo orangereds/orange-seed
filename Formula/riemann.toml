@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "riemann"
+version = "0.3.12"
+description = "Event stream processor"
+homepage = "https://riemann.io/"
+
+[source]
+url = "https://github.com/riemann/riemann/releases/download/0.3.12/riemann-0.3.12.tar.bz2"
+sha256 = "82c24c7cba3bce96957f25661f39c6162a262ba76aef24e986e73dbf2a79b7a6"
+
+[service]
+run = "opt/riemann/bin/riemann etc/riemann.config"
+keep_alive = true
+log_path = "var/log/riemann.log"
+error_log_path = "var/log/riemann.log"
+
+[build]
+system = "autotools"

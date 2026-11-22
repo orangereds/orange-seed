@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "assimp", "bullet", "eigen", "fcl", "flann", "fmt", "ipopt", "libccd", "nlopt", "octomap", "ode", "open-scene-graph", "spdlog", "tinyxml2", "urdfdom"]
+
+[package]
+name = "dartsim"
+version = "6.20.3"
+description = "Dynamic Animation and Robotics Toolkit"
+homepage = "https://dartsim.github.io/"
+
+[source]
+url = "https://github.com/dartsim/dart/archive/refs/tags/v6.20.3.tar.gz"
+sha256 = "da78699a52468ac0931a4e03026ad2ff8a6bb03da99a23ba3fa2f7c58ee85538"
+
+[build]
+system = "cmake"

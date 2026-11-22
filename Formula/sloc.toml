@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sloc"
+version = "0.3.2"
+description = "Simple tool to count source lines of code"
+homepage = "https://github.com/flosse/sloc"
+
+[source]
+url = "https://registry.npmjs.org/sloc/-/sloc-0.3.2.tgz"
+sha256 = "25ac2a41e015a8ee0d0a890221d064ad0288be8ef742c4ec903c84a07e62b347"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "awscli"]
+
+[package]
+name = "iamy"
+version = "2.4.0"
+description = "AWS IAM import and export tool"
+homepage = "https://github.com/99designs/iamy"
+
+[source]
+url = "https://github.com/99designs/iamy/archive/refs/tags/v2.4.0.tar.gz"
+sha256 = "13bd9e66afbeb30d386aa132a4af5d2e9a231d2aadf54fe8e5dc325583379359"
+
+[build]
+system = "autotools"

@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "go-hass-agent"
+version = "14.19.0"
+description = "Native Home Assistant agent for desktop/laptop devices"
+homepage = "https://github.com/joshuar/go-hass-agent"
+
+[source]
+url = "https://github.com/joshuar/go-hass-agent/archive/refs/tags/v14.19.0.tar.gz"
+sha256 = "43eac861d8e8765dfacc803e64ac3b73c8b5ef74683c621e4ab08283e0df99aa"
+
+[service]
+run = "opt/go-hass-agent/bin/go-hass-agent run"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/go-hass-agent.log"
+error_log_path = "var/log/go-hass-agent.log"
+
+[build]
+system = "autotools"

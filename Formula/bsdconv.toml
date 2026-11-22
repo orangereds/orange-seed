@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bsdconv"
+version = "11.7"
+description = "Charset/encoding converter library"
+homepage = "https://github.com/buganini/bsdconv"
+
+[source]
+url = "https://github.com/buganini/bsdconv/archive/refs/tags/11.7.tar.gz"
+sha256 = "c7ce9b7fd5a80f5da36dfbf2b49ca86f67088b006d26f708fcc1112b7c1feafc"
+
+[build]
+system = "make"

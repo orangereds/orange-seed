@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "libbsd"]
+
+[package]
+name = "radvd"
+version = "2.21"
+description = "IPv6 Router Advertisement Daemon"
+homepage = "https://radvd.litech.org/"
+
+[source]
+url = "https://github.com/radvd-project/radvd/releases/download/v2.21/radvd-2.21.tar.xz"
+sha256 = "91df2ed7faca0716bbd726a17d6467ed92fcb2b6e45b57d9e619f9686ab99e1b"
+
+[build]
+system = "autotools"

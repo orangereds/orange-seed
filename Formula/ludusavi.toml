@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "ludusavi"
+version = "0.31.0"
+description = "Backup tool for PC game saves"
+homepage = "https://github.com/mtkennerly/ludusavi"
+
+[source]
+url = "https://github.com/mtkennerly/ludusavi/archive/refs/tags/v0.31.0.tar.gz"
+sha256 = "e7dcfa4fb17fcd2be9ef34d55fe0ca0d3f79fdf570107aeaa5b4e76910e2f8a1"
+
+[build]
+system = "autotools"

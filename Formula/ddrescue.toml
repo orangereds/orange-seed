@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ddrescue"
+version = "1.30.tar.lz"
+description = "GNU data recovery tool"
+homepage = "https://www.gnu.org/software/ddrescue/ddrescue.html"
+
+[source]
+url = "https://ftpmirror.gnu.org/ddrescue/ddrescue-1.30.tar.lz"
+sha256 = "2264622d309d6c87a1cfc19148292b8859a688e9bc02d4702f5cd4f288745542"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "hidapi", "libusb", "pillow", "python@3.15"]
+
+[package]
+name = "liquidctl"
+version = "1.16.0"
+description = "Cross-platform tool and drivers for liquid coolers and other devices"
+homepage = "https://github.com/liquidctl/liquidctl"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7f/9c/11f37716eeeccc72a781c80e76021a33cafa35578627263199ea62b2eb2d/liquidctl-1.16.0.tar.gz"
+sha256 = "b631a9f9c17980304c482ba72599b4089cc168d8c2edfdf65b0daa85cc614f8f"
+
+[build]
+system = "autotools"

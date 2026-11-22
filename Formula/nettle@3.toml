@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp"]
+
+[package]
+name = "nettle@3"
+version = "0"
+description = "Low-level cryptographic library"
+homepage = "https://www.lysator.liu.se/~nisse/nettle/"
+
+[source]
+url = "https://ftpmirror.gnu.org/nettle/nettle-3.10.2.tar.gz"
+sha256 = "fe9ff51cb1f2abb5e65a6b8c10a92da0ab5ab6eaf26e7fc2b675c45f1fb519b5"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

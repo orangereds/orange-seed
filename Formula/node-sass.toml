@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "node-sass"
+version = "0"
+description = "JavaScript implementation of a Sass compiler"
+homepage = "https://github.com/sass/dart-sass"
+
+[source]
+url = "https://registry.npmjs.org/sass/-/sass-1.108.2.tgz"
+sha256 = "a3398fa194c3379174bac6650bdaad077d1fbe71c4e58e817b2e213d1479bbfe"
+
+[build]
+system = "autotools"

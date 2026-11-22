@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "asciidoctor"
+version = "2.0.26"
+description = "Text processor and publishing toolchain for AsciiDoc"
+homepage = "https://asciidoctor.org/"
+
+[source]
+url = "https://github.com/asciidoctor/asciidoctor/archive/refs/tags/v2.0.26.tar.gz"
+sha256 = "25c22b934bc0ae2448f2d73d4b2eba0c59e0521cf5e893fb0b0ad54a461bf066"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "glib", "gtk+3", "json-glib", "libsoup", "gettext"]
+
+[package]
+name = "geocode-glib"
+version = "3.26.4_1"
+description = "GNOME library for gecoding and reverse geocoding"
+homepage = "https://gitlab.gnome.org/GNOME/geocode-glib"
+
+[source]
+url = "https://download.gnome.org/sources/geocode-glib/3.26/geocode-glib-3.26.4.tar.xz"
+sha256 = "2d9a6826d158470449a173871221596da0f83ebdcff98b90c7049089056a37aa"
+
+[build]
+system = "autotools"

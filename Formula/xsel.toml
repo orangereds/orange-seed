@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libxt", "pkgconf", "libx11"]
+
+[package]
+name = "xsel"
+version = "1.2.1"
+description = "Command-line program for getting and setting the contents of the X selection"
+homepage = "https://www.vergenet.net/~conrad/software/xsel/"
+
+[source]
+url = "https://github.com/kfish/xsel/archive/refs/tags/1.2.1.tar.gz"
+sha256 = "18487761f5ca626a036d65ef2db8ad9923bf61685e06e7533676c56d7d60eb14"
+
+[build]
+system = "autotools"

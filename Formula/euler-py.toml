@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "euler-py"
+version = "0_4"
+description = "Project Euler command-line tool written in Python"
+homepage = "https://github.com/iKevinY/EulerPy"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a6/41/f074081bc036fbe2f066746e44020947ecf06ac53b6319a826023b8b5333/EulerPy-1.4.0.tar.gz"
+sha256 = "83b2175ee1d875e0f52b0d7bae1fb8500f5098ac6de5364a94bc540fb9408d23"
+
+[build]
+system = "autotools"

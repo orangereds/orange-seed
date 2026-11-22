@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "protobuf"]
+
+[package]
+name = "buffa"
+version = "0.9.2"
+description = "Pure-Rust Protocol Buffers implementation with editions support"
+homepage = "https://github.com/anthropics/buffa"
+
+[source]
+url = "https://github.com/anthropics/buffa/archive/refs/tags/v0.9.2.tar.gz"
+sha256 = "318b363643469c50517cabed7e28c8950f895457b1165fca84f09ca884121d49"
+
+[build]
+system = "autotools"

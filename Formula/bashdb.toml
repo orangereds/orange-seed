@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bash"]
+
+[package]
+name = "bashdb"
+version = "5.2-1.2.0"
+description = "Bash shell debugger"
+homepage = "https://bashdb.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bashdb/bashdb/5.2-1.2.0/bashdb-5.2-1.2.0.tar.bz2"
+sha256 = "96fe0c8ffc12bc478c9dc41bb349ae85135da71b692069b8b7f62b27967ce534"
+
+[build]
+system = "autotools"

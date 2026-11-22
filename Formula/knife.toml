@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "knife"
+version = "1.8.3"
+description = "Reverse engineering toolkit for PE, ELF, and Mach-O binaries"
+homepage = "https://github.com/bl4ckr0ss3/knife"
+
+[source]
+url = "https://github.com/bl4ckr0ss3/knife/archive/refs/tags/v1.8.3.tar.gz"
+sha256 = "822e3f48a8d7986d0ae17bd47be183884ca414195ead205823d0825d826d6062"
+
+[build]
+system = "autotools"

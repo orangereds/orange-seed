@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "rust"]
+
+[package]
+name = "lsd"
+version = "1.2.0"
+description = "Clone of ls with colorful output, file type icons, and more"
+homepage = "https://github.com/lsd-rs/lsd"
+
+[source]
+url = "https://github.com/lsd-rs/lsd/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "dae8d43087686a4a1de0584922608e9cbab00727d0f72e4aa487860a9cbfeefa"
+
+[build]
+system = "autotools"

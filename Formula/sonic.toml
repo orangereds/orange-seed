@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sonic"
+version = "1.10.2"
+description = "Fast, lightweight & schema-less search backend"
+homepage = "https://github.com/valeriansaliou/sonic"
+
+[source]
+url = "https://github.com/valeriansaliou/sonic/archive/refs/tags/v1.10.2.tar.gz"
+sha256 = "9cf63d9500286aeb77739e0ba441f0aeaf8fbaf8697fe93b2a7c4488285adc7f"
+
+[service]
+run = "opt/sonic/bin/sonic -c etc/sonic.cfg"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/sonic.log"
+error_log_path = "var/log/sonic.log"
+
+[build]
+system = "autotools"

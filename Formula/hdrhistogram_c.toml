@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "hdrhistogram_c"
+version = "0.12.1"
+description = "C port of the HdrHistogram"
+homepage = "https://github.com/HdrHistogram/HdrHistogram_c"
+
+[source]
+url = "https://github.com/HdrHistogram/HdrHistogram_c/archive/refs/tags/0.12.1.tar.gz"
+sha256 = "b2cff564b49f900e7f951c95428100a4aed36561703237ffc5e41b4843d804ce"
+
+[build]
+system = "cmake"

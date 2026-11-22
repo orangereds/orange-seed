@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.16"]
+
+[package]
+name = "nullclaw"
+version = "0"
+description = "Tiny autonomous AI assistant infrastructure written in Zig"
+homepage = "https://nullclaw.io"
+
+[source]
+url = "https://github.com/nullclaw/nullclaw/releases/download/v2026.5.29/nullclaw-source-v2026.5.29.tar.gz"
+sha256 = "2298642ab72ff9abec32b55d5927fbf67cae4f80140aaa942a23d55be964792a"
+
+[service]
+run = "opt/nullclaw/bin/nullclaw daemon"
+keep_alive = true
+
+[build]
+system = "autotools"

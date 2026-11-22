@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "docker"]
+
+[package]
+name = "kind"
+version = "0.33.0"
+description = "Run local Kubernetes cluster in Docker"
+homepage = "https://kind.sigs.k8s.io/"
+
+[source]
+url = "https://github.com/kubernetes-sigs/kind/archive/refs/tags/v0.33.0.tar.gz"
+sha256 = "8b00b127eb567f30b028cb032d236d990404e9fd83ce7798db7f9c7a305fab34"
+
+[build]
+system = "autotools"

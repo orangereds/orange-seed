@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libpcl"
+version = "0"
+description = "C library and API for coroutines"
+homepage = "http://www.xmailserver.org/libpcl.html"
+
+[source]
+url = "http://www.xmailserver.org/pcl-1.12.tar.gz"
+sha256 = "e7b30546765011575d54ae6b44f9d52f138f5809221270c815d2478273319e1a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["font-util", "pkgconf", "util-macros", "xorgproto"]
+
+[package]
+name = "libfontenc"
+version = "1.1.10"
+description = "X.Org: Font encoding library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libfontenc-1.1.10.tar.xz"
+sha256 = "daa186a49e3cc2b6fc585ca09971351e6f010f618abc6a164eda82e42e4aa4d6"
+
+[build]
+system = "autotools"

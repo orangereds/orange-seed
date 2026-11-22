@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "libogg", "libsndfile", "libvorbis", "mpg123", "portaudio"]
+
+[package]
+name = "libopenmpt"
+version = "0.8.10"
+description = "Software library to decode tracked music files"
+homepage = "https://lib.openmpt.org/libopenmpt/"
+
+[source]
+url = "https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.8.10+release.autotools.tar.gz"
+sha256 = "976d259288c40cd285771f77d09eff3d02514511d5677ecfcfb53be5013317e2"
+
+[build]
+system = "autotools"

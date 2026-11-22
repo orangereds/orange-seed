@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "glm", "libtool", "pkgconf", "boost", "freetype", "glew", "libpng", "pcre2", "sdl2-compat", "sdl2_image"]
+
+[package]
+name = "logstalgia"
+version = "1.1.5_1"
+description = "Web server access log visualizer with retro style"
+homepage = "https://logstalgia.io/"
+
+[source]
+url = "https://github.com/acaudwell/Logstalgia/releases/download/logstalgia-1.1.5/logstalgia-1.1.5.tar.gz"
+sha256 = "028936e9f663c877d6969ad25f145c7b420797e9a3e01c6c184815ed8309f481"
+
+[build]
+system = "autotools"

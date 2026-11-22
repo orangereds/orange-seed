@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rainfrog"
+version = "0.4.7"
+description = "Database management TUI for PostgreSQL/MySQL/SQLite"
+homepage = "https://github.com/achristmascarl/rainfrog"
+
+[source]
+url = "https://github.com/achristmascarl/rainfrog/archive/refs/tags/v0.4.7.tar.gz"
+sha256 = "9bcbbb6576fbb046fc823dfbd9fc592f69791ca7c3a2031be1b1e0b0fe9147e5"
+
+[build]
+system = "autotools"

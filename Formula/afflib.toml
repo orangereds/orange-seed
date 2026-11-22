@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "python@3.15", "openssl@4"]
+
+[package]
+name = "afflib"
+version = "3.7.23"
+description = "Advanced Forensic Format"
+homepage = "https://github.com/sshock/AFFLIBv3"
+
+[source]
+url = "https://github.com/sshock/AFFLIBv3/archive/refs/tags/v3.7.23.tar.gz"
+sha256 = "b09334cd690ebe28ef182b00b59a426db662417b90bb9fd4985b11df5654fca4"
+
+[build]
+system = "autotools"

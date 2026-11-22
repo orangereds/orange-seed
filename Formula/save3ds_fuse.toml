@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "save3ds_fuse"
+version = "1.4.0"
+description = "Extract/Import/FUSE for 3DS save/extdata/database"
+homepage = "https://github.com/wwylele/save3ds"
+
+[source]
+url = "https://github.com/wwylele/save3ds/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "3bf47e34db1f3e5162df5b8e67a5673b473b37bf0eaa729be28e5e7a62212858"
+
+[build]
+system = "autotools"

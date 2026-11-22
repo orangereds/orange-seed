@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cpp-gsl", "zstd", "cpu_features"]
+
+[package]
+name = "seal"
+version = "4.7.2"
+description = "Easy-to-use homomorphic encryption library"
+homepage = "https://github.com/microsoft/SEAL"
+
+[source]
+url = "https://github.com/microsoft/SEAL/archive/refs/tags/v4.7.2.tar.gz"
+sha256 = "7a687f1a12fb0dcc8489293e2a20d48b9476ea27775dde5fa4ed672db1c03a14"
+
+[build]
+system = "cmake"

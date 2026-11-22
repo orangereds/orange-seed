@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl12-compat", "sdl2-compat", "nasm"]
+
+[package]
+name = "pce"
+version = "0.2.2_3"
+description = "PC emulator"
+homepage = "http://www.hampa.ch/pce/"
+
+[source]
+url = "https://cdn.netbsd.org/pub/pkgsrc/distfiles/pce-0.2.2.tar.gz"
+sha256 = "a8c0560fcbf0cc154c8f5012186f3d3952afdbd144b419124c09a56f9baab999"
+
+[build]
+system = "autotools"

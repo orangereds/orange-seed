@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "iowow"
+version = "1.5.2"
+description = "C utility library and persistent key/value storage engine"
+homepage = "https://github.com/Softmotions/iowow"
+
+[source]
+url = "https://github.com/Softmotions/iowow/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "fc6104e50355de8369cb6f3007d9a61c9380d35c4159d345eca80ceee780e526"
+
+[build]
+system = "autotools"

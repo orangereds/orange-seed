@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sabiql"
+version = "3.1.0"
+description = "Fast, safe-by-design, driverless, Vim-first DB TUI with ER diagrams"
+homepage = "https://github.com/riii111/sabiql"
+
+[source]
+url = "https://github.com/riii111/sabiql/archive/refs/tags/v3.1.0.tar.gz"
+sha256 = "c2a0ca871891518f875400947ab550230d34f670767b5108215ccb5f460319ea"
+
+[build]
+system = "autotools"

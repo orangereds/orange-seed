@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rustcat"
+version = "3.0.0"
+description = "Modern Port listener and Reverse shell"
+homepage = "https://github.com/robiot/rustcat"
+
+[source]
+url = "https://github.com/robiot/rustcat/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "59648e51ab41e4aeb825174dfbb53710207257feb3757521be98ed28c4249922"
+
+[build]
+system = "autotools"

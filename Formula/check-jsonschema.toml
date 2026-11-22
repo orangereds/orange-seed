@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15", "rpds-py"]
+
+[package]
+name = "check-jsonschema"
+version = "0"
+description = "JSON Schema CLI"
+homepage = "https://github.com/python-jsonschema/check-jsonschema"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ad/0a/3d9da039817af8344be3e5502457c91b84dfd774792f48cef434c81af15e/check_jsonschema-0.39.0.tar.gz"
+sha256 = "33340a2f885e207411c7a7d1db0a052ba24a4e58c92a47f54231e4a128af2764"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "chalk-cli"
+version = "6.0.0"
+description = "Terminal string styling done right"
+homepage = "https://github.com/chalk/chalk-cli"
+
+[source]
+url = "https://registry.npmjs.org/chalk-cli/-/chalk-cli-6.0.0.tgz"
+sha256 = "480a85e48da024092e1b63fe260f810880f5f82322d82f62304f32e970112216"
+
+[build]
+system = "autotools"

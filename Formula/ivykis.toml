@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "ivykis"
+version = "0.43.2-trunk"
+description = "Async I/O-assisting library"
+homepage = "https://sourceforge.net/projects/libivykis/"
+
+[source]
+url = "https://github.com/buytenh/ivykis/archive/refs/tags/v0.43.2-trunk.tar.gz"
+sha256 = "22621ae6a7144039cfb8666ed509b99ea1876d7642021a3505c7351502641103"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "claude-code-router"
+version = "3.1.5"
+description = "Tool to route Claude Code requests to different models and customize any request"
+homepage = "https://musistudio.github.io/claude-code-router/"
+
+[source]
+url = "https://registry.npmjs.org/@musistudio/claude-code-router/-/claude-code-router-3.1.5.tgz"
+sha256 = "d74449979282abd9ceb11b86ed897d1c3e44d8b9430de55bfcca20769d59659d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "pinentry"]
+
+[package]
+name = "rbw"
+version = "1.15.0"
+description = "Unofficial Bitwarden CLI client"
+homepage = "https://git.tozt.net/rbw"
+
+[source]
+url = "https://github.com/doy/rbw/archive/refs/tags/1.15.0.tar.gz"
+sha256 = "660cfa4c727711665bef060046c28dd3924ca1e490fdc058d90d35372b2d2cf6"
+
+[build]
+system = "autotools"

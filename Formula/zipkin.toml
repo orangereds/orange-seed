@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "zipkin"
+version = "0"
+description = "Collect and visualize traces written in Zipkin format"
+homepage = "https://zipkin.io"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=io/zipkin/zipkin-server/3.6.1/zipkin-server-3.6.1-exec.jar"
+sha256 = "d8326e0ed4f43855dba81228f688554706e52578a7c782d9a90b73f8680654a1"
+
+[service]
+run = "opt/zipkin/bin/zipkin"
+keep_alive = true
+log_path = "var/log/zipkin.log"
+error_log_path = "var/log/zipkin.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "pkgconf", "cairo", "gd", "glib", "gts", "libpng", "librsvg", "libtool", "pango", "webp", "fontconfig", "freetype", "gdk-pixbuf", "gettext", "harfbuzz"]
+
+[package]
+name = "graphviz"
+version = "16.1.2"
+description = "Graph visualization software from AT&T and Bell Labs"
+homepage = "https://graphviz.org/"
+
+[source]
+url = "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/16.1.2/graphviz-16.1.2.tar.xz"
+sha256 = "9780938f03659e2effbbfbbaec94940108e794199b73196fa339ca911890e8c9"
+
+[build]
+system = "autotools"

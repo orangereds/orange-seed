@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "open-mpi"]
+
+[package]
+name = "global-arrays"
+version = "0"
+description = "Partitioned Global Address Space (PGAS) library for distributed arrays"
+homepage = "https://globalarrays.github.io/"
+
+[source]
+url = "https://github.com/GlobalArrays/ga/releases/download/v5.9.2/ga-5.9.2.tar.gz"
+sha256 = "cbf15764bf9c04e47e7a798271c418f76b23f1857b23feb24b6cb3891a57fbf2"
+
+[build]
+system = "cmake"

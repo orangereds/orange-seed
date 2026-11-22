@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libusb-compat"]
+
+[package]
+name = "sispmctl"
+version = "4.12"
+description = "Control Gembird SIS-PM programmable power outlet strips"
+homepage = "https://sispmctl.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sispmctl/sispmctl/sispmctl-4.12/sispmctl-4.12.tar.gz"
+sha256 = "e757863a4838da6e1ca72a57adc5aca6fc47ffbddc72a69052d8abd743d57082"
+
+[build]
+system = "autotools"

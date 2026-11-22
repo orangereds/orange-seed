@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ncc"
+version = "0.45.0"
+description = "Compile a Node.js project into a single file"
+homepage = "https://github.com/vercel/ncc"
+
+[source]
+url = "https://registry.npmjs.org/@vercel/ncc/-/ncc-0.45.0.tgz"
+sha256 = "b9f6fffbe1db54510b548433170d891431bb6ce9a76acc0be769f8a7695786cf"
+
+[build]
+system = "autotools"

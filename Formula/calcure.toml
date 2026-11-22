@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "calcure"
+version = "3.4"
+description = "Modern TUI calendar and task manager"
+homepage = "https://anufrievroman.gitbook.io/calcure"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d7/f4/06de942b40306dc6ee2cdbef03e2b269892c996cb1fb256fee59bbdf0143/calcure-3.4.tar.gz"
+sha256 = "8789ca5bb14c8018809a58cd50e7be2974e1d1cb0f67fb0af170d1cccb0cfc9d"
+
+[build]
+system = "autotools"

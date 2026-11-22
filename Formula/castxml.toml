@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "castxml"
+version = "0.8.0"
+description = "C-family Abstract Syntax Tree XML Output"
+homepage = "https://github.com/CastXML/CastXML"
+
+[source]
+url = "https://github.com/CastXML/CastXML/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "68e91af54851ef341fae72299f7576892c3317f7b40d00590ed79d00dc30a16c"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cflow"
+version = "1.8"
+description = "Generate call graphs from C code"
+homepage = "https://www.gnu.org/software/cflow/"
+
+[source]
+url = "https://ftpmirror.gnu.org/cflow/cflow-1.8.tar.bz2"
+sha256 = "8321627b55b6c7877f6a43fcc6f9f846a94b1476a081a035465f7a78d3499ab8"
+
+[build]
+system = "autotools"

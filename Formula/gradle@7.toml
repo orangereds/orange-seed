@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@17"]
+
+[package]
+name = "gradle@7"
+version = "0"
+description = "Open-source build automation tool based on the Groovy and Kotlin DSL"
+homepage = "https://www.gradle.org/"
+
+[source]
+url = "https://services.gradle.org/distributions/gradle-7.6.6-all.zip"
+sha256 = "6ed4d467349e2d3f555a578829c4aeadd67d73e2ec5d213c2a62f8f2829d9fa9"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

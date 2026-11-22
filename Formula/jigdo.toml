@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "berkeley-db@5", "wget"]
+
+[package]
+name = "jigdo"
+version = "0.8.2"
+description = "Tool to distribute very large files over the internet"
+homepage = "https://www.einval.com/~steve/software/jigdo/"
+
+[source]
+url = "https://www.einval.com/~steve/software/jigdo/download/jigdo-0.8.2.tar.xz"
+sha256 = "36f286d93fa6b6bf7885f4899c997894d21da3a62176592ac162d9c6a8644f9e"
+
+[build]
+system = "autotools"

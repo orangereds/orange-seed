@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "kuzu"
+version = "11"
+description = "Embeddable graph database management system built for query speed & scalability"
+homepage = "https://github.com/kuzudb/kuzu"
+
+[source]
+url = "https://github.com/kuzudb/kuzu/archive/refs/tags/v0.11.3.tar.gz"
+sha256 = "f6456fa290879e4c13db49b8918258c4422d78a57fdc6d8925d4aef23e7a0b3c"
+
+[build]
+system = "cmake"

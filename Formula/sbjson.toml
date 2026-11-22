@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sbjson"
+version = "5.0.4"
+description = "JSON CLI parser & reformatter based on SBJson v5"
+homepage = "https://github.com/SBJson/SBJson"
+
+[source]
+url = "https://github.com/SBJson/SBJson/archive/refs/tags/v5.0.4.tar.gz"
+sha256 = "a0048240551a426131c54585bac7486047820ccc33ca843fc049dfff2d7e0a68"
+
+[build]
+system = "autotools"

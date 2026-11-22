@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libmpdclient", "pcre", "taglib"]
+
+[package]
+name = "vimpc"
+version = "0.09.2_1"
+description = "Ncurses based mpd client with vi like key bindings"
+homepage = "https://sourceforge.net/projects/vimpc/"
+
+[source]
+url = "https://github.com/boysetsfrog/vimpc/archive/refs/tags/v0.09.2.tar.gz"
+sha256 = "caa772f984e35b1c2fbe0349bc9068fc00c17bcfcc0c596f818fa894cac035ce"
+
+[build]
+system = "autotools"

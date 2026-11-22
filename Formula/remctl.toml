@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libevent", "pcre2"]
+
+[package]
+name = "remctl"
+version = "3.18"
+description = "Client/server application for remote execution of tasks"
+homepage = "https://www.eyrie.org/~eagle/software/remctl/"
+
+[source]
+url = "https://archives.eyrie.org/software/kerberos/remctl-3.18.tar.xz"
+sha256 = "69980a0058c848f4d1117121cc9153f2daace5561d37bfdb061473f035fc35ef"
+
+[build]
+system = "autotools"

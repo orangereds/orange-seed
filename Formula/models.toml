@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "models"
+version = "0.14.1"
+description = "Fast TUI and CLI for browsing AI models, benchmarks, and coding agents"
+homepage = "https://reyamira.github.io/models/"
+
+[source]
+url = "https://github.com/reyamira/models/archive/refs/tags/v0.14.1.tar.gz"
+sha256 = "74361e3fde193772cd0db2ce4c9394487e437c4d7e416ebfafb0af661291d58a"
+
+[build]
+system = "autotools"

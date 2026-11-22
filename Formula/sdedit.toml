@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "sdedit"
+version = "4.2.1.jar_1"
+description = "Tool for generating sequence diagrams very quickly"
+homepage = "https://sdedit.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sdedit/sdedit/4.2/sdedit-4.2.1.jar"
+sha256 = "270af857e6d2823ce0c18dee47e1e78ef7bc90c7e8afeda36114d364e0f4441c"
+
+[build]
+system = "autotools"

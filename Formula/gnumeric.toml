@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "intltool", "itstool", "pkgconf", "adwaita-icon-theme", "at-spi2-core", "cairo", "fribidi", "gdk-pixbuf", "glib", "goffice", "gtk+3", "libgsf", "libxml2", "pango", "harfbuzz"]
+
+[package]
+name = "gnumeric"
+version = "1.12.62"
+description = "GNOME Spreadsheet Application"
+homepage = "https://projects.gnome.org/gnumeric/"
+
+[source]
+url = "https://download.gnome.org/sources/gnumeric/1.12/gnumeric-1.12.62.tar.xz"
+sha256 = "89331121321b9bad72d37af5a6d13a0a636f0fbb0880f0ea1f2cf8b7ab9ae631"
+
+[build]
+system = "autotools"

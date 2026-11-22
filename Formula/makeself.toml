@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "makeself"
+version = "0"
+description = "Generates a self-extracting compressed tar archive"
+homepage = "https://makeself.io/"
+
+[source]
+url = "https://github.com/megastep/makeself/archive/refs/tags/release-2.7.1.tar.gz"
+sha256 = "96843e5db70da71dcb3cb594a6899886043f115e9205c6b5ca2f26000389514e"
+
+[build]
+system = "autotools"

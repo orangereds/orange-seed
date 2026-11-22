@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "gpgme", "libgpg-error"]
+
+[package]
+name = "envio"
+version = "0.8.0"
+description = "Modern And Secure CLI Tool For Managing Environment Variables"
+homepage = "https://github.com/humblepenguinn/envio"
+
+[source]
+url = "https://github.com/humblepenguinn/envio/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "694e68d3434c951f17d778315eb8ed3de9d4934ae834d7368bd700751a385620"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "mlton", "gmp", "icu4c@79", "openssl@4"]
+
+[package]
+name = "urweb"
+version = "20200209_13"
+description = "Ur/Web programming language"
+homepage = "http://www.impredicative.com/ur/"
+
+[source]
+url = "https://github.com/urweb/urweb/releases/download/20200209/urweb-20200209.tar.gz"
+sha256 = "ac3010c57f8d90f09f49dfcd6b2dc4d5da1cdbb41cbf12cb386e96e93ae30662"
+
+[build]
+system = "autotools"

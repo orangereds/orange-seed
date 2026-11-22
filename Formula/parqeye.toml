@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "parqeye"
+version = "0.2.0"
+description = "Peek inside Parquet files right from your terminal"
+homepage = "https://github.com/kaushiksrini/parqeye"
+
+[source]
+url = "https://github.com/kaushiksrini/parqeye/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "142fb53d92be4f65888cd463b2bae52d0aa23fab12aad2fbb2ae059f69b9978d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libevent", "openssl@4"]
+
+[package]
+name = "memtier_benchmark"
+version = "2.6.1"
+description = "Redis and Memcache traffic generation and benchmarking tool"
+homepage = "https://github.com/redis/memtier_benchmark"
+
+[source]
+url = "https://github.com/redis/memtier_benchmark/archive/refs/tags/2.6.1.tar.gz"
+sha256 = "355ba99f511a45dc12edbffa963ed186b6a20554ace98dfcd72814565cf6eea7"
+
+[build]
+system = "autotools"

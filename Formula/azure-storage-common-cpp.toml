@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "azure-core-cpp", "openssl@4"]
+
+[package]
+name = "azure-storage-common-cpp"
+version = "0_1"
+description = "Provides common Azure Storage-related abstractions for Azure SDK"
+homepage = "https://github.com/Azure/azure-sdk-for-cpp/tree/main/sdk/storage/azure-storage-common"
+
+[source]
+url = "https://github.com/Azure/azure-sdk-for-cpp/archive/refs/tags/azure-storage-common_12.15.0.tar.gz"
+sha256 = "23a10c84418f6d8c07858277f3b8e7c7344008f1ab9eacabdc485fb0744903e5"
+
+[build]
+system = "cmake"

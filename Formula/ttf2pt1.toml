@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ttf2pt1"
+version = "3.4.4"
+description = "True Type Font to Postscript Type 1 converter"
+homepage = "https://ttf2pt1.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ttf2pt1/ttf2pt1/3.4.4/ttf2pt1-3.4.4.tgz"
+sha256 = "ae926288be910073883b5c8a3b8fc168fde52b91199fdf13e92d72328945e1d0"
+
+[build]
+system = "autotools"

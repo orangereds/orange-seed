@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fileicon"
+version = "0.3.5"
+description = "macOS CLI for managing custom icons for files and folders"
+homepage = "https://github.com/mklement0/fileicon"
+
+[source]
+url = "https://github.com/mklement0/fileicon/archive/refs/tags/v0.3.5.tar.gz"
+sha256 = "e0b64fb5ead02dc74fb097948aaca2931e61064e8177801b08a6b57d263cda7e"
+
+[build]
+system = "autotools"

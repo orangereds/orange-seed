@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "acme.sh"
+version = "3.1.7"
+description = "ACME client"
+homepage = "https://github.com/acmesh-official/acme.sh"
+
+[source]
+url = "https://github.com/acmesh-official/acme.sh/archive/refs/tags/3.1.7.tar.gz"
+sha256 = "1b674f31aab8844e0ed770d4a5907a777d259f58b476c5f9334cc846832081e7"
+
+[build]
+system = "autotools"

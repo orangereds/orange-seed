@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bootterm"
+version = "0.5"
+description = "Simple, reliable and powerful terminal to ease connection to serial ports"
+homepage = "https://github.com/wtarreau/bootterm"
+
+[source]
+url = "https://github.com/wtarreau/bootterm/archive/refs/tags/v0.5.tar.gz"
+sha256 = "95cc154236655082fb60e8cdae15823e4624e108b8aead59498ac8f2263295ad"
+
+[build]
+system = "make"

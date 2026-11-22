@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "ittapi"
+version = "3.28.4"
+description = "Intel Instrumentation and Tracing Technology (ITT) and Just-In-Time (JIT) API"
+homepage = "https://github.com/intel/ittapi"
+
+[source]
+url = "https://github.com/intel/ittapi/archive/refs/tags/v3.28.4.tar.gz"
+sha256 = "70572732cdf41c2625fe18c8f3d4f71533b114cb6889fba18495422973560ca3"
+
+[build]
+system = "cmake"

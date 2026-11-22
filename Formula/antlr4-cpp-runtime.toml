@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "antlr4-cpp-runtime"
+version = "4.13.2-source_1"
+description = "ANother Tool for Language Recognition C++ Runtime Library"
+homepage = "https://www.antlr.org/"
+
+[source]
+url = "https://www.antlr.org/download/antlr4-cpp-runtime-4.13.2-source.zip"
+sha256 = "0ed13668906e86dbc0dcddf30fdee68c10203dea4e83852b4edb810821bee3c4"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "openjdk"]
+
+[package]
+name = "jvm-mon"
+version = "1.4"
+description = "Console-based JVM monitoring"
+homepage = "https://ajermakovics.github.io/jvm-mon/"
+
+[source]
+url = "https://github.com/ajermakovics/jvm-mon/archive/refs/tags/1.4.tar.gz"
+sha256 = "1fda84dbb8e848c1fe6046468a290ac53fcfeb147db8585d9f4ea2ecbdec0058"
+
+[build]
+system = "autotools"

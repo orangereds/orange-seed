@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zplug"
+version = "2.4.2"
+description = "Next-generation plugin manager for zsh"
+homepage = "https://github.com/zplug/zplug/"
+
+[source]
+url = "https://github.com/zplug/zplug/archive/refs/tags/2.4.2.tar.gz"
+sha256 = "82a51e8c388844acbfb64196623bede07eee2384f1fc30966eac880373aa9030"
+
+[build]
+system = "autotools"

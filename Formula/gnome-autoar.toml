@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "gtk+3", "libarchive", "at-spi2-core", "cairo", "gdk-pixbuf", "gettext", "harfbuzz", "pango"]
+
+[package]
+name = "gnome-autoar"
+version = "0.5.2"
+description = "GNOME library for archive handling"
+homepage = "https://github.com/GNOME/gnome-autoar"
+
+[source]
+url = "https://download.gnome.org/sources/gnome-autoar/0.5/gnome-autoar-0.5.2.tar.xz"
+sha256 = "6c20bd16c87aba15869e56444424481f632ac302989a203e8ce4dcc73dea33a5"
+
+[build]
+system = "autotools"

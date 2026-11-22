@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "openapi-tui"
+version = "0.10.2"
+description = "TUI to list, browse and run APIs defined with openapi spec"
+homepage = "https://github.com/zaghaghi/openapi-tui"
+
+[source]
+url = "https://github.com/zaghaghi/openapi-tui/archive/refs/tags/0.10.2.tar.gz"
+sha256 = "e9ca7bc160ca6fdf50f7534318589fcb725564c05b81f40742e37a422f35a191"
+
+[build]
+system = "autotools"

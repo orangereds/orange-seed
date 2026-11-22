@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+", "gtkglext", "pango", "at-spi2-core", "gettext", "harfbuzz"]
+
+[package]
+name = "gabedit"
+version = "2.5.1_1"
+description = "GUI to computational chemistry packages like Gamess-US, Gaussian, etc."
+homepage = "https://gabedit.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gabedit/gabedit/Gabedit251/GabeditSrc251.tar.gz"
+sha256 = "efcb00151af383f662d535a7a36a2b0ed2f14c420861a28807feaa9e938bff9e"
+
+[build]
+system = "autotools"

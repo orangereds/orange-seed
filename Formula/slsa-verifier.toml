@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "slsa-verifier"
+version = "2.7.1"
+description = "Verify provenance from SLSA compliant builders"
+homepage = "https://github.com/slsa-framework/slsa-verifier"
+
+[source]
+url = "https://github.com/slsa-framework/slsa-verifier/archive/refs/tags/v2.7.1.tar.gz"
+sha256 = "19af322eb0ae0cb738f8e2395b3dcff756537277d62688fc9d2b4fc5ad6b16e4"
+
+[build]
+system = "autotools"

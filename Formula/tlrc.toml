@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tlrc"
+version = "1.13.1"
+description = "Official tldr client written in Rust"
+homepage = "https://tldr.sh/tlrc/"
+
+[source]
+url = "https://github.com/tldr-pages/tlrc/archive/refs/tags/v1.13.1.tar.gz"
+sha256 = "4b85b85c0299ae2ae6b78d2d52b2e597e1441da24b579034780663e33ccc85fc"
+
+[build]
+system = "autotools"

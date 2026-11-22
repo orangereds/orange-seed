@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "havn"
+version = "0.3.10"
+description = "Fast configurable port scanner with reasonable defaults"
+homepage = "https://github.com/mrjackwills/havn"
+
+[source]
+url = "https://github.com/mrjackwills/havn/archive/refs/tags/v0.3.10.tar.gz"
+sha256 = "3706e7c986cb5641ddd20e66d743ae8d978c7b8fd37075644a07e592fb991746"
+
+[build]
+system = "autotools"

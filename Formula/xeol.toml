@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "xeol"
+version = "0.10.8"
+description = "Xcanner for end-of-life software in container images, filesystems, and SBOMs"
+homepage = "https://www.xeol.io/"
+
+[source]
+url = "https://github.com/xeol-io/xeol/archive/refs/tags/v0.10.8.tar.gz"
+sha256 = "d26842a3ef75feef22270db4250d16d106e7f9d3ac5f4300ede1b6fc795cdaeb"
+
+[build]
+system = "autotools"

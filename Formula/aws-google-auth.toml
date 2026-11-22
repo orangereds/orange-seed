@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "pillow", "python@3.15"]
+
+[package]
+name = "aws-google-auth"
+version = "0.0.38_26"
+description = "Acquire AWS credentials using Google Apps"
+homepage = "https://github.com/cevoaustralia/aws-google-auth"
+
+[source]
+url = "https://files.pythonhosted.org/packages/32/4c/3a1dd1781c9d3bb4a85921b3d3e6e32fc0f0bad61ace6a8e1bd1a59c5ba0/aws-google-auth-0.0.38.tar.gz"
+sha256 = "7a044636df2f0ce6ceb01f8f57aba0b6a79ae58a91bef788b0ccc6474914e8ee"
+
+[build]
+system = "autotools"

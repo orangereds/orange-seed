@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "jbigkit"
+version = "2.2"
+description = "JBIG1 data compression standard implementation"
+homepage = "https://www.cl.cam.ac.uk/~mgk25/jbigkit/"
+
+[source]
+url = "https://www.cl.cam.ac.uk/~mgk25/jbigkit/download/jbigkit-2.2.tar.gz"
+sha256 = "3302109c93b7befbffa3cfe8bceb4355f19dea0ee7dcb5f33710b1648bf6645c"
+
+[build]
+system = "autotools"

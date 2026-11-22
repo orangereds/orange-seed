@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "doltlite"
+version = "0"
+description = "SQLite fork with Git-style version control via prolly trees"
+homepage = "https://github.com/dolthub/doltlite"
+
+[source]
+url = "https://github.com/dolthub/doltlite/releases/download/v0.51.15/doltlite-autoconf-0.51.15.tar.gz"
+sha256 = "d8553a2bfebedaee5ac1db55bd3c2a2cfa5ba62db8c25ec1f3452ba52df995bf"
+
+[build]
+system = "autotools"

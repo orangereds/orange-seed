@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aliyun-cli"
+version = "9e2d20e1390a84f69e919ebfdc20c99b964fde1e"
+description = "Universal Command-Line Interface for Alibaba Cloud"
+homepage = "https://github.com/aliyun/aliyun-cli"
+
+[source]
+url = "https://github.com/aliyun/aliyun-cli/archive/refs/tags/v3.5.4.tar.gz"
+sha256 = "c90668829297568aca9ab43cf0af2957155ab44f224f9cd84173275d2a204c92"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "netris"
+version = "0.52.orig"
+description = "Networked variant of tetris"
+homepage = "https://packages.debian.org/sid/netris"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/n/netris/netris_0.52.orig.tar.gz"
+sha256 = "8bc770ebb2c3ead1611ca7a1a2f3d833e169536c78d53b3fcf49381164ee9706"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "ffmpeg", "python@3.15", "rtmpdump"]
+
+[package]
+name = "yle-dl"
+version = "0"
+description = "Download Yle videos from the command-line"
+homepage = "https://aajanki.github.io/yle-dl/index-en.html"
+
+[source]
+url = "https://files.pythonhosted.org/packages/03/7b/a8bb4db61ec4736c2f09397382090601c160eaff766f743a0d9ce8fd1ac6/yle_dl-20261106.tar.gz"
+sha256 = "924f0e49650f47d6753d819bd10fc7dd8fef8ae7019bbaafdbc3a59087db2797"
+
+[build]
+system = "autotools"

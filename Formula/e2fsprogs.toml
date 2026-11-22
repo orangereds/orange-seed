@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gettext"]
+
+[package]
+name = "e2fsprogs"
+version = "1.47.4"
+description = "Utilities for the ext2, ext3, and ext4 file systems"
+homepage = "https://e2fsprogs.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/e2fsprogs/e2fsprogs/v1.47.4/e2fsprogs-1.47.4.tar.gz"
+sha256 = "2cec05f39c20ee621f14926195664e66e6017190ac8e4bbdb16d86082e43c5da"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

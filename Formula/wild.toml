@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "binutils"]
+
+[package]
+name = "wild"
+version = "0.11.0"
+description = "Very fast linker for Linux"
+homepage = "https://github.com/wild-linker/wild"
+
+[source]
+url = "https://github.com/wild-linker/wild/archive/refs/tags/0.11.0.tar.gz"
+sha256 = "34d0c66c70b3c4744c548b2b821180d2d578b86eb747cb4a9ed1f4b11a95b337"
+
+[build]
+system = "autotools"

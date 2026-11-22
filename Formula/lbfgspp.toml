@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen"]
+
+[package]
+name = "lbfgspp"
+version = "0.4.0_1"
+description = "Header-only C++ library for L-BFGS and L-BFGS-B algorithms"
+homepage = "https://lbfgspp.statr.me/"
+
+[source]
+url = "https://github.com/yixuan/LBFGSpp/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "39c4aaebd8b94ccdc98191d51913a31cddd618cc0869d99f07a4b6da83ca6254"
+
+[build]
+system = "cmake"

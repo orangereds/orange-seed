@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "numpy", "python@3.15", "sdl2-compat"]
+
+[package]
+name = "arcade-learning-environment"
+version = "00046ac3403768bfe45857610a3d333b8e35e026"
+description = "Platform for AI research"
+homepage = "https://github.com/Farama-Foundation/Arcade-Learning-Environment"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3e/e8/e69da8a5fb5feafa9fffb32ed8c2b306b7571b77faf779f61e4eb53304ec/ale_py-0.12.1.tar.gz"
+sha256 = "c503d574c5983e1063b451201ccb779d935919c0f6bf116fb0f4f8aa4c86d249"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "libxrender", "xorgproto"]
+
+[package]
+name = "libxrandr"
+version = "0"
+description = "X.Org: X Resize, Rotate and Reflection extension library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXrandr-1.5.5.tar.xz"
+sha256 = "72b922c2e765434e9e9f0960148070bd4504b288263e2868a4ccce1b7cf2767a"
+
+[build]
+system = "autotools"

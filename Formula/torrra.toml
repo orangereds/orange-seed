@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libtorrent-rasterbar", "python@3.15"]
+
+[package]
+name = "torrra"
+version = "2.6.1"
+description = "Find and download torrents without leaving your CLI"
+homepage = "https://torrra.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9d/c6/b4cfa31a61bd4e4e1755f7471b6390f45352d2b921d54681dd5ae31b3b1e/torrra-2.6.1.tar.gz"
+sha256 = "ee802e9480dea9f296a26ff44aab777445426a004612606f2c842f3a85af3843"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.10", "tcl-tk@8"]
+
+[package]
+name = "python-tk@3.10"
+version = "0"
+description = "Python interface to Tcl/Tk"
+homepage = "https://www.python.org/"
+
+[source]
+url = "https://www.python.org/ftp/python/3.10.22/Python-3.10.22.tgz"
+sha256 = "9448b34d16f8e3db0964ac3ed9fb283197747543c2c021f283ffd2c8b7287357"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

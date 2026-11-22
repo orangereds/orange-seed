@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yamlfmt"
+version = "0.21.0"
+description = "Extensible command-line tool to format YAML files"
+homepage = "https://github.com/google/yamlfmt"
+
+[source]
+url = "https://github.com/google/yamlfmt/archive/refs/tags/v0.21.0.tar.gz"
+sha256 = "9ec915d70e527a94171eaaf6b785d1423222b5b82e7633f80dcc6b66e6a655aa"
+
+[build]
+system = "autotools"

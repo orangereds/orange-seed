@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "maven"
+version = "0"
+description = "Java-based project management"
+homepage = "https://maven.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=maven/maven-3/3.10.1/binaries/apache-maven-3.10.1-bin.tar.gz"
+sha256 = "810b8348f0a40f9116c202093fae007ebeabf67699bf34d81ee7e272289e085a"
+
+[build]
+system = "autotools"

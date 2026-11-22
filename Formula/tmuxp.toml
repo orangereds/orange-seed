@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15", "tmux"]
+
+[package]
+name = "tmuxp"
+version = "1.76.0"
+description = "Tmux session manager. Built on libtmux"
+homepage = "https://tmuxp.git-pull.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/59/4f/8ce51b546f6d528003e7cc20024b394b6db1261a954d4a757bbb0901da9a/tmuxp-1.76.0.tar.gz"
+sha256 = "aedad329c5934e9380eecf43e4a9372f4f87cab640c9695105e1e91c9daec96f"
+
+[build]
+system = "autotools"

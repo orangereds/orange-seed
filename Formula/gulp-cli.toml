@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gulp-cli"
+version = "3.1.0"
+description = "Command-line utility for Gulp"
+homepage = "https://github.com/gulpjs/gulp-cli"
+
+[source]
+url = "https://registry.npmjs.org/gulp-cli/-/gulp-cli-3.1.0.tgz"
+sha256 = "683fa88d8d15b49a8adf760f25e4e46f068f1e065fe234e1199b27fe6bf0376e"
+
+[build]
+system = "autotools"

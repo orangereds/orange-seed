@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libcpucycles"
+version = "20260901"
+description = "Microlibrary for counting CPU cycles"
+homepage = "https://cpucycles.cr.yp.to/"
+
+[source]
+url = "https://cpucycles.cr.yp.to/libcpucycles-20260901.tar.gz"
+sha256 = "c914c7275952ed00bb188e1170409c83b61abfd0b828cdb2b5a87275be43344e"
+
+[build]
+system = "autotools"

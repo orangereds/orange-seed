@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "json-c", "lua"]
+
+[package]
+name = "tracebox"
+version = "0_4"
+description = "Middlebox detection tool"
+homepage = "https://github.com/tracebox/tracebox"
+
+[source]
+url = "https://github.com/tracebox/tracebox.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

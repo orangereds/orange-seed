@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ecl", "zstd"]
+
+[package]
+name = "sbcl"
+version = "2.6.10-source"
+description = "Steel Bank Common Lisp system"
+homepage = "https://www.sbcl.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sbcl/sbcl/2.6.10/sbcl-2.6.10-source.tar.bz2"
+sha256 = "c23eac1d0aa9ae0add7eb741f3c91b816f5ce216147f37b99da1578e5261b17c"
+
+[build]
+system = "autotools"

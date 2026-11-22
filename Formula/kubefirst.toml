@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubefirst"
+version = "2.10.5"
+description = "GitOps Infrastructure & Application Delivery Platform for kubernetes"
+homepage = "https://kubefirst.konstruct.io/docs/"
+
+[source]
+url = "https://github.com/konstructio/kubefirst/archive/refs/tags/v2.10.5.tar.gz"
+sha256 = "91112d5f07bdcfdb4f85a9da79968f6dc9c2d352d03a50b275f3fdd06b9f8364"
+
+[build]
+system = "autotools"

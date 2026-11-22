@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "util-macros", "zlib-ng-compat"]
+
+[package]
+name = "libpciaccess"
+version = "0.19"
+description = "Generic PCI access library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://www.x.org/pub/individual/lib/libpciaccess-0.19.tar.xz"
+sha256 = "3c55aa86c82e54a4e3109786f0463530d53b36b6d1cfd14616454f985dd2aa43"
+
+[build]
+system = "autotools"

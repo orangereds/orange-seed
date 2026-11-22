@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "lld@19", "llvm@19", "zstd"]
+
+[package]
+name = "zig@0.14"
+version = "0"
+description = "Programming language designed for robustness, optimality, and clarity"
+homepage = "https://ziglang.org/"
+
+[source]
+url = "https://ziglang.org/download/0.14.1/zig-0.14.1.tar.xz"
+sha256 = "237f8abcc8c3fd68c70c66cdbf63dce4fb5ad4a2e6225ac925e3d5b4c388f203"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

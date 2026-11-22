@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nkf"]
+
+[package]
+name = "cmigemo"
+version = "0"
+description = "Migemo is a tool that supports Japanese incremental search with Romaji"
+homepage = "https://www.kaoriya.net/software/cmigemo"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cmigemo/cmigemo-default-src-20110227.zip"
+sha256 = "4aa759b2e055ef3c3fbeb9e92f7f0aacc1fd1f8602fdd2f122719793ee14414c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "legit"
+version = "1.2.0.post0_17"
+description = "Command-line interface for Git, optimized for workflow simplicity"
+homepage = "https://frostming.github.io/legit/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/cb/e4/8cc5904c486241bf2edc4dd84f357fa96686dc85f48eedb835af65f821bf/legit-1.2.0.post0.tar.gz"
+sha256 = "949396b68029a8af405ab20c901902341ef6bd55c7fec6dab71141d63d406b11"
+
+[build]
+system = "autotools"

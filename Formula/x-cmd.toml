@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "x-cmd"
+version = "0.10.14"
+description = "Bootstrap 1000+ command-line tools in seconds"
+homepage = "https://x-cmd.com"
+
+[source]
+url = "https://github.com/x-cmd/x-cmd/archive/refs/tags/v0.10.14.tar.gz"
+sha256 = "6940eba3bf4306d4b9f463567973fb073097f7d2a5b936d1b6a295bd83f65409"
+
+[build]
+system = "autotools"

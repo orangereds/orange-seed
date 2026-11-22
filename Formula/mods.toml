@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mods"
+version = "1.8.1"
+description = "AI on the command-line"
+homepage = "https://github.com/charmbracelet/mods"
+
+[source]
+url = "https://github.com/charmbracelet/mods/archive/refs/tags/v1.8.1.tar.gz"
+sha256 = "e16268ce55b9c90395116c2c8ce4d820d18d7f0b05430d64dc69686410776231"
+
+[build]
+system = "autotools"

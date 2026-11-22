@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pyp"
+version = "0"
+description = "Easily run Python at the shell! Magical, but never mysterious"
+homepage = "https://github.com/hauntsaninja/pyp"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0c/65/c275ff380e4412438577eab23810dd7a1ba2cf54a6ba558a3d22cf0fb68b/pypyp-1.3.0.tar.gz"
+sha256 = "97c78f8fd6d4550bf67bb5001a4c5c1fa58184d9bd8256abac3e240fa38aa05c"
+
+[build]
+system = "autotools"

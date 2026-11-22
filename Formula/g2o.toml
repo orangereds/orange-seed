@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen"]
+
+[package]
+name = "g2o"
+version = "20241228_1"
+description = "General framework for graph optimization"
+homepage = "https://openslam-org.github.io/g2o.html"
+
+[source]
+url = "https://github.com/RainerKuemmerle/g2o/archive/refs/tags/20241228_git.tar.gz"
+sha256 = "d691ead69184ebbb8256c9cd9f4121d1a880b169370efc0554dd31a64802a452"
+
+[build]
+system = "cmake"

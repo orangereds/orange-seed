@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pyenv"]
+
+[package]
+name = "pyenv-virtualenvwrapper"
+version = "20140609"
+description = "Alternative to pyenv for managing virtualenvs"
+homepage = "https://github.com/pyenv/pyenv-virtualenvwrapper"
+
+[source]
+url = "https://github.com/pyenv/pyenv-virtualenvwrapper/archive/refs/tags/v20140609.tar.gz"
+sha256 = "c1c812c4954394c58628952654ba745c4fb814d045adc076f7fb9e310bed03bf"
+
+[build]
+system = "autotools"

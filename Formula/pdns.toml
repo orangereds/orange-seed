@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "ragel", "pkgconf", "boost", "lua", "openssl@4", "sqlite"]
+
+[package]
+name = "pdns"
+version = "5.1.5"
+description = "Authoritative nameserver"
+homepage = "https://www.powerdns.com"
+
+[source]
+url = "https://downloads.powerdns.com/releases/pdns-5.1.5.tar.bz2"
+sha256 = "7b670653ccd72be30d973bbdd349c4505beda1b87b842af702a341fa6837f8aa"
+
+[service]
+run = "pdns_server"
+keep_alive = true
+
+[build]
+system = "autotools"

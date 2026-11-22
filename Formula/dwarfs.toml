@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "googletest", "pkgconf", "boost", "brotli", "flac", "fmt", "howard-hinnant-date", "libarchive", "lz4", "nlohmann-json", "openssl@4", "parallel-hashmap", "range-v3", "utf8cpp", "xxhash", "xz", "zstd", "llvm"]
+
+[package]
+name = "dwarfs"
+version = "0.15.10"
+description = "Fast high compression read-only file system for Linux, Windows, and macOS"
+homepage = "https://github.com/mhx/dwarfs"
+
+[source]
+url = "https://github.com/mhx/dwarfs/releases/download/v0.15.10/dwarfs-0.15.10.tar.xz"
+sha256 = "036109bc210b5afa593a005f798918aacdd412a3d9dbf703bed2e70477454027"
+
+[build]
+system = "cmake"

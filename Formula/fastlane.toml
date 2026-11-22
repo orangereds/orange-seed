@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby", "terminal-notifier"]
+
+[package]
+name = "fastlane"
+version = "2.242.0"
+description = "Easiest way to build and release mobile apps"
+homepage = "https://fastlane.tools"
+
+[source]
+url = "https://github.com/fastlane/fastlane/archive/refs/tags/2.242.0.tar.gz"
+sha256 = "a6203b67db358e056bc7ba214949db522eac57cedaee66bde3d877f3d215e6de"
+
+[build]
+system = "autotools"

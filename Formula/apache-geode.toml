@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "apache-geode"
+version = "0"
+description = "In-memory Data Grid for fast transactional data processing"
+homepage = "https://geode.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=geode/2.0.4/apache-geode-2.0.4.tgz"
+sha256 = "00b56b41a35726eac2ca0273b0a761a613e96552329a5c43afc97915da91366e"
+
+[build]
+system = "autotools"

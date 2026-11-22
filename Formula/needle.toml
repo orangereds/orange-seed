@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "needle"
+version = "0.25.1"
+description = "Compile-time safe Swift dependency injection framework with real code"
+homepage = "https://github.com/uber/needle"
+
+[source]
+url = "https://github.com/uber/needle/archive/refs/tags/v0.25.1.tar.gz"
+sha256 = "b9cf878b0ce9589e862ec5aa8ba3222e181ecbe038369989d2ee9d9c80157fbb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libimobiledevice-glue", "libplist"]
+
+[package]
+name = "libusbmuxd"
+version = "2.1.1_1"
+description = "USB multiplexor library for iOS devices"
+homepage = "https://www.libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/libusbmuxd/releases/download/2.1.1/libusbmuxd-2.1.1.tar.bz2"
+sha256 = "5546f1aba1c3d1812c2b47d976312d00547d1044b84b6a461323c621f396efce"
+
+[build]
+system = "autotools"

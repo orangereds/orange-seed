@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "xz"]
+
+[package]
+name = "ubi"
+version = "0.13.0"
+description = "Universal Binary Installer"
+homepage = "https://github.com/houseabsolute/ubi"
+
+[source]
+url = "https://github.com/houseabsolute/ubi/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "bb4c14fd505c55443038fc3ef224b56e84a7730eb754ded6322d8b5521b97bda"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libftdi", "libusb"]
+
+[package]
+name = "openfpgaloader"
+version = "1.2.0"
+description = "Universal utility for programming FPGA"
+homepage = "https://trabucayre.github.io/openFPGALoader/"
+
+[source]
+url = "https://github.com/trabucayre/openFPGALoader/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "f75e9896bd8c6310f98ecd629ed260ecaa83329c31e0f8f831b07531aa64d30a"
+
+[build]
+system = "cmake"

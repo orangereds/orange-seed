@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml"]
+
+[package]
+name = "ocaml-findlib"
+version = "0_6"
+description = "OCaml library manager"
+homepage = "http://projects.camlcity.org/projects/findlib.html"
+
+[source]
+url = "https://github.com/ocaml/ocamlfind/archive/refs/tags/findlib-1.9.8.tar.gz"
+sha256 = "d6899935ccabf67f067a9af3f3f88d94e310075d13c648fa03ff498769ce039d"
+
+[build]
+system = "autotools"

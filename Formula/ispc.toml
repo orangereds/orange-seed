@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "flex", "llvm"]
+
+[package]
+name = "ispc"
+version = "1.32.0"
+description = "Compiler for SIMD programming on the CPU"
+homepage = "https://ispc.github.io"
+
+[source]
+url = "https://github.com/ispc/ispc/archive/refs/tags/v1.32.0.tar.gz"
+sha256 = "705b818062602a0c6b62965a8aa011508ef7f9decce716cf1645f2b04ba1e9f8"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "ringojs"
+version = "4.1.0"
+description = "CommonJS-based JavaScript runtime"
+homepage = "https://ringojs.org"
+
+[source]
+url = "https://github.com/ringo/ringojs/releases/download/v4.1.0/ringojs-4.1.0.tar.gz"
+sha256 = "298fe66f4de3af5bb2971a16c9d6648ab3ee39fed211160802b75901693d8f43"
+
+[build]
+system = "autotools"

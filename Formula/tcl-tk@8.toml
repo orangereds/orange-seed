@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3"]
+
+[package]
+name = "tcl-tk@8"
+version = "0"
+description = "Tool Command Language"
+homepage = "https://www.tcl-lang.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tcl/Tcl/8.6.18/tcl8.6.18-src.tar.gz"
+sha256 = "14f9af32b1767ff718477a8f974ad03c34341097e6b43f4ce54644ee974e268e"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

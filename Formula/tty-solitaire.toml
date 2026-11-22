@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tty-solitaire"
+version = "1.4.1"
+description = "Ncurses-based klondike solitaire game"
+homepage = "https://github.com/mpereira/tty-solitaire"
+
+[source]
+url = "https://github.com/mpereira/tty-solitaire/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "8eb536a87f0586e1f057a3aa05256df34cbd92a3e22545d1df2f945e27d89db2"
+
+[build]
+system = "make"

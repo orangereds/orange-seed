@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pgrok"
+version = "1.8.0"
+description = "Poor man's ngrok, multi-tenant HTTP/TCP reverse tunnel solution"
+homepage = "https://github.com/pgrok/pgrok"
+
+[source]
+url = "https://github.com/pgrok/pgrok/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "16756e5b7c7e1a02e8deed679dd3c01807aa323457a2d72e943829c2cfe799c7"
+
+[build]
+system = "autotools"

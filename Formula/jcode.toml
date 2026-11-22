@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust"]
+
+[package]
+name = "jcode"
+version = "1.0.2"
+description = "AI coding agent harness for the terminal"
+homepage = "https://jcode.sh"
+
+[source]
+url = "https://github.com/1jehuang/jcode/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "c1e09e34ca0f3bd4d179326fe151cf03c85c6fc843096f454b8383a7eb6e0383"
+
+[build]
+system = "autotools"

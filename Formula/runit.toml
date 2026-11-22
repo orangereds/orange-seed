@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "runit"
+version = "2.3.1"
+description = "Collection of tools for managing UNIX services"
+homepage = "https://smarden.org/runit/"
+
+[source]
+url = "https://smarden.org/runit/runit-2.3.1.tar.gz"
+sha256 = "634f23c8c4d1d440043be0fe928ddf904626289e97bfe7c5826e93aaf2cc6fe9"
+
+[service]
+run = "opt/runit/bin/runsvdir -P var/service"
+keep_alive = true
+log_path = "var/log/runit.log"
+error_log_path = "var/log/runit.log"
+
+[service.env]
+PATH = "/usr/bin:/bin:/usr/sbin:/sbin:#{opt_bin}"
+
+[build]
+system = "autotools"

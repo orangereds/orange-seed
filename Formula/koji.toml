@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "koji"
+version = "3.4.0"
+description = "Interactive CLI for creating conventional commits"
+homepage = "https://github.com/cococonscious/koji"
+
+[source]
+url = "https://github.com/cococonscious/koji/archive/refs/tags/v3.4.0.tar.gz"
+sha256 = "3d428fe87cb163128b79730d396ae42f408ea1a035e11174de0ac84e63469639"
+
+[build]
+system = "autotools"

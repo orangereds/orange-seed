@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "glib", "gtk+3", "at-spi2-core", "cairo", "gdk-pixbuf", "gettext", "harfbuzz", "pango"]
+
+[package]
+name = "libgedit-amtk"
+version = "5.11.0"
+description = "Actions, Menus and Toolbars Kit for GTK applications"
+homepage = "https://gedit-technology.net"
+
+[source]
+url = "https://gitlab.gnome.org/World/gedit/libgedit-amtk/-/archive/5.11.0/libgedit-amtk-5.11.0.tar.bz2"
+sha256 = "eda52600fc2e8b49f98fe974397a75e0286d744e09446b13e631202e99ca536e"
+
+[build]
+system = "autotools"

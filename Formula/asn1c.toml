@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "asn1c"
+version = "0.9.29"
+description = "Compile ASN.1 specifications into C source code"
+homepage = "https://lionet.info/asn1c/blog"
+
+[source]
+url = "https://github.com/vlm/asn1c/releases/download/v0.9.29/asn1c-0.9.29.tar.gz"
+sha256 = "a8b7b60475357285ac7250f0f3452d0c7555abffa50e1226a0a671df715cc9ff"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gnmic"
+version = "0.49.1"
+description = "GNMI CLI client and collector"
+homepage = "https://gnmic.openconfig.net"
+
+[source]
+url = "https://github.com/openconfig/gnmic/archive/refs/tags/v0.49.1.tar.gz"
+sha256 = "4f3ad40acb2fc4643eecbd4f0feb3b979f9b1139ff492aeb90dc02c309012c5c"
+
+[build]
+system = "autotools"

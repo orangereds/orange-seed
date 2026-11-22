@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "rust", "zig@0.16", "ripgrep"]
+
+[package]
+name = "opencode"
+version = "ab0b9da9e88fcb4b0533a1854e84628f663930af"
+description = "AI coding agent, built for the terminal"
+homepage = "https://opencode.ai"
+
+[source]
+url = "https://github.com/anomalyco/opencode/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "de809cbf853ad98374961c525bd124e3e86bd285264b69fae53943a6e2dcdd5d"
+
+[build]
+system = "autotools"

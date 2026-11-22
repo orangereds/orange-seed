@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "gcc", "jpeg-turbo", "libpng", "libx11", "openblas", "pcre2", "readline", "tcl-tk", "xz", "zstd", "brotli", "fontconfig", "freetype", "gettext", "libxau", "libxcb", "libxdmcp", "libxext", "libxrender", "pixman"]
+
+[package]
+name = "r"
+version = "0"
+description = "Software environment for statistical computing"
+homepage = "https://www.r-project.org/"
+
+[source]
+url = "https://cran.r-project.org/src/base/R-4/R-4.6.2.tar.gz"
+sha256 = "c297040f6392b1dac6e5c0eb398422cfdaedf540ae2205edb9ad0d10cb10ee00"
+
+[build]
+system = "autotools"

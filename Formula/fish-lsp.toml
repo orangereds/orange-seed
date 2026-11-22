@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fish", "node"]
+
+[package]
+name = "fish-lsp"
+version = "1.1.5"
+description = "LSP implementation for the fish shell language"
+homepage = "https://www.fish-lsp.dev"
+
+[source]
+url = "https://registry.npmjs.org/fish-lsp/-/fish-lsp-1.1.5.tgz"
+sha256 = "2fa71212c2e0eefae779c97a596f760db008a08878758887e37c86513fe83258"
+
+[build]
+system = "autotools"

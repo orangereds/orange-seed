@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libmodbus"]
+
+[package]
+name = "mbpoll"
+version = "1.5.4"
+description = "Command-line utility to communicate with ModBus slave (RTU or TCP)"
+homepage = "https://epsilonrt.fr"
+
+[source]
+url = "https://github.com/epsilonrt/mbpoll/archive/refs/tags/v1.5.4.tar.gz"
+sha256 = "a9bcc3afa3b85b3794505d07827873ead280d96a94769d236892eb8a4fb9956f"
+
+[build]
+system = "cmake"

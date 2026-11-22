@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["qttools", "qtbase", "qtsvg"]
+
+[package]
+name = "qwt"
+version = "6.3.0"
+description = "Qt Widgets for Technical Applications"
+homepage = "https://qwt.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/qwt/qwt/6.3.0/qwt-6.3.0.tar.bz2"
+sha256 = "dcb085896c28aaec5518cbc08c0ee2b4e60ada7ac929d82639f6189851a6129a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "qtshadertools", "pkgconf", "qtbase", "qtdeclarative"]
+
+[package]
+name = "qtcanvaspainter"
+version = "0_1"
+description = "Accelerated 2D painting solution for Qt Quick and QRhi-based render targets"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtcanvaspainter-everywhere-src-6.12.0.tar.xz"
+sha256 = "09c0747c3bef7c58e3154346ca5fe2702ab09f7ad4083243e6d20307245119e2"
+
+[build]
+system = "cmake"

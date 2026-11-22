@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tml"
+version = "0.7.1"
+description = "Tiny markup language for terminal output"
+homepage = "https://github.com/liamg/tml"
+
+[source]
+url = "https://github.com/liamg/tml/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "45824c36e810c568365d7f04c69900a0ef1abb46644f94a054cfe2d160999320"
+
+[build]
+system = "autotools"

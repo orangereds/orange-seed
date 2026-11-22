@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk"]
+
+[package]
+name = "orientdb"
+version = "0"
+description = "Graph database"
+homepage = "https://orientdb.dev"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=com/orientechnologies/orientdb-community/3.2.58/orientdb-community-3.2.58.zip"
+sha256 = "1be8bb574ea2ad54e9f2bed378445178a9be5f921f5292d3a4aadc7f5d667b39"
+
+[service]
+run = "opt/orientdb/libexec/bin/server.sh"
+keep_alive = true
+working_dir = "var/orientdb"
+log_path = "var/log/orientdb/sout.log"
+error_log_path = "var/log/orientdb/serror.log"
+
+[build]
+system = "autotools"

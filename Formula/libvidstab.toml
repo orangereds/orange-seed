@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "libvidstab"
+version = "1.1.2"
+description = "Transcode video stabilization plugin"
+homepage = "https://github.com/georgmartius/vid.stab"
+
+[source]
+url = "https://github.com/georgmartius/vid.stab/archive/refs/tags/v1.1.2.tar.gz"
+sha256 = "96db34d48a9e3aa13736a48744b56dfb76731ac9bb5193c716de8534c9fd709d"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "golines"
+version = "0.16.1"
+description = "Golang formatter that fixes long lines"
+homepage = "https://github.com/golangci/golines"
+
+[source]
+url = "https://github.com/golangci/golines/archive/refs/tags/v0.16.1.tar.gz"
+sha256 = "8cc653d7451b526edcc61b6dd51e7ac07815f6ba93c99a350495d97e02661ae0"
+
+[build]
+system = "autotools"

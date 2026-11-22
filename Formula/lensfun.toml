@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "glib", "libpng", "python@3.15", "gettext"]
+
+[package]
+name = "lensfun"
+version = "0.3.4"
+description = "Remove defects from digital images"
+homepage = "https://lensfun.github.io/"
+
+[source]
+url = "https://github.com/lensfun/lensfun/archive/refs/tags/v0.3.4.tar.gz"
+sha256 = "dafb39c08ef24a0e2abd00d05d7341b1bf1f0c38bfcd5a4c69cf5f0ecb6db112"
+
+[build]
+system = "autotools"

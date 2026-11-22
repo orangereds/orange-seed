@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bruno-cli"
+version = "0"
+description = "CLI of the open-source IDE For exploring and testing APIs"
+homepage = "https://www.usebruno.com/"
+
+[source]
+url = "https://registry.npmjs.org/@usebruno/cli/-/cli-4.3.0.tgz"
+sha256 = "d464781e90d014a9523a344f6ddf6846205a0ee7f8f3807ef6b97c93da30bcd1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "style-dictionary"
+version = "5.8.0"
+description = "Build system for creating cross-platform styles"
+homepage = "https://styledictionary.com"
+
+[source]
+url = "https://registry.npmjs.org/style-dictionary/-/style-dictionary-5.8.0.tgz"
+sha256 = "c5e4c89f6ed9ea1cc5058dc1586a107b93cd1a8cc8714542699b71c4e89acc19"
+
+[build]
+system = "autotools"

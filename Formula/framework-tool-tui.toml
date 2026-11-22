@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "systemd"]
+
+[package]
+name = "framework-tool-tui"
+version = "0.8.6"
+description = "TUI for controlling and monitoring Framework Computers hardware"
+homepage = "https://github.com/grouzen/framework-tool-tui"
+
+[source]
+url = "https://github.com/grouzen/framework-tool-tui/archive/refs/tags/v0.8.6.tar.gz"
+sha256 = "a648a5f2cb8c2c0312ea02a2ae8904353072a61d41d23207fc4cc0fb8212181f"
+
+[build]
+system = "autotools"

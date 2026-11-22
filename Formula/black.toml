@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "black"
+version = "26.10.1"
+description = "Python code formatter"
+homepage = "https://black.readthedocs.io/en/stable/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f8/65/a9611a6ec0a8c88d86e59385da02d68d9533f7e86a05913d20c67be54029/black-26.10.1.tar.gz"
+sha256 = "5f9f83beae62437e060dafd53d7f1fc327e3d3494f74d72ee5c2b73eb90fc4e7"
+
+[service]
+run = "opt/black/bin/blackd"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/blackd.log"
+error_log_path = "var/log/blackd.log"
+
+[build]
+system = "autotools"

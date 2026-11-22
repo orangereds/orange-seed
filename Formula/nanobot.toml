@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nanobot"
+version = "0.0.92"
+description = "Build MCP Agents"
+homepage = "https://www.nanobot.ai/"
+
+[source]
+url = "https://github.com/obot-platform/nanobot/archive/refs/tags/v0.0.92.tar.gz"
+sha256 = "1392bd7ac4e93ff25bb0e42c44416674f408ea698208bd11ae6664d3936b9a97"
+
+[build]
+system = "autotools"

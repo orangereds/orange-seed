@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bamtools", "boost", "htslib"]
+
+[package]
+name = "augustus"
+version = "3.5.0_13"
+description = "Predict genes in eukaryotic genomic sequences"
+homepage = "https://bioinf.uni-greifswald.de/augustus/"
+
+[source]
+url = "https://github.com/Gaius-Augustus/Augustus/archive/refs/tags/v3.5.0.tar.gz"
+sha256 = "5ed6ce6106303b800c5e91d37a250baff43b20824657b853ae04d11ad8bdd686"
+
+[build]
+system = "make"

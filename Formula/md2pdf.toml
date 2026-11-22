@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "md2pdf"
+version = "2.2.23"
+description = "CLI utility that generates PDF from Markdown"
+homepage = "https://github.com/solworktech/md2pdf"
+
+[source]
+url = "https://github.com/solworktech/md2pdf/archive/refs/tags/v2.2.23.tar.gz"
+sha256 = "ceddde22e16d70b018919759fbc393f91accacea748bcd3469f840535e33bd86"
+
+[build]
+system = "autotools"

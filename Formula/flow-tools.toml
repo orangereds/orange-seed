@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "flow-tools"
+version = "0.68.5.1"
+description = "Collect, send, process, and generate NetFlow data reports"
+homepage = "https://code.google.com/archive/p/flow-tools/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/flow-tools/flow-tools-0.68.5.1.tar.bz2"
+sha256 = "80bbd3791b59198f0d20184761d96ba500386b0a71ea613c214a50aa017a1f67"
+
+[build]
+system = "autotools"

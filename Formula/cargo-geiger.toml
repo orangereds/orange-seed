@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup", "openssl@4"]
+
+[package]
+name = "cargo-geiger"
+version = "0"
+description = "Detects usage of unsafe Rust in a Rust crate and its dependencies"
+homepage = "https://github.com/geiger-rs/cargo-geiger"
+
+[source]
+url = "https://github.com/geiger-rs/cargo-geiger/archive/refs/tags/geiger-0.14.0.tar.gz"
+sha256 = "60bc6aa6e0169aa9be755188fd42f496b92cf8fb3b6c9e9c1c10be48fe2ea82c"
+
+[build]
+system = "autotools"

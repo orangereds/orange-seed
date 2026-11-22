@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ptunnel"
+version = "0"
+description = "Tunnel over ICMP"
+homepage = "https://www.cs.uit.no/~daniels/PingTunnel/"
+
+[source]
+url = "https://www.cs.uit.no/~daniels/PingTunnel/PingTunnel-0.72.tar.gz"
+sha256 = "b318f7aa7d88918b6269d054a7e26f04f97d8870f47bd49a76cb2c99c73407a4"
+
+[build]
+system = "autotools"

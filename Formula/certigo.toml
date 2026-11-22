@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "certigo"
+version = "1.18.2"
+description = "Utility to examine and validate certificates in a variety of formats"
+homepage = "https://github.com/square/certigo"
+
+[source]
+url = "https://github.com/square/certigo/archive/refs/tags/v1.18.2.tar.gz"
+sha256 = "4beda5fff4fe99c6f69c7a5484cb92b9b10a209f1730ad593b4cd7b060a6ee27"
+
+[build]
+system = "autotools"

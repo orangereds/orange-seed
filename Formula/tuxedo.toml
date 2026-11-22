@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tuxedo"
+version = "2026.8.1"
+description = "Fast, keyboard-driven terminal UI for todo.txt"
+homepage = "https://github.com/webstonehq/tuxedo"
+
+[source]
+url = "https://github.com/webstonehq/tuxedo/archive/refs/tags/v2026.8.1.tar.gz"
+sha256 = "3135e38b61bdf12f751143b5f704ebd3b1ec6f25dd7625baeb7f7f30e56b13ea"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["breezy", "go@1.26"]
+
+[package]
+name = "charm"
+version = "2.5.2"
+description = "Tool for managing Juju Charms"
+homepage = "https://github.com/juju/charmstore-client"
+
+[source]
+url = "https://github.com/juju/charmstore-client/archive/refs/tags/v2.5.2.tar.gz"
+sha256 = "3dd52c9a463bc09bedb3a07eb0977711aec77611b9c0d7f40cd366a66aa2ca03"
+
+[build]
+system = "autotools"

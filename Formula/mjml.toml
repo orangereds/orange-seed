@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mjml"
+version = "5.4.1"
+description = "JavaScript framework that makes responsive-email easy"
+homepage = "https://mjml.io"
+
+[source]
+url = "https://registry.npmjs.org/mjml/-/mjml-5.4.1.tgz"
+sha256 = "8cb5e04d3ec9b9b150197a6d9933e17adc9736c8c773268261a57cd8692d00f4"
+
+[build]
+system = "autotools"

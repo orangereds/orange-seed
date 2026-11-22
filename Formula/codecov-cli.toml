@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "codecov-cli"
+version = "0"
+description = "Codecov's command-line interface"
+homepage = "https://cli.codecov.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f2/19/1367324bced99f812abb12258ea210aa15a35de424916fd2af6eea47da69/codecov_cli-11.3.2.tar.gz"
+sha256 = "efe8c3aad2fae8f1645d9498d56647e57acfc8f97bcb22167233f7f9f3dfb95b"
+
+[build]
+system = "autotools"

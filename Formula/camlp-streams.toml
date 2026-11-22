@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dune", "ocaml-findlib", "ocaml"]
+
+[package]
+name = "camlp-streams"
+version = "5.0.1_9"
+description = "Stream and Genlex libraries for use with Camlp4 and Camlp5"
+homepage = "https://github.com/ocaml/camlp-streams"
+
+[source]
+url = "https://github.com/ocaml/camlp-streams/archive/refs/tags/v5.0.1.tar.gz"
+sha256 = "ad71f62406e9bb4e7fb5d4593ede2af6c68f8b0d96f25574446e142c3eb0d9a4"
+
+[build]
+system = "autotools"

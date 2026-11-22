@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "groff"]
+
+[package]
+name = "ftnchek"
+version = "3.3.1"
+description = "Fortran 77 program checker"
+homepage = "https://www.dsm.fordham.edu/~ftnchek/"
+
+[source]
+url = "https://www.dsm.fordham.edu/~ftnchek/download/ftnchek-3.3.1.tar.gz"
+sha256 = "d92212dc0316e4ae711f7480d59e16095c75e19aff6e0095db2209e7d31702d4"
+
+[build]
+system = "autotools"

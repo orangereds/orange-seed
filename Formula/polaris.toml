@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "polaris"
+version = "10.2.6"
+description = "Validation of best practices in your Kubernetes clusters"
+homepage = "https://www.fairwinds.com/polaris"
+
+[source]
+url = "https://github.com/FairwindsOps/polaris/archive/refs/tags/v10.2.6.tar.gz"
+sha256 = "80cb945283bf2c50856054fd07c924d68b755d9f52fdb39b2a009ed360c5420c"
+
+[build]
+system = "autotools"

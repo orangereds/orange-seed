@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "ant"
+version = "0"
+description = "Java build tool"
+homepage = "https://ant.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=ant/binaries/apache-ant-1.10.18-bin.tar.xz"
+sha256 = "e03e4f4047b51ea0164dfdfa7827dce267b6e033bac1387241731ca037bda7b9"
+
+[build]
+system = "autotools"

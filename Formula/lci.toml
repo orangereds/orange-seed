@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "lci"
+version = "1.1"
+description = "Interpreter for the lambda calculus"
+homepage = "https://www.chatzi.org/lci/"
+
+[source]
+url = "https://github.com/chatziko/lci/releases/download/v1.1/lci-v1.1.tar.gz"
+sha256 = "51725e33a7066100757b7da84b2290a651a5f47b985eb3e3647acd871964cd58"
+
+[build]
+system = "cmake"

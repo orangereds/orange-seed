@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "trafilatura"
+version = "2.3.1"
+description = "Discovery, extraction and processing for Web text"
+homepage = "https://trafilatura.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c3/e7/d359fcf887675c4305fb1f4548372484a2d8f0bc793dc6f2da3a748c1253/trafilatura-2.3.1.tar.gz"
+sha256 = "2e5557aeab32d33b9da7ff0debbb677a676c5b648a927e50d91b8277011e1105"
+
+[build]
+system = "autotools"

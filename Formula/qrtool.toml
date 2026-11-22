@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "rust"]
+
+[package]
+name = "qrtool"
+version = "0.13.2"
+description = "Utility for encoding or decoding QR code"
+homepage = "https://sorairolake.github.io/qrtool/book/index.html"
+
+[source]
+url = "https://github.com/sorairolake/qrtool/archive/refs/tags/v0.13.2.tar.gz"
+sha256 = "ec6d240667a06a191188a44037b7173811d736c086c607d82d6d9b374c9332d8"
+
+[build]
+system = "autotools"

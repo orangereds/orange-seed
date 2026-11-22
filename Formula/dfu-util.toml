@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libusb"]
+
+[package]
+name = "dfu-util"
+version = "0.11"
+description = "USB programmer"
+homepage = "https://dfu-util.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dfu-util/dfu-util-0.11.tar.gz"
+sha256 = "b4b53ba21a82ef7e3d4c47df2952adf5fa494f499b6b0b57c58c5d04ae8ff19e"
+
+[build]
+system = "autotools"

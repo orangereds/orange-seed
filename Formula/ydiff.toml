@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "ydiff"
+version = "1.5"
+description = "View colored diff with side by side and auto pager support"
+homepage = "https://github.com/ymattw/ydiff"
+
+[source]
+url = "https://files.pythonhosted.org/packages/25/08/93b7e744645d94ae2f5dcddbbd2cfd5ec1420768994987a21a10b226be86/ydiff-1.5.tar.gz"
+sha256 = "dd5272afd7409902678c1ac6d1945d73cf85104ac6cda1e67684a67617918a20"
+
+[build]
+system = "autotools"

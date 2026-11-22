@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gzip"
+version = "1.15"
+description = "Popular GNU data compression program"
+homepage = "https://www.gnu.org/software/gzip/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gzip/gzip-1.15.tar.gz"
+sha256 = "545886cf57fa88a65e967fbf705903d7fcb2567c82c7342493e82e8d7b1a210b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "technitium-library"
+version = "0_1"
+description = "Library for technitium .net based applications"
+homepage = "https://technitium.com"
+
+[source]
+url = "https://github.com/TechnitiumSoftware/TechnitiumLibrary/archive/refs/tags/dns-server-v15.6.2.tar.gz"
+sha256 = "e7f5add92da555fc3120991fabd802c0605ab9c45cb4b56137dfb0699a006cec"
+
+[build]
+system = "autotools"

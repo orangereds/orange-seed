@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dsocks"
+version = "1.8"
+description = "SOCKS client wrapper for *BSD/macOS"
+homepage = "https://monkey.org/~dugsong/dsocks/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/dsocks/dsocks-1.8.tar.gz"
+sha256 = "2b57fb487633f6d8b002f7fe1755480ae864c5e854e88b619329d9f51c980f1d"
+
+[build]
+system = "autotools"

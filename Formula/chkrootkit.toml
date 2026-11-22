@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chkrootkit"
+version = "0.60"
+description = "Rootkit detector"
+homepage = "https://www.chkrootkit.org/"
+
+[source]
+url = "ftp://ftp.chkrootkit.org/pub/seg/pac/chkrootkit-0.60.tar.gz"
+sha256 = "bf43d227f99d6d9dd28c629a4e5f85d6a5de3cf83010feba5a04f4e1c5c5de28"
+
+[build]
+system = "autotools"

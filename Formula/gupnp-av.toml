@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib"]
+
+[package]
+name = "gupnp-av"
+version = "0.14.5"
+description = "Library to help implement UPnP A/V profiles"
+homepage = "https://wiki.gnome.org/GUPnP/"
+
+[source]
+url = "https://download.gnome.org/sources/gupnp-av/0.14/gupnp-av-0.14.5.tar.xz"
+sha256 = "93918fcf5af529fda5b3d2d9fc3b77cd93df88064939b82f249f5577d8de1c02"
+
+[build]
+system = "autotools"

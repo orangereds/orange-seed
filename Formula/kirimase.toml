@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "kirimase"
+version = "0.0.62"
+description = "CLI for building full-stack Next.js apps"
+homepage = "https://kirimase.dev/"
+
+[source]
+url = "https://registry.npmjs.org/kirimase/-/kirimase-0.0.62.tgz"
+sha256 = "5d6d0e43b8bd07bcae71b279820491053b8a1445c5e6f8f66f5f0d158a67d16c"
+
+[build]
+system = "autotools"

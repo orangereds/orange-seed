@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "conftest"
+version = "0.71.1"
+description = "Test your configuration files using Open Policy Agent"
+homepage = "https://www.conftest.dev/"
+
+[source]
+url = "https://github.com/open-policy-agent/conftest/archive/refs/tags/v0.71.1.tar.gz"
+sha256 = "1bf5a6ff4b9d7bd943b9713ace13c83c40b77fd3fcf2a9659f32be67c4a2c368"
+
+[build]
+system = "autotools"

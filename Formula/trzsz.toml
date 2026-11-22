@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "trzsz"
+version = "1.1.7"
+description = "Simple file transfer tools, similar to lrzsz (rz/sz), and compatible with tmux"
+homepage = "https://trzsz.github.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c1/8f/f99cd5ad86d07a13885a78a83edf95bb8b9ff254d3b8c25b4437b6c35b49/trzsz-1.1.7.tar.gz"
+sha256 = "72c7dc2b28e417101ccf8bf59e4fb0d28f4d54cbeb5acd5d08c4d6968e2ca6af"
+
+[build]
+system = "autotools"

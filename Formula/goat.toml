@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goat"
+version = "0.2.9"
+description = "General purpose AT Protocol CLI in Go"
+homepage = "https://github.com/bluesky-social/goat"
+
+[source]
+url = "https://github.com/bluesky-social/goat/archive/refs/tags/v0.2.9.tar.gz"
+sha256 = "4bb6694de3b5621de3b6cc309671ebe3366cc68eea77b58b7118954cb974f863"
+
+[build]
+system = "autotools"

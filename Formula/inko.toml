@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "llvm"]
+
+[package]
+name = "inko"
+version = "0.21.1_1"
+description = "Safe and concurrent object-oriented programming language"
+homepage = "https://inko-lang.org/"
+
+[source]
+url = "https://releases.inko-lang.org/0.21.1.tar.gz"
+sha256 = "f883b34b404fbc977775b6d38c2bcf89580fe7afe11f58f8391fa72188625cda"
+
+[build]
+system = "make"

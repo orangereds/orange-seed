@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nextdns"
+version = "1.50.2"
+description = "CLI for NextDNS's DNS-over-HTTPS (DoH)"
+homepage = "https://nextdns.io"
+
+[source]
+url = "https://github.com/nextdns/nextdns/archive/refs/tags/v1.50.2.tar.gz"
+sha256 = "46ab8b64c36bb1db8fe6cd3b6ded9fbbd2af7c3ab4960c01e566ff2969fe97ee"
+
+[build]
+system = "autotools"

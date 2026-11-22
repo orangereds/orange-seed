@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "clippy"
+version = "1.10.0"
+description = "Copy files from your terminal that actually paste into GUI apps"
+homepage = "https://github.com/neilberkman/clippy"
+
+[source]
+url = "https://github.com/neilberkman/clippy/archive/refs/tags/v1.10.0.tar.gz"
+sha256 = "07870271de5a1c263317bde3f47fa2cad068111700b32379f436757ef8d936c5"
+
+[build]
+system = "autotools"

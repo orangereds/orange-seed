@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["librsync", "lmdb", "openssl@4", "pcre2"]
+
+[package]
+name = "cfengine"
+version = "0"
+description = "Help manage and understand IT infrastructure"
+homepage = "https://cfengine.com/"
+
+[source]
+url = "https://cfengine-package-repos.s3.amazonaws.com/tarballs/cfengine-community-3.29.0.tar.gz"
+sha256 = "83ce77165543884de90a1ee69ae8728fd4a7c6a41e6b470dc5df48b48107d6c7"
+
+[build]
+system = "autotools"

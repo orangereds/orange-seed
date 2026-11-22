@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "cmake"]
+
+[package]
+name = "jsoncpp"
+version = "1.9.8"
+description = "Library for interacting with JSON"
+homepage = "https://github.com/open-source-parsers/jsoncpp"
+
+[source]
+url = "https://github.com/open-source-parsers/jsoncpp/archive/refs/tags/1.9.8.tar.gz"
+sha256 = "51828cf3574281d2b79ec2a1c56a9e4c20cc1103711321ea96384cffb8d2d904"
+
+[build]
+system = "autotools"

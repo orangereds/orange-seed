@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "node", "vips", "gettext"]
+
+[package]
+name = "dicebear"
+version = "10.7.0"
+description = "CLI for DiceBear - An avatar library for designers and developers"
+homepage = "https://www.dicebear.com"
+
+[source]
+url = "https://registry.npmjs.org/dicebear/-/dicebear-10.7.0.tgz"
+sha256 = "9fef906a168742230b3a31e90bd0708a555a7a14d06c6ebd8d13e368d3336902"
+
+[build]
+system = "autotools"

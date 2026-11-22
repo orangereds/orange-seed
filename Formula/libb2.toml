@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libb2"
+version = "0.98.1"
+description = "Secure hashing function"
+homepage = "https://blake2.net/"
+
+[source]
+url = "https://github.com/BLAKE2/libb2/releases/download/v0.98.1/libb2-0.98.1.tar.gz"
+sha256 = "53626fddce753c454a3fea581cbbc7fe9bbcf0bc70416d48fdbbf5d87ef6c72e"
+
+[build]
+system = "autotools"

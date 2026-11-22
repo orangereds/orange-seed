@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "unzip"
+version = "6.0_8"
+description = "Extraction utility for .zip compressed archives"
+homepage = "https://infozip.sourceforge.net/UnZip.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/infozip/UnZip%206.x%20%28latest%29/UnZip%206.0/unzip60.tar.gz"
+sha256 = "036d96991646d0449ed0aa952e4fbe21b476ce994abc276e49d30e686708bd37"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

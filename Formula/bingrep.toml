@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bingrep"
+version = "0.12.1"
+description = "Greps through binaries from various OSs and architectures"
+homepage = "https://github.com/m4b/bingrep"
+
+[source]
+url = "https://github.com/m4b/bingrep/archive/refs/tags/v0.12.1.tar.gz"
+sha256 = "8bf096df68736561b40f56cd1feb4834014cd11c0a28b33e74e818618c62e100"
+
+[build]
+system = "autotools"

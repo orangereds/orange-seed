@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bwfmetaedit"
+version = "0"
+description = "Tool for embedding, validating, and exporting BWF file metadata"
+homepage = "https://mediaarea.net/BWFMetaEdit"
+
+[source]
+url = "https://mediaarea.net/download/binary/bwfmetaedit/26.08.1/BWFMetaEdit_CLI_26.08.1_GNU_FromSource.tar.xz"
+sha256 = "6650b61fab0bd752b907fda5ca3bdce5bb349e12d9a6f618e8ebfc52839bbd1f"
+
+[build]
+system = "autotools"

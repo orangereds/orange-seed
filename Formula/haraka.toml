@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "haraka"
+version = "0"
+description = "Fast, highly extensible, and event driven SMTP server"
+homepage = "https://haraka.github.io/"
+
+[source]
+url = "https://registry.npmjs.org/Haraka/-/Haraka-3.4.0.tgz"
+sha256 = "8213ffc65e79eec76516a4083772fe4da83ee3d3eb72268dc445e1b49db60d12"
+
+[build]
+system = "autotools"

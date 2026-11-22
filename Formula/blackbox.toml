@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnupg"]
+
+[package]
+name = "blackbox"
+version = "1.20220610"
+description = "Safely store secrets in Git/Mercurial/Subversion"
+homepage = "https://github.com/StackExchange/blackbox"
+
+[source]
+url = "https://github.com/StackExchange/blackbox/archive/refs/tags/v1.20220610.tar.gz"
+sha256 = "f1efcca6680159f244eb44fdb78e92b521760b875fa5a36e4c433b93ed0f87c1"
+
+[build]
+system = "autotools"

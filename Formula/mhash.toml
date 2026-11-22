@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "mhash"
+version = "0.9.9.9"
+description = "Uniform interface to a large number of hash algorithms"
+homepage = "https://mhash.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/mhash/mhash/0.9.9.9/mhash-0.9.9.9.tar.gz"
+sha256 = "3dcad09a63b6f1f634e64168dd398e9feb9925560f9b671ce52283a79604d13e"
+
+[build]
+system = "autotools"

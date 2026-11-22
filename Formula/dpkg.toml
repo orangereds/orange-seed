@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "po4a", "gnu-tar", "gpatch", "libmd", "perl", "xz"]
+
+[package]
+name = "dpkg"
+version = "1.23.12"
+description = "Debian package management system"
+homepage = "https://wiki.debian.org/Teams/Dpkg"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/d/dpkg/dpkg_1.23.12.tar.xz"
+sha256 = "829e7a454f61232b33372c1564b803ab16cfc98e08bd2ec1e2b94bdb1fb97502"
+
+[build]
+system = "autotools"

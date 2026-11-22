@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "transcrypt"
+version = "2.3.2"
+description = "Configure transparent encryption of files in a Git repo"
+homepage = "https://github.com/elasticdog/transcrypt"
+
+[source]
+url = "https://github.com/elasticdog/transcrypt/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "e28676a8ef781046c16b6c34acdb44b66b6d382d9c20cb810c883cc5be20dd28"
+
+[build]
+system = "autotools"

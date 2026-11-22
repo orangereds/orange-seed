@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "certifi", "ffmpeg", "libheif", "llvm@22", "numpy", "pillow", "python@3.15", "pytorch", "scipy", "torchvision"]
+
+[package]
+name = "backgroundremover"
+version = "0.4.5_3"
+description = "Remove background from images and video using AI"
+homepage = "https://backgroundremoverai.com"
+
+[source]
+url = "https://files.pythonhosted.org/packages/01/23/b6db66a9a7ad24e34581bae7910e77e16fce103fd9658bd5b6aef4e5effd/backgroundremover-0.4.5.tar.gz"
+sha256 = "b9fe5ebaa234d43bfae02a2f28734e589ee895a861e55c02f6f1a41518587852"
+
+[build]
+system = "autotools"

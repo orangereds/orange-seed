@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost"]
+
+[package]
+name = "numcpp"
+version = "0"
+description = "C++ implementation of the Python Numpy library"
+homepage = "https://dpilger26.github.io/NumCpp"
+
+[source]
+url = "https://github.com/dpilger26/NumCpp/archive/refs/tags/Version_2.18.0.tar.gz"
+sha256 = "41af597c563ad1d094a21cb6c8147ff75ce8dc1ee0a9f829c704c0fd2388b180"
+
+[build]
+system = "cmake"

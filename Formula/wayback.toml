@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wayback"
+version = "0.21.1"
+description = "Archiving tool integrated with various archival services"
+homepage = "https://docs.wabarc.eu.org"
+
+[source]
+url = "https://github.com/wabarc/wayback/archive/refs/tags/v0.21.1.tar.gz"
+sha256 = "b52cf015420852b99246cde0d0183ec746a1c851ff2e9ebbed80e05be7eccfa7"
+
+[build]
+system = "autotools"

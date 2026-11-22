@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fypp", "pkgconf", "dbcsr", "fftw", "gcc", "libint", "libxc", "open-mpi", "openblas", "scalapack", "libomp"]
+
+[package]
+name = "cp2k"
+version = "2026.2"
+description = "Quantum chemistry and solid state physics software package"
+homepage = "https://www.cp2k.org/"
+
+[source]
+url = "https://github.com/cp2k/cp2k/releases/download/v2026.2/cp2k-2026.2.tar.bz2"
+sha256 = "f9bd86f580f57a53a0768c0045d1417f9f9a1d66d851ed7f662f496200043373"
+
+[build]
+system = "cmake"

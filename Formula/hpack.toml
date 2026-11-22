@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "hpack"
+version = "0.39.6"
+description = "Modern format for Haskell packages"
+homepage = "https://github.com/sol/hpack"
+
+[source]
+url = "https://hackage.haskell.org/package/hpack-0.39.6/hpack-0.39.6.tar.gz"
+sha256 = "267459c3961bf66428a1570a71b3aac577c11a07b775b91872282634418ea936"
+
+[build]
+system = "autotools"

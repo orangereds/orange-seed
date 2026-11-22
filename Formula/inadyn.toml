@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "confuse", "openssl@4"]
+
+[package]
+name = "inadyn"
+version = "2.13.0"
+description = "Dynamic DNS client with IPv4, IPv6, and SSL/TLS support"
+homepage = "https://troglobit.com/projects/inadyn/"
+
+[source]
+url = "https://github.com/troglobit/inadyn/releases/download/v2.13.0/inadyn-2.13.0.tar.xz"
+sha256 = "d08ca63a35896f2a809ba9b704da16ec6812b94dd410e7b3ea536a16d93860c2"
+
+[build]
+system = "autotools"

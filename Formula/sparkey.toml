@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "snappy"]
+
+[package]
+name = "sparkey"
+version = "1.0.0_1"
+description = "Constant key-value store, best for frequent read/infrequent write uses"
+homepage = "https://github.com/spotify/sparkey/"
+
+[source]
+url = "https://github.com/spotify/sparkey/archive/refs/tags/sparkey-1.0.0.tar.gz"
+sha256 = "d607fb816d71d97badce6301dd56e2538ef2badb6530c0a564b1092788f8f774"
+
+[build]
+system = "autotools"

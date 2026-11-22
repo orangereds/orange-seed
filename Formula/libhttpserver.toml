@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "gnutls", "libmicrohttpd"]
+
+[package]
+name = "libhttpserver"
+version = "2.0.1"
+description = "C++ library of embedded Rest HTTP server"
+homepage = "https://github.com/etr/libhttpserver"
+
+[source]
+url = "https://github.com/etr/libhttpserver/releases/download/2.0.1/libhttpserver-2.0.1.tar.gz"
+sha256 = "767716a689b5078a9e6ad4e6dc5c2708a50c79f195fce599dd80e35566c8f64a"
+
+[build]
+system = "autotools"

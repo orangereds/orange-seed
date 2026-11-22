@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fzf", "bash"]
+
+[package]
+name = "ugit"
+version = "5.9"
+description = "Undo git commands. Your damage control git buddy"
+homepage = "https://bhupesh.me/undo-your-last-git-mistake-with-ugit/"
+
+[source]
+url = "https://github.com/Bhupesh-V/ugit/archive/refs/tags/v5.9.tar.gz"
+sha256 = "f93d9d4bb0d6fd676704e45733190413885c859ff2807b84cc8113bf674fc063"
+
+[build]
+system = "autotools"

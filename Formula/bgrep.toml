@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bgrep"
+version = "0.3"
+description = "Like grep but for binary strings"
+homepage = "https://github.com/tmbinc/bgrep"
+
+[source]
+url = "https://github.com/tmbinc/bgrep/archive/refs/tags/bgrep-0.3.tar.gz"
+sha256 = "a54ad3101150d750c180718b487406bef630f062a5ef30fde59be10a7caaaf1e"
+
+[build]
+system = "autotools"

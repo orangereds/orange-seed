@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bomber"
+version = "0.5.1"
+description = "Scans Software Bill of Materials for security vulnerabilities"
+homepage = "https://devops-kung-fu.github.io/bomber/"
+
+[source]
+url = "https://github.com/devops-kung-fu/bomber/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "f4d8165ea9d3be0e88fdb33d35870588df308f31a4c40f14f09f0b68570f6ae1"
+
+[build]
+system = "autotools"

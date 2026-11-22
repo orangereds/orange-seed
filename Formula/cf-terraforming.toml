@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cf-terraforming"
+version = "0.31.0"
+description = "CLI to facilitate terraforming your existing Cloudflare resources"
+homepage = "https://github.com/cloudflare/cf-terraforming"
+
+[source]
+url = "https://github.com/cloudflare/cf-terraforming/archive/refs/tags/v0.31.0.tar.gz"
+sha256 = "62c7186f2c83b8065d0b3429635d1947f4b8271e44ff76acb9a7a0726bb61517"
+
+[build]
+system = "autotools"

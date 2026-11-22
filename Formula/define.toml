@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "define"
+version = "0.4.0"
+description = "Command-line dictionary (thesaurus) app, with access to multiple sources"
+homepage = "https://github.com/Rican7/define"
+
+[source]
+url = "https://github.com/Rican7/define/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "b8f0a83bbf345330d1081634e3b865527d4924be8e771501283abf17c4304514"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "grip"
+version = "4.6.2_22"
+description = "GitHub Markdown previewer"
+homepage = "https://github.com/joeyespo/grip"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f4/3f/e8bc3ea1f24877292fa3962ad9e0234ad4bc787dc1eb5bd08c35afd0ceca/grip-4.6.2.tar.gz"
+sha256 = "3cf6dce0aa06edd663176914069af83f19dcb90f3a9c401271acfa71872f8ce3"
+
+[build]
+system = "autotools"

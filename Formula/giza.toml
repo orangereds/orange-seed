@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "fontconfig", "freetype", "gcc", "libx11"]
+
+[package]
+name = "giza"
+version = "2.0.2"
+description = "Scientific plotting library for C/Fortran built on cairo"
+homepage = "https://danieljprice.github.io/giza/"
+
+[source]
+url = "https://github.com/danieljprice/giza/releases/download/v2.0.2/giza-v2.0.2.tar.gz"
+sha256 = "2dc801eb976ab28d083cb41b5e4dc595c4d956d9fed173c5d76fcf29eca0210d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "icu4c@79", "libmicrohttpd", "libzim", "pugixml", "xapian"]
+
+[package]
+name = "libkiwix"
+version = "14.2.1_1"
+description = "Common code base for all Kiwix ports"
+homepage = "https://github.com/kiwix/libkiwix"
+
+[source]
+url = "https://github.com/kiwix/libkiwix/archive/refs/tags/14.2.1.tar.gz"
+sha256 = "cff1eb06d62ab42e1720a49f473b7d9364f02ee77a8a455c9adb26db419e0fff"
+
+[build]
+system = "autotools"

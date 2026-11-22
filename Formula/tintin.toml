@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnutls", "pcre2"]
+
+[package]
+name = "tintin"
+version = "2.02.61"
+description = "MUD client"
+homepage = "https://tintin.mudhalla.net/"
+
+[source]
+url = "https://github.com/scandum/tintin/releases/download/2.02.61/tintin-2.02.61.tar.gz"
+sha256 = "640b4823b6f24ada6d417311bfd6263ab13be2422573c3b4ad4352223b535d88"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "todoist-cli-go"
+version = "0.25.0"
+description = "CLI for Todoist"
+homepage = "https://github.com/sachaos/todoist"
+
+[source]
+url = "https://github.com/sachaos/todoist/archive/refs/tags/v0.25.0.tar.gz"
+sha256 = "4ff262c32714901a7f978f7d775f43874de5784bc8d28ca3eb163bddf83a815e"
+
+[build]
+system = "autotools"

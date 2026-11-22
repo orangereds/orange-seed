@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ca-certificates", "mpdecimal", "openssl@4", "sqlite", "xz", "zstd"]
+
+[package]
+name = "python@3.14"
+version = "0"
+description = "Interpreted, interactive, object-oriented programming language"
+homepage = "https://www.python.org/"
+
+[source]
+url = "https://www.python.org/ftp/python/3.14.10/Python-3.14.10.tgz"
+sha256 = "9e4996c19ae5a3df31f10c37723661f71d3455d73bd005f79df7098e5cc13192"
+
+[build]
+system = "autotools"

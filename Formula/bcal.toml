@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bcal"
+version = "2.6"
+description = "Storage conversion and expression calculator"
+homepage = "https://github.com/jarun/bcal"
+
+[source]
+url = "https://github.com/jarun/bcal/archive/refs/tags/v2.6.tar.gz"
+sha256 = "bac318405221f2f88d374683549338515b070ca7491497eda2ac9c17bcbb0458"
+
+[build]
+system = "make"

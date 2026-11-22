@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oslo"
+version = "0.13.0"
+description = "CLI tool for the OpenSLO spec"
+homepage = "https://openslo.com/"
+
+[source]
+url = "https://github.com/OpenSLO/oslo/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "8e3c501103cbfb0d9980a6ea023def0bdef2fe111a8aec3b106302669d452ec2"
+
+[build]
+system = "autotools"

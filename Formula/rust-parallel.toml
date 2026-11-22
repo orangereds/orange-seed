@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rust-parallel"
+version = "1.24.0"
+description = "Run commands in parallel with Rust's Tokio framework"
+homepage = "https://github.com/aaronriekenberg/rust-parallel"
+
+[source]
+url = "https://github.com/aaronriekenberg/rust-parallel/archive/refs/tags/v1.24.0.tar.gz"
+sha256 = "9efb8f574ebbe82fad1b89cd94362f75c3b46e7bdf29fc5c640cb9dd10ce2852"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libdrm", "libx11", "libxcb", "libxext", "libxfixes", "wayland"]
+
+[package]
+name = "libva"
+version = "2.24.1"
+description = "Hardware accelerated video processing library"
+homepage = "https://github.com/intel/libva"
+
+[source]
+url = "https://github.com/intel/libva/releases/download/2.24.1/libva-2.24.1.tar.bz2"
+sha256 = "eec6050b52876f229bd35e9df17cd31a06785e18e6f7990c445b584628483d67"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "aws-lc", "pkgconf", "rust"]
+
+[package]
+name = "gerust"
+version = "0.0.6"
+description = "Project generator for Rust backend projects"
+homepage = "https://gerust.rs/"
+
+[source]
+url = "https://github.com/mainmatter/gerust/archive/refs/tags/v0.0.6.tar.gz"
+sha256 = "1036cc5461e91f775bf499575f2352cba8a91ac2c97d2b312bdc19601d300038"
+
+[build]
+system = "autotools"

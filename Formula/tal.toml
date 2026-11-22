@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tal"
+version = "1.9"
+description = "Align line endings if they match"
+homepage = "https://thomasjensen.com/software/tal/"
+
+[source]
+url = "https://thomasjensen.com/software/tal/tal-1.9.tar.gz"
+sha256 = "5d450cee7162c6939811bca945eb475e771efe5bd6a08b520661d91a6165bb4c"
+
+[build]
+system = "autotools"

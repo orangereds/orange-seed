@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "abseil", "icu4c@79", "lz4", "openssl@4", "protobuf", "zlib-ng-compat", "zstd", "llvm"]
+
+[package]
+name = "mysql"
+version = "12_1"
+description = "Open source relational database management system"
+homepage = "https://github.com/mysql/mysql-server"
+
+[source]
+url = "https://cdn.mysql.com/Downloads/MySQL-26.10/mysql-26.10.0.tar.gz"
+sha256 = "984507622ddfa4d84ad23fc56ec5b5f18f4fda328af5a23e5f5b1a062301ea2c"
+
+[service]
+run = "opt/mysql/bin/mysqld_safe --datadir=#{var}/mysql"
+keep_alive = true
+working_dir = "var/mysql"
+
+[build]
+system = "cmake"

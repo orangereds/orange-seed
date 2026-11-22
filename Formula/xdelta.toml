@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "blake3", "xz"]
+
+[package]
+name = "xdelta"
+version = "3.2.2"
+description = "Binary diff, differential compression tools"
+homepage = "https://github.com/jmacd/xdelta"
+
+[source]
+url = "https://github.com/jmacd/xdelta/archive/refs/tags/v3.2.2.tar.gz"
+sha256 = "995319ccb7fe721a523fb3142376f5813093685b1cc302d07018ca97d2584af2"
+
+[build]
+system = "cmake"

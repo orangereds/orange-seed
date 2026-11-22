@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "grpcui"
+version = "1.5.4"
+description = "Interactive web UI for gRPC, along the lines of postman"
+homepage = "https://github.com/fullstorydev/grpcui"
+
+[source]
+url = "https://github.com/fullstorydev/grpcui/archive/refs/tags/v1.5.4.tar.gz"
+sha256 = "664137b2982cad4bc5e8a8e5963fb46fe3686b6aff0f2f925172fd98d2f8a12f"
+
+[build]
+system = "autotools"

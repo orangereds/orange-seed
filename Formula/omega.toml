@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libmagic", "pcre2", "xapian"]
+
+[package]
+name = "omega"
+version = "0"
+description = "Packaged search engine for websites, built on top of Xapian"
+homepage = "https://xapian.org/"
+
+[source]
+url = "https://oligarchy.co.uk/xapian/2.1.0/xapian-omega-2.1.0.tar.xz"
+sha256 = "e3bcf29b5fcb790c28c3e90624ff9297a9a44914f0ba566cb3ee677a015097be"
+
+[build]
+system = "autotools"

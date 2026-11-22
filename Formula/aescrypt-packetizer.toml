@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "aescrypt-packetizer"
+version = "0"
+description = "Encrypt and decrypt using 256-bit AES encryption"
+homepage = "https://www.aescrypt.com"
+
+[source]
+url = "https://www.mirrorservice.org/sites/distfiles.gentoo.org/distfiles/13/aescrypt-3.16.tgz"
+sha256 = "e2e192d0b45eab9748efe59e97b656cc55f1faeb595a2f77ab84d44b0ec084d2"
+
+[build]
+system = "autotools"

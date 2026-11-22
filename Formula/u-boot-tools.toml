@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils", "openssl@3", "make"]
+
+[package]
+name = "u-boot-tools"
+version = "0"
+description = "Universal boot loader"
+homepage = "https://u-boot-project.org/"
+
+[source]
+url = "https://git.u-boot-project.org/u-boot/u-boot/-/releases/v2026.10/downloads/u-boot-2026.10.tar.bz2"
+sha256 = "3f856da3cbbc93af51ff95fde18588a348b4a26723b01d9841e999d988481015"
+
+[build]
+system = "autotools"

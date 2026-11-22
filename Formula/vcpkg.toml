@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cmrc", "fmt", "ninja"]
+
+[package]
+name = "vcpkg"
+version = "2026-10-29"
+description = "C++ Library Manager"
+homepage = "https://github.com/microsoft/vcpkg"
+
+[source]
+url = "https://github.com/microsoft/vcpkg-tool/archive/refs/tags/2026-10-29.tar.gz"
+sha256 = "7f73aff8f3b1bd8a5da7b229ee709aa9d58a4199bb26f2ad160d0a4678ff3dc7"
+
+[build]
+system = "cmake"

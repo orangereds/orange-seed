@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "boost", "cmake", "flex", "pkgconf", "fmt", "libtommath", "readline", "tcl-tk", "tomlplusplus"]
+
+[package]
+name = "yosys"
+version = "0"
+description = "Framework for Verilog RTL synthesis"
+homepage = "https://yosyshq.net/yosys/"
+
+[source]
+url = "https://github.com/YosysHQ/yosys/releases/download/v0.71/yosys.tar.gz"
+sha256 = "2ec7c2ee63bb9b4065d6d5fff2786a1455e834f90ede8eb1d47791153ebef2a5"
+
+[build]
+system = "cmake"

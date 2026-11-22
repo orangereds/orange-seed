@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "flawz"
+version = "0.4.1"
+description = "Terminal UI for browsing security vulnerabilities (CVEs)"
+homepage = "https://github.com/orhun/flawz"
+
+[source]
+url = "https://github.com/orhun/flawz/archive/refs/tags/v0.4.1.tar.gz"
+sha256 = "641264999d2a5d662bc3d9c3994fcc580b92a2e9051c79fbcb8fdb2220924f30"
+
+[build]
+system = "autotools"

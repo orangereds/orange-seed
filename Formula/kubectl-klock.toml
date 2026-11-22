@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubectl-klock"
+version = "0.9.3"
+description = "Kubectl plugin to render watch output in a more readable fashion"
+homepage = "https://github.com/applejag/kubectl-klock"
+
+[source]
+url = "https://github.com/applejag/kubectl-klock/archive/refs/tags/v0.9.3.tar.gz"
+sha256 = "98f28a0d32a5cd0bd07f6d4dc12fd8f1ef069dba176f222540b31e3689366719"
+
+[build]
+system = "autotools"

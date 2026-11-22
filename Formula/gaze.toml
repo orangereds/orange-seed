@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gaze"
+version = "1.2.1"
+description = "Execute commands for you"
+homepage = "https://github.com/wtetsu/gaze"
+
+[source]
+url = "https://github.com/wtetsu/gaze/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "ba2878f5b0ddd385afbe6c8b3fcf92acdcd722113b97e52d2fafc53ee3cef918"
+
+[build]
+system = "autotools"

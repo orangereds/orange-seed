@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "pandoc", "ruby@3.4"]
+
+[package]
+name = "pandocomatic"
+version = "2.2.0_1"
+description = "Automate the use of pandoc"
+homepage = "https://heerdebeer.org/Software/markdown/pandocomatic/"
+
+[source]
+url = "https://github.com/htdebeer/pandocomatic/archive/refs/tags/2.2.0.tar.gz"
+sha256 = "8138b403aaa1d23db11701bf2bbcbf14447d89b7b05030fc2faf91d6fe11163c"
+
+[build]
+system = "autotools"

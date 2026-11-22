@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "atomic_queue"
+version = "1.9.4"
+description = "C++14 lock-free queues"
+homepage = "https://max0x7ba.github.io/atomic_queue/html/benchmarks.html"
+
+[source]
+url = "https://github.com/max0x7ba/atomic_queue/archive/refs/tags/v1.9.4.tar.gz"
+sha256 = "fecfa9ca12fc203e40fd967c2bfa8033f77d0bde0e3b21c8ca5f5f9eeeabe022"
+
+[build]
+system = "autotools"

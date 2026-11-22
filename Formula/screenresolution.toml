@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "screenresolution"
+version = "1.6"
+description = "Get, set, and list display resolution"
+homepage = "https://github.com/jhford/screenresolution"
+
+[source]
+url = "https://github.com/jhford/screenresolution/archive/refs/tags/v1.6.tar.gz"
+sha256 = "d3761663eaf585b014391a30a77c9494a6404e78e8a4863383e12c59b0f539eb"
+
+[build]
+system = "make"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libevent", "readline"]
+
+[package]
+name = "lldpd"
+version = "1.0.23"
+description = "Implementation of IEEE 802.1ab (LLDP)"
+homepage = "https://lldpd.github.io/"
+
+[source]
+url = "https://media.bernat.ch/files/lldpd/lldpd-1.0.23.tar.gz"
+sha256 = "b65fc380e2063a3fb15555f413f192a63006f6fd0c81fd524e3a43851700c48b"
+
+[service]
+run = "lldpd"
+keep_alive = true
+
+[build]
+system = "autotools"

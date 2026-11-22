@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "pomerium"
+version = "0.34.1"
+description = "Identity and context-aware access proxy"
+homepage = "https://www.pomerium.com"
+
+[source]
+url = "https://github.com/pomerium/pomerium/archive/refs/tags/v0.34.1.tar.gz"
+sha256 = "edcde54671715fce9428c94bce98c55f204ed83e5206a002793501034e1d3938"
+
+[service]
+run = "opt/pomerium/bin/pomerium --config etc/pomerium.yaml"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/pomerium.log"
+error_log_path = "var/log/pomerium.log"
+
+[build]
+system = "autotools"

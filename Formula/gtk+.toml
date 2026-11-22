@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "pkgconf", "at-spi2-core", "cairo", "gdk-pixbuf", "glib", "hicolor-icon-theme", "pango", "gettext", "harfbuzz"]
+
+[package]
+name = "gtk+"
+version = "2.24.33_2"
+description = "GUI toolkit"
+homepage = "https://gtk.org/"
+
+[source]
+url = "https://download.gnome.org/sources/gtk+/2.24/gtk+-2.24.33.tar.xz"
+sha256 = "ac2ac757f5942d318a311a54b0c80b5ef295f299c2a73c632f6bfb1ff49cc6da"
+
+[build]
+system = "autotools"

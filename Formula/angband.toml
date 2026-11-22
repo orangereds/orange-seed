@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "angband"
+version = "0"
+description = "Dungeon exploration game"
+homepage = "https://rephial.org/"
+
+[source]
+url = "https://github.com/angband/angband/releases/download/4.2.6/Angband-4.2.6.tar.gz"
+sha256 = "8c0ffa2b85d74bd0cc273752f61c0440dba93323cd790be460f90c8dced7cbf4"
+
+[build]
+system = "autotools"

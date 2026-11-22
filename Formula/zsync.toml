@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zsync"
+version = "0.8.0"
+description = "File transfer program"
+homepage = "https://zsync.moria.org.uk/"
+
+[source]
+url = "https://zsync.moria.org.uk/download/zsync-0.8.0.tar.gz"
+sha256 = "58b02f27e14326b62b7fdd6ed431a3e243b1c5a3ea9e3c1678e136dbf00c238d"
+
+[build]
+system = "autotools"

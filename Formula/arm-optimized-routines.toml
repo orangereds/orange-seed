@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "mpfr"]
+
+[package]
+name = "arm-optimized-routines"
+version = "26.07"
+description = "Optimized implementations of various library functions for Arm processors"
+homepage = "https://github.com/ARM-software/optimized-routines"
+
+[source]
+url = "https://github.com/ARM-software/optimized-routines/archive/refs/tags/v26.07.tar.gz"
+sha256 = "0db974d39531e1e922cd1b31da2c3118881c4ce86b3323daf2c13830ef2b229c"
+
+[build]
+system = "autotools"

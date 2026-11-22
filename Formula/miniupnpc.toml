@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "miniupnpc"
+version = "2.3.5"
+description = "UPnP IGD client library and daemon"
+homepage = "http://miniupnp.free.fr/"
+
+[source]
+url = "https://github.com/miniupnp/miniupnp/releases/download/miniupnpc_2_3_5/miniupnpc-2.3.5.tar.gz"
+sha256 = "b9a1e57233216c5f62572de6d628e73e910f50cdb71e9c0eb89b169ce154d256"
+
+[build]
+system = "make"

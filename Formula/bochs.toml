@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libtool", "sdl2-compat"]
+
+[package]
+name = "bochs"
+version = "3.1"
+description = "Open source IA-32 (x86) PC emulator written in C++"
+homepage = "https://bochs.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bochs/bochs/3.1/bochs-3.1.tar.gz"
+sha256 = "14aaf78dbe1337987923fffc4e7a962ae56abcf9a87474ace39e593f9f84ee84"
+
+[build]
+system = "autotools"

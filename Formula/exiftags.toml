@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "exiftags"
+version = "1.01"
+description = "Utility to read EXIF tags from a digital camera JPEG file"
+homepage = "https://johnst.org/sw/exiftags/"
+
+[source]
+url = "https://johnst.org/sw/exiftags/exiftags-1.01.tar.gz"
+sha256 = "d95744de5f609f1562045f1c2aae610e8f694a4c9042897a51a22f0f0d7591a4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "tmx"
+version = "1.10.1"
+description = "Portable C library to load tiled maps in your games"
+homepage = "https://libtmx.readthedocs.io/en/latest/"
+
+[source]
+url = "https://github.com/baylej/tmx/archive/refs/tags/tmx_1.10.1.tar.gz"
+sha256 = "05a141abb5e1a6464242a888041bc81a8e1a032baf0f30a00e350f441f162c08"
+
+[build]
+system = "cmake"

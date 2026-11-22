@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "usage", "node"]
+
+[package]
+name = "aube"
+version = "2.10.1"
+description = "Fast Node.js package manager"
+homepage = "https://aube.en.dev"
+
+[source]
+url = "https://github.com/jdx/aube/archive/refs/tags/v2.10.1.tar.gz"
+sha256 = "72c07145c40fe69f40d7758644b50788a09426ae524c43a5aef3b16ead3b4bc8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-getopt"]
+
+[package]
+name = "git-now"
+version = "0.1.1.0"
+description = "Light, temporary commits for git"
+homepage = "https://github.com/iwata/git-now"
+
+[source]
+url = "https://github.com/iwata/git-now/archive/refs/tags/v0.1.1.0.tar.gz"
+sha256 = "b6f6b9221dcab10de44514575f54e80daf825dc9f5a72262f5708a7432aa087f"
+
+[build]
+system = "autotools"

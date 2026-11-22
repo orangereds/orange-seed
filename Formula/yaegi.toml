@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yaegi"
+version = "0.16.3"
+description = "Yet another elegant Go interpreter"
+homepage = "https://github.com/traefik/yaegi"
+
+[source]
+url = "https://github.com/traefik/yaegi/archive/refs/tags/v0.16.3.tar.gz"
+sha256 = "1fca3442639e2f25fffc6d6cf104dd33a9c0951d32bf8b958ed6e2e979d32d1d"
+
+[build]
+system = "autotools"

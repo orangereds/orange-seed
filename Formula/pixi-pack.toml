@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust"]
+
+[package]
+name = "pixi-pack"
+version = "0.7.12"
+description = "Pack and unpack conda environments created with pixi"
+homepage = "https://pixi.sh/latest/advanced/production_deployment/#pixi-pack"
+
+[source]
+url = "https://github.com/quantco/pixi-pack/archive/refs/tags/v0.7.12.tar.gz"
+sha256 = "7cbef9759c399ecbc3b67ebf8c2ad8599bc41c425adb68e7556cbdc2d5a706ca"
+
+[build]
+system = "autotools"

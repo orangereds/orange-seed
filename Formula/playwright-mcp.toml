@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "playwright-mcp"
+version = "0"
+description = "MCP server for Playwright"
+homepage = "https://github.com/microsoft/playwright-mcp"
+
+[source]
+url = "https://registry.npmjs.org/@playwright/mcp/-/mcp-0.0.86.tgz"
+sha256 = "a72b824664ebf803f3ae57ad9500a50ede12af44203482e74bcc64f9149d6ea1"
+
+[build]
+system = "autotools"

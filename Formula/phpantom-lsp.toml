@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "phpantom-lsp"
+version = "5f68c1021badebe34119fb8fa10ba7cc25de6c0c"
+description = "Fast PHP language server written in Rust"
+homepage = "https://github.com/PHPantom-dev/phpantom_lsp"
+
+[source]
+url = "https://github.com/PHPantom-dev/phpantom_lsp/archive/refs/tags/0.11.1.tar.gz"
+sha256 = "c5a9b0e21eac77edacd56add5b46094fb2425435581f32ba574d25e1ff6b97df"
+
+[build]
+system = "autotools"

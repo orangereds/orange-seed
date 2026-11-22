@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "soar"
+version = "0.14.2"
+description = "Fast, modern package manager for Static Binaries, Portable Formats and more"
+homepage = "https://soar.qaidvoid.dev"
+
+[source]
+url = "https://github.com/pkgforge/soar/archive/refs/tags/v0.14.2.tar.gz"
+sha256 = "1d9a15865895e1a4e08dc0a24382512a458653e1c959db4bae4760545b3e6a04"
+
+[build]
+system = "autotools"

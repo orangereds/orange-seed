@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "dhall-lsp-server"
+version = "1.1.4"
+description = "Language Server Protocol (LSP) server for Dhall"
+homepage = "https://github.com/dhall-lang/dhall-haskell/tree/main/dhall-lsp-server"
+
+[source]
+url = "https://hackage.haskell.org/package/dhall-lsp-server-1.1.4/dhall-lsp-server-1.1.4.tar.gz"
+sha256 = "4c7f056c8414f811edb14d26b0a7d3f3225762d0023965e474b5712ed18c9a6d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "grunt-completion"
+version = "1.5.0"
+description = "Bash and Zsh completion for Grunt"
+homepage = "https://gruntjs.com/"
+
+[source]
+url = "https://github.com/gruntjs/grunt-cli/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "0ed2f1bbe6ba85c5b2b3ae1233c52b7622db092c078aafbba75dbb435a6a9d20"
+
+[build]
+system = "autotools"

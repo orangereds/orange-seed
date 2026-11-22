@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "openjdk", "gsl", "netcdf", "texinfo", "udunits"]
+
+[package]
+name = "nco"
+version = "5.4.2"
+description = "Command-line operators for netCDF and HDF files"
+homepage = "https://nco.sourceforge.net/"
+
+[source]
+url = "https://github.com/nco/nco/archive/refs/tags/5.4.2.tar.gz"
+sha256 = "082a483ec08a8afe91a645cc2fcabae01c2070ae0cec9218c4ad43760dae4e5c"
+
+[build]
+system = "autotools"

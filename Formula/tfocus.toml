@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tfocus"
+version = "0.1.5"
+description = "Tool for selecting and executing terraform plan/apply on specific resources"
+homepage = "https://github.com/nwiizo/tfocus"
+
+[source]
+url = "https://github.com/nwiizo/tfocus/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "cf8d841d170c551e8f669e8fe71b5c85f0f2b36623ca6e2b8189aa041e76b75d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "shelltestrunner"
+version = "1.11"
+description = "Portable command-line tool for testing command-line programs"
+homepage = "https://github.com/simonmichael/shelltestrunner"
+
+[source]
+url = "https://hackage.haskell.org/package/shelltestrunner-1.11/shelltestrunner-1.11.tar.gz"
+sha256 = "b1742f8c0262034197faa879f1871848a3c404bc8a8aab706fbd053130d3414d"
+
+[build]
+system = "autotools"

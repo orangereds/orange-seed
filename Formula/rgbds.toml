@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "rust", "libpng"]
+
+[package]
+name = "rgbds"
+version = "1.0.4"
+description = "Rednex GameBoy Development System"
+homepage = "https://rgbds.gbdev.io"
+
+[source]
+url = "https://github.com/gbdev/rgbds/archive/refs/tags/v1.0.4.tar.gz"
+sha256 = "8608aa597bed638f37af6d1cc0752d5e1e02c549f28e3c887fb3e7326cc06351"
+
+[build]
+system = "cmake"

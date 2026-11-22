@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sbom-tools"
+version = "0.4.0"
+description = "SBOM multi-tool: diff, quality, compliance, vulnerability tracking, VEXes, etc."
+homepage = "https://sbom.tools"
+
+[source]
+url = "https://github.com/sbom-tool/sbom-tools/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "249607a385ae5feeb91637c047827480983b6580fd56cdbeae605de0640b9582"
+
+[build]
+system = "autotools"

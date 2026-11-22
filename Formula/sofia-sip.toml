@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "glib", "openssl@4", "gettext"]
+
+[package]
+name = "sofia-sip"
+version = "1.13.19"
+description = "SIP User-Agent library"
+homepage = "https://sofia-sip.sourceforge.net/"
+
+[source]
+url = "https://github.com/freeswitch/sofia-sip/archive/refs/tags/v1.13.19.tar.gz"
+sha256 = "99389b574dfcff5775b260dd9ef1bdd2bcb5a42e655bd229d477e488e658064f"
+
+[build]
+system = "autotools"

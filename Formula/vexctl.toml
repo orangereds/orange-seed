@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vexctl"
+version = "0.4.4"
+description = "Tool to create, transform and attest VEX metadata"
+homepage = "https://openssf.org/projects/openvex/"
+
+[source]
+url = "https://github.com/openvex/vexctl/archive/refs/tags/v0.4.4.tar.gz"
+sha256 = "c846b1288f837ebcbebef7817ec450e5b0a4b3d8f7b176717ae6f3198539d991"
+
+[build]
+system = "autotools"

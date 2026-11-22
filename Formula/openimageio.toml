@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nanobind", "pkgconf", "robin-map", "ffmpeg", "fmt", "freetype", "giflib", "imath", "jpeg-turbo", "jpeg-xl", "libheif", "libpng", "libraw", "libtiff", "opencolorio", "openexr", "pugixml", "python@3.15", "tbb", "webp", "zlib-ng-compat"]
+
+[package]
+name = "openimageio"
+version = "8_1"
+description = "Library for reading, processing and writing images"
+homepage = "https://openimageio.readthedocs.io/en/stable/"
+
+[source]
+url = "https://github.com/AcademySoftwareFoundation/OpenImageIO/archive/refs/tags/v3.2.2.0.tar.gz"
+sha256 = "fa94876cfbd4c817deaba81ced8bad4af2956689faf4085f277b20197cd70b4e"
+
+[build]
+system = "cmake"

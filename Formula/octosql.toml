@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "octosql"
+version = "0.13.0"
+description = "SQL query tool to analyze data from different file formats and databases"
+homepage = "https://github.com/cube2222/octosql/"
+
+[source]
+url = "https://github.com/cube2222/octosql/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "e22bdb710ca0609019b842df347990ff9aed4f3635f5308ff1acf50d093b7942"
+
+[build]
+system = "autotools"

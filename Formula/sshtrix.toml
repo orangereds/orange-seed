@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libssh"]
+
+[package]
+name = "sshtrix"
+version = "0.0.3"
+description = "SSH login cracker"
+homepage = "https://nullsecurity.net/tools/cracker.html"
+
+[source]
+url = "https://github.com/nullsecuritynet/tools/raw/main/cracker/sshtrix/release/sshtrix-0.0.3.tar.gz"
+sha256 = "30d1d69c1cac92836e74b8f7d0dc9d839665b4994201306c72e9929bee32e2e0"
+
+[build]
+system = "autotools"

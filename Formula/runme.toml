@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "runme"
+version = "3.17.8"
+description = "Execute commands inside your runbooks, docs, and READMEs"
+homepage = "https://runme.dev/"
+
+[source]
+url = "https://github.com/runmedev/runme/archive/refs/tags/v3.17.8.tar.gz"
+sha256 = "7b85f20325e7f98037b9a8182e729e01aa2aa2023b16e8dd11c95edc47adc129"
+
+[build]
+system = "autotools"

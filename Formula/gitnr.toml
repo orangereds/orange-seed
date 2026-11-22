@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "gitnr"
+version = "0.3.1"
+description = "Create `.gitignore` using templates from TopTal, GitHub or your own collection"
+homepage = "https://github.com/reemus-dev/gitnr"
+
+[source]
+url = "https://github.com/reemus-dev/gitnr/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "06b1ab4a5ff56c815162485a9d90aae1d72b0c042f9be15b7db20c210a80f378"
+
+[build]
+system = "autotools"

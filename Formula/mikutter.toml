@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["at-spi2-core", "cairo", "fontconfig", "freetype", "gdk-pixbuf", "glib", "gobject-introspection", "gtk+3", "harfbuzz", "pango", "ruby", "gettext", "terminal-notifier"]
+
+[package]
+name = "mikutter"
+version = "5.1.2"
+description = "Extensible Twitter client"
+homepage = "https://mikutter.hachune.net/"
+
+[source]
+url = "https://mikutter.hachune.net/bin/mikutter-5.1.2.tar.gz"
+sha256 = "ac5d5cc386dd03d544d34a2fd2e5c73e38985eb2fcbe98e7137931de04bb6433"
+
+[build]
+system = "autotools"

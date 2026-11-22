@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "schemathesis"
+version = "4.33.4"
+description = "Testing tool for web applications with specs"
+homepage = "https://schemathesis.readthedocs.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8e/73/7a691f6088a8bf9e1f67010b9cca84e03376d42b356f8c37e2287bff4910/schemathesis-4.33.4.tar.gz"
+sha256 = "6b9b2f17d12e6474d5a53d8a61d0d8e10620c259249cb30a2d7cf2cd6688b56d"
+
+[build]
+system = "autotools"

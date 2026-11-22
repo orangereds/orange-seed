@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "salesforce-mcp"
+version = "0"
+description = "MCP Server for interacting with Salesforce instances"
+homepage = "https://github.com/salesforcecli/mcp"
+
+[source]
+url = "https://registry.npmjs.org/@salesforce/mcp/-/mcp-0.30.15.tgz"
+sha256 = "7cd9f0a3437b5102d01d8d629fd1666487414c1256487fe60245a86b66e831b6"
+
+[build]
+system = "autotools"

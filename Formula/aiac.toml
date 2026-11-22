@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aiac"
+version = "5.3.0"
+description = "Artificial Intelligence Infrastructure-as-Code Generator"
+homepage = "https://github.com/gofireflyio/aiac"
+
+[source]
+url = "https://github.com/gofireflyio/aiac/archive/refs/tags/v5.3.0.tar.gz"
+sha256 = "45e48cd8958d835b402e0e68d7aa8b9642deb535464dad5d6b83fb8f8ed3d79e"
+
+[build]
+system = "autotools"

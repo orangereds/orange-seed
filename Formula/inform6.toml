@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "inform6"
+version = "6.44-r7"
+description = "Design system for interactive fiction"
+homepage = "https://inform-fiction.org/inform6.html"
+
+[source]
+url = "https://ifarchive.org/if-archive/infocom/compilers/inform6/source/inform-6.44-r7.tar.gz"
+sha256 = "3e1f94e5c726f5f59cf086756dc14e66a3fd281ddbac75ead611d45aa57e4bdb"
+
+[build]
+system = "make"

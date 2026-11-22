@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "trimal"
+version = "1.5.1"
+description = "Automated alignment trimming in large-scale phylogenetic analyses"
+homepage = "https://trimal.readthedocs.io/"
+
+[source]
+url = "https://github.com/inab/trimal/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "58751054861b152e92214ff8c01a132071230614e8e777a7c9280d03648cde3b"
+
+[build]
+system = "autotools"

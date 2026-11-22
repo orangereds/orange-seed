@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gvp"
+version = "0.3.0"
+description = "Go versioning packager"
+homepage = "https://github.com/pote/gvp"
+
+[source]
+url = "https://github.com/pote/gvp/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "e1fccefa76495293350d47d197352a63cae6a014d8d28ebdedb785d4304ee338"
+
+[build]
+system = "autotools"

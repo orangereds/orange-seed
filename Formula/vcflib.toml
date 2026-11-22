@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "pybind11", "python@3.15", "htslib", "wfa2-lib", "xz", "libomp"]
+
+[package]
+name = "vcflib"
+version = "1.0.15-src"
+description = "C++ library and cmdline tools for parsing and manipulating VCF files"
+homepage = "https://github.com/vcflib/vcflib"
+
+[source]
+url = "https://github.com/vcflib/vcflib/releases/download/v1.0.15/vcflib-1.0.15-src.tar.gz"
+sha256 = "178e8c27fffc5324ac73f1c4b35f407184271b57f82aedc2efb9703df6ee3d49"
+
+[build]
+system = "cmake"

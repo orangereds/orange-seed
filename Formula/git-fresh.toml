@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-fresh"
+version = "1.13.0"
+description = "Utility to keep git repos fresh"
+homepage = "https://github.com/imsky/git-fresh"
+
+[source]
+url = "https://github.com/imsky/git-fresh/archive/refs/tags/v1.13.0.tar.gz"
+sha256 = "7043aaf2bf66dade7d06ebcf96e5d368c4910c002b7b00962bd2bd24490ce2dc"
+
+[build]
+system = "autotools"

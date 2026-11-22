@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "libplist"
+version = "2.8.1"
+description = "Library for Apple Binary- and XML-Property Lists"
+homepage = "https://libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/libplist/releases/download/2.8.1/libplist-2.8.1.tar.bz2"
+sha256 = "2a1792e5820e1657c173735fde75baeebd6dd967d2ac47be1e3891ddc64ebefa"
+
+[build]
+system = "autotools"

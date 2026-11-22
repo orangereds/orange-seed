@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kekkai"
+version = "0.2.13"
+description = "File integrity monitoring tool"
+homepage = "https://github.com/catatsuy/kekkai"
+
+[source]
+url = "https://github.com/catatsuy/kekkai/archive/refs/tags/v0.2.13.tar.gz"
+sha256 = "98e52e7f2b57405395fd3d7799fe53cce259982965e8438d5d3e5d4ac8a03015"
+
+[build]
+system = "autotools"

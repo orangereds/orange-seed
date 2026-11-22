@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "linux-headers@5.15"
+version = "0"
+description = "Header files of the Linux kernel"
+homepage = "https://kernel.org/"
+
+[source]
+url = "https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.15.225.tar.gz"
+sha256 = "529a3cdb7aa483f9b24953a3e2762058b260bc0acaeefd679f401b81905ae42a"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

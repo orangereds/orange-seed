@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "benchi"
+version = "0.4.1"
+description = "Benchmarking tool for data pipelines"
+homepage = "https://github.com/ConduitIO/benchi"
+
+[source]
+url = "https://github.com/ConduitIO/benchi/archive/refs/tags/v0.4.1.tar.gz"
+sha256 = "c97fc9f2e2fac7be61e9e9c2282e7ee1c9a5da78c3d6c10e40c472b1e79168ab"
+
+[build]
+system = "autotools"

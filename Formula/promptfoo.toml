@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "node"]
+
+[package]
+name = "promptfoo"
+version = "0.126.0"
+description = "Test your LLM app locally"
+homepage = "https://promptfoo.dev/"
+
+[source]
+url = "https://registry.npmjs.org/promptfoo/-/promptfoo-0.126.0.tgz"
+sha256 = "2dac1d087ced6e44e753c666952bdb2df9b456688bdc5a8fbfe6c1acf4159272"
+
+[build]
+system = "autotools"

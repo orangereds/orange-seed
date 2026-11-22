@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "picoc"
+version = "2.1_1"
+description = "C interpreter for scripting"
+homepage = "https://gitlab.com/zsaleeba/picoc"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/picoc/picoc-2.1.tar.bz2"
+sha256 = "bfed355fab810b337ccfa9e3215679d0b9886c00d9cb5e691f7e7363fd388b7e"
+
+[build]
+system = "autotools"

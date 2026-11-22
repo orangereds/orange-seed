@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "readline"
+version = "8.3.6"
+description = "Library for command-line editing"
+homepage = "https://www.gnu.org/software/readline/"
+
+[source]
+url = "https://ftp.gnu.org/gnu/readline/readline-8.3.6.tar.gz"
+sha256 = "64c2a9fb33e935b4968c67a8c12043c8c01629878171163e34976f524b7b0d59"
+
+[build]
+system = "autotools"
+
+[install]
+keg_only = true

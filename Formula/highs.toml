@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "highs"
+version = "0"
+description = "Linear optimization software"
+homepage = "https://www.maths.ed.ac.uk/hall/HiGHS/"
+
+[source]
+url = "https://github.com/ERGO-Code/HiGHS/releases/download/v1.16.0/source-archive.tar.gz"
+sha256 = "05ba0a408e31fe933e4ee4ec9d0e244a0e3c5bd2613e7b138701f62708eceed9"
+
+[build]
+system = "cmake"

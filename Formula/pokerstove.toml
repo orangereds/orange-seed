@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "googletest", "boost"]
+
+[package]
+name = "pokerstove"
+version = "1.1_8"
+description = "Poker evaluation and enumeration software"
+homepage = "https://github.com/andrewprock/pokerstove"
+
+[source]
+url = "https://github.com/andrewprock/pokerstove/archive/refs/tags/v1.1.tar.gz"
+sha256 = "ee263f579846b95df51cf3a4b6beeb2ea5ea0450ce7f1c8d87ed6dd77b377220"
+
+[build]
+system = "cmake"

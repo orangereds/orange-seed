@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "bbtools"
+version = "0"
+description = "Brian Bushnell's tools for manipulating reads"
+homepage = "https://bbmap.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/bbmap/BBMap_40.06.tar.gz"
+sha256 = "672aa3409168bcd8877b781abb80d324bd05375cbea7f447d0b8759638699472"
+
+[build]
+system = "autotools"

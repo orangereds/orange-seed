@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "render"
+version = "2.38.0"
+description = "Command-line interface for Render"
+homepage = "https://render.com/docs/cli"
+
+[source]
+url = "https://github.com/render-oss/cli/archive/refs/tags/v2.38.0.tar.gz"
+sha256 = "8fa8e77e7118124d12fc2d6a7fb54b9552f0242aa71eaa0ebc686f9176aad203"
+
+[build]
+system = "autotools"

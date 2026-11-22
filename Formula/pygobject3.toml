@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "python@3.14", "python@3.15", "cairo", "glib", "gobject-introspection", "py3cairo"]
+
+[package]
+name = "pygobject3"
+version = "0_1"
+description = "GNOME Python bindings (based on GObject Introspection)"
+homepage = "https://pygobject.gnome.org"
+
+[source]
+url = "https://download.gnome.org/sources/pygobject/3.58/pygobject-3.58.1.tar.gz"
+sha256 = "4c80598ade17fbaa7798e01a25d0bf29ce109740786026a074c5c62bb3e79d23"
+
+[build]
+system = "autotools"

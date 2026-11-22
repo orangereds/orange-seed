@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "pypy", "gdbm", "openssl@3", "sqlite", "tcl-tk@8", "xz"]
+
+[package]
+name = "pypy3.10"
+version = "0_1"
+description = "Implementation of Python 3 in Python"
+homepage = "https://pypy.org/"
+
+[source]
+url = "https://github.com/pypy/pypy/archive/refs/tags/release-pypy3.10-v7.3.19.tar.gz"
+sha256 = "48648aa0a63f4e5fa30315e06b27999ea7157da68a8d4503ebc4a7ee308b5f66"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "zig", "libkrunfw", "meson", "ninja", "pkgconf", "libepoxy", "molten-vk"]
+
+[package]
+name = "libkrun"
+version = "1.19.8"
+description = "Dynamic library providing KVM-based process isolation capabilities"
+homepage = "https://github.com/libkrun/libkrun"
+
+[source]
+url = "https://github.com/containers/libkrun/archive/refs/tags/v1.19.8.tar.gz"
+sha256 = "8896c71117462f868f41d26efd157c3270091814eaab3af27ca70c6857a85eb2"
+
+[build]
+system = "make"

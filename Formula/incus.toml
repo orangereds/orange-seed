@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "incus"
+version = "7.6"
+description = "CLI client for interacting with Incus"
+homepage = "https://linuxcontainers.org/incus"
+
+[source]
+url = "https://linuxcontainers.org/downloads/incus/incus-7.6.tar.xz"
+sha256 = "3b492ff0710d56d23b0dbfc7f5b5320efee9f6f6472b9275d6abd443c889a395"
+
+[build]
+system = "autotools"

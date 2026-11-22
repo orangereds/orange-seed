@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "aha"
+version = "0.5.1"
+description = "ANSI HTML adapter"
+homepage = "https://github.com/theZiz/aha"
+
+[source]
+url = "https://github.com/theZiz/aha/archive/refs/tags/0.5.1.tar.gz"
+sha256 = "6aea13487f6b5c3e453a447a67345f8095282f5acd97344466816b05ebd0b3b1"
+
+[build]
+system = "make"

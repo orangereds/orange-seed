@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "fmt", "spdlog"]
+
+[package]
+name = "doxygen"
+version = "1.18.0.src"
+description = "Generate documentation for several programming languages"
+homepage = "https://www.doxygen.nl/"
+
+[source]
+url = "https://doxygen.nl/files/doxygen-1.18.0.src.tar.gz"
+sha256 = "a1deed70a6785bbec95a2b2a9e419dc7f7b223a9d74a8644ae611c8e2dcdd354"
+
+[build]
+system = "cmake"

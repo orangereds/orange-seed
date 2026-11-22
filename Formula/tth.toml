@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tth"
+version = "0"
+description = "TeX/LaTeX to HTML converter"
+homepage = "http://silas.psfc.mit.edu/tth/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tth/tth4.16.tar.gz"
+sha256 = "b0e118d49a37e06598c1e2b524ea352ceabf064afef25acf02b556229ee43512"
+
+[build]
+system = "autotools"

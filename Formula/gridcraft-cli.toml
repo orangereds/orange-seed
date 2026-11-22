@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "gridcraft-cli"
+version = "0.19.1"
+description = "Headless GridCraft CLI and MCP server to inspect, convert and script workbooks"
+homepage = "https://getartcraft.com/apps/gridcraft"
+
+[source]
+url = "https://github.com/storytold/gridcraft/archive/refs/tags/v0.19.1.tar.gz"
+sha256 = "4adb7b981de97f31c61e5be67ac7b2bcd84e2559647b5c8c39561bbcce199c5e"
+
+[build]
+system = "autotools"

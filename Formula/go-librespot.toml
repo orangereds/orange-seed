@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "flac", "libogg", "libvorbis", "mpg123"]
+
+[package]
+name = "go-librespot"
+version = "0.10.7"
+description = "Spotify client"
+homepage = "https://github.com/devgianlu/go-librespot"
+
+[source]
+url = "https://github.com/devgianlu/go-librespot/archive/refs/tags/v0.10.7.tar.gz"
+sha256 = "dc249e97cfd33993c8642da256cc025b32ae3584ae4bd049eee8c390b37d1184"
+
+[service]
+run = "opt/go-librespot/bin/go-librespot --config_dir etc/go-librespot"
+keep_alive = true
+log_path = "var/log/go-librespot.log"
+error_log_path = "var/log/go-librespot.log"
+
+[build]
+system = "autotools"

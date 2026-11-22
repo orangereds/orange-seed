@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "paneru"
+version = "0.5.3"
+description = "Sliding, tiling window manager for MacOS"
+homepage = "https://github.com/karinushka/paneru"
+
+[source]
+url = "https://github.com/karinushka/paneru/archive/refs/tags/v0.5.3.tar.gz"
+sha256 = "ffa53f23244f6eb2d3a9d9df38b877dc95c73ad158d52606f965d8c6c0fead6d"
+
+[build]
+system = "autotools"

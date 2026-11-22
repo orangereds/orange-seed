@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "qtbase", "qtdeclarative", "qtmultimedia"]
+
+[package]
+name = "qtspeech"
+version = "0_1"
+description = "Enables access to text-to-speech engines"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtspeech-everywhere-src-6.12.0.tar.xz"
+sha256 = "9a60ce5bee54a9343740feab2582bffb996812f43d6c5585aade26dbd04933db"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "atomicparsley"
+version = "20240608.083822.1ed9031"
+description = "MPEG-4 command-line tool"
+homepage = "https://github.com/wez/atomicparsley"
+
+[source]
+url = "https://github.com/wez/atomicparsley/archive/refs/tags/20240608.083822.1ed9031.tar.gz"
+sha256 = "5bc9ac931a637ced65543094fa02f50dde74daae6c8800a63805719d65e5145e"
+
+[build]
+system = "cmake"

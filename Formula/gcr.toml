@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "gnupg", "libgcrypt", "libsecret", "p11-kit"]
+
+[package]
+name = "gcr"
+version = "4.4.1"
+description = "Library for bits of crypto UI and parsing"
+homepage = "https://gitlab.gnome.org/GNOME/gcr"
+
+[source]
+url = "https://download.gnome.org/sources/gcr/4.4/gcr-4.4.1.tar.xz"
+sha256 = "c4442c15d4330f17a1f5194df08c576877af68412ab2521446a93bd5e24c931b"
+
+[build]
+system = "autotools"

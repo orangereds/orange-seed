@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fabric-completion"
+version = "1"
+description = "Bash completion for Fabric"
+homepage = "https://github.com/n0740/fabric-completion"
+
+[source]
+url = "https://github.com/n0740/fabric-completion/archive/5b5910492046e6335af0e88550176d2583d9a510.tar.gz"
+sha256 = "34db5a8b207a66170580fc5c9d7521e76f3c3ee85471fa19a27718dca9a934a7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "scoutsuite"
+version = "5.14.0_20"
+description = "Open source multi-cloud security-auditing tool"
+homepage = "https://github.com/nccgroup/ScoutSuite"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a9/41/4f375fac81c66e1475c3ae18753a86191f253cdf24c29f28c8861d6bb984/scoutsuite-5.14.0.tar.gz"
+sha256 = "b021ad340196865093fb5d6e247f2596ec856e24cb39eb6e3e886923befd1208"
+
+[build]
+system = "autotools"

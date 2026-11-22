@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ssdeep"
+version = "2.14.1"
+description = "Recursive piecewise hashing tool"
+homepage = "https://ssdeep-project.github.io/ssdeep/"
+
+[source]
+url = "https://github.com/ssdeep-project/ssdeep/releases/download/release-2.14.1/ssdeep-2.14.1.tar.gz"
+sha256 = "ff2eabc78106f009b4fb2def2d76fb0ca9e12acf624cbbfad9b3eb390d931313"
+
+[build]
+system = "autotools"

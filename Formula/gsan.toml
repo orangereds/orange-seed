@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cryptography", "python@3.15"]
+
+[package]
+name = "gsan"
+version = "5.0.0_5"
+description = "Extract subdomains from SSL certificates in HTTPS sites"
+homepage = "https://franccesco.github.io/getaltname/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/73/0c/1fc5a29ae79fd74f0fd54d2c4d487b8cf7b21ede08efe99a6c39977816c6/gsan-5.0.0.tar.gz"
+sha256 = "2418a6897b0eb1c6eb44c3521ccc5c69a811071f864b8001fd9699a4d2f4c9e3"
+
+[build]
+system = "autotools"

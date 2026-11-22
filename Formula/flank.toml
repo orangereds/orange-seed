@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "flank"
+version = "0"
+description = "Massively parallel Android and iOS test runner for Firebase Test Lab"
+homepage = "https://firebase.community/"
+
+[source]
+url = "https://github.com/Flank/flank/releases/download/v23.10.1/flank.jar"
+sha256 = "719ba0ca5744f571aad01fc61392b18990833ee9dd36e6b600ccdff614350d58"
+
+[build]
+system = "autotools"

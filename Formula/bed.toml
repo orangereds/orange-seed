@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bed"
+version = "0.2.9"
+description = "Binary editor written in Go"
+homepage = "https://github.com/itchyny/bed"
+
+[source]
+url = "https://github.com/itchyny/bed/archive/refs/tags/v0.2.9.tar.gz"
+sha256 = "c163cc9d851db280e85adc2d5218ffad9a39c79f6f874c0d9dfaff939b6cd9ca"
+
+[build]
+system = "autotools"

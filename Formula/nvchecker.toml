@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["curl", "openssl@4", "python@3.15"]
+
+[package]
+name = "nvchecker"
+version = "2.22_4"
+description = "New version checker for software releases"
+homepage = "https://github.com/lilydjwg/nvchecker"
+
+[source]
+url = "https://files.pythonhosted.org/packages/be/43/e2b9699bb92a8125a24f2052152dfbfa4286285e6ea7aa7a47e8728ed72e/nvchecker-2.22.tar.gz"
+sha256 = "7c5d04d55e3faffa2f7e7a81165a2f6b68786f4b185d4e1e2ec7af03a524e784"
+
+[build]
+system = "autotools"

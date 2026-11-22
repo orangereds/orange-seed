@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vals"
+version = "0.51.1"
+description = "Helm-like configuration values loader with support for various sources"
+homepage = "https://github.com/helmfile/vals"
+
+[source]
+url = "https://github.com/helmfile/vals/archive/refs/tags/v0.51.1.tar.gz"
+sha256 = "d132c1e739d837f3e2321ca1d215915dfd6d78a6c853ed8fd0bb1d6495dc7069"
+
+[build]
+system = "autotools"

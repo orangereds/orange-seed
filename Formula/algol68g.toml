@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "algol68g"
+version = "3.14.0"
+description = "Algol 68 compiler-interpreter"
+homepage = "https://algol68genie.nl/en/algol-68-genie/"
+
+[source]
+url = "https://algol68genie.nl/algol68g-3.14.0.tar.gz"
+sha256 = "4f3117d07f4314f1551ae0c865543466bcff7309f31b6f5819a297923f765737"
+
+[build]
+system = "autotools"

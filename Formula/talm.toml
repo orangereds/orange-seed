@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "talm"
+version = "0.36.0"
+description = "Manage Talos Linux configurations the GitOps way"
+homepage = "https://github.com/cozystack/talm"
+
+[source]
+url = "https://github.com/cozystack/talm/archive/refs/tags/v0.36.0.tar.gz"
+sha256 = "4d0c54429f166c31aaef96b9c70a8fc90ed19963e3cc0f2f832abec8ee751fcd"
+
+[build]
+system = "autotools"

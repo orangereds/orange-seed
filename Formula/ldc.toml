@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "lld", "llvm"]
+
+[package]
+name = "ldc"
+version = "1.43.0-src"
+description = "Portable D programming language compiler"
+homepage = "https://wiki.dlang.org/LDC"
+
+[source]
+url = "https://github.com/ldc-developers/ldc/releases/download/v1.43.0/ldc-1.43.0-src.tar.gz"
+sha256 = "d655aad0daf0ce9a17b2ffffb947bb79ec6968bc7fb88bc918316dbe78c616e7"
+
+[build]
+system = "cmake"

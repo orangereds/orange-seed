@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "oha"
+version = "1.17.0"
+description = "HTTP load generator, inspired by rakyll/hey with tui animation"
+homepage = "https://github.com/hatoo/oha/"
+
+[source]
+url = "https://github.com/hatoo/oha/archive/refs/tags/v1.17.0.tar.gz"
+sha256 = "cd869a518c11252b4aaf2c12dc0c64527df2b69bc8f55b104139814912e67817"
+
+[build]
+system = "autotools"

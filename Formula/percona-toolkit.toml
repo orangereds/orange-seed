@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "perl-dbd-mysql"]
+
+[package]
+name = "percona-toolkit"
+version = "3.7.2"
+description = "Command-line tools for MySQL, MariaDB and system tasks"
+homepage = "https://www.percona.com/software/percona-toolkit/"
+
+[source]
+url = "https://downloads.percona.com/downloads/percona-toolkit/percona-toolkit-3.7.2/source/tarball/percona-toolkit-3.7.2.tar.gz"
+sha256 = "40b53ef6887671228bbf3c9a3bed83b9ded71e56b702d339463ed29f4eb56db4"
+
+[build]
+system = "autotools"

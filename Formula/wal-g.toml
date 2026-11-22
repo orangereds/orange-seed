@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "brotli", "libsodium", "lzo"]
+
+[package]
+name = "wal-g"
+version = "3.0.10"
+description = "Archival restoration tool for databases"
+homepage = "https://github.com/wal-g/wal-g"
+
+[source]
+url = "https://github.com/wal-g/wal-g/archive/refs/tags/v3.0.10.tar.gz"
+sha256 = "e7ad190500da1eb7cc7fdbe7e86543ce5b884992e99491042c5b2592caacf5fe"
+
+[build]
+system = "autotools"

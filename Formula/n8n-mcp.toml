@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "n8n-mcp"
+version = "2.103.2"
+description = "MCP for Claude Desktop, Claude Code, Windsurf, Cursor to build n8n workflows"
+homepage = "https://www.n8n-mcp.com/"
+
+[source]
+url = "https://registry.npmjs.org/n8n-mcp/-/n8n-mcp-2.103.2.tgz"
+sha256 = "bf22edee9903f175bcf8b128c18325474ec525faa2e4f67d96286195be344fe4"
+
+[build]
+system = "autotools"

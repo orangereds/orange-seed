@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "concurrencykit", "ldns", "libnghttp2", "openssl@4"]
+
+[package]
+name = "dnsperf"
+version = "2.16.0_1"
+description = "Measure DNS performance by simulating network conditions"
+homepage = "https://www.dns-oarc.net/tools/dnsperf"
+
+[source]
+url = "https://www.dns-oarc.net/files/dnsperf/dnsperf-2.16.0.tar.gz"
+sha256 = "6bccbd6949a4616442fdabb8a93d20011f5fbc2e5492d467e612a16aa39426e2"
+
+[build]
+system = "autotools"

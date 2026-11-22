@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "docbook", "xmlto"]
+
+[package]
+name = "patchutils"
+version = "0.4.5"
+description = "Small collection of programs that operate on patch files"
+homepage = "https://cyberelk.net/tim/software/patchutils/"
+
+[source]
+url = "https://github.com/twaugh/patchutils/releases/download/0.4.5/patchutils-0.4.5.tar.xz"
+sha256 = "8386a35a4d2d3cbc28fdcc93c5be007c382c78e3ee079070139f0d822e013325"
+
+[build]
+system = "autotools"

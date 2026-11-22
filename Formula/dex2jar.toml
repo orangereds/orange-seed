@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "dex2jar"
+version = "0"
+description = "Tools to work with Android .dex and Java .class files"
+homepage = "https://github.com/pxb1988/dex2jar"
+
+[source]
+url = "https://github.com/pxb1988/dex2jar/releases/download/v2.4/dex-tools-v2.4.zip"
+sha256 = "ee7c45eb3c1d2474a6145d8d447e651a736a22d9664b6d3d3be5a5a817dda23a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "superseedr"
+version = "1.0.17"
+description = "BitTorrent Client in your Terminal"
+homepage = "https://github.com/Jagalite/superseedr"
+
+[source]
+url = "https://github.com/Jagalite/superseedr/archive/refs/tags/v1.0.17.tar.gz"
+sha256 = "f3d0f61aa910631d03f3cc649a8f7f80a5d838618902d5cd3e2bd577b330922e"
+
+[build]
+system = "autotools"

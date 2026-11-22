@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aws-rotate-key"
+version = "1.2.0"
+description = "Easily rotate your AWS access key"
+homepage = "https://github.com/stefansundin/aws-rotate-key"
+
+[source]
+url = "https://github.com/stefansundin/aws-rotate-key/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "91568ad7aeb849454ac066c44303e2b97e158dc094a90af43c8c9b3dc5cc4ed7"
+
+[build]
+system = "autotools"

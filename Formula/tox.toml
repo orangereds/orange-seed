@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "tox"
+version = "4.67.15"
+description = "Generic Python virtualenv management and test command-line tool"
+homepage = "https://tox.wiki/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6e/71/3187e0915c305605d00736e81523e4a240e66249579e1556a8475d05ba33/tox-4.67.15.tar.gz"
+sha256 = "70307cf6cc0a328ca766dc8c20939c697af48d4df2d4bd0c93531eb3be50295d"
+
+[build]
+system = "autotools"

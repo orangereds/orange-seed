@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "datafusion"
+version = "0"
+description = "Apache Arrow DataFusion and Ballista query engines"
+homepage = "https://arrow.apache.org/datafusion"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=datafusion/datafusion-55.3.0/apache-datafusion-55.3.0.tar.gz"
+sha256 = "94e460e7ca1434d8d50a9efbb3fc8dfa2aa7b9ff19759cd733be03e808e9802c"
+
+[build]
+system = "autotools"

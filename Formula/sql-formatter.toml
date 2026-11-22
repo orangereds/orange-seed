@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sql-formatter"
+version = "15.10.0"
+description = "Whitespace formatter for different query languages"
+homepage = "https://sql-formatter-org.github.io/sql-formatter/"
+
+[source]
+url = "https://registry.npmjs.org/sql-formatter/-/sql-formatter-15.10.0.tgz"
+sha256 = "905eb4fbd22a65af0935ae00f7fc6d6713e36fdd96ba0f0d27a3774ddddc46e2"
+
+[build]
+system = "autotools"

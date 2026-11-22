@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "shpool"
+version = "0.11.7"
+description = "Persistent shell session manager"
+homepage = "https://github.com/shell-pool/shpool"
+
+[source]
+url = "https://github.com/shell-pool/shpool/archive/refs/tags/v0.11.7.tar.gz"
+sha256 = "a521a6fc38434c6f881145b726ad4101e4bd1dc06f6f17260fdb881b52f172b6"
+
+[service]
+run = "opt/shpool/bin/shpool daemon"
+keep_alive = true
+log_path = "var/log/shpool.log"
+error_log_path = "var/log/shpool.log"
+
+[build]
+system = "autotools"

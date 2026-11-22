@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "melt"
+version = "0.6.2"
+description = "Backup and restore Ed25519 SSH keys with seed words"
+homepage = "https://github.com/charmbracelet/melt"
+
+[source]
+url = "https://github.com/charmbracelet/melt/archive/refs/tags/v0.6.2.tar.gz"
+sha256 = "e6e7d1f3eba506ac7e310bbc497687e7e4e457fa685843dcf1ba00349614bfdc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "spirv-headers", "vulkan-tools", "glslang", "spirv-tools", "vulkan-headers", "vulkan-loader", "vulkan-utility-libraries"]
+
+[package]
+name = "vulkan-validationlayers"
+version = "0"
+description = "Vulkan layers that enable developers to verify correct use of the Vulkan API"
+homepage = "https://github.com/KhronosGroup/Vulkan-ValidationLayers"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-ValidationLayers/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "36720627913a591ae8ffc0f24b3c04f98af65242c9b7215d1944a85ff5b70e00"
+
+[build]
+system = "cmake"

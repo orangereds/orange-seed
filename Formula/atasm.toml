@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "atasm"
+version = "0"
+description = "Atari MAC/65 compatible assembler for Unix"
+homepage = "https://sourceforge.net/projects/atasm/"
+
+[source]
+url = "https://github.com/CycoPH/atasm/archive/refs/tags/V1.32.tar.gz"
+sha256 = "711af3d28b93046471c04afb09b39fffd16ab57f0129bf02a784ff84cf78f9c6"
+
+[build]
+system = "autotools"

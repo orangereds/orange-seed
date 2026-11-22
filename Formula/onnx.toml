@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "abseil", "protobuf"]
+
+[package]
+name = "onnx"
+version = "1.23.2"
+description = "Open standard for machine learning interoperability"
+homepage = "https://onnx.ai/"
+
+[source]
+url = "https://github.com/onnx/onnx/archive/refs/tags/v1.23.2.tar.gz"
+sha256 = "2f23784e27d210a23b059a847c305e305034fb4a842fface3ff37283f85a2b40"
+
+[build]
+system = "cmake"

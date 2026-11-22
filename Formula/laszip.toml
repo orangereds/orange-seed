@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "laszip"
+version = "3.5.0"
+description = "Lossless LiDAR compression"
+homepage = "https://laszip.org/"
+
+[source]
+url = "https://github.com/LASzip/LASzip/archive/refs/tags/3.5.0.tar.gz"
+sha256 = "6e9baac8689dfd2e1502ceafabb20c62b6cd572744d240fb755503fd57c2a6af"
+
+[build]
+system = "cmake"

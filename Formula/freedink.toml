@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["glm", "pkgconf", "fontconfig", "sdl2-compat", "sdl2_gfx", "sdl2_image", "sdl2_mixer", "sdl2_ttf", "gettext"]
+
+[package]
+name = "freedink"
+version = "109.6_1"
+description = "Portable version of the Dink Smallwood game engine"
+homepage = "https://www.gnu.org/software/freedink/"
+
+[source]
+url = "https://ftpmirror.gnu.org/freedink/freedink-109.6.tar.gz"
+sha256 = "5e0b35ac8f46d7bb87e656efd5f9c7c2ac1a6c519a908fc5b581e52657981002"
+
+[build]
+system = "make"

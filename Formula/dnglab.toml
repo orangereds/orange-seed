@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dnglab"
+version = "0.8.0"
+description = "Camera RAW to DNG file format converter"
+homepage = "https://github.com/dnglab/dnglab"
+
+[source]
+url = "https://github.com/dnglab/dnglab/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "432b8ac8f553289e06c0d78b37ae6f9546e80b736ef879f2ee66b66345590c4d"
+
+[build]
+system = "autotools"

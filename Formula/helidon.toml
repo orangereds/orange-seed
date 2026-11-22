@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk"]
+
+[package]
+name = "helidon"
+version = "3.0.6_1"
+description = "Command-line tool for Helidon application development"
+homepage = "https://helidon.io/"
+
+[source]
+url = "https://github.com/helidon-io/helidon-build-tools/archive/refs/tags/3.0.6.tar.gz"
+sha256 = "749cf3fd162bb9449ab57584c0bdf8874114d678499071ea522c047637de0f90"
+
+[build]
+system = "autotools"

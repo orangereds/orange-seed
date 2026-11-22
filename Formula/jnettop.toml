@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gettext"]
+
+[package]
+name = "jnettop"
+version = "0.13.0_2"
+description = "View hosts/ports taking up the most network traffic"
+homepage = "https://sourceforge.net/projects/jnettop/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/jnettop/jnettop/0.13/jnettop-0.13.0.tar.gz"
+sha256 = "a005d6fa775a85ff9ee91386e25505d8bdd93bc65033f1928327c98f5e099a62"
+
+[build]
+system = "autotools"

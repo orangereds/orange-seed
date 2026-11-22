@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "notion-mcp-server"
+version = "2.6.1"
+description = "MCP Server for Notion"
+homepage = "https://github.com/makenotion/notion-mcp-server"
+
+[source]
+url = "https://registry.npmjs.org/@notionhq/notion-mcp-server/-/notion-mcp-server-2.6.1.tgz"
+sha256 = "dda051e78271e754b6c6fe6907bfb71ee28b3cd81efe8d39fb39268c3b10aec5"
+
+[build]
+system = "autotools"

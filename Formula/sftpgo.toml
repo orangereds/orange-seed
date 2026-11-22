@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sftpgo"
+version = "2.7.6_src_with_deps"
+description = "Fully featured SFTP server with optional HTTP/S, FTP/S and WebDAV support"
+homepage = "https://sftpgo.com/"
+
+[source]
+url = "https://github.com/drakkan/sftpgo/releases/download/v2.7.6/sftpgo_v2.7.6_src_with_deps.tar.xz"
+sha256 = "f6da983e8d35bb698e4d8e99120a61cf0234f90eed396950bbee1a58d705cbad"
+
+[service]
+run = "sftpgo"
+keep_alive = true
+working_dir = "var/sftpgo"
+
+[build]
+system = "autotools"

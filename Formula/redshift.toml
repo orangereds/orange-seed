@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gettext", "intltool", "pkgconf", "glib"]
+
+[package]
+name = "redshift"
+version = "1.12_1"
+description = "Adjust color temperature of your screen according to your surroundings"
+homepage = "https://github.com/sharpbracket/redshift"
+
+[source]
+url = "https://github.com/sharpbracket/redshift/releases/download/v1.12/redshift-1.12.tar.xz"
+sha256 = "d2f8c5300e3ce2a84fe6584d2f1483aa9eadc668ab1951b2c2b8a03ece3a22ba"
+
+[service]
+run = "opt/redshift/bin/redshift"
+keep_alive = true
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

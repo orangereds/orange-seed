@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "texi2html", "imagemagick", "pkgconf", "enet", "freetype", "libpng", "sdl2-compat", "sdl2_image", "sdl2_mixer", "sdl2_ttf", "xerces-c", "gettext"]
+
+[package]
+name = "enigma"
+version = "0_1"
+description = "Puzzle game inspired by Oxyd and Rock'n'Roll"
+homepage = "https://www.nongnu.org/enigma/"
+
+[source]
+url = "https://github.com/Enigma-Game/Enigma/releases/download/1.30/Enigma-1.30-src.tar.gz"
+sha256 = "ae64b91fbc2b10970071d0d78ed5b4ede9ee3868de2e6e9569546fc58437f8af"
+
+[build]
+system = "autotools"

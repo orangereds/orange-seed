@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zet"
+version = "2.1.0"
+description = "CLI utility to find the union, intersection, and set difference of files"
+homepage = "https://github.com/yarrow/zet"
+
+[source]
+url = "https://github.com/yarrow/zet/archive/refs/tags/v2.1.0.tar.gz"
+sha256 = "678e569b4506c7099a4d99e75d420cf3b852ae3b5f19cd83e1a0d37be815a483"
+
+[build]
+system = "autotools"

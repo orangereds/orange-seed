@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "openjdk"]
+
+[package]
+name = "textidote"
+version = "0.9"
+description = "Spelling, grammar and style checking on LaTeX documents"
+homepage = "https://sylvainhalle.github.io/textidote"
+
+[source]
+url = "https://github.com/sylvainhalle/textidote/archive/refs/tags/v0.9.tar.gz"
+sha256 = "df4ec98e355dddb3cebe155868da63ae17f48778151d2d8b227d412aee768c9b"
+
+[build]
+system = "autotools"

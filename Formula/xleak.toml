@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "xleak"
+version = "0"
+description = "Terminal Excel viewer with an interactive TUI"
+homepage = "https://github.com/bgreenwell/xleak"
+
+[source]
+url = "https://github.com/bgreenwell/xleak/releases/download/v0.2.6/source.tar.gz"
+sha256 = "044f69f844e16259ed8f052a4c626032d2b147b0d63b36fc743e87a35e5696cb"
+
+[build]
+system = "autotools"

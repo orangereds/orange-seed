@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "python-setuptools", "boost", "boost-python3", "openssl@4", "python@3.15"]
+
+[package]
+name = "libtorrent-rasterbar"
+version = "2.1.2_2"
+description = "C++ bittorrent library with Python bindings"
+homepage = "https://www.libtorrent.org/"
+
+[source]
+url = "https://github.com/arvidn/libtorrent/releases/download/v2.1.2/libtorrent-rasterbar-2.1.2.tar.gz"
+sha256 = "3362546d9cd71b9e49ee6cac7d3f1f914ce9cdb217c86b63d5b22cbed0334dbc"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "shapelib"
+version = "1.6.3"
+description = "Library for reading and writing ArcView Shapefiles"
+homepage = "http://shapelib.maptools.org/"
+
+[source]
+url = "https://download.osgeo.org/shapelib/shapelib-1.6.3.tar.gz"
+sha256 = "3ff5ead18ca6d2fe249f0e80b361e1ad6782165115268ed4a58c780a60c1e0eb"
+
+[build]
+system = "cmake"

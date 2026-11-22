@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "flac", "libao", "libogg", "popt"]
+
+[package]
+name = "flac123"
+version = "2.1.1_1"
+description = "Command-line program for playing FLAC audio files"
+homepage = "https://github.com/flac123/flac123"
+
+[source]
+url = "https://github.com/flac123/flac123/archive/refs/tags/v2.1.1.tar.gz"
+sha256 = "c09676dce51383ce4fe7a553e67f4369918cf40ee6d922e585e50c11bce9e227"
+
+[build]
+system = "autotools"

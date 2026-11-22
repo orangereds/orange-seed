@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubeaudit"
+version = "0.22.2"
+description = "Helps audit your Kubernetes clusters against common security controls"
+homepage = "https://github.com/Shopify/kubeaudit"
+
+[source]
+url = "https://github.com/Shopify/kubeaudit/archive/refs/tags/v0.22.2.tar.gz"
+sha256 = "90752d42c4d502ab6776af3358ae87a02d2893fc2bb7a0364d6c1fdcd8ff0570"
+
+[build]
+system = "autotools"

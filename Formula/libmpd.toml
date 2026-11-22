@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gettext"]
+
+[package]
+name = "libmpd"
+version = "11.8.17_1"
+description = "Higher level access to MPD functions"
+homepage = "https://gmpc.fandom.com/wiki/Gnome_Music_Player_Client"
+
+[source]
+url = "https://www.musicpd.org/download/libmpd/11.8.17/libmpd-11.8.17.tar.gz"
+sha256 = "fe20326b0d10641f71c4673fae637bf9222a96e1712f71f170fca2fc34bf7a83"
+
+[build]
+system = "autotools"

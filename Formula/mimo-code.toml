@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "ripgrep"]
+
+[package]
+name = "mimo-code"
+version = "0.1.17"
+description = "AI coding agent with cross-session memory"
+homepage = "https://github.com/XiaomiMiMo/MiMo-Code"
+
+[source]
+url = "https://github.com/XiaomiMiMo/MiMo-Code/archive/refs/tags/v0.1.17.tar.gz"
+sha256 = "b31dbb1f7ed1fb601778e30ef9b07de65968193937ddbfa42dc783dd4a058e59"
+
+[build]
+system = "autotools"

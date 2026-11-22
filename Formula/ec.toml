@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ec"
+version = "0.4.4"
+description = "TUI 3-way git mergetool"
+homepage = "https://github.com/chojs23/ec"
+
+[source]
+url = "https://github.com/chojs23/ec/archive/refs/tags/v0.4.4.tar.gz"
+sha256 = "c2d92ee339580a610a52b820fe23f2e551c010fae9ad683a2f11dba3118063ba"
+
+[build]
+system = "autotools"

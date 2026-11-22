@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "devcockpit"
+version = "3.0.0"
+description = "TUI system monitor for Apple Silicon"
+homepage = "https://devcockpit.app/"
+
+[source]
+url = "https://github.com/caioricciuti/dev-cockpit/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "5f0c72cd82ce06b166ad92810d096507c9575350af058734c3c010408cf0e87c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-shear"
+version = "1.14.1"
+description = "Detect and remove unused dependencies from `Cargo.toml` in Rust projects"
+homepage = "https://github.com/Boshen/cargo-shear"
+
+[source]
+url = "https://github.com/Boshen/cargo-shear/archive/refs/tags/v1.14.1.tar.gz"
+sha256 = "8cedddd7f8ebfea46fa7369a89f6be2905c4bbb9c9430a1057df9d048e9548be"
+
+[build]
+system = "autotools"

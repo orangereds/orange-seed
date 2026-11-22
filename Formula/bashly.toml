@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby", "bash"]
+
+[package]
+name = "bashly"
+version = "2.0.0"
+description = "Bash command-line framework and CLI generator"
+homepage = "https://bashly.dev"
+
+[source]
+url = "https://github.com/bashly-framework/bashly/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "952d4c49e7c55c967a05701075b44d31edbafda23098aabc93d235f3aae92110"
+
+[build]
+system = "autotools"

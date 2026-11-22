@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "descope"
+version = "0.8.17"
+description = "Command-line utility for performing common tasks on Descope projects"
+homepage = "https://www.descope.com"
+
+[source]
+url = "https://github.com/descope/descopecli/archive/refs/tags/v0.8.17.tar.gz"
+sha256 = "e278edf374cd286ad0b644834bb3f9aa8c8b21fa5a47ed40622ab9fe7fff22cf"
+
+[build]
+system = "autotools"

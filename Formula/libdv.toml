@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "popt"]
+
+[package]
+name = "libdv"
+version = "1.0.0"
+description = "Codec for DV video encoding format"
+homepage = "https://libdv.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libdv/libdv/1.0.0/libdv-1.0.0.tar.gz"
+sha256 = "a305734033a9c25541a59e8dd1c254409953269ea7c710c39e540bd8853389ba"
+
+[build]
+system = "autotools"

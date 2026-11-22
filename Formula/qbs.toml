@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qt5compat", "qtbase"]
+
+[package]
+name = "qbs"
+version = "0"
+description = "Build tool for developing projects across multiple platforms"
+homepage = "https://wiki.qt.io/Qbs"
+
+[source]
+url = "https://download.qt.io/official_releases/qbs/3.3.1/qbs-src-3.3.1.tar.gz"
+sha256 = "5d8b58a5fb60c83a311331aa10d90536e4d4cb28d5078d3554edd807a5af9a8f"
+
+[build]
+system = "cmake"

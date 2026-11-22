@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "two-ms"
+version = "5.4.0"
+description = "Detect secrets in files and communication platforms"
+homepage = "https://github.com/Checkmarx/2ms"
+
+[source]
+url = "https://github.com/Checkmarx/2ms/archive/refs/tags/v5.4.0.tar.gz"
+sha256 = "392938f0a55a0fcb30c537700d1b0ba37659d09bd52fac045d49e78248e17868"
+
+[build]
+system = "autotools"

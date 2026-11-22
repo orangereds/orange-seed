@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "gettext", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "strongswan"
+version = "6.1.0_1"
+description = "VPN based on IPsec"
+homepage = "https://www.strongswan.org"
+
+[source]
+url = "https://download.strongswan.org/strongswan-6.1.0.tar.bz2"
+sha256 = "fe6c97481298767213cfc2e9a1da29fdd8018d481ff4cb9cf0283099654f20d4"
+
+[build]
+system = "autotools"

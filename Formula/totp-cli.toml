@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "totp-cli"
+version = "1.9.2"
+description = "Authy/Google Authenticator like TOTP CLI tool written in Go"
+homepage = "https://yitsushi.github.io/totp-cli/"
+
+[source]
+url = "https://github.com/yitsushi/totp-cli/archive/refs/tags/v1.9.2.tar.gz"
+sha256 = "c8b87c7854f373423dba2f8c6167c2836b6ae1f66b29b1becb505c277a00c54f"
+
+[build]
+system = "autotools"

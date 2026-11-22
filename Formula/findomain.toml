@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "pkgconf", "rust"]
+
+[package]
+name = "findomain"
+version = "11.0.0"
+description = "Cross-platform subdomain enumerator"
+homepage = "https://github.com/Findomain/Findomain"
+
+[source]
+url = "https://github.com/Findomain/Findomain/archive/refs/tags/11.0.0.tar.gz"
+sha256 = "94a6980136ac1d96034bf2f4b30d4fab15f4c2b4dc1e99dfe226b7e7ca79ae37"
+
+[build]
+system = "autotools"

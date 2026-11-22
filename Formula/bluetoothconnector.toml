@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bluetoothconnector"
+version = "2.1.0"
+description = "Connect and disconnect Bluetooth devices"
+homepage = "https://github.com/lapfelix/BluetoothConnector"
+
+[source]
+url = "https://github.com/lapfelix/BluetoothConnector/archive/refs/tags/2.1.0.tar.gz"
+sha256 = "cbb192e5f94da27408bd8306a25e11bbffd643d916f6a03d532f83a229281f77"
+
+[build]
+system = "autotools"

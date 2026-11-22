@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pkgconf"
+version = "3.0.11"
+description = "Provides compiler and linker flags for development packages"
+homepage = "https://pkgconf.org/"
+
+[source]
+url = "https://distfiles.dereferenced.org/pkgconf/pkgconf-3.0.11.tar.xz"
+sha256 = "d0cd841bc8e55b9da888106c00dc256d05b7d1d8e5a46f4be4eb4c5125bd2dc4"
+
+[build]
+system = "autotools"

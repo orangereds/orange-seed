@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "a52dec", "faad2", "flac", "fluid-synth", "freetype", "fribidi", "giflib", "jpeg-turbo", "libmpeg2", "libogg", "libopenmpt", "libpng", "libvorbis", "libvpx", "mad", "sdl3", "theora", "musepack"]
+
+[package]
+name = "scummvm"
+version = "2026.4.0"
+description = "Graphic adventure game interpreter"
+homepage = "https://www.scummvm.org/"
+
+[source]
+url = "https://downloads.scummvm.org/frs/scummvm/2026.4.0/scummvm-2026.4.0.tar.xz"
+sha256 = "cd660b34104da7f85ed0a11b7c6c2320c629bb87ee297935711ebc1e09731f12"
+
+[build]
+system = "autotools"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "openssl@3"]
+
+[package]
+name = "h2o"
+version = "2.2.6_3"
+description = "HTTP server with support for HTTP/1.x and HTTP/2"
+homepage = "https://github.com/h2o/h2o/"
+
+[source]
+url = "https://github.com/h2o/h2o/archive/refs/tags/v2.2.6.tar.gz"
+sha256 = "f8cbc1b530d85ff098f6efc2c3fdbc5e29baffb30614caac59d5c710f7bda201"
+
+[service]
+run = "opt/h2o/bin/h2o -c etc/h2o/h2o.conf"
+keep_alive = true
+
+[build]
+system = "cmake"

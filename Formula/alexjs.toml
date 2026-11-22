@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "alexjs"
+version = "11.0.1"
+description = "Catch insensitive, inconsiderate writing"
+homepage = "https://alexjs.com"
+
+[source]
+url = "https://github.com/get-alex/alex/archive/refs/tags/11.0.1.tar.gz"
+sha256 = "0c41d5d72c0101996aecb88ae2f423d6ac7a2fc57f93384d1a193d2ce67c4ffb"
+
+[build]
+system = "autotools"

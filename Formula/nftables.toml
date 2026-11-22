@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python@3.15", "gmp", "jansson", "libedit", "libmnl", "libnftnl", "ncurses", "readline"]
+
+[package]
+name = "nftables"
+version = "1.1.7"
+description = "Netfilter tables userspace tools"
+homepage = "https://netfilter.org/projects/nftables/"
+
+[source]
+url = "https://www.netfilter.org/pub/nftables/nftables-1.1.7.tar.xz"
+sha256 = "a6fbf060d8d4fff001517a2b94f356bb4366bfbf0ba366366f9d27cc38caa58f"
+
+[build]
+system = "autotools"

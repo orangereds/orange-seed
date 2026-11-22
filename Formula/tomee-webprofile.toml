@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "tomee-webprofile"
+version = "0"
+description = "All-Apache Java EE 7 Web Profile stack"
+homepage = "https://tomee.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tomee/tomee-10.3.0/apache-tomee-10.3.0-webprofile.tar.gz"
+sha256 = "66735d3ae0c48deb41d44d2c8f3c6c475a929eed9bfc96eaf7b1c89ff8ddef43"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "srgn"
+version = "0.14.4"
+description = "Code surgeon for precise text and code transplantation"
+homepage = "https://github.com/alexpovel/srgn"
+
+[source]
+url = "https://github.com/alexpovel/srgn/archive/refs/tags/srgn-v0.14.4.tar.gz"
+sha256 = "ea870ebff82a994271cba5d044e664095c9c8810178864e6938eb7aaf643b495"
+
+[build]
+system = "autotools"

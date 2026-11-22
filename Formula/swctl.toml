@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "swctl"
+version = "0.16.0"
+description = "Apache SkyWalking CLI (Command-line Interface)"
+homepage = "https://skywalking.apache.org/"
+
+[source]
+url = "https://github.com/apache/skywalking-cli/archive/refs/tags/0.16.0.tar.gz"
+sha256 = "712a4f484121b518abde7f98a2a0cc4cc4d03ce0e28f59636376630c8a2aabc1"
+
+[build]
+system = "autotools"

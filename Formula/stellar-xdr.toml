@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "stellar-xdr"
+version = "30.0.0.crate"
+description = "Stellar command-line tool for encoding/decoding XDR for the Stellar network"
+homepage = "https://developers.stellar.org"
+
+[source]
+url = "https://static.crates.io/crates/stellar-xdr/stellar-xdr-30.0.0.crate"
+sha256 = "56f2fb2008b42fc746c0f6b46e375600068dd91f07748e9f1737c6341a2255f2"
+
+[build]
+system = "autotools"

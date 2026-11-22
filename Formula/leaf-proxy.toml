@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "leaf-proxy"
+version = "0.14.2"
+description = "Lightweight and fast proxy utility"
+homepage = "https://github.com/eycorsican/leaf"
+
+[source]
+url = "https://github.com/eycorsican/leaf/archive/refs/tags/v0.14.2.tar.gz"
+sha256 = "605bfb0a12b187824a3958066e7e9651a6bfb2f0a889041e73e1d58bb706ed43"
+
+[build]
+system = "autotools"

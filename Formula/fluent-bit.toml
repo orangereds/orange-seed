@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "flex", "pkgconf", "libyaml", "luajit", "openssl@4"]
+
+[package]
+name = "fluent-bit"
+version = "5.2.0"
+description = "Fast and Lightweight Logs and Metrics processor"
+homepage = "https://fluentbit.io"
+
+[source]
+url = "https://github.com/fluent/fluent-bit/archive/refs/tags/v5.2.0.tar.gz"
+sha256 = "7f1b92ed09e43c33d8c572bc1643ad0e797f129286468faf85ac56beed6cccad"
+
+[build]
+system = "cmake"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitlab-runner"
+version = "0"
+description = "Official GitLab CI runner"
+homepage = "https://gitlab.com/gitlab-org/gitlab-runner"
+
+[source]
+url = "https://gitlab.com/gitlab-org/gitlab-runner.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/gitlab-runner/bin/gitlab-runner run --syslog"
+keep_alive = true
+working_dir = "Dir.home"
+
+[build]
+system = "autotools"

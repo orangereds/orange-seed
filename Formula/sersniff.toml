@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sersniff"
+version = "0.0.5"
+description = "Program to tunnel/sniff between 2 serial ports"
+homepage = "https://www.earth.li/projectpurple/progs/sersniff.html"
+
+[source]
+url = "https://www.earth.li/projectpurple/files/sersniff-0.0.5.tar.gz"
+sha256 = "8aa93f3b81030bcc6ff3935a48c1fd58baab8f964b1d5e24f0aaecbd78347209"
+
+[build]
+system = "autotools"

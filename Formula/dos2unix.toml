@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dos2unix"
+version = "7.5.7"
+description = "Convert text between DOS, UNIX, and Mac formats"
+homepage = "https://waterlander.net/dos2unix/"
+
+[source]
+url = "https://waterlander.net/dos2unix/files/dos2unix-7.5.7.tar.gz"
+sha256 = "669ee27120ae71589f638fe3a167d6ea54f8633f5ab1b282551bd7a7c9510dfa"
+
+[build]
+system = "autotools"

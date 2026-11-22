@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "netshow"
+version = "0.3.0"
+description = "Interactive network connection monitor with friendly service names"
+homepage = "https://github.com/taylorwilsdon/netshow"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7f/81/fc97b3c70ecdd747583c1016373a64bb0e8b7519ed02fd234eaaf527a756/netshow-0.3.0.tar.gz"
+sha256 = "9641bf5a6512615c5faa09d4077756a0e8dfd97a7b202b960e4ac1f04f5f8c8c"
+
+[build]
+system = "autotools"

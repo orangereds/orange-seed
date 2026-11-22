@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "code2prompt"
+version = "4.3.0.crate"
+description = "CLI tool to convert your codebase into a single LLM prompt"
+homepage = "https://code2prompt.dev/"
+
+[source]
+url = "https://static.crates.io/crates/code2prompt/code2prompt-4.3.0.crate"
+sha256 = "990ebe1d34dec07580dd23e4097423989f0bd6c8d4f4de9d47c0ae77a0c2c732"
+
+[build]
+system = "autotools"

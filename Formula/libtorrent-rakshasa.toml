@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "libtorrent-rakshasa"
+version = "0.16.28"
+description = "BitTorrent library with a focus on high performance"
+homepage = "https://github.com/rakshasa/libtorrent"
+
+[source]
+url = "https://github.com/rakshasa/libtorrent/archive/refs/tags/v0.16.28.tar.gz"
+sha256 = "2957ac68b8450fb78220b05ab17facfc1f6baa25d820182eeb4baa3db740cdc8"
+
+[build]
+system = "autotools"

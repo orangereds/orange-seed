@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "gmp", "ocaml@4", "opam", "pkgconf", "libev", "pcre"]
+
+[package]
+name = "comby"
+version = "1.8.1_1"
+description = "Tool for changing code across many languages"
+homepage = "https://comby.dev"
+
+[source]
+url = "https://github.com/comby-tools/comby/archive/refs/tags/1.8.1.tar.gz"
+sha256 = "04d51cf742bbbf5e5fda064a710be44537fac49bff598d0e9762a3a799d666e2"
+
+[build]
+system = "autotools"

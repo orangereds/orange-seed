@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "webdav"
+version = "5.17.3"
+description = "Simple and standalone WebDAV server"
+homepage = "https://github.com/hacdias/webdav"
+
+[source]
+url = "https://github.com/hacdias/webdav/archive/refs/tags/v5.17.3.tar.gz"
+sha256 = "326b3ceac4dfe8980b6afc6592076afc2a5b753c8586e615e5f5f13af3147e2c"
+
+[build]
+system = "autotools"

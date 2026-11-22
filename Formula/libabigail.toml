@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "elfutils", "libxml2", "xxhash", "xz"]
+
+[package]
+name = "libabigail"
+version = "3.0"
+description = "ABI Generic Analysis and Instrumentation Library"
+homepage = "https://sourceware.org/libabigail/"
+
+[source]
+url = "https://mirrors.kernel.org/sourceware/libabigail/libabigail-3.0.tar.xz"
+sha256 = "d34ea7c4b150f61e22edb1d16157e12c43fd18f8e8f09abce053d82ccaf92e06"
+
+[build]
+system = "autotools"

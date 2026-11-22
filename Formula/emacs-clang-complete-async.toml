@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm"]
+
+[package]
+name = "emacs-clang-complete-async"
+version = "0.5_7"
+description = "Emacs plugin using libclang to complete C/C++ code"
+homepage = "https://github.com/Golevka/emacs-clang-complete-async"
+
+[source]
+url = "https://github.com/Golevka/emacs-clang-complete-async/archive/refs/tags/v0.5.tar.gz"
+sha256 = "151a81ae8dd9181116e564abafdef8e81d1e0085a1e85e81158d722a14f55c76"
+
+[build]
+system = "autotools"

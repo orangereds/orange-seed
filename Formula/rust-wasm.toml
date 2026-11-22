@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["wasmtime", "lld", "rust", "wasi-libc", "wasm-component-ld"]
+
+[package]
+name = "rust-wasm"
+version = "0"
+description = "Rust standard library and sysroot for WebAssembly targets"
+homepage = "https://www.rust-lang.org/"
+
+[source]
+url = "https://static.rust-lang.org/dist/rustc-1.100.0-src.tar.gz"
+sha256 = "e8904548563117043c24a67c4967119b7c9ed304821988283e7681122ceec98b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "croaring"
+version = "5.5.5"
+description = "Roaring bitmaps in C (and C++)"
+homepage = "https://roaringbitmap.org"
+
+[source]
+url = "https://github.com/RoaringBitmap/CRoaring/archive/refs/tags/v5.5.5.tar.gz"
+sha256 = "f78a93b8cf373fe4a3d31075cf2b3dc21dcfd7bbbc17674df35071ec8e461aef"
+
+[build]
+system = "cmake"

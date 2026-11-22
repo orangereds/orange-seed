@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "fruit"
+version = "3.7.1"
+description = "Dependency injection framework for C++"
+homepage = "https://github.com/google/fruit/wiki"
+
+[source]
+url = "https://github.com/google/fruit/archive/refs/tags/v3.7.1.tar.gz"
+sha256 = "ed4c6b7ebfbf75e14a74e21eb74ce2703b8485bfc9e660b1c36fb7fe363172d0"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "cppinsights"
+version = "14"
+description = "See your source code with the eyes of a compiler"
+homepage = "https://cppinsights.io/"
+
+[source]
+url = "https://github.com/andreasfertig/cppinsights/archive/refs/tags/v_23.1.tar.gz"
+sha256 = "2c2ac2f96612e8e789c96305031dd55af3d399a572989827d1657c388cdbdbb6"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "difftastic"
+version = "0.72.0"
+description = "Diff that understands syntax"
+homepage = "https://difftastic.wilfred.me.uk/"
+
+[source]
+url = "https://github.com/Wilfred/difftastic/archive/refs/tags/0.72.0.tar.gz"
+sha256 = "ed8e2d59d44d62289b17c9d241e469bd72565fadf13c260676fc7a23bc28a844"
+
+[build]
+system = "autotools"

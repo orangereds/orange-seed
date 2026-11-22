@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gawk"]
+
+[package]
+name = "txt2man"
+version = "1.7.1"
+description = "Converts flat ASCII text to man page format"
+homepage = "https://github.com/mvertes/txt2man/"
+
+[source]
+url = "https://github.com/mvertes/txt2man/archive/refs/tags/txt2man-1.7.1.tar.gz"
+sha256 = "4d9b1bfa2b7a5265b4e5cb3aebc1078323b029aa961b6836d8f96aba6a9e434d"
+
+[build]
+system = "autotools"

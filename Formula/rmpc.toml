@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rmpc"
+version = "0.11.0"
+description = "Terminal based Media Player Client with album art support"
+homepage = "https://mierak.github.io/rmpc/"
+
+[source]
+url = "https://github.com/mierak/rmpc/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "930019066228d18e9530a8c0d77f10e231ab5efbbbca73b331efcd6fbb47557d"
+
+[build]
+system = "autotools"

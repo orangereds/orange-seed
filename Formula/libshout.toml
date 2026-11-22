@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libogg", "libvorbis", "openssl@4", "speex", "theora"]
+
+[package]
+name = "libshout"
+version = "2.4.6_4"
+description = "Data and connectivity library for the Icecast server"
+homepage = "https://icecast.org/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/libshout/libshout-2.4.6.tar.gz"
+sha256 = "39cbd4f0efdfddc9755d88217e47f8f2d7108fa767f9d58a2ba26a16d8f7c910"
+
+[build]
+system = "autotools"

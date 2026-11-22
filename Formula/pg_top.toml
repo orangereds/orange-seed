@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libpq"]
+
+[package]
+name = "pg_top"
+version = "3.7.0_4"
+description = "Monitor PostgreSQL processes"
+homepage = "https://pg_top.gitlab.io"
+
+[source]
+url = "https://ftp.postgresql.org/pub/projects/pgFoundry/ptop/pg_top/3.7.0/pg_top-3.7.0.tar.bz2"
+sha256 = "c48d726e8cd778712e712373a428086d95e2b29932e545ff2a948d043de5a6a2"
+
+[build]
+system = "autotools"

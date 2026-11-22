@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "timoni"
+version = "0.37.0_source_code"
+description = "Package manager for Kubernetes, powered by CUE and inspired by Helm"
+homepage = "https://timoni.sh/"
+
+[source]
+url = "https://github.com/stefanprodan/timoni/releases/download/v0.37.0/timoni_0.37.0_source_code.tar.gz"
+sha256 = "8d86203b291a6b3790d07c4c53658b1fb251c9f341c94f424afdede43b5d8959"
+
+[build]
+system = "autotools"

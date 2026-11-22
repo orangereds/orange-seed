@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "z80asm"
+version = "1.8"
+description = "Assembler for the Zilog Z80 microprcessor and compatibles"
+homepage = "https://www.nongnu.org/z80asm/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/z80asm/z80asm-1.8.tar.gz"
+sha256 = "67fba9940582cddfa70113235818fb52d81e5be3db483dfb0816acb330515f64"
+
+[build]
+system = "autotools"

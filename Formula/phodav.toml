@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "libsoup", "gettext"]
+
+[package]
+name = "phodav"
+version = "3.2"
+description = "WebDav server implementation using libsoup (RFC 4918)"
+homepage = "https://gitlab.gnome.org/GNOME/phodav"
+
+[source]
+url = "https://download.gnome.org/sources/phodav/3.2/phodav-3.2.tar.xz"
+sha256 = "93c993066ab3aebd5b539bab9d731eac43abbb750109c895f151ca3c74a5fc82"
+
+[build]
+system = "autotools"

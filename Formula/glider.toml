@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "glider"
+version = "0.16.4"
+description = "Forward proxy with multiple protocols support"
+homepage = "https://github.com/nadoo/glider"
+
+[source]
+url = "https://github.com/nadoo/glider/archive/refs/tags/v0.16.4.tar.gz"
+sha256 = "91aa9ad6d56b164b30abedc88a0d371b3af6ff96cfe92f18525fa8e110aaee1d"
+
+[service]
+run = "opt/glider/bin/glider -config etc/glider.conf"
+keep_alive = true
+
+[build]
+system = "autotools"

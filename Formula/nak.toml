@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nak"
+version = "0.22.3"
+description = "CLI for doing all things nostr"
+homepage = "https://github.com/fiatjaf/nak"
+
+[source]
+url = "https://github.com/fiatjaf/nak/archive/refs/tags/v0.22.3.tar.gz"
+sha256 = "6bc8d39d4411dfc481b4c894932b76f55eeb152073adb4e55fe375c5ca049e5a"
+
+[build]
+system = "autotools"

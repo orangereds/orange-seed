@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "clhep"
+version = "0"
+description = "Class Library for High Energy Physics"
+homepage = "https://proj-clhep.web.cern.ch/proj-clhep/"
+
+[source]
+url = "https://gitlab.cern.ch/CLHEP/CLHEP/-/archive/CLHEP_2_4_7_2/CLHEP-CLHEP_2_4_7_2.tar.gz"
+sha256 = "c40c239fa2c5810b60f4e9ddd6a8cc2ce81b962aa170994748cd2a2b5ac87f84"
+
+[build]
+system = "cmake"

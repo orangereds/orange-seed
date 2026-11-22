@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asio", "cxxopts", "pkgconf", "rapidjson", "openssl@4", "llvm"]
+
+[package]
+name = "vroom"
+version = "12"
+description = "Vehicle Routing Open-Source Optimization Machine"
+homepage = "http://vroom-project.org/"
+
+[source]
+url = "https://github.com/VROOM-Project/vroom.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mozjpeg"]
+
+[package]
+name = "jpeg-archive"
+version = "2.2.0_1"
+description = "Utilities for archiving JPEGs for long term storage"
+homepage = "https://github.com/danielgtaylor/jpeg-archive"
+
+[source]
+url = "https://github.com/danielgtaylor/jpeg-archive/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "3da16a5abbddd925dee0379aa51d9fe0cba33da0b5703be27c13a2dda3d7ed75"
+
+[build]
+system = "make"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "uthash", "librsync", "openssl@4"]
+
+[package]
+name = "burp"
+version = "3.2.0"
+description = "Network backup and restore"
+homepage = "https://burp.grke.org/"
+
+[source]
+url = "https://github.com/grke/burp/releases/download/3.2.0/burp-3.2.0.tar.bz2"
+sha256 = "3f5e057d40d2986fbfbebdf7a64570719c4c664882a3fd038ebac5a20326c5cf"
+
+[service]
+run = "opt/burp/bin/burp -a t"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "v2ray"
+version = "202608050239"
+description = "Platform for building proxies to bypass network restrictions"
+homepage = "https://v2fly.org/"
+
+[source]
+url = "https://github.com/v2fly/v2ray-core/archive/refs/tags/v5.53.0.tar.gz"
+sha256 = "f2a78ff50ce36c4a577a39016485cdfb835a75137d514a0a5e8e9e983f0d38bb"
+
+[service]
+run = "opt/v2ray/bin/v2ray run -config etc/v2ray/config.json"
+keep_alive = true
+
+[build]
+system = "autotools"

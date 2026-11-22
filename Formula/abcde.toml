@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cdrtools", "eye-d3", "flac", "glyr", "lame", "libdiscid", "mkcue", "perl", "vorbis-tools"]
+
+[package]
+name = "abcde"
+version = "2.9.3_1"
+description = "Better CD Encoder"
+homepage = "https://abcde.einval.com"
+
+[source]
+url = "https://abcde.einval.com/download/abcde-2.9.3.tar.gz"
+sha256 = "046cd0bba78dd4bbdcbcf82fe625865c60df35a005482de13a6699c5a3b83124"
+
+[build]
+system = "autotools"

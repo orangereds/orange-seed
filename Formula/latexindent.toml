@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["perl"]
+
+[package]
+name = "latexindent"
+version = "0"
+description = "Add indentation to LaTeX files"
+homepage = "https://latexindentpl.readthedocs.io"
+
+[source]
+url = "https://github.com/cmhughes/latexindent.pl/archive/refs/tags/V4.0.3.tar.gz"
+sha256 = "80aef9350a404b03b2cb367e6f1321976b906aaa0ca61fcfaa4c82c82204bbf5"
+
+[build]
+system = "autotools"

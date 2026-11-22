@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "oniguruma", "llvm"]
+
+[package]
+name = "bfs"
+version = "4.1.7"
+description = "Breadth-first version of find"
+homepage = "https://tavianator.com/projects/bfs.html"
+
+[source]
+url = "https://github.com/tavianator/bfs/archive/refs/tags/4.1.7.tar.gz"
+sha256 = "7b17e3ff2fac9a41ca9f06f61cfa1c7bd2474ad583fcbbee6e6d72fa8572c837"
+
+[build]
+system = "make"

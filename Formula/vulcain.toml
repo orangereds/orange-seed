@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vulcain"
+version = "1.4.6"
+description = "Fast and idiomatic client-driven REST APIs"
+homepage = "https://vulcain.rocks/"
+
+[source]
+url = "https://github.com/dunglas/vulcain/archive/refs/tags/v1.4.6.tar.gz"
+sha256 = "e65e224349dc632efd8f1b01b965837537f93ccb4af27a359e26340faf33bc8a"
+
+[service]
+run = "opt/vulcain/bin/vulcain run --config etc/Caddyfile"
+keep_alive = true
+log_path = "var/log/vulcain.log"
+error_log_path = "var/log/vulcain.log"
+
+[build]
+system = "autotools"

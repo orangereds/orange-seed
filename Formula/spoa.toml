@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "spoa"
+version = "4.1.6"
+description = "SIMD partial order alignment tool/library"
+homepage = "https://github.com/rvaser/spoa"
+
+[source]
+url = "https://github.com/rvaser/spoa/archive/refs/tags/4.1.6.tar.gz"
+sha256 = "5c69a2329456f9d7f611eccddf5cc8e85414a2f2ad23b539f77140919ba0da27"
+
+[build]
+system = "cmake"

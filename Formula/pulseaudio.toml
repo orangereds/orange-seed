@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "glib", "libsndfile", "libsoxr", "libtool", "openssl@4", "orc", "speexdsp"]
+
+[package]
+name = "pulseaudio"
+version = "17.0_1"
+description = "Sound system for POSIX OSes"
+homepage = "https://wiki.freedesktop.org/www/Software/PulseAudio/"
+
+[source]
+url = "https://www.freedesktop.org/software/pulseaudio/releases/pulseaudio-17.0.tar.xz"
+sha256 = "053794d6671a3e397d849e478a80b82a63cb9d8ca296bd35b73317bb5ceb87b5"
+
+[service]
+run = "opt/pulseaudio/bin/pulseaudio --exit-idle-time=-1 --verbose"
+keep_alive = true
+log_path = "var/log/pulseaudio.log"
+error_log_path = "var/log/pulseaudio.log"
+
+[build]
+system = "autotools"

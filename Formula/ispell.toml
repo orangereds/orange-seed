@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ispell"
+version = "3.4.06"
+description = "International Ispell"
+homepage = "https://www.cs.hmc.edu/~geoff/ispell.html"
+
+[source]
+url = "https://www.cs.hmc.edu/~geoff/tars/ispell-3.4.06.tar.gz"
+sha256 = "17c91633d4c8075acc503163a16463fc54ab1c7453280ad39cd3db75c783eba6"
+
+[build]
+system = "autotools"

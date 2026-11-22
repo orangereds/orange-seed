@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nasm"]
+
+[package]
+name = "svt-vp9"
+version = "0.3.1"
+description = "Scalable Video Technology for VP9 Encoder"
+homepage = "https://github.com/OpenVisualCloud/SVT-VP9"
+
+[source]
+url = "https://github.com/OpenVisualCloud/SVT-VP9/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "2385fee19ea82c3e6157215ffbe1851fdabd46d1502e4343c842bf7f9bf662cd"
+
+[build]
+system = "cmake"

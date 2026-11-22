@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "argtable"
+version = "2.13"
+description = "ANSI C library for parsing GNU-style command-line options"
+homepage = "https://argtable.sourceforge.io"
+
+[source]
+url = "https://downloads.sourceforge.net/project/argtable/argtable/argtable-2.13/argtable2-13.tar.gz"
+sha256 = "8f77e8a7ced5301af6e22f47302fdbc3b1ff41f2b83c43c77ae5ca041771ddbf"
+
+[build]
+system = "autotools"

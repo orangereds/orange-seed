@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "opus"]
+
+[package]
+name = "concord"
+version = "2.7.2"
+description = "Terminal user interface client for Discord"
+homepage = "https://github.com/chojs23/concord"
+
+[source]
+url = "https://github.com/chojs23/concord/archive/refs/tags/v2.7.2.tar.gz"
+sha256 = "f555af799377e684a3f1e4846c8087fb01d24084435efd8d6426382bc0efdb5c"
+
+[build]
+system = "autotools"

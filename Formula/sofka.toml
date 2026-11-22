@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sofka"
+version = "0.37.0"
+description = "Kubernetes TUI, reimagined in Rust"
+homepage = "https://github.com/nklmilojevic/sofka"
+
+[source]
+url = "https://github.com/nklmilojevic/sofka/archive/refs/tags/v0.37.0.tar.gz"
+sha256 = "2fde24301fa99481d4012581255d7fdfacd76f2f7043602e178e5c08956eb8f2"
+
+[build]
+system = "autotools"

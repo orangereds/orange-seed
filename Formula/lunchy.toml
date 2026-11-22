@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lunchy"
+version = "0"
+description = "Friendly wrapper for launchctl"
+homepage = "https://github.com/eddiezane/lunchy"
+
+[source]
+url = "https://github.com/eddiezane/lunchy.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

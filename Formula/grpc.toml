@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "abseil", "c-ares", "openssl@4", "protobuf", "re2"]
+
+[package]
+name = "grpc"
+version = "0"
+description = "Next generation open source RPC library and framework"
+homepage = "https://grpc.io/"
+
+[source]
+url = "https://github.com/grpc/grpc.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

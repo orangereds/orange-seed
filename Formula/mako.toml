@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mako"
+version = "0.11.15"
+description = "Production-grade web bundler based on Rust"
+homepage = "https://makojs.dev"
+
+[source]
+url = "https://registry.npmjs.org/@umijs/mako/-/mako-0.11.15.tgz"
+sha256 = "dbb00cf6478daff39eb97de02c144a5b2552094b7c097dd2166a55968731cbab"
+
+[build]
+system = "autotools"

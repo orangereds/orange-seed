@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "numpy", "python@3.15"]
+
+[package]
+name = "apicula"
+version = "0"
+description = "Open source tools for Gowin FPGAs"
+homepage = "https://github.com/YosysHQ/apicula"
+
+[source]
+url = "https://files.pythonhosted.org/packages/46/a8/c47790d71916fbf560dbf54c2df1f6acd8e992511e6c872cfbed171b7c91/apycula-0.35.tar.gz"
+sha256 = "1fd15bdcf512eb8eedda48f11dc81fc35236a7ae904b1a887fd6ea44120f37c6"
+
+[build]
+system = "autotools"

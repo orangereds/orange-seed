@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["exiftool", "ghostscript", "imagemagick", "libwpd", "openjdk", "poppler"]
+
+[package]
+name = "nuxeo"
+version = "0"
+description = "Enterprise Content Management"
+homepage = "https://nuxeo.github.io/"
+
+[source]
+url = "https://packages.nuxeo.com/repository/maven-public/org/nuxeo/ecm/distribution/nuxeo-server-tomcat/11.4.42/nuxeo-server-tomcat-11.4.42.zip"
+sha256 = "38b6e7495223ff9e54857bd78fab832f1462201c713fba70a2a87d6a5d8cdd24"
+
+[build]
+system = "autotools"

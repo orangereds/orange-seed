@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "inframap"
+version = "0.8.1"
+description = "Read your tfstate or HCL to generate a graph"
+homepage = "https://github.com/cycloidio/inframap"
+
+[source]
+url = "https://github.com/cycloidio/inframap/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "c846977a1b445737e199b1565f09f17f4d9f53d4ef585fd39627b149f17e3a8a"
+
+[build]
+system = "autotools"

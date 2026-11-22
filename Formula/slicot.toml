@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc", "openblas"]
+
+[package]
+name = "slicot"
+version = "5.9.1"
+description = "Fortran subroutines library for systems and control"
+homepage = "https://www.slicot.org/"
+
+[source]
+url = "https://github.com/SLICOT/SLICOT-Reference/releases/download/v5.9.1/slicot-5.9.1.tar.gz"
+sha256 = "0f812933a07577db8c80dc53fc3663844114d43880f4c2fb383622891e931504"
+
+[build]
+system = "cmake"

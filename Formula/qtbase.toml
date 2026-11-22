@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "vulkan-headers", "brotli", "dbus", "double-conversion", "freetype", "glib", "harfbuzz", "icu4c@79", "jpeg-turbo", "libb2", "libpng", "md4c", "openssl@4", "pcre2", "zstd", "molten-vk"]
+
+[package]
+name = "qtbase"
+version = "0_2"
+description = "Cross-platform application and UI framework"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtbase-everywhere-src-6.12.0.tar.xz"
+sha256 = "a951bd163c7b80fc6b8c88d7668fb56abf91c152373e13c10666763238131307"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libusb"]
+
+[package]
+name = "libdivecomputer"
+version = "0.9.0"
+description = "Library for communication with various dive computers"
+homepage = "https://www.libdivecomputer.org/"
+
+[source]
+url = "https://www.libdivecomputer.org/releases/libdivecomputer-0.9.0.tar.gz"
+sha256 = "a7b80b9083a2113a43280ee7b51d48d66ea5a779fc3fee57df7c451da0251c65"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "intltool", "pkgconf", "cairo", "glib", "gtk+", "at-spi2-core", "gdk-pixbuf", "harfbuzz", "pango"]
+
+[package]
+name = "gnome-themes-extra"
+version = "3.28_1"
+description = "Extra themes for the GNOME desktop environment"
+homepage = "https://gitlab.gnome.org/Archive/gnome-themes-extra"
+
+[source]
+url = "https://download.gnome.org/sources/gnome-themes-extra/3.28/gnome-themes-extra-3.28.tar.xz"
+sha256 = "7c4ba0bff001f06d8983cfc105adaac42df1d1267a2591798a780bac557a5819"
+
+[build]
+system = "autotools"

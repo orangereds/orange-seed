@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "libssh2", "openssl@4"]
+
+[package]
+name = "gitui"
+version = "0.28.1"
+description = "Blazing fast terminal-ui for git written in rust"
+homepage = "https://github.com/gitui-org/gitui"
+
+[source]
+url = "https://github.com/gitui-org/gitui/archive/refs/tags/v0.28.1.tar.gz"
+sha256 = "0400cbf59605490b5fb8779f9af41fa4d7a1bb748093ca0e13156a5dff31c7aa"
+
+[build]
+system = "autotools"

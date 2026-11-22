@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat"]
+
+[package]
+name = "portablegl"
+version = "0"
+description = "Implementation of OpenGL 3.x-ish in clean C"
+homepage = "https://github.com/rswinkle/PortableGL"
+
+[source]
+url = "https://github.com/rswinkle/PortableGL.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

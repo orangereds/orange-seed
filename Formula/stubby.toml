@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libtool", "getdns", "libyaml"]
+
+[package]
+name = "stubby"
+version = "0.4.3_2"
+description = "DNS privacy enabled stub resolver service based on getdns"
+homepage = "https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
+
+[source]
+url = "https://github.com/getdnsapi/stubby/archive/refs/tags/v0.4.3.tar.gz"
+sha256 = "99291ab4f09bce3743000ed3ecbf58961648a35ca955889f1c41d36810cc4463"
+
+[service]
+run = "opt/stubby/bin/stubby -C etc/stubby/stubby.yml"
+keep_alive = true
+
+[build]
+system = "cmake"

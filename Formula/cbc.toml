@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cgl", "clp", "coinutils", "osi", "openblas"]
+
+[package]
+name = "cbc"
+version = "2.10.13"
+description = "Mixed integer linear programming solver"
+homepage = "https://github.com/coin-or/Cbc"
+
+[source]
+url = "https://github.com/coin-or/Cbc/archive/refs/tags/releases/2.10.13.tar.gz"
+sha256 = "62fde44dcf6f3d05c5cd291d7435cdd1b7e8acd3c78ec481dd39fe49cbc40399"
+
+[build]
+system = "autotools"

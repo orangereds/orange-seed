@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "md-tui"
+version = "0.11.2"
+description = "Markdown renderer in the terminal written in rust"
+homepage = "https://github.com/henriklovhaug/md-tui"
+
+[source]
+url = "https://github.com/henriklovhaug/md-tui/archive/refs/tags/v0.11.2.tar.gz"
+sha256 = "64374823e6d3d8200063dff390088b5e7f3a5a6a3d4d19acf9bb5c29171ffff5"
+
+[build]
+system = "autotools"

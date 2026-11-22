@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bagel"
+version = "0.7.1"
+description = "CLI to audit posture and evaluate compromise blast radius"
+homepage = "https://boostsecurityio.github.io/bagel/"
+
+[source]
+url = "https://github.com/boostsecurityio/bagel/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "2707877746844c2c769e817eb64f5d3b3c696f723fec927284e93451236882af"
+
+[build]
+system = "autotools"

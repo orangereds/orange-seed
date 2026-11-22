@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils", "emacs"]
+
+[package]
+name = "cask"
+version = "0.9.1"
+description = "Emacs dependency management"
+homepage = "https://cask.readthedocs.io/"
+
+[source]
+url = "https://github.com/cask/cask/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "755e71b7291678787afd497e34724004459add3e438d367e83891080f6d545a3"
+
+[build]
+system = "autotools"

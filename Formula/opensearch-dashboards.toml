@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["yarn", "opensearch", "node@22"]
+
+[package]
+name = "opensearch-dashboards"
+version = "0"
+description = "Open source visualization dashboards for OpenSearch"
+homepage = "https://docs.opensearch.org/latest/dashboards/"
+
+[source]
+url = "https://github.com/opensearch-project/OpenSearch-Dashboards.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/opensearch-dashboards/bin/opensearch-dashboards"
+log_path = "var/log/opensearch-dashboards.log"
+error_log_path = "var/log/opensearch-dashboards.log"
+
+[build]
+system = "autotools"

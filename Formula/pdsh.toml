@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "pdsh"
+version = "2.36"
+description = "Efficient rsh-like utility, for using hosts in parallel"
+homepage = "https://github.com/chaos/pdsh"
+
+[source]
+url = "https://github.com/chaos/pdsh/releases/download/pdsh-2.36/pdsh-2.36.tar.gz"
+sha256 = "a661095ce51dd5fb05e398cf5d0e1d63157123958441f6d3512bcf1a7d25c517"
+
+[build]
+system = "autotools"

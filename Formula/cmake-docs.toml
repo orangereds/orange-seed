@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sphinx-doc"]
+
+[package]
+name = "cmake-docs"
+version = "0"
+description = "Documentation for CMake"
+homepage = "https://www.cmake.org/"
+
+[source]
+url = "https://github.com/Kitware/CMake/releases/download/v4.5.1/cmake-4.5.1.tar.gz"
+sha256 = "a79bf33cbe05686fdf79c2bbbcfe5e8e62ad16d3d540fa737cbedfeed41fb69e"
+
+[build]
+system = "cmake"

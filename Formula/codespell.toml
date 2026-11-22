@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "codespell"
+version = "2.4.3"
+description = "Fix common misspellings in source code and text files"
+homepage = "https://github.com/codespell-project/codespell"
+
+[source]
+url = "https://files.pythonhosted.org/packages/80/19/45e941380f69c042b43423513d201e6592346f992394347f5e7174c31407/codespell-2.4.3.tar.gz"
+sha256 = "cbe085e331227b37bb86ef8bddd08dc768c704ee9a07ca869852c093fa2793e2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "python-setuptools", "python@3.15", "davix", "krb5", "libzip", "openssl@4", "readline"]
+
+[package]
+name = "xrootd"
+version = "6.2.1"
+description = "High performance, scalable, fault-tolerant access to data"
+homepage = "https://xrootd.org/"
+
+[source]
+url = "https://github.com/xrootd/xrootd/releases/download/v6.2.1/xrootd-6.2.1.tar.gz"
+sha256 = "43b974c4d2afb6a37687c2d81f0e61c1213fa46470c1da4b2b58e5d6319a6f26"
+
+[build]
+system = "cmake"

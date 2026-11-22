@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "create-dmg"
+version = "1.3.0"
+description = "Shell script to build fancy DMGs"
+homepage = "https://github.com/create-dmg/create-dmg"
+
+[source]
+url = "https://github.com/create-dmg/create-dmg/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "c50d2bc97c3d6292642bac55f530d247eaf4bf65ee605f26b4caf339383e381c"
+
+[build]
+system = "autotools"

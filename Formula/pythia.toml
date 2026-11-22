@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pythia"
+version = "8.318"
+description = "Monte Carlo event generator"
+homepage = "https://pythia.org"
+
+[source]
+url = "https://pythia8.web.cern.ch/releases/pythia83/pythia8318.tgz"
+sha256 = "85dce1e623f91499b2973e3f939bf760b0f745ad4f4eb1bd0fbce2074e2e8f5c"
+
+[build]
+system = "autotools"

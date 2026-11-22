@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "openjdk", "pkgconf", "rust", "apache-arrow", "certifi", "cryptography", "libyaml", "numpy", "pydantic", "pygit2", "python@3.15"]
+
+[package]
+name = "dvc"
+version = "3.67.1_20"
+description = "Git for data science projects"
+homepage = "https://dvc.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/13/1e/957a50eab8af18a5837bf47f148b90dac36650150faca840d5c020272098/dvc-3.67.1.tar.gz"
+sha256 = "0a941016a10ac8c99b5342e5a964c9bff29c191f7b3539ff3e04910d828f82ab"
+
+[build]
+system = "autotools"

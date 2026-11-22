@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["open-mpi", "openblas", "petsc", "scalapack", "fftw", "gcc", "hdf5-mpi", "metis"]
+
+[package]
+name = "slepc"
+version = "3.26.1"
+description = "Scalable Library for Eigenvalue Problem Computations (real)"
+homepage = "https://slepc.upv.es"
+
+[source]
+url = "https://slepc.upv.es/download/distrib/slepc-3.26.1.tar.gz"
+sha256 = "d9b8bb27f6402e72e9d8f7ae9a1de241ff772b55d0bf265e8e10c61750f49cb9"
+
+[build]
+system = "autotools"

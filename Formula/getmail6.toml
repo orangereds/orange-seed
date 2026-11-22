@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "getmail6"
+version = "6.21.02"
+description = "Extensible mail retrieval system with POP3, IMAP4, SSL support"
+homepage = "https://getmail6.org/"
+
+[source]
+url = "https://github.com/getmail6/getmail6/archive/refs/tags/v6.21.02.tar.gz"
+sha256 = "97c4bb301ffb7ef42459a1e35d2673899c14ae3c4e80e862c85219561e0422c8"
+
+[build]
+system = "autotools"

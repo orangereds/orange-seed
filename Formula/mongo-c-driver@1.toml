@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "sphinx-doc", "zstd"]
+
+[package]
+name = "mongo-c-driver@1"
+version = "1.30.16"
+description = "C driver for MongoDB"
+homepage = "https://github.com/mongodb/mongo-c-driver"
+
+[source]
+url = "https://github.com/mongodb/mongo-c-driver/archive/refs/tags/1.30.16.tar.gz"
+sha256 = "bdbec42a6bca29b0386469a9e5eb21d823ecccd65274caf1faec0d3667375f87"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

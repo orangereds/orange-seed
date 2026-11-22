@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "kwctl"
+version = "1.39.0"
+description = "CLI tool for the Kubewarden policy engine for Kubernetes"
+homepage = "https://www.kubewarden.io/"
+
+[source]
+url = "https://github.com/kubewarden/adm-controller/archive/refs/tags/v1.39.0.tar.gz"
+sha256 = "bc8e2808d98fce73b7ef53c249ef7433f354043bd6709463a60dd9587a0d27f1"
+
+[build]
+system = "autotools"

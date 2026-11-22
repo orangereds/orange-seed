@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tokyo-cabinet", "autoconf", "automake", "tkrzw", "pkgconf", "cairo", "glfw", "glib", "pango", "gettext", "harfbuzz"]
+
+[package]
+name = "duc"
+version = "1.4.6"
+description = "Suite of tools for inspecting disk usage"
+homepage = "https://github.com/zevv/duc"
+
+[source]
+url = "https://github.com/zevv/duc/releases/download/1.4.6/duc-1.4.6.tar.gz"
+sha256 = "e91592e367f3f8be671899660756b25e2c37f316c42ebd2a36dd684be3e2f25a"
+
+[build]
+system = "autotools"

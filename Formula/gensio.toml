@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "swig", "glib", "openssl@4", "python@3.15", "tcl-tk", "gettext", "portaudio"]
+
+[package]
+name = "gensio"
+version = "3.0.4_2"
+description = "Stream I/O Library"
+homepage = "https://github.com/cminyard/gensio"
+
+[source]
+url = "https://github.com/cminyard/gensio/releases/download/v3.0.4/gensio-3.0.4.tar.gz"
+sha256 = "e28c24fc5d9f3cb90005bc008fec8bb8eedce503753024ab650bed0ac250cbe3"
+
+[service]
+run = "gtlsshd --nodaemon --pam-service sshd"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

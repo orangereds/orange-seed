@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "fusesoc"
+version = "2.4.7"
+description = "Package manager and build abstraction tool for HDL code"
+homepage = "https://fusesoc.net"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3c/58/639a43653bbd97d1fa75255b57a224755c775df54b568fb714651530e104/fusesoc-2.4.7.tar.gz"
+sha256 = "f1023de57524660b5926fec6807af0edecb04418918e39a15224c83855546894"
+
+[build]
+system = "autotools"

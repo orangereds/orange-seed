@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bit-git"
+version = "1.1.2"
+description = "Bit is a modern Git CLI"
+homepage = "https://github.com/chriswalz/bit"
+
+[source]
+url = "https://github.com/chriswalz/bit/archive/refs/tags/v1.1.2.tar.gz"
+sha256 = "563ae6b0fa279cb8ea8f66b4b455c7cb74a9e65a0edbe694505b2c8fc719b2ff"
+
+[build]
+system = "autotools"

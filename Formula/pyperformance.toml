@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pyperformance"
+version = "1.14.0"
+description = "Python benchmark suite"
+homepage = "https://github.com/python/pyperformance"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9e/bc/ebc48f2af24abe0d13681ac7ccb21c3f0ed0128361522f5904d4f21953e9/pyperformance-1.14.0.tar.gz"
+sha256 = "91f74393997b604375ad5b79bf569a24076d70181c076a53abad5383a238a8aa"
+
+[build]
+system = "autotools"

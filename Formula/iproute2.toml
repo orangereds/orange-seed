@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "flex", "pkgconf", "elfutils", "libbpf", "libcap", "libmnl", "libtirpc"]
+
+[package]
+name = "iproute2"
+version = "7.3.0"
+description = "Linux routing utilities"
+homepage = "https://wiki.linuxfoundation.org/networking/iproute2"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/net/iproute2/iproute2-7.3.0.tar.xz"
+sha256 = "5c1789d290bba048a6135ed1ab81b0402dd0fb528d1f1421765c42b1fc3d6289"
+
+[build]
+system = "make"

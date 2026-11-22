@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "pi-coding-agent"
+version = "1.6.0"
+description = "AI agent toolkit"
+homepage = "https://pi.dev/"
+
+[source]
+url = "https://registry.npmjs.org/@earendil-works/pi-coding-agent/-/pi-coding-agent-1.6.0.tgz"
+sha256 = "85d5de404e019e850c90ee9ac6dc6c16240da122fdce0314895608164030336b"
+
+[build]
+system = "autotools"

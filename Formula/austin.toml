@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "austin"
+version = "4.1.0"
+description = "Python frame stack sampler for CPython"
+homepage = "https://github.com/P403n1x87/austin"
+
+[source]
+url = "https://github.com/P403n1x87/austin/archive/refs/tags/v4.1.0.tar.gz"
+sha256 = "93fa2a3d86ef1199b4ac027e8874d6a960bd1cec2cdc3239c286dc85e74cb158"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rammap"
+version = "1.2.0"
+description = "Extensible and performant aligner and read mapper"
+homepage = "https://github.com/jwanglab/rammap"
+
+[source]
+url = "https://github.com/jwanglab/rammap/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "66d96ba52cd4ed6f1365aa3f1b1e736aeccbbcab71b8b590d3b7cc997b1a7fbd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gd", "libpng", "openssl@4", "jpeg-turbo"]
+
+[package]
+name = "nagios"
+version = "4.5.14"
+description = "Network monitoring and management system"
+homepage = "https://www.nagios.org/"
+
+[source]
+url = "https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-4.5.14/nagios-4.5.14.tar.gz"
+sha256 = "dce59f306577789c56d2748471d4c3856ecba8572d6b0811cf79f9de2f9afabb"
+
+[service]
+run = "opt/nagios/bin/nagios etc/nagios/nagios.cfg"
+keep_alive = true
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["apr", "openssl@4"]
+
+[package]
+name = "apr-util"
+version = "0"
+description = "Companion library to apr, the Apache Portable Runtime library"
+homepage = "https://apr.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=apr/apr-util-1.6.6.tar.bz2"
+sha256 = "aa77dd25f036731b7246abbfbebe6cc813b42799b62c874bc82bd4e1f90f2918"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graphviz", "python@3.15"]
+
+[package]
+name = "git-big-picture"
+version = "0"
+description = "Visualization tool for Git repositories"
+homepage = "https://github.com/git-big-picture/git-big-picture"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e8/81/29b6f4f093a8c788a68e5f8f723f594206a956ca302d23f54018b62cda00/git_big_picture-1.4.2.tar.gz"
+sha256 = "5f6b148f9e96a4afdfe532b6074ffee55bcb085f8fce76d223aad2b61fc898d4"
+
+[build]
+system = "autotools"

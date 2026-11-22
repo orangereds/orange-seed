@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "vscode-langservers-extracted"
+version = "4.10.0"
+description = "Language servers for HTML, CSS, JavaScript, and JSON extracted from vscode"
+homepage = "https://github.com/hrsh7th/vscode-langservers-extracted"
+
+[source]
+url = "https://registry.npmjs.org/vscode-langservers-extracted/-/vscode-langservers-extracted-4.10.0.tgz"
+sha256 = "d6e2d090d09c4b91daa74e9e7462a3d3f244efb96aa5111004cfffa49d6dc9ef"
+
+[build]
+system = "autotools"

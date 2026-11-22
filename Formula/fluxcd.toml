@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kustomize"]
+
+[package]
+name = "fluxcd"
+version = "2.10.1"
+description = "Open and extensible continuous delivery solution for Kubernetes"
+homepage = "https://fluxcd.io"
+
+[source]
+url = "https://github.com/fluxcd/flux2/archive/refs/tags/v2.10.1.tar.gz"
+sha256 = "c51e8faaaa57ecb517a8956800973ea39fd30b7a003a6eb3d25f88595ae1a093"
+
+[build]
+system = "autotools"

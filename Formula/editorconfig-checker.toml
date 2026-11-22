@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "editorconfig-checker"
+version = "4.0.2"
+description = "Tool to verify that your files are in harmony with your .editorconfig"
+homepage = "https://editorconfig-checker.github.io/"
+
+[source]
+url = "https://github.com/editorconfig-checker/editorconfig-checker/archive/refs/tags/v4.0.2.tar.gz"
+sha256 = "0b84c5090d3f48db1bdfab454b7cde79adb26015d1a2731bba59bc1a636276bb"
+
+[build]
+system = "autotools"

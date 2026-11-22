@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "azurite"
+version = "3.38.0"
+description = "Lightweight server clone of Azure Storage that simulates it locally"
+homepage = "https://github.com/Azure/Azurite"
+
+[source]
+url = "https://registry.npmjs.org/azurite/-/azurite-3.38.0.tgz"
+sha256 = "2b5549bd7a53fa8550b6e9000a7cd60f9b7172efb490fce516560e446eabc181"
+
+[build]
+system = "autotools"

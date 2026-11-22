@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "tern"
+version = "2.12.1"
+description = "Software Bill of Materials (SBOM) tool"
+homepage = "https://github.com/tern-tools/tern"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f8/4b/123b2ca469126b45e61853acf028fe1d466f4fe1d5e7afd1d4972c151b4d/tern-2.12.1.tar.gz"
+sha256 = "c8c22f162962107adb64caaf5f764044e59caa28b9566079e101181c6449a1c0"
+
+[build]
+system = "autotools"

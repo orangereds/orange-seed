@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "python@3.15", "rust", "scdoc", "libarchive", "libmagic", "lua", "openssl@4", "pkgconf", "popt", "readline", "sqlite", "xz", "zstd", "libomp"]
+
+[package]
+name = "rpm"
+version = "6.1.0_1"
+description = "Standard unix software packaging tool"
+homepage = "https://rpm.org/"
+
+[source]
+url = "https://github.com/rpm-software-management/rpm/releases/download/rpm-6.1.0-release/rpm-6.1.0.tar.bz2"
+sha256 = "f520810d27c74bf1c5d8b8885845c61e0c845f62d33e68b02e020633a8b62fe3"
+
+[build]
+system = "autotools"

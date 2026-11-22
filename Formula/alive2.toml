@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "re2c", "hiredis", "llvm", "z3", "zstd"]
+
+[package]
+name = "alive2"
+version = "0_10"
+description = "Automatic verification of LLVM optimizations"
+homepage = "https://github.com/AliveToolkit/alive2"
+
+[source]
+url = "https://github.com/AliveToolkit/alive2.git"
+sha256 = "6645b59d29e7a4bbe45e91f57391cf9d4e5dbc27ba99a93c89ad13b14d57a7c4"
+
+[build]
+system = "cmake"

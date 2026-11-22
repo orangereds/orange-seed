@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "pmd"
+version = "0"
+description = "Source code analyzer for Java, JavaScript, and more"
+homepage = "https://pmd.github.io"
+
+[source]
+url = "https://github.com/pmd/pmd/releases/download/pmd_releases%2F7.29.0/pmd-dist-7.29.0-bin.zip"
+sha256 = "d27177c185b837fa57f097e482d1253468aa035379c5eb2671fa0a279109b179"
+
+[build]
+system = "autotools"

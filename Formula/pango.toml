@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "fontconfig", "freetype", "fribidi", "glib", "harfbuzz", "libthai"]
+
+[package]
+name = "pango"
+version = "1.58.2"
+description = "Framework for layout and rendering of i18n text"
+homepage = "https://www.gtk.org/docs/architecture/pango"
+
+[source]
+url = "https://download.gnome.org/sources/pango/1.58/pango-1.58.2.tar.xz"
+sha256 = "342385b6ca3b7c73455d7c80a13b7dbe4489e00bc3bd4c5bd6ed4dce421e374a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.14"]
+
+[package]
+name = "gorilla-cli"
+version = "0.0.10_4"
+description = "LLMs for your CLI"
+homepage = "https://gorilla.cs.berkeley.edu/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/cd/2b/7a64f9ad59009e72ddf73d055195b4bf23e15599a61e66f1458b4025b9e5/gorilla-cli-0.0.10.tar.gz"
+sha256 = "bf375230a06fac99ba56f14f49474466036f072751cd1d5a1908e8ace561856c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "gobackup"
+version = "3.1.1"
+description = "CLI tool for backup your databases, files to cloud storages"
+homepage = "https://gobackup.github.io"
+
+[source]
+url = "https://github.com/gobackup/gobackup/archive/refs/tags/v3.1.1.tar.gz"
+sha256 = "dc3ea58f3e2ac91dbf91dc7d7c5a704c03446fec757c1a88625ffcdbe2eedf9b"
+
+[build]
+system = "autotools"

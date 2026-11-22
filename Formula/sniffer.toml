@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sniffer"
+version = "0.6.3"
+description = "Modern alternative network traffic sniffer"
+homepage = "https://github.com/chenjiandongx/sniffer"
+
+[source]
+url = "https://github.com/chenjiandongx/sniffer/archive/refs/tags/v0.6.3.tar.gz"
+sha256 = "c8eee0fb34422a014811306b9b2d2d149c469b3a0c515f79bfa516bbd2f56979"
+
+[build]
+system = "autotools"

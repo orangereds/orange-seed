@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rustic"
+version = "0.12.0"
+description = "Fast, encrypted, and deduplicated backups powered by Rust"
+homepage = "https://rustic.cli.rs"
+
+[source]
+url = "https://github.com/rustic-rs/rustic/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "41c496bee7dcfad0922d4d9e760be19f713ffaaa55fe92716943ca3ecc62d26e"
+
+[build]
+system = "autotools"

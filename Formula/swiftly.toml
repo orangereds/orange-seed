@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "swiftly"
+version = "0"
+description = "Swift toolchain installer and manager"
+homepage = "https://github.com/swiftlang/swiftly"
+
+[source]
+url = "https://github.com/swiftlang/swiftly.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["uthash", "lua", "pcre2"]
+
+[package]
+name = "mle"
+version = "1.8.1"
+description = "Flexible terminal-based text editor"
+homepage = "https://github.com/adsr/mle"
+
+[source]
+url = "https://github.com/adsr/mle/archive/refs/tags/v1.8.1.tar.gz"
+sha256 = "7ee33a695f801024254fc717b64aff6a7a4c274874fc4b83e1a23ccf1a74b9ca"
+
+[build]
+system = "autotools"

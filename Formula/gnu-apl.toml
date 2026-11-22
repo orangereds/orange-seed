@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "llvm@21", "pkgconf", "cairo", "glib", "gtk+3", "libpng", "libx11", "libxcb", "pcre2", "sqlite", "at-spi2-core", "gdk-pixbuf", "gettext", "harfbuzz", "pango"]
+
+[package]
+name = "gnu-apl"
+version = "0"
+description = "GNU implementation of the programming language APL"
+homepage = "https://www.gnu.org/software/apl/"
+
+[source]
+url = "https://ftpmirror.gnu.org/apl/apl-2.0.tar.gz"
+sha256 = "24bbb744fce47e62837234a053bdeecee51b9ea61c82c79f7cc191bc6a54c0a1"
+
+[build]
+system = "autotools"

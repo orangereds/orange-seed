@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "pkgconf", "json-c", "libsodium", "libuecc", "openssl@4"]
+
+[package]
+name = "fastd"
+version = "23_1"
+description = "Fast and Secure Tunnelling Daemon"
+homepage = "https://github.com/neocturne/fastd"
+
+[source]
+url = "https://github.com/neocturne/fastd/releases/download/v23/fastd-23.tar.xz"
+sha256 = "dcab54485c79dda22ce6308a2a48764d53977a518952facd1204ba21af1c86e0"
+
+[build]
+system = "autotools"

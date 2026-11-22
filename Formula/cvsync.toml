@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "cvsync"
+version = "0.24.20_1"
+description = "Portable CVS repository synchronization utility"
+homepage = "https://www.cvsync.org/"
+
+[source]
+url = "https://www.cvsync.org/dist/cvsync-0.24.20.tar.bz2"
+sha256 = "38fe7ed5e5b8e93858cf59484e0c3e661a52fb82177f73ce29e6170d3069a2a5"
+
+[build]
+system = "autotools"

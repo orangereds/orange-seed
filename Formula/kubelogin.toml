@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kubernetes-cli"]
+
+[package]
+name = "kubelogin"
+version = "1.36.4"
+description = "OpenID Connect authentication plugin for kubectl"
+homepage = "https://github.com/int128/kubelogin"
+
+[source]
+url = "https://github.com/int128/kubelogin/archive/refs/tags/v1.36.4.tar.gz"
+sha256 = "ddae6975006895791d0bbf8464f228b3911f697b869446fdf1b8233c12c30544"
+
+[build]
+system = "autotools"

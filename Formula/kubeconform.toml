@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubeconform"
+version = "0.8.0"
+description = "FAST Kubernetes manifests validator, with support for Custom Resources!"
+homepage = "https://github.com/yannh/kubeconform"
+
+[source]
+url = "https://github.com/yannh/kubeconform/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "c345de9c3207f2d24628c64fe3cb9bed55c4248b12c181efe81ee907d6c994f2"
+
+[build]
+system = "autotools"

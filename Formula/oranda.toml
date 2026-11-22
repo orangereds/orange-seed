@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "pkgconf", "rust", "oniguruma"]
+
+[package]
+name = "oranda"
+version = "0.6.5"
+description = "Generate beautiful landing pages for your developer tools"
+homepage = "https://axodotdev.github.io/oranda/"
+
+[source]
+url = "https://github.com/axodotdev/oranda/archive/refs/tags/v0.6.5.tar.gz"
+sha256 = "456baf2b8e36ad6492d5d7a6d2b47b48be87c957db9068500dfd82897462d5bd"
+
+[build]
+system = "autotools"

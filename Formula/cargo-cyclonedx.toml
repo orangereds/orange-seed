@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-cyclonedx"
+version = "0.5.10"
+description = "Creates CycloneDX Software Bill of Materials (SBOM) from Rust (Cargo) projects"
+homepage = "https://cyclonedx.org/"
+
+[source]
+url = "https://github.com/CycloneDX/cyclonedx-rust-cargo/archive/refs/tags/cargo-cyclonedx-0.5.10.tar.gz"
+sha256 = "9a70987a8bda97615ba80127a76e73bb2c1a3cb285b76f1771e2f5c0b0cc2f6c"
+
+[build]
+system = "autotools"

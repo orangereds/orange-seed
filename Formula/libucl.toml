@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "libucl"
+version = "0.10.0"
+description = "Universal configuration library parser"
+homepage = "https://github.com/vstakhov/libucl"
+
+[source]
+url = "https://github.com/vstakhov/libucl/archive/refs/tags/0.10.0.tar.gz"
+sha256 = "3e27a97d48561aa262f93715ad5b483dceca02b033662b9a5a29c36f48b518e7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gocheat"
+version = "0.1.1"
+description = "TUI Cheatsheet for keybindings, hotkeys and more"
+homepage = "https://github.com/Achno/gocheat"
+
+[source]
+url = "https://github.com/Achno/gocheat/archive/refs/tags/v0.1.1.tar.gz"
+sha256 = "338e7123411c4a5fb9fe387f7155f1e48d511845fe7f2383718d16abf54b26fc"
+
+[build]
+system = "autotools"

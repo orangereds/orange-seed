@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "chinadns-c"
+version = "0"
+description = "Port of ChinaDNS to C: fix irregularities with DNS in China"
+homepage = "https://github.com/shadowsocks/ChinaDNS"
+
+[source]
+url = "https://github.com/shadowsocks/ChinaDNS/releases/download/1.3.2/chinadns-1.3.2.tar.gz"
+sha256 = "abfd433e98ac0f31b8a4bd725d369795181b0b6e8d1b29142f1bb3b73bbc7230"
+
+[build]
+system = "autotools"

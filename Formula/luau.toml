@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "luau"
+version = "0.748"
+description = "Fast, safe, gradually typed embeddable scripting language derived from Lua"
+homepage = "https://luau.org"
+
+[source]
+url = "https://github.com/luau-lang/luau/archive/refs/tags/0.748.tar.gz"
+sha256 = "810b13d1480a7a2efa66fe356d7e551d2ba3548823a69a4df5a6597f2beb35e5"
+
+[build]
+system = "cmake"

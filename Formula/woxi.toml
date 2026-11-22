@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "woxi"
+version = "0.4.0"
+description = "Interpreter for a subset of the Wolfram Language"
+homepage = "https://github.com/ad-si/Woxi"
+
+[source]
+url = "https://github.com/ad-si/Woxi/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "f66f6897873fe8b2cb77864f9bab9cbdeb28195169c0db3e97060eba3f38c57d"
+
+[build]
+system = "autotools"

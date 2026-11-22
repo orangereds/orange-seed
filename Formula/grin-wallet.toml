@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "grin-wallet"
+version = "5.5.1"
+description = "Official wallet for the cryptocurrency Grin"
+homepage = "https://grin.mw"
+
+[source]
+url = "https://github.com/mimblewimble/grin-wallet/archive/refs/tags/v5.5.1.tar.gz"
+sha256 = "a044c594c0492cc96b48e6f32080cfbd4e9154229647ed29f16ef5caed033208"
+
+[build]
+system = "autotools"

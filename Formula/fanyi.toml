@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "fanyi"
+version = "11.0.0"
+description = "Chinese and English translate tool in your command-line"
+homepage = "https://github.com/afc163/fanyi"
+
+[source]
+url = "https://registry.npmjs.org/fanyi/-/fanyi-11.0.0.tgz"
+sha256 = "7893ae87298c3731ea4a846e0c766db698c709d9b13d20f16bb8177e8d1c7100"
+
+[build]
+system = "autotools"

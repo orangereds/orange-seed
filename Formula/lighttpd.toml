@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openldap", "openssl@4", "pcre2"]
+
+[package]
+name = "lighttpd"
+version = "1.4.85_1"
+description = "Small memory footprint, flexible web-server"
+homepage = "https://www.lighttpd.net/"
+
+[source]
+url = "https://download.lighttpd.net/lighttpd/releases-1.4.x/lighttpd-1.4.85.tar.xz"
+sha256 = "18de51b393bac4a6827879e1a7ff377c169e414bae92cd245091d80fc2601d13"
+
+[service]
+run = "opt/lighttpd/bin/lighttpd -D -f etc/lighttpd/lighttpd.conf"
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/lighttpd/output.log"
+error_log_path = "var/log/lighttpd/output.log"
+
+[build]
+system = "autotools"

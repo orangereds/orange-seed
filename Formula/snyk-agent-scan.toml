@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "snyk-agent-scan"
+version = "0"
+description = "Constrain, log and scan your MCP connections for security vulnerabilities"
+homepage = "https://github.com/snyk/agent-scan"
+
+[source]
+url = "https://files.pythonhosted.org/packages/dc/e2/8869e18c521c88357fd089969ab1c5321ae127798d334dca28a8a7e668ce/snyk_agent_scan-0.7.0.tar.gz"
+sha256 = "f15724cff780bd32ef3ab34f9da30659558535cd26f77e8a92a58de56ee1d1aa"
+
+[build]
+system = "autotools"

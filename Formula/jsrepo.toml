@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "jsrepo"
+version = "3.8.3"
+description = "Build and distribute your code"
+homepage = "https://jsrepo.dev/"
+
+[source]
+url = "https://registry.npmjs.org/jsrepo/-/jsrepo-3.8.3.tgz"
+sha256 = "32f4e6afc5bf816359cf700cd1369da2fb23ed74ea442ac4d580a1db11f3c43b"
+
+[build]
+system = "autotools"

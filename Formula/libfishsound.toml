@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libvorbis"]
+
+[package]
+name = "libfishsound"
+version = "1.0.1"
+description = "Decode and encode audio data using the Xiph.org codecs"
+homepage = "https://xiph.org/fishsound/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/libfishsound/libfishsound-1.0.1.tar.gz"
+sha256 = "03eb1601e2306adc88c776afdf212217c6547990d2d0f9ca544dad9a8a9dbb8f"
+
+[build]
+system = "autotools"

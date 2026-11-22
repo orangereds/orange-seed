@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gmp", "pkgconf", "boost", "eigen", "gcc"]
+
+[package]
+name = "libint"
+version = "2.14.1"
+description = "Library for computing electron repulsion integrals efficiently"
+homepage = "https://github.com/evaleev/libint"
+
+[source]
+url = "https://github.com/evaleev/libint/archive/refs/tags/v2.14.1.tar.gz"
+sha256 = "d40f15a1e3c271d5520ec06028f76152fa9ed796f7fc27fd36ee4f93b940605a"
+
+[build]
+system = "cmake"

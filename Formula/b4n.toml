@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "b4n"
+version = "1.4.0"
+description = "Terminal user interface (TUI) for Kubernetes API written in Rust"
+homepage = "https://github.com/fioletoven/b4n"
+
+[source]
+url = "https://github.com/fioletoven/b4n/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "e810c7faa7d5c05e25b796e30b29449b06254071653b6d042828c59d1efc91dc"
+
+[build]
+system = "autotools"

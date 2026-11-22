@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["abook", "khard"]
+
+[package]
+name = "lbdb"
+version = "0.57"
+description = "Little brother's database for the mutt mail reader"
+homepage = "https://www.spinnaker.de/lbdb/"
+
+[source]
+url = "https://www.spinnaker.de/lbdb/download/lbdb-0.57.tar.gz"
+sha256 = "212fe2e40df5ed3e5496bc5e821e4b0683a6c9523b8885e7e87b634bcf923a88"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "gnupg", "libyaml", "pillow", "python@3.15"]
+
+[package]
+name = "woob"
+version = "3.7_10"
+description = "Web Outside of Browsers"
+homepage = "https://woob.tech/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/85/f3/a2dc1bb679de004aa1e48c8b77b5d5b9bca3007b2f25e0c39f850a009186/woob-3.7.tar.gz"
+sha256 = "b1d7113ba87a9b947c13a1e3b4bb4fa616ba3037092b54912fc3fee2647d1b2f"
+
+[build]
+system = "autotools"

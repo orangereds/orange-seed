@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "forgejo-runner"
+version = "13.2.2"
+description = "Official Actions runner for Forgejo instances"
+homepage = "https://code.forgejo.org/forgejo/runner"
+
+[source]
+url = "https://code.forgejo.org/forgejo/runner/archive/v13.2.2.tar.gz"
+sha256 = "81af58eeba53154c7d69f1ecf4501d7d04cf61b3d4fe31373f5e74fd7ea2a927"
+
+[service]
+run = "opt/forgejo-runner/bin/forgejo-runner daemon --config etc/forgejo-runner/config.yaml"
+keep_alive = true
+working_dir = "var/lib/forgejo-runner"
+log_path = "var/log/forgejo-runner.log"
+error_log_path = "var/log/forgejo-runner.err"
+
+[build]
+system = "autotools"

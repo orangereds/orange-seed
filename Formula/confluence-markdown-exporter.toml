@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "confluence-markdown-exporter"
+version = "0"
+description = "Export Atlassian Confluence pages as Markdown files"
+homepage = "https://github.com/Spenhouet/confluence-markdown-exporter"
+
+[source]
+url = "https://files.pythonhosted.org/packages/75/bc/8428d73e27748b55014f8aec2f78a25e6a539082ed5b6db00ebf62472c46/confluence_markdown_exporter-5.7.0.tar.gz"
+sha256 = "882ec4ed40fb438e2de626351bc1553d3c899c37ad2c84b3688aaee319086242"
+
+[build]
+system = "autotools"

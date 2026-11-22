@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "repren"
+version = "3.1.1"
+description = "Rename anything using powerful regex search and replace"
+homepage = "https://github.com/jlevy/repren"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8f/2b/74f60c028f4ad0d74b700e508486cf837749c9d1d5a12d56c6086942375e/repren-3.1.1.tar.gz"
+sha256 = "f0bf25b08824bc9e34f343aaf6bd1ae8a88b54efb3520de3beb366847e57e98a"
+
+[build]
+system = "autotools"

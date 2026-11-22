@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asio", "cmake", "rust", "abseil", "c-ares", "curl", "fmt", "grpc", "nlohmann-json", "openssl@4", "protobuf", "re2", "tinyxml2", "xz", "bash"]
+
+[package]
+name = "mavsdk"
+version = "87da370c02e40f6f9a2eacf1b162d7f07e640467"
+description = "API and library for MAVLink compatible systems written in C++17"
+homepage = "https://mavsdk.mavlink.io/main/en/index.html"
+
+[source]
+url = "https://github.com/mavlink/MAVSDK.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "thefuck"
+version = "3.32"
+description = "Programmatically correct mistyped console commands"
+homepage = "https://github.com/nvbn/thefuck"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ac/d0/0c256afd3ba1d05882154d16aa0685018f21c60a6769a496558da7d9d8f1/thefuck-3.32.tar.gz"
+sha256 = "976740b9aa536726fa23cadc9a10bf457e92e335901c61fcff9152c84485ac3d"
+
+[build]
+system = "autotools"

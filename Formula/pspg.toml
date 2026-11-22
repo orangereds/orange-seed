@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libpq", "ncurses", "readline"]
+
+[package]
+name = "pspg"
+version = "5.9.1"
+description = "Unix pager optimized for psql"
+homepage = "https://github.com/okbob/pspg"
+
+[source]
+url = "https://github.com/okbob/pspg/archive/refs/tags/5.9.1.tar.gz"
+sha256 = "d61d82a2e8c8980d52d2715bb2cc32bfb20e8a2a15ea15bdb7105a2ff5ea1ac4"
+
+[build]
+system = "autotools"

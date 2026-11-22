@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "erdtree"
+version = "3.1.2"
+description = "Multi-threaded file-tree visualizer and disk usage analyzer"
+homepage = "https://github.com/solidiquis/erdtree"
+
+[source]
+url = "https://github.com/solidiquis/erdtree/archive/refs/tags/v3.1.2.tar.gz"
+sha256 = "1758e7ad8f7be59bc3c6bda8b058097509f9db6f40ad57c4b0b361e3be439297"
+
+[build]
+system = "autotools"

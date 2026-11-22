@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "aicommits"
+version = "5.0.1"
+description = "Writes your git commit messages for you with AI"
+homepage = "https://github.com/Nutlope/aicommits"
+
+[source]
+url = "https://registry.npmjs.org/aicommits/-/aicommits-5.0.1.tgz"
+sha256 = "be31bfdab4fc077a288d0ab0e628099ad19d475fb5691e334a31ecb6ffe4169b"
+
+[build]
+system = "autotools"

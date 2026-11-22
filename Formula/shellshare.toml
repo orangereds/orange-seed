@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "shellshare"
+version = "3.12.0"
+description = "Live Terminal Broadcast"
+homepage = "https://shellshare.net"
+
+[source]
+url = "https://github.com/vitorbaptista/shellshare/archive/refs/tags/v3.12.0.tar.gz"
+sha256 = "f1619e4d7c604ffe6a2eac5b65529fecf063bfa10d592a23d556067a24a69acd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "mcat"
+version = "0.6.9"
+description = "Terminal image, video, directory, and Markdown viewer"
+homepage = "https://github.com/Skardyy/mcat"
+
+[source]
+url = "https://github.com/Skardyy/mcat/archive/refs/tags/v0.6.9.tar.gz"
+sha256 = "e36278e7b23ad443726867f0f5061ba2795dea3d630ccd99e7eef50bacb545f6"
+
+[build]
+system = "autotools"

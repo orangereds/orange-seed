@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "glib", "pkgconf", "openssl@3", "readline"]
+
+[package]
+name = "ekg2"
+version = "0.3.1_4"
+description = "Multiplatform, multiprotocol, plugin-based instant messenger"
+homepage = "https://github.com/ekg2/ekg2"
+
+[source]
+url = "https://src.fedoraproject.org/lookaside/extras/ekg2/ekg2-0.3.1.tar.gz/68fc05b432c34622df6561eaabef5a40/ekg2-0.3.1.tar.gz"
+sha256 = "6ad360f8ca788d4f5baff226200f56922031ceda1ce0814e650fa4d877099c63"
+
+[build]
+system = "autotools"

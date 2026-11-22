@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "pkgconf", "icu4c@79", "librevenge"]
+
+[package]
+name = "libvisio"
+version = "0.1.12"
+description = "Interpret and import Visio diagrams"
+homepage = "https://wiki.documentfoundation.org/DLP/Libraries/libvisio"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libvisio/libvisio-0.1.12.tar.xz"
+sha256 = "f59fa2e3baf95475256fe84ea0aa1214f43940bae94424f4026b2d633933df01"
+
+[build]
+system = "autotools"

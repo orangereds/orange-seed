@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "docker-machine-nfs"
+version = "0.5.4"
+description = "Activates NFS on docker-machine"
+homepage = "https://github.com/adlogix/docker-machine-nfs"
+
+[source]
+url = "https://github.com/adlogix/docker-machine-nfs/archive/refs/tags/0.5.4.tar.gz"
+sha256 = "ecb8d637524eaeb1851a0e12da797d4ffdaec7007aa28a0692f551e9223a71b7"
+
+[build]
+system = "autotools"

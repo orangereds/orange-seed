@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig"]
+
+[package]
+name = "superhtml"
+version = "0.7.1"
+description = "HTML Language Server & Templating Language Library"
+homepage = "https://github.com/kristoff-it/superhtml"
+
+[source]
+url = "https://github.com/kristoff-it/superhtml/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "a5092f06540749eb7e29025651e8f9c59819b6e8a574f7a13ebccb01243c2a32"
+
+[build]
+system = "autotools"

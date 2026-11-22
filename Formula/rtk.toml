@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rtk"
+version = "1.2.1"
+description = "CLI proxy to minimize LLM token consumption"
+homepage = "https://www.rtk-ai.app/"
+
+[source]
+url = "https://github.com/rtk-ai/rtk/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "c5068215a2f3d8df7e1f6c98cac1863b6fa69bd84f282669516fdba383440ed6"
+
+[build]
+system = "autotools"

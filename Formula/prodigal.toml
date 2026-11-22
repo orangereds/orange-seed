@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "prodigal"
+version = "2.6.3"
+description = "Microbial gene prediction"
+homepage = "https://github.com/hyattpd/Prodigal"
+
+[source]
+url = "https://github.com/hyattpd/Prodigal/archive/refs/tags/v2.6.3.tar.gz"
+sha256 = "89094ad4bff5a8a8732d899f31cec350f5a4c27bcbdd12663f87c9d1f0ec599f"
+
+[build]
+system = "autotools"

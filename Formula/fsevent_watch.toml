@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fsevent_watch"
+version = "0.2"
+description = "macOS FSEvents client"
+homepage = "https://github.com/proger/fsevent_watch"
+
+[source]
+url = "https://github.com/proger/fsevent_watch/archive/refs/tags/v0.2.tar.gz"
+sha256 = "1cfd66d551bb5a7ef80b53bcc7952b766cf81ce2059aacdf7380a9870aa0af6c"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tun2proxy"
+version = "0.8.7.crate"
+description = "Tunnel (TUN) interface for SOCKS and HTTP proxies"
+homepage = "https://github.com/tun2proxy/tun2proxy"
+
+[source]
+url = "https://static.crates.io/crates/tun2proxy/tun2proxy-0.8.7.crate"
+sha256 = "62fe12ec15b4555ef3068d1082e5fab7d366bd65ba59127990cb917ed5a1f2e0"
+
+[build]
+system = "autotools"

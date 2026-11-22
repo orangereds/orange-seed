@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-pages"
+version = "0"
+description = "Scalable static site server for Git forges"
+homepage = "https://codeberg.org/git-pages/git-pages"
+
+[source]
+url = "https://codeberg.org/git-pages/git-pages/releases/download/v0.10.2/git-pages-src.zip"
+sha256 = "bfbb4cd1e5481a051cc513ad1c0a1e9e6220f2403fe9f1311cd1207404aeed3d"
+
+[build]
+system = "autotools"

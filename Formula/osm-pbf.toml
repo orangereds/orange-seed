@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "abseil", "protobuf"]
+
+[package]
+name = "osm-pbf"
+version = "1.8.0_1"
+description = "Tools related to PBF (an alternative to XML format)"
+homepage = "https://wiki.openstreetmap.org/wiki/PBF_Format"
+
+[source]
+url = "https://github.com/openstreetmap/OSM-binary/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "18ec63e28a42073db62e8fb59134b8bd410c29e8eb1d8ec1759efc9501fbf41a"
+
+[build]
+system = "cmake"

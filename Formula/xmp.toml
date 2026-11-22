@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libxmp"]
+
+[package]
+name = "xmp"
+version = "4.3.1"
+description = "Command-line player for module music formats (MOD, S3M, IT, etc)"
+homepage = "https://xmp.sourceforge.net/"
+
+[source]
+url = "https://github.com/libxmp/xmp-cli/releases/download/xmp-4.3.1/xmp-4.3.1.tar.gz"
+sha256 = "cbfdab11233708c4de6ab965f64d96d4cb5b9d8e14d2d23df3b1b896386f870f"
+
+[build]
+system = "autotools"

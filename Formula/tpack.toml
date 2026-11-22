@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "tmux"]
+
+[package]
+name = "tpack"
+version = "2.0.7"
+description = "Drop-in replacement for tmux-plugin-manager (tpm) with a TUI"
+homepage = "https://github.com/tmuxpack/tpack"
+
+[source]
+url = "https://github.com/tmuxpack/tpack/archive/refs/tags/v2.0.7.tar.gz"
+sha256 = "c3d7937421c09bc7f746facb0d484c1ba23897e8fd9ddb8e92e795fcc03b19be"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jack", "libvisual", "portaudio"]
+
+[package]
+name = "libvisual-plugins"
+version = "0.4.2"
+description = "Audio Visualization tool and library"
+homepage = "https://github.com/Libvisual/libvisual"
+
+[source]
+url = "https://github.com/Libvisual/libvisual/releases/download/libvisual-plugins-0.4.2/libvisual-plugins-0.4.2.tar.gz"
+sha256 = "55988403682b180d0de5e6082f804f3cf066d9a08e887b10eb6a315eb40d9f87"
+
+[build]
+system = "autotools"

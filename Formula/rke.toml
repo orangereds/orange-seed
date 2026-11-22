@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rke"
+version = "1.8.14"
+description = "Rancher Kubernetes Engine, a Kubernetes installer that works everywhere"
+homepage = "https://rke.docs.rancher.com/"
+
+[source]
+url = "https://github.com/rancher/rke/archive/refs/tags/v1.8.14.tar.gz"
+sha256 = "94c7930564f52804513c2ea09430bb7ada0ec44bde73493d5bce35bb19db4881"
+
+[build]
+system = "autotools"

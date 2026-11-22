@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "gobject-introspection", "pkgconf", "at-spi2-core", "cairo", "gdk-pixbuf", "gettext", "glib", "gtk+3", "harfbuzz", "pango"]
+
+[package]
+name = "gtk-mac-integration"
+version = "3.0.2"
+description = "Integrates GTK macOS applications with the Mac desktop"
+homepage = "https://www.gtk.org/docs/installations/macos"
+
+[source]
+url = "https://download.gnome.org/sources/gtk-mac-integration/3.0/gtk-mac-integration-3.0.2.tar.xz"
+sha256 = "42f29e002365467eac10f4ba78435d4be785a947424d9890112c8c8d5e21be25"
+
+[build]
+system = "autotools"

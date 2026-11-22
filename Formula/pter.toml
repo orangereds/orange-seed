@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pter"
+version = "3.23.2"
+description = "Your console and graphical UI to manage your todo.txt file(s)"
+homepage = "https://vonshednob.cc/pter/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f8/53/6165f63d037c23db2ff77a98e10d80516965984eccaf5937ef27ad5ee62e/pter-3.23.2.tar.gz"
+sha256 = "eac824fbfd12c84107744cb22e850a3b4064bc99df68cf74d282426fcb61d3c4"
+
+[build]
+system = "autotools"

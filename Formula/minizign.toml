@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig"]
+
+[package]
+name = "minizign"
+version = "0.1.14"
+description = "Minisign reimplemented in Zig"
+homepage = "https://github.com/jedisct1/zig-minisign"
+
+[source]
+url = "https://github.com/jedisct1/zig-minisign/archive/refs/tags/0.1.14.tar.gz"
+sha256 = "cda224ceb7d6adb25b99f313f89212e4f6272f41108c1e6eb2a6ea2a05cedc34"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloud-provider-kind"
+version = "0.12.0"
+description = "Cloud provider for KIND clusters"
+homepage = "https://kubernetes-sigs.github.io/cloud-provider-kind/"
+
+[source]
+url = "https://github.com/kubernetes-sigs/cloud-provider-kind/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "9a9dd366bfe121245cbc456f2b68b5261214299ffc911795bb67a386c5131145"
+
+[build]
+system = "autotools"

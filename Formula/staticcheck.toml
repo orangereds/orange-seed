@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "staticcheck"
+version = "2026.2.2"
+description = "State of the art linter for the Go programming language"
+homepage = "https://staticcheck.dev/"
+
+[source]
+url = "https://github.com/dominikh/go-tools/archive/refs/tags/2026.2.2.tar.gz"
+sha256 = "f957eca5ee25bba46711433bfc320e0e900304ebb89641264bde256031926139"
+
+[build]
+system = "autotools"

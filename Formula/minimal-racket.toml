@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "minimal-racket"
+version = "0_1"
+description = "Modern programming language in the Lisp/Scheme family"
+homepage = "https://racket-lang.org/"
+
+[source]
+url = "https://mirror.racket-lang.org/installers/9.3/racket-minimal-9.3-src.tgz"
+sha256 = "19bdc4f9507737e7f4a11b6411d184683c336b5942d0700ddaf2f4c54d639146"
+
+[build]
+system = "autotools"

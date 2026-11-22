@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gawk", "libtool", "pkgconf", "socat", "glib", "gmp", "json-glib", "libtasn1", "libtpms", "openssl@4", "gettext"]
+
+[package]
+name = "swtpm"
+version = "0.10.2_1"
+description = "Software TPM Emulator based on libtpms"
+homepage = "https://github.com/stefanberger/swtpm"
+
+[source]
+url = "https://github.com/stefanberger/swtpm/archive/refs/tags/v0.10.2.tar.gz"
+sha256 = "f61cf6f1e9bbcb4cefb30b70cafaf1c4df54c6961e65cfa63830e8ad0e220134"
+
+[build]
+system = "autotools"

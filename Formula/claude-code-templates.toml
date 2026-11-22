@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "claude-code-templates"
+version = "1.33.1"
+description = "CLI tool for configuring and monitoring Claude Code"
+homepage = "https://www.aitmpl.com/agents"
+
+[source]
+url = "https://registry.npmjs.org/claude-code-templates/-/claude-code-templates-1.33.1.tgz"
+sha256 = "7ffbfde312c78f7efeec5e4596d625b3bb1e52f20f355d95dffd6552036a3a41"
+
+[build]
+system = "autotools"

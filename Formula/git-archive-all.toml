@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-archive-all"
+version = "1.24.0"
+description = "Archive a project and its submodules"
+homepage = "https://github.com/Kentzo/git-archive-all"
+
+[source]
+url = "https://github.com/Kentzo/git-archive-all/archive/refs/tags/1.24.0.tar.gz"
+sha256 = "d7eb0c7ef3e908b6e666f0b8c9e583e4ea866dffb87a4590d4b8ff0fd136fb6f"
+
+[build]
+system = "autotools"

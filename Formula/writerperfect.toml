@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libodfgen", "librevenge", "libwpd", "libwpg", "libwps"]
+
+[package]
+name = "writerperfect"
+version = "0.9.6"
+description = "Library for importing WordPerfect documents"
+homepage = "https://sourceforge.net/p/libwpd/wiki/writerperfect/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libwpd/writerperfect/writerperfect-0.9.6/writerperfect-0.9.6.tar.xz"
+sha256 = "1fe162145013a9786b201cb69724b2d55ff2bf2354c3cd188fd4466e7fc324e6"
+
+[build]
+system = "autotools"

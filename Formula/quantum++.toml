@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen", "pybind11"]
+
+[package]
+name = "quantum++"
+version = "7.1.1"
+description = "Modern C++ quantum computing library"
+homepage = "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208073"
+
+[source]
+url = "https://github.com/softwareQinc/qpp/archive/refs/tags/v7.1.1.tar.gz"
+sha256 = "9122dfee3fa99c307cec758a048ef17ed44a0a2fc9db69f182d6ba96c453897c"
+
+[build]
+system = "cmake"

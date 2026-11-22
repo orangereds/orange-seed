@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "libxcrypt", "openssl@4", "popt", "readline", "gettext"]
+
+[package]
+name = "ldapvi"
+version = "1.8_1"
+description = "Update LDAP entries with a text editor"
+homepage = "http://www.lichteblau.com/ldapvi/"
+
+[source]
+url = "https://github.com/ldapvi/ldapvi/releases/download/1.8/ldapvi-1.8.tar.gz"
+sha256 = "359c84d61198c4b4b62930e21670c077c380a41a121f299313330907967949db"
+
+[build]
+system = "autotools"

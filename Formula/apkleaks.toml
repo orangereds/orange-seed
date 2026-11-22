@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jadx", "python@3.15"]
+
+[package]
+name = "apkleaks"
+version = "2.6.3_3"
+description = "Scanning APK file for URIs, endpoints & secrets"
+homepage = "https://github.com/dwisiswant0/apkleaks"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1e/e6/203661abe151dbc59096de65d6f0cf392d1aad3acba32f4e9f3f389acad0/apkleaks-2.6.3.tar.gz"
+sha256 = "e247b59acf4448f3c2e45449bc7564bc5b7a216ebfb166236baf602d625b1df5"
+
+[build]
+system = "autotools"

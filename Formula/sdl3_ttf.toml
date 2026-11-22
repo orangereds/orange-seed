@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "freetype", "harfbuzz", "sdl3"]
+
+[package]
+name = "sdl3_ttf"
+version = "0"
+description = "Library for using TrueType fonts in SDL applications"
+homepage = "https://github.com/libsdl-org/SDL_ttf"
+
+[source]
+url = "https://github.com/libsdl-org/SDL_ttf/releases/download/release-3.2.2/SDL3_ttf-3.2.2.tar.gz"
+sha256 = "63547d58d0185c833213885b635a2c0548201cc8f301e6587c0be1a67e1e045d"
+
+[build]
+system = "cmake"

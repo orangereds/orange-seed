@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ahoy"
+version = "3.0.2"
+description = "Creates self documenting CLI programs from commands in YAML files"
+homepage = "https://ahoy-cli.github.io/"
+
+[source]
+url = "https://github.com/ahoy-cli/ahoy/archive/refs/tags/v3.0.2.tar.gz"
+sha256 = "28a4a005126c797411b269fd873cb9c8c3a15eb47cdc63608be0d904fb9c4f23"
+
+[build]
+system = "autotools"

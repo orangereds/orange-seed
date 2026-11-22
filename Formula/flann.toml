@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "hdf5", "lz4"]
+
+[package]
+name = "flann"
+version = "1.9.2_4"
+description = "Fast Library for Approximate Nearest Neighbors"
+homepage = "https://github.com/flann-lib/flann"
+
+[source]
+url = "https://github.com/flann-lib/flann/archive/refs/tags/1.9.2.tar.gz"
+sha256 = "e26829bb0017f317d9cc45ab83ddcb8b16d75ada1ae07157006c1e7d601c8824"
+
+[build]
+system = "cmake"

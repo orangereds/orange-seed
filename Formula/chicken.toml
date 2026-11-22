@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chicken"
+version = "6.1.0"
+description = "Compiler for the Scheme programming language"
+homepage = "https://www.call-cc.org/"
+
+[source]
+url = "https://code.call-cc.org/releases/6.1.0/chicken-6.1.0.tar.gz"
+sha256 = "c6aee9a5374102ba318e0cfae62ded5e1825346577137952d7fb15b3094d49d8"
+
+[build]
+system = "make"

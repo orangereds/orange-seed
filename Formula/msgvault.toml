@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "go", "node", "duckdb"]
+
+[package]
+name = "msgvault"
+version = "0.26.0"
+description = "Archive a lifetime of email and chat with offline search and analytics"
+homepage = "https://github.com/kenn-io/msgvault"
+
+[source]
+url = "https://github.com/kenn-io/msgvault/archive/refs/tags/v0.26.0.tar.gz"
+sha256 = "a751a9d20b13cd23195deb1796e45f81ef5bf0742122f5d056321fb53f14fa03"
+
+[build]
+system = "autotools"

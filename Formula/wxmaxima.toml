@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "ninja", "fribidi", "maxima", "wxwidgets", "llvm"]
+
+[package]
+name = "wxmaxima"
+version = "0"
+description = "Cross platform GUI for Maxima"
+homepage = "https://wxmaxima-developers.github.io/wxmaxima/"
+
+[source]
+url = "https://github.com/wxMaxima-developers/wxmaxima/archive/refs/tags/Version-26.10.0.tar.gz"
+sha256 = "6098d3b54b531ed59cd2aff568f70039b41f6e7f89cbb84d1da2e5b796a7bb71"
+
+[build]
+system = "cmake"

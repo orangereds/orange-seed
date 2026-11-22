@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "lld", "wasi-libc", "wasm-component-ld", "wasmtime", "llvm"]
+
+[package]
+name = "wasi-runtimes"
+version = "0"
+description = "Compiler-RT and libc++ runtimes for WASI"
+homepage = "https://wasi.dev"
+
+[source]
+url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-23.1.6/llvm-project-23.1.6.src.tar.xz"
+sha256 = "d3b86ab29cfb4445a6652e5c2642ccc75e04e38084dde3701d323320f35a31da"
+
+[build]
+system = "cmake"

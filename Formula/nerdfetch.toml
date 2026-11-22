@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nerdfetch"
+version = "8.5.5"
+description = "POSIX *nix fetch script using Nerdfonts"
+homepage = "https://github.com/ThatOneCalculator/NerdFetch"
+
+[source]
+url = "https://github.com/ThatOneCalculator/NerdFetch/archive/refs/tags/v8.5.5.tar.gz"
+sha256 = "944b08b957a82386fa3f394ef733e31f7208acee0681c6000d5cd042c16813d6"
+
+[build]
+system = "autotools"

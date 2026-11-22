@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "pcre2"]
+
+[package]
+name = "bde"
+version = "4.39.0.0"
+description = "Basic Development Environment: foundational C++ libraries used at Bloomberg"
+homepage = "https://github.com/bloomberg/bde"
+
+[source]
+url = "https://github.com/bloomberg/bde/archive/refs/tags/4.39.0.0.tar.gz"
+sha256 = "032ecb934810137bb889d036c0bf038dc7e70a01bf72b6ea39b72d0b1583c6b3"
+
+[build]
+system = "cmake"

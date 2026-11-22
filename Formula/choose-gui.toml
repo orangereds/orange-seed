@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "choose-gui"
+version = "1.5.0"
+description = "Fuzzy matcher that uses std{in,out} and a native GUI"
+homepage = "https://github.com/chipsenkbeil/choose"
+
+[source]
+url = "https://github.com/chipsenkbeil/choose/archive/refs/tags/1.5.0.tar.gz"
+sha256 = "34dd16ac0b5e1b8b2468d677a985690e3bac01cb0c45e2eaf5d493df968cca2b"
+
+[build]
+system = "autotools"

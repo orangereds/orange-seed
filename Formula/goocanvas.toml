@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "pkgconf", "at-spi2-core", "cairo", "gdk-pixbuf", "glib", "gtk+3", "pango", "gettext", "harfbuzz"]
+
+[package]
+name = "goocanvas"
+version = "3.0.0_1"
+description = "Canvas widget for GTK+ using the Cairo 2D library for drawing"
+homepage = "https://wiki.gnome.org/Projects/GooCanvas"
+
+[source]
+url = "https://download.gnome.org/sources/goocanvas/3.0/goocanvas-3.0.0.tar.xz"
+sha256 = "670a7557fe185c2703a14a07506156eceb7cea3b4bf75076a573f34ac52b401a"
+
+[build]
+system = "autotools"

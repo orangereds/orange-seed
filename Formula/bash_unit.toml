@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bash_unit"
+version = "2.3.3"
+description = "Bash unit testing enterprise edition framework for professionals"
+homepage = "https://github.com/bash-unit/bash_unit"
+
+[source]
+url = "https://github.com/bash-unit/bash_unit/archive/refs/tags/v2.3.3.tar.gz"
+sha256 = "a2f76ddca88e2bef7c628c8cac6bf68b93a388fce143f6a4dc770fe1b3584307"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fn"
+version = "0.6.73"
+description = "Command-line tool for the fn project"
+homepage = "https://fnproject.io"
+
+[source]
+url = "https://github.com/fnproject/cli/archive/refs/tags/0.6.73.tar.gz"
+sha256 = "93452a52db5d67dd365b4d17244a0cfbac9290aef92729e3a1b4ce20f3cf9af5"
+
+[build]
+system = "autotools"

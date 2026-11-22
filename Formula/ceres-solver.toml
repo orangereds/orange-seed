@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gflags", "glog", "abseil", "cmake", "eigen", "metis", "openblas", "suite-sparse", "tbb"]
+
+[package]
+name = "ceres-solver"
+version = "2.2.0_6"
+description = "C++ library for large-scale optimization"
+homepage = "https://ceres-solver.github.io/ceres-solver/"
+
+[source]
+url = "https://distfiles.macports.org/ceres-solver/ceres-solver-2.2.0.tar.gz"
+sha256 = "48b2302a7986ece172898477c3bcd6deb8fb5cf19b3327bc49969aad4cede82d"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hof"
+version = "0.6.10"
+description = "Flexible data modeling & code generation system"
+homepage = "https://hofstadter.io/"
+
+[source]
+url = "https://github.com/hofstadter-io/hof/archive/refs/tags/v0.6.10.tar.gz"
+sha256 = "87703d19a23121a4b617f1359aed9616dceb6c79718245861835b61ccff7e1eb"
+
+[build]
+system = "autotools"

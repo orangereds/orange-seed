@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "parlay"
+version = "0.11.0"
+description = "Enrich SBOMs with data from third party services"
+homepage = "https://github.com/snyk/parlay"
+
+[source]
+url = "https://github.com/snyk/parlay/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "c1f9eaa073b6c958a0722b145fcea9fa3579c9b5552f3359d86f91917441253b"
+
+[build]
+system = "autotools"

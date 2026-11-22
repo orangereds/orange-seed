@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook", "docbook-xsl", "pkgconf", "icu4c@79", "krb5", "openssl@4"]
+
+[package]
+name = "libpq@17"
+version = "0"
+description = "Postgres C API library"
+homepage = "https://www.postgresql.org/docs/17/libpq.html"
+
+[source]
+url = "https://ftp.postgresql.org/pub/source/v17.12/postgresql-17.12.tar.bz2"
+sha256 = "9cf136a703d8ee2f83465c43be4e9e8e7930c82b0bfba13be7e2537be769ac55"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

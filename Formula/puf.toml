@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "puf"
+version = "1.0.0"
+description = "Parallel URL fetcher"
+homepage = "https://puf.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/puf/puf/1.0.0/puf-1.0.0.tar.gz"
+sha256 = "3f1602057dc47debeb54effc2db9eadcffae266834389bdbf5ab14fc611eeaf0"
+
+[build]
+system = "autotools"

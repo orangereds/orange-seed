@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "bats-core", "gmp", "ntl"]
+
+[package]
+name = "helib"
+version = "2.3.0_1"
+description = "Implementation of homomorphic encryption"
+homepage = "https://github.com/homenc/HElib"
+
+[source]
+url = "https://github.com/homenc/HElib/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "05c87f2b50d4774e16868ba61a7271930dd67f4ad137f30eb0f310969377bc20"
+
+[build]
+system = "cmake"

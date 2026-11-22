@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml-findlib", "opam", "pkgconf", "camlp-streams", "ocaml", "pcre2"]
+
+[package]
+name = "camlp5"
+version = "8.05.04"
+description = "Preprocessor and pretty-printer for OCaml"
+homepage = "https://camlp5.github.io/"
+
+[source]
+url = "https://github.com/camlp5/camlp5/archive/refs/tags/8.05.04.tar.gz"
+sha256 = "bb82054e68bdb6343736a7ec0c29964341b3a3cb6c183b21479bbe4fb9d8dd45"
+
+[build]
+system = "autotools"

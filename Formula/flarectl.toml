@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "flarectl"
+version = "0.119.0"
+description = "CLI application for interacting with a Cloudflare account"
+homepage = "https://github.com/cloudflare/cloudflare-go/tree/v0/cmd/flarectl"
+
+[source]
+url = "https://github.com/cloudflare/cloudflare-go/archive/refs/tags/v0.119.0.tar.gz"
+sha256 = "96592a5ea285ec198a6557618131bf502d938c3a3105b7dbbd9e01677fcb8abd"
+
+[build]
+system = "autotools"

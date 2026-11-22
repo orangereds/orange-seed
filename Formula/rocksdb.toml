@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gflags", "lz4", "snappy", "zstd"]
+
+[package]
+name = "rocksdb"
+version = "11.13.2"
+description = "Embeddable, persistent key-value store for fast storage"
+homepage = "https://rocksdb.org/"
+
+[source]
+url = "https://github.com/facebook/rocksdb/archive/refs/tags/v11.13.2.tar.gz"
+sha256 = "6f12f408c4876175b1de73cfefcdd1baf0001ad8d799c1a09320d96e4fd213b5"
+
+[build]
+system = "cmake"

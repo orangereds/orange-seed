@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "dumpling"
+version = "26.3.24"
+description = "Creating SQL dump from a MySQL-compatible database"
+homepage = "https://github.com/pingcap/tidb"
+
+[source]
+url = "https://github.com/pingcap/tidb/archive/refs/tags/v26.3.24.tar.gz"
+sha256 = "77b8188d863d48e2bd62dfaeb1142a23654f9db639530b13550a9d78c61ae122"
+
+[build]
+system = "autotools"

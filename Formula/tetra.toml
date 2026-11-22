@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tetra"
+version = "1.8.0"
+description = "Tetragon CLI to observe, manage and troubleshoot Tetragon instances"
+homepage = "https://tetragon.io/"
+
+[source]
+url = "https://github.com/cilium/tetragon/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "49538903f16bd08bfa24ff4b1bfb16c0edf93eebd730e072425200a4b21faed1"
+
+[build]
+system = "autotools"

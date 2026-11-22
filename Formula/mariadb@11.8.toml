@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "fmt", "pkgconf", "groonga", "lz4", "lzo", "openssl@4", "pcre2", "xz", "zstd", "openjdk"]
+
+[package]
+name = "mariadb@11.8"
+version = "0"
+description = "Drop-in replacement for MySQL"
+homepage = "https://mariadb.org/"
+
+[source]
+url = "https://archive.mariadb.org/mariadb-11.8.10/source/mariadb-11.8.10.tar.gz"
+sha256 = "77d62a86477d5b836da960f5228eb4e13458692ab775f2ad95d55fd4a4d3b117"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/mariadb@11.8/bin/mariadbd-safe --datadir=#{var}/mysql"
+keep_alive = true
+working_dir = "var"
+
+[build]
+system = "autotools"

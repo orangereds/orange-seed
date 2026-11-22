@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils"]
+
+[package]
+name = "colordiff"
+version = "1.0.22"
+description = "Color-highlighted diff(1) output"
+homepage = "https://www.colordiff.org/"
+
+[source]
+url = "https://www.colordiff.org/colordiff-1.0.22.tar.gz"
+sha256 = "f96f73c54521c53f14dc164d5a3920c9ca21a0e5f8e9613f43812a98af3e22af"
+
+[build]
+system = "autotools"

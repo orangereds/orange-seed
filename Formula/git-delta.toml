@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "oniguruma"]
+
+[package]
+name = "git-delta"
+version = "0.21.2"
+description = "Syntax-highlighting pager for git and diff output"
+homepage = "https://dandavison.github.io/delta/"
+
+[source]
+url = "https://github.com/dandavison/delta/archive/refs/tags/0.21.2.tar.gz"
+sha256 = "d8b5b3c3a5a354b5fddd6e7156f62c8a5db2a33aad9d49debd536777facb66b7"
+
+[build]
+system = "autotools"

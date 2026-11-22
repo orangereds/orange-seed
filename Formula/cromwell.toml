@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbt", "openjdk"]
+
+[package]
+name = "cromwell"
+version = "92.jar"
+description = "Workflow Execution Engine using Workflow Description Language"
+homepage = "https://github.com/broadinstitute/cromwell"
+
+[source]
+url = "https://github.com/broadinstitute/cromwell/releases/download/92/cromwell-92.jar"
+sha256 = "e0e3a050d4124e81369a79059e5774142b2f06bd89df4a0b035f559db85cedf5"
+
+[build]
+system = "autotools"

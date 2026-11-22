@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["texinfo"]
+
+[package]
+name = "latex2rtf"
+version = "2.3.18a.orig"
+description = "Translate LaTeX to RTF"
+homepage = "https://latex2rtf.sourceforge.net/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/l/latex2rtf/latex2rtf_2.3.18a.orig.tar.gz"
+sha256 = "338ba2e83360f41ded96a0ceb132db9beaaf15018b36101be2bae8bb239017d9"
+
+[build]
+system = "autotools"

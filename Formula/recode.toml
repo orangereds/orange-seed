@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "recode"
+version = "3.7.17"
+description = "Convert character set (charsets)"
+homepage = "https://github.com/rrthomas/recode"
+
+[source]
+url = "https://github.com/rrthomas/recode/releases/download/v3.7.17/recode-3.7.17.tar.gz"
+sha256 = "1b0aebe7283b79ff46bc0a06ee21faf65b4d0b304632cbc855721c25583d8ea3"
+
+[build]
+system = "autotools"

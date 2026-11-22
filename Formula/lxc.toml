@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lxc"
+version = "0"
+description = "CLI client for interacting with LXD"
+homepage = "https://ubuntu.com/lxd"
+
+[source]
+url = "https://github.com/canonical/lxd/archive/refs/tags/lxd-6.10.1.tar.gz"
+sha256 = "687495b7b989da5f29ab009f7e728462f845ebf65696d30c5a6a0d646ce3fb58"
+
+[build]
+system = "autotools"

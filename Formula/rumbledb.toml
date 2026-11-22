@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["apache-spark", "openjdk@21"]
+
+[package]
+name = "rumbledb"
+version = "3.1.0-brew"
+description = "JSONiq and XQuery query engine on Apache Spark"
+homepage = "https://rumbledb.org/"
+
+[source]
+url = "https://github.com/RumbleDB/rumble/releases/download/v3.1.0/rumbledb-3.1.0-brew.zip"
+sha256 = "254e23d98bfb10fce996d599bf2e0cb7c2a636cd6a333b87b168ccb1b93cdd7b"
+
+[build]
+system = "autotools"

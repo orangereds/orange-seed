@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "purescript"]
+
+[package]
+name = "purescript-language-server"
+version = "0.18.5"
+description = "Language Server Protocol server for PureScript"
+homepage = "https://github.com/nwolverson/purescript-language-server"
+
+[source]
+url = "https://registry.npmjs.org/purescript-language-server/-/purescript-language-server-0.18.5.tgz"
+sha256 = "2b4a55ab4ee71dda3f9feb290437dcf2b8b083344cab8490089d6caab123341d"
+
+[build]
+system = "autotools"

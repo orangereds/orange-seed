@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libusb", "openssl@4", "tinyxml2", "zstd"]
+
+[package]
+name = "uuu"
+version = "0_1"
+description = "Universal Update Utility, mfgtools 3.0. NXP I.MX Chip image deploy tools"
+homepage = "https://github.com/nxp-imx/mfgtools"
+
+[source]
+url = "https://github.com/nxp-imx/mfgtools/releases/download/uuu_1.5.243/uuu_source-uuu_1.5.243.tar.gz"
+sha256 = "dee3be0f337c631bf93232f5ea42440f07782ce005c9219a14731d66bbe83658"
+
+[build]
+system = "cmake"

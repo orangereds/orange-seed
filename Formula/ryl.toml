@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ryl"
+version = "0.30.0"
+description = "Fast YAML linter and formatter written in Rust"
+homepage = "https://ryl-docs.pages.dev"
+
+[source]
+url = "https://github.com/owenlamont/ryl/archive/refs/tags/v0.30.0.tar.gz"
+sha256 = "6c005e39d0952dec7b937a0e9efb27a381979621a880ae6dee29777a641a94af"
+
+[build]
+system = "autotools"

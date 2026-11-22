@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm@22", "llvm", "cmake", "pkgconf", "yaml-cpp"]
+
+[package]
+name = "clang-uml"
+version = "0.6.3_1"
+description = "Customizable automatic UML diagram generator for C++ based on Clang"
+homepage = "https://github.com/bkryza/clang-uml"
+
+[source]
+url = "https://github.com/bkryza/clang-uml/archive/refs/tags/0.6.3.tar.gz"
+sha256 = "6bd077062761e18881b5d4a300993243c09730f0cda449a9920333db6e1fccdd"
+
+[build]
+system = "cmake"

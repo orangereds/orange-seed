@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "bdw-gc", "gmp", "libyaml", "llvm", "openssl@4", "pcre2", "pkgconf", "libffi"]
+
+[package]
+name = "crystal"
+version = "1.22.3"
+description = "Fast and statically typed, compiled language with Ruby-like syntax"
+homepage = "https://crystal-lang.org/"
+
+[source]
+url = "https://github.com/crystal-lang/crystal/archive/refs/tags/1.22.3.tar.gz"
+sha256 = "90f2613cc004d5734fe0a0364c3fcac3918e3a50e357ae33bdcb506ac44fcbb1"
+
+[build]
+system = "autotools"

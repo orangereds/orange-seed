@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "opensca-cli"
+version = "3.0.11"
+description = "OpenSCA is a supply-chain security tool for security researchers and developers"
+homepage = "https://opensca.xmirror.cn"
+
+[source]
+url = "https://github.com/XmirrorSecurity/OpenSCA-cli/archive/refs/tags/v3.0.11.tar.gz"
+sha256 = "91a4951baf951580ef8eeda6096521026193c177f2ed4082c08a9d74442fd7fa"
+
+[build]
+system = "autotools"

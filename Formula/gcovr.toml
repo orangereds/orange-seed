@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "gcovr"
+version = "8.8"
+description = "Reports from gcov test coverage program"
+homepage = "https://gcovr.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/84/5d/75f6913653852720651790bf611e37355ee53cdd298c7f1561cde8773e02/gcovr-8.8.tar.gz"
+sha256 = "0320230a432c033c1a41f34ba943082f450008c789bee05d414e532f380fd788"
+
+[build]
+system = "autotools"

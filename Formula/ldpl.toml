@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ldpl"
+version = "0"
+description = "COBOL-like programming language that compiles to C++"
+homepage = "https://www.ldpl-lang.org/"
+
+[source]
+url = "https://github.com/Lartu/ldpl/archive/refs/tags/LDPL-5.1.0.tar.gz"
+sha256 = "f61c0a8a3405965a7ee168da3ecf754b600de5a1c89208ae437ffba8658b2701"
+
+[build]
+system = "make"

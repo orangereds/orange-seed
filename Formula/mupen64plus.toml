@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype", "libpng", "sdl2-compat", "nasm"]
+
+[package]
+name = "mupen64plus"
+version = "0"
+description = "Cross-platform plugin-based N64 emulator"
+homepage = "https://www.mupen64plus.org/"
+
+[source]
+url = "https://github.com/mupen64plus/mupen64plus-core/releases/download/2.6.0/mupen64plus-bundle-src-2.6.0.tar.gz"
+sha256 = "297e17180cd76a7b8ea809d1a1be2c98ed5c7352dc716965a80deb598b21e131"
+
+[build]
+system = "make"

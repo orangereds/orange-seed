@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "hf-mount"
+version = "0.14.0"
+description = "Mount Hugging Face Buckets and repos as local filesystems"
+homepage = "https://github.com/huggingface/hf-mount"
+
+[source]
+url = "https://github.com/huggingface/hf-mount/archive/refs/tags/v0.14.0.tar.gz"
+sha256 = "65ff2e3d4b42d88e01a1189c5074296fb9322a4c1059b9b51ef5919b1df74d45"
+
+[build]
+system = "autotools"

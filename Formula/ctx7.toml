@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ctx7"
+version = "0.12.2"
+description = "Manage AI coding skills and documentation context"
+homepage = "https://context7.com"
+
+[source]
+url = "https://registry.npmjs.org/ctx7/-/ctx7-0.12.2.tgz"
+sha256 = "04c5cb6099d1406a80c1ecfb7ef1c56b8f984db442f498b24441e5e722b1f98a"
+
+[build]
+system = "autotools"

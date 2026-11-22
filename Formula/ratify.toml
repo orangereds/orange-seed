@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ratify"
+version = "1.4.8"
+description = "Artifact Ratification Framework"
+homepage = "https://ratify.dev"
+
+[source]
+url = "https://github.com/notaryproject/ratify/archive/refs/tags/v1.4.8.tar.gz"
+sha256 = "c2ecdb37ee6b2fd8128003ad47ebe7ef0a9766379ebc7ff83b999b7ea90e06cb"
+
+[build]
+system = "autotools"

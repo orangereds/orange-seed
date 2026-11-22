@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gh"
+version = "2.105.0"
+description = "GitHub command-line tool"
+homepage = "https://cli.github.com/"
+
+[source]
+url = "https://github.com/cli/cli/archive/refs/tags/v2.105.0.tar.gz"
+sha256 = "3a8fddd2ca0f7c96983a251d3971a84ef042b230b26ca696e5e6ed811cd0ed8d"
+
+[build]
+system = "autotools"

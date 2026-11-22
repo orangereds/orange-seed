@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool"]
+
+[package]
+name = "libexif"
+version = "0.6.26"
+description = "EXIF parsing library"
+homepage = "https://libexif.github.io/"
+
+[source]
+url = "https://github.com/libexif/libexif/releases/download/v0.6.26/libexif-0.6.26.tar.bz2"
+sha256 = "0830ed253fceeb60444fb309598bc8a9491d3007dc054aad3a50a347c5597c57"
+
+[build]
+system = "autotools"

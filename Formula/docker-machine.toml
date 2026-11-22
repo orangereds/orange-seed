@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "docker-machine"
+version = "0.16.2-gitlab.66"
+description = "Create Docker hosts locally and on cloud providers"
+homepage = "https://docs.gitlab.com/runner/executors/docker_machine.html"
+
+[source]
+url = "https://gitlab.com/gitlab-org/ci-cd/docker-machine/-/archive/v0.16.2-gitlab.66/docker-machine-v0.16.2-gitlab.66.tar.bz2"
+sha256 = "4f4f60a3112a5ed3099dfe7ae757dcbb5ca9606c61a2b413c64fc60c3540bdb7"
+
+[service]
+run = "opt/docker-machine/bin/docker-machine start default"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

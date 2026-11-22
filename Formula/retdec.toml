@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "libtool", "pkgconf", "python@3.15", "openssl@4"]
+
+[package]
+name = "retdec"
+version = "0_1"
+description = "Retargetable machine-code decompiler based on LLVM"
+homepage = "https://github.com/avast/retdec"
+
+[source]
+url = "https://github.com/avast/retdec.git"
+sha256 = "ccb90c4a4b893171c794d5dfb987aca5a4c726fabaeddc5f1af97f771ea243a1"
+
+[build]
+system = "cmake"

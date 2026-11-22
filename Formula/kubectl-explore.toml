@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubectl-explore"
+version = "0.14.1"
+description = "Better kubectl explain with the fuzzy finder"
+homepage = "https://github.com/keisku/kubectl-explore"
+
+[source]
+url = "https://github.com/keisku/kubectl-explore/archive/refs/tags/v0.14.1.tar.gz"
+sha256 = "cf13b9a569d5fb3852e6d6d6844e3f4383e4dbddfd16187eccd05627a4c10e90"
+
+[build]
+system = "autotools"

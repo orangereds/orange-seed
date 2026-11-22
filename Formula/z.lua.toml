@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lua"]
+
+[package]
+name = "z.lua"
+version = "1.8.27"
+description = "New cd command that helps you navigate faster by learning your habits"
+homepage = "https://github.com/skywind3000/z.lua"
+
+[source]
+url = "https://github.com/skywind3000/z.lua/archive/refs/tags/1.8.27.tar.gz"
+sha256 = "914959da3b5c856e65734f1368e47af06ad1202b2775f17bd6bc14200d935984"
+
+[build]
+system = "autotools"

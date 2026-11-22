@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "lmfit"
+version = "11.0.1"
+description = "C library for Levenberg-Marquardt minimization and least-squares fitting"
+homepage = "https://jugit.fz-juelich.de/mlz/lib/lmfit"
+
+[source]
+url = "https://jugit.fz-juelich.de/mlz/lib/lmfit/-/archive/v11.0.1/lmfit-v11.0.1.tar.bz2"
+sha256 = "f4bdadcf959261c7dfc93402012493ae2ff307caed3418badde202a59a680d18"
+
+[build]
+system = "cmake"

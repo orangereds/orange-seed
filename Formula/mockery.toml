@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mockery"
+version = "3.9.1"
+description = "Mock code autogenerator for Golang"
+homepage = "https://vektra.github.io/mockery/"
+
+[source]
+url = "https://github.com/vektra/mockery/archive/refs/tags/v3.9.1.tar.gz"
+sha256 = "c73f648fac846b84cca2db017255faa4fd363f72a7a748f281e55d07ed6b3372"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "oniguruma"]
+
+[package]
+name = "tenere"
+version = "0.11.3"
+description = "TUI interface for LLMs written in Rust"
+homepage = "https://github.com/pythops/tenere"
+
+[source]
+url = "https://github.com/pythops/tenere/archive/refs/tags/v0.11.3.tar.gz"
+sha256 = "3605fcdff3dbd5d153ed6126e98274994bd00ed83a2a1f5587058d75797257a8"
+
+[build]
+system = "autotools"

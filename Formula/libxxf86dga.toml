@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xorgproto", "libx11", "libxext"]
+
+[package]
+name = "libxxf86dga"
+version = "0"
+description = "X.Org: XFree86-DGA X extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXxf86dga-1.1.7.tar.xz"
+sha256 = "b3be5b444d324cb6e0f4b5019a4972c99ea336ccb8ab7968eccefecd917ffde6"
+
+[build]
+system = "autotools"

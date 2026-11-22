@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "fftw", "gcc", "hdf5-mpi", "metis", "open-mpi", "openblas", "petsc", "scalapack", "libomp"]
+
+[package]
+name = "damask-grid"
+version = "0_1"
+description = "Grid solver of DAMASK - Multi-physics crystal plasticity simulation package"
+homepage = "https://damask-multiphysics.org"
+
+[source]
+url = "https://damask-multiphysics.org/download/damask-3.1.0.tar.xz"
+sha256 = "d1ba65a167aab221c13f003507aba17f663c53af94fc1cd4a47408008329def1"
+
+[build]
+system = "cmake"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["corepack", "go", "node"]
+
+[package]
+name = "traefik"
+version = "3.7.19.src"
+description = "Modern reverse proxy"
+homepage = "https://traefik.io/"
+
+[source]
+url = "https://github.com/traefik/traefik/releases/download/v3.7.19/traefik-v3.7.19.src.tar.gz"
+sha256 = "94212099d79321aa28b8cf44a69dab0e54b008518d65356dc1db294554edabde"
+
+[service]
+run = "opt/traefik/bin/traefik --configfile=#{etc}/traefik/traefik.toml"
+working_dir = "var"
+log_path = "var/log/traefik.log"
+error_log_path = "var/log/traefik.log"
+
+[build]
+system = "autotools"

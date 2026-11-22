@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "convmv"
+version = "2.06"
+description = "Filename encoding conversion tool"
+homepage = "https://www.j3e.de/linux/convmv/"
+
+[source]
+url = "https://www.j3e.de/linux/convmv/convmv-2.06.tar.gz"
+sha256 = "a37192e266742e7fe33ec19a3be49aea7fd4d066887863a6e193fa345bf2e592"
+
+[build]
+system = "make"

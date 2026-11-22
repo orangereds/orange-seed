@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "fluid-synth", "libsndfile", "libvorbis", "mpg123", "qt@5", "sdl2-compat"]
+
+[package]
+name = "qtads"
+version = "3.4.0-source"
+description = "TADS multimedia interpreter"
+homepage = "https://realnc.github.io/qtads/"
+
+[source]
+url = "https://github.com/realnc/qtads/releases/download/v3.4.0/qtads-3.4.0-source.tar.xz"
+sha256 = "3c8f1b47ee42d89753d68e7c804ca3677b0c89a5d765d1fd4f80f9cdc29d3473"
+
+[build]
+system = "make"

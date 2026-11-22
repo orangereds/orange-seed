@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "airshare"
+version = "0_26"
+description = "Cross-platform content sharing in a local network"
+homepage = "https://airshare.readthedocs.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/cb/a2/d59c18cd6a143bf860c29acb70552b7351fd7e0f56213be86b624601106b/Airshare-0.1.6.tar.gz"
+sha256 = "138976933bcf2c0bc99f18901242544919e9fafe43735b4f83b19d4ae5964be7"
+
+[build]
+system = "autotools"

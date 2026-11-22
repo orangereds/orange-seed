@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfupdate"
+version = "0.10.3"
+description = "Update version constraints in your Terraform configurations"
+homepage = "https://github.com/minamijoyo/tfupdate"
+
+[source]
+url = "https://github.com/minamijoyo/tfupdate/archive/refs/tags/v0.10.3.tar.gz"
+sha256 = "66d0aebdbd41c82d39edb6f2b241bb194fe7a03c162a555c6baa8f8ab7c794f6"
+
+[build]
+system = "autotools"

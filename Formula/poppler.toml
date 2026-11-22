@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "gobject-introspection", "pkgconf", "brotli", "cairo", "fontconfig", "freetype", "glib", "gpgmepp", "harfbuzz", "jpeg-turbo", "libpng", "libtiff", "little-cms2", "nspr", "nss", "openjpeg", "gpgme"]
+
+[package]
+name = "poppler"
+version = "26.11.0"
+description = "PDF rendering library (based on the xpdf-3.0 code base)"
+homepage = "https://poppler.freedesktop.org/"
+
+[source]
+url = "https://poppler.freedesktop.org/poppler-26.11.0.tar.xz"
+sha256 = "41c32680160addf5a8dd7a830e4869c01e9f6bee1abb91e44fabd1ba9d7828fb"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "freetype"]
+
+[package]
+name = "fontconfig"
+version = "2.18.4"
+description = "XML-based font configuration API for X Windows"
+homepage = "https://wiki.freedesktop.org/www/Software/fontconfig/"
+
+[source]
+url = "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/archive/2.18.4/fontconfig-2.18.4.tar.gz"
+sha256 = "cecf4125622ed674d5630b6deaeff43e3695afe197bdcc560363a1820d858112"
+
+[build]
+system = "autotools"

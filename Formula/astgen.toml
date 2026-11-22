@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun"]
+
+[package]
+name = "astgen"
+version = "3.55.0"
+description = "Generate AST in json format for JS/TS"
+homepage = "https://github.com/joernio/astgen-monorepo"
+
+[source]
+url = "https://github.com/joernio/astgen-monorepo/archive/refs/tags/javascript-astgen/v3.55.0.tar.gz"
+sha256 = "7a51af1d288e2d112ad3f346003f41916519562ee773377ffd8e7ae0eb95cb38"
+
+[build]
+system = "autotools"

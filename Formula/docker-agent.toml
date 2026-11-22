@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "docker-agent"
+version = "1.163.0"
+description = "Agent Builder and Runtime by Docker Engineering"
+homepage = "https://docker.github.io/docker-agent/"
+
+[source]
+url = "https://github.com/docker/docker-agent/archive/refs/tags/v1.163.0.tar.gz"
+sha256 = "24fb21b39133097248fe1acf925d0688ee66bbd4bce4af8ac48c99e088a5f43e"
+
+[build]
+system = "autotools"

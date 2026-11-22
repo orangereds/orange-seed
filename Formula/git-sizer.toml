@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-sizer"
+version = "1.6.0"
+description = "Compute various size metrics for a Git repository"
+homepage = "https://github.com/github/git-sizer"
+
+[source]
+url = "https://github.com/github/git-sizer/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "2c6355a9ccdaa6bbe03fa309e087483961afefcfbf354491a419e1d5e6c1bbd1"
+
+[build]
+system = "autotools"

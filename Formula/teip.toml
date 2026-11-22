@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "oniguruma"]
+
+[package]
+name = "teip"
+version = "2.3.3"
+description = "Masking tape to help commands \"do one thing well\""
+homepage = "https://github.com/greymd/teip"
+
+[source]
+url = "https://github.com/greymd/teip/archive/refs/tags/v2.3.3.tar.gz"
+sha256 = "cc735acf21f248dfabbc368835f044b99db8e1bc7fb89678681e5c68b7fee236"
+
+[build]
+system = "autotools"

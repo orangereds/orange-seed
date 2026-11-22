@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rustnet"
+version = "1.7.0"
+description = "Cross-platform network monitoring terminal UI with deep packet inspection"
+homepage = "https://github.com/domcyrus/rustnet"
+
+[source]
+url = "https://github.com/domcyrus/rustnet/archive/refs/tags/v1.7.0.tar.gz"
+sha256 = "9d3f6509da06f832c04c5accc7b777c18f3de8b32c885137c9a1346990694dda"
+
+[build]
+system = "autotools"

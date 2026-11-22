@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["glktermw"]
+
+[package]
+name = "glulxe"
+version = "0.6.1"
+description = "Portable VM like the Z-machine"
+homepage = "https://www.eblong.com/zarf/glulx/"
+
+[source]
+url = "https://eblong.com/zarf/glulx/glulxe-061.tar.gz"
+sha256 = "f81dc474d60d7d914fcde45844a4e1acafee50e13aebfcb563249cc56740769f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["qt@5", "tarsnap"]
+
+[package]
+name = "tarsnap-gui"
+version = "1.0.2_1"
+description = "Cross-platform GUI for the Tarsnap command-line client"
+homepage = "https://www.tarsnap.com/"
+
+[source]
+url = "https://github.com/Tarsnap/tarsnap-gui/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "3b271f474abc0bbeb3d5d62ee76b82785c7d64145e6e8b51fa7907b724c83eae"
+
+[build]
+system = "autotools"

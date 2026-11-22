@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "faad2"
+version = "2.11.4"
+description = "ISO AAC audio decoder"
+homepage = "https://freewareadvancedaudio.github.io"
+
+[source]
+url = "https://github.com/FreewareAdvancedAudio/faad2/archive/refs/tags/2.11.4.tar.gz"
+sha256 = "ee479ccbae4a8387ab696e6f21a481bd83fe3881471cafa81b4ae59d7d3aed43"
+
+[build]
+system = "cmake"

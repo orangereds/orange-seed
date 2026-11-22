@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dart-sass", "docbook", "docbook-xsl", "docutils", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "fontconfig", "fribidi", "gdk-pixbuf", "glib", "graphene", "harfbuzz", "hicolor-icon-theme", "jpeg-turbo", "libepoxy", "libpng", "librsvg", "libtiff", "pango"]
+
+[package]
+name = "gtk4"
+version = "0"
+description = "Toolkit for creating graphical user interfaces"
+homepage = "https://gtk.org/"
+
+[source]
+url = "https://download.gnome.org/sources/gtk/4.24/gtk-4.24.1.tar.xz"
+sha256 = "e98abe720e16129c8c0f50761dee0a2e9ae2478055e31018f6cf977fcf6513e9"
+
+[build]
+system = "autotools"

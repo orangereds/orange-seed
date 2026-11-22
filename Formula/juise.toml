@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libssh2", "libtool", "pkgconf", "libslax"]
+
+[package]
+name = "juise"
+version = "3.0.0"
+description = "JUNOS user interface scripting environment"
+homepage = "https://github.com/Juniper/juise/wiki"
+
+[source]
+url = "https://github.com/Juniper/juise/releases/download/3.0.0/juise-3.0.0.tar.gz"
+sha256 = "54d641789bf9a531bc262876914e76888382522ad193eace132d16203546d51e"
+
+[build]
+system = "autotools"

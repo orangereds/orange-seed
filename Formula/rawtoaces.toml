@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "pkgconf", "ceres-solver", "exiftool", "gflags", "glog", "lensfun", "openimageio"]
+
+[package]
+name = "rawtoaces"
+version = "2.2.2_1"
+description = "Utility for converting camera RAW image files to ACES"
+homepage = "https://github.com/AcademySoftwareFoundation/rawtoaces"
+
+[source]
+url = "https://github.com/AcademySoftwareFoundation/rawtoaces/archive/refs/tags/v2.2.2.tar.gz"
+sha256 = "1687f12ce34c3d01d5e3d293dacf14df3d815d51d4595c12321d0262a5adc792"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "flatbuffers"
+version = "25.12.19"
+description = "Serialization library for C++, supporting Java, C#, and Go"
+homepage = "https://google.github.io/flatbuffers"
+
+[source]
+url = "https://github.com/google/flatbuffers/archive/refs/tags/v25.12.19.tar.gz"
+sha256 = "f81c3162b1046fe8b84b9a0dbdd383e24fdbcf88583b9cb6028f90d04d90696a"
+
+[build]
+system = "cmake"

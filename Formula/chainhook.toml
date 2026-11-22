@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "chainhook"
+version = "1.9.0"
+description = "Reorg-aware indexing engine for the Stacks & Bitcoin blockchains"
+homepage = "https://github.com/hirosystems/chainhook"
+
+[source]
+url = "https://github.com/hirosystems/chainhook/archive/refs/tags/v1.9.0.tar.gz"
+sha256 = "fea917fcd18032a280a965bd84b57894008110ec15191f4efca6aaab26011443"
+
+[build]
+system = "autotools"

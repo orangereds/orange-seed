@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dune", "ocaml", "opam", "ocaml-findlib", "rocq"]
+
+[package]
+name = "rocq-elpi"
+version = "3.6.0"
+description = "Elpi extension language for Rocq"
+homepage = "https://github.com/LPCIC/coq-elpi"
+
+[source]
+url = "https://github.com/LPCIC/coq-elpi/releases/download/v3.6.0/rocq-elpi-3.6.0.tar.gz"
+sha256 = "72ecf7a08edf8ebbe9114df8d27ab0d272b8682d2f68297b6f6730f8ad429abb"
+
+[build]
+system = "autotools"

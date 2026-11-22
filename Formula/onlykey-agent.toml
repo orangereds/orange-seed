@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "certifi", "cryptography", "gnupg", "hidapi", "libsodium", "libusb", "python@3.15"]
+
+[package]
+name = "onlykey-agent"
+version = "1.1.15_14"
+description = "Middleware that lets you use OnlyKey as a hardware SSH/GPG device"
+homepage = "https://docs.crp.to/onlykey-agent.html"
+
+[source]
+url = "https://files.pythonhosted.org/packages/68/80/e89b6c3680bedb1e14e99f0539ac805bddc7d8dd87c58805c64484966b7c/onlykey-agent-1.1.15.tar.gz"
+sha256 = "49b19bec28dc0fb7053ef01266d8a9e7a078bb146214a641bdbb1feac6fc7ddb"
+
+[build]
+system = "autotools"

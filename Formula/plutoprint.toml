@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "plutobook", "python@3.15", "llvm"]
+
+[package]
+name = "plutoprint"
+version = "9"
+description = "Generate PDFs and Images from HTML"
+homepage = "https://github.com/plutoprint/plutoprint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6b/e8/7db9d2d4801b80928f3b53d90d7343873aebed06b4cef5b71bc25f77086b/plutoprint-0.23.0.tar.gz"
+sha256 = "6240e645599f08953fe0296b5b1955c6a978b212a05b878c2ba652a8ce7a0c82"
+
+[build]
+system = "autotools"

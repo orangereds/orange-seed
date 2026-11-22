@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "syswatch"
+version = "0.14.5"
+description = "Cross-platform system diagnostics TUI"
+homepage = "https://www.netwatchlabs.com/labs/syswatch"
+
+[source]
+url = "https://github.com/matthart1983/syswatch/archive/refs/tags/v0.14.5.tar.gz"
+sha256 = "660855f2d03dbc5cea6921a0ebd66b97d55eac3b83c27bef525802c9f189668d"
+
+[build]
+system = "autotools"

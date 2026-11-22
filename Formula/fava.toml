@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "rust", "certifi", "python@3.15"]
+
+[package]
+name = "fava"
+version = "1.31"
+description = "Web interface for the double-entry bookkeeping software Beancount"
+homepage = "https://beancount.github.io/fava/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/87/5d/830cbe095ceed599c0df147f2d351d5880144634305e75cdfa0509883164/fava-1.31.tar.gz"
+sha256 = "4be02838a8a83738ecd38e51b4fe35c2af69f15c7b22a877a9e54a14b759860d"
+
+[build]
+system = "autotools"

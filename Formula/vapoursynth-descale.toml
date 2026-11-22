@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "python@3.15", "vapoursynth"]
+
+[package]
+name = "vapoursynth-descale"
+version = "0_2"
+description = "VapourSynth plugin to undo upscaling"
+homepage = "https://github.com/Irrational-Encoding-Wizardry/descale"
+
+[source]
+url = "https://github.com/Irrational-Encoding-Wizardry/descale/archive/refs/tags/r8.tar.gz"
+sha256 = "317d955cc2dfbc3fd1aecef2ea2d56e4f1cd99434492d71c6a1d48213ff35972"
+
+[build]
+system = "autotools"

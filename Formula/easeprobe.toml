@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "easeprobe"
+version = "2.3.0"
+description = "Simple, standalone, and lightWeight tool that can do health/status checking"
+homepage = "https://github.com/megaease/easeprobe"
+
+[source]
+url = "https://github.com/megaease/easeprobe/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "84c91cb784073516393b33bf58093f2236eaccfab5833c682640cef71c225450"
+
+[build]
+system = "autotools"

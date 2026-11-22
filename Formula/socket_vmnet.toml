@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "socket_vmnet"
+version = "1.2.2"
+description = "Daemon to provide vmnet.framework support for rootless QEMU"
+homepage = "https://github.com/lima-vm/socket_vmnet"
+
+[source]
+url = "https://github.com/lima-vm/socket_vmnet/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "7341cab86654a171a427799f9e472696dad17215641c39c4b26de8d2181933a0"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/socket_vmnet/bin/socket_vmnet --vmnet-gateway=192.168.105.1 var/run/socket_vmnet"
+log_path = "var/log/socket_vmnet/stdout"
+error_log_path = "var/log/socket_vmnet/stderr"
+
+[build]
+system = "make"

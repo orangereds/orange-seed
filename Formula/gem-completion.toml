@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gem-completion"
+version = "1.0.3"
+description = "Bash completion for gem"
+homepage = "https://github.com/mernen/completion-ruby"
+
+[source]
+url = "https://github.com/mernen/completion-ruby/archive/refs/tags/v1.0.3.tar.gz"
+sha256 = "cbcd002bba2a43730cff54f5386565917913d9dec16dcd89345fbe298fe4316b"
+
+[build]
+system = "autotools"

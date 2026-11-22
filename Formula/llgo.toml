@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bdw-gc", "go", "libuv", "lld@22", "llvm@22", "openssl@4", "pkgconf"]
+
+[package]
+name = "llgo"
+version = "1.0.10"
+description = "Go compiler based on LLVM integrate with the C ecosystem and Python"
+homepage = "https://github.com/xgo-dev/llgo"
+
+[source]
+url = "https://github.com/xgo-dev/llgo/archive/refs/tags/v1.0.10.tar.gz"
+sha256 = "6a7a981062bafe849ecab765a7dd03c6893edc2d589541d33753a98dd402e4da"
+
+[build]
+system = "autotools"

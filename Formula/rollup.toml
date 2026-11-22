@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "rollup"
+version = "4.68.7"
+description = "Next-generation ES module bundler"
+homepage = "https://rollupjs.org/"
+
+[source]
+url = "https://registry.npmjs.org/rollup/-/rollup-4.68.7.tgz"
+sha256 = "05b01ada4d2c374026403df09bae4a715b716ffc7aa975c468be3eb5c7042b62"
+
+[build]
+system = "autotools"

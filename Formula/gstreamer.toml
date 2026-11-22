@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cargo-c", "cmake", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "rust", "aom", "cairo", "dav1d", "faac", "faad2", "ffmpeg", "flac", "gdk-pixbuf", "glib", "graphene", "gtk+3", "gtk4", "imath", "jpeg-turbo", "json-glib", "lame", "libass", "libnice", "libogg", "libpng", "librsvg", "libshout", "libsndfile", "libsodium", "libsoup", "libusrsctp", "libvmaf", "libvorbis", "libvpx", "libx11", "libxcb", "libxext", "libxfixes", "libxi", "libxtst", "little-cms2", "mpg123", "nettle", "opencore-amr", "openexr", "openjpeg", "openssl@4", "opus", "orc", "pango", "pygobject3", "python@3.15", "rtmpdump", "speex", "srt", "srtp", "svt-av1", "taglib", "theora", "webp", "x264", "x265", "harfbuzz", "musepack", "nasm"]
+
+[package]
+name = "gstreamer"
+version = "1.28.9"
+description = "Development framework for multimedia applications"
+homepage = "https://gstreamer.freedesktop.org/"
+
+[source]
+url = "https://gitlab.freedesktop.org/gstreamer/gstreamer/-/archive/1.28.9/gstreamer-1.28.9.tar.bz2"
+sha256 = "6f4074f5bdd071a074220a3642b5861410aa6929c179d903feff4af82d9a05d7"
+
+[build]
+system = "autotools"

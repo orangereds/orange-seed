@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terragrunt"
+version = "1.2.2"
+description = "Thin wrapper for Terraform e.g. for locking state"
+homepage = "https://terragrunt.gruntwork.io/"
+
+[source]
+url = "https://github.com/gruntwork-io/terragrunt/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "910cfc7dfceef54226184da35cdca0b117a0b08e7d97485cdc2a78e4d046fd09"
+
+[build]
+system = "autotools"

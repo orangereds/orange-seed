@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ninja", "pkgconf", "vulkan-headers", "python@3.15", "zimg", "llvm"]
+
+[package]
+name = "vapoursynth"
+version = "82"
+description = "Video processing framework with simplicity in mind"
+homepage = "https://www.vapoursynth.com"
+
+[source]
+url = "https://files.pythonhosted.org/packages/25/2e/1a5cb192ce26077c5afe9056a11b3a2d936c4e413b4fec5eee74d45bdb01/vapoursynth-82.tar.gz"
+sha256 = "1128316620890ba8e5b69c924a665f98001b2ba4230dadead0f296446ea71843"
+
+[build]
+system = "autotools"

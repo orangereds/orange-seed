@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "okta-awscli"
+version = "0.5.5_12"
+description = "Okta authentication for awscli"
+homepage = "https://github.com/okta-awscli/okta-awscli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ed/2c/153d8ba330660d756fe6373fb4d1c13b99e63675570042de45aedf300bb7/okta-awscli-0.5.5.tar.gz"
+sha256 = "a8b1277914b992fc24e934edaf1947291723ce386f2191a8952e7c008f2e77fa"
+
+[build]
+system = "autotools"

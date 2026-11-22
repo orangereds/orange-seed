@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison"]
+
+[package]
+name = "mruby"
+version = "4.0.0"
+description = "Lightweight implementation of the Ruby language"
+homepage = "https://mruby.org/"
+
+[source]
+url = "https://github.com/mruby/mruby/archive/refs/tags/4.0.0.tar.gz"
+sha256 = "e2ea271dbed14e9f2b33df773ae447b747dbc242ce2675022c0a57efea85a7b4"
+
+[build]
+system = "autotools"

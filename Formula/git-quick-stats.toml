@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils"]
+
+[package]
+name = "git-quick-stats"
+version = "2.11.0"
+description = "Simple and efficient way to access statistics in git"
+homepage = "https://git-quick-stats.sh/"
+
+[source]
+url = "https://github.com/git-quick-stats/git-quick-stats/archive/refs/tags/2.11.0.tar.gz"
+sha256 = "7f522e604849a1c645d1379bca8e69d14382df3f1a29cb4a7cf1421c514f5562"
+
+[build]
+system = "autotools"

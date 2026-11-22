@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "advancescan"
+version = "1.18"
+description = "Rom manager for AdvanceMAME/MESS"
+homepage = "https://www.advancemame.it/scan-readme.html"
+
+[source]
+url = "https://github.com/amadvance/advancescan/releases/download/v1.18/advancescan-1.18.tar.gz"
+sha256 = "8c346c6578a1486ca01774f30c3e678058b9b8b02f265119776d523358d24672"
+
+[build]
+system = "autotools"

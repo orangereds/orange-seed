@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxpm"]
+
+[package]
+name = "sac"
+version = "103.0"
+description = "Seismic Analysis Code, Community Edition"
+homepage = "https://github.com/EarthScope/sac-community"
+
+[source]
+url = "https://github.com/EarthScope/sac-community/archive/refs/tags/v103.0.tar.gz"
+sha256 = "f61fbe30d0411fe3033bdb76731062da24940c27920338d0f91a867842b791b8"
+
+[build]
+system = "autotools"

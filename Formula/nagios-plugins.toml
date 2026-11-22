@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3", "gettext"]
+
+[package]
+name = "nagios-plugins"
+version = "2.5"
+description = "Plugins for the nagios network monitoring system"
+homepage = "https://www.nagios-plugins.org/"
+
+[source]
+url = "https://github.com/nagios-plugins/nagios-plugins/releases/download/release-2.5/nagios-plugins-2.5.tar.gz"
+sha256 = "44d1510b5e17055fd9aa4a1d9662a234fc5d5c1b96548852c8e78701584b2684"
+
+[build]
+system = "autotools"

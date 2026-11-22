@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fnm"
+version = "1.39.0"
+description = "Fast and simple Node.js version manager"
+homepage = "https://github.com/Schniz/fnm"
+
+[source]
+url = "https://github.com/Schniz/fnm/archive/refs/tags/v1.39.0.tar.gz"
+sha256 = "224081a677a02acd9f972885e824a98fa3843f5b778b28400ad5af97752f6127"
+
+[build]
+system = "autotools"

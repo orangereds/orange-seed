@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "brotli", "hwloc", "imagemagick", "libmaxminddb", "luajit", "nuraft", "openssl@4", "pcre2", "xz", "yaml-cpp", "zstd"]
+
+[package]
+name = "trafficserver"
+version = "0"
+description = "HTTP/1.1 and HTTP/2 compliant caching proxy server"
+homepage = "https://trafficserver.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=trafficserver/trafficserver-10.2.1.tar.bz2"
+sha256 = "352957dc55cab2dd9accfa6b02f1c827109a6b6bb34607381743dbfb8de3b87f"
+
+[build]
+system = "cmake"

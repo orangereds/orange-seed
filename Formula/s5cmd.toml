@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "s5cmd"
+version = "2.3.0"
+description = "Parallel S3 and local filesystem execution tool"
+homepage = "https://github.com/peak/s5cmd/"
+
+[source]
+url = "https://github.com/peak/s5cmd/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "6910763a7320010aa75fe9ef26f622e440c2bd6de41afdbfd64e78c158ca19d4"
+
+[build]
+system = "autotools"

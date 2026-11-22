@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "coreutils", "erlang@26", "freetds", "libtool", "openssl@4"]
+
+[package]
+name = "emqx"
+version = "5.8.8_1"
+description = "MQTT broker for IoT"
+homepage = "https://www.emqx.io/"
+
+[source]
+url = "https://github.com/emqx/emqx/archive/refs/tags/v5.8.8.tar.gz"
+sha256 = "5861d8d32c4934175ca3d01c691ea679ac1a7903a1faee72027f6484d3085c89"
+
+[service]
+run = "opt/emqx/bin/emqx foreground"
+
+[build]
+system = "autotools"

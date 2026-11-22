@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "openblas"]
+
+[package]
+name = "superlu"
+version = "7.0.1"
+description = "Solve large, sparse nonsymmetric systems of equations"
+homepage = "https://portal.nersc.gov/project/sparse/superlu/"
+
+[source]
+url = "https://github.com/xiaoyeli/superlu/archive/refs/tags/v7.0.1.tar.gz"
+sha256 = "86dcca1e086f8b8079990d07f00eb707fc9ef412cf3b2ce808b37956f0de2cb8"
+
+[build]
+system = "cmake"

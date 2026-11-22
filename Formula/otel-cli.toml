@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "otel-cli"
+version = "0.4.5"
+description = "Tool for sending events from shell scripts & similar environments"
+homepage = "https://github.com/equinix-labs/otel-cli"
+
+[source]
+url = "https://github.com/equinix-labs/otel-cli/archive/refs/tags/v0.4.5.tar.gz"
+sha256 = "331a76783974318a31d9ab06e3f05af488e0ede3cce989f8d1b634450a345536"
+
+[build]
+system = "autotools"

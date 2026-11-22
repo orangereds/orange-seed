@@ -1,0 +1,25 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3"]
+
+[package]
+name = "redis@6.2"
+version = "0"
+description = "Persistent key-value database, with built-in net interface"
+homepage = "https://redis.io/"
+
+[source]
+url = "https://download.redis.io/releases/redis-6.2.18.tar.gz"
+sha256 = "470c75bac73d7390be4dd66479c6f29e86371c5d380ce0c7efb4ba2bbda3612d"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/redis@6.2/bin/redis-server etc/redis.conf"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/redis.log"
+error_log_path = "var/log/redis.log"
+
+[build]
+system = "make"

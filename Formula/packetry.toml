@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "cairo", "gdk-pixbuf", "glib", "gtk4", "pango", "gettext", "graphene", "harfbuzz"]
+
+[package]
+name = "packetry"
+version = "0.5.0"
+description = "Fast, intuitive USB 2.0 protocol analysis application for use with Cynthion"
+homepage = "https://github.com/greatscottgadgets/packetry"
+
+[source]
+url = "https://github.com/greatscottgadgets/packetry/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "158cd25536c6d4feab2b9e76fcbb4174fdb2fd6fb1c309775a3b2efbe84db33b"
+
+[build]
+system = "autotools"

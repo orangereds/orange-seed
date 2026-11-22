@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "varlock"
+version = "1.25.0"
+description = "Add declarative schema to .env files using @env-spec decorator comments"
+homepage = "https://varlock.dev"
+
+[source]
+url = "https://registry.npmjs.org/varlock/-/varlock-1.25.0.tgz"
+sha256 = "cac51a856bb7134e518a8b766ce30d526035caa227b56ea3cc807ea8cc4305c7"
+
+[build]
+system = "autotools"

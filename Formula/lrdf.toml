@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "raptor"]
+
+[package]
+name = "lrdf"
+version = "0.6.1"
+description = "RDF library for accessing plugin metadata in the LADSPA plugin system"
+homepage = "https://github.com/swh/LRDF"
+
+[source]
+url = "https://github.com/swh/LRDF/archive/refs/tags/v0.6.1.tar.gz"
+sha256 = "d579417c477ac3635844cd1b94f273ee2529a8c3b6b21f9b09d15f462b89b1ef"
+
+[build]
+system = "autotools"

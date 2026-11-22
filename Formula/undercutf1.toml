@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10", "ffmpeg", "fontconfig", "mpg123"]
+
+[package]
+name = "undercutf1"
+version = "4.0.105_1"
+description = "F1 Live Timing TUI for all F1 sessions with variable delay to sync to your TV"
+homepage = "https://amandhoot.com"
+
+[source]
+url = "https://github.com/JustAman62/undercut-f1/archive/refs/tags/v4.0.105.tar.gz"
+sha256 = "b2fcaa200a7f6a0a7046f32846bec457e01080b8bd7bab78e1fdc53d6b4feb4d"
+
+[build]
+system = "autotools"

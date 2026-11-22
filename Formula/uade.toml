@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libao"]
+
+[package]
+name = "uade"
+version = "3.05"
+description = "Play Amiga tunes through UAE emulation"
+homepage = "https://zakalwe.fi/uade/"
+
+[source]
+url = "https://zakalwe.fi/uade/uade3/uade-3.05.tar.bz2"
+sha256 = "1a2dd9fdf8cf47c4587dcc09df16f1bb49374a9e7f8f53cdb4816d50c87e4f4c"
+
+[build]
+system = "make"

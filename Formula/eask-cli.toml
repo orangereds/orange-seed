@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "eask-cli"
+version = "0"
+description = "CLI for building, running, testing, and managing your Emacs Lisp dependencies"
+homepage = "https://emacs-eask.github.io/"
+
+[source]
+url = "https://registry.npmjs.org/@emacs-eask/cli/-/cli-0.12.9.tgz"
+sha256 = "c678ba145235cab6d53175acbdeeb89d73420a5bd5f078fe8a8bfa0139fe6f20"
+
+[build]
+system = "autotools"

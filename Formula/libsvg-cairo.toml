@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "cairo", "jpeg-turbo", "libpng", "libsvg"]
+
+[package]
+name = "libsvg-cairo"
+version = "0.1.6_3"
+description = "SVG rendering library using Cairo"
+homepage = "https://cairographics.org/"
+
+[source]
+url = "https://cairographics.org/snapshots/libsvg-cairo-0.1.6.tar.gz"
+sha256 = "a380be6a78ec2938100ce904363815a94068fca372c666b8cc82aa8711a0215c"
+
+[build]
+system = "autotools"

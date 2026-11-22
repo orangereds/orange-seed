@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "xfr"
+version = "0.15.0"
+description = "Modern network bandwidth testing with TUI"
+homepage = "https://github.com/lance0/xfr"
+
+[source]
+url = "https://github.com/lance0/xfr/archive/refs/tags/v0.15.0.tar.gz"
+sha256 = "9b974caec05289531ed5e713c0a2041c1f675c66c5be4f2ec4138b5b12e455d6"
+
+[build]
+system = "autotools"

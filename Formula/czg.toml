@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "czg"
+version = "1.14.0"
+description = "Interactive Commitizen CLI that generate standardized commit messages"
+homepage = "https://cz-git.qbb.sh"
+
+[source]
+url = "https://registry.npmjs.org/czg/-/czg-1.14.0.tgz"
+sha256 = "74a4c978a8fc8a1a1b11b4947a568a8693dde45cfb9d23bfde5a04c99a944a5a"
+
+[build]
+system = "autotools"

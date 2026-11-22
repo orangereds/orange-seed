@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dotslash"
+version = "0.5.9"
+description = "Simplified executable deployment"
+homepage = "https://dotslash-cli.com"
+
+[source]
+url = "https://github.com/facebook/dotslash/archive/refs/tags/v0.5.9.tar.gz"
+sha256 = "28cc3b27598d3a776d3c54c2132a8d533a130d80db9deff3c1883b63224dcd41"
+
+[build]
+system = "autotools"

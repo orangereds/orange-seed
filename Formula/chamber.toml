@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chamber"
+version = "3.1.5"
+description = "CLI for managing secrets through AWS SSM Parameter Store"
+homepage = "https://github.com/segmentio/chamber"
+
+[source]
+url = "https://github.com/segmentio/chamber/archive/refs/tags/v3.1.5.tar.gz"
+sha256 = "8658307013875044ddb023b5cf221085b4ecdfb3d093929443e636b8d1817e88"
+
+[build]
+system = "autotools"

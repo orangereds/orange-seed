@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "libid3tag"
+version = "0"
+description = "ID3 tag manipulation library"
+homepage = "https://codeberg.org/tenacityteam/libid3tag"
+
+[source]
+url = "https://codeberg.org/tenacityteam/libid3tag/releases/download/0.16.4/id3tag-0.16.4-source.tar.gz"
+sha256 = "8b6bc96016f6ab3a52b753349ed442e15181de9db1df01884f829e3d4f3d1e78"
+
+[build]
+system = "cmake"

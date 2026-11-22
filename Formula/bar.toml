@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bar"
+version = "1.4-src"
+description = "Provide progress bars for shell scripts"
+homepage = "http://www.theiling.de/projects/bar.html"
+
+[source]
+url = "http://www.theiling.de/downloads/bar-1.4-src.tar.bz2"
+sha256 = "8034c405b6aa0d474c75ef9356cde1672b8b81834edc7bd94fc91e8ae097033e"
+
+[build]
+system = "autotools"

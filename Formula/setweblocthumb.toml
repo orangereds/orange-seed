@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "setweblocthumb"
+version = "1.0.0"
+description = "Assigns custom icons to webloc files"
+homepage = "https://hasseg.org/setWeblocThumb/"
+
+[source]
+url = "https://github.com/ali-rantakari/setWeblocThumb/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "0258fdabbd24eed2ad3ff425b7832c4cd9bc706254861a6339f886efc28e35be"
+
+[build]
+system = "autotools"

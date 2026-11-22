@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tag"
+version = "0.10_1"
+description = "Manipulate and query tags on macOS files"
+homepage = "https://github.com/jdberry/tag/"
+
+[source]
+url = "https://github.com/jdberry/tag/archive/refs/tags/v0.10.tar.gz"
+sha256 = "5ab057d3e3f0dbb5c3be3970ffd90f69af4cb6201c18c1cbaa23ef367e5b071e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "graphql-cli"
+version = "4.1.0"
+description = "Command-line tool for common GraphQL development workflows"
+homepage = "https://github.com/Urigo/graphql-cli"
+
+[source]
+url = "https://registry.npmjs.org/graphql-cli/-/graphql-cli-4.1.0.tgz"
+sha256 = "c52d62ac108d4a3f711dbead0939bd02e3e2d0c82f8480fd76fc28f285602f5c"
+
+[build]
+system = "autotools"

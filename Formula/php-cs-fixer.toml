@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php@8.5"]
+
+[package]
+name = "php-cs-fixer"
+version = "0_1"
+description = "Tool to automatically fix PHP coding standards issues"
+homepage = "https://cs.symfony.com/"
+
+[source]
+url = "https://github.com/PHP-CS-Fixer/PHP-CS-Fixer/releases/download/v3.95.32/php-cs-fixer.phar"
+sha256 = "5c5358423ee19cc73e436da1bf0f0171bf3ce99efd2e323fe5e312795f7763b1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "lispkit"
+version = "2.6.4"
+description = "Scheme framework for extension and scripting languages on macOS and iOS"
+homepage = "https://lisppad.app"
+
+[source]
+url = "https://github.com/objecthub/swift-lispkit/archive/refs/tags/2.6.4.tar.gz"
+sha256 = "89e19cb34aa29aacea67a33a3187abf854fd2a5d0d0c608e59f50ba2073e2f5e"
+
+[build]
+system = "autotools"

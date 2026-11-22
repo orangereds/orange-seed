@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "qthreads"
+version = "1.23"
+description = "Lightweight locality-aware user-level threading runtime"
+homepage = "https://www.sandia.gov/qthreads/"
+
+[source]
+url = "https://github.com/sandialabs/qthreads/archive/refs/tags/1.23.tar.gz"
+sha256 = "fb5c3efc022231245f7b1894a82eac1fd020c5f90000bb4770e64e2c1ad77913"
+
+[build]
+system = "cmake"

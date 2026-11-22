@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "docker"]
+
+[package]
+name = "dagger"
+version = "0.21.12"
+description = "Portable devkit for CI/CD pipelines"
+homepage = "https://dagger.io"
+
+[source]
+url = "https://github.com/dagger/dagger/archive/refs/tags/v0.21.12.tar.gz"
+sha256 = "4aaca8b6f4f31388b035ca9d2543a4fbc12d79fd7a8723efa3b533f1522d7530"
+
+[build]
+system = "autotools"

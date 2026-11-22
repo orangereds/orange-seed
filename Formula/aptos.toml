@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "rocksdb"]
+
+[package]
+name = "aptos"
+version = "0_1"
+description = "Layer 1 blockchain built to support fair access to decentralized assets for all"
+homepage = "https://aptosfoundation.org/"
+
+[source]
+url = "https://github.com/aptos-labs/aptos-core/archive/refs/tags/aptos-cli-v9.6.0.tar.gz"
+sha256 = "c3386da89449ca7f453b0f92572730d1f08dedc49fd02a5059ddd934321651ef"
+
+[build]
+system = "autotools"

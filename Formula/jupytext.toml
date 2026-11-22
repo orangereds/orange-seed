@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "jupytext"
+version = "1.19.6"
+description = "Jupyter notebooks as Markdown documents, Julia, Python or R scripts"
+homepage = "https://jupytext.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/79/7f/5d2cc9618eca61dbc2d76628da3622a311702abd6b15c824bbf2b53e0db6/jupytext-1.19.6.tar.gz"
+sha256 = "ba1d143bb3751e054d3164376b148ee8fa74e1a860fc9411e1da93ff588b8a17"
+
+[build]
+system = "autotools"

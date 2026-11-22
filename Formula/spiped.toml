@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "spiped"
+version = "1.6.4"
+description = "Secure pipe daemon"
+homepage = "https://www.tarsnap.com/spiped.html"
+
+[source]
+url = "https://www.tarsnap.com/spiped/spiped-1.6.4.tgz"
+sha256 = "424fb4d3769d912b04de43d21cc32748cdfd3121c4f1d26d549992a54678e06a"
+
+[build]
+system = "autotools"

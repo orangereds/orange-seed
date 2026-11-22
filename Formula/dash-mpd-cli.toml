@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf", "rust", "bento4", "ffmpeg", "mkvtoolnix"]
+
+[package]
+name = "dash-mpd-cli"
+version = "0.2.35"
+description = "Download media content from a DASH-MPEG or DASH-WebM MPD manifest"
+homepage = "https://emarsden.github.io/dash-mpd-cli/"
+
+[source]
+url = "https://github.com/emarsden/dash-mpd-cli/archive/refs/tags/v0.2.35.tar.gz"
+sha256 = "f7ff3ff7bffb9d3e5404fed27241c1bad6f11e210180f97dff6701a79db80c75"
+
+[build]
+system = "autotools"

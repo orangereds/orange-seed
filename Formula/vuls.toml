@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vuls"
+version = "0.43.0"
+description = "Agentless Vulnerability Scanner for Linux/FreeBSD"
+homepage = "https://vuls.io/"
+
+[source]
+url = "https://github.com/future-architect/vuls/archive/refs/tags/v0.43.0.tar.gz"
+sha256 = "966ec35edde6c2b854013af2fc861c144e29460632a2b94718ade642e803c0bf"
+
+[build]
+system = "autotools"

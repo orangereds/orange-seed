@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ren"
+version = "1.0"
+description = "Rename multiple files in a directory"
+homepage = "https://pdb.finkproject.org/pdb/package.php/ren"
+
+[source]
+url = "https://www.ibiblio.org/pub/Linux/utils/file/ren-1.0.tar.gz"
+sha256 = "6ccf51b473f07b2f463430015f2e956b63b1d9e1d8493a51f4ebd70f8a8136c9"
+
+[build]
+system = "autotools"

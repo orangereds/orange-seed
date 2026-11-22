@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "maven", "openjdk"]
+
+[package]
+name = "morphe"
+version = "2.3.0"
+description = "Desktop app and CLI for patching Android apps with Morphe"
+homepage = "https://github.com/MorpheApp/morphe-desktop"
+
+[source]
+url = "https://github.com/MorpheApp/morphe-desktop/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "462ca76893b88620e3113acf0f441467ab30d16f52e6c2d363aab316c91a2983"
+
+[build]
+system = "autotools"

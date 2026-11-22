@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["httpd", "nginx", "apr", "apr-util", "openssl@4", "pcre2"]
+
+[package]
+name = "passenger"
+version = "6.2.2_1"
+description = "Server for Ruby, Python, and Node.js apps via Apache/NGINX"
+homepage = "https://www.phusionpassenger.com/"
+
+[source]
+url = "https://github.com/phusion/passenger/releases/download/release-6.2.2/passenger-6.2.2.tar.gz"
+sha256 = "753e74b89ffc7e0e9525b00c936d71da28f279f849e94781be72e7c19c617994"
+
+[build]
+system = "autotools"

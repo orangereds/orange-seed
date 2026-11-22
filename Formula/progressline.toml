@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "progressline"
+version = "0.2.4"
+description = "Track commands progress in a compact one-line format"
+homepage = "https://github.com/kattouf/ProgressLine"
+
+[source]
+url = "https://github.com/kattouf/ProgressLine/archive/refs/tags/0.2.4.tar.gz"
+sha256 = "6649fa7d9b840bf8af2ddef3819c6c99b883dd1e0ca349e6d8bdb93985cb00fa"
+
+[build]
+system = "autotools"

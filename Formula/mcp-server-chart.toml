@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mcp-server-chart"
+version = "0.9.10"
+description = "MCP with 25+ @antvis charts for visualization, generation, and analysis"
+homepage = "https://github.com/antvis/mcp-server-chart"
+
+[source]
+url = "https://registry.npmjs.org/@antv/mcp-server-chart/-/mcp-server-chart-0.9.10.tgz"
+sha256 = "fdebfbb7dc078e34b5465231571dfd6ae4e8f11145f1cef2cff833775782d02f"
+
+[build]
+system = "autotools"

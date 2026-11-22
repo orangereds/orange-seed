@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "gettext", "intltool", "pkgconf", "at-spi2-core", "cairo", "gdk-pixbuf", "glib", "gtk+3", "libgsf", "librsvg", "pango", "harfbuzz"]
+
+[package]
+name = "goffice"
+version = "0.10.62"
+description = "Gnumeric spreadsheet program"
+homepage = "https://gitlab.gnome.org/GNOME/goffice"
+
+[source]
+url = "https://download.gnome.org/sources/goffice/0.10/goffice-0.10.62.tar.xz"
+sha256 = "500eaff50628faa75adb3cd560236a4db498d9e7c52c036b78fa9a57f21805b3"
+
+[build]
+system = "autotools"

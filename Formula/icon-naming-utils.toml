@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "icon-naming-utils"
+version = "0.8.90.orig"
+description = "Script to handle icon names in desktop icon themes"
+homepage = "https://specifications.freedesktop.org/icon-naming/latest/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/i/icon-naming-utils/icon-naming-utils_0.8.90.orig.tar.gz"
+sha256 = "044ab2199ed8c6a55ce36fd4fcd8b8021a5e21f5bab028c0a7cdcf52a5902e1c"
+
+[build]
+system = "autotools"

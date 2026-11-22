@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "bdw-gc", "libunistring", "libuv", "openjdk@25", "openssl@4", "pcre2", "sqlite"]
+
+[package]
+name = "bigloo"
+version = "4.7b"
+description = "Scheme implementation with object system, C, and Java interfaces"
+homepage = "https://www-sop.inria.fr/indes/fp/Bigloo/"
+
+[source]
+url = "https://www-sop.inria.fr/indes/fp/Bigloo/download/bigloo-4.7b.tar.gz"
+sha256 = "06271cc3da5c164d7fb4a5dc29c442f13d4f4b48319e63c40f8bfa12dc39f22c"
+
+[build]
+system = "autotools"

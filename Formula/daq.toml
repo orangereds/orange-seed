@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "daq"
+version = "3.0.29"
+description = "Network intrusion prevention and detection system"
+homepage = "https://www.snort.org/"
+
+[source]
+url = "https://github.com/snort3/libdaq/archive/refs/tags/v3.0.29.tar.gz"
+sha256 = "136deba78d195163687eb71a6dc81b725c27fde7765b7ef70eb741c371e887a8"
+
+[build]
+system = "autotools"

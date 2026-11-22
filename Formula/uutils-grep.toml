@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "uutils-grep"
+version = "0.2.0"
+description = "Cross-platform Rust rewrite of GNU grep"
+homepage = "https://uutils.org/grep/"
+
+[source]
+url = "https://github.com/uutils/grep/archive/refs/tags/0.2.0.tar.gz"
+sha256 = "aabb48c5f14aa46befa4b0b2848889d3ca2ff819d5855acfab590f7f47d223b9"
+
+[build]
+system = "autotools"

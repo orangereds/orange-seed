@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jarl"
+version = "0.7.1"
+description = "Just another R linter"
+homepage = "https://jarl.etiennebacher.com"
+
+[source]
+url = "https://github.com/etiennebacher/jarl/archive/refs/tags/0.7.1.tar.gz"
+sha256 = "f1974b1f8082fcfa44b5e9a755e8787f9fedd6aac63147714a46a29b80d85ffe"
+
+[build]
+system = "autotools"

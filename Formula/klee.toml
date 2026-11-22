@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "wllvm", "gperftools", "llvm@19", "python@3.15", "sqlite", "stp", "z3"]
+
+[package]
+name = "klee"
+version = "3.3_2"
+description = "Symbolic Execution Engine"
+homepage = "https://klee-se.org"
+
+[source]
+url = "https://github.com/klee/klee/archive/refs/tags/v3.3.tar.gz"
+sha256 = "baa73ad3d4bc345d28434c9aa54c639bfb504cd71c26852d1da1dd7cb22bfb48"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "taproom"
+version = "0.7.2"
+description = "Interactive TUI for Homebrew"
+homepage = "https://github.com/hzqtc/taproom"
+
+[source]
+url = "https://github.com/hzqtc/taproom/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "626329f1bdcd3e982c690a90e1147fc995584c69583f20ba7dfb6cc72419760e"
+
+[build]
+system = "autotools"

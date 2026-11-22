@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "drill"
+version = "0.9.1"
+description = "HTTP load testing application written in Rust"
+homepage = "https://github.com/fcsonline/drill"
+
+[source]
+url = "https://github.com/fcsonline/drill/archive/refs/tags/0.9.1.tar.gz"
+sha256 = "79e90ba78e484e15bf6cc919d0be5fdd99155ff2d5b16581539e4361191a8bc7"
+
+[build]
+system = "autotools"

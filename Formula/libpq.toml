@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook", "docbook-xsl", "pkgconf", "icu4c@79", "krb5", "openssl@4", "readline"]
+
+[package]
+name = "libpq"
+version = "0"
+description = "Postgres C API library"
+homepage = "https://www.postgresql.org/docs/current/libpq.html"
+
+[source]
+url = "https://ftp.postgresql.org/pub/source/v19.0/postgresql-19.0.tar.bz2"
+sha256 = "a89fd70efbad6a08c7dbed8d4872e3af30170d9e5ca9dc7906523be95b4e692d"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

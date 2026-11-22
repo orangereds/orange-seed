@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "gettext"]
+
+[package]
+name = "template-glib"
+version = "3.40.0"
+description = "GNOME templating library for GLib"
+homepage = "https://gitlab.gnome.org/GNOME/template-glib"
+
+[source]
+url = "https://download.gnome.org/sources/template-glib/3.40/template-glib-3.40.0.tar.xz"
+sha256 = "e533ec2f6c24cc6df66ac55ac824fadd1b4a5f433a11cbf3a6b25815c0cfcfd5"
+
+[build]
+system = "autotools"

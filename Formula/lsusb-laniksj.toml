@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lsusb-laniksj"
+version = "1.1.9"
+description = "List USB devices, just like the Linux lsusb command"
+homepage = "https://laniksj.github.io/lsusb/"
+
+[source]
+url = "https://github.com/LanikSJ/lsusb/archive/refs/tags/1.1.9.tar.gz"
+sha256 = "fb2ea35ff7e3ba06df0f63e65b19034958ad71b74a229eeff7674704ef1ad5bc"
+
+[build]
+system = "autotools"

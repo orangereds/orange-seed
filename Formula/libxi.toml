@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "libxfixes", "xorgproto"]
+
+[package]
+name = "libxi"
+version = "0"
+description = "X.Org: Library for the X Input Extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXi-1.8.4.tar.xz"
+sha256 = "ddd6057b89a91903bc2f884d55c8467440906945e482c36547260dff28661afc"
+
+[build]
+system = "autotools"

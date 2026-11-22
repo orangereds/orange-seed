@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "json-c"
+version = "0.19"
+description = "JSON parser for C"
+homepage = "https://github.com/json-c/json-c/wiki"
+
+[source]
+url = "https://s3.amazonaws.com/json-c_releases/releases/json-c-0.19.tar.gz"
+sha256 = "37ad0249902e301bd9052bf712e511fcc6acff4ecaad4b5900aad9ce564e26de"
+
+[build]
+system = "cmake"

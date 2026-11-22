@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "fdk-aac"
+version = "2.0.3"
+description = "Standalone library of the Fraunhofer FDK AAC code from Android"
+homepage = "https://sourceforge.net/projects/opencore-amr/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/opencore-amr/fdk-aac/fdk-aac-2.0.3.tar.gz"
+sha256 = "829b6b89eef382409cda6857fd82af84fabb63417b08ede9ea7a553f811cb79e"
+
+[build]
+system = "autotools"

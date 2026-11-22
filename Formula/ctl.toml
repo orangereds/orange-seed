@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "imath", "libtiff", "openexr"]
+
+[package]
+name = "ctl"
+version = "1.5.5_1"
+description = "Programming language for digital color management"
+homepage = "https://github.com/aces-aswf/CTL"
+
+[source]
+url = "https://github.com/aces-aswf/CTL/archive/refs/tags/ctl-1.5.5.tar.gz"
+sha256 = "b6a36ac31e0a79224216e4fc41b56982939cec7a1afd4e80165cec3f1c37d265"
+
+[build]
+system = "cmake"

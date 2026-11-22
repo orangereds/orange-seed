@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "triton"
+version = "7.18.1"
+description = "Joyent Triton CLI"
+homepage = "https://www.npmjs.com/package/triton"
+
+[source]
+url = "https://registry.npmjs.org/triton/-/triton-7.18.1.tgz"
+sha256 = "36804146e9df26ac633524c7d800500f02d9c0ba6b76eb9bd4b5738ca34cbc09"
+
+[build]
+system = "autotools"

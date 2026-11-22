@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "prips"
+version = "1.4.0"
+description = "Print the IP addresses in a given range"
+homepage = "https://devel.ringlet.net/sysutils/prips/"
+
+[source]
+url = "https://devel.ringlet.net/files/sys/prips/prips-1.4.0.tar.xz"
+sha256 = "f2278ccd3dd3656a4f3ed5bd983b04719c24880ab2b87972d972f005bc138943"
+
+[build]
+system = "autotools"

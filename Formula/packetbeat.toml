@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "mage"]
+
+[package]
+name = "packetbeat"
+version = "0"
+description = "Lightweight Shipper for Network Data"
+homepage = "https://www.elastic.co/products/beats/packetbeat"
+
+[source]
+url = "https://github.com/elastic/beats.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/packetbeat/bin/packetbeat"
+
+[build]
+system = "autotools"

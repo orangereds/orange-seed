@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libsodium"]
+
+[package]
+name = "reop"
+version = "2.1.1_1"
+description = "Encrypted keypair management"
+homepage = "https://web.archive.org/web/20251224210131/https://flak.tedunangst.com/post/reop"
+
+[source]
+url = "https://pkg.freebsd.org/ports-distfiles/reop-2.1.1.tgz"
+sha256 = "fa8ae058c51efec5bde39fab15b4275e6394d9ab1dd2190ffdba3cf9983fdcac"
+
+[build]
+system = "autotools"

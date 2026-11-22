@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "ansible", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "ansible-lint"
+version = "0"
+description = "Checks ansible playbooks for practices and behaviour"
+homepage = "https://docs.ansible.com/projects/lint/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/bc/22/4db7a3ab031c7f08f6b1340df9fbc7b730a2ee25ec21047c1a3da445af0a/ansible_lint-26.11.0.tar.gz"
+sha256 = "74813203aa5450d720c3d86b9d0d4ddc51d30e36ac69e1f0d9f7650f5a3b5dd3"
+
+[build]
+system = "autotools"

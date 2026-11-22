@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "gnutls", "json-glib", "gettext"]
+
+[package]
+name = "libjcat"
+version = "0.2.6"
+description = "Library for reading Jcat files"
+homepage = "https://github.com/hughsie/libjcat"
+
+[source]
+url = "https://github.com/hughsie/libjcat/releases/download/0.2.6/libjcat-0.2.6.tar.xz"
+sha256 = "d54ad936ceb654e99f59b0227e4d1974b858970d250d98c6484abcfdc8334722"
+
+[build]
+system = "autotools"

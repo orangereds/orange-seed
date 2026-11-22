@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "specify"
+version = "1.4.3"
+description = "Toolkit to help you get started with Spec-Driven Development"
+homepage = "https://github.github.com/spec-kit/"
+
+[source]
+url = "https://github.com/github/spec-kit/archive/refs/tags/v1.4.3.tar.gz"
+sha256 = "3eba0eeb14582937f5c07677709258a0502d4bff00eaf6698fcd810cdddf21af"
+
+[build]
+system = "autotools"

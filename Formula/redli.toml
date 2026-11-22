@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "redli"
+version = "0.18.0"
+description = "Humane alternative to redis-cli with TLS support"
+homepage = "https://github.com/IBM-Cloud/redli"
+
+[source]
+url = "https://github.com/IBM-Cloud/redli/archive/refs/tags/v0.18.0.tar.gz"
+sha256 = "a75de85b90466a088e39885b67c38cb3e7ceeee6f1ec82df3d1d88aee5a17a20"
+
+[build]
+system = "autotools"

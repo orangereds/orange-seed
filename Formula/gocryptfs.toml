@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "libfuse", "openssl@4"]
+
+[package]
+name = "gocryptfs"
+version = "2.7.0_src-deps"
+description = "Encrypted overlay filesystem written in Go"
+homepage = "https://nuetzlich.net/gocryptfs/"
+
+[source]
+url = "https://github.com/rfjakob/gocryptfs/releases/download/v2.7.0/gocryptfs_v2.7.0_src-deps.tar.gz"
+sha256 = "52a271a12bcab3b2e51c0e7baa53a2beeebc9f811d8b28d6b23662a2b70e5680"
+
+[build]
+system = "autotools"

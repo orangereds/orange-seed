@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "go", "ruby"]
+
+[package]
+name = "reposurgeon"
+version = "5.12"
+description = "Edit version-control repository history"
+homepage = "http://www.catb.org/esr/reposurgeon/"
+
+[source]
+url = "https://gitlab.com/esr/reposurgeon/-/archive/5.12/reposurgeon-5.12.tar.gz"
+sha256 = "e9a6cce233e8f01e2b30882b7d6cc7aefd0d6683ab51b92e6bac582be36a8859"
+
+[build]
+system = "make"

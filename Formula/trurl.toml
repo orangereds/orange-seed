@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "trurl"
+version = "0.16.1"
+description = "Command-line tool for URL parsing and manipulation"
+homepage = "https://curl.se/trurl/"
+
+[source]
+url = "https://github.com/curl/trurl/releases/download/trurl-0.16.1/trurl-0.16.1.tar.gz"
+sha256 = "aac947d4fb421a58abc19a3771e87942cd4721b8f855c433478c94c11a8203ba"
+
+[build]
+system = "make"

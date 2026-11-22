@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "safe-chain"
+version = "1.5.29"
+description = "Malware protection for npm, yarn, pnpm, pip, uv and other package managers"
+homepage = "https://github.com/AikidoSec/safe-chain"
+
+[source]
+url = "https://registry.npmjs.org/@aikidosec/safe-chain/-/safe-chain-1.5.29.tgz"
+sha256 = "e2cbe14706eeec5bb99e8b2f28e00e12c4d665935122e127811bf444b432cdc7"
+
+[build]
+system = "autotools"

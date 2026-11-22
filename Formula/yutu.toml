@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yutu"
+version = "0.11.1"
+description = "CLI, MCP server, and AI agent to automate YouTube workflows"
+homepage = "https://yutu.ifor.dev"
+
+[source]
+url = "https://github.com/eat-pray-ai/yutu/archive/refs/tags/v0.11.1.tar.gz"
+sha256 = "ed7606328bd4012d50417f4611076d9a908f07f4d3e5e7f81d032301d21aeda6"
+
+[build]
+system = "autotools"

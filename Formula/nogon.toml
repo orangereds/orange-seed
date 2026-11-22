@@ -1,0 +1,25 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "nogon"
+version = "0.22.0"
+description = "Self-hosted search engine for your browsing history"
+homepage = "https://nogon.eu/"
+
+[source]
+url = "https://github.com/asciimoo/nogon/archive/refs/tags/v0.22.0.tar.gz"
+sha256 = "e78fe5fb2d8c612f06104605aa234c8840eab0f14146829757706b59258c0154"
+
+[service]
+run = "opt/nogon/bin/nogon listen"
+keep_alive = true
+working_dir = "var/hister"
+log_path = "var/log/hister.log"
+error_log_path = "var/log/hister.log"
+
+[service.env]
+HISTER_DATA_DIR = "hister"
+
+[build]
+system = "autotools"

@@ -1,0 +1,26 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ccache", "cmake", "go"]
+
+[package]
+name = "ollama"
+version = "0"
+description = "Create, run, and share large language models (LLMs)"
+homepage = "https://ollama.com/"
+
+[source]
+url = "https://github.com/ollama/ollama.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/ollama/bin/ollama serve"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/ollama.log"
+error_log_path = "var/log/ollama.log"
+
+[service.env]
+OLLAMA_FLASH_ATTENTION = "1"
+
+[build]
+system = "autotools"

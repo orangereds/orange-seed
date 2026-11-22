@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "opkssh"
+version = "0.20.0"
+description = "Enables SSH to be used with OpenID Connect"
+homepage = "https://eprint.iacr.org/2023/296"
+
+[source]
+url = "https://github.com/openpubkey/opkssh/archive/refs/tags/v0.20.0.tar.gz"
+sha256 = "3cd05f22e2ed2293b28c3223d1482502ce14b9e5e12ef5d54b68855566cfb33e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "counterfeiter"
+version = "6.14.0"
+description = "Tool for generating self-contained, type-safe test doubles in go"
+homepage = "https://github.com/maxbrunsfeld/counterfeiter"
+
+[source]
+url = "https://github.com/maxbrunsfeld/counterfeiter/archive/refs/tags/v6.14.0.tar.gz"
+sha256 = "dc0fcae6c854fd418ebe856018a490f5a5651aeb76aa6dd1736b0158ad9788f9"
+
+[build]
+system = "autotools"

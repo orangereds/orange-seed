@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "imapsync"
+version = "2.314_1"
+description = "Migrate or backup IMAP mail accounts"
+homepage = "https://imapsync.lamiral.info/"
+
+[source]
+url = "https://imapsync.lamiral.info/dist2/imapsync-2.314.tgz"
+sha256 = "34e1715c6584889ff3bd9c0acc2fab254446282beda90c8e5a71a83b3a59dbca"
+
+[build]
+system = "autotools"

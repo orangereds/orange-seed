@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "stencil"
+version = "3.0.3"
+description = "Modern living-template engine for evolving repositories"
+homepage = "https://stencil.rgst.io"
+
+[source]
+url = "https://git.rgst.io/rgst-io/stencil/archive/v3.0.3.tar.gz"
+sha256 = "93ae08d70bb6fccd6c659532963d5be49eb650f9fcf909c598ceea893d4216a9"
+
+[build]
+system = "autotools"

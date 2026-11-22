@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "spaceinvaders-go"
+version = "1.2.1"
+description = "Space Invaders in your terminal written in Go"
+homepage = "https://github.com/asib/spaceinvaders"
+
+[source]
+url = "https://github.com/asib/spaceinvaders/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "3fef982b94784d34ac2ae68c1d5dec12e260974907bce83528fe3c4132bed377"
+
+[build]
+system = "autotools"

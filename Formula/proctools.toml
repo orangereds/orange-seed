@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bsdmake"]
+
+[package]
+name = "proctools"
+version = "0.4pre1"
+description = "OpenBSD and Darwin versions of pgrep, pkill, and pfind"
+homepage = "https://proctools.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/proctools/proctools/0.4pre1/proctools-0.4pre1.tar.gz"
+sha256 = "4553b9c6eda959b12913bc39b6e048a8a66dad18f888f983697fece155ec5538"
+
+[build]
+system = "make"

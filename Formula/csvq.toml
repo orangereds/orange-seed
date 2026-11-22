@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "csvq"
+version = "1.18.1"
+description = "SQL-like query language for csv"
+homepage = "https://mithrandie.github.io/csvq"
+
+[source]
+url = "https://github.com/mithrandie/csvq/archive/refs/tags/v1.18.1.tar.gz"
+sha256 = "69f98d0d26c055cbe4ebfe2cedf79c744bebafac604ea55fb0081826b1ac7b74"
+
+[build]
+system = "autotools"

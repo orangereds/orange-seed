@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "micro_inetd"
+version = "2014-08-14"
+description = "Simple network service spawner"
+homepage = "https://web.archive.org/web/20241115023917/https://acme.com/software/micro_inetd/"
+
+[source]
+url = "https://pkg.freebsd.org/ports-distfiles/micro_inetd_14Aug2014.tar.gz"
+sha256 = "15f5558753bb50ed18e4a1445b3e8a185f3b1840ec8e017a5e6fc7690616ec52"
+
+[build]
+system = "autotools"

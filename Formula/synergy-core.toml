@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qttools", "openssl@4", "qtbase", "llvm", "qttranslations"]
+
+[package]
+name = "synergy-core"
+version = "1.22.2"
+description = "Synergy, the keyboard and mouse sharing tool"
+homepage = "https://symless.com/synergy"
+
+[source]
+url = "https://github.com/symless/synergy/archive/refs/tags/v1.22.2.tar.gz"
+sha256 = "c80a1bc6c0e40fe60e8614e88e988d34ccf5a04b57d3560de946989282d526c9"
+
+[service]
+run = "opt/synergy-core/bin/synergy"
+
+[build]
+system = "cmake"

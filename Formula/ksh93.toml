@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ksh93"
+version = "1.0.10"
+description = "KornShell, ksh93"
+homepage = "https://github.com/ksh93/ksh"
+
+[source]
+url = "https://github.com/ksh93/ksh/archive/refs/tags/v1.0.10.tar.gz"
+sha256 = "9f4c7a9531cec6941d6a9fd7fb70a4aeda24ea32800f578fd4099083f98b4e8a"
+
+[build]
+system = "autotools"

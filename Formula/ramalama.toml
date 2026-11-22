@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15", "rpds-py", "llama.cpp"]
+
+[package]
+name = "ramalama"
+version = "0.26.0"
+description = "Goal of RamaLama is to make working with AI boring"
+homepage = "https://ramalama.ai"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b3/dc/ebce0510d4d78b14eb1f84b4f6509eabd47f6a807dfe28dbc294cf2a7ecd/ramalama-0.26.0.tar.gz"
+sha256 = "616a33f35fbd9bb731ffb82fff25ac055c91f1c665f688d19536ce58b1b8a3a4"
+
+[build]
+system = "autotools"

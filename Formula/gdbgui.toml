@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gdb", "python@3.15"]
+
+[package]
+name = "gdbgui"
+version = "0.15.3.0"
+description = "Modern, browser-based frontend to gdb (gnu debugger)"
+homepage = "https://www.gdbgui.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d6/e6/024e8e183ef8e414a9efbca356f7755a813c4a3420892bcac9e9bb23bfb3/gdbgui-0.15.3.0.tar.gz"
+sha256 = "fc7c85134267a0dd37083c82402a3f63d4721f860e328781ee48517886fcb7b6"
+
+[build]
+system = "autotools"

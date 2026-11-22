@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "imagemagick", "libheif", "python@3.15", "vapoursynth", "jpeg-xl", "libtiff"]
+
+[package]
+name = "vapoursynth-imwri"
+version = "0_6"
+description = "VapourSynth filters - ImageMagick HDRI writer/reader"
+homepage = "https://github.com/vapoursynth/vs-imwri"
+
+[source]
+url = "https://github.com/vapoursynth/vs-imwri/archive/refs/tags/R2.tar.gz"
+sha256 = "f4d2965d32877005d0709bd8339828f951885a0cb51e0c006d123ede0b74307b"
+
+[build]
+system = "autotools"

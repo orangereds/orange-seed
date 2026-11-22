@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cdecl"
+version = "18.7.2"
+description = "Turn English phrases to C or C++ declarations"
+homepage = "https://github.com/paul-j-lucas/cdecl"
+
+[source]
+url = "https://github.com/paul-j-lucas/cdecl/releases/download/cdecl-18.7.2/cdecl-18.7.2.tar.gz"
+sha256 = "e91cc201c79456b923b45cfa779da62f5ca91824d11c545167ee7bb33a9fb810"
+
+[build]
+system = "autotools"

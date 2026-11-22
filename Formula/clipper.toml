@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "clipper"
+version = "3.0.0"
+description = "Share macOS clipboard with tmux and other local and remote apps"
+homepage = "https://github.com/wincent/clipper"
+
+[source]
+url = "https://github.com/wincent/clipper/archive/refs/tags/3.0.0.tar.gz"
+sha256 = "0008c6147a365658c30a556956e923f49b296e76872febf600bfb9c5ffbc6bd0"
+
+[service]
+run = "opt/clipper/bin/clipper"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+
+[service.env]
+LANG = "en_US.UTF-8"
+
+[build]
+system = "autotools"

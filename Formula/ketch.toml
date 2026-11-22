@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ketch"
+version = "0.21.1"
+description = "Web search and scraping for agents"
+homepage = "https://github.com/1broseidon/ketch"
+
+[source]
+url = "https://github.com/1broseidon/ketch/archive/refs/tags/v0.21.1.tar.gz"
+sha256 = "026b5022403fb34860074cc3951ee4566f7edaa94d63be58f72e844a6cf74a98"
+
+[build]
+system = "autotools"

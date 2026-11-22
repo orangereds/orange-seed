@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "pkgconf", "rust"]
+
+[package]
+name = "mdcat"
+version = "2.20.2"
+description = "Show markdown documents on text terminals"
+homepage = "https://github.com/BIRSAx2/mdcat"
+
+[source]
+url = "https://github.com/BIRSAx2/mdcat/archive/refs/tags/mdcat-2.20.2.tar.gz"
+sha256 = "511a20572635faa0d6b0fd1080d7336a5b38738ad6d189abe9c7a71facd3c5d7"
+
+[build]
+system = "autotools"

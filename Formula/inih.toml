@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "inih"
+version = "0"
+description = "Simple .INI file parser in C"
+homepage = "https://github.com/benhoyt/inih"
+
+[source]
+url = "https://github.com/benhoyt/inih/archive/refs/tags/r63.tar.gz"
+sha256 = "5d7967de62c5bfdc4f9f5ab06ce44c9e498bae021c7dac5792c0696e76aa9963"
+
+[build]
+system = "autotools"

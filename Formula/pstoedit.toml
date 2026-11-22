@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "gd", "ghostscript", "imagemagick", "libzip", "plotutils"]
+
+[package]
+name = "pstoedit"
+version = "4.3"
+description = "Convert PostScript and PDF files to editable vector graphics"
+homepage = "http://www.pstoedit.net/"
+
+[source]
+url = "https://github.com/woglu/pstoedit/archive/refs/tags/v4.3.tar.gz"
+sha256 = "36dfdc79c750930dd57e2c4a4dee2a6ab1a1fe65cd8fc4dc047dbfb6f2cfa15b"
+
+[build]
+system = "autotools"

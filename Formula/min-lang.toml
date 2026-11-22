@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nim", "openssl@4"]
+
+[package]
+name = "min-lang"
+version = "0.48.1_2"
+description = "Small but practical concatenative programming language and shell"
+homepage = "https://min-lang.org"
+
+[source]
+url = "https://git.sr.ht/~h3rald/min/archive/v0.48.1.tar.gz"
+sha256 = "baec4d176ff138fcf39784ad97a6a9125454a8d3ccb4db3e6ea59aa2d6716a45"
+
+[build]
+system = "autotools"

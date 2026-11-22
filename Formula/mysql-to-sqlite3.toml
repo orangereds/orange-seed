@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "mysql-to-sqlite3"
+version = "0_1"
+description = "Transfer data from MySQL to SQLite"
+homepage = "https://techouse.github.io/mysql-to-sqlite3/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/bb/6d/b54e03a421bb7fe15ca46bcd432bd843007e4d8ab4a3db484b87b6b9b964/mysql_to_sqlite3-2.6.1.tar.gz"
+sha256 = "6966d3ed22b7a981303c87b8692449f81cea1a1f7405b28588a10043d55fe148"
+
+[build]
+system = "autotools"

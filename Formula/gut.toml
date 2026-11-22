@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gut"
+version = "0.3.3"
+description = "Beginner friendly porcelain for git"
+homepage = "https://gut-cli.dev/"
+
+[source]
+url = "https://github.com/julien040/gut/archive/refs/tags/0.3.3.tar.gz"
+sha256 = "2e5af066ac8bcf46ef15cd9c788e57862c3dcb6119539eac100a71daee148e7d"
+
+[build]
+system = "autotools"

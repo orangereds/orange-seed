@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "roborev"
+version = "0.75.0_source"
+description = "Background code review with AI agents"
+homepage = "https://roborev.io"
+
+[source]
+url = "https://github.com/kenn-io/roborev/releases/download/v0.75.0/roborev_0.75.0_source.tar.gz"
+sha256 = "b033f52eaa9d03d4bb646e7dee7fee57c0ba2db0145797f3bed311ba6c367bf3"
+
+[service]
+run = "opt/roborev/bin/roborev daemon run"
+keep_alive = true
+
+[build]
+system = "autotools"

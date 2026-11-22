@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "vde"
+version = "2.3.3"
+description = "Ethernet compliant virtual network"
+homepage = "https://github.com/virtualsquare/vde-2"
+
+[source]
+url = "https://github.com/virtualsquare/vde-2/archive/refs/tags/v2.3.3.tar.gz"
+sha256 = "a7d2cc4c3d0c0ffe6aff7eb0029212f2b098313029126dcd12dc542723972379"
+
+[build]
+system = "autotools"

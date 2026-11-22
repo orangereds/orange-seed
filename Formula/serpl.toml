@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ripgrep"]
+
+[package]
+name = "serpl"
+version = "0.3.11"
+description = "Simple terminal UI for search and replace"
+homepage = "https://github.com/yassinebridi/serpl"
+
+[source]
+url = "https://github.com/yassinebridi/serpl/archive/refs/tags/0.3.11.tar.gz"
+sha256 = "e28cdbffd92640bf73486a13c0b36406514811694bf721d3ab7f459c107ae439"
+
+[build]
+system = "autotools"

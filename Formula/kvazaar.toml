@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "kvazaar"
+version = "2.3.2"
+description = "Ultravideo HEVC encoder"
+homepage = "https://github.com/ultravideo/kvazaar"
+
+[source]
+url = "https://github.com/ultravideo/kvazaar/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "ddd0038696631ca5368d8e40efee36d2bbb805854b9b1dda8b12ea9b397ea951"
+
+[build]
+system = "autotools"

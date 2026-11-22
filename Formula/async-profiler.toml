@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openjdk"]
+
+[package]
+name = "async-profiler"
+version = "4.6"
+description = "Sampling CPU & HEAP profiler for Java using AsyncGetCallTrace + perf_events"
+homepage = "https://github.com/async-profiler/async-profiler"
+
+[source]
+url = "https://github.com/async-profiler/async-profiler/archive/refs/tags/v4.6.tar.gz"
+sha256 = "f1c8d0a1afac4330d1b4d1bc911874516bc06109d1f5c87d2ff699d9ef4b39cb"
+
+[build]
+system = "autotools"

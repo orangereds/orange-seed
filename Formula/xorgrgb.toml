@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xorgproto"]
+
+[package]
+name = "xorgrgb"
+version = "0"
+description = "X.Org: color names database"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/app/rgb-1.1.1.tar.gz"
+sha256 = "9bceca0821a46ff54989ab08ab00d6dd87eb2779fc15165d848eaa0ddd742fbe"
+
+[build]
+system = "autotools"

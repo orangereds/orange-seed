@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libaio"
+version = "0.3.113"
+description = "Linux-native asynchronous I/O access library"
+homepage = "https://codeberg.org/jmoyer/libaio"
+
+[source]
+url = "https://codeberg.org/jmoyer/libaio/releases/download/libaio-0.3.113/libaio-0.3.113.tar.gz"
+sha256 = "2c44d1c5fd0d43752287c9ae1eb9c023f04ef848ea8d4aafa46e9aedb678200b"
+
+[build]
+system = "autotools"

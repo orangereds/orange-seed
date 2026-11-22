@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "globstar"
+version = "0.7.2"
+description = "Static analysis toolkit for writing and running code checkers"
+homepage = "https://globstar.dev"
+
+[source]
+url = "https://github.com/DeepSourceCorp/globstar/archive/refs/tags/v0.7.2.tar.gz"
+sha256 = "72e587b847e75fa751510bacfdf25d035ff3d6290878f1b51d26eeafa03d39e9"
+
+[build]
+system = "autotools"

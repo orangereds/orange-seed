@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat"]
+
+[package]
+name = "zboy"
+version = "0.71"
+description = "GameBoy emulator"
+homepage = "https://zboy.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/zboy/zBoy%20v0.71/zboy-0.71.tar.xz"
+sha256 = "d359b87e3149418fbe1599247c9ca71e870d213b64a912616ffc6e77d1dff506"
+
+[build]
+system = "autotools"

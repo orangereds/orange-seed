@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "privatebin-cli"
+version = "2.2.1-source"
+description = "CLI for creating and managing PrivateBin pastes"
+homepage = "https://github.com/gearnode/privatebin"
+
+[source]
+url = "https://github.com/gearnode/privatebin/releases/download/v2.2.1/v2.2.1-source.tar.gz"
+sha256 = "9f57bc09a9629870a6c4cd677151f52daa4c1c1c8498d0c0672a8f2a8db5cb5a"
+
+[build]
+system = "autotools"

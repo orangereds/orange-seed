@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sfml"]
+
+[package]
+name = "tgui"
+version = "1.13.0"
+description = "GUI library for use with sfml"
+homepage = "https://tgui.eu"
+
+[source]
+url = "https://github.com/texus/TGUI/archive/refs/tags/v1.13.0.tar.gz"
+sha256 = "6e6000b5b130d6ddf73d593ff62cdd6f5c2045a1f8ffacb10262aedcb7ea7465"
+
+[build]
+system = "cmake"

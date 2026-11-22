@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gcc", "graphviz", "pydantic", "python@3.15"]
+
+[package]
+name = "fobis"
+version = "0"
+description = "KISS build tool for automatically building modern Fortran projects"
+homepage = "https://github.com/szaghi/FoBiS"
+
+[source]
+url = "https://files.pythonhosted.org/packages/75/e2/c4d1a4db5c74dee759b711d1bc89a3dcf4a0c821c5809e281453f10540df/fobis_py-3.19.1.tar.gz"
+sha256 = "3626f3c8a35865cd487cd2f5bac84d33cea12dc83a8641de54583260512e8edc"
+
+[build]
+system = "autotools"

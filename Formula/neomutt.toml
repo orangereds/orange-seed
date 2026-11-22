@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook-xsl", "gettext", "pkgconf", "tcl-tk", "gpgme", "libidn2", "lmdb", "lua", "ncurses", "notmuch", "openssl@4", "pcre2", "sqlite", "libgpg-error", "libiconv"]
+
+[package]
+name = "neomutt"
+version = "20260616_1"
+description = "E-mail reader with support for Notmuch, NNTP and much more"
+homepage = "https://neomutt.org/"
+
+[source]
+url = "https://github.com/neomutt/neomutt/archive/refs/tags/20260616.tar.gz"
+sha256 = "2c34fdd2166d5765e6bfdc21d1248bc4e92ddc0a33537b9418c17cd90e2dda80"
+
+[build]
+system = "autotools"

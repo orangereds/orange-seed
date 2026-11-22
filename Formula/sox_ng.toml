@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "lame", "libogg", "libpng", "libsndfile", "libvorbis", "mad", "opusfile", "wavpack", "opus"]
+
+[package]
+name = "sox_ng"
+version = "14.9.0"
+description = "Sound eXchange NG"
+homepage = "https://codeberg.org/sox_ng/sox_ng"
+
+[source]
+url = "https://codeberg.org/sox_ng/sox_ng/releases/download/sox_ng-14.9.0/sox_ng-14.9.0.tar.gz"
+sha256 = "221c59acccc55946170f5ea49968930584a2672cf3217d03dff2627bf3270502"
+
+[build]
+system = "autotools"

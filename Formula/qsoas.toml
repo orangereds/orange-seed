@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "gsl", "qt@5", "readline"]
+
+[package]
+name = "qsoas"
+version = "3.3_1"
+description = "Versatile software for data analysis"
+homepage = "https://bip.cnrs.fr/groups/bip06/software/"
+
+[source]
+url = "https://bip.cnrs.fr/wp-content/uploads/qsoas/qsoas-3.3.tar.gz"
+sha256 = "c5a701dfed23c682892479b43b92aac79a7db5ceb9ed6b6cd0a41129d2690492"
+
+[build]
+system = "autotools"

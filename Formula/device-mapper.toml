@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libaio"]
+
+[package]
+name = "device-mapper"
+version = "2.03.44"
+description = "Userspace library and tools for logical volume management"
+homepage = "https://sourceware.org/dm"
+
+[source]
+url = "https://sourceware.org/pub/lvm2/releases/LVM2.2.03.44.tgz"
+sha256 = "42f829927d2d459f5733fcdb38a5bf2455a8b84072193092450a9c69d6596eca"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pixiewps"]
+
+[package]
+name = "reaver"
+version = "1.6.6"
+description = "Implements brute force attack to recover WPA/WPA2 passkeys"
+homepage = "https://github.com/t6x/reaver-wps-fork-t6x"
+
+[source]
+url = "https://github.com/t6x/reaver-wps-fork-t6x/releases/download/v1.6.6/reaver-1.6.6.tar.xz"
+sha256 = "e329a0da0b6dd888916046535ff86a6aa144644561937954e560bb1810ab6702"
+
+[build]
+system = "autotools"

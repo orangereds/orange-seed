@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "lua@5.4", "wxwidgets@3.2"]
+
+[package]
+name = "wxlua"
+version = "3.2.0.2_3"
+description = "Lua bindings for wxWidgets cross-platform GUI toolkit"
+homepage = "https://github.com/pkulchenko/wxlua"
+
+[source]
+url = "https://github.com/pkulchenko/wxlua/archive/refs/tags/v3.2.0.2.tar.gz"
+sha256 = "62abe571803a9748e19e86e39cb0e254fd90a5925dc5f0e35669e693cbdb129e"
+
+[build]
+system = "cmake"

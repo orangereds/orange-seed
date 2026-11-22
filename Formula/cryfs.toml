@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "curl", "python@3.15", "range-v3", "boost", "fmt", "libfuse@2", "spdlog", "rust", "libfuse", "libsodium", "openssl@4", "pkgconf"]
+
+[package]
+name = "cryfs"
+version = "1.0.3_2"
+description = "Encrypts your files so you can safely store them in Dropbox, iCloud, etc."
+homepage = "https://www.cryfs.org"
+
+[source]
+url = "https://github.com/cryfs/cryfs/releases/download/1.0.3/cryfs-1.0.3.tar.gz"
+sha256 = "5550f612f7b692e60c0c10a0331dcefbcc9616ad1411a016de7e4503ad866696"
+
+[build]
+system = "cmake"

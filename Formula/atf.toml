@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "atf"
+version = "0.26"
+description = "Automated testing framework"
+homepage = "https://github.com/freebsd/atf"
+
+[source]
+url = "https://github.com/freebsd/atf/releases/download/atf-0.26/atf-0.26.tar.gz"
+sha256 = "bae70930bef565faacb95b10e5673601df0d7f25db720cc735060d115c92ee73"
+
+[build]
+system = "autotools"

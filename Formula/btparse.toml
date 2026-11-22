@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "btparse"
+version = "0.35"
+description = "BibTeX utility libraries"
+homepage = "https://metacpan.org/dist/Text-BibTeX/view/btparse/doc/btparse.pod"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/A/AM/AMBS/btparse/btparse-0.35.tar.gz"
+sha256 = "631bf1b79dfd4c83377b416a12c349fe88ee37448dc82e41424b2f364a99477b"
+
+[build]
+system = "autotools"

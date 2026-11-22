@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ssllabs-scan"
+version = "1.5.0"
+description = "This tool is a command-line client for the SSL Labs APIs"
+homepage = "https://www.ssllabs.com/projects/ssllabs-apis/"
+
+[source]
+url = "https://github.com/ssllabs/ssllabs-scan/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "51c52e958d5da739910e9271a3abf4902892b91acb840ea74f5c052a71e3a008"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-arch-lint"
+version = "1.19.2"
+description = "Architecture linter for Go projects"
+homepage = "https://github.com/fe3dback/go-arch-lint"
+
+[source]
+url = "https://github.com/fe3dback/go-arch-lint/archive/refs/tags/v1.19.2.tar.gz"
+sha256 = "6bdf785c3a43a6020abf4ee7d1916980fed80100f4a9e0292d0e0cda08099559"
+
+[build]
+system = "autotools"

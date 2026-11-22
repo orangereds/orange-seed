@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jpeg-turbo", "libexif", "pixman"]
+
+[package]
+name = "exiftran"
+version = "0_2"
+description = "Transform digital camera jpegs and their EXIF data"
+homepage = "https://www.kraxel.org/blog/linux/fbida/"
+
+[source]
+url = "https://www.kraxel.org/releases/fbida/fbida-2.14.tar.gz"
+sha256 = "95b7c01556cb6ef9819f358b314ddfeb8a4cbe862b521a3ed62f03d163154438"
+
+[build]
+system = "autotools"

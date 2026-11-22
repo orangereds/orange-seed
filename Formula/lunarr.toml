@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ffmpeg", "node"]
+
+[package]
+name = "lunarr"
+version = "0.11.0"
+description = "Self-hosted media streaming server and Plex alternative for movies and TV"
+homepage = "https://github.com/lunarr-app/lunarr-go"
+
+[source]
+url = "https://github.com/lunarr-app/lunarr-go/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "e1d0317e8217d8a880e7b9eb340172dd6239854ca224bd845862e777ce6628c7"
+
+[service]
+run = "opt/lunarr/bin/lunarr"
+keep_alive = true
+log_path = "var/log/lunarr.log"
+error_log_path = "var/log/lunarr.log"
+
+[service.env]
+LUNARR_DATA_DIR = "lunarr"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "k3d"
+version = "5.9.0"
+description = "Little helper to run CNCF's k3s in Docker"
+homepage = "https://k3d.io"
+
+[source]
+url = "https://github.com/k3d-io/k3d/archive/refs/tags/v5.9.0.tar.gz"
+sha256 = "969cce82c4871bb829be798655abe2b6709b77cc0f42f7ff69293c621dfbbab0"
+
+[build]
+system = "autotools"

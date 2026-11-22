@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "docker"]
+
+[package]
+name = "whalebrew"
+version = "0.5.0"
+description = "Homebrew, but with Docker images"
+homepage = "https://github.com/whalebrew/whalebrew"
+
+[source]
+url = "https://github.com/whalebrew/whalebrew/archive/refs/tags/0.5.0.tar.gz"
+sha256 = "2abea4171dbdca429b6476cffdfe7c94ce27028dc5d96e0f3a9a4fdeab77c4fb"
+
+[build]
+system = "autotools"

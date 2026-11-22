@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "tor"]
+
+[package]
+name = "ooniprobe"
+version = "3.31.1"
+description = "Network interference detection tool"
+homepage = "https://ooni.org/"
+
+[source]
+url = "https://github.com/ooni/probe-cli/archive/refs/tags/v3.31.1.tar.gz"
+sha256 = "3bea44234f620073ba2510001c06e5345e5f27ecea03e6750adbac00e9d82c88"
+
+[build]
+system = "autotools"

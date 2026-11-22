@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf", "rust"]
+
+[package]
+name = "lla"
+version = "0.9.2"
+description = "High-performance, extensible alternative to ls"
+homepage = "https://github.com/chaqchase/lla"
+
+[source]
+url = "https://github.com/chaqchase/lla/archive/refs/tags/v0.9.2.tar.gz"
+sha256 = "866e8d177b4c6e15dc988c49f6b074ce9b4c68fb75e5d3a56486c12626363b1a"
+
+[build]
+system = "autotools"

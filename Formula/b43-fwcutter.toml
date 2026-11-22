@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "b43-fwcutter"
+version = "021"
+description = "Extract firmware from Braodcom 43xx driver files"
+homepage = "https://wireless.docs.kernel.org/en/latest/en/users/drivers/b43.html"
+
+[source]
+url = "https://bues.ch/b43/fwcutter/b43-fwcutter-021.tar.xz"
+sha256 = "c21e0ccf0d15e668ade31fe4d4c424ef6be006b85f63603b6f965f4c5a6f3121"
+
+[build]
+system = "autotools"

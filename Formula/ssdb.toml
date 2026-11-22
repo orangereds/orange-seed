@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf"]
+
+[package]
+name = "ssdb"
+version = "1.9.9"
+description = "NoSQL database supporting many data structures: Redis alternative"
+homepage = "https://ssdb.io/"
+
+[source]
+url = "https://github.com/ideawu/ssdb/archive/refs/tags/1.9.9.tar.gz"
+sha256 = "a32009950114984d6e468e10d964b0ef1e846077b69d7c7615715fdfa01aaf6e"
+
+[service]
+run = "opt/ssdb/bin/ssdb-server etc/ssdb.conf"
+working_dir = "var"
+log_path = "var/log/ssdb.log"
+error_log_path = "var/log/ssdb.log"
+
+[build]
+system = "make"

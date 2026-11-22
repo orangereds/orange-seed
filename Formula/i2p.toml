@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "gettext", "java-service-wrapper", "openjdk"]
+
+[package]
+name = "i2p"
+version = "2.14.1"
+description = "Anonymous overlay network - a network within a network"
+homepage = "https://geti2p.net"
+
+[source]
+url = "https://github.com/i2p/i2p.i2p/archive/refs/tags/i2p-2.14.1.tar.gz"
+sha256 = "3db7a3fea2103fd79caf074d7608dfe83c5a026dff746282892805ad51ab7eaf"
+
+[build]
+system = "autotools"

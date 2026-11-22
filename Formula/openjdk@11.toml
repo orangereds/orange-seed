@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2"]
+
+[package]
+name = "openjdk@11"
+version = "0"
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.org/"
+
+[source]
+url = "https://github.com/openjdk/jdk11u/archive/refs/tags/jdk-11.0.33.1-ga.tar.gz"
+sha256 = "292f87dac41b2e9b717cb567ea9bb8c50596ee928c9fe31f95752c3d7daf7018"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

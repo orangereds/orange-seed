@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pyqt@5", "qt@5", "pyqt", "qtbase", "qtsvg", "pkgconf", "fluid-synth", "liblo", "libmagic", "libsndfile", "python@3.15"]
+
+[package]
+name = "carla"
+version = "2.5.10_2"
+description = "Audio plugin host supporting LADSPA, LV2, VST2/3, SF2 and more"
+homepage = "https://kx.studio/Applications:Carla"
+
+[source]
+url = "https://github.com/falkTX/Carla/archive/refs/tags/v2.5.10.tar.gz"
+sha256 = "ae2835b12081f7271a6b0b25d34b87d36b022c40370028ca4a10f90fcedfa661"
+
+[build]
+system = "make"

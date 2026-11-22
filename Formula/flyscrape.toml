@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "flyscrape"
+version = "0.9.0"
+description = "Standalone and scriptable web scraper"
+homepage = "https://flyscrape.com/"
+
+[source]
+url = "https://github.com/philippta/flyscrape/archive/refs/tags/v0.9.0.tar.gz"
+sha256 = "cbc8c977c55f9617ce29f2178c00c22bda4bd9d1987f37c688580c2848653e17"
+
+[build]
+system = "autotools"

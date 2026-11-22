@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "beads_viewer"
+version = "0.26.0"
+description = "Terminal-based UI for the Beads issue tracker"
+homepage = "https://github.com/Dicklesworthstone/beads_viewer"
+
+[source]
+url = "https://github.com/Dicklesworthstone/beads_viewer/archive/refs/tags/v0.26.0.tar.gz"
+sha256 = "24ec074f293f0d36f5c3b9a852832ffc1eecd9b7ae3b4aebf5cee02e81fe27c8"
+
+[build]
+system = "autotools"

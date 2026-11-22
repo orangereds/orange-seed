@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "bash", "cmake", "openjdk@25", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2", "nasm"]
+
+[package]
+name = "openj9"
+version = "0.63.0_1"
+description = "High performance, scalable, Java virtual machine"
+homepage = "https://www.eclipse.org/openj9/"
+
+[source]
+url = "https://github.com/eclipse-openj9/openj9/archive/refs/tags/openj9-0.63.0.tar.gz"
+sha256 = "7a34308256f7c045a5e71f359ee966212aa3c8c5152e5fad0efa137adf494b68"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

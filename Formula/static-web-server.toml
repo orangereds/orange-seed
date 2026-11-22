@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "static-web-server"
+version = "2.44.3"
+description = "High-performance and asynchronous web server for static files-serving"
+homepage = "https://static-web-server.net"
+
+[source]
+url = "https://github.com/static-web-server/static-web-server/archive/refs/tags/v2.44.3.tar.gz"
+sha256 = "15b5dafb56e8d5ae01c6bd679d47e037637dad3cd70f0470c0d42282f782c79d"
+
+[build]
+system = "autotools"

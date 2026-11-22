@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "util-macros"
+version = "1.20.2"
+description = "X.Org: Set of autoconf macros used to build other xorg packages"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/util/util-macros-1.20.2.tar.xz"
+sha256 = "9ac269eba24f672d7d7b3574e4be5f333d13f04a7712303b1821b2a51ac82e8e"
+
+[build]
+system = "autotools"

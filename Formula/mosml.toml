@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp"]
+
+[package]
+name = "mosml"
+version = "0"
+description = "Moscow ML"
+homepage = "https://mosml.org/"
+
+[source]
+url = "https://github.com/kfl/mosml/archive/refs/tags/ver-2.10.1.tar.gz"
+sha256 = "fed5393668b88d69475b070999b1fd34e902591345de7f09b236824b92e4a78f"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "buku"
+version = "5.1_9"
+description = "Powerful command-line bookmark manager"
+homepage = "https://github.com/jarun/buku"
+
+[source]
+url = "https://github.com/jarun/buku/archive/refs/tags/v5.1.tar.gz"
+sha256 = "0f1a3e15f882fe9a0f8e550abae7388d3cb81d4718a1b4309dcf4363633cb7b1"
+
+[build]
+system = "autotools"

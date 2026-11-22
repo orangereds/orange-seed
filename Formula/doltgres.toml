@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "libpq", "icu4c@79"]
+
+[package]
+name = "doltgres"
+version = "1.5.2"
+description = "Dolt for Postgres"
+homepage = "https://github.com/dolthub/doltgresql"
+
+[source]
+url = "https://github.com/dolthub/doltgresql/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "886099d2452a56dab656423d5c62130489bf333ff714788b4f131d10f5442618"
+
+[build]
+system = "autotools"

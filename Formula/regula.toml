@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "regula"
+version = "0"
+description = "Checks infrastructure as code templates using Open Policy Agent/Rego"
+homepage = "https://regula.dev/"
+
+[source]
+url = "https://github.com/fugue/regula.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

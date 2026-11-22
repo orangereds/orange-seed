@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "wally"
+version = "0.3.2"
+description = "Modern package manager for Roblox projects inspired by Cargo"
+homepage = "https://wally.run"
+
+[source]
+url = "https://github.com/UpliftGames/wally/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "f7da2a10865b05efe97273aa1d08e0efbb9d26fecb770d819bdc01fbb98a0ad9"
+
+[build]
+system = "autotools"

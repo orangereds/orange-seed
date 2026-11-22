@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "timelimit"
+version = "1.9.5"
+description = "Limit a process's absolute execution time"
+homepage = "https://devel.ringlet.net/sysutils/timelimit/"
+
+[source]
+url = "https://devel.ringlet.net/files/sys/timelimit/timelimit-1.9.5.tar.xz"
+sha256 = "96b39c61a850d3395eaf4dde5fd22c290854d42ff69f192b12aef05d99d5ddbb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cogapp", "meson", "ninja", "pkgconf", "groff", "ncurses"]
+
+[package]
+name = "qman"
+version = "1.5.1"
+description = "Modern man page viewer"
+homepage = "https://github.com/plp13/qman"
+
+[source]
+url = "https://github.com/plp13/qman/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "e550958523d0fef90fd0123a61a8f10099ed0c9735e06d8152662d8965b5a0e1"
+
+[build]
+system = "autotools"

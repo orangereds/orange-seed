@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf", "rust"]
+
+[package]
+name = "phylum-cli"
+version = "7.5.0"
+description = "Command-line interface for the Phylum API"
+homepage = "https://www.phylum.io"
+
+[source]
+url = "https://github.com/phylum-dev/cli/archive/refs/tags/v7.5.0.tar.gz"
+sha256 = "a3fe16d9e76872a1dc00c5ba7897806f0e8581a4f4ebb9cc8c4410ae2438d1a7"
+
+[build]
+system = "autotools"

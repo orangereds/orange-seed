@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sheets"
+version = "0.3.0"
+description = "Terminal based spreadsheet tool"
+homepage = "https://github.com/maaslalani/sheets"
+
+[source]
+url = "https://github.com/maaslalani/sheets/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "d65b37c4d40c0a531a87a81848350528387e1247b24d2aa3a04dd5a41338c9fa"
+
+[build]
+system = "autotools"

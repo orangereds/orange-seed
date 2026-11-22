@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "flex", "help2man"]
+
+[package]
+name = "verilator"
+version = "5.054"
+description = "Verilog simulator"
+homepage = "https://www.veripool.org/wiki/verilator"
+
+[source]
+url = "https://github.com/verilator/verilator/archive/refs/tags/v5.054.tar.gz"
+sha256 = "18658731b46922ef660bcb650be0aa503d751e5c17eb9d4644fdfabb11835198"
+
+[build]
+system = "autotools"

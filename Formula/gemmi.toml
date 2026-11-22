@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "gemmi"
+version = "0.7.5"
+description = "Macromolecular crystallography library and utilities"
+homepage = "https://project-gemmi.github.io/"
+
+[source]
+url = "https://github.com/project-gemmi/gemmi/archive/refs/tags/v0.7.5.tar.gz"
+sha256 = "9e2a8a51e62c69bf43f62aadf527ca4312860de8a36c12a8747d3e8ae556f0b3"
+
+[build]
+system = "cmake"

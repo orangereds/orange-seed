@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@18", "postgresql@19"]
+
+[package]
+name = "pg_partman"
+version = "5.5.1_1"
+description = "Partition management extension for PostgreSQL"
+homepage = "https://github.com/pgpartman/pg_partman"
+
+[source]
+url = "https://github.com/pgpartman/pg_partman/archive/refs/tags/v5.5.1.tar.gz"
+sha256 = "03671eb27a0dc0056a3eacf1435c0e2651dfb4d32d235fb3075e066106f68a9b"
+
+[build]
+system = "autotools"

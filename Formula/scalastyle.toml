@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "scalastyle"
+version = "2.12-1.0.0-batch.jar"
+description = "Run scalastyle from the command-line"
+homepage = "http://www.scalastyle.org/command-line.html"
+
+[source]
+url = "https://oss.sonatype.org/content/repositories/releases/org/scalastyle/scalastyle_2.12/1.0.0/scalastyle_2.12-1.0.0-batch.jar"
+sha256 = "e9dafd97be0d00f28c1e8bfcab951d0e5172b262a1d41da31d1fd65d615aedcb"
+
+[build]
+system = "autotools"

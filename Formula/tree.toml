@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tree"
+version = "2.3.2"
+description = "Display directories as trees (with optional color/HTML output)"
+homepage = "https://oldmanprogrammer.net/source.php?dir=projects/tree"
+
+[source]
+url = "https://github.com/Old-Man-Programmer/tree/archive/refs/tags/2.3.2.tar.gz"
+sha256 = "22cf32e84e3eb508d97a9e991c2c3cc006b9dcf4afed201d96311c5c57d08fcf"
+
+[build]
+system = "make"

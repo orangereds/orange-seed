@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tsui"
+version = "0.2.0"
+description = "TUI for configuring and monitoring Tailscale"
+homepage = "https://neuralink.com/tsui"
+
+[source]
+url = "https://github.com/neuralink/tsui/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "1ae87ad281587efbf80ef0bf9cc0b519dd4f08465cb378e34e97230f2f3526f0"
+
+[build]
+system = "autotools"

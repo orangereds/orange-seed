@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "acl", "dbus", "glib", "i2c-tools", "jansson", "kmod", "libdrm", "libusb", "libx11", "libxext", "libxrandr", "systemd"]
+
+[package]
+name = "ddcutil"
+version = "3.0.2"
+description = "Control monitor settings using DDC/CI and USB"
+homepage = "https://www.ddcutil.com"
+
+[source]
+url = "https://www.ddcutil.com/tarballs/ddcutil-3.0.2.tar.gz"
+sha256 = "2ebcf0c75ee21e22fcc186d73dc38a2dc4cd7a296ac1fef66d740e795dac80d9"
+
+[build]
+system = "autotools"

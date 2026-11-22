@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libconfig", "libsodium", "libvpx", "opus"]
+
+[package]
+name = "toxcore"
+version = "0"
+description = "C library implementing the Tox peer to peer network protocol"
+homepage = "https://tox.chat/"
+
+[source]
+url = "https://github.com/TokTok/c-toxcore/releases/download/v0.2.25/c-toxcore-v0.2.25.tar.xz"
+sha256 = "38022f6d334835799179e85a5fee1411164273820c653242e2ac8078963f7035"
+
+[build]
+system = "cmake"

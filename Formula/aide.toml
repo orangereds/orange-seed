@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "bison", "pkgconf", "libgcrypt", "libgpg-error", "pcre2"]
+
+[package]
+name = "aide"
+version = "0.19.5"
+description = "File and directory integrity checker"
+homepage = "https://aide.github.io/"
+
+[source]
+url = "https://github.com/aide/aide/releases/download/v0.19.5/aide-0.19.5.tar.gz"
+sha256 = "6b004557e9493048ceb5fa84fb44b904c16e23bed8850dc21316e7c44247a350"
+
+[build]
+system = "autotools"

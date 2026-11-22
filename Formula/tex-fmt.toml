@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tex-fmt"
+version = "0.5.7"
+description = "Extremely fast LaTeX formatter written in Rust"
+homepage = "https://wgunderwood.github.io/tex-fmt/"
+
+[source]
+url = "https://github.com/WGUNDERWOOD/tex-fmt/archive/refs/tags/v0.5.7.tar.gz"
+sha256 = "fee9ccd8f13be00cf437ce73928892eb0b55349bd4c81e226bc3fd3cb9de644c"
+
+[build]
+system = "autotools"

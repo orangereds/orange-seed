@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zsh-patina"
+version = "1.12.0"
+description = "Blazingly fast Zsh syntax highlighter"
+homepage = "https://github.com/michel-kraemer/zsh-patina"
+
+[source]
+url = "https://github.com/michel-kraemer/zsh-patina/archive/refs/tags/1.12.0.tar.gz"
+sha256 = "fb9e04ac4d10c0a5e136bf51d84a756367615a1864de16d272379dc07901fff6"
+
+[build]
+system = "autotools"

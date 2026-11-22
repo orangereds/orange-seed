@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libcbor"
+version = "0.15.0"
+description = "CBOR protocol implementation for C and others"
+homepage = "https://github.com/PJK/libcbor"
+
+[source]
+url = "https://github.com/PJK/libcbor/archive/refs/tags/v0.15.0.tar.gz"
+sha256 = "c94145d3c22e67cff9a3325dc036b4545a49a42231553995be4947d52cf2ef57"
+
+[build]
+system = "cmake"

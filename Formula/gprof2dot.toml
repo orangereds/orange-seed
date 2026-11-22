@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graphviz", "python@3.15"]
+
+[package]
+name = "gprof2dot"
+version = "2025.4.14"
+description = "Convert the output from many profilers into a Graphviz dot graph"
+homepage = "https://github.com/jrfonseca/gprof2dot"
+
+[source]
+url = "https://files.pythonhosted.org/packages/bb/fd/cad13fa1f7a463a607176432c4affa33ea162f02f58cc36de1d40d3e6b48/gprof2dot-2025.4.14.tar.gz"
+sha256 = "35743e2d2ca027bf48fa7cba37021aaf4a27beeae1ae8e05a50b55f1f921a6ce"
+
+[build]
+system = "autotools"

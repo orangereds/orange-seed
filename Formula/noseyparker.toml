@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "rust"]
+
+[package]
+name = "noseyparker"
+version = "0.24.0"
+description = "Finds secrets and sensitive information in textual data and Git history"
+homepage = "https://github.com/praetorian-inc/noseyparker"
+
+[source]
+url = "https://github.com/praetorian-inc/noseyparker/archive/refs/tags/v0.24.0.tar.gz"
+sha256 = "df31128ec64c0bdb7e8c6917ad68a0c69fe4fe1bd4355332b94938ed08edc2ce"
+
+[build]
+system = "autotools"

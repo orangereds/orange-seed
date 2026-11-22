@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xorgproto"]
+
+[package]
+name = "lndir"
+version = "1.0.6"
+description = "Create a shadow directory of symbolic links to another directory tree"
+homepage = "https://gitlab.freedesktop.org/xorg/util/lndir"
+
+[source]
+url = "https://www.x.org/releases/individual/util/lndir-1.0.6.tar.xz"
+sha256 = "18f6d664e52894b7dee0d2fc9b171e0e58566e5091e44f9535f10e6d941912a4"
+
+[build]
+system = "autotools"

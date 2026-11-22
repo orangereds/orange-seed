@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "squashfs"]
+
+[package]
+name = "snap"
+version = "0"
+description = "Tool to work with .snap files"
+homepage = "https://snapcraft.io/"
+
+[source]
+url = "https://github.com/canonical/snapd/releases/download/2.78/snapd_2.78.vendor.tar.xz"
+sha256 = "197d5e5870ae7f3681276cea37339d5ee528ddfaf47f53509f858fdad46e4aed"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "libssh2", "openssl@4"]
+
+[package]
+name = "toml-bombadil"
+version = "4.2.0"
+description = "Dotfile manager with templating"
+homepage = "https://github.com/oknozor/toml-bombadil"
+
+[source]
+url = "https://github.com/oknozor/toml-bombadil/archive/refs/tags/4.2.0.tar.gz"
+sha256 = "b911678642a1229908dfeabbdd7f799354346c0e37f3ac999277655e01b6f229"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "openssl@4", "pkgconf", "rust"]
+
+[package]
+name = "intermodal"
+version = "0.1.16"
+description = "Command-line utility for BitTorrent torrent file creation, verification, etc."
+homepage = "https://imdl.io"
+
+[source]
+url = "https://github.com/casey/intermodal/archive/refs/tags/v0.1.16.tar.gz"
+sha256 = "3a072929379ddba929d85a579888ac51cf22e44897b7dc84af7612f49d3874d7"
+
+[build]
+system = "autotools"

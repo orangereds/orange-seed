@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfstate-lookup"
+version = "1.12.2"
+description = "Lookup resource attributes in tfstate"
+homepage = "https://github.com/fujiwara/tfstate-lookup"
+
+[source]
+url = "https://github.com/fujiwara/tfstate-lookup/archive/refs/tags/v1.12.2.tar.gz"
+sha256 = "56cbf8902e8fd071030a8f0542e6672705d8296dd0e9478bc30a36a6e4a465f5"
+
+[build]
+system = "autotools"

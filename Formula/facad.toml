@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "facad"
+version = "2.20.16"
+description = "Modern, colorful directory listing tool for the command-line"
+homepage = "https://github.com/yellow-footed-honeyguide/facad"
+
+[source]
+url = "https://github.com/yellow-footed-honeyguide/facad/archive/refs/tags/v2.20.16.tar.gz"
+sha256 = "4de8b7021efb0ec6f9bf71f0f70cb33e1cf52e945cc99e80760b80767dc380d7"
+
+[build]
+system = "autotools"

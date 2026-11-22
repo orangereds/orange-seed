@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "saf-cli"
+version = "0"
+description = "CLI for the MITRE Security Automation Framework (SAF)"
+homepage = "https://saf-cli.mitre.org"
+
+[source]
+url = "https://registry.npmjs.org/@mitre/saf/-/saf-1.8.0.tgz"
+sha256 = "0b2433ccc0a161176153f949a5c4b708686a83a4aeaf88216f211880574bfd98"
+
+[build]
+system = "autotools"

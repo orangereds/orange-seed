@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "openskills"
+version = "1.5.0"
+description = "Universal skills loader for AI coding agents"
+homepage = "https://github.com/numman-ali/openskills"
+
+[source]
+url = "https://registry.npmjs.org/openskills/-/openskills-1.5.0.tgz"
+sha256 = "2aa0c31c2a09fad8c32705d519a5497aa671381189bde9d8f7911a7967a9d9bc"
+
+[build]
+system = "autotools"

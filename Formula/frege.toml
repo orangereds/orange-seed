@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "frege"
+version = "0_3"
+description = "Non-strict, functional programming language in the spirit of Haskell"
+homepage = "https://github.com/Frege/frege/"
+
+[source]
+url = "https://github.com/Frege/frege/releases/download/3.24public/frege3.24.405.jar"
+sha256 = "f5a6e40d1438a676de85620e3304ada4760878879e02dbb7c723164bd6087fc4"
+
+[build]
+system = "autotools"

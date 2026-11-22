@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf", "rust"]
+
+[package]
+name = "forgecode"
+version = "2.14.0"
+description = "AI-enhanced terminal development environment"
+homepage = "https://forgecode.dev/"
+
+[source]
+url = "https://github.com/tailcallhq/forgecode/archive/refs/tags/v2.14.0.tar.gz"
+sha256 = "4069a3db5bd21f24e7c215715aaa63c4fe55d6a317fe001cf3ba703053a227cb"
+
+[build]
+system = "autotools"

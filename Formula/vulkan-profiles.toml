@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "pyinstaller", "python@3.15", "rpds-py", "vulkan-tools", "jsoncpp", "valijson", "vulkan-headers", "vulkan-loader", "vulkan-utility-libraries", "molten-vk"]
+
+[package]
+name = "vulkan-profiles"
+version = "0"
+description = "Tools for Vulkan profiles"
+homepage = "https://github.com/KhronosGroup/Vulkan-Profiles"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-Profiles/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "8210b69c993c5f49e62d6e72d50e904fe0eb68a6e778761fd47279fc594b3704"
+
+[build]
+system = "cmake"

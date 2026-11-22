@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libarchive", "libfuse"]
+
+[package]
+name = "archivemount"
+version = "1c"
+description = "File system for accessing archives using libarchive"
+homepage = "https://git.sr.ht/~nabijaczleweli/archivemount-ng"
+
+[source]
+url = "https://git.sr.ht/~nabijaczleweli/archivemount-ng/archive/1c.tar.gz"
+sha256 = "7bc489a1a77ce718c84b751a57779ded6bb192cf54f9cd0bf7bff2527cf98bfc"
+
+[build]
+system = "make"

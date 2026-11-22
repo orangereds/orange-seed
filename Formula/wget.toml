@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "xz", "pkgconf", "libidn2", "libpsl", "openssl@4", "gettext", "libunistring"]
+
+[package]
+name = "wget"
+version = "1.25.0_2"
+description = "Internet file retriever"
+homepage = "https://www.gnu.org/software/wget/"
+
+[source]
+url = "https://ftpmirror.gnu.org/wget/wget-1.25.0.tar.gz"
+sha256 = "766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784"
+
+[build]
+system = "autotools"

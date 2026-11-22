@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "precomp"
+version = "0.4.7"
+description = "Command-line precompressor to achieve better compression"
+homepage = "http://schnaader.info/precomp.php"
+
+[source]
+url = "https://github.com/schnaader/precomp-cpp/archive/refs/tags/v0.4.7.tar.gz"
+sha256 = "b4064f9a18b9885e574c274f93d73d8a4e7f2bbd9e959beaa773f2e61292fb2b"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "git-remote-codecommit"
+version = "0"
+description = "Git Remote Helper to interact with AWS CodeCommit"
+homepage = "https://github.com/aws/git-remote-codecommit"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ea/58/71a6047949f07a75ea7e1d273ba1c126e03c69f17a910d837f9368bc8dce/git_remote_codecommit-1.18.tar.gz"
+sha256 = "a34b737b0bd4b52932fd12cc42b3dfed5a7e4d87b5bc24910b90bf6e0f42f580"
+
+[build]
+system = "autotools"

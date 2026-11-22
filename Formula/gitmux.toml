@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "tmux"]
+
+[package]
+name = "gitmux"
+version = "0.11.5"
+description = "Git status in tmux status bar"
+homepage = "https://github.com/arl/gitmux"
+
+[source]
+url = "https://github.com/arl/gitmux/archive/refs/tags/v0.11.5.tar.gz"
+sha256 = "c6a01faa5372a8c4ab24bc3a2c9665a9f430c45c79b175c1510388433637ca72"
+
+[build]
+system = "autotools"

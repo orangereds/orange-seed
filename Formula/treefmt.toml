@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "treefmt"
+version = "2.6.0"
+description = "One CLI to format the code tree"
+homepage = "https://treefmt.com/latest/"
+
+[source]
+url = "https://github.com/numtide/treefmt/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "90993f858b376c0a0ca49920b9679dc774107a96fad8ffc3808809c6a82f4ece"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4"]
+
+[package]
+name = "libtins"
+version = "4.6"
+description = "C++ network packet sniffing and crafting library"
+homepage = "https://libtins.github.io/"
+
+[source]
+url = "https://github.com/mfontanini/libtins/archive/refs/tags/v4.6.tar.gz"
+sha256 = "37a9cc407929c56c2081e717347cac455287ba354016bad5bad6243d1f0a4a7a"
+
+[build]
+system = "cmake"

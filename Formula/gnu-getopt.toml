@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gnu-getopt"
+version = "0"
+description = "Command-line option parsing utility"
+homepage = "https://github.com/util-linux/util-linux"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.42/util-linux-2.42.4.tar.gz"
+sha256 = "af3241e7776964dcb6bb9a811ca7b0d93000b563e2ae2a8df8f80a7cd6e04d56"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "rancher-machine"]
+
+[package]
+name = "docker-machine-driver-vultr"
+version = "2.3.0"
+description = "Docker Machine driver plugin for Vultr Cloud"
+homepage = "https://github.com/vultr/docker-machine-driver-vultr"
+
+[source]
+url = "https://github.com/vultr/docker-machine-driver-vultr/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "451a6e31ab4e5fb9be2c2730b1b03f5039a8ac2b41f677824e1b8a15036ab815"
+
+[build]
+system = "autotools"

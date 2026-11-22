@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "kubevious"
+version = "1.0.64"
+description = "Detects and prevents Kubernetes misconfigurations and violations"
+homepage = "https://kubevious.io"
+
+[source]
+url = "https://registry.npmjs.org/kubevious/-/kubevious-1.0.64.tgz"
+sha256 = "f67bb559bd0aee165186307e678cf03141ade8f8b79127bd10be0f47d85d0348"
+
+[build]
+system = "autotools"

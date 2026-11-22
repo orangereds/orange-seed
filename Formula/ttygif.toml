@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["imagemagick", "ovh-ttyrec"]
+
+[package]
+name = "ttygif"
+version = "1.6.0"
+description = "Converts a ttyrec file into gif files"
+homepage = "https://github.com/icholy/ttygif"
+
+[source]
+url = "https://github.com/icholy/ttygif/archive/refs/tags/1.6.0.tar.gz"
+sha256 = "050b9e86f98fb790a2925cea6148f82f95808d707735b2650f3856cb6f53e0ae"
+
+[build]
+system = "make"

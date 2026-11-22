@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libcerf"
+version = "0"
+description = "Numeric library for complex error functions"
+homepage = "https://jugit.fz-juelich.de/mlz/lib/cerf"
+
+[source]
+url = "https://jugit.fz-juelich.de/mlz/lib/cerf/-/archive/v3.9/cerf-v3.9.tar.bz2"
+sha256 = "a227f03379c8d811ef80c7e9b4c8fdac6bed696602cb38dff026c29cb012dbf7"
+
+[build]
+system = "cmake"

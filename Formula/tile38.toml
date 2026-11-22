@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tile38"
+version = "0"
+description = "In-memory geolocation data store, spatial index, and realtime geofence"
+homepage = "https://tile38.com/"
+
+[source]
+url = "https://github.com/tidwall/tile38.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/tile38/bin/tile38-server -d var/tile38/data"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/tile38.log"
+error_log_path = "var/log/tile38.log"
+
+[build]
+system = "autotools"

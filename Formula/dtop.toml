@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dtop"
+version = "0.11.3"
+description = "Terminal dashboard for Docker monitoring across multiple hosts"
+homepage = "https://dtop.dev/"
+
+[source]
+url = "https://github.com/amir20/dtop/archive/refs/tags/v0.11.3.tar.gz"
+sha256 = "5594a10a5ef41431309e6d15a44c0d44aae209bdee9782be30acf77d66923b42"
+
+[build]
+system = "autotools"

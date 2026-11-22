@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openblas64"]
+
+[package]
+name = "libblastrampoline"
+version = "5.16.0"
+description = "Using PLT trampolines to provide a BLAS and LAPACK demuxing library"
+homepage = "https://github.com/JuliaLinearAlgebra/libblastrampoline"
+
+[source]
+url = "https://github.com/JuliaLinearAlgebra/libblastrampoline/archive/refs/tags/v5.16.0.tar.gz"
+sha256 = "0067b9a0044011ba0a443c9d7677c574d2bfd419fc27dc080b33005cce2ab92d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fypp", "gcc"]
+
+[package]
+name = "fortran-stdlib"
+version = "0.8.1"
+description = "Fortran Standard Library"
+homepage = "https://stdlib.fortran-lang.org"
+
+[source]
+url = "https://github.com/fortran-lang/stdlib/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "6d20b120a4b17fb23ee5353408f6826b521bd006cd42eb412b01984eb9c31ded"
+
+[build]
+system = "cmake"

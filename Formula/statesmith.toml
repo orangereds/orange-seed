@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@9"]
+
+[package]
+name = "statesmith"
+version = "0.22.2"
+description = "State machine code generation tool suitable for bare metal, embedded and more"
+homepage = "https://github.com/StateSmith/StateSmith"
+
+[source]
+url = "https://github.com/StateSmith/StateSmith/archive/refs/tags/v0.22.2.tar.gz"
+sha256 = "2001391ebd2a9cd9b4ee9a88ba662f736547a0e7d8a9b43f30c8cbec4eac2e36"
+
+[build]
+system = "autotools"

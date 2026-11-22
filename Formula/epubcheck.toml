@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "epubcheck"
+version = "5.4.0"
+description = "Validate EPUB files, version 2.0 and later"
+homepage = "https://www.w3.org/publishing/epubcheck/"
+
+[source]
+url = "https://github.com/w3c/epubcheck/releases/download/v5.4.0/epubcheck-5.4.0.zip"
+sha256 = "33350c61038e71dfb3d45a76aed04bf5481e6d5500cb780f6e98db8bbd15a28c"
+
+[build]
+system = "autotools"

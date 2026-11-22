@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "cc-switch-cli"
+version = "5.11.4"
+description = "All-in-one assistant tool for Claude Code, Codex, Gemini, OpenCode and OpenClaw"
+homepage = "https://github.com/SaladDay/cc-switch-cli"
+
+[source]
+url = "https://github.com/SaladDay/cc-switch-cli/archive/refs/tags/v5.11.4.tar.gz"
+sha256 = "927e28a95d1d9e63849b0591d29171f095dd812abf64241e91e0fc1db440d24b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "flatbuffers", "pkgconf", "pybind11", "python@3.15", "abseil", "nlohmann-json", "numpy", "onnx", "protobuf", "pugixml", "snappy", "tbb"]
+
+[package]
+name = "openvino"
+version = "2026.4.1"
+description = "Open Visual Inference And Optimization toolkit for AI inference"
+homepage = "https://docs.openvino.ai"
+
+[source]
+url = "https://github.com/openvinotoolkit/openvino/archive/refs/tags/2026.4.1.tar.gz"
+sha256 = "1ee85264556025486a4745a2d452ea823c578b3d162768bfef590366d2e6c539"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "socat"]
+
+[package]
+name = "gnirehtet"
+version = "2.5.1"
+description = "Reverse tethering tool for Android"
+homepage = "https://github.com/Genymobile/gnirehtet"
+
+[source]
+url = "https://github.com/Genymobile/gnirehtet/archive/refs/tags/v2.5.1.tar.gz"
+sha256 = "0d41361b9ac8b3b7fa4f4a0aff933472a72886556bd3fc4659be299b546274e6"
+
+[build]
+system = "autotools"

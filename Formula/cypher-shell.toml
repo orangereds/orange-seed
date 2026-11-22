@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "cypher-shell"
+version = "2026.10.2"
+description = "Command-line shell where you can execute Cypher against Neo4j"
+homepage = "https://neo4j.com"
+
+[source]
+url = "https://dist.neo4j.org/cypher-shell/cypher-shell-2026.10.2.zip"
+sha256 = "b60df0d21b3b236e4a4f359277477f5595b3d8a6253eaa2226f724641ff2677c"
+
+[build]
+system = "autotools"

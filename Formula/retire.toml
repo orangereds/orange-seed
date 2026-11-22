@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "retire"
+version = "6.1.1"
+description = "Scanner detecting the use of JavaScript libraries with known vulnerabilities"
+homepage = "https://retirejs.github.io/retire.js/"
+
+[source]
+url = "https://registry.npmjs.org/retire/-/retire-6.1.1.tgz"
+sha256 = "810b0c9099d8d1d8864549192e80bff5cd868f1ea0cbe4b2d3eb9a10d68d99de"
+
+[build]
+system = "autotools"

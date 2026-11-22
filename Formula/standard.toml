@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "standard"
+version = "17.1.2"
+description = "JavaScript Style Guide, with linter & automatic code fixer"
+homepage = "https://standardjs.com/"
+
+[source]
+url = "https://registry.npmjs.org/standard/-/standard-17.1.2.tgz"
+sha256 = "fb2aaf22460bb3e77e090c727c694a56dd9a9486eec30a0152290a5c6d83757c"
+
+[build]
+system = "autotools"

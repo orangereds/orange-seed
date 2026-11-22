@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "sphinx-doc", "fstrm", "gnutls", "libidn2", "libnghttp2", "lmdb", "protobuf-c", "userspace-rcu"]
+
+[package]
+name = "knot"
+version = "3.6.2"
+description = "High-performance authoritative-only DNS server"
+homepage = "https://www.knot-dns.cz/"
+
+[source]
+url = "https://knot-dns.nic.cz/release/knot-3.6.2.tar.xz"
+sha256 = "2916ac117ac77d1f2341a6562e47d797493521b791b414960a382cb5bc113e21"
+
+[service]
+run = "knotd"
+log_path = "File::NULL"
+error_log_path = "var/log/knot.log"
+
+[build]
+system = "autotools"

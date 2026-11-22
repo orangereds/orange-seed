@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bumblebee"
+version = "0.1.2"
+description = "Read-only developer endpoint scanner for supply-chain exposure"
+homepage = "https://github.com/perplexityai/bumblebee"
+
+[source]
+url = "https://github.com/perplexityai/bumblebee/archive/refs/tags/v0.1.2.tar.gz"
+sha256 = "6ed6c27ae6b5c040eb018e247c09e53baa2fdea43bba1c3e63515d14d46157d2"
+
+[build]
+system = "autotools"

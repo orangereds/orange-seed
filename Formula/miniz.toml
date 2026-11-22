@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "miniz"
+version = "3.1.2"
+description = "Lossless, high-performance data compression library (zlib/Deflate)"
+homepage = "https://github.com/richgel999/miniz"
+
+[source]
+url = "https://github.com/richgel999/miniz/archive/refs/tags/3.1.2.tar.gz"
+sha256 = "98468f8924934b723276680f85238b6c78bf1f8b49b4459cc9b7214a20e2e9fb"
+
+[build]
+system = "cmake"

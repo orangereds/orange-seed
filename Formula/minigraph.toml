@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "minigraph"
+version = "0.21"
+description = "Proof-of-concept seq-to-graph mapper and graph generator"
+homepage = "https://lh3.github.io/minigraph"
+
+[source]
+url = "https://github.com/lh3/minigraph/archive/refs/tags/v0.21.tar.gz"
+sha256 = "4272447393f0ae1e656376abe144de96cbafc777414d4c496f735dd4a6d3c06a"
+
+[build]
+system = "autotools"

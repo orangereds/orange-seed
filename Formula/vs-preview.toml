@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "jpeg-turbo", "meson", "ninja", "certifi", "freetype", "libyaml", "numpy", "pillow", "pyqt", "python-matplotlib", "python@3.14", "vapoursynth"]
+
+[package]
+name = "vs-preview"
+version = "0_1"
+description = "Previewer for VapourSynth scripts"
+homepage = "https://github.com/Jaded-Encoding-Thaumaturgy/vs-preview"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f2/91/ba18f65f751c63acd9096f719723edefb4c45bd72be77c424a0086028f14/vspreview-0.20.1.tar.gz"
+sha256 = "165dc63c6668794216f70a686becaa309b6dd8730db9915ad97f6d190f238274"
+
+[build]
+system = "autotools"

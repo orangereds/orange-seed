@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "idsgrep"
+version = "0.6"
+description = "Grep for Extended Ideographic Description Sequences"
+homepage = "https://tsukurimashou.org/idsgrep.php.en"
+
+[source]
+url = "https://tsukurimashou.org/files/idsgrep-0.6.tar.gz"
+sha256 = "2c07029bab12d9ceefddf447ce4213535b68d020b093a593190c2afa8a577c7c"
+
+[build]
+system = "autotools"

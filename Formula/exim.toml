@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "pcre2"]
+
+[package]
+name = "exim"
+version = "4.100.1"
+description = "Complete replacement for sendmail"
+homepage = "https://exim.org"
+
+[source]
+url = "https://ftp.exim.org/pub/exim/exim4/exim-4.100.1.tar.xz"
+sha256 = "e9fb41f6724a5b136d64c9d19dbc5f26494af879a3e7e3190f91639eaa79fa0d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nodebrew"
+version = "1.2.0"
+description = "Node.js version manager"
+homepage = "https://github.com/hokaccha/nodebrew"
+
+[source]
+url = "https://github.com/hokaccha/nodebrew/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "6d72e39c8acc5b22f4fc7a1734cd3bb8d00b61119ab7fea6cde376810ff2005e"
+
+[build]
+system = "autotools"

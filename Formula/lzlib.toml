@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lzlib"
+version = "1.16"
+description = "Data compression library"
+homepage = "https://www.nongnu.org/lzip/lzlib.html"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/lzip/lzlib/lzlib-1.16.tar.gz"
+sha256 = "203228de911780309dad6813e51541d7ea89469784f01cb661edba080ff1b038"
+
+[build]
+system = "autotools"

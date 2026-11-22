@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "hdr10plus_tool"
+version = "1.7.2"
+description = "CLI utility to work with HDR10+ in HEVC files"
+homepage = "https://github.com/quietvoid/hdr10plus_tool"
+
+[source]
+url = "https://github.com/quietvoid/hdr10plus_tool/archive/refs/tags/1.7.2.tar.gz"
+sha256 = "cc917e769bad85323c7f596179798cc96ac878a01ddfd53b210fecae4c891849"
+
+[build]
+system = "autotools"

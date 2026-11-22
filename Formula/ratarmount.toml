@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libfuse", "python@3.15", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "ratarmount"
+version = "1.3.0_2"
+description = "Mount and efficiently access archives as filesystems"
+homepage = "https://github.com/mxmlnkn/ratarmount"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a5/80/f7f628af7652a89b7f400b23fea17395dd6b27949ae8a45b6e81d69bd810/ratarmount-1.3.0.tar.gz"
+sha256 = "9e96f0f887db67a3ea68c4ecc625c05a3636cd8f29d80491eb170d934d3caa00"
+
+[build]
+system = "autotools"

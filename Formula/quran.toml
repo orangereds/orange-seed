@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "quran"
+version = "0"
+description = "Print Qur'an chapters and verses right in the terminal"
+homepage = "https://git.hanabi.in/quran-go"
+
+[source]
+url = "https://git.hanabi.in/repos/quran-go.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

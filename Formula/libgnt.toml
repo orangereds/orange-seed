@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "ncurses", "gettext"]
+
+[package]
+name = "libgnt"
+version = "2.15.0"
+description = "NCurses toolkit for creating text-mode graphical user interfaces"
+homepage = "https://pidgin.im/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pidgin/libgnt/2.15.0/libgnt-2.15.0.tar.xz"
+sha256 = "6dce3d4f2fb33c242d8223ddda5f1042f3dfb0ad7c395d4e33a73f92423a58a3"
+
+[build]
+system = "autotools"

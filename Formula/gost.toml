@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gost"
+version = "3.3.3"
+description = "GO Simple Tunnel - a simple tunnel written in golang"
+homepage = "https://gost.run/"
+
+[source]
+url = "https://github.com/go-gost/gost/archive/refs/tags/v3.3.3.tar.gz"
+sha256 = "2c79c7675894cfd5849d646f037dc82e4278cd43439e3e0b0160fdf112269564"
+
+[service]
+run = "opt/gost/bin/gost -C etc/gost.yml"
+keep_alive = true
+
+[build]
+system = "autotools"

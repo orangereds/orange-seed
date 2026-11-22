@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "xurls"
+version = "2.6.0"
+description = "Extract urls from text"
+homepage = "https://github.com/mvdan/xurls"
+
+[source]
+url = "https://github.com/mvdan/xurls/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "476d92a0416fee965f928180a950691b85dbb8d11efc3dc7f795ecc106c76075"
+
+[build]
+system = "autotools"

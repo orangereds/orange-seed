@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "libfuse@2", "neon"]
+
+[package]
+name = "wdfs"
+version = "1.4.2_1"
+description = "Webdav file system"
+homepage = "https://noedler.de/projekte/wdfs/"
+
+[source]
+url = "https://noedler.de/projekte/wdfs/wdfs-1.4.2.tar.gz"
+sha256 = "fcf2e1584568b07c7f3683a983a9be26fae6534b8109e09167e5dff9114ba2e5"
+
+[build]
+system = "autotools"

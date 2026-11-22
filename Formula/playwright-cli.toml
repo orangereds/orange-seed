@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "playwright-cli"
+version = "0"
+description = "CLI for Playwright: record/generate code, inspect selectors, take screenshots"
+homepage = "https://playwright.dev"
+
+[source]
+url = "https://registry.npmjs.org/@playwright/cli/-/cli-0.1.25.tgz"
+sha256 = "4559e4674cb5d10a03e0c15e9f5c892dcfa4f5d8703c49146594b4af322480f4"
+
+[build]
+system = "autotools"

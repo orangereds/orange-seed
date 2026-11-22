@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "go"]
+
+[package]
+name = "gif2png"
+version = "3.0.5"
+description = "Convert GIFs to PNGs"
+homepage = "http://www.catb.org/~esr/gif2png/"
+
+[source]
+url = "https://gitlab.com/esr/gif2png/-/archive/3.0.5/gif2png-3.0.5.tar.bz2"
+sha256 = "8cc0733ad5d48329da903d1a56e01adbaa4994181f5a12ce962fd4f2c504da22"
+
+[build]
+system = "make"

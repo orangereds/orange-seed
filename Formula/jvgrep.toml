@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jvgrep"
+version = "5.8.16"
+description = "Grep for Japanese users of Vim"
+homepage = "https://github.com/mattn/jvgrep"
+
+[source]
+url = "https://github.com/mattn/jvgrep/archive/refs/tags/v5.8.16.tar.gz"
+sha256 = "f337724a802867998187157644fce61929b3795728c09bbd7ea8386f6d43ace6"
+
+[build]
+system = "autotools"

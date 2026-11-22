@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "fontconfig", "freetype", "jpeg-turbo", "libcaca", "libpng", "nasm"]
+
+[package]
+name = "mplayer"
+version = "0_2"
+description = "UNIX movie player"
+homepage = "https://mplayerhq.hu/"
+
+[source]
+url = "https://mplayerhq.hu/MPlayer/releases/MPlayer-1.5.tar.xz"
+sha256 = "650cd55bb3cb44c9b39ce36dac488428559799c5f18d16d98edb2b7256cbbf85"
+
+[build]
+system = "autotools"

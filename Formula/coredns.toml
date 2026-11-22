@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "coredns"
+version = "1.15.0"
+description = "DNS server that chains plugins"
+homepage = "https://coredns.io/"
+
+[source]
+url = "https://github.com/coredns/coredns/archive/refs/tags/v1.15.0.tar.gz"
+sha256 = "6631fd1d6daccb6eea5a31f31cf8295080aa43c9d0683ff6680b19224c4c2d57"
+
+[service]
+run = "opt/coredns/bin/coredns -conf etc/coredns/Corefile"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/coredns.log"
+error_log_path = "var/log/coredns.log"
+
+[build]
+system = "autotools"

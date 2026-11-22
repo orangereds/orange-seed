@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libxdiff"
+version = "0.23"
+description = "Implements diff functions for binary and text files"
+homepage = "http://www.xmailserver.org/xdiff-lib.html"
+
+[source]
+url = "http://www.xmailserver.org/libxdiff-0.23.tar.gz"
+sha256 = "e9af96174e83c02b13d452a4827bdf47cb579eafd580953a8cd2c98900309124"
+
+[build]
+system = "autotools"

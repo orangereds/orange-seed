@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "spdx-sbom-generator"
+version = "0.0.15"
+description = "Support CI generation of SBOMs via golang tooling"
+homepage = "https://github.com/opensbom-generator/spdx-sbom-generator"
+
+[source]
+url = "https://github.com/opensbom-generator/spdx-sbom-generator/archive/refs/tags/v0.0.15.tar.gz"
+sha256 = "3811d652de0f27d3bfa7c025aa6815805ef347a35b46f9e2a5093cc6b26f7b08"
+
+[build]
+system = "autotools"

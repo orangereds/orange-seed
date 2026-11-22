@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja"]
+
+[package]
+name = "assimp@5"
+version = "5.4.3"
+description = "Portable library for importing many well-known 3D model formats"
+homepage = "https://www.assimp.org/"
+
+[source]
+url = "https://github.com/assimp/assimp/archive/refs/tags/v5.4.3.tar.gz"
+sha256 = "66dfbaee288f2bc43172440a55d0235dfc7bf885dda6435c038e8000e79582cb"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

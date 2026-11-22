@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "nbsdgames"
+version = "6.0.3"
+description = "Text-based modern games"
+homepage = "https://github.com/abakh/nbsdgames"
+
+[source]
+url = "https://github.com/abakh/nbsdgames/archive/refs/tags/v6.0.3.tar.gz"
+sha256 = "359da5f698da00437205eddad3fc97fbdcecfa8cb005fd8d1830fe8fd3dd7e3b"
+
+[build]
+system = "autotools"

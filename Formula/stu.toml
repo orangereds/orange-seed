@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "stu"
+version = "0.7.6"
+description = "TUI explorer application for Amazon S3 (AWS S3)"
+homepage = "https://lusingander.github.io/stu/"
+
+[source]
+url = "https://github.com/lusingander/stu/archive/refs/tags/v0.7.6.tar.gz"
+sha256 = "b8d87203dcaf1ce55193afc28a3c436db98a460348a58a89e14b87449a76c1af"
+
+[build]
+system = "autotools"

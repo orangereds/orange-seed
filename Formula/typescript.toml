@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "typescript"
+version = "7.0.2_1"
+description = "Language for application scale JavaScript development"
+homepage = "https://www.typescriptlang.org/"
+
+[source]
+url = "https://github.com/microsoft/TypeScript/archive/refs/tags/v7.0.2.tar.gz"
+sha256 = "8472f284b1465f5c4826a64c88853eccba667446f31a435ed1d0b28d373dbc0b"
+
+[build]
+system = "autotools"

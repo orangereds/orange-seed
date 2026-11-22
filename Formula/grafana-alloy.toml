@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "grafana-alloy"
+version = "1.22.0"
+description = "OpenTelemetry Collector distribution with programmable pipelines"
+homepage = "https://grafana.com/oss/alloy-opentelemetry-collector/"
+
+[source]
+url = "https://github.com/grafana/alloy/archive/refs/tags/v1.22.0.tar.gz"
+sha256 = "26c103c3ab10ee3b67d3e9a6245b1bed29f48bc846eb6a1e7ccda393e4568fdd"
+
+[service]
+run = "opt/grafana-alloy/bin/alloy run --storage.path=#{var}/lib/grafana-alloy/data etc/grafana-alloy"
+keep_alive = true
+log_path = "var/log/grafana-alloy.log"
+error_log_path = "var/log/grafana-alloy.log"
+
+[build]
+system = "autotools"

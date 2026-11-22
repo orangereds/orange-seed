@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "killport"
+version = "2.0.2"
+description = "Command-line tool to kill processes listening on a specific port"
+homepage = "https://github.com/jkfran/killport"
+
+[source]
+url = "https://github.com/jkfran/killport/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "01c30e5a213582daf829332aa8bf96f41404f6871e58d85f5a5af53f454d8127"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "utf8cpp"
+version = "5.0.0"
+description = "UTF-8 with C++ in a Portable Way"
+homepage = "https://github.com/nemtrif/utfcpp"
+
+[source]
+url = "https://github.com/nemtrif/utfcpp/archive/refs/tags/v5.0.0.tar.gz"
+sha256 = "42c36e1ef1307b1186996e4644f9999970e26325670b99019f3408bf0d3c952a"
+
+[build]
+system = "cmake"

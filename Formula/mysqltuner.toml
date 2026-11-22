@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mysqltuner"
+version = "2.9.4"
+description = "Increase performance and stability of a MySQL installation"
+homepage = "https://mysqltuner.com/"
+
+[source]
+url = "https://github.com/jmrenouard/MySQLTuner-perl/archive/refs/tags/v2.9.4.tar.gz"
+sha256 = "8732ea93f2e382463f368fcd8e0445659856371d828262e85e9690e3f43b8f40"
+
+[build]
+system = "autotools"

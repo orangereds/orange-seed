@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "promtail"
+version = "3.7.1"
+description = "Log agent for Loki"
+homepage = "https://grafana.com/loki"
+
+[source]
+url = "https://github.com/grafana/loki/archive/refs/tags/v3.7.1.tar.gz"
+sha256 = "05c5d23eff751b9c4f4e49918359e35b7ba840a5b504e3eac0befe4ad94ad464"
+
+[service]
+run = "opt/promtail/bin/promtail -config.file=#{etc}/promtail-local-config.yaml"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/promtail.log"
+error_log_path = "var/log/promtail.log"
+
+[build]
+system = "autotools"

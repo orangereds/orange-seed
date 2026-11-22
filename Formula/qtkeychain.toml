@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "qtbase"]
+
+[package]
+name = "qtkeychain"
+version = "0.18.0"
+description = "Platform-independent Qt API for storing passwords securely"
+homepage = "https://github.com/frankosterfeld/qtkeychain"
+
+[source]
+url = "https://github.com/frankosterfeld/qtkeychain/archive/refs/tags/0.18.0.tar.gz"
+sha256 = "837af59f2b950760a73eff81ccae817f7d3051183b447438dc610bb984a41691"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "tmux"]
+
+[package]
+name = "lazy-tmux"
+version = "0.3.7"
+description = "Save all your tmux sessions and lazy restore them"
+homepage = "https://lazy-tmux.xyz"
+
+[source]
+url = "https://github.com/alchemmist/lazy-tmux/archive/refs/tags/v0.3.7.tar.gz"
+sha256 = "a7fdc0f4ea38d82bd611b2f24335447f959ebc60b0898aa41eeaea7e9d6782fb"
+
+[build]
+system = "autotools"

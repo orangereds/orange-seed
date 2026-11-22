@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "slack-mcp-server"
+version = "1.3.0"
+description = "Powerful MCP Slack Server with multiple transports and smart history fetch logic"
+homepage = "https://github.com/korotovsky/slack-mcp-server"
+
+[source]
+url = "https://github.com/korotovsky/slack-mcp-server/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "815b7852124b33823bd33f9d505149b876cc3a220259e379687304a19957f916"
+
+[build]
+system = "autotools"

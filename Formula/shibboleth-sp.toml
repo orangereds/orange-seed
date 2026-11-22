@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "apr", "apr-util", "boost", "httpd", "log4shib", "opensaml", "unixodbc", "xerces-c", "xml-security-c", "xml-tooling-c"]
+
+[package]
+name = "shibboleth-sp"
+version = "3.6.0_1"
+description = "Shibboleth 2 Service Provider daemon"
+homepage = "https://wiki.shibboleth.net/confluence/display/SHIB2"
+
+[source]
+url = "https://shibboleth.net/downloads/service-provider/3.6.0/shibboleth-sp-3.6.0.tar.bz2"
+sha256 = "17e071191db795b21e89d7793fd4603e2d1375d7ee8ff002a54c5d2c8ce77a2f"
+
+[service]
+run = "shibd -F -f -p var/run/shibboleth/shibd.pid"
+keep_alive = true
+
+[build]
+system = "autotools"

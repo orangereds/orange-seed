@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "jena"
+version = "0"
+description = "Framework for building semantic web and linked data apps"
+homepage = "https://jena.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=jena/binaries/apache-jena-6.2.0.tar.gz"
+sha256 = "14c12ef4aa2f0078a473be4b10b015e0e0b85e767d6867e8581679de8fec3f6e"
+
+[build]
+system = "autotools"

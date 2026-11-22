@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jd"
+version = "2.5.0"
+description = "JSON diff and patch"
+homepage = "https://github.com/josephburnett/jd"
+
+[source]
+url = "https://github.com/josephburnett/jd/archive/refs/tags/v2.5.0.tar.gz"
+sha256 = "f4d141122ad91d1e7628e9cfee95ca183113e144872cce61f6d3d56449efa19b"
+
+[build]
+system = "autotools"

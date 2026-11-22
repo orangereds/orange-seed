@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libstatgrab"
+version = "0.92.1"
+description = "Provides cross-platform access to statistics about the system"
+homepage = "https://libstatgrab.org/"
+
+[source]
+url = "https://github.com/libstatgrab/libstatgrab/releases/download/LIBSTATGRAB_0_92_1/libstatgrab-0.92.1.tar.gz"
+sha256 = "5688aa4a685547d7174a8a373ea9d8ee927e766e3cc302bdee34523c2c5d6c11"
+
+[build]
+system = "autotools"

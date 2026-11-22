@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "opentofu"
+version = "1.13.9"
+description = "Drop-in replacement for Terraform. Infrastructure as Code Tool"
+homepage = "https://opentofu.org/"
+
+[source]
+url = "https://github.com/opentofu/opentofu/archive/refs/tags/v1.13.9.tar.gz"
+sha256 = "acb73b84a4f32150f8a097841fe2c48a2e13d35656ddab4851f46a4d681cdde4"
+
+[build]
+system = "autotools"

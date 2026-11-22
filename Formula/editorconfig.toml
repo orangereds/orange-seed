@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pcre2"]
+
+[package]
+name = "editorconfig"
+version = "0.12.11"
+description = "Maintain consistent coding style between multiple editors"
+homepage = "https://editorconfig.org/"
+
+[source]
+url = "https://github.com/editorconfig/editorconfig-core-c/archive/refs/tags/v0.12.11.tar.gz"
+sha256 = "9d8b420b56a969ea3cf784861c72d26fa0e158fa1494d732df2c8a1480d36a5c"
+
+[build]
+system = "cmake"

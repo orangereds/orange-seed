@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "glib", "gstreamer", "gtk+3", "libusb"]
+
+[package]
+name = "aravis"
+version = "0.8.36"
+description = "Vision library for genicam based cameras"
+homepage = "https://github.com/AravisProject/aravis"
+
+[source]
+url = "https://github.com/AravisProject/aravis/releases/download/0.8.36/aravis-0.8.36.tar.xz"
+sha256 = "246deaa0042a387ff1bc00332d0fb80537ce14abde2c28d1a54c91f17adc51bf"
+
+[build]
+system = "autotools"

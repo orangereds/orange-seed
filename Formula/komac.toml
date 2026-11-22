@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "komac"
+version = "2.17.2"
+description = "Community Manifest Creator for Windows Package Manager (WinGet)"
+homepage = "https://github.com/russellbanks/Komac"
+
+[source]
+url = "https://github.com/russellbanks/Komac/archive/refs/tags/v2.17.2.tar.gz"
+sha256 = "389603a10151eceb5a424aea8339e39911111bcf385f90b140fea56275d47297"
+
+[build]
+system = "autotools"

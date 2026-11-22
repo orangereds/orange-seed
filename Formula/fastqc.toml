@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "fastqc"
+version = "0.13.0"
+description = "Quality control tool for high throughput sequence data"
+homepage = "https://www.bioinformatics.babraham.ac.uk/projects/fastqc/"
+
+[source]
+url = "https://github.com/s-andrews/FastQC/releases/download/v0.13.0/fastqc_v0.13.0.zip"
+sha256 = "c9504d47752e79ecfe61691e09bf367fc3f15167ac3fe83d9e33534fffbcc301"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libplist"]
+
+[package]
+name = "libtatsu"
+version = "1.1.1"
+description = "Library handling the communication with Apple's Tatsu Signing Server (TSS)"
+homepage = "https://libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/libtatsu/releases/download/1.1.1/libtatsu-1.1.1.tar.bz2"
+sha256 = "18f471f131c1d55ccc02fa09565d870030c6ce92f737b89fe1b3849941ebb303"
+
+[build]
+system = "autotools"

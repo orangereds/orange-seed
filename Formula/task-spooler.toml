@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "task-spooler"
+version = "0"
+description = "Batch system to run tasks one after another"
+homepage = "https://viric.name/soft/ts/"
+
+[source]
+url = "https://viric.name/soft/ts/ts-1.0.4.tar.gz"
+sha256 = "b1ab3db52dca36af3699178b8d0e936a30107f8d5c86a974163c580823b01790"
+
+[build]
+system = "make"

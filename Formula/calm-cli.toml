@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "calm-cli"
+version = "1.74.0"
+description = "CLI allows you to interact with the Common Architecture Language Model (CALM)"
+homepage = "https://github.com/finos/architecture-as-code/tree/main/cli"
+
+[source]
+url = "https://registry.npmjs.org/@finos/calm-cli/-/calm-cli-1.74.0.tgz"
+sha256 = "e2f68b6de690858b72ce7500b276af79193ac2006de506727580028713735b5d"
+
+[build]
+system = "autotools"

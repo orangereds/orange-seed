@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "zig@0.14", "ffmpeg"]
+
+[package]
+name = "glyph"
+version = "1.0.11_2"
+description = "Converts images/video to ASCII art"
+homepage = "https://github.com/seatedro/glyph"
+
+[source]
+url = "https://github.com/seatedro/glyph/archive/refs/tags/v1.0.11.tar.gz"
+sha256 = "7de7936a13b92b18240134bef64c006ab73988850a8776a1b276e22b73377f15"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "mariadb-connector-c", "unixodbc"]
+
+[package]
+name = "mariadb-connector-odbc"
+version = "3.2.10-src"
+description = "Database driver using the industry standard ODBC API"
+homepage = "https://mariadb.org/download/?tab=connector&prod=connector-odbc"
+
+[source]
+url = "https://archive.mariadb.org/connector-odbc-3.2.10/mariadb-connector-odbc-3.2.10-src.tar.gz"
+sha256 = "ee8b3472f9d7c19b50458893a958556a38f3d7900f91f97012a59bc2ab6f8869"
+
+[build]
+system = "cmake"

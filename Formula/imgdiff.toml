@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "imgdiff"
+version = "1.0.2"
+description = "Pixel-by-pixel image difference tool"
+homepage = "https://github.com/n7olkachev/imgdiff"
+
+[source]
+url = "https://github.com/n7olkachev/imgdiff/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "e057fffbf9960caf90d69387d6bc52e4c59637d75b6ee19cbc40d8a3238877e4"
+
+[build]
+system = "autotools"

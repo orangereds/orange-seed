@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "epoll-shim"
+version = "0.0.20240608"
+description = "Small epoll implementation using kqueue"
+homepage = "https://github.com/jiixyj/epoll-shim"
+
+[source]
+url = "https://github.com/jiixyj/epoll-shim/archive/refs/tags/v0.0.20240608.tar.gz"
+sha256 = "8f5125217e4a0eeb96ab01f9dfd56c38f85ac3e8f26ef2578e538e72e87862cb"
+
+[build]
+system = "cmake"

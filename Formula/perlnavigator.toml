@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "perlnavigator"
+version = "0"
+description = "Perl language server"
+homepage = "https://github.com/bscan/PerlNavigator"
+
+[source]
+url = "https://registry.npmjs.org/perlnavigator-server/-/perlnavigator-server-0.8.20.tgz"
+sha256 = "2e50dead7e169f865902ef6e447761705f9ef07b89df0bc5b754ff3d484112db"
+
+[build]
+system = "autotools"

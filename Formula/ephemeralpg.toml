@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@19", "libpq"]
+
+[package]
+name = "ephemeralpg"
+version = "3.4"
+description = "Run tests on an isolated, temporary Postgres database"
+homepage = "https://eradman.com/ephemeralpg/"
+
+[source]
+url = "https://github.com/eradman/ephemeralpg/archive/refs/tags/3.4.tar.gz"
+sha256 = "2300082455bf6a10d71a020d8b837d986dd72b0ef82572baf922f118c67cb52d"
+
+[build]
+system = "make"

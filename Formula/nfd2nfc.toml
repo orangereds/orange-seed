@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nfd2nfc"
+version = "2.1.0"
+description = "Convert filesystem entry names from NFD to NFC for cross-platform compatibility"
+homepage = "https://github.com/elgar328/nfd2nfc"
+
+[source]
+url = "https://github.com/elgar328/nfd2nfc/archive/refs/tags/v2.1.0.tar.gz"
+sha256 = "76ba19c0d93fb0e1020f6758cde0c9fc3308ee682afab524b6f1f1fdc084c4a0"
+
+[build]
+system = "autotools"

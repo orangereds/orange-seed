@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "git-delete-merged-branches"
+version = "0"
+description = "Command-line tool to delete merged Git branches"
+homepage = "https://github.com/hartwork/git-delete-merged-branches"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a4/33/1e405ab4476d848521c9e8003d71c3def188843c9a385c5d546c651c5724/git_delete_merged_branches-7.7.1.tar.gz"
+sha256 = "927b7a5fd43da974a233451bbbebf6ce630b1da3cfda7f69fe8905bac284e7d5"
+
+[build]
+system = "autotools"

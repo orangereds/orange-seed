@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@19", "node"]
+
+[package]
+name = "postgraphile"
+version = "5.2.1"
+description = "GraphQL schema created by reflection over a PostgreSQL schema"
+homepage = "https://www.graphile.org/postgraphile/"
+
+[source]
+url = "https://registry.npmjs.org/postgraphile/-/postgraphile-5.2.1.tgz"
+sha256 = "a25fde87ae5e7b3ed1cfd70e3f757be04c009c9f188febc497b948513d39bba0"
+
+[build]
+system = "autotools"

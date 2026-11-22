@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "vite"
+version = "8.3.8"
+description = "Next generation frontend tooling. It's fast!"
+homepage = "https://vitejs.dev/"
+
+[source]
+url = "https://registry.npmjs.org/vite/-/vite-8.3.8.tgz"
+sha256 = "96b14ea41f889b70b1ccf74dd5861e365816fce8632c5073ce8d70c90509738b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gmp"]
+
+[package]
+name = "isl"
+version = "0.28"
+description = "Integer Set Library for the polyhedral model"
+homepage = "https://libisl.sourceforge.io/"
+
+[source]
+url = "https://libisl.sourceforge.io/isl-0.28.tar.xz"
+sha256 = "3dc31b8e1b18329e42d5dfbf84dd55e15c59b61569a2ab246f61497d9592f727"
+
+[build]
+system = "autotools"

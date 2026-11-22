@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "eigen"]
+
+[package]
+name = "orocos-kdl"
+version = "1.5.4"
+description = "Orocos Kinematics and Dynamics C++ library"
+homepage = "https://orocos.org/"
+
+[source]
+url = "https://github.com/orocos/orocos_kinematics_dynamics/archive/refs/tags/1.5.4.tar.gz"
+sha256 = "b47c75b03d5980a8b3a5382ab1176ae552f2f5418ad42b0e530a4178e3e1c301"
+
+[build]
+system = "cmake"

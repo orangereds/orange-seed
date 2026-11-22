@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "cwalk"
+version = "1.2.9"
+description = "Cross-platform path library for C/C++"
+homepage = "https://likle.github.io/cwalk/"
+
+[source]
+url = "https://github.com/likle/cwalk/archive/refs/tags/v1.2.9.tar.gz"
+sha256 = "54f160031687ec90a414e0656cf6266445207cb91b720dacf7a7c415d6bc7108"
+
+[build]
+system = "cmake"

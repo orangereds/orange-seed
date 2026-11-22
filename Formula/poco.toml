@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4", "pcre2", "utf8proc"]
+
+[package]
+name = "poco"
+version = "1.15.4-all_1"
+description = "C++ class libraries for building network and internet-based applications"
+homepage = "https://pocoproject.org/"
+
+[source]
+url = "https://pocoproject.org/releases/poco-1.15.4/poco-1.15.4-all.tar.bz2"
+sha256 = "d92e9e6711957a6b4415d4ffe0df5470b229bfa123334865c3b6a065030cd3a8"
+
+[build]
+system = "cmake"

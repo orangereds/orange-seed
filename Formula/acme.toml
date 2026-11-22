@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "acme"
+version = "0.97"
+description = "Crossassembler for multiple environments"
+homepage = "https://sourceforge.net/projects/acme-crossass/"
+
+[source]
+url = "https://github.com/UffeJakobsen/acme/archive/d2683cc64dcb1afc643388100b14e575f8bfb1bd.tar.gz"
+sha256 = "efda4ca8db9811e28e4604d25b5941888c949c175d1b47e40610c90a7b74a73d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "reshape"
+version = "0.11.2.crate"
+description = "Easy-to-use, zero-downtime schema migration tool for Postgres"
+homepage = "https://github.com/fabianlindfors/reshape"
+
+[source]
+url = "https://static.crates.io/crates/reshape/reshape-0.11.2.crate"
+sha256 = "17c0680e957ab12c43da0c55741ca7c1dd1003b20216ca7f84ca1d3aff57391c"
+
+[build]
+system = "autotools"

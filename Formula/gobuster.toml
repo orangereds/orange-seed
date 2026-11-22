@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gobuster"
+version = "3.8.2"
+description = "Directory/file & DNS busting tool written in Go"
+homepage = "https://github.com/OJ/gobuster"
+
+[source]
+url = "https://github.com/OJ/gobuster/archive/refs/tags/v3.8.2.tar.gz"
+sha256 = "6919232eafbd0c4bbc9664d7f434b6a8d82133aa09f1400341ef6985ceff208a"
+
+[build]
+system = "autotools"

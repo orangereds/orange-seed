@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "lua", "python@3.15", "ruby", "libsodium", "ncurses"]
+
+[package]
+name = "vim"
+version = "9.2.1380"
+description = "Vi 'workalike' with many additional features"
+homepage = "https://www.vim.org/"
+
+[source]
+url = "https://github.com/vim/vim/archive/refs/tags/v9.2.1380.tar.gz"
+sha256 = "b0ed9b4c3c9384eb5f77f924bd5382ab995b54c9bcc69bb66ab38f83f3cc5b5b"
+
+[build]
+system = "autotools"

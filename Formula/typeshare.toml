@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typeshare"
+version = "1.13.4"
+description = "Synchronize type definitions between Rust and other languages for seamless FFI"
+homepage = "https://github.com/1Password/typeshare"
+
+[source]
+url = "https://github.com/1Password/typeshare/archive/refs/tags/v1.13.4.tar.gz"
+sha256 = "7a929012e1f2a4e07616dd769e049adbb5aebae9faf0776f6268a0673281dd78"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dockviz"
+version = "0.6.4"
+description = "Visualizing docker data"
+homepage = "https://github.com/justone/dockviz"
+
+[source]
+url = "https://github.com/justone/dockviz/archive/refs/tags/v0.6.4.tar.gz"
+sha256 = "228e2c11fad1de38ec63e5d46e60bf9411625447c3c381dd0cd99aaa05d4e5db"
+
+[build]
+system = "autotools"

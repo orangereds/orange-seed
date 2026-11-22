@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "include-what-you-use"
+version = "0.27.src"
+description = "Tool to analyze #includes in C and C++ source files"
+homepage = "https://include-what-you-use.org/"
+
+[source]
+url = "https://include-what-you-use.org/downloads/include-what-you-use-0.27.src.tar.gz"
+sha256 = "f6871eeea7dc9741cd00aae546d7514abe84b91ca3d1f096f15095e6ac14875f"
+
+[build]
+system = "cmake"

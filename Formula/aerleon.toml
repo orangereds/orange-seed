@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "aerleon"
+version = "1.18.0"
+description = "Generate firewall configs for multiple firewall platforms"
+homepage = "https://aerleon.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/32/fb/4c4c1efe07861f45fd6a06e67f9c5756663ff8c72fafda2ebaa7a71d0bd5/aerleon-1.18.0.tar.gz"
+sha256 = "dcfcbefd62b39a6412912760b95360f5bd67239b4077f542c9095f36e419e341"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ntfy"
+version = "2.38.1"
+description = "Send push notifications to your phone or desktop via PUT/POST"
+homepage = "https://ntfy.sh/"
+
+[source]
+url = "https://github.com/binwiederhier/ntfy/archive/refs/tags/v2.38.1.tar.gz"
+sha256 = "c8de56e2bc3a9b738b1927c922c452bab5c3eb45a3870e51c01cdb43030abbe0"
+
+[build]
+system = "autotools"

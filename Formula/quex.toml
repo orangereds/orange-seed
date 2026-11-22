@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "quex"
+version = "0.71.2_1"
+description = "Generate lexical analyzers"
+homepage = "https://quex.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/quex/quex-0.71.2.zip"
+sha256 = "0453227304a37497e247e11b41a1a8eb04bcd0af06a3f9d627d706b175a8a965"
+
+[build]
+system = "autotools"

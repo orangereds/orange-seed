@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cfitsio", "freetype", "jpeg-turbo"]
+
+[package]
+name = "montage"
+version = "0_1"
+description = "Toolkit for assembling FITS images into custom mosaics"
+homepage = "http://montage.ipac.caltech.edu"
+
+[source]
+url = "https://distfiles.macports.org/montage/Montage_v6.0.tar.gz"
+sha256 = "1f540a7389d30fcf9f8cd9897617cc68b19350fbcde97c4d1cdc5634de1992c6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "chafa", "faad2", "fftw", "glib", "libogg", "libvorbis", "opus", "opusfile", "taglib", "gdk-pixbuf", "gettext"]
+
+[package]
+name = "kew"
+version = "4.4.3"
+description = "Command-line music player"
+homepage = "https://github.com/ravachol/kew"
+
+[source]
+url = "https://github.com/ravachol/kew/archive/refs/tags/v4.4.3.tar.gz"
+sha256 = "e2d3f508c56a03acadbb35a1659ab7c64f4fa4ef11fa0c9b5bcf880ef8bdc75e"
+
+[build]
+system = "make"

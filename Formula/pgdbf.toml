@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pgdbf"
+version = "0.6.2"
+description = "Converter of XBase/FoxPro tables to PostgreSQL"
+homepage = "https://github.com/kstrauser/pgdbf"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pgdbf/pgdbf/0.6.2/pgdbf-0.6.2.tar.xz"
+sha256 = "e46f75e9ac5f500bd12c4542b215ea09f4ebee638d41dcfd642be8e9769aa324"
+
+[build]
+system = "autotools"

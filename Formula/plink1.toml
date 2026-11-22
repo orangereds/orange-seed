@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "plink1"
+version = "1.9.1"
+description = "Whole-genome association analysis toolset"
+homepage = "https://www.cog-genomics.org/plink/1.9/"
+
+[source]
+url = "https://github.com/chrchang/plink-ng/archive/refs/tags/v1.9.1.tar.gz"
+sha256 = "c1da6fc12829108743affc94866391d96021d3c55ed52735e110b89654af85b3"
+
+[build]
+system = "autotools"

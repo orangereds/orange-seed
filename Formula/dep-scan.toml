@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "pydantic", "python@3.15", "rpds-py", "sqlite"]
+
+[package]
+name = "dep-scan"
+version = "0"
+description = "Security and risk audit tool for project dependencies and container images"
+homepage = "https://github.com/owasp-dep-scan/dep-scan"
+
+[source]
+url = "https://files.pythonhosted.org/packages/db/3d/a296ae232f0e911617e2b7ef5dad49bdbebf1ff6a6bf66fdfdc4441e33b9/owasp_depscan-6.3.2.tar.gz"
+sha256 = "fa35ab1b6cbcf8ade312edd8e8d5ed87b5f599938253eb413b5372e8ade4bf2e"
+
+[service]
+run = "opt/dep-scan/bin/depscan --server"
+keep_alive = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "mail-deduplicate"
+version = "0"
+description = "CLI to deduplicate mails from mail boxes"
+homepage = "https://kdeldycke.github.io/mail-deduplicate/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0a/30/7221997bf2d4dae663c1492b9d346d931de01ab6710b24eb21fbd6bc0f16/mail_deduplicate-9.7.1.tar.gz"
+sha256 = "e99120e3c505a06bbc2f963a515399b34515ae2eaa48f187c968067ed89ca45d"
+
+[build]
+system = "autotools"

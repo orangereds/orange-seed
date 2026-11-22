@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "glm", "pkgconf", "boost", "freetype", "glew", "libpng", "pcre2", "sdl2-compat", "sdl2_image"]
+
+[package]
+name = "gource"
+version = "0.56_1"
+description = "Version Control Visualization Tool"
+homepage = "https://gource.io/"
+
+[source]
+url = "https://github.com/acaudwell/Gource/releases/download/gource-0.56/gource-0.56.tar.gz"
+sha256 = "332d89b9a979b17417fbce0edd72b19914f1409fd126a13d11787d0e15dc0d79"
+
+[build]
+system = "autotools"

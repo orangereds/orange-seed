@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "linecast"
+version = "2.12.0"
+description = "Weather, tides, the sun, the moon, and maps, drawn for the terminal"
+homepage = "https://github.com/ashuttl/linecast"
+
+[source]
+url = "https://files.pythonhosted.org/packages/65/36/e4bd56ea369b4b3dacdae8b65edac70c681ff3ff8ea4f27a7716c11299c3/linecast-2.12.0.tar.gz"
+sha256 = "3047afd970f9ff15f30095685bbba878e129273c76c19170cce187edd28a3105"
+
+[build]
+system = "autotools"

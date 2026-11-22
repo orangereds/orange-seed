@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "scilla"
+version = "1.3.4"
+description = "DNS, subdomain, port, directory enumeration tool"
+homepage = "https://edoardottt.com/"
+
+[source]
+url = "https://github.com/edoardottt/scilla/archive/refs/tags/v1.3.4.tar.gz"
+sha256 = "f1a738745a2b45aa1dd37e1754a186bc08fb186f01e241257c7ae5a176eb7d44"
+
+[build]
+system = "autotools"

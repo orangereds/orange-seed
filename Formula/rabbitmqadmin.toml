@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rabbitmqadmin"
+version = "2.35.0"
+description = "Command-line tool for RabbitMQ that uses the HTTP API"
+homepage = "https://www.rabbitmq.com/docs/management-cli"
+
+[source]
+url = "https://github.com/rabbitmq/rabbitmqadmin-ng/archive/refs/tags/v2.35.0.tar.gz"
+sha256 = "b52d5964ef296cf6a356522626a622225a825ab1248844172ace0058e211f988"
+
+[build]
+system = "autotools"

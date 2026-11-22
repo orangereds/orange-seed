@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtool", "pkgconf", "python-setuptools", "libsndfile", "numpy", "python@3.15"]
+
+[package]
+name = "aubio"
+version = "0.4.9_4"
+description = "Extract annotations from audio signals"
+homepage = "https://aubio.org"
+
+[source]
+url = "https://sources.buildroot.net/aubio/aubio-0.4.9.tar.bz2"
+sha256 = "d48282ae4dab83b3dc94c16cf011bcb63835c1c02b515490e1883049c3d1f3da"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ask-cli"
+version = "2.30.7"
+description = "CLI tool for Alexa Skill Kit"
+homepage = "https://developer.amazon.com/en-US/docs/alexa/smapi/ask-cli-intro.html"
+
+[source]
+url = "https://registry.npmjs.org/ask-cli/-/ask-cli-2.30.7.tgz"
+sha256 = "437b55f774064e053b0185956afc69ecb38a8b53c996a6e1e49960918b54f909"
+
+[build]
+system = "autotools"

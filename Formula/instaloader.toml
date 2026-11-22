@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "instaloader"
+version = "4.16"
+description = "Download media from Instagram"
+homepage = "https://instaloader.github.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0b/8e/7e602450eb5460af3ba4c8bfc6e5dce57a085872889de6d2b35ee329f366/instaloader-4.16.tar.gz"
+sha256 = "85c2abedc0a3933cfa7c054661a2fba4bb8a03547e746f571fa503bea1aed331"
+
+[build]
+system = "autotools"

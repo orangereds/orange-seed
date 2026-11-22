@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcp"
+version = "1.2.3"
+description = "Fast & lightweight command-line tool for managing Xcode projects, built in Swift"
+homepage = "https://github.com/wojciech-kulik/XcodeProjectCLI"
+
+[source]
+url = "https://github.com/wojciech-kulik/XcodeProjectCLI/archive/refs/tags/v1.2.3.tar.gz"
+sha256 = "47e282024767603d31eed14ccc7082585409df58b7a8eca9009be3f4fce2b814"
+
+[build]
+system = "autotools"

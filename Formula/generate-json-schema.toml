@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "generate-json-schema"
+version = "0"
+description = "Generate a JSON Schema from Sample JSON"
+homepage = "https://github.com/Nijikokun/generate-schema"
+
+[source]
+url = "https://registry.npmjs.org/generate-schema/-/generate-schema-2.6.0.tgz"
+sha256 = "1ddbf91aab2d649108308d1de7af782d9270a086919edb706f48d0216d51374a"
+
+[build]
+system = "autotools"

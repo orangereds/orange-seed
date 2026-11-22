@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "gperftools"
+version = "2.19.3"
+description = "Multi-threaded malloc() and performance analysis tools"
+homepage = "https://github.com/gperftools/gperftools"
+
+[source]
+url = "https://github.com/gperftools/gperftools/releases/download/gperftools-2.19.3/gperftools-2.19.3.tar.gz"
+sha256 = "7c8112efa6f7afb51d3ef0f4d5f307f16e8acd670bc63a88abf8260775d3eead"
+
+[build]
+system = "autotools"

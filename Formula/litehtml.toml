@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gumbo-parser"]
+
+[package]
+name = "litehtml"
+version = "0.10_1"
+description = "Fast and lightweight HTML/CSS rendering engine"
+homepage = "http://www.litehtml.com/"
+
+[source]
+url = "https://github.com/litehtml/litehtml/archive/refs/tags/v0.10.tar.gz"
+sha256 = "7700eced92847d34ad9846b138cf195a9c974b519be70de58797880ae9da649e"
+
+[build]
+system = "cmake"

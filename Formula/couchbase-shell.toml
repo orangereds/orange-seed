@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "couchbase-shell"
+version = "1.4.0"
+description = "Modern and fun shell for Couchbase Server and Capella"
+homepage = "https://couchbase.sh"
+
+[source]
+url = "https://github.com/couchbaselabs/couchbase-shell/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "9300027b9d9d20904ed0306e5a7fe745f3bba8519d17e0f743cab52f3c574fa9"
+
+[build]
+system = "autotools"

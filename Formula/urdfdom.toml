@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "console_bridge", "tinyxml2", "urdfdom_headers"]
+
+[package]
+name = "urdfdom"
+version = "6.0.2"
+description = "Unified Robot Description Format (URDF) parser"
+homepage = "https://wiki.ros.org/urdf/"
+
+[source]
+url = "https://github.com/ros/urdfdom/archive/refs/tags/6.0.2.tar.gz"
+sha256 = "47e26b6553afe8bb49cc675a5209fb9f2feb91ab9310360f8015d4cb98cc094a"
+
+[build]
+system = "cmake"

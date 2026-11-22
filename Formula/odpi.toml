@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "odpi"
+version = "26.0.0"
+description = "Oracle Database Programming Interface for Drivers and Applications"
+homepage = "https://oracle.github.io/odpi/"
+
+[source]
+url = "https://github.com/oracle/odpi/archive/refs/tags/v26.0.0.tar.gz"
+sha256 = "419cc5d64ad052261244a818d40beb135ce147480f9ef19acc105eba8a96d60d"
+
+[build]
+system = "make"

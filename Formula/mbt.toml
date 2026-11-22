@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mbt"
+version = "1.2.53"
+description = "Multi-Target Application (MTA) build tool for Cloud Applications"
+homepage = "https://sap.github.io/cloud-mta-build-tool"
+
+[source]
+url = "https://github.com/SAP/cloud-mta-build-tool/archive/refs/tags/v1.2.53.tar.gz"
+sha256 = "d4e24f95f17ae8826d398a429b015d4436d224840d99a7af7f061d9ed026aab4"
+
+[build]
+system = "autotools"

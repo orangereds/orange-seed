@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "coconut"
+version = "3.2.0_4"
+description = "Simple, elegant, Pythonic functional programming"
+homepage = "https://coconut-lang.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/06/f4/38f315a1d8568257a74fe482e925368a2ef4bccc9b1d5751f003570bccc5/coconut-3.2.0.tar.gz"
+sha256 = "0c64554deef3a35b2688368315cc2087dd8244e1b13d6b869fe5c2e679d6a0ad"
+
+[build]
+system = "autotools"

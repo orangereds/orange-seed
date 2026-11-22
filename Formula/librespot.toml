@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "librespot"
+version = "0.8.0"
+description = "Open Source Spotify client library"
+homepage = "https://github.com/librespot-org/librespot"
+
+[source]
+url = "https://github.com/librespot-org/librespot/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "0e4922997e1c67d27b3f50dcc388ecb8a3c08eba23b764879071f6e9e8c07ec7"
+
+[build]
+system = "autotools"

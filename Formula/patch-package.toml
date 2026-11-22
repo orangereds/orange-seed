@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "patch-package"
+version = "8.0.1"
+description = "Fix broken node modules instantly"
+homepage = "https://github.com/ds300/patch-package"
+
+[source]
+url = "https://registry.npmjs.org/patch-package/-/patch-package-8.0.1.tgz"
+sha256 = "fb36b47e1f22a3d612311bc9a0464b0213e0971958cfabb8f26a9537b1d7c4f7"
+
+[build]
+system = "autotools"

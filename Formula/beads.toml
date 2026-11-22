@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "dolt", "icu4c@79"]
+
+[package]
+name = "beads"
+version = "1.3.4"
+description = "Memory upgrade for your coding agent"
+homepage = "https://github.com/gastownhall/beads"
+
+[source]
+url = "https://github.com/gastownhall/beads/archive/refs/tags/v1.3.4.tar.gz"
+sha256 = "450284d684e9b114a59ea60afb578dbdca40b2e5307d2c349a9ec37760409c46"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "gradle@8", "openjdk"]
+
+[package]
+name = "alda"
+version = "0"
+description = "Music programming language for musicians"
+homepage = "https://alda.io"
+
+[source]
+url = "https://github.com/alda-lang/alda/archive/refs/tags/release-2.4.8.tar.gz"
+sha256 = "ff99d01029f081cd8f180ddc4cad06732b4d32f6817f5f8ceb73c96b7741f01b"
+
+[build]
+system = "autotools"

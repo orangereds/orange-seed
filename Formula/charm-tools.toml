@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "charm", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "charm-tools"
+version = "0_1"
+description = "Tools for authoring and maintaining juju charms"
+homepage = "https://github.com/juju/charm-tools"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b4/0b/579c79350b94ad0b934ca06fc7ab71504527b8f1d5e505819cd430a46f97/charm_tools-3.0.9.tar.gz"
+sha256 = "802d305d61d1872029bea81a6435d7a1c8f9fdbc5e397426567bdc0788cc3bb2"
+
+[build]
+system = "autotools"

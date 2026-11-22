@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "carapace"
+version = "1.8.2"
+description = "Multi-shell multi-command argument completer"
+homepage = "https://carapace.sh"
+
+[source]
+url = "https://github.com/carapace-sh/carapace-bin/archive/refs/tags/v1.8.2.tar.gz"
+sha256 = "56b934e1c94cb4e10d912c0158a74f8b727e430e6d9c8aff5bfb99e124fa3ace"
+
+[build]
+system = "autotools"

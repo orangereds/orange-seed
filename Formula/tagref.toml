@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tagref"
+version = "1.14.0"
+description = "Refer to other locations in your codebase"
+homepage = "https://github.com/stepchowfun/tagref"
+
+[source]
+url = "https://github.com/stepchowfun/tagref/archive/refs/tags/v1.14.0.tar.gz"
+sha256 = "a422ed19499436ed126bd9b53c8744cc4ab81832f90b1b6ae8481ecb5ed4b1d8"
+
+[build]
+system = "autotools"

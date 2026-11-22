@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "codesnap"
+version = "0.14.0"
+description = "Generates code snapshots in various formats"
+homepage = "https://codesnap-docs.netlify.app/"
+
+[source]
+url = "https://github.com/codesnap-rs/codesnap/archive/refs/tags/v0.14.0.tar.gz"
+sha256 = "21599899581c0a8dcdd3a8fcb30e212a521aa99bac35b9ad04ace2ae8059e256"
+
+[build]
+system = "autotools"

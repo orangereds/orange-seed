@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "postgresql@18", "postgresql@19", "postgis"]
+
+[package]
+name = "pgrouting"
+version = "4.0.2_1"
+description = "Provides geospatial routing for PostGIS/PostgreSQL database"
+homepage = "https://pgrouting.org/"
+
+[source]
+url = "https://github.com/pgRouting/pgrouting/releases/download/v4.0.2/pgrouting-4.0.2.tar.gz"
+sha256 = "2faf31b178db969637c1f392ba3ba18fba8d5aed15bdc73fbb4a53a72c5d0f71"
+
+[build]
+system = "cmake"

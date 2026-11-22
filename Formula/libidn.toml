@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libidn"
+version = "1.44"
+description = "International domain name library"
+homepage = "https://www.gnu.org/software/libidn/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libidn/libidn-1.44.tar.gz"
+sha256 = "499608bab3a65650a0ea52888c13a8deebe3f71408e319acd9ec52e02eb13959"
+
+[build]
+system = "autotools"

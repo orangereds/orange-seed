@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "rtmpdump"
+version = "0_2"
+description = "Tool for downloading RTMP streaming media"
+homepage = "https://rtmpdump.mplayerhq.hu/"
+
+[source]
+url = "git://git.ffmpeg.org/rtmpdump.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

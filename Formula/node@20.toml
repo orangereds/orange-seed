@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python@3.13", "brotli", "c-ares", "icu4c@78", "libnghttp2", "libuv", "openssl@3"]
+
+[package]
+name = "node@20"
+version = "0"
+description = "Open-source, cross-platform JavaScript runtime environment"
+homepage = "https://nodejs.org/"
+
+[source]
+url = "https://nodejs.org/dist/v20.20.2/node-v20.20.2.tar.xz"
+sha256 = "7aeeacdb858299e09a3e0510d4bb8b266923894a9e3ac0058ba89d4ecf4a4cca"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

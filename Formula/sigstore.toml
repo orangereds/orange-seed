@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "openssl@4", "pydantic", "python@3.15"]
+
+[package]
+name = "sigstore"
+version = "4.5.1_1"
+description = "Codesigning tool for Python packages"
+homepage = "https://github.com/sigstore/sigstore-python"
+
+[source]
+url = "https://files.pythonhosted.org/packages/bb/26/0561ddc1fcda5a12e577b4716f3e345905fc5e98978def96bc78e2d538ce/sigstore-4.5.1.tar.gz"
+sha256 = "14accda8a7d4ef47cb25b4903829fb10f011048c261a5937724a43d073c4f34d"
+
+[build]
+system = "autotools"

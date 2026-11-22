@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libgcrypt", "libgpg-error"]
+
+[package]
+name = "clamz"
+version = "0.5_1"
+description = "Download MP3 files from Amazon's music store"
+homepage = "https://code.google.com/archive/p/clamz/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/clamz/clamz-0.5.tar.gz"
+sha256 = "5a63f23f15dfa6c2af00ff9531ae9bfcca0facfe5b1aa82790964f050a09832b"
+
+[build]
+system = "autotools"

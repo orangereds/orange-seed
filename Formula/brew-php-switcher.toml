@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "brew-php-switcher"
+version = "2.6"
+description = "Switch Apache / Valet / CLI configs between PHP versions"
+homepage = "https://github.com/philcook/brew-php-switcher"
+
+[source]
+url = "https://github.com/philcook/brew-php-switcher/archive/refs/tags/v2.6.tar.gz"
+sha256 = "a1d679b9d63d2a7b1e382c1e923bcb1aa717cee9fe605b0aaa70bb778fe99518"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kamal-proxy"
+version = "0.10.3"
+description = "Lightweight proxy server for Kamal"
+homepage = "https://kamal-deploy.org/"
+
+[source]
+url = "https://github.com/basecamp/kamal-proxy/archive/refs/tags/v0.10.3.tar.gz"
+sha256 = "ba763c06fd22e3ea4d7aaa26d8aac206727d266943fc3b444ff3d841d2074406"
+
+[build]
+system = "autotools"

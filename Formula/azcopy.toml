@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "azcopy"
+version = "10.34.2"
+description = "Azure Storage data transfer utility"
+homepage = "https://github.com/Azure/azure-storage-azcopy"
+
+[source]
+url = "https://github.com/Azure/azure-storage-azcopy/archive/refs/tags/v10.34.2.tar.gz"
+sha256 = "6ebe5d4d8a4776313d0440230a8a8d94a227d09e072d745d592b359b205e719f"
+
+[build]
+system = "autotools"

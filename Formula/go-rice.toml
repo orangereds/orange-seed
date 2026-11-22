@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-rice"
+version = "1.0.3"
+description = "Easily embed resources like HTML, JS, CSS, images, and templates in Go"
+homepage = "https://github.com/GeertJohan/go.rice"
+
+[source]
+url = "https://github.com/GeertJohan/go.rice/archive/refs/tags/v1.0.3.tar.gz"
+sha256 = "dda8be9c9c594e164e664479001e7113d0f6571b3fc93253ef132096540f0673"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "moor"
+version = "2.19.7"
+description = "Nice to use pager for humans"
+homepage = "https://github.com/walles/moor"
+
+[source]
+url = "https://github.com/walles/moor/archive/refs/tags/v2.19.7.tar.gz"
+sha256 = "940547b19cd7307b93572739fbc9b71dcb196a191f05fb941e472295d9389f3a"
+
+[build]
+system = "autotools"

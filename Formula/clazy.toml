@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qtbase", "llvm", "coreutils"]
+
+[package]
+name = "clazy"
+version = "1.17.1_1"
+description = "Qt oriented static code analyzer"
+homepage = "https://www.kdab.com/"
+
+[source]
+url = "https://invent.kde.org/sdk/clazy/-/archive/v1.17.1/clazy-v1.17.1.tar.gz"
+sha256 = "d67a930833cdfef446a3db2e3c39a966876f09358bca31cd1e67aace0773bc31"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "gettext", "meson", "ninja", "pkgconf", "python-setuptools", "python@3.15", "pcre2"]
+
+[package]
+name = "glib"
+version = "2.90.1"
+description = "Core application library for C"
+homepage = "https://docs.gtk.org/glib/"
+
+[source]
+url = "https://download.gnome.org/sources/glib/2.90/glib-2.90.1.tar.xz"
+sha256 = "93c941aa17d5eb1d53fe838365f29a8b4e539c222a256d974ec8f30fc413e396"
+
+[build]
+system = "autotools"

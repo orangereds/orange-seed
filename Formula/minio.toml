@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "minio"
+version = "2025-10-15T17-29-55Z"
+description = "High Performance, Kubernetes Native Object Storage"
+homepage = "https://min.io"
+
+[source]
+url = "https://github.com/minio/minio.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/minio/bin/minio server --certs-dir=#{etc}/minio/certs --address=:9000 var/minio"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/minio.log"
+error_log_path = "var/log/minio.log"
+
+[build]
+system = "autotools"

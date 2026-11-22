@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rekor-cli"
+version = "1.6.3"
+description = "CLI for interacting with Rekor"
+homepage = "https://docs.sigstore.dev/logging/overview/"
+
+[source]
+url = "https://github.com/sigstore/rekor/archive/refs/tags/v1.6.3.tar.gz"
+sha256 = "20d51b5a616788a3740dc86e47ba606c90a39f1fafe64f81715e7aa595ddd352"
+
+[build]
+system = "autotools"

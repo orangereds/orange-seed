@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gci"
+version = "0.14.0"
+description = "Control Golang package import order and make it always deterministic"
+homepage = "https://github.com/daixiang0/gci"
+
+[source]
+url = "https://github.com/daixiang0/gci/archive/refs/tags/v0.14.0.tar.gz"
+sha256 = "433d6dd89ebcb9f928f91729b9243971f6233970f78efc41ae672fe376de4e88"
+
+[build]
+system = "autotools"

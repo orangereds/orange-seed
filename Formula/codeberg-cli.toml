@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@3"]
+
+[package]
+name = "codeberg-cli"
+version = "0.5.5"
+description = "CLI for Codeberg"
+homepage = "https://codeberg.org/Aviac/codeberg-cli"
+
+[source]
+url = "https://codeberg.org/Aviac/codeberg-cli/archive/v0.5.5.tar.gz"
+sha256 = "d824fa482f122cb6b7189ec5ab75bc2c672a623de65cca8884bbbac54e062af2"
+
+[build]
+system = "autotools"

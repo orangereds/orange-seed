@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "serialize"
+version = "2.1.6"
+description = "Single-header bitpacking serializer for C++ aimed at game networking"
+homepage = "https://github.com/mas-bandwidth/serialize"
+
+[source]
+url = "https://github.com/mas-bandwidth/serialize/archive/refs/tags/v2.1.6.tar.gz"
+sha256 = "6296e40a2fe58d080363f1950763d100219dcbd3def3c4a60c1461c9bc16f6bf"
+
+[build]
+system = "cmake"

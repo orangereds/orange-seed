@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gotestwaf"
+version = "0.5.11"
+description = "Tool for API and OWASP attack simulation"
+homepage = "https://lab.wallarm.com/test-your-waf-before-hackers/"
+
+[source]
+url = "https://github.com/wallarm/gotestwaf/archive/refs/tags/v0.5.11.tar.gz"
+sha256 = "4f80879d0e8e4fc81c98c720f3ee7352f4e50176dac84442124c92ea3a886027"
+
+[build]
+system = "autotools"

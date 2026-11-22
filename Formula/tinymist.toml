@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tinymist"
+version = "0.15.12"
+description = "Services for Typst"
+homepage = "https://myriad-dreamin.github.io/tinymist/"
+
+[source]
+url = "https://github.com/Myriad-Dreamin/tinymist/archive/refs/tags/v0.15.12.tar.gz"
+sha256 = "bce3749b67a5cdf6cdb7a91168b73c91a56bd129a7bf66c747835d5e572078e7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4"]
+
+[package]
+name = "civetweb"
+version = "1.16_1"
+description = "C/C++ embeddable web server with optional CGI, SSL and Lua support"
+homepage = "https://github.com/civetweb/civetweb"
+
+[source]
+url = "https://github.com/civetweb/civetweb/archive/refs/tags/v1.16.tar.gz"
+sha256 = "f0e471c1bf4e7804a6cfb41ea9d13e7d623b2bcc7bc1e2a4dd54951a24d60285"
+
+[build]
+system = "cmake"

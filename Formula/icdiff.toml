@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "icdiff"
+version = "0"
+description = "Improved colored diff"
+homepage = "https://www.jefftk.com/icdiff"
+
+[source]
+url = "https://github.com/jeffkaufman/icdiff/archive/refs/tags/release-2.0.10.tar.gz"
+sha256 = "0db463ddf9006c671170022cae2ce6ef101b0da6329ab59ae90a534ef57fea5e"
+
+[build]
+system = "autotools"

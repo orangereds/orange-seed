@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ocm"
+version = "1.0.17"
+description = "CLI for the Red Hat OpenShift Cluster Manager"
+homepage = "https://www.openshift.com/"
+
+[source]
+url = "https://github.com/openshift-online/ocm-cli/archive/refs/tags/v1.0.17.tar.gz"
+sha256 = "32a1cdb04cf69e8a221448866ecd3a3c853059cbac718ac66e85c9cff9d04305"
+
+[build]
+system = "autotools"

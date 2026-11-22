@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "robin-map"
+version = "1.4.1"
+description = "C++ implementation of a fast hash map and hash set"
+homepage = "https://github.com/Tessil/robin-map"
+
+[source]
+url = "https://github.com/Tessil/robin-map/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "0e3f53a377fdcdc5f9fed7a4c0d4f99e82bbb64175233bd13427fef9a771f4a1"
+
+[build]
+system = "cmake"

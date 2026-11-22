@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man"]
+
+[package]
+name = "vgrep"
+version = "2.8.0"
+description = "User-friendly pager for grep"
+homepage = "https://github.com/vrothberg/vgrep"
+
+[source]
+url = "https://github.com/vrothberg/vgrep/archive/refs/tags/v2.8.0.tar.gz"
+sha256 = "325b28bd5e8da316e319361f2dd8e3cc74fcd55724fc8ad4b2a73c21b2903bd8"
+
+[build]
+system = "make"

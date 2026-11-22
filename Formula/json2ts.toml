@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "json2ts"
+version = "0"
+description = "Compile JSONSchema to TypeScript type declarations"
+homepage = "https://github.com/bcherny/json-schema-to-typescript"
+
+[source]
+url = "https://registry.npmjs.org/json-schema-to-typescript/-/json-schema-to-typescript-16.0.0.tgz"
+sha256 = "7fc57e29fa45770e478a0b491c54e07955bf2bd4b9bc2bbda3fe7deb9d097956"
+
+[build]
+system = "autotools"

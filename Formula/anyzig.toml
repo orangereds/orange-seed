@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig"]
+
+[package]
+name = "anyzig"
+version = "2026_11_12"
+description = "Universal zig executable that runs any version of zig"
+homepage = "https://github.com/marler8997/anyzig"
+
+[source]
+url = "https://github.com/marler8997/anyzig/archive/refs/tags/v2026_11_12.tar.gz"
+sha256 = "5403be7549905990e98f036f920536cbf5948008a818cfb1587e408029333133"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

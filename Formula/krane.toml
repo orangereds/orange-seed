@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["kubernetes-cli", "ruby"]
+
+[package]
+name = "krane"
+version = "0.5.1"
+description = "Kubernetes deploy tool with rollout verification"
+homepage = "https://github.com/Shopify/krane"
+
+[source]
+url = "https://rubygems.org/downloads/krane-3.9.2.gem"
+sha256 = "64da5d6b80b25e401e1b9a9c4966f2045002948ca56b567df3b2ceb7a237d4d1"
+
+[build]
+system = "autotools"

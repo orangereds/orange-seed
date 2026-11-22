@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloud-nuke"
+version = "0.53.0"
+description = "CLI tool to nuke (delete) cloud resources"
+homepage = "https://gruntwork.io/"
+
+[source]
+url = "https://github.com/gruntwork-io/cloud-nuke/archive/refs/tags/v0.53.0.tar.gz"
+sha256 = "f620a5ecafad7e16acb929582e9653d2063fa323ec0a421dd7c9fe46739a3942"
+
+[build]
+system = "autotools"

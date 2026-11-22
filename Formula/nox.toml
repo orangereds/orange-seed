@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "nox"
+version = "2026.10.20_1"
+description = "Flexible test automation for Python"
+homepage = "https://nox.thea.codes/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8c/ae/44b519e4074993256fa713a56d97a9e50e2afe0452e8486eaf41e235171f/nox-2026.10.20.tar.gz"
+sha256 = "5da57c009c3dfdd762c068d9079b17966ec967a9eb02cd8ebcf016a946eaf67f"
+
+[build]
+system = "autotools"

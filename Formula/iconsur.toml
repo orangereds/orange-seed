@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "llvm", "python@3.15"]
+
+[package]
+name = "iconsur"
+version = "1.7.0"
+description = "macOS Big Sur Adaptive Icon Generator"
+homepage = "https://github.com/rikumi/iconsur"
+
+[source]
+url = "https://registry.npmjs.org/iconsur/-/iconsur-1.7.0.tgz"
+sha256 = "d732df6bbcaf1418c6f46f9148002cbc1243814692c1c0e5c0cebfcff001c4a1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "xml2rfc"
+version = "3.35.0"
+description = "Tool to convert XML RFC7749 to the original ASCII or the new HTML look-and-feel"
+homepage = "https://xml2rfc.tools.ietf.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6d/19/30afe877d5a5e5818cccd9d1898d9cde9e7eeadd2627529f18d527e6e387/xml2rfc-3.35.0.tar.gz"
+sha256 = "96b3303bc1a5f9ac560419147b6d931f6ee372e965bfc048317c040dad90c319"
+
+[build]
+system = "autotools"

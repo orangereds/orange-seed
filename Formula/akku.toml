@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "guile"]
+
+[package]
+name = "akku"
+version = "1.2.0"
+description = "Package manager for Scheme"
+homepage = "https://akkuscm.org/"
+
+[source]
+url = "https://gitlab.com/-/project/6808260/uploads/44040730f50c8a202e8d39b2c3a8f377/akku-1.2.0.tar.gz"
+sha256 = "4ed046a5d08ee05d4c3f246e7a890485fc93d4fec25dd0600ed64a303e1183b2"
+
+[build]
+system = "autotools"

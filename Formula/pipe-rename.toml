@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pipe-rename"
+version = "1.6.7"
+description = "Rename your files using your favorite text editor"
+homepage = "https://github.com/marcusbuffett/pipe-rename"
+
+[source]
+url = "https://github.com/marcusbuffett/pipe-rename/archive/refs/tags/1.6.7.tar.gz"
+sha256 = "011d8ec263af85a9c2037098b1d5bf0ee271a3c1731e6de597bf02ccc81b55a2"
+
+[build]
+system = "autotools"

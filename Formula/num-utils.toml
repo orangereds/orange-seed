@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "num-utils"
+version = "0.5"
+description = "Programs for dealing with numbers from the command-line"
+homepage = "https://suso.suso.org/xulu/Num-utils"
+
+[source]
+url = "https://suso.suso.org/programs/num-utils/downloads/num-utils-0.5.tar.gz"
+sha256 = "03592760fc7844492163b14ddc9bb4e4d6526e17b468b5317b4a702ea7f6c64e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "loki"]
+
+[package]
+name = "logcli"
+version = "3.7.10"
+description = "Run LogQL queries against a Loki server"
+homepage = "https://grafana.com/oss/loki"
+
+[source]
+url = "https://github.com/grafana/loki/archive/refs/tags/v3.7.10.tar.gz"
+sha256 = "52e1a821de73d634a152e6737f7a4629dae830240015a2d6f244ccaaf3b13357"
+
+[build]
+system = "autotools"

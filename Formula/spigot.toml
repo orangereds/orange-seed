@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "spigot"
+version = "20261009.b2c2295"
+description = "Command-line streaming exact real calculator"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/spigot/"
+
+[source]
+url = "https://www.chiark.greenend.org.uk/~sgtatham/spigot/spigot-20261009.b2c2295.tar.gz"
+sha256 = "2433c4e1f64248f6ed65aacc79f5607360412e9aca01cd52eabec8a06ec331ae"
+
+[build]
+system = "cmake"

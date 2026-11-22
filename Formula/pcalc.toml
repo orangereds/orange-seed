@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pcalc"
+version = "3.0"
+description = "Calculator for those working with multiple bases, sizes, and close to the bits"
+homepage = "https://github.com/alt-romes/programmer-calculator"
+
+[source]
+url = "https://github.com/alt-romes/programmer-calculator/archive/refs/tags/v3.0.tar.gz"
+sha256 = "6ede71e1442710e73edb99eb1742452e67ad5095cad328526633722850aa1136"
+
+[build]
+system = "autotools"

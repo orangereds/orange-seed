@@ -1,0 +1,7 @@
+[tap]
+role = "seeds"
+name = "orangereds/orange-seed"
+description = "orangereds 的源码构建核心 tap —— 所有 formula 只有 [source]，无 [bottle]，全部从源码编译。"
+formula_count = 8736
+with_bottle = 0
+source = "Homebrew homebrew-core 自动转换 (fb convert)"

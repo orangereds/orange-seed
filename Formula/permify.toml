@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "permify"
+version = "1.7.6"
+description = "Open-source authorization service & policy engine based on Google Zanzibar"
+homepage = "https://permify.co/"
+
+[source]
+url = "https://github.com/Permify/permify/archive/refs/tags/v1.7.6.tar.gz"
+sha256 = "9a1cc5b77e9929820b1e1ed10fa6d57e2c665bdd3fb0f755cb9a7499e147c37d"
+
+[build]
+system = "autotools"

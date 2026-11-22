@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "joshuto"
+version = "0.9.9"
+description = "Ranger-like terminal file manager written in Rust"
+homepage = "https://github.com/kamiyaa/joshuto"
+
+[source]
+url = "https://github.com/kamiyaa/joshuto/archive/refs/tags/v0.9.9.tar.gz"
+sha256 = "85a230183f7478dee7c29229d78313ee07b759e596e19292acf024d2e5735efa"
+
+[build]
+system = "autotools"

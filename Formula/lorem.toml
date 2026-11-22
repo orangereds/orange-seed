@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lorem"
+version = "0.8.0"
+description = "Python generator for the console"
+homepage = "https://github.com/per9000/lorem"
+
+[source]
+url = "https://github.com/per9000/lorem/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "3eec439d616a044e61a6733730b1fc009972466f869dae358991f95abd57e8b3"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "pkgconf", "botan", "gmp", "libmagic", "sqlite"]
+
+[package]
+name = "git-annex"
+version = "10.20261113"
+description = "Manage files with git without checking in file contents"
+homepage = "https://git-annex.branchable.com/"
+
+[source]
+url = "https://hackage.haskell.org/package/git-annex-10.20261113/git-annex-10.20261113.tar.gz"
+sha256 = "af4add021bac4e9e9bc3087529837bb2291509dd1aae116b5dec754b36ebdf6b"
+
+[service]
+run = "opt/git-annex/bin/git-annex assistant --autostart"
+
+[build]
+system = "autotools"

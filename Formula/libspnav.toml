@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libspnav"
+version = "1.2"
+description = "Client library for connecting to 3Dconnexion's 3D input devices"
+homepage = "https://spacenav.sourceforge.net/"
+
+[source]
+url = "https://github.com/FreeSpacenav/libspnav/releases/download/v1.2/libspnav-1.2.tar.gz"
+sha256 = "093747e7e03b232e08ff77f1ad7f48552c06ac5236316a5012db4269951c39db"
+
+[build]
+system = "autotools"

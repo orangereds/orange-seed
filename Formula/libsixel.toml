@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jpeg-turbo", "libpng"]
+
+[package]
+name = "libsixel"
+version = "1.8.7-r2"
+description = "SIXEL encoder/decoder implementation"
+homepage = "https://github.com/saitoha/libsixel"
+
+[source]
+url = "https://github.com/saitoha/libsixel/releases/download/v1.8.7-r2/sixel-1.8.7-r2.tar.gz"
+sha256 = "9088475e5a1332f84b92ad46fd3c199ac56500c67f8a4054efccbc0db644bdba"
+
+[build]
+system = "autotools"

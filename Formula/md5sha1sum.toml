@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "md5sha1sum"
+version = "0.9.5_1"
+description = "Hash utilities"
+homepage = "http://microbrew.org/tools/md5sha1sum/"
+
+[source]
+url = "https://distfiles.macports.org/md5sha1sum/md5sha1sum-0.9.5.tar.gz"
+sha256 = "2fe6b4846cb3e343ed4e361d1fd98fdca6e6bf88e0bba5b767b0fdc5b299f37b"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "libsamplerate"
+version = "0.2.2"
+description = "Library for sample rate conversion of audio data"
+homepage = "https://github.com/libsndfile/libsamplerate"
+
+[source]
+url = "https://github.com/libsndfile/libsamplerate/releases/download/0.2.2/libsamplerate-0.2.2.tar.xz"
+sha256 = "3258da280511d24b49d6b08615bbe824d0cacc9842b0e4caf11c52cf2b043893"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils"]
+
+[package]
+name = "olsrd"
+version = "0.9.8_3"
+description = "Implementation of the optimized link state routing protocol"
+homepage = "https://github.com/OLSR/olsrd"
+
+[source]
+url = "https://github.com/OLSR/olsrd/archive/refs/tags/v0.9.8.tar.gz"
+sha256 = "ee9e524224e5d5304dcf61f1dc5485c569da09d382934ff85b233be3e24821a3"
+
+[build]
+system = "autotools"

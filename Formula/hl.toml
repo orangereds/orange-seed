@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hl"
+version = "0.36.5"
+description = "Fast and powerful log viewer and processor"
+homepage = "https://github.com/pamburus/hl"
+
+[source]
+url = "https://github.com/pamburus/hl/archive/refs/tags/v0.36.5.tar.gz"
+sha256 = "a40337288a0c113326ed739930166fdf9202d40f4f40583f05a5a27c1c043d3d"
+
+[build]
+system = "autotools"

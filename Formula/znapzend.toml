@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "znapzend"
+version = "0.23.6"
+description = "ZFS backup with remote capabilities and mbuffer integration"
+homepage = "https://www.znapzend.org/"
+
+[source]
+url = "https://github.com/oetiker/znapzend/releases/download/v0.23.6/znapzend-0.23.6.tar.gz"
+sha256 = "2b8903544b4013e3f059afa4812d20bc9d889d7ffda5a8fc5b7728f36599767a"
+
+[service]
+run = "opt/znapzend/bin/znapzend --connectTimeout=120 --logto=#{var}/log/znapzend/znapzend.log"
+keep_alive = true
+working_dir = "var/run/znapzend"
+log_path = "var/log/znapzend.out.log"
+error_log_path = "var/log/znapzend.err.log"
+
+[build]
+system = "autotools"

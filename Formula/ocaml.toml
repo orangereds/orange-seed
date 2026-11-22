@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ocaml"
+version = "5.5.2"
+description = "General purpose programming language in the ML family"
+homepage = "https://ocaml.org/"
+
+[source]
+url = "https://caml.inria.fr/pub/distrib/ocaml-5.5/ocaml-5.5.2.tar.xz"
+sha256 = "5503e1baad8b625da35f1fe71d47558014fa36253ae5f1a22cc3a18fab041e0d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libdivide"
+version = "5.4.0"
+description = "Optimized integer division"
+homepage = "https://libdivide.com"
+
+[source]
+url = "https://github.com/ridiculousfish/libdivide/archive/refs/tags/v5.4.0.tar.gz"
+sha256 = "077e8ce6c783d1b4402aa6d77f643f88f37feb80e9896c30e19a62cc0a3f5576"
+
+[build]
+system = "cmake"

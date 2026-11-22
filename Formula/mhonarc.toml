@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["perl"]
+
+[package]
+name = "mhonarc"
+version = "0_2"
+description = "Mail-to-HTML converter"
+homepage = "https://www.mhonarc.org/"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/L/LD/LDIDRY/MHonArc-2.6.24.tar.gz"
+sha256 = "457dc7374ee59cb75a0729e51cef2f2c52b48180f739d8fd956ea19882815f33"
+
+[build]
+system = "autotools"

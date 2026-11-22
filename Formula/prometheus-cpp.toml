@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "prometheus-cpp"
+version = "0_1"
+description = "Prometheus Client Library for Modern C++"
+homepage = "https://github.com/jupp0r/prometheus-cpp"
+
+[source]
+url = "https://github.com/jupp0r/prometheus-cpp/releases/download/v1.3.0/prometheus-cpp-with-submodules.tar.gz"
+sha256 = "62bc2cc9772db2314dbaae506ae2a75c8ee897dab053d8729e86a637b018fdb6"
+
+[build]
+system = "cmake"

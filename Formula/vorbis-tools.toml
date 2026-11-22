@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "libao", "libogg", "libvorbis", "autoconf", "automake", "libtool"]
+
+[package]
+name = "vorbis-tools"
+version = "1.4.3"
+description = "Ogg Vorbis CODEC tools"
+homepage = "https://github.com/xiph/vorbis-tools"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/vorbis/vorbis-tools-1.4.3.tar.gz"
+sha256 = "a1fe3ddc6777bdcebf6b797e7edfe0437954b24756ffcc8c6b816b63e0460dde"
+
+[build]
+system = "autotools"

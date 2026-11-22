@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "faas-cli"
+version = "0.18.18"
+description = "CLI for templating and/or deploying FaaS functions"
+homepage = "https://www.openfaas.com/"
+
+[source]
+url = "https://github.com/openfaas/faas-cli/archive/refs/tags/0.18.18.tar.gz"
+sha256 = "1ca28894490767e8a4ee1e6cd20e173c8cf261572136a059abababf4ab37ec01"
+
+[build]
+system = "autotools"

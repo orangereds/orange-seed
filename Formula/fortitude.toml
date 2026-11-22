@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fortitude"
+version = "0.10.1"
+description = "Fortran linter"
+homepage = "https://fortitude.readthedocs.io/en/stable/"
+
+[source]
+url = "https://github.com/PlasmaFAIR/fortitude/archive/refs/tags/v0.10.1.tar.gz"
+sha256 = "1b03901650199fb05e6c9f7afda0789b67a73b52bb0bf0f9d3e877b47890c736"
+
+[build]
+system = "autotools"

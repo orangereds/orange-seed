@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "git-annex", "p7zip", "python@3.15"]
+
+[package]
+name = "datalad"
+version = "1.8.0"
+description = "Data distribution geared toward scientific datasets"
+homepage = "https://www.datalad.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c9/03/210e6d39dd146f2aab09236f8030959f5cd0de716d368e5bfd34496b0596/datalad-1.8.0.tar.gz"
+sha256 = "588a10c59b8a5a3af4bc13a2547db6778a1a5add618b60be038fba3757aa3e01"
+
+[build]
+system = "autotools"

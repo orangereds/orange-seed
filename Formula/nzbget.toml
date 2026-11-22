@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "openssl@4", "sevenzip"]
+
+[package]
+name = "nzbget"
+version = "26.3"
+description = "Binary newsgrabber for nzb files"
+homepage = "https://nzbget.com"
+
+[source]
+url = "https://github.com/nzbgetcom/nzbget/archive/refs/tags/v26.3.tar.gz"
+sha256 = "3a6a2a7c8bf5e7156dacb563e76d65df4aa53390e24040115c4406771ec3a19b"
+
+[service]
+run = "nzbget"
+keep_alive = true
+
+[service.env]
+PATH = "#{HOMEBREW_PREFIX}/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+
+[build]
+system = "cmake"

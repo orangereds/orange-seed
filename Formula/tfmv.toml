@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfmv"
+version = "1.0.1"
+description = "CLI to rename Terraform resources and generate moved blocks"
+homepage = "https://github.com/suzuki-shunsuke/tfmv"
+
+[source]
+url = "https://github.com/suzuki-shunsuke/tfmv/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "dd9bfc90354333876e46807e5f4a17105e799e59a8493171c61e32be7d816490"
+
+[build]
+system = "autotools"

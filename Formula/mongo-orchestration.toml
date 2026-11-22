@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15"]
+
+[package]
+name = "mongo-orchestration"
+version = "0_6"
+description = "REST API to manage MongoDB configurations on a single host"
+homepage = "https://github.com/mongodb-labs/mongo-orchestration"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c9/3b/6e579eb7aae04e95c194e6ca57666bc4d1cd0dff4f81de0b3f7e663222b5/mongo_orchestration-0.11.2.tar.gz"
+sha256 = "6f0996e5bb072e8dbd0009289b31debb88a647f562c486cfc2c73583ab059993"
+
+[service]
+run = "opt/mongo-orchestration/bin/mongo-orchestration -b 127.0.0.1 -p 8889 --no-fork start"
+
+[build]
+system = "autotools"

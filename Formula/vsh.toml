@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vsh"
+version = "1.0.0"
+description = "HashiCorp Vault interactive shell"
+homepage = "https://github.com/fishi0x01/vsh"
+
+[source]
+url = "https://github.com/fishi0x01/vsh/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "567ced47700cf36e0a542867e2b92f816757b62e149cc62002dc561ab2312cfd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc@13", "open-mpi"]
+
+[package]
+name = "opencoarrays"
+version = "2.10.3"
+description = "Open-source coarray Fortran ABI, API, and compiler wrapper"
+homepage = "http://www.opencoarrays.org"
+
+[source]
+url = "https://github.com/sourceryinstitute/OpenCoarrays/archive/refs/tags/2.10.3.tar.gz"
+sha256 = "f9f2fb6ac1fe92c1ea66976894b5cebe53812827b7d1238fed933e2845e8a022"
+
+[build]
+system = "cmake"

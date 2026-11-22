@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libuv"]
+
+[package]
+name = "espflash"
+version = "4.7.0"
+description = "Serial flasher utility for Espressif SoCs and modules based on esptool.py"
+homepage = "https://github.com/esp-rs/espflash"
+
+[source]
+url = "https://github.com/esp-rs/espflash/archive/refs/tags/v4.7.0.tar.gz"
+sha256 = "c8ded03faad091d502b9c4d755e4b04636a7a9ee721baa6bf1492075fc8224c4"
+
+[build]
+system = "autotools"

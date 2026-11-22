@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "rust", "libyaml", "openssl@4"]
+
+[package]
+name = "ruby@3.3"
+version = "0"
+description = "Powerful, clean, object-oriented scripting language"
+homepage = "https://www.ruby-lang.org/"
+
+[source]
+url = "https://cache.ruby-lang.org/pub/ruby/3.3/ruby-3.3.14.tar.gz"
+sha256 = "d0438ee291b0cacaf97c7a71df4c939d7f3265c8c2d1b8ffe27311f71fc680b0"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

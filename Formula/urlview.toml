@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "urlview"
+version = "0.9-23.1"
+description = "URL extractor/launcher"
+homepage = "https://packages.debian.org/sid/misc/urlview"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/u/urlview/urlview_0.9.orig.tar.gz"
+sha256 = "746ff540ccf601645f500ee7743f443caf987d6380e61e5249fc15f7a455ed42"
+
+[build]
+system = "autotools"

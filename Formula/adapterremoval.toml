@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "sphinx-doc", "isa-l", "libdeflate"]
+
+[package]
+name = "adapterremoval"
+version = "3.0.2"
+description = "Rapid adapter trimming, identification, and read merging"
+homepage = "https://github.com/MikkelSchubert/adapterremoval"
+
+[source]
+url = "https://github.com/MikkelSchubert/adapterremoval/archive/refs/tags/v3.0.2.tar.gz"
+sha256 = "905f7c3289f743a90d228226ad6a50aec101343830bfdef5608ec9bb69af0ca7"
+
+[build]
+system = "autotools"

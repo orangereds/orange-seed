@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "bzip2", "libfuse", "xz"]
+
+[package]
+name = "avfs"
+version = "1.4.0"
+description = "Virtual file system that facilitates looking inside archives"
+homepage = "https://avf.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/avf/avfs/1.4.0/avfs-1.4.0.tar.bz2"
+sha256 = "d4dcdaf5afd7ba146334b6d003600340011c97307d84229ece09fe684448f98e"
+
+[build]
+system = "autotools"

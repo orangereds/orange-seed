@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "gdk-pixbuf", "glib", "gssdp", "gtk+3", "gtksourceview4", "gupnp", "gupnp-av", "libsoup", "libxml2", "gettext"]
+
+[package]
+name = "gupnp-tools"
+version = "0.12.4"
+description = "Free replacements of Intel's UPnP tools"
+homepage = "https://wiki.gnome.org/GUPnP/"
+
+[source]
+url = "https://download.gnome.org/sources/gupnp-tools/0.12/gupnp-tools-0.12.4.tar.xz"
+sha256 = "2c7f6f538fb36a15322be532217e5de161182c943c0a8b0da4458cf970b4092f"
+
+[build]
+system = "autotools"

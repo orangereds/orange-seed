@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gtop"
+version = "1.1.5"
+description = "System monitoring dashboard for terminal"
+homepage = "https://github.com/aksakalli/gtop"
+
+[source]
+url = "https://registry.npmjs.org/gtop/-/gtop-1.1.5.tgz"
+sha256 = "a8e90b828e33160c6a0ac4fb11231f292496e8049c0dac814e46fdd0c90817c1"
+
+[build]
+system = "autotools"

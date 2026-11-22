@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openssl@4"]
+
+[package]
+name = "objfw"
+version = "1.5.7"
+description = "Portable, lightweight framework for the Objective-C language"
+homepage = "https://objfw.nil.im/"
+
+[source]
+url = "https://objfw.nil.im/downloads/objfw-1.5.7.tar.gz"
+sha256 = "e637c32731dc07396b812c4019f34d1417a3f7aa39d450b7f27c9bcdc23b3e12"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wtfutil"
+version = "0.51.0"
+description = "Personal information dashboard for your terminal"
+homepage = "https://wtfutil.com"
+
+[source]
+url = "https://github.com/wtfutil/wtf/archive/refs/tags/v0.51.0.tar.gz"
+sha256 = "f34f37f01e44db4b60ae0ec56524ffb8420b037d3f7ca6515b177a0b9b7789c2"
+
+[build]
+system = "autotools"

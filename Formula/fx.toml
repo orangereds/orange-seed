@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fx"
+version = "40.0.2"
+description = "Terminal JSON viewer"
+homepage = "https://fx.wtf"
+
+[source]
+url = "https://github.com/antonmedv/fx/archive/refs/tags/40.0.2.tar.gz"
+sha256 = "1bfb6664c0adba8ff12618e7dd9334921f3c9e5e41c7724027c0949fce826347"
+
+[build]
+system = "autotools"

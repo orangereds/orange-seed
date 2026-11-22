@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "oniguruma"]
+
+[package]
+name = "codevis"
+version = "0.8.4"
+description = "Turns your code into one large image"
+homepage = "https://github.com/sloganking/codevis"
+
+[source]
+url = "https://github.com/sloganking/codevis/archive/refs/tags/v0.8.4.tar.gz"
+sha256 = "a4578a1218fc82be8866defe49db4ce6a23088446c18ca3494d3ebc16f931d3f"
+
+[build]
+system = "autotools"

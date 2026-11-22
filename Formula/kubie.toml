@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "kubernetes-cli"]
+
+[package]
+name = "kubie"
+version = "0.28.0"
+description = "Much more powerful alternative to kubectx and kubens"
+homepage = "https://sbstp.ca"
+
+[source]
+url = "https://github.com/kubie-org/kubie/archive/refs/tags/v0.28.0.tar.gz"
+sha256 = "47a373e94a2b0a1d1ab6c2a36dec49774f605ffb19baad3b3b0f613cf1d9c1ab"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "multimarkdown", "boost", "google-sparsehash", "btllib", "open-mpi", "libomp"]
+
+[package]
+name = "abyss"
+version = "2.3.10_1"
+description = "Genome sequence assembler for short reads"
+homepage = "https://www.bcgsc.ca/resources/software/abyss"
+
+[source]
+url = "https://github.com/BirolLab/abyss/releases/download/2.3.10/abyss-2.3.10.tar.gz"
+sha256 = "bbe42e00d1ebb53ec6afaad07779baaaee994aa5c65b9a38cf4ad2011bb93c65"
+
+[build]
+system = "autotools"

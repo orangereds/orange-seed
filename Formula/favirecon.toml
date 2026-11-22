@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "favirecon"
+version = "1.1.0"
+description = "Uses favicon.ico to improve the target recon phase"
+homepage = "https://edoardottt.com/"
+
+[source]
+url = "https://github.com/edoardottt/favirecon/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "3cc64b241fc357cda44ea11ffbe036fbf7160049d0011c45a9963746e6e27bfb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nom"
+version = "3.3.3"
+description = "RSS reader for the terminal"
+homepage = "https://github.com/guyfedwards/nom"
+
+[source]
+url = "https://github.com/guyfedwards/nom/archive/refs/tags/v3.3.3.tar.gz"
+sha256 = "226d4ee3098ed90db283cba8afed43b1939638be4f39192f0a3d7842721499bc"
+
+[build]
+system = "autotools"

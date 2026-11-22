@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ferron"
+version = "2.8.1"
+description = "Fast, memory-safe web server written in Rust"
+homepage = "https://www.ferronweb.org/"
+
+[source]
+url = "https://github.com/ferronweb/ferron/archive/refs/tags/2.8.1.tar.gz"
+sha256 = "32354ffed4fbe8caede924d420e6a7ac84127f264c47e1e738b462d9479c0680"
+
+[build]
+system = "autotools"

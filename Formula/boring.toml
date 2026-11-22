@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "boring"
+version = "0.18.1"
+description = "Simple command-line SSH tunnel manager that just works"
+homepage = "https://alebeck.github.io/boring/"
+
+[source]
+url = "https://github.com/alebeck/boring/archive/refs/tags/v0.18.1.tar.gz"
+sha256 = "a847e3fbd99eaf82c5a3386c51021a6b93c0b74eb9f51ebbfac8e2bca9547a16"
+
+[build]
+system = "autotools"

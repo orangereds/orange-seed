@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "gettext"]
+
+[package]
+name = "lunar-date"
+version = "3.2.0"
+description = "Chinese lunar date library"
+homepage = "https://github.com/yetist/lunar-date"
+
+[source]
+url = "https://github.com/yetist/lunar-date/releases/download/v3.2.0/lunar-date-3.2.0.tar.xz"
+sha256 = "2d24263803c0d8ed90c7d68bb7f69a481441f0b3ed89b5a29ea704dea86a4580"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["freetype", "glew", "libogg", "libpng", "libvorbis", "sdl2-compat", "sdl2_ttf", "tcl-tk", "theora", "llvm"]
+
+[package]
+name = "openmsx"
+version = "7"
+description = "MSX emulator"
+homepage = "https://openmsx.org/"
+
+[source]
+url = "https://github.com/openMSX/openMSX/releases/download/RELEASE_22_0/openmsx-22.0.tar.gz"
+sha256 = "f6d5ff89c62d32447dd5f731ff653d26a2a3c4ac6e86ea4f1bda3c4f8ad98c5d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aws-es-proxy"
+version = "1.5"
+description = "Small proxy between HTTP client and AWS Elasticsearch"
+homepage = "https://github.com/abutaha/aws-es-proxy"
+
+[source]
+url = "https://github.com/abutaha/aws-es-proxy/archive/refs/tags/v1.5.tar.gz"
+sha256 = "ac6dca6cc271f57831ccf4a413e210d175641932e13dcd12c8d6036e8030e3a5"
+
+[build]
+system = "autotools"

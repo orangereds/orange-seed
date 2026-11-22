@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "cfitsio", "fftw", "openblas"]
+
+[package]
+name = "sextractor"
+version = "2.29.0"
+description = "Extract catalogs of sources from astronomical images"
+homepage = "https://www.astromatic.net/software/sextractor/"
+
+[source]
+url = "https://github.com/astromatic/sextractor/archive/refs/tags/2.29.0.tar.gz"
+sha256 = "f260886b1609f3a3dbe82ea14152761ed0434bc37631be4121137fee36025111"
+
+[build]
+system = "autotools"

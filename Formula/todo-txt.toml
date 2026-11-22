@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "todo-txt"
+version = "0"
+description = "Minimal, todo.txt-focused editor"
+homepage = "http://todotxt.org/"
+
+[source]
+url = "https://github.com/todotxt/todo.txt-cli/releases/download/v2.14.0/todo.txt_cli-2.14.0.tar.gz"
+sha256 = "71a703ecbf79a163f1aa9b831e7ea0e6036cdbb06fdfc6b5c3502b627efb873d"
+
+[build]
+system = "autotools"

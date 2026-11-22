@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "juliaup"
+version = "1.24.0"
+description = "Julia installer and version multiplexer"
+homepage = "https://github.com/JuliaLang/juliaup"
+
+[source]
+url = "https://github.com/JuliaLang/juliaup/archive/refs/tags/v1.24.0.tar.gz"
+sha256 = "e33d53a71cd3c54537af21ffa935f60046a2b6e84708b533d7c5876f5ce5ffe5"
+
+[build]
+system = "autotools"

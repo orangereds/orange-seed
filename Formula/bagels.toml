@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "numpy", "pydantic", "python@3.15"]
+
+[package]
+name = "bagels"
+version = "0.3.12_15"
+description = "Powerful expense tracker that lives in your terminal"
+homepage = "https://github.com/EnhancedJax/Bagels"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6e/04/e19a99e357221cb41e1e2f0352172e282ac8195fa2418b776345497fb260/bagels-0.3.12.tar.gz"
+sha256 = "c3ebd4a727ddd62450528676a1ce3e475f92bd36edfed5f9c0b110bb24592608"
+
+[build]
+system = "autotools"

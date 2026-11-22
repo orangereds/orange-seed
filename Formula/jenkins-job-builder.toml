@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "jenkins-job-builder"
+version = "0_1"
+description = "Configure Jenkins jobs with YAML files stored in Git"
+homepage = "https://docs.openstack.org/infra/jenkins-job-builder/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/af/c9/b2fa858f3825c0347a201d0e542c0235605167fcb61b161648585b5ab248/jenkins_job_builder-6.5.0.tar.gz"
+sha256 = "f44ded591f68969019ae5a21fddc6c233b73d8f2497d126b3d4cccbe9b8b149d"
+
+[build]
+system = "autotools"

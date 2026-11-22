@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "dosfstools", "e2fsprogs", "mtools", "openssl@3"]
+
+[package]
+name = "mender-artifact"
+version = "4.4.2"
+description = "CLI tool for managing Mender artifact files"
+homepage = "https://mender.io"
+
+[source]
+url = "https://github.com/mendersoftware/mender-artifact/archive/refs/tags/4.4.2.tar.gz"
+sha256 = "d8e9e18e48a2124e5e367ffafb3313a3dcba7a8a8a8b162b1dcb8791964c6385"
+
+[build]
+system = "autotools"

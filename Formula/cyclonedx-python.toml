@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15", "rpds-py"]
+
+[package]
+name = "cyclonedx-python"
+version = "0"
+description = "Creates CycloneDX Software Bill of Materials (SBOM) from Python projects"
+homepage = "https://cyclonedx.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/13/91/f1a2a75a5dbbada2404de3117f0a0c544727382bc1352013ee1ba15ec015/cyclonedx_bom-9.0.0.tar.gz"
+sha256 = "23394e24ff47bbf4c614e8a7d5ca5e18c64869a091f7e35f3baa2faea2390972"
+
+[build]
+system = "autotools"

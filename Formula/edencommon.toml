@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fbthrift", "gflags", "glog", "googletest", "mvfst", "wangle", "boost", "fb303", "fmt", "folly"]
+
+[package]
+name = "edencommon"
+version = "2026.10.26.00"
+description = "Shared library for Watchman and Eden projects"
+homepage = "https://github.com/facebookexperimental/edencommon"
+
+[source]
+url = "https://github.com/facebookexperimental/edencommon/archive/refs/tags/v2026.10.26.00.tar.gz"
+sha256 = "08f5597c7ddbc79b6fca13bf97cf6f8ef4695a7ac6bc9d50c67cb8a435600d9a"
+
+[build]
+system = "cmake"

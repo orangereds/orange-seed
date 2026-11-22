@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "davmail"
+version = "7.1.0"
+description = "POP/IMAP/SMTP/Caldav/Carddav/LDAP exchange gateway"
+homepage = "https://davmail.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/davmail/davmail/7.1.0/davmail-7.1.0-4498.zip"
+sha256 = "c007d3ac57e00d680c977c1b2d027d70ca7713dd734f69423ccd4bcb11c0cf54"
+
+[service]
+run = "opt/davmail/bin/davmail"
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

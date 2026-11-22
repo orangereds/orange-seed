@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bmake"]
+
+[package]
+name = "lowdown"
+version = "3.2.1"
+description = "Simple markdown translator"
+homepage = "https://kristaps.bsd.lv/lowdown"
+
+[source]
+url = "https://kristaps.bsd.lv/lowdown/snapshots/lowdown-3.2.1.tar.gz"
+sha256 = "664afc7c00aadbaf16cdcf7dc464e64b529f432eba9dffc950acb0d55d1be90d"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "node", "sqlite", "vips", "gettext", "terminal-notifier"]
+
+[package]
+name = "joplin-cli"
+version = "0"
+description = "Note taking and to-do application with synchronization capabilities"
+homepage = "https://joplinapp.org/"
+
+[source]
+url = "https://registry.npmjs.org/joplin/-/joplin-3.7.1.tgz"
+sha256 = "18bc5b28bcfc6c5a418871e86d075015b5a83afc075dbea994fa26a40a765b56"
+
+[build]
+system = "autotools"

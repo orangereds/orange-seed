@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "gnu-sed", "pkgconf", "texinfo", "gmp", "gnutls", "tree-sitter"]
+
+[package]
+name = "emacs"
+version = "31.1_1"
+description = "GNU Emacs text editor"
+homepage = "https://www.gnu.org/software/emacs/"
+
+[source]
+url = "https://ftpmirror.gnu.org/emacs/emacs-31.1.tar.xz"
+sha256 = "1da5790d9580c81932b5bf700633114468da7b3412d69faa767daebf974f4586"
+
+[service]
+run = "opt/emacs/bin/emacs --fg-daemon"
+keep_alive = true
+
+[build]
+system = "autotools"

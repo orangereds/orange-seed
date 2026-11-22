@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "lld", "llvm", "wasmtime"]
+
+[package]
+name = "wasm-component-ld"
+version = "0.5.31"
+description = "Linker for creating WebAssembly components"
+homepage = "https://wasi.dev"
+
+[source]
+url = "https://github.com/bytecodealliance/wasm-component-ld/archive/refs/tags/v0.5.31.tar.gz"
+sha256 = "0ff2469fe15d674a1430d1b851f899c5511bc57f917fd7a5949d8c73f417b7b4"
+
+[build]
+system = "autotools"

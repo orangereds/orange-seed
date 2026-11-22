@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pillow", "python@3.15", "qpdf"]
+
+[package]
+name = "img2pdf"
+version = "0.6.3_1"
+description = "Convert images to PDF via direct JPEG inclusion"
+homepage = "https://gitlab.mister-muffin.de/josch/img2pdf"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8e/97/ca44c467131b93fda82d2a2f21b738c8bcf63b5259e3b8250e928b8dd52a/img2pdf-0.6.3.tar.gz"
+sha256 = "219518020f5bd242bdc46493941ea3f756f664c2e86f2454721e74353f58cd95"
+
+[build]
+system = "autotools"

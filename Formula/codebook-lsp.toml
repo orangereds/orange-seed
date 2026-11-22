@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "codebook-lsp"
+version = "0.4.1"
+description = "Code-aware spell checker language server"
+homepage = "https://github.com/blopker/codebook"
+
+[source]
+url = "https://github.com/blopker/codebook/archive/refs/tags/v0.4.1.tar.gz"
+sha256 = "d0ee5f1003094d7a08be0ca08061b893de7442d552dc500997e089c832850d85"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "tinyframe"
+version = "0.1.2"
+description = "Minimalistic library for reading and writing the Frame Streams protocol"
+homepage = "https://codeberg.org/DNS-OARC/tinyframe"
+
+[source]
+url = "https://www.dns-oarc.net/files/tinyframe/tinyframe-0.1.2.tar.gz"
+sha256 = "181e18bf3e8067b5415f0179d1b35286bf1d379ba71bb89c8e6cc2a73c3cec8d"
+
+[build]
+system = "autotools"

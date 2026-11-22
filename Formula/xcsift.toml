@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcsift"
+version = "1.7.5"
+description = "Swift tool to parse xcodebuild output for coding agents"
+homepage = "https://ldomaradzki.github.io/xcsift/"
+
+[source]
+url = "https://github.com/ldomaradzki/xcsift/archive/refs/tags/v1.7.5.tar.gz"
+sha256 = "0a0ee7941053ea83e70220f9e478a2d1db10dae957b05baa0c312b2161904fec"
+
+[build]
+system = "autotools"

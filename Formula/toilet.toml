@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "libcaca"]
+
+[package]
+name = "toilet"
+version = "0.3.orig"
+description = "Color-based alternative to figlet (uses libcaca)"
+homepage = "http://caca.zoy.org/wiki/toilet"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/t/toilet/toilet_0.3.orig.tar.gz"
+sha256 = "89d4b530c394313cc3f3a4e07a7394fa82a6091f44df44dfcd0ebcb3300a81de"
+
+[build]
+system = "autotools"

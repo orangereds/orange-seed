@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "systemd-lsp"
+version = "2026.11.02"
+description = "Language server for systemd unit files"
+homepage = "https://github.com/JFryy/systemd-lsp"
+
+[source]
+url = "https://github.com/JFryy/systemd-lsp/archive/refs/tags/v2026.11.02.tar.gz"
+sha256 = "2f8e31311e2c8b93a6e02d7be2b81691ffc02066fdf1a6d41529e7b53a4e80aa"
+
+[build]
+system = "autotools"

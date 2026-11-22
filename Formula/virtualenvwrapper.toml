@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "virtualenvwrapper"
+version = "6.1.1_5"
+description = "Python virtualenv extensions"
+homepage = "https://virtualenvwrapper.readthedocs.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/97/0b/1f6daec2e0bd25275953256f83f98fb337b78b9d03d44b7eb9619b72b046/virtualenvwrapper-6.1.1.tar.gz"
+sha256 = "112e7ea34a9a3ce90aaea54182f0d3afef4d1a913eeb75e98a263b4978cd73c6"
+
+[build]
+system = "autotools"

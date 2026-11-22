@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "yozefu"
+version = "0.0.32"
+description = "TUI for exploring data in a Kafka cluster"
+homepage = "https://maif.github.io/yozefu/"
+
+[source]
+url = "https://github.com/MAIF/yozefu/archive/refs/tags/v0.0.32.tar.gz"
+sha256 = "ff2b0d57fe8c26a7bf5c957c341e2db3a0c98f1f271085bb8bff2bfb934fcf2f"
+
+[build]
+system = "autotools"

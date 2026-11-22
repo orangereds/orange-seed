@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "autoconf", "automake", "pkgconf", "gettext"]
+
+[package]
+name = "calcurse"
+version = "4.9.1"
+description = "Text-based personal organizer"
+homepage = "https://calcurse.org/"
+
+[source]
+url = "https://calcurse.org/files/calcurse-4.9.1.tar.gz"
+sha256 = "111f58413e62d47e6eda5807f63b589a2b458e4bf3c80f156ded0107957aa675"
+
+[build]
+system = "autotools"

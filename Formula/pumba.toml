@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pumba"
+version = "1.6.0"
+description = "Chaos testing tool for Docker"
+homepage = "https://github.com/alexei-led/pumba"
+
+[source]
+url = "https://github.com/alexei-led/pumba/archive/refs/tags/1.6.0.tar.gz"
+sha256 = "acee6e33f0fcdf6bc24bbc3763933262def4c443804bd408ddded97a3856edf0"
+
+[build]
+system = "autotools"

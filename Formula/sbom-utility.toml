@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sbom-utility"
+version = "0.19.2"
+description = "Tool to validate, analyze, query and edit Software Bills of Materials (SBOMs)"
+homepage = "https://github.com/CycloneDX/sbom-utility"
+
+[source]
+url = "https://github.com/CycloneDX/sbom-utility/archive/refs/tags/v0.19.2.tar.gz"
+sha256 = "e1f49f1c69d231f19a16085a56ad187700cf712287412182442d6f1b000fd77e"
+
+[build]
+system = "autotools"

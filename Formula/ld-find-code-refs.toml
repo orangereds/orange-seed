@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ld-find-code-refs"
+version = "2.18.4"
+description = "Build tool for sending feature flag code references to LaunchDarkly"
+homepage = "https://launchdarkly.com"
+
+[source]
+url = "https://github.com/launchdarkly/ld-find-code-refs/archive/refs/tags/v2.18.4.tar.gz"
+sha256 = "0f0da15bd8785de0a75a5876660ddcd12ac21deba176bd40760d65cb2e01af94"
+
+[build]
+system = "autotools"

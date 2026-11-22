@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chroma"
+version = "2.27.0"
+description = "General purpose syntax highlighter in pure Go"
+homepage = "https://github.com/alecthomas/chroma"
+
+[source]
+url = "https://github.com/alecthomas/chroma/archive/refs/tags/v2.27.0.tar.gz"
+sha256 = "45deb53e12a92cea43e797ed3d1edde0bf6ca7492d454126506e35e8822863a1"
+
+[build]
+system = "autotools"

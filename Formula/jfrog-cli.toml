@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jfrog-cli"
+version = "2.133.0"
+description = "Command-line interface for JFrog products"
+homepage = "https://docs.jfrog.com/integrations/docs/jfrog-cli"
+
+[source]
+url = "https://github.com/jfrog/jfrog-cli/archive/refs/tags/v2.133.0.tar.gz"
+sha256 = "09e6021bb64b95eb9d8d5b30560b295ddd1e2da52b5d82c39e804d7b1ff3d963"
+
+[build]
+system = "autotools"

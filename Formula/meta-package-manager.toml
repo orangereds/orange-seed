@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "meta-package-manager"
+version = "0"
+description = "Wrapper around all package managers with a unifying CLI"
+homepage = "https://kdeldycke.github.io/meta-package-manager/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/43/e6/ea650344bb8ff68dc85b0303b2e10db97b67727d0c595b4289a63ed4d7f6/meta_package_manager-8.3.0.tar.gz"
+sha256 = "dd06527de24f718ab141a37b920b88c3018f205175fbecf5f50a712008d5f606"
+
+[build]
+system = "autotools"

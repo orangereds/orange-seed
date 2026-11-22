@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sqlite", "unixodbc"]
+
+[package]
+name = "sqliteodbc"
+version = "0.99991"
+description = "ODBC driver for SQLite"
+homepage = "https://ch-werner.hier-im-netz.de/sqliteodbc/"
+
+[source]
+url = "https://ch-werner.hier-im-netz.de/sqliteodbc/sqliteodbc-0.99991.tar.gz"
+sha256 = "4d94adb8d3cde1fa94a28aeb0dfcc7be73145bcdfcdf3d5e225434db31dc8a5c"
+
+[build]
+system = "autotools"

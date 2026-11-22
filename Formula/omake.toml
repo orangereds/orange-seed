@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml", "ocaml-findlib"]
+
+[package]
+name = "omake"
+version = "0.10.7"
+description = "Build system designed for scalability, portability, and concision"
+homepage = "http://projects.camlcity.org/projects/omake.html"
+
+[source]
+url = "https://github.com/ocaml-omake/omake/archive/refs/tags/omake-0.10.7.tar.gz"
+sha256 = "ec098107429a419965feab5cee5dfa2996fc3fdc23842d910c314590941cafb8"
+
+[build]
+system = "autotools"

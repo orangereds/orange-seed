@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "ipget"
+version = "0.13.2"
+description = "Retrieve files over IPFS and save them locally"
+homepage = "https://github.com/ipfs/ipget/"
+
+[source]
+url = "https://github.com/ipfs/ipget/archive/refs/tags/v0.13.2.tar.gz"
+sha256 = "e30a9f84633562b4c4d262b4c027260d43a6dcb47630215c7221dcc8066e8816"
+
+[build]
+system = "autotools"

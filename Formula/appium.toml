@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "appium"
+version = "4.0.0"
+description = "Automation for Apps"
+homepage = "https://appium.io/"
+
+[source]
+url = "https://registry.npmjs.org/appium/-/appium-4.0.0.tgz"
+sha256 = "9edb822db5aa25d966e32ceaeba210aa64b25adeb2cd255cc0771b0060abf4ad"
+
+[service]
+run = "opt/appium/bin/appium"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/appium.log"
+error_log_path = "var/log/appium-error.log"
+
+[build]
+system = "autotools"

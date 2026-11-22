@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "moe"
+version = "1.16.tar.lz"
+description = "Console text editor for ISO-8859 and ASCII"
+homepage = "https://www.gnu.org/software/moe/moe.html"
+
+[source]
+url = "https://ftpmirror.gnu.org/moe/moe-1.16.tar.lz"
+sha256 = "4c25cd78919272aebec0a7f8c126011bb5a4b5d87422807a3423216f0a17a868"
+
+[build]
+system = "autotools"

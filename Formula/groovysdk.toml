@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "groovysdk"
+version = "0"
+description = "SDK for Groovy: a Java-based scripting language"
+homepage = "https://www.groovy-lang.org/"
+
+[source]
+url = "https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-sdk-6.0.0.zip"
+sha256 = "f04e3a85c890dcf2b44114dc48596ad00afabe3ab17d88f3a2c14d50ee6e5c28"
+
+[build]
+system = "autotools"

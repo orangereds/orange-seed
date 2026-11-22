@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "protobuf", "rust"]
+
+[package]
+name = "lighthouse"
+version = "8.3.3"
+description = "Rust Ethereum 2.0 Client"
+homepage = "https://lighthouse.sigmaprime.io/"
+
+[source]
+url = "https://github.com/sigp/lighthouse/archive/refs/tags/v8.3.3.tar.gz"
+sha256 = "f0e693996e08bf3dc738bc96be76751140906b8e0cb3ac0215e5a3a95ce01c0c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dnscontrol"
+version = "5.10.1"
+description = "Synchronize your DNS to multiple providers from a simple DSL"
+homepage = "https://dnscontrol.org/"
+
+[source]
+url = "https://github.com/DNSControl/dnscontrol/archive/refs/tags/v5.10.1.tar.gz"
+sha256 = "fe792b4d2121b21bb469e3231300f0e567eaba2aecfeabc43049a10875283989"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hoverfly"
+version = "1.12.18"
+description = "API simulations for development and testing"
+homepage = "https://hoverfly.io/"
+
+[source]
+url = "https://github.com/SpectoLabs/hoverfly/archive/refs/tags/v1.12.18.tar.gz"
+sha256 = "fe4ed6149c992557c2934532efc1aa80781048c733f33ffe0d1a627ed9973116"
+
+[build]
+system = "autotools"

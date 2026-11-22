@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "yaze-ag"
+version = "2.51.3"
+description = "Yet Another Z80 Emulator (by AG)"
+homepage = "https://agl.yaze-ag.de/"
+
+[source]
+url = "https://agl.yaze-ag.de/devel/yaze-ag-2.51.3.tar.gz"
+sha256 = "2b0a90c3bf3a27574b0427cf4579dc2347b371bec3fea5739e1527edf74b2809"
+
+[build]
+system = "autotools"

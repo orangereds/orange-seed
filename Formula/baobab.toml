@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gettext", "itstool", "meson", "ninja", "pkgconf", "vala", "adwaita-icon-theme", "cairo", "glib", "graphene", "gtk4", "hicolor-icon-theme", "libadwaita", "pango"]
+
+[package]
+name = "baobab"
+version = "50.0"
+description = "Gnome disk usage analyzer"
+homepage = "https://apps.gnome.org/Baobab/"
+
+[source]
+url = "https://download.gnome.org/sources/baobab/50/baobab-50.0.tar.xz"
+sha256 = "573c84f15f5f963a440500f6f43412c928ac2335f6b69dcb58f1a1fe5201024b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gtk+3", "libqalculate", "pango", "at-spi2-core", "gtk-mac-integration", "harfbuzz"]
+
+[package]
+name = "qalculate-gtk"
+version = "5.13.0"
+description = "Multi-purpose desktop calculator"
+homepage = "https://qalculate.github.io/"
+
+[source]
+url = "https://github.com/Qalculate/qalculate-gtk/releases/download/v5.13.0/qalculate-gtk-5.13.0.tar.gz"
+sha256 = "2c6c9711fcd1bebb09b27c39dda9bd6e0a86b1b17b1538b4e9a1c711e435a830"
+
+[build]
+system = "autotools"

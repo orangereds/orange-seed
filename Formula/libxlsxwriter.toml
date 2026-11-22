@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libxlsxwriter"
+version = "1.2.4"
+description = "C library for creating Excel XLSX files"
+homepage = "https://libxlsxwriter.github.io/"
+
+[source]
+url = "https://github.com/jmcnamara/libxlsxwriter/archive/refs/tags/v1.2.4.tar.gz"
+sha256 = "e0db59fc248a5ffa465a05ea83a9d466d4bca0e53ab42771515d4ebb467a41c1"
+
+[build]
+system = "make"

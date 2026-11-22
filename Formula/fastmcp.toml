@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py", "uv"]
+
+[package]
+name = "fastmcp"
+version = "4.2.3"
+description = "Fast, Pythonic way to build MCP servers and clients"
+homepage = "https://gofastmcp.com/getting-started/welcome"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4a/32/f9ac18813cedafca75a3942e8ccb31fa59b7774df21a290c4680c0fd311f/fastmcp-4.2.3.tar.gz"
+sha256 = "0c9d1739d59e89506489bea589dec6193d204ab86e9739333d6bb46c13476477"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typdiff"
+version = "0.1.4"
+description = "Diff tool that generates Typst documents highlighting differences between inputs"
+homepage = "https://github.com/sou1118/typdiff"
+
+[source]
+url = "https://github.com/sou1118/typdiff/archive/refs/tags/v0.1.4.tar.gz"
+sha256 = "d7739a28bd42d674491ea4149fce6f8046a2ad7873f24efc3a809b621fb4508d"
+
+[build]
+system = "autotools"

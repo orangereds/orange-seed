@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "kdash"
+version = "2.1.1"
+description = "Simple and fast dashboard for Kubernetes"
+homepage = "https://kdash-rs.github.io/"
+
+[source]
+url = "https://github.com/kdash-rs/kdash/archive/refs/tags/v2.1.1.tar.gz"
+sha256 = "a1cd1f43eeb93623a7a66cced9952da8b92bade03804f21acbd3283ea8bd749e"
+
+[build]
+system = "autotools"

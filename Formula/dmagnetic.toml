@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dmagnetic"
+version = "0"
+description = "Magnetic Scrolls Interpreter"
+homepage = "https://www.dettus.net/dMagnetic/"
+
+[source]
+url = "https://www.dettus.net/dMagnetic/dMagnetic_0.37.tar.bz2"
+sha256 = "ad812bb515bc972e23930d643d5abeaed971d550768b1b3f371bd0f72c3c2e89"
+
+[build]
+system = "autotools"

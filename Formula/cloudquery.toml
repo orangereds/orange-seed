@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloudquery"
+version = "0"
+description = "Data movement tool to sync data from any source to any destination"
+homepage = "https://www.cloudquery.io"
+
+[source]
+url = "https://github.com/cloudquery/cloudquery/archive/refs/tags/cli-v6.51.1.tar.gz"
+sha256 = "08d4d96c04927efe312ca2b8115cc951836122022b641664198c8174176df252"
+
+[build]
+system = "autotools"

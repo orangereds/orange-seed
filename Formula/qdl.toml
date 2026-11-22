@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "meson", "ninja", "pkgconf", "libusb", "libzip"]
+
+[package]
+name = "qdl"
+version = "2.9.1"
+description = "Flash firmware on Qualcomm-based devices via USB Emergency Download (EDL) mode"
+homepage = "https://github.com/linux-msm/qdl"
+
+[source]
+url = "https://github.com/linux-msm/qdl/archive/refs/tags/v2.9.1.tar.gz"
+sha256 = "0718e04e9c5dfd3228a9966e891ed5005a9f88b3b3e02cf13a5173296cf0e52d"
+
+[build]
+system = "autotools"

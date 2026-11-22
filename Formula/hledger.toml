@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ghc", "haskell-stack", "pkgconf", "gmp", "libyaml"]
+
+[package]
+name = "hledger"
+version = "1.52.4"
+description = "Easy plain text accounting with command-line, terminal and web UIs"
+homepage = "https://hledger.org/"
+
+[source]
+url = "https://github.com/simonmichael/hledger/archive/refs/tags/1.52.4.tar.gz"
+sha256 = "42806ef717db4dfecba6a2bfa326d97036ea946e4810dd0b7421ed4980f1d4aa"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rapidjson", "swig", "cairo", "eigen", "inchi", "python@3.15"]
+
+[package]
+name = "open-babel"
+version = "3.2.1"
+description = "Chemical toolbox"
+homepage = "https://github.com/openbabel/openbabel"
+
+[source]
+url = "https://github.com/openbabel/openbabel/archive/refs/tags/openbabel-3-2-1.tar.gz"
+sha256 = "e140c25480fe1678d00b9a52462368fa4e7805fba67b12ee496784437f3e239e"
+
+[build]
+system = "cmake"

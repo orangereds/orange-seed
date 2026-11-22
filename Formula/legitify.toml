@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.24"]
+
+[package]
+name = "legitify"
+version = "1.0.11"
+description = "Tool to detect/remediate misconfig and security risks of GitHub/GitLab assets"
+homepage = "https://legitify.dev/"
+
+[source]
+url = "https://github.com/Legit-Labs/legitify/archive/refs/tags/v1.0.11.tar.gz"
+sha256 = "f63809a93571a72269aed6c10fa3cb1a0f384802857c21740386773690b696bb"
+
+[build]
+system = "autotools"

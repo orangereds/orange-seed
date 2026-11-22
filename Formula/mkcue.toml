@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mkcue"
+version = "1.orig"
+description = "Generate a CUE sheet from a CD"
+homepage = "https://packages.debian.org/sid/mkcue"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/mkcue/mkcue_1.orig.tar.gz"
+sha256 = "2aaf57da4d0f2e24329d5e952e90ec182d4aa82e4b2e025283e42370f9494867"
+
+[build]
+system = "autotools"

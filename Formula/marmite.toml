@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "marmite"
+version = "0.4.2"
+description = "Static Site Generator for Blogs using Markdown"
+homepage = "https://rochacbruno.github.io/marmite/"
+
+[source]
+url = "https://github.com/rochacbruno/marmite/archive/refs/tags/0.4.2.tar.gz"
+sha256 = "a32b5bc2e077a8e16eb92acc4408b1ebc7b68230ce5843aee6774298fe637cc2"
+
+[build]
+system = "autotools"

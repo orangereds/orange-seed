@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gabo"
+version = "1.27.0"
+description = "Generates GitHub Actions boilerplate"
+homepage = "https://ashishb.net/tech/common-pitfalls-of-github-actions/"
+
+[source]
+url = "https://github.com/ashishb/gabo/archive/refs/tags/v1.27.0.tar.gz"
+sha256 = "97fc319a570b9ad3d20f644a14a481a69cf639d6429ca59849b650c489fb1724"
+
+[build]
+system = "autotools"

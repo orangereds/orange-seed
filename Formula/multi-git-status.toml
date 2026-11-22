@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "multi-git-status"
+version = "2.3"
+description = "Show uncommitted, untracked and unpushed changes for multiple Git repos"
+homepage = "https://github.com/fboender/multi-git-status"
+
+[source]
+url = "https://github.com/fboender/multi-git-status/archive/refs/tags/2.3.tar.gz"
+sha256 = "2634b4b8b3d69a397f5462ec1d72a77d5b395f363ed8e1aabfbf7e5e4172f93f"
+
+[build]
+system = "autotools"

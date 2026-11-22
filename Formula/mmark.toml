@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mmark"
+version = "2.2.48"
+description = "Powerful markdown processor in Go geared towards the IETF"
+homepage = "https://mmark.miek.nl/"
+
+[source]
+url = "https://github.com/mmarkdown/mmark/archive/refs/tags/v2.2.48.tar.gz"
+sha256 = "8ab1295db3a9c1cdd353d4fc0f29daf1e6085b6e1989e30cd0348d0e17760bc1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "fluid-synth", "libpng", "libsamplerate", "sdl2-compat", "sdl2_mixer", "sdl2_net"]
+
+[package]
+name = "crispy-doom"
+version = "7.2"
+description = "Limit-removing enhanced-resolution Doom source port based on Chocolate Doom"
+homepage = "https://github.com/fabiangreffrath/crispy-doom"
+
+[source]
+url = "https://github.com/fabiangreffrath/crispy-doom/archive/refs/tags/crispy-doom-7.2.tar.gz"
+sha256 = "8fc243bd8c29a17f7e25b5dc367ef93e4d727955d7f731ee4d743eb32445b74c"
+
+[build]
+system = "autotools"

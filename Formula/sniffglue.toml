@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "scdoc"]
+
+[package]
+name = "sniffglue"
+version = "0.16.2"
+description = "Secure multithreaded packet sniffer"
+homepage = "https://github.com/kpcyrd/sniffglue"
+
+[source]
+url = "https://github.com/kpcyrd/sniffglue/archive/refs/tags/v0.16.2.tar.gz"
+sha256 = "54d98ebf5cf947f9d833fbb0457f6b5ccd7e96f356bc4cfdd1711a3526e785bc"
+
+[build]
+system = "autotools"

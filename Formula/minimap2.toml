@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "minimap2"
+version = "2.31"
+description = "Versatile pairwise aligner for genomic and spliced nucleotide sequences"
+homepage = "https://lh3.github.io/minimap2"
+
+[source]
+url = "https://github.com/lh3/minimap2/archive/refs/tags/v2.31.tar.gz"
+sha256 = "bff334a0e4512644e2f3e29944aeec408f49450f4f74dc39fe89e5273869255b"
+
+[build]
+system = "autotools"

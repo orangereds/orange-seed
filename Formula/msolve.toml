@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "flint", "gmp", "mpfr", "libomp"]
+
+[package]
+name = "msolve"
+version = "0.11.0"
+description = "Library for Polynomial System Solving through Algebraic Methods"
+homepage = "https://msolve.lip6.fr"
+
+[source]
+url = "https://github.com/algebraic-solving/msolve/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "0f4e8276cacc26eb6abef47982dcb39a6d98d17c5a20b34488d6fd8676d4822d"
+
+[build]
+system = "autotools"

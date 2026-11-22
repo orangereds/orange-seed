@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "json-c", "libvterm"]
+
+[package]
+name = "xwpe"
+version = "1.6.9"
+description = "Borland-style IDE clone with LSP/DAP support (terminal UI)"
+homepage = "https://codeberg.org/mendezr/xwpe"
+
+[source]
+url = "https://codeberg.org/mendezr/xwpe/releases/download/v1.6.9/xwpe-1.6.9.tar.gz"
+sha256 = "14499a7a4f5193bf23f539285adf7156054c5bfe6b20b991e705e3c3a5f6b392"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "pygobject3", "python@3.15", "vala", "exiv2", "glib"]
+
+[package]
+name = "gexiv2"
+version = "0.16.2"
+description = "GObject wrapper around the Exiv2 photo metadata library"
+homepage = "https://wiki.gnome.org/Projects/gexiv2"
+
+[source]
+url = "https://download.gnome.org/sources/gexiv2/0.16/gexiv2-0.16.2.tar.xz"
+sha256 = "aad9e240fdffbe85e390f46ee0a567e251baea5c29c3d8690260388683dc8d0a"
+
+[build]
+system = "autotools"

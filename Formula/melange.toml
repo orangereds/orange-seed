@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "melange"
+version = "0.65.0"
+description = "Build APKs from source code"
+homepage = "https://github.com/chainguard-dev/melange"
+
+[source]
+url = "https://github.com/chainguard-dev/melange/archive/refs/tags/v0.65.0.tar.gz"
+sha256 = "f7495ecfe060d9fd4ab3527086bf79030aae61d685985cddb5879682a7723a25"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fetch-crl"
+version = "3.0.25"
+description = "Retrieve certificate revocation lists (CRLs)"
+homepage = "https://wiki.nikhef.nl/grid/FetchCRL3"
+
+[source]
+url = "https://dist.eugridpma.info/distribution/util/fetch-crl3/fetch-crl-3.0.25.tar.gz"
+sha256 = "e466f90a7f8deb9bbe29874897a308f456f8775dd0e00b4971757f97d5855151"
+
+[build]
+system = "autotools"

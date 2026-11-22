@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sevenzip"]
+
+[package]
+name = "fpc"
+version = "3.2.2.source_1"
+description = "Free Pascal: multi-architecture Pascal compiler"
+homepage = "https://www.freepascal.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/freepascal/Source/3.2.2/fpc-3.2.2.source.tar.gz"
+sha256 = "d542e349de246843d4f164829953d1f5b864126c5b62fd17c9b45b33e23d2f44"
+
+[build]
+system = "autotools"

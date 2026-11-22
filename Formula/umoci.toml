@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man", "gpgme"]
+
+[package]
+name = "umoci"
+version = "0.6.0"
+description = "Reference OCI implementation for creating, modifying and inspecting images"
+homepage = "https://umo.ci"
+
+[source]
+url = "https://github.com/opencontainers/umoci/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "400a26c5f7ac06e40af907255e0e23407237d950e78e8d7c9043a1ad46da9ae5"
+
+[build]
+system = "autotools"

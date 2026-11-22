@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "scriptisto"
+version = "2.2.0"
+description = "Language-agnostic \"shebang interpreter\" to write scripts in compiled languages"
+homepage = "https://github.com/igor-petruk/scriptisto"
+
+[source]
+url = "https://github.com/igor-petruk/scriptisto/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "192d20885b563eeaf66766695314ab3e2711dc10c44f938aeeee6271e9720397"
+
+[build]
+system = "autotools"

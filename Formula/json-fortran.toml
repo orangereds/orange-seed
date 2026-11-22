@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ford", "gcc"]
+
+[package]
+name = "json-fortran"
+version = "9.3.1"
+description = "Fortran 2008 JSON API"
+homepage = "https://jacobwilliams.github.io/json-fortran/"
+
+[source]
+url = "https://github.com/jacobwilliams/json-fortran/archive/refs/tags/9.3.1.tar.gz"
+sha256 = "301a8d205bc7510b21c731130c30babd552c33e3f20568ce732b5e165b1f7a86"
+
+[build]
+system = "cmake"

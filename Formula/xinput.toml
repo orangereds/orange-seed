@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xorgproto", "libx11", "libxext", "libxi", "libxinerama", "libxrandr"]
+
+[package]
+name = "xinput"
+version = "1.6.4"
+description = "Utility to configure and test X input devices"
+homepage = "https://gitlab.freedesktop.org/xorg/app/xinput"
+
+[source]
+url = "https://www.x.org/pub/individual/app/xinput-1.6.4.tar.xz"
+sha256 = "ad04d00d656884d133110eeddc34e9c69e626ebebbbab04dc95791c2907057c8"
+
+[build]
+system = "autotools"

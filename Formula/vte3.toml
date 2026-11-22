@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fast_float", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "at-spi2-core", "cairo", "fribidi", "gdk-pixbuf", "glib", "gnutls", "graphene", "gtk+3", "gtk4", "icu4c@79", "lz4", "pango", "pcre2", "simdutf", "llvm"]
+
+[package]
+name = "vte3"
+version = "13_5"
+description = "Terminal emulator widget used by GNOME terminal"
+homepage = "https://wiki.gnome.org/Apps/Terminal/VTE"
+
+[source]
+url = "https://download.gnome.org/sources/vte/0.84/vte-0.84.1.tar.xz"
+sha256 = "aca1caa8478aebcdbb1d67897fb3511eb7601debae6810e16a15b6fa25f31ac8"
+
+[build]
+system = "autotools"

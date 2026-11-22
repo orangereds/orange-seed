@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "vscli"
+version = "1.3.3"
+description = "CLI/TUI that launches VSCode projects, with a focus on dev containers"
+homepage = "https://github.com/michidk/vscli"
+
+[source]
+url = "https://github.com/michidk/vscli/archive/refs/tags/v1.3.3.tar.gz"
+sha256 = "0e33647b18f805ca2ddf67831df62b03de4cfd96fe1495cc0e2ad9cea3bb06a9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.16", "nasm"]
+
+[package]
+name = "odiff"
+version = "4.5.0"
+description = "Very fast SIMD-first image comparison library (with nodejs API)"
+homepage = "https://github.com/dmtrKovalenko/odiff"
+
+[source]
+url = "https://github.com/dmtrKovalenko/odiff/archive/refs/tags/v4.5.0.tar.gz"
+sha256 = "4b78712394c0f628331a21086615eadb6853d28a30d4dfa188b12d823d3ccec0"
+
+[build]
+system = "autotools"

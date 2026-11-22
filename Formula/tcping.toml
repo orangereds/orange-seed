@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tcping"
+version = "2.1.0"
+description = "TCP connect to the given IP/port combo"
+homepage = "https://github.com/mkirchner/tcping"
+
+[source]
+url = "https://github.com/mkirchner/tcping/archive/refs/tags/2.1.0.tar.gz"
+sha256 = "b8aa427420fe00173b5a2c0013d78e52b010350f5438bf5903c1942cba7c39c9"
+
+[build]
+system = "autotools"

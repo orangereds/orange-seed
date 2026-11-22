@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "so"
+version = "0.4.10"
+description = "Terminal interface for StackOverflow"
+homepage = "https://github.com/samtay/so"
+
+[source]
+url = "https://github.com/samtay/so/archive/refs/tags/v0.4.10.tar.gz"
+sha256 = "36d8bc53b9c05e242fd4c9ba8ae447fae6c4a35d8c7e071f8994a7c0f07c225d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tcpsplit"
+version = "0.3"
+description = "Break a packet trace into some number of sub-traces"
+homepage = "https://www.icir.org/mallman/software/tcpsplit/"
+
+[source]
+url = "https://www.icir.org/mallman/software/tcpsplit/tcpsplit-0.3.tar.gz"
+sha256 = "9ba0a12d294fa4ccc8cad8d9662126f01b436ced48642c3fb2520121943f5cf5"
+
+[build]
+system = "autotools"

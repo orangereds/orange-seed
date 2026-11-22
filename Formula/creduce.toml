@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["astyle", "llvm@21"]
+
+[package]
+name = "creduce"
+version = "2.10.0_5"
+description = "Reduce a C/C++ program while keeping a property of interest"
+homepage = "https://github.com/csmith-project/creduce"
+
+[source]
+url = "https://github.com/csmith-project/creduce/archive/refs/tags/creduce-2.10.0.tar.gz"
+sha256 = "de320cd83bd77ec1a591f36dd6a4d0d1c47a0a28d850a6ebd348540feeab2297"
+
+[build]
+system = "autotools"

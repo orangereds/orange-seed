@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4", "readline"]
+
+[package]
+name = "jimtcl"
+version = "0.84"
+description = "Small footprint implementation of Tcl"
+homepage = "https://jim.tcl.tk/index.html"
+
+[source]
+url = "https://github.com/msteveb/jimtcl/archive/refs/tags/0.84.tar.gz"
+sha256 = "435095b436b38b96dd85e8cda13878144813bf52066057f76368db178dd8fea2"
+
+[build]
+system = "autotools"

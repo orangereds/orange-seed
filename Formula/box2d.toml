@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "box2d"
+version = "3.2.0"
+description = "2D physics engine for games"
+homepage = "https://box2d.org"
+
+[source]
+url = "https://github.com/erincatto/box2d/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "ffec747b27a2267016f8d0240d658c82d187fb2271fa0f69fcbe53fbc067180d"
+
+[build]
+system = "cmake"

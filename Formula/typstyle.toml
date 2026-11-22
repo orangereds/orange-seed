@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typstyle"
+version = "0.15.3"
+description = "Beautiful and reliable typst code formatter"
+homepage = "https://typstyle-rs.github.io/typstyle/"
+
+[source]
+url = "https://github.com/typstyle-rs/typstyle/archive/refs/tags/v0.15.3.tar.gz"
+sha256 = "8ce0c4a86c2478a6f0d840952f5076d7ef242b76e944096c60be98b604269dc6"
+
+[build]
+system = "autotools"

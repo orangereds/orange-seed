@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nasm"]
+
+[package]
+name = "x265"
+version = "4.3"
+description = "H.265/HEVC encoder"
+homepage = "https://github.com/Multicorewareinc/x265"
+
+[source]
+url = "https://github.com/Multicorewareinc/x265/releases/download/4.3/x265_4.3.tar.gz"
+sha256 = "83c53e4c8bbb8f1e33ed59e10a7d621d1d7801ca853910c3eb41f038b8ffb121"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "libnfc", "libusb-compat"]
+
+[package]
+name = "mfoc"
+version = "0.10.7_2"
+description = "Implementation of 'offline nested' attack by Nethemba"
+homepage = "https://github.com/nfc-tools/mfoc"
+
+[source]
+url = "https://github.com/nfc-tools/mfoc/archive/refs/tags/mfoc-0.10.7.tar.gz"
+sha256 = "2dfd8ffa4a8b357807680d190a91c8cf3db54b4211a781edc1108af401dbaad7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lexido"
+version = "1.4.3"
+description = "Innovative assistant for the command-line"
+homepage = "https://github.com/micr0-dev/lexido"
+
+[source]
+url = "https://github.com/micr0-dev/lexido/archive/refs/tags/v1.4.3.tar.gz"
+sha256 = "c39cf8f93cce2480773c9099ece1d8a90c1e350cf48cad56eebea96fbc04981f"
+
+[build]
+system = "autotools"

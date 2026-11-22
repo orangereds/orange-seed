@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "boost-python3", "python@3.15"]
+
+[package]
+name = "prjtrellis"
+version = "1.4_10"
+description = "Documenting the Lattice ECP5 bit-stream format"
+homepage = "https://github.com/YosysHQ/prjtrellis"
+
+[source]
+url = "https://github.com/YosysHQ/prjtrellis/archive/refs/tags/1.4.tar.gz"
+sha256 = "46fe9d98676953e0cccf1d6332755d217a0861e420f1a12dabfda74d81ccc147"
+
+[build]
+system = "cmake"

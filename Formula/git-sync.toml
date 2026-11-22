@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "coreutils", "git"]
+
+[package]
+name = "git-sync"
+version = "4.8.0"
+description = "Clones a git repository and keeps it synchronized with the upstream"
+homepage = "https://github.com/kubernetes/git-sync"
+
+[source]
+url = "https://github.com/kubernetes/git-sync/archive/refs/tags/v4.8.0.tar.gz"
+sha256 = "8c6bee1f131434546e6202fe544ebc116b3227ed3af4ab75eee15337c209b308"
+
+[build]
+system = "autotools"

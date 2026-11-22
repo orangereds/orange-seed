@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@25"]
+
+[package]
+name = "pinot"
+version = "0"
+description = "Realtime distributed OLAP datastore"
+homepage = "https://pinot.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=pinot/apache-pinot-1.6.0/apache-pinot-1.6.0-bin.tar.gz"
+sha256 = "44699a305190007a0de30645f295a408d365275bf1aec3294ca9a54249df03b3"
+
+[service]
+run = "opt/pinot/bin/pinot-admin QuickStart -type BATCH -dataDir var/lib/pinot/data"
+keep_alive = true
+working_dir = "var/lib/pinot"
+log_path = "var/log/pinot/pinot_output.log"
+error_log_path = "var/log/pinot/pinot_output.log"
+
+[build]
+system = "autotools"

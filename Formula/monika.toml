@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "node@24", "sqlite"]
+
+[package]
+name = "monika"
+version = "1.22.0_2"
+description = "Synthetic monitoring made easy"
+homepage = "https://monika.hyperjump.tech"
+
+[source]
+url = "https://registry.npmjs.org/@hyperjumptech/monika/-/monika-1.22.0.tgz"
+sha256 = "2b2ed6ac3186d72a9f060efb62d183c4b156494b2c37de9808c108f54655b84c"
+
+[build]
+system = "autotools"

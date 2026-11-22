@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm", "ninja", "rust", "nasm"]
+
+[package]
+name = "bun"
+version = "1.4.4"
+description = "Incredibly fast JavaScript runtime, bundler, test runner, and package manager"
+homepage = "https://bun.com/"
+
+[source]
+url = "https://github.com/oven-sh/bun/archive/refs/tags/bun-v1.4.5.tar.gz"
+sha256 = "118dc25c12ec4ef3d95b597866a477079e170a071c79ccebca90954e05b0215e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["inetutils", "gettext"]
+
+[package]
+name = "proftpd"
+version = "1.3.9f"
+description = "Highly configurable GPL-licensed FTP server software"
+homepage = "http://www.proftpd.org/"
+
+[source]
+url = "https://github.com/proftpd/proftpd/archive/refs/tags/v1.3.9f.tar.gz"
+sha256 = "3b317c78af677d3678adb29c3a57590d3725c5446e1226d5080098f19871b9ef"
+
+[service]
+run = "proftpd --nodaemon"
+working_dir = "HOMEBREW_PREFIX"
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

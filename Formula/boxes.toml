@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "libunistring", "pcre2"]
+
+[package]
+name = "boxes"
+version = "2.3.2"
+description = "Draw boxes around text"
+homepage = "https://boxes.thomasjensen.com/"
+
+[source]
+url = "https://github.com/ascii-boxes/boxes/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "9318ef65f555ee3d893176349a4219f1f1260ce24d4100aeb667a546f61fc183"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "shellz"
+version = "1.6.0"
+description = "Small utility to track and control custom shellz"
+homepage = "https://github.com/evilsocket/shellz"
+
+[source]
+url = "https://github.com/evilsocket/shellz/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "3a89e3d573563a0c2ccb1831ff41fc0204c8b4efb011c10108ab98451a309b1c"
+
+[build]
+system = "autotools"

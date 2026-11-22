@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ytt"
+version = "0.56.0"
+description = "YAML templating tool that works on YAML structure instead of text"
+homepage = "https://carvel.dev/ytt/"
+
+[source]
+url = "https://github.com/carvel-dev/ytt/archive/refs/tags/v0.56.0.tar.gz"
+sha256 = "1501389183ba44046e55ae76b4d6b4bff9a162f0c74ddbafbfce7723930217af"
+
+[build]
+system = "autotools"

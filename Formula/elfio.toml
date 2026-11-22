@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "elfio"
+version = "0"
+description = "Header-only C++ library for reading and generating ELF files"
+homepage = "https://serge1.github.io/ELFIO"
+
+[source]
+url = "https://github.com/serge1/ELFIO/archive/refs/tags/Release_3.12.tar.gz"
+sha256 = "e4ebc9ce3d6916461bc3e7765bb45e6210f0a9b93978bf91e59b05388c024489"
+
+[build]
+system = "cmake"

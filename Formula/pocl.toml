@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "opencl-headers", "pkgconf", "hwloc", "llvm", "opencl-icd-loader"]
+
+[package]
+name = "pocl"
+version = "7.2"
+description = "Portable Computing Language"
+homepage = "https://portablecl.org/"
+
+[source]
+url = "https://github.com/pocl/pocl/archive/refs/tags/v7.2.tar.gz"
+sha256 = "7ddc01a7afcd49d4ec7fa9bf94df20852db44fcda629a9763086a8c541e5da1e"
+
+[build]
+system = "make"

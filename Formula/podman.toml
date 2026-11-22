@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man", "make", "krunkit"]
+
+[package]
+name = "podman"
+version = "6.2.0"
+description = "Tool for managing OCI containers and pods"
+homepage = "https://podman.io/"
+
+[source]
+url = "https://github.com/podman-container-tools/podman/archive/refs/tags/v6.2.0.tar.gz"
+sha256 = "cb182273c5c5e3ea079f8f88a9a30a574d247f80e0b9dd9c02df1d2e6f6f3705"
+
+[service]
+run = "podman"
+working_dir = "HOMEBREW_PREFIX"
+
+[build]
+system = "autotools"

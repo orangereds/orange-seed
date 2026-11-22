@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup", "wasm-pack"]
+
+[package]
+name = "tinysearch"
+version = "0.11.1"
+description = "Tiny, full-text search engine for static websites built with Rust and Wasm"
+homepage = "https://github.com/tinysearch/tinysearch"
+
+[source]
+url = "https://github.com/tinysearch/tinysearch/archive/refs/tags/v0.11.1.tar.gz"
+sha256 = "6272d0f42bda3591be28bf465de4c9dda4ac6967b548a680f48379e5f0bb569b"
+
+[build]
+system = "autotools"

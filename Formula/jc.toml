@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "jc"
+version = "1.26.2"
+description = "Serializes the output of command-line tools to structured JSON output"
+homepage = "https://github.com/kellyjonbrazil/jc"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d6/6b/001e082ba68c5ba0a604a6664afb66a1302539da0fdb7862f5d7a9ff0902/jc-1.26.2.tar.gz"
+sha256 = "6e57c302ce55d5862c1f7be1c2ba2baa630bea1ba690f6bb82a8c7e734b70fc1"
+
+[build]
+system = "autotools"

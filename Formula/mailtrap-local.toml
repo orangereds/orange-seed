@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "mailtrap-local"
+version = "0.5.1"
+description = "Local email sandbox with SMTP server, web UI, and JSON API"
+homepage = "https://github.com/mailtrap/mailtrap-local"
+
+[source]
+url = "https://github.com/mailtrap/mailtrap-local/archive/refs/tags/v0.5.1.tar.gz"
+sha256 = "15fc6a2ef722fd3d97bebd36dee91d72ea2c9e2d54b04f580d276c0ae15ebe90"
+
+[service]
+run = "opt/mailtrap-local/bin/mailtrap-local --db var/mailtrap-local/db.sqlite3"
+keep_alive = true
+log_path = "var/log/mailtrap-local.log"
+error_log_path = "var/log/mailtrap-local.log"
+
+[build]
+system = "autotools"

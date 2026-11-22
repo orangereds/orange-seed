@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cozypkg"
+version = "1.7.1"
+description = "CLI for managing Cozystack packages"
+homepage = "https://cozystack.io"
+
+[source]
+url = "https://github.com/cozystack/cozystack/archive/refs/tags/v1.7.1.tar.gz"
+sha256 = "c0cfe16962c2501fa6db3e6f4b925ecbd28263f55679246be46167345d1b82a1"
+
+[build]
+system = "autotools"

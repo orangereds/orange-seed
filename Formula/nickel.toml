@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nickel"
+version = "1.18.0"
+description = "Better configuration for less"
+homepage = "https://nickel-lang.org/"
+
+[source]
+url = "https://github.com/nickel-lang/nickel/archive/refs/tags/1.18.0.tar.gz"
+sha256 = "ddcac13684c1fc174a45e0e179ff4ef9433eb08f08bbf4b386dc722cf64ab2d5"
+
+[build]
+system = "autotools"

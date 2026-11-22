@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tre"
+version = "0.9.0"
+description = "Lightweight, POSIX-compliant regular expression (regex) library"
+homepage = "https://github.com/laurikari/tre"
+
+[source]
+url = "https://github.com/laurikari/tre/releases/download/v0.9.0/tre-0.9.0.tar.gz"
+sha256 = "f57f5698cafdfe516d11fb0b71705916fe1162f14b08cf69d7cf86923b5a2477"
+
+[build]
+system = "autotools"

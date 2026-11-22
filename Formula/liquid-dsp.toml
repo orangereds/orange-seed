@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "fftw"]
+
+[package]
+name = "liquid-dsp"
+version = "1.8.3"
+description = "Digital signal processing library for software-defined radios"
+homepage = "https://liquidsdr.org/"
+
+[source]
+url = "https://github.com/jgaeddert/liquid-dsp/archive/refs/tags/v1.8.3.tar.gz"
+sha256 = "18fa83b73db8bb6fe6ea0376e4b5aecf8645970f4604d10d9dadbf609f3f95e2"
+
+[build]
+system = "autotools"

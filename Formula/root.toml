@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "cfitsio", "civetweb", "davix", "fftw", "freetype", "ftgl", "gcc", "giflib", "gl2ps", "graphviz", "gsl", "jpeg-turbo", "libpng", "libtiff", "lz4", "nlohmann-json", "numpy", "openblas", "openssl@4", "pcre2", "python@3.15", "sqlite", "tbb", "unuran", "vdt", "xrootd", "xxhash", "xz", "zstd"]
+
+[package]
+name = "root"
+version = "6.40.04.source_2"
+description = "Analyzing petabytes of data, scientifically"
+homepage = "https://root.cern"
+
+[source]
+url = "https://root.cern/download/root_v6.40.04.source.tar.gz"
+sha256 = "44ada253b1935d34b6801222232d50731fe7c5e3cbcfab47734c85031cfbe4d3"
+
+[build]
+system = "cmake"

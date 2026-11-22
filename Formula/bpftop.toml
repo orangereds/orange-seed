@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "pkgconf", "rust", "elfutils", "zlib-ng-compat"]
+
+[package]
+name = "bpftop"
+version = "0.9.1"
+description = "Dynamic real-time view of running eBPF programs"
+homepage = "https://github.com/jfernandez/bpftop"
+
+[source]
+url = "https://github.com/jfernandez/bpftop/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "0663eaeda6999c248efd4f15e3a176f60a705dcbafdfc52dedacc12d770c088b"
+
+[build]
+system = "autotools"

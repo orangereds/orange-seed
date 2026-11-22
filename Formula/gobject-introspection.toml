@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "cairo", "glib", "pkgconf", "python@3.15"]
+
+[package]
+name = "gobject-introspection"
+version = "1.86.0_6"
+description = "Generate introspection data for GObject libraries"
+homepage = "https://gi.readthedocs.io/en/latest/"
+
+[source]
+url = "https://download.gnome.org/sources/gobject-introspection/1.86/gobject-introspection-1.86.0.tar.xz"
+sha256 = "920d1a3fcedeadc32acff95c2e203b319039dd4b4a08dd1a2dfd283d19c0b9ae"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "libfuse"]
+
+[package]
+name = "fuse-overlayfs"
+version = "1.18"
+description = "FUSE implementation for overlayfs"
+homepage = "https://github.com/containers/fuse-overlayfs"
+
+[source]
+url = "https://github.com/containers/fuse-overlayfs/archive/refs/tags/v1.18.tar.gz"
+sha256 = "fdd1896c8de35a15eb14444d7880be81d635fcbbc4ad162d8bc3ccf5627aa8c7"
+
+[build]
+system = "autotools"

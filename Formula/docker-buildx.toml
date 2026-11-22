@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "docker-buildx"
+version = "0.39.1"
+description = "Docker CLI plugin for extended build capabilities with BuildKit"
+homepage = "https://docs.docker.com/buildx/working-with-buildx/"
+
+[source]
+url = "https://github.com/docker/buildx/archive/refs/tags/v0.39.1.tar.gz"
+sha256 = "ccb549da4ec19317a04e68c9a3603553503743b8deee0e0613e0cb06c87ed6bc"
+
+[build]
+system = "autotools"

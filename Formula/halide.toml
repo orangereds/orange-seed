@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "flatbuffers", "nanobind", "ninja", "python@3.15", "lld", "llvm", "wabt"]
+
+[package]
+name = "halide"
+version = "22.1.0"
+description = "Language for fast, portable data-parallel computation"
+homepage = "https://halide-lang.org"
+
+[source]
+url = "https://github.com/halide/Halide/archive/refs/tags/v22.1.0.tar.gz"
+sha256 = "35b59f91be6189645abf33078b1954740a434d97aaeaeaf5f15d162d86b74f6e"
+
+[build]
+system = "cmake"

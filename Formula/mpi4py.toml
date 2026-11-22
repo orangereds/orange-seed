@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["open-mpi", "python@3.15"]
+
+[package]
+name = "mpi4py"
+version = "4.1.2_1"
+description = "Python bindings for MPI"
+homepage = "https://mpi4py.github.io/"
+
+[source]
+url = "https://github.com/mpi4py/mpi4py/releases/download/4.1.2/mpi4py-4.1.2.tar.gz"
+sha256 = "56860286dc45f20e8821e93cb06669e30462348bf866f685553fa4b712d58d02"
+
+[build]
+system = "autotools"

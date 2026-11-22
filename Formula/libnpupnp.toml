@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libmicrohttpd"]
+
+[package]
+name = "libnpupnp"
+version = "6.3.1"
+description = "C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp"
+homepage = "https://www.lesbonscomptes.com/upmpdcli/npupnp-doc/libnpupnp.html"
+
+[source]
+url = "https://www.lesbonscomptes.com/upmpdcli/downloads/libnpupnp-6.3.1.tar.gz"
+sha256 = "1e6271dd2e641a5b095d994be6976031e5f6b32a22df3bb1988636f51b0f52b7"
+
+[build]
+system = "autotools"

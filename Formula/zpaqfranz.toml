@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zpaqfranz"
+version = "65.22"
+description = "Deduplicating command-line archiver and backup tool"
+homepage = "https://github.com/fcorbelli/zpaqfranz"
+
+[source]
+url = "https://github.com/fcorbelli/zpaqfranz/archive/refs/tags/65.22.tar.gz"
+sha256 = "a391057091ff647de76f035ea87d7d9f0b6274e2d04be94fc9c80d660900203c"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "certifi", "cryptography", "fzf", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "mycli"
+version = "2.31.1"
+description = "CLI for MySQL with auto-completion and syntax highlighting"
+homepage = "https://www.mycli.net/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/87/23/9353a5b2fba1fc8587802ea642dc8ca5b815e7555d4bf57e109d97d0669b/mycli-2.31.1.tar.gz"
+sha256 = "75770d450e6fa80e89f4d6a8de5f12096206cadcd0f2760528507fecfc8992c4"
+
+[build]
+system = "autotools"

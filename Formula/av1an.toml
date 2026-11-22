@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ffmpeg", "mkvtoolnix", "vapoursynth", "nasm"]
+
+[package]
+name = "av1an"
+version = "0.6.0"
+description = "Cross-platform command-line encoding framework"
+homepage = "https://github.com/rust-av/Av1an"
+
+[source]
+url = "https://github.com/rust-av/Av1an/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "f58096a084456acf66f2be273b6c70e05cb53831b2a8a5006569f08a5a7b575a"
+
+[build]
+system = "autotools"

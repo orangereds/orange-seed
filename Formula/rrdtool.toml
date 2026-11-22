@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "cairo", "glib", "libpng", "pango", "gettext", "harfbuzz", "groff"]
+
+[package]
+name = "rrdtool"
+version = "1.11.0"
+description = "Round Robin Database"
+homepage = "https://oss.oetiker.ch/rrdtool/"
+
+[source]
+url = "https://github.com/oetiker/rrdtool-1.x/releases/download/v1.11.0/rrdtool-1.11.0.tar.gz"
+sha256 = "24c345b5c077c1b2b2fcbc1a364f1da051650fb6743ad5213096adc04c862ed4"
+
+[build]
+system = "autotools"

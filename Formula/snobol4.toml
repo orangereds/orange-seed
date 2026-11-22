@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "snobol4"
+version = "2.3.5"
+description = "String oriented and symbolic programming language"
+homepage = "https://www.regressive.org/snobol4/"
+
+[source]
+url = "https://ftp.regressive.org/snobol/snobol4-2.3.5.tar.gz"
+sha256 = "07154314d458be00936b1dd8592a32be25d5b8fc27e6bf1b73ada904886e86e2"
+
+[build]
+system = "autotools"

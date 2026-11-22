@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pybind11", "certifi", "libyaml", "python@3.15", "re2"]
+
+[package]
+name = "sigma-cli"
+version = "0"
+description = "CLI based on pySigma"
+homepage = "https://github.com/SigmaHQ/sigma-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c5/98/8c1bf0c78f5ea2a3014f4192c5794fa5e9f1331646f4dea60c1a3bfbe169/sigma_cli-4.0.1.tar.gz"
+sha256 = "24eb7213fc2d8d9b0577cda7188f256382beba0e9adc7de8907bafd62fd475f9"
+
+[build]
+system = "autotools"

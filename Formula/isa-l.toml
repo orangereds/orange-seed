@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "nasm"]
+
+[package]
+name = "isa-l"
+version = "2.32.1"
+description = "Intelligent Storage Acceleration Library"
+homepage = "https://github.com/intel/isa-l"
+
+[source]
+url = "https://github.com/intel/isa-l/archive/refs/tags/v2.32.1.tar.gz"
+sha256 = "d9f7179ab0e14a3db9b610fac22793854a1435e8423ec9ce07f4cbedc5f92f5e"
+
+[build]
+system = "autotools"

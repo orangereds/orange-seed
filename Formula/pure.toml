@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zsh", "zsh-async"]
+
+[package]
+name = "pure"
+version = "1.28.4"
+description = "Pretty, minimal and fast ZSH prompt"
+homepage = "https://github.com/sindresorhus/pure"
+
+[source]
+url = "https://github.com/sindresorhus/pure/archive/refs/tags/v1.28.4.tar.gz"
+sha256 = "76cdc22defa2c1f5f4b257b8944be8ee5795ff34feaa0e8a2dc8ea8278c7d63b"
+
+[build]
+system = "autotools"

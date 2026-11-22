@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openssl@4", "w3m"]
+
+[package]
+name = "nmh"
+version = "1.8_2"
+description = "New version of the MH mail handler"
+homepage = "https://www.nongnu.org/nmh/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/nmh/nmh-1.8.tar.gz"
+sha256 = "366ce0ce3f9447302f5567009269c8bb3882d808f33eefac85ba367e875c8615"
+
+[build]
+system = "autotools"

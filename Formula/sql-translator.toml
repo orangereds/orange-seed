@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sql-translator"
+version = "0_1"
+description = "Manipulate structured data definitions (SQL and more)"
+homepage = "https://github.com/dbsrgits/sql-translator/"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/V/VE/VEESH/SQL-Translator-1.66.tar.gz"
+sha256 = "f7ff7e369d8293a394cb3783b54b745e7faf44422e8a83bfcc359378a6e56145"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "etcd", "abseil", "c-ares", "cpprestsdk", "grpc", "openssl@4", "protobuf", "re2"]
+
+[package]
+name = "etcd-cpp-apiv3"
+version = "0.15.4_55"
+description = "C++ implementation for etcd's v3 client API, i.e., ETCDCTL_API=3"
+homepage = "https://github.com/etcd-cpp-apiv3/etcd-cpp-apiv3"
+
+[source]
+url = "https://github.com/etcd-cpp-apiv3/etcd-cpp-apiv3/archive/refs/tags/v0.15.4.tar.gz"
+sha256 = "4516ecfa420826088c187efd42dad249367ca94ea6cdfc24e3030c3cf47af7b4"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "certifi", "cffi", "libyaml", "numpy", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "checkov"
+version = "3.4.6"
+description = "Prevent cloud misconfigurations during build-time for IaC tools"
+homepage = "https://www.checkov.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5e/da/fd908b2db5e0f98fb6232bfa1a3b1b7fe715761ab92f88ad7a882ad1a2a3/checkov-3.4.6.tar.gz"
+sha256 = "22c5a5bb41477e251f4ba19a2a7a412f472e6d86e76ecb1cdec94eea267259e1"
+
+[build]
+system = "autotools"

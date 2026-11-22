@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "macchanger"
+version = "0.2.1"
+description = "Change your mac address, for macOS"
+homepage = "https://github.com/shilch/macchanger"
+
+[source]
+url = "https://github.com/shilch/macchanger/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "87192a3549baa771736ec3f9c2017f533d304efc7b7d968aadc1226e08f1673b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "mitie"
+version = "0.7_3"
+description = "Library and tools for information extraction"
+homepage = "https://github.com/mit-nlp/MITIE/"
+
+[source]
+url = "https://github.com/mit-nlp/MITIE/archive/refs/tags/v0.7.tar.gz"
+sha256 = "0830955e64c2a4cceab803884355f090cf8e9086e68ac5df43058f05c34697e8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libusb"]
+
+[package]
+name = "quadcastrgb"
+version = "1.0.5"
+description = "Set RGB lights on HyperX QuadCast S and Duocast microphones"
+homepage = "https://ors1mer.xyz/quadcastrgb.html"
+
+[source]
+url = "https://ors1mer.xyz/downloads/quadcastrgb-1.0.5.tgz"
+sha256 = "cdbe8d638ac772579acca203bb2663d7c3a47006190a78ee2971b06c63c69648"
+
+[build]
+system = "autotools"

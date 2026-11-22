@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "git-revise"
+version = "0"
+description = "Rebase alternative for easy & efficient in-memory rebases and fixups"
+homepage = "https://github.com/mystor/git-revise"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b7/51/771e8ecd76847a6e822d40e070604eb3d916bf25f73b369417a9789103d5/git_revise-0.8.0.tar.gz"
+sha256 = "3239b1809cd659b33f6f323d3bfca5c7e3a9eb2eace223cf63b346f91c8c831c"
+
+[build]
+system = "autotools"

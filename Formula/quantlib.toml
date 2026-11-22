@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "boost"]
+
+[package]
+name = "quantlib"
+version = "0"
+description = "Library for quantitative finance"
+homepage = "https://www.quantlib.org/"
+
+[source]
+url = "https://github.com/lballabio/QuantLib/releases/download/v1.44/QuantLib-1.44.tar.gz"
+sha256 = "34d7787a367404447f84be6942b19fd091f1e8e45a380d3f153e6cd8c4bb8ad8"
+
+[build]
+system = "autotools"

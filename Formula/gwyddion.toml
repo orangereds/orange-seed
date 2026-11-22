@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gtk+", "autoconf", "automake", "docbook-xsl", "gettext", "gobject-introspection", "gtk-doc", "libtool", "gtk+3", "gtk-mac-integration", "pkgconf", "cairo", "fftw", "gdk-pixbuf", "glib", "libpng", "libxml2", "libzip", "pango", "webp", "zstd", "at-spi2-core", "harfbuzz"]
+
+[package]
+name = "gwyddion"
+version = "2.71"
+description = "Scanning Probe Microscopy visualization and analysis tool"
+homepage = "https://gwyddion.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gwyddion/gwyddion/2.71/gwyddion-2.71.tar.xz"
+sha256 = "2df721befccbe4d5ee2ba564b32e69341f8ce1de637e2045838a09a2d46b5dba"
+
+[build]
+system = "autotools"

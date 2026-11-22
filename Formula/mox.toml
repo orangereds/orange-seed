@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mox"
+version = "0.0.17"
+description = "Modern full-featured open source secure mail server"
+homepage = "https://www.xmox.nl"
+
+[source]
+url = "https://github.com/mjl-/mox/archive/refs/tags/v0.0.17.tar.gz"
+sha256 = "22f0d7deeaef6e8bae21f98e37ebcff7d18499591638b89eff484eb7fd06ea37"
+
+[build]
+system = "autotools"

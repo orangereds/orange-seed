@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-auditable"
+version = "0.7.7"
+description = "Make production Rust binaries auditable"
+homepage = "https://github.com/rust-secure-code/cargo-auditable"
+
+[source]
+url = "https://github.com/rust-secure-code/cargo-auditable/archive/refs/tags/v0.7.7.tar.gz"
+sha256 = "cab2a4b65cfde0734c98416740d24d4e3f03441ea8a0b385f0431e35244a05aa"
+
+[build]
+system = "autotools"

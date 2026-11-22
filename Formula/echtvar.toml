@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "pkgconf", "rust"]
+
+[package]
+name = "echtvar"
+version = "0.2.4"
+description = "Rapid variant annotation and filtering"
+homepage = "https://academic.oup.com/nar/advance-article/doi/10.1093/nar/gkac931/6775383"
+
+[source]
+url = "https://github.com/brentp/echtvar/archive/refs/tags/v0.2.4.tar.gz"
+sha256 = "e4d04d16d9c8e02aa9c216d7c7173e4d35ed3a9f848d05e5908d60e74b5c128b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "kim-api", "gcc"]
+
+[package]
+name = "openkim-models"
+version = "2021-08-11_1"
+description = "All OpenKIM Models compatible with kim-api"
+homepage = "https://openkim.org"
+
+[source]
+url = "https://s3.openkim.org/archives/collection/openkim-models-2021-08-11.txz"
+sha256 = "f42d241969787297d839823bdd5528bc9324cd2d85f5cf2054866e654ce576da"
+
+[build]
+system = "cmake"

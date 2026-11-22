@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "texi2mdoc"
+version = "0.1.2"
+description = "Convert Texinfo data to mdoc input"
+homepage = "https://mandoc.bsd.lv/texi2mdoc/"
+
+[source]
+url = "https://mandoc.bsd.lv/texi2mdoc/snapshots/texi2mdoc-0.1.2.tgz"
+sha256 = "7a45fd87c27cc8970a18db9ddddb2f09f18b8dd5152bf0ca377c3a5e7d304bfe"
+
+[build]
+system = "make"

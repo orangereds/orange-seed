@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitleaks"
+version = "8.30.1"
+description = "Audit git repos for secrets"
+homepage = "https://gitleaks.io/"
+
+[source]
+url = "https://github.com/gitleaks/gitleaks/archive/refs/tags/v8.30.1.tar.gz"
+sha256 = "e90fb266d75837e75894c778bf594ab8e2787f12dce5a62651f21b893eaf9abb"
+
+[build]
+system = "autotools"

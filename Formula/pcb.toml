@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "intltool", "pkgconf", "cairo", "dbus", "gd", "gdk-pixbuf", "gettext", "glib", "gtk+", "gtkglext", "at-spi2-core", "gnu-sed", "harfbuzz", "libxrender", "pango"]
+
+[package]
+name = "pcb"
+version = "4.3.0_1"
+description = "Interactive printed circuit board editor"
+homepage = "http://pcb.geda-project.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pcb/pcb/pcb-4.3.0/pcb-4.3.0.tar.gz"
+sha256 = "ae852f46af84aba7f51d813fb916fc7fcdbeea43f7134f150507024e1743fb5e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "twoping"
+version = "2ping-4.6.1"
+description = "Ping utility to determine directional packet loss"
+homepage = "https://www.finnie.org/software/2ping/"
+
+[source]
+url = "https://www.finnie.org/software/2ping/2ping-4.6.1.tar.gz"
+sha256 = "c8352b6653c3194af1f869107655df3f98ab18b560e8bce86eabac08d73c72eb"
+
+[service]
+run = "opt/twoping/bin/2ping --listen --quiet"
+keep_alive = true
+log_path = "File::NULL"
+error_log_path = "File::NULL"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "micropython"
+version = "1.29.0"
+description = "Python implementation for microcontrollers and constrained systems"
+homepage = "https://www.micropython.org/"
+
+[source]
+url = "https://github.com/micropython/micropython/releases/download/v1.29.0/micropython-1.29.0.tar.xz"
+sha256 = "d925a7c664e79a2bdf3dfcb285ba5e2237041cc35a0bd4ee573b6c5711efeca0"
+
+[build]
+system = "make"

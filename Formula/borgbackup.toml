@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libb2", "lz4", "openssl@4", "python@3.15", "xxhash", "zstd"]
+
+[package]
+name = "borgbackup"
+version = "1.4.5_1"
+description = "Deduplicating archiver with compression and authenticated encryption"
+homepage = "https://www.borgbackup.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/62/5b/aec6c069840f64f744d661c5eea1c648d407bebb836b2e12d8a3b9939bb4/borgbackup-1.4.5.tar.gz"
+sha256 = "4f9a5fe584c504b15485841236750dea16aa7cd2ddbc4a594e9d2ce5c49c4508"
+
+[build]
+system = "autotools"

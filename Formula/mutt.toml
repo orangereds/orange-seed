@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gpgme", "libgpg-error", "libidn2", "lmdb", "ncurses", "openssl@4", "gettext", "libunistring"]
+
+[package]
+name = "mutt"
+version = "2.4.3_1"
+description = "Mongrel of mail user agents (part elm, pine, mush, mh, etc.)"
+homepage = "http://www.mutt.org/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/mutt/mutt-2.4.3.tar.gz"
+sha256 = "ce9154e3afede622d98b90a22c87d06f32051c930a9afb2b7ef41656c4dbc948"
+
+[build]
+system = "autotools"

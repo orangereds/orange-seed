@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "bullet", "cairo", "dbus", "fontconfig", "freetype", "fribidi", "gettext", "giflib", "glib", "gstreamer", "harfbuzz", "jpeg-turbo", "libpng", "libraw", "librsvg", "libsndfile", "libspectre", "libtiff", "luajit", "lz4", "openjpeg", "openssl@4", "poppler", "pulseaudio", "shared-mime-info", "webp", "gdk-pixbuf", "little-cms2"]
+
+[package]
+name = "efl"
+version = "1.29.0"
+description = "Enlightenment Foundation Libraries"
+homepage = "https://www.enlightenment.org"
+
+[source]
+url = "https://download.enlightenment.org/rel/libs/efl/efl-1.29.0.tar.xz"
+sha256 = "248bc76141f2b8b006ccba9e0bb2cb46cbcb1be4181a1cf2728187f778853654"
+
+[build]
+system = "autotools"

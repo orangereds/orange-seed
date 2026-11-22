@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "git-grab"
+version = "4.0.1.crate"
+description = "Clone a git repository into a standard location organised by domain and path"
+homepage = "https://codeberg.org/wezm/git-grab"
+
+[source]
+url = "https://static.crates.io/crates/git-grab/git-grab-4.0.1.crate"
+sha256 = "5182ee527d93f15e811d346fb86f3e4c2c24fbc479d4deb57efda6bec065a1c0"
+
+[build]
+system = "autotools"

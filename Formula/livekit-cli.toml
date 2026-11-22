@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "portaudio"]
+
+[package]
+name = "livekit-cli"
+version = "2.20.1"
+description = "Command-line interface to LiveKit"
+homepage = "https://livekit.io"
+
+[source]
+url = "https://github.com/livekit/livekit-cli/archive/refs/tags/v2.20.1.tar.gz"
+sha256 = "87ef9b068bda914e11bc942e670e74e3d129aadfcc3d01c543d8974c13923cfb"
+
+[build]
+system = "autotools"

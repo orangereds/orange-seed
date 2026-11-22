@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "code-cli"
+version = "1.147.0"
+description = "Command-line interface built-in Visual Studio Code"
+homepage = "https://code.visualstudio.com"
+
+[source]
+url = "https://github.com/microsoft/vscode/archive/refs/tags/1.147.0.tar.gz"
+sha256 = "b3b7d5f314a963eba0dc430bf3ca88212a029e9c373a517a8a4d5e1872f9f292"
+
+[build]
+system = "autotools"

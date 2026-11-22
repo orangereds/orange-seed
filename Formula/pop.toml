@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pop"
+version = "0.5.0"
+description = "Send emails from your terminal"
+homepage = "https://github.com/charmbracelet/pop"
+
+[source]
+url = "https://github.com/charmbracelet/pop/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "c577d4f3edf403e34832013b79ddc159c1eec938e0bd452b2623c853f752a75c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "logdy"
+version = "0.17.1"
+description = "Web based real-time log viewer"
+homepage = "https://logdy.dev"
+
+[source]
+url = "https://github.com/logdyhq/logdy-core/archive/refs/tags/v0.17.1.tar.gz"
+sha256 = "bd5db124e736e42d3671697787a26b354e0be6e787a95e69c054ad873058fcec"
+
+[build]
+system = "autotools"

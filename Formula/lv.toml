@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lv"
+version = "4.51-10.1"
+description = "Powerful multi-lingual file viewer/grep"
+homepage = "https://salsa.debian.org/debian/lv"
+
+[source]
+url = "https://salsa.debian.org/debian/lv/-/archive/debian/4.51-10.1/lv-debian-4.51-10.1.tar.gz"
+sha256 = "64c1efb7d66301625d3a46dd4b3abed45942b2686de335860bf24a37b01ea858"
+
+[build]
+system = "autotools"

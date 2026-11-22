@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "doxx"
+version = "0.1.4"
+description = "Terminal document viewer for .docx files"
+homepage = "https://bgreenwell.github.io/doxx/"
+
+[source]
+url = "https://github.com/bgreenwell/doxx/archive/refs/tags/v0.1.4.tar.gz"
+sha256 = "72af676ca30b27adc7a13b17a48aac88589c940accba28453f3d94a861bed961"
+
+[build]
+system = "autotools"

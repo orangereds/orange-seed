@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "the-way"
+version = "0.20.3"
+description = "Code snippets manager for your terminal"
+homepage = "https://github.com/out-of-cheese-error/the-way"
+
+[source]
+url = "https://github.com/out-of-cheese-error/the-way/archive/refs/tags/v0.20.3.tar.gz"
+sha256 = "84e0610f6b74c886c6cfa92cbce5f1d4f4d12b6e504d379c11659ab9ef980e97"
+
+[build]
+system = "autotools"

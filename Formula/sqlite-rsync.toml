@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sqlite-rsync"
+version = "3.54.1"
+description = "SQLite remote copy tool"
+homepage = "https://www.sqlite.org/"
+
+[source]
+url = "https://www.sqlite.org/2026/sqlite-src-3540100.zip"
+sha256 = "387e7f6cad4797b17848c07d453dc6606917bb356a6cfe5a3abafd38c240c71b"
+
+[build]
+system = "autotools"

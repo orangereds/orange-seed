@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "gmp"
+version = "6.3.0"
+description = "GNU multiple precision arithmetic library"
+homepage = "https://gmplib.org/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gmp/gmp-6.3.0.tar.xz"
+sha256 = "a3c2b80201b89e68616f4ad30bc66aee4927c3ce50e33929ca819d5c43538898"
+
+[build]
+system = "autotools"

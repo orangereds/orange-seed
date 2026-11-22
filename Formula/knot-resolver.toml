@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "fstrm", "gnutls", "knot", "libnghttp2", "libuv", "libyaml", "lmdb", "luajit", "protobuf-c", "python@3.15"]
+
+[package]
+name = "knot-resolver"
+version = "6.5.1"
+description = "Minimalistic, caching, DNSSEC-validating DNS resolver"
+homepage = "https://www.knot-resolver.cz"
+
+[source]
+url = "https://knot-resolver.nic.cz/release/knot-resolver-6.5.1.tar.xz"
+sha256 = "3b2a04626c1df9b42420960025bc94e28777744d31c567adb9580c37189aae97"
+
+[service]
+run = "opt/knot-resolver/bin/knot-resolver"
+working_dir = "var/run/knot-resolver"
+log_path = "var/log/knot-resolver.log"
+error_log_path = "var/log/knot-resolver.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "picoclaw"
+version = "0.3.1"
+description = "Ultra-efficient personal AI assistant in Go"
+homepage = "https://picoclaw.io/"
+
+[source]
+url = "https://github.com/sipeed/picoclaw/archive/refs/tags/v0.3.1.tar.gz"
+sha256 = "df66f2f9a6fecf6f1396311b4a7881afc34d5f4209e2bebd6d91fb2b142d78d0"
+
+[service]
+run = "opt/picoclaw/bin/picoclaw gateway"
+keep_alive = true
+
+[build]
+system = "autotools"

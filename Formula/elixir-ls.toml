@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elixir"]
+
+[package]
+name = "elixir-ls"
+version = "0.31.1"
+description = "Language Server and Debugger for Elixir"
+homepage = "https://elixir-lsp.github.io/elixir-ls"
+
+[source]
+url = "https://github.com/elixir-lsp/elixir-ls/archive/refs/tags/v0.31.1.tar.gz"
+sha256 = "915dcf461411bf5a1ff5a13639dee832616b9b11b6efe911a86927c3d1930b67"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bdw-gc", "crystal", "libyaml", "openssl@4", "pcre2", "sqlite"]
+
+[package]
+name = "amber"
+version = "1.5.0_1"
+description = "Crystal web framework. Bare metal performance, productivity and happiness"
+homepage = "https://amberframework.org/"
+
+[source]
+url = "https://github.com/amberframework/amber/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "12c7b576a5f2e0dba53962ca23d18435526a2b685924783d57cb0d507bd93a03"
+
+[build]
+system = "make"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nvm"
+version = "0.41.0"
+description = "Manage multiple Node.js versions"
+homepage = "https://github.com/nvm-sh/nvm"
+
+[source]
+url = "https://github.com/nvm-sh/nvm/archive/refs/tags/v0.41.0.tar.gz"
+sha256 = "532560c9ecc6ef484279fcc1c600e9346537bc7913b891ffd0ec0caca5072694"
+
+[build]
+system = "autotools"

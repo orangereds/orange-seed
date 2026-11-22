@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lazyssh"
+version = "0.3.0"
+description = "Terminal-based SSH manager"
+homepage = "https://github.com/Adembc/lazyssh"
+
+[source]
+url = "https://github.com/Adembc/lazyssh/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "36cd630b3cd9447e88904171cbb64944aeacbbd62c15db66d8a0e4a4486ffe88"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "charls"
+version = "2.4.5"
+description = "C++ JPEG-LS library implementation"
+homepage = "https://github.com/team-charls/charls"
+
+[source]
+url = "https://github.com/team-charls/charls/archive/refs/tags/2.4.5.tar.gz"
+sha256 = "b55c742ef96b5e9d63f813a75d0ba29944302abb5a6ab59756ad61fa017b1dd3"
+
+[build]
+system = "cmake"

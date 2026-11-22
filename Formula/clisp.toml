@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libffcall", "libsigsegv", "readline", "llvm"]
+
+[package]
+name = "clisp"
+version = "2.49.92_1"
+description = "GNU CLISP, a Common Lisp implementation"
+homepage = "https://clisp.sourceforge.io/"
+
+[source]
+url = "https://alpha.gnu.org/gnu/clisp/clisp-2.49.92.tar.bz2"
+sha256 = "bd443a94aa9b02da4c4abbcecfc04ffff1919c0a8b0e7e35649b86198cd6bb89"
+
+[build]
+system = "autotools"

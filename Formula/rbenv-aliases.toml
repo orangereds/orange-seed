@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rbenv"]
+
+[package]
+name = "rbenv-aliases"
+version = "1.1.0_1"
+description = "Make aliases for Ruby versions"
+homepage = "https://github.com/tpope/rbenv-aliases"
+
+[source]
+url = "https://github.com/tpope/rbenv-aliases/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "12e89bc4499e85d8babac2b02bc8b66ceb0aa3f8047b26728a3eca8a6030273d"
+
+[build]
+system = "autotools"

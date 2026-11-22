@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+3", "libgedit-amtk", "libgedit-gfls", "libxml2", "pango"]
+
+[package]
+name = "libgedit-gtksourceview"
+version = "299.8.0"
+description = "Text editor widget for code editing"
+homepage = "https://gitlab.gnome.org/World/gedit/libgedit-gtksourceview"
+
+[source]
+url = "https://gitlab.gnome.org/World/gedit/libgedit-gtksourceview/-/archive/299.8.0/libgedit-gtksourceview-299.8.0.tar.bz2"
+sha256 = "0fed8e7ec13b435bae8d20d2cac68d609757517e5c6faca2f78733878e4246ce"
+
+[build]
+system = "autotools"

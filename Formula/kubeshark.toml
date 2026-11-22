@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubeshark"
+version = "53.6.0"
+description = "API Traffic Analyzer providing real-time visibility into Kubernetes network"
+homepage = "https://kubeshark.com"
+
+[source]
+url = "https://github.com/kubeshark/kubeshark/archive/refs/tags/v53.6.0.tar.gz"
+sha256 = "b613c35a7c955b681e8517d9608c5ef28f429f72632020a4241df1428c7444c8"
+
+[build]
+system = "autotools"

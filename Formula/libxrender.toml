@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "xorgproto"]
+
+[package]
+name = "libxrender"
+version = "0"
+description = "X.Org: Library for the Render Extension to the X11 protocol"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXrender-0.9.13.tar.gz"
+sha256 = "bf264b683d1e49ff9a6bc03af13baa430a556d943731a2b1ac2439dae4fea205"
+
+[build]
+system = "autotools"

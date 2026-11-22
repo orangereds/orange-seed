@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "wikibase-cli"
+version = "21.0.0"
+description = "Command-line interface to Wikibase"
+homepage = "https://codeberg.org/maxlath/wikibase-cli"
+
+[source]
+url = "https://registry.npmjs.org/wikibase-cli/-/wikibase-cli-21.0.0.tgz"
+sha256 = "1bb26390675f758abb89cea5f29167f52eae3c5f29314fae505d02b910148754"
+
+[build]
+system = "autotools"

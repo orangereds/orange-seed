@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dart-sdk", "dartaotruntime"]
+
+[package]
+name = "fvm"
+version = "4.3.2_1"
+description = "Manage Flutter SDK versions per project"
+homepage = "https://fvm.app"
+
+[source]
+url = "https://github.com/leoafarias/fvm/archive/refs/tags/4.3.2.tar.gz"
+sha256 = "e16b1e76eb4df5b22d00ab40fe77cfd8c261be6f968e94eb081ad39af5615059"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "par"
+version = "1.53.0"
+description = "Paragraph reflow for email"
+homepage = "http://www.nicemice.net/par/"
+
+[source]
+url = "https://bitbucket.org/amc-nicemice/par/get/1.53.0.tar.bz2"
+sha256 = "6109b1811630e1e0e76fc87bf60ad9140440a145c9b4c9412fb36b4f73726a04"
+
+[build]
+system = "autotools"

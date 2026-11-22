@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf"]
+
+[package]
+name = "roll"
+version = "2.7.0"
+description = "CLI program for rolling a dice sequence"
+homepage = "https://matteocorti.github.io/roll/"
+
+[source]
+url = "https://github.com/matteocorti/roll/releases/download/v2.7.0/roll-2.7.0.tar.gz"
+sha256 = "9e116501aaa0c8f954d31a86e8cf6dee5d98ee35a5e8e5b025646c4bee741533"
+
+[build]
+system = "autotools"

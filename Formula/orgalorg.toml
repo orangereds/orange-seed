@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "orgalorg"
+version = "1.3.1"
+description = "Parallel SSH commands executioner and file synchronization tool"
+homepage = "https://github.com/reconquest/orgalorg"
+
+[source]
+url = "https://github.com/reconquest/orgalorg/archive/refs/tags/1.3.1.tar.gz"
+sha256 = "b9292ac6af1c492c82e4c77a707a026ad9674139f02d3fa25b797f65e3d69a2c"
+
+[build]
+system = "autotools"

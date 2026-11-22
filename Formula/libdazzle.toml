@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "cairo", "gdk-pixbuf", "glib", "gtk+3", "pango", "at-spi2-core", "gettext", "harfbuzz"]
+
+[package]
+name = "libdazzle"
+version = "3.44.0_1"
+description = "GNOME companion library to GObject and Gtk+"
+homepage = "https://gitlab.gnome.org/GNOME/libdazzle"
+
+[source]
+url = "https://download.gnome.org/sources/libdazzle/3.44/libdazzle-3.44.0.tar.xz"
+sha256 = "3cd3e45eb6e2680cb05d52e1e80dd8f9d59d4765212f0e28f78e6c1783d18eae"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ad"
+version = "0.4.0"
+description = "Adaptable text editor inspired by vi, kakoune, and acme"
+homepage = "https://github.com/sminez/ad"
+
+[source]
+url = "https://github.com/sminez/ad/archive/refs/tags/0.4.0.tar.gz"
+sha256 = "e35cf1030bc24bf336066fcd367e8a022d097357b896cb316183993951d4ffb8"
+
+[build]
+system = "autotools"

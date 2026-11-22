@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpq", "rust"]
+
+[package]
+name = "sui"
+version = "0"
+description = "Next-generation smart contract platform powered by the Move programming language"
+homepage = "https://sui.io"
+
+[source]
+url = "https://github.com/MystenLabs/sui/archive/refs/tags/testnet-v1.84.1.tar.gz"
+sha256 = "47d5a0b76f74681ab95beabc407802a1bd8e22b987e0cd8cc613cef98d077115"
+
+[build]
+system = "autotools"

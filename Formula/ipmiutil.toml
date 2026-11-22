@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "ipmiutil"
+version = "3.2.3"
+description = "IPMI server management utility"
+homepage = "https://ipmiutil.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ipmiutil/ipmiutil-3.2.3.tar.gz"
+sha256 = "d26cae7318f12ab1098ec6c8ef2f017722659dda26eb81ebc6b50edc0453867a"
+
+[build]
+system = "autotools"

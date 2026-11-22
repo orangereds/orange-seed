@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "cloudflare-cli4"
+version = "0_6"
+description = "CLI for Cloudflare API v4"
+homepage = "https://github.com/cloudflare/python-cloudflare-cli4"
+
+[source]
+url = "https://files.pythonhosted.org/packages/77/fd/87b3e026dcee2a6b891f2b6c98b8f0bc98a175c4b731c046b528298c07c5/cloudflare_cli4-2.19.4.post3.tar.gz"
+sha256 = "36efe09d188678e8c99e654b79162758594107342d11f88192423aa47fd6c0b8"
+
+[build]
+system = "autotools"

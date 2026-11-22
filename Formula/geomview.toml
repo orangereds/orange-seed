@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libice", "libsm", "libx11", "libxext", "libxmu", "libxt", "mesa", "mesa-glu", "openmotif"]
+
+[package]
+name = "geomview"
+version = "1.9.5.orig_2"
+description = "Interactive 3D viewing program"
+homepage = "http://www.geomview.org"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/g/geomview/geomview_1.9.5.orig.tar.gz"
+sha256 = "67edb3005a22ed2bf06f0790303ee3f523011ba069c10db8aef263ac1a1b02c0"
+
+[build]
+system = "autotools"

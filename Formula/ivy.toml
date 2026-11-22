@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "ivy"
+version = "0"
+description = "Agile dependency manager"
+homepage = "https://ant.apache.org/ivy/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=ant/ivy/2.6.0/apache-ivy-2.6.0-bin.tar.gz"
+sha256 = "3ada1eaadfaddf5347f1de8303d283dc535f4d8bddd7bee7b32e397c8327cb1f"
+
+[build]
+system = "autotools"

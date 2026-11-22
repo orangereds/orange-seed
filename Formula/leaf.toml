@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "leaf"
+version = "1.3.0"
+description = "General purpose reloader for all projects"
+homepage = "https://pkg.go.dev/github.com/vrongmeal/leaf"
+
+[source]
+url = "https://github.com/vrongmeal/leaf/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "00ba86c1670e4a547d6f584350d41d174452d0679be25828e7835a8da1fe100a"
+
+[build]
+system = "autotools"

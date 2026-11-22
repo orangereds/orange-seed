@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcbeautify"
+version = "3.2.1"
+description = "Little beautifier tool for xcodebuild"
+homepage = "https://github.com/cpisciotta/xcbeautify"
+
+[source]
+url = "https://github.com/cpisciotta/xcbeautify/archive/refs/tags/3.2.1.tar.gz"
+sha256 = "7575dcb90e4650f8d8f66b92ca2f3eaa5ad9feddda7bf3c63aeb0edca199aa80"
+
+[build]
+system = "autotools"

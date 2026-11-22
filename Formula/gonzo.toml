@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "gonzo"
+version = "0.4.3"
+description = "Log analysis TUI"
+homepage = "https://gonzo.controltheory.com/"
+
+[source]
+url = "https://github.com/control-theory/gonzo/archive/refs/tags/v0.4.3.tar.gz"
+sha256 = "cc9b0c79238f39b18f05ac5076c286166984d55056e8583fd9964b6594f7409f"
+
+[build]
+system = "autotools"

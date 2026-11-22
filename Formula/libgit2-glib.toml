@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "libgit2", "gettext"]
+
+[package]
+name = "libgit2-glib"
+version = "1.2.1"
+description = "Glib wrapper library around libgit2 git access library"
+homepage = "https://gitlab.gnome.org/GNOME/libgit2-glib"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/libgit2-glib/-/archive/v1.2.1/libgit2-glib-v1.2.1.tar.bz2"
+sha256 = "e15d98cf15cd9dc8aaae8a11ab44f51f3a0da3ad4ace80ede3831c934e1897d7"
+
+[build]
+system = "autotools"

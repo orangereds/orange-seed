@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "boost", "cweb", "flex", "meson", "ninja", "pkgconf", "gcc", "gsl", "libmatio", "octave", "openblas", "slicot", "suite-sparse", "llvm", "libomp"]
+
+[package]
+name = "dynare"
+version = "12"
+description = "Platform for economic models, particularly DSGE and OLG models"
+homepage = "https://www.dynare.org/"
+
+[source]
+url = "https://www.dynare.org/release/source/dynare-7.2.tar.xz"
+sha256 = "88204354739547117b315e8fa3f8780a7570c576efd12f6a292f2a2468bb7a3c"
+
+[build]
+system = "autotools"

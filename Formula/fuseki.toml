@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "fuseki"
+version = "0"
+description = "SPARQL server"
+homepage = "https://jena.apache.org/documentation/fuseki2/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=jena/binaries/apache-jena-fuseki-6.2.0.tar.gz"
+sha256 = "e3b8b033872cd2f24091603bec1e7eb21cc3e1def5b9572658c48143e86b977f"
+
+[service]
+run = "opt/fuseki/bin/fuseki-server"
+
+[build]
+system = "autotools"

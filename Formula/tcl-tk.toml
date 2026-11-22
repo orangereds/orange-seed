@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtommath"]
+
+[package]
+name = "tcl-tk"
+version = "4.2.3"
+description = "Tool Command Language"
+homepage = "https://www.tcl-lang.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tcl/Tcl/9.1.0/tcl9.1.0-src.tar.gz"
+sha256 = "536c45543f64d6eb11832d97ba3494aacff046fbc5040273bd55258d0e448ff1"
+
+[build]
+system = "autotools"

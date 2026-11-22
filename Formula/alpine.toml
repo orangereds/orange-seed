@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3"]
+
+[package]
+name = "alpine"
+version = "2.26"
+description = "News and email agent"
+homepage = "https://alpineapp.email"
+
+[source]
+url = "https://alpineapp.email/alpine/release/src/alpine-2.26.tar.xz"
+sha256 = "c0779c2be6c47d30554854a3e14ef5e36539502b331068851329275898a9baba"
+
+[build]
+system = "autotools"

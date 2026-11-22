@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man", "pkgconf", "gpgme"]
+
+[package]
+name = "skopeo"
+version = "1.25.2"
+description = "Work with remote images registries"
+homepage = "https://github.com/podman-container-tools/skopeo"
+
+[source]
+url = "https://github.com/podman-container-tools/skopeo/archive/refs/tags/v1.25.2.tar.gz"
+sha256 = "d2ebe154195934908e2dd8d992bfda5dc554e1f5d8586c49b6a931fd69563d24"
+
+[build]
+system = "make"

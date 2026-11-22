@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "openssl@4", "pkgconf"]
+
+[package]
+name = "node-build"
+version = "5.4.63"
+description = "Install NodeJS versions"
+homepage = "https://github.com/nodenv/node-build"
+
+[source]
+url = "https://github.com/nodenv/node-build/archive/refs/tags/v5.4.63.tar.gz"
+sha256 = "a8569f0b6283017ac712e1b18f97d71e5d78120afd6bdd72a817aaa95a74a7b4"
+
+[build]
+system = "autotools"

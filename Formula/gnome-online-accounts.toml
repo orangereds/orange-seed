@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dbus", "docbook-xsl", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "gtk4", "json-glib", "libadwaita", "libgoa", "librest", "libsecret", "libsoup", "gettext"]
+
+[package]
+name = "gnome-online-accounts"
+version = "3.58.1"
+description = "Single sign-on framework for GNOME"
+homepage = "https://gitlab.gnome.org/GNOME/gnome-online-accounts"
+
+[source]
+url = "https://download.gnome.org/sources/gnome-online-accounts/3.58/gnome-online-accounts-3.58.1.tar.xz"
+sha256 = "9ec1900cc51409c2067c07c828c10be06fe3bf68d2999bb72d7d5ed325ed9bbc"
+
+[build]
+system = "autotools"

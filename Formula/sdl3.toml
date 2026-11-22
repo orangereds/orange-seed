@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "sdl3"
+version = "0"
+description = "Low-level access to audio, keyboard, mouse, joystick, and graphics"
+homepage = "https://libsdl.org/"
+
+[source]
+url = "https://github.com/libsdl-org/SDL/releases/download/release-3.4.20/SDL3-3.4.20.tar.gz"
+sha256 = "f3bb06f55bed9557227a700af2ea62e49497ebdf58037732a731a5fb3ef8581f"
+
+[build]
+system = "cmake"

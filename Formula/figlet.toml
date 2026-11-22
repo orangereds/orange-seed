@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "figlet"
+version = "2.2.5"
+description = "Banner-like program prints strings as ASCII art"
+homepage = "https://www.figlet.org/"
+
+[source]
+url = "ftp://ftp.figlet.org/pub/figlet/program/unix/figlet-2.2.5.tar.gz"
+sha256 = "bf88c40fd0f077dab2712f54f8d39ac952e4e9f2e1882f1195be9e5e4257417d"
+
+[build]
+system = "autotools"

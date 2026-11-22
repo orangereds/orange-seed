@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libusb"]
+
+[package]
+name = "usbutils"
+version = "020"
+description = "List detailed info about USB devices"
+homepage = "http://www.linux-usb.org/"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/usb/usbutils/usbutils-020.tar.gz"
+sha256 = "fed292b2a3dce83464ce9e96e7eaf301f58b3bf0104872b6a75edac14c907ff2"
+
+[build]
+system = "autotools"

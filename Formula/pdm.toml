@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "pdm"
+version = "2.29.7"
+description = "Modern Python package and dependency manager supporting the latest PEP standards"
+homepage = "https://pdm-project.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c1/a0/8771df689a3bc27932641dfba6597309a917c07d5dbd8bbd3203d240017e/pdm-2.29.7.tar.gz"
+sha256 = "cc58224755ef310d2c7f0f0276782b0068da9a7d5bc70da995c1bf55c1a8296a"
+
+[build]
+system = "autotools"

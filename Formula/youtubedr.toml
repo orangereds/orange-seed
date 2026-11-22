@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "youtubedr"
+version = "2.10.8"
+description = "Download Youtube Video in Golang"
+homepage = "https://github.com/kkdai/youtube"
+
+[source]
+url = "https://github.com/kkdai/youtube/archive/refs/tags/v2.10.8.tar.gz"
+sha256 = "14ea78ee215a017e8cffa85b3de34f69063c9619ae13eb0154229a67362b03ab"
+
+[build]
+system = "autotools"

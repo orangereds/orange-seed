@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubekey"
+version = "0"
+description = "Installer for Kubernetes and / or KubeSphere, and related cloud-native add-ons"
+homepage = "https://kubesphere.io"
+
+[source]
+url = "https://github.com/kubesphere/kubekey.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

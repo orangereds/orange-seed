@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rkhunter"
+version = "1.4.6"
+description = "Rootkit hunter"
+homepage = "https://rkhunter.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/rkhunter/rkhunter/1.4.6/rkhunter-1.4.6.tar.gz"
+sha256 = "f750aa3e22f839b637a073647510d7aa3adf7496e21f3c875b7a368c71d37487"
+
+[build]
+system = "autotools"

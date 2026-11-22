@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "naabu"
+version = "2.7.0"
+description = "Fast port scanner"
+homepage = "https://docs.projectdiscovery.io/tools/naabu/overview"
+
+[source]
+url = "https://github.com/projectdiscovery/naabu/archive/refs/tags/v2.7.0.tar.gz"
+sha256 = "6eee1b4b4c9b4b5eb19f175c2ac67e04babc6290f937b9c72fca0b1183e3fe47"
+
+[build]
+system = "autotools"

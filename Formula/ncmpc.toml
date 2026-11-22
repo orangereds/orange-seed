@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "gettext", "meson", "ninja", "pkgconf", "fmt", "libmpdclient", "pcre2", "llvm"]
+
+[package]
+name = "ncmpc"
+version = "9"
+description = "Curses Music Player Daemon (MPD) client"
+homepage = "https://www.musicpd.org/clients/ncmpc/"
+
+[source]
+url = "https://www.musicpd.org/download/ncmpc/0/ncmpc-0.55.tar.xz"
+sha256 = "9b332932306e210f28b27f65b368a1ebf9270410c2ea9ac0d620d46f2a5379a8"
+
+[build]
+system = "autotools"

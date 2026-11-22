@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "millet"
+version = "0.15.3"
+description = "Language server for Standard ML (SML)"
+homepage = "https://github.com/azdavis/millet"
+
+[source]
+url = "https://github.com/azdavis/millet/archive/refs/tags/v0.15.3.tar.gz"
+sha256 = "f974a7dacd0e163bd10ebdbc798ec249a89efd01905e8e57b32d2f017254cedf"
+
+[build]
+system = "autotools"

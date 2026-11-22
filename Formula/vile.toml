@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "vile"
+version = "9.8zb"
+description = "Vi Like Emacs Editor"
+homepage = "https://invisible-island.net/vile/"
+
+[source]
+url = "https://invisible-island.net/archives/vile/current/vile-9.8zb.tgz"
+sha256 = "d6239e6b728fa9d0b49f526d8f0998d2db4b7a7dfc317273dbff7aea2a09ea31"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kraftkit"
+version = "0.13.1"
+description = "Build and use highly customized and ultra-lightweight unikernel VMs"
+homepage = "https://unikraft.org/docs/cli"
+
+[source]
+url = "https://github.com/unikraft/kraftkit/archive/refs/tags/v0.13.1.tar.gz"
+sha256 = "7e9c1f7e0d83e245987517892af64bdf555c76818ecd61d28a2d6620252ea8cc"
+
+[build]
+system = "autotools"

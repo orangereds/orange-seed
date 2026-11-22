@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python-setuptools", "swig", "cairo", "cfitsio", "gsl", "jpeg-turbo", "libpng", "netpbm", "numpy", "python@3.15", "wcslib"]
+
+[package]
+name = "astrometry-net"
+version = "0_1"
+description = "Automatic identification of astronomical images"
+homepage = "https://github.com/dstndstn/astrometry.net"
+
+[source]
+url = "https://github.com/dstndstn/astrometry.net/releases/download/0.97/astrometry.net-0.97.tar.gz"
+sha256 = "e4eef1b658ba5ad462282b661c0ca3a5c538ba1716e853f7970b7b9fa4a33459"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "yap"
+version = "1.2.2"
+description = "On-device audio transcription using Speech.framework"
+homepage = "https://github.com/finnvoor/yap"
+
+[source]
+url = "https://github.com/finnvoor/yap/archive/refs/tags/1.2.2.tar.gz"
+sha256 = "a078bb4908cea4e0eb22953e4acf85b137d6d69218deed652658e21fac905793"
+
+[build]
+system = "autotools"

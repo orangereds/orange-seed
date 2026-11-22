@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "fern-api"
+version = "5.224.0"
+description = "Stripe-level SDKs and Docs for your API"
+homepage = "https://buildwithfern.com/"
+
+[source]
+url = "https://registry.npmjs.org/fern-api/-/fern-api-5.224.0.tgz"
+sha256 = "f6f0760ffe3515edb8686040b1bf564729916829f70502392cc96595f913cbbd"
+
+[build]
+system = "autotools"

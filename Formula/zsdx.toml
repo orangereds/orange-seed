@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "solarus"]
+
+[package]
+name = "zsdx"
+version = "1.12.3"
+description = "Zelda Mystery of Solarus DX"
+homepage = "https://www.solarus-games.org/games/the-legend-of-zelda-mystery-of-solarus-dx"
+
+[source]
+url = "https://gitlab.com/solarus-games/games/zsdx/-/archive/v1.12.3/zsdx-v1.12.3.tar.bz2"
+sha256 = "29065d3280ec03176e8de0a7a26504421d43c5778b566e50c212deb25b45d66a"
+
+[build]
+system = "cmake"

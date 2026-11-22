@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "cmake", "docbook-xsl", "pkgconf", "curl", "openssl@4", "pinentry"]
+
+[package]
+name = "lastpass-cli"
+version = "1.6.2"
+description = "LastPass command-line interface tool"
+homepage = "https://github.com/lastpass/lastpass-cli"
+
+[source]
+url = "https://github.com/lastpass/lastpass-cli/releases/download/v1.6.2/lastpass-cli-1.6.2.tar.gz"
+sha256 = "b65b9c951a9a17b87b8ac0500808c716ef8e5fe6e70f1fd44f23b8385aa30984"
+
+[build]
+system = "cmake"

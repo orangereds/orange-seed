@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "freetype", "libpng"]
+
+[package]
+name = "c10t"
+version = "1.7_14"
+description = "Minecraft cartography tool"
+homepage = "https://github.com/udoprog/c10t"
+
+[source]
+url = "https://github.com/udoprog/c10t/archive/refs/tags/1.7.tar.gz"
+sha256 = "0e5779d517105bfdd14944c849a395e1a8670bedba5bdab281a0165c3eb077dc"
+
+[build]
+system = "cmake"

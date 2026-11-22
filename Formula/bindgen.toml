@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bindgen"
+version = "0.73.2_1"
+description = "Automatically generates Rust FFI bindings to C (and some C++) libraries"
+homepage = "https://rust-lang.github.io/rust-bindgen/"
+
+[source]
+url = "https://github.com/rust-lang/rust-bindgen/archive/refs/tags/v0.73.2.tar.gz"
+sha256 = "5fc3277dd334e4bbbd7bdb8cad5d4fb87a667b2e95a2bae350a8d5424c280629"
+
+[build]
+system = "autotools"

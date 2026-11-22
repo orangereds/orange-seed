@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["erlang"]
+
+[package]
+name = "rabbitmq"
+version = "0"
+description = "Messaging and streaming broker"
+homepage = "https://www.rabbitmq.com"
+
+[source]
+url = "https://github.com/rabbitmq/rabbitmq-server/releases/download/v4.4.1/rabbitmq-server-generic-unix-4.4.1.tar.xz"
+sha256 = "667c652c1cb272c02f8a25b1ef32e981661f358b399a9d5c227982cc2101390f"
+
+[service]
+run = "rabbitmq-server"
+log_path = "var/log/rabbitmq/std_out.log"
+error_log_path = "var/log/rabbitmq/std_error.log"
+
+[service.env]
+PATH = "#{HOMEBREW_PREFIX}/sbin:/usr/sbin:/usr/bin:/bin:#{HOMEBREW_PREFIX}/bin"
+
+[build]
+system = "make"

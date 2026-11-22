@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pybind11", "gcc", "numpy", "python@3.15", "tbb"]
+
+[package]
+name = "mgis"
+version = "0"
+description = "Provide tools to handle MFront generic interface behaviours"
+homepage = "https://thelfer.github.io/mgis/web/index.html"
+
+[source]
+url = "https://github.com/thelfer/MFrontGenericInterfaceSupport/archive/refs/tags/MFrontGenericInterfaceSupport-3.1.tar.gz"
+sha256 = "61afae1a367dbb150b24ca85f042efb15a77184a54a746f11c08d9b7cb9e94f3"
+
+[build]
+system = "cmake"

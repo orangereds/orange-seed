@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "assimp", "freetype", "glew", "libpng", "libsigc++@2", "libvorbis", "openal-soft", "sdl2-compat", "sdl2_image"]
+
+[package]
+name = "pioneer"
+version = "20260907"
+description = "Game of lonely space adventure"
+homepage = "https://pioneerspacesim.net/"
+
+[source]
+url = "https://github.com/pioneerspacesim/pioneer/archive/refs/tags/20260907.tar.gz"
+sha256 = "11d1fbf745f5fc710f30cce02065b60e5aeb05f7c79b2cfdde8b4c64ec132491"
+
+[build]
+system = "cmake"

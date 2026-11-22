@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "ragel"]
+
+[package]
+name = "vectorscan"
+version = "5.4.14"
+description = "High-performance regular expression matching library"
+homepage = "https://github.com/VectorCamp/vectorscan"
+
+[source]
+url = "https://github.com/VectorCamp/vectorscan/archive/refs/tags/vectorscan/5.4.14.tar.gz"
+sha256 = "8a035e5a7e769f3793d50645a17042bcd601a2f9835b32c535eae7b1a9b9f0e0"
+
+[build]
+system = "cmake"

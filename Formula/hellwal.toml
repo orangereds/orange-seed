@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hellwal"
+version = "1.0.9"
+description = "Fast, extensible color palette generator"
+homepage = "https://github.com/danihek/hellwal"
+
+[source]
+url = "https://github.com/danihek/hellwal/archive/refs/tags/v1.0.9.tar.gz"
+sha256 = "f708cbe7326299ac14a9a39869f5a833d58668ec7bbc679fea8b24915b307864"
+
+[build]
+system = "autotools"

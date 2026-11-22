@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "lizard-analyzer"
+version = "0"
+description = "Extensible Cyclomatic Complexity Analyzer"
+homepage = "https://github.com/terryyin/lizard"
+
+[source]
+url = "https://files.pythonhosted.org/packages/72/b1/47a2a3ca5aa0d57e8affeafaef79827e971dc448fb2b40b55708c81ebf62/lizard-1.26.1.tar.gz"
+sha256 = "9a4d7372faa12dbe725cfb6dcadf9bed4916f9176a154b285917713012ac35c3"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mongocli"
+version = "2.0.11"
+description = "MongoDB CLI enables you to manage your MongoDB in the Cloud"
+homepage = "https://www.mongodb.com/docs/mongocli/current/"
+
+[source]
+url = "https://github.com/mongodb/mongodb-cli/archive/refs/tags/v2.0.11.tar.gz"
+sha256 = "1c17355ca867107e036b09c77e8ee498833337e276cedd304b6cd49390e7563b"
+
+[build]
+system = "autotools"

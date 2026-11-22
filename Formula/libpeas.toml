@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "vala", "gjs", "glib", "gobject-introspection", "gtk+3", "pygobject3", "python@3.15", "spidermonkey@140", "gettext"]
+
+[package]
+name = "libpeas"
+version = "2.2.1_2"
+description = "GObject plugin library"
+homepage = "https://wiki.gnome.org/Projects/Libpeas"
+
+[source]
+url = "https://download.gnome.org/sources/libpeas/2.2/libpeas-2.2.1.tar.xz"
+sha256 = "589eca89b437006edf3755478df037c740a2a84cfa5d202dbad6095e828e2488"
+
+[build]
+system = "autotools"

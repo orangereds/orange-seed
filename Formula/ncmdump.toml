@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "taglib"]
+
+[package]
+name = "ncmdump"
+version = "1.5.1"
+description = "Convert Netease Cloud Music ncm files to mp3/flac files"
+homepage = "https://github.com/taurusxin/ncmdump"
+
+[source]
+url = "https://github.com/taurusxin/ncmdump/archive/refs/tags/1.5.1.tar.gz"
+sha256 = "35062836d5210718b12fd311535f4673f5db4de18bd8e987890d89fc0e0a7e6c"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libantlr3c"
+version = "3.5.3"
+description = "ANTLRv3 parsing library for C"
+homepage = "https://www.antlr3.org/"
+
+[source]
+url = "https://github.com/antlr/antlr3/archive/refs/tags/3.5.3.tar.gz"
+sha256 = "a0892bcf164573d539b930e57a87ea45333141863a0dd3a49e5d8c919c8a58ab"
+
+[build]
+system = "autotools"

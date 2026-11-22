@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "chipmunk-physics"
+version = "0"
+description = "2D rigid body physics library written in C"
+homepage = "https://codeberg.org/slembcke/Chipmunk2D"
+
+[source]
+url = "https://chipmunk-physics.net/release/Chipmunk-7.x/Chipmunk-7.0.3.tgz"
+sha256 = "048b0c9eff91c27bab8a54c65ad348cebd5a982ac56978e8f63667afbb63491a"
+
+[build]
+system = "cmake"

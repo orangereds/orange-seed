@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "icu4c@79"]
+
+[package]
+name = "dolt"
+version = "2.7.6"
+description = "Git for Data"
+homepage = "https://www.dolthub.com"
+
+[source]
+url = "https://github.com/dolthub/dolt/archive/refs/tags/v2.7.6.tar.gz"
+sha256 = "34916339bba65bab6ff57bc47182f1213bbf64ee507b59c8ef1040e22a5143b8"
+
+[service]
+run = "opt/dolt/bin/dolt sql-server --config etc/dolt/config.yaml"
+keep_alive = true
+working_dir = "var/dolt"
+log_path = "var/log/dolt.log"
+error_log_path = "var/log/dolt.error.log"
+
+[build]
+system = "autotools"

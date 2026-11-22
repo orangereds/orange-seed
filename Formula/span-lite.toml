@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "span-lite"
+version = "0.11.0"
+description = "C++20-like span for C++98, C++11 and later in a single-file header-only library"
+homepage = "https://github.com/nonstd-lite/span-lite"
+
+[source]
+url = "https://github.com/nonstd-lite/span-lite/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "ef4e028e18ff21044da4b4641ca1bc8a2e2d656e2028322876c0e1b9b6904f9d"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "gnutls", "jansson", "libmicrohttpd", "orcania", "yder"]
+
+[package]
+name = "ulfius"
+version = "2.7.15"
+description = "HTTP Framework for REST Applications in C"
+homepage = "https://babelouest.github.io/ulfius/"
+
+[source]
+url = "https://github.com/babelouest/ulfius/archive/refs/tags/v2.7.15.tar.gz"
+sha256 = "19cf789b2af1919b69f77c7701237bfc318a9781ec657b68fd4b6ffa9d53f111"
+
+[build]
+system = "cmake"

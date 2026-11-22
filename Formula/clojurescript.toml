@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "openjdk"]
+
+[package]
+name = "clojurescript"
+version = "0"
+description = "Clojure to JS compiler"
+homepage = "https://github.com/clojure/clojurescript"
+
+[source]
+url = "https://github.com/clojure/clojurescript/releases/download/r1.12.134/cljs.jar"
+sha256 = "89ba5a16fa3b0e74b1206f652c0d14eda5157fdcf8c42f51fc175a4d4c10c48a"
+
+[build]
+system = "autotools"

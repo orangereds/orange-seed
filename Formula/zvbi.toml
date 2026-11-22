@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "pkgconf", "libpng"]
+
+[package]
+name = "zvbi"
+version = "0.2.46"
+description = "Vertical Blanking Interval (VBI) decoding library"
+homepage = "https://github.com/zapping-vbi/zvbi"
+
+[source]
+url = "https://github.com/zapping-vbi/zvbi/archive/refs/tags/v0.2.46.tar.gz"
+sha256 = "817a26118e2654155ee761cd39414885986a4315fdb6617af5314090ddfffd10"
+
+[build]
+system = "autotools"

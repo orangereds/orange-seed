@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "tmux-mem-cpu-load"
+version = "3.8.3"
+description = "CPU, RAM memory, and load monitor for use with tmux"
+homepage = "https://github.com/thewtex/tmux-mem-cpu-load"
+
+[source]
+url = "https://github.com/thewtex/tmux-mem-cpu-load/archive/refs/tags/v3.8.3.tar.gz"
+sha256 = "ea7a24802d6d1223831f749e68ef29c07c9c5e45dff570022f844ce37eb56c85"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "sdl2-compat"]
+
+[package]
+name = "projectm"
+version = "0"
+description = "Milkdrop-compatible music visualizer"
+homepage = "https://github.com/projectM-visualizer/projectm"
+
+[source]
+url = "https://github.com/projectM-visualizer/projectm/releases/download/v3.1.12/projectM-3.1.12.tar.gz"
+sha256 = "b6b99dde5c8f0822ae362606a0429628ee478f4ec943a156723841b742954707"
+
+[build]
+system = "autotools"

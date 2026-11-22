@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hfsutils"
+version = "3.2.6"
+description = "Tools for reading and writing Macintosh volumes"
+homepage = "https://www.mars.org/home/rob/proj/hfs/"
+
+[source]
+url = "https://ftp.mars.org/hfs/hfsutils-3.2.6.tar.gz"
+sha256 = "bc9d22d6d252b920ec9cdf18e00b7655a6189b3f34f42e58d5bb152957289840"
+
+[build]
+system = "autotools"

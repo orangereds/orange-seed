@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "jpeg-turbo", "libtiff", "nettle@3", "webp", "gnu-sed", "gettext"]
+
+[package]
+name = "pike"
+version = "0_1"
+description = "Dynamic programming language"
+homepage = "https://pike.lysator.liu.se/"
+
+[source]
+url = "https://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v8.0.1956.tar.gz"
+sha256 = "6a0f2677eb579865321bd75118c638c335860157a420a96e52e2765513dad4c0"
+
+[build]
+system = "autotools"

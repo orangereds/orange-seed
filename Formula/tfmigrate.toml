@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "opentofu"]
+
+[package]
+name = "tfmigrate"
+version = "0.4.6"
+description = "Terraform/OpenTofu state migration tool for GitOps"
+homepage = "https://github.com/minamijoyo/tfmigrate"
+
+[source]
+url = "https://github.com/minamijoyo/tfmigrate/archive/refs/tags/v0.4.6.tar.gz"
+sha256 = "877b778ef2512a24623c3b96b00c883378b281bbcb2db6f2d106463883f9a145"
+
+[build]
+system = "autotools"

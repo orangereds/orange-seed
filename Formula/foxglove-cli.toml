@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "foxglove-cli"
+version = "2.2.0"
+description = "Foxglove command-line tool"
+homepage = "https://github.com/foxglove/foxglove-cli"
+
+[source]
+url = "https://github.com/foxglove/foxglove-cli/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "2c6295a593ba1714e9e75ba3c48820fb526e951ce63d64ec4d0de0ce6f45122f"
+
+[build]
+system = "autotools"

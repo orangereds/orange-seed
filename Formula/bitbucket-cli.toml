@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bitbucket-cli"
+version = "0.40.2"
+description = "CLI for Bitbucket Cloud and Data Center"
+homepage = "https://github.com/avivsinai/bitbucket-cli"
+
+[source]
+url = "https://github.com/avivsinai/bitbucket-cli/archive/refs/tags/v0.40.2.tar.gz"
+sha256 = "2a46bd417ea5362c0a118f083147beaad4a6e05e4fa6101e94997f47a27b20c5"
+
+[build]
+system = "autotools"

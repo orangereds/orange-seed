@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fastly"
+version = "17.2.0"
+description = "Build, deploy and configure Fastly services"
+homepage = "https://www.fastly.com/documentation/reference/cli/"
+
+[source]
+url = "https://github.com/fastly/cli/archive/refs/tags/v17.2.0.tar.gz"
+sha256 = "9814c0990a68142fbf2e50007eecdd17be368d0dee2b636ca060311a0af6067e"
+
+[build]
+system = "autotools"

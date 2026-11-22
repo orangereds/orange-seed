@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "fftw", "gnuplot", "jpeg-turbo", "libpng", "libtiff", "openexr"]
+
+[package]
+name = "matplotplusplus"
+version = "1.2.2"
+description = "C++ Graphics Library for Data Visualization"
+homepage = "https://alandefreitas.github.io/matplotplusplus/"
+
+[source]
+url = "https://github.com/alandefreitas/matplotplusplus/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "c7434b4fea0d0cc3508fd7104fafbb2fa7c824b1d2ccc51c52eaee26fc55a9a0"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "vulkan-loader", "vulkan-tools", "glslang", "spirv-headers", "spirv-tools", "vulkan-headers", "vulkan-utility-libraries"]
+
+[package]
+name = "vulkan-extensionlayer"
+version = "0"
+description = "Layer providing Vulkan features when native support is unavailable"
+homepage = "https://github.com/KhronosGroup/Vulkan-ExtensionLayer"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-ExtensionLayer/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "7795b9299e9ac2ae1f3cffbb3eecde8b5153b41a9fa7cb445eee866d13fc9a0c"
+
+[build]
+system = "cmake"

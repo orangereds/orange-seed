@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rancid"
+version = "3.14"
+description = "Really Awesome New Cisco confIg Differ"
+homepage = "https://www.shrubbery.net/rancid/"
+
+[source]
+url = "https://www.shrubbery.net/pub/rancid/rancid-3.14.tar.gz"
+sha256 = "cbf608d8508b55dffb6b30c7a1c45c16ea53af7611a466e0cc47a863252f6e49"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "openjdk"]
+
+[package]
+name = "jhipster"
+version = "0"
+description = "Generate, develop and deploy Spring Boot + Angular/React applications"
+homepage = "https://www.jhipster.tech/"
+
+[source]
+url = "https://registry.npmjs.org/generator-jhipster/-/generator-jhipster-9.4.0.tgz"
+sha256 = "ffa9b891ea8ed25feeff7447b7f774e9b5d30fcf5c19084fb6973670f1f00002"
+
+[build]
+system = "autotools"

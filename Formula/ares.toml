@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ares"
+version = "0.11.0"
+description = "Automated decoding of encrypted text"
+homepage = "https://github.com/bee-san/Ares"
+
+[source]
+url = "https://github.com/bee-san/Ares/archive/refs/tags/0.11.0.tar.gz"
+sha256 = "fd8751de6c46eb523d62d4ca52018b9127b9fa5fbd4a372b7f22e0f9957f030f"
+
+[build]
+system = "autotools"

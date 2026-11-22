@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "udis86"
+version = "1.7.2_1"
+description = "Minimalistic disassembler library for x86"
+homepage = "https://sourceforge.net/projects/udis86/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/udis86/udis86/1.7/udis86-1.7.2.tar.gz"
+sha256 = "9c52ac626ac6f531e1d6828feaad7e797d0f3cce1e9f34ad4e84627022b3c2f4"
+
+[build]
+system = "autotools"

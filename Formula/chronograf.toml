@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pkg-config-wrapper", "pkgconf", "rust", "yarn", "influxdb", "kapacitor"]
+
+[package]
+name = "chronograf"
+version = "1.11.7"
+description = "Open source monitoring and visualization UI for the TICK stack"
+homepage = "https://docs.influxdata.com/chronograf/latest/"
+
+[source]
+url = "https://github.com/influxdata/chronograf/archive/refs/tags/1.11.7.tar.gz"
+sha256 = "06c3edd7cae1ab8668fff6cc723695b6929bdca37a290cd959a2be455946f626"
+
+[service]
+run = "opt/chronograf/bin/chronograf"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/chronograf.log"
+error_log_path = "var/log/chronograf.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "dwarfutils", "openssl@4"]
+
+[package]
+name = "kcov"
+version = "43_2"
+description = "Code coverage tester for compiled programs, Python, and shell scripts"
+homepage = "https://simonkagstrom.github.io/kcov/"
+
+[source]
+url = "https://github.com/SimonKagstrom/kcov/archive/refs/tags/v43.tar.gz"
+sha256 = "4cbba86af11f72de0c7514e09d59c7927ed25df7cebdad087f6d3623213b95bf"
+
+[build]
+system = "cmake"

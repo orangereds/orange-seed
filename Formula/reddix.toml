@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "reddix"
+version = "0.2.9"
+description = "Reddit, refined for the terminal"
+homepage = "https://github.com/ck-zhang/reddix"
+
+[source]
+url = "https://github.com/ck-zhang/reddix/archive/refs/tags/v0.2.9.tar.gz"
+sha256 = "0c1af2b263d3c47cc64acd9addc3ba7c44731f2bace4ee8ad5189eb2a510b9d9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pyupgrade"
+version = "3.22.0"
+description = "Upgrade syntax for newer versions of Python"
+homepage = "https://github.com/asottile/pyupgrade"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4a/3b/729d6a29209ff0d16726f3623177c7cfb23f190d3c25bb61e651dd55d371/pyupgrade-3.22.0.tar.gz"
+sha256 = "6889a7be7f0d0ea3119789bc50086a008a91ed6c46005a030f8928b501550425"
+
+[build]
+system = "autotools"

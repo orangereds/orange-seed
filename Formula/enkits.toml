@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "enkits"
+version = "1.12"
+description = "C and C++ Task Scheduler for creating parallel programs"
+homepage = "https://github.com/dougbinks/enkiTS"
+
+[source]
+url = "https://github.com/dougbinks/enkiTS/archive/refs/tags/v1.12.tar.gz"
+sha256 = "8373b6199d56816bd3ba58432eae74e2ebd5afcfdffb723073cc34730b189fd5"
+
+[build]
+system = "cmake"

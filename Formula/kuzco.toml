@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "opentofu"]
+
+[package]
+name = "kuzco"
+version = "1.9.1"
+description = "Reviews Terraform and OpenTofu resources and uses AI to suggest improvements"
+homepage = "https://github.com/RoseSecurity/Kuzco"
+
+[source]
+url = "https://github.com/RoseSecurity/Kuzco/archive/refs/tags/v1.9.1.tar.gz"
+sha256 = "0ed043dcb031338c40054d91631522af3cd8a859534152b67757c0ac446a1edc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "krb5", "openssl@4"]
+
+[package]
+name = "cyrus-sasl"
+version = "2.1.28_4"
+description = "Simple Authentication and Security Layer"
+homepage = "https://www.cyrusimap.org/sasl/"
+
+[source]
+url = "https://github.com/cyrusimap/cyrus-sasl/releases/download/cyrus-sasl-2.1.28/cyrus-sasl-2.1.28.tar.gz"
+sha256 = "7ccfc6abd01ed67c1a0924b353e526f1b766b21f42d4562ee635a8ebfc5bb38c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

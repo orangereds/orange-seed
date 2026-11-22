@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "qnm"
+version = "2.10.4"
+description = "CLI for querying the node_modules directory"
+homepage = "https://github.com/ranyitz/qnm"
+
+[source]
+url = "https://registry.npmjs.org/qnm/-/qnm-2.10.4.tgz"
+sha256 = "205044b4bbc4637917ac55f936c17b2763e622040cfa84acb1a0289b50b21098"
+
+[build]
+system = "autotools"

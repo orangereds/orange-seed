@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elixir"]
+
+[package]
+name = "credo"
+version = "1.7.19"
+description = "Static code analysis tool for the Elixir"
+homepage = "https://github.com/rrrene/credo"
+
+[source]
+url = "https://github.com/rrrene/credo/archive/refs/tags/v1.7.19.tar.gz"
+sha256 = "a4b5a14d574107e1e17857f699584e332f8553cdf465b8d1b0307c4a63c60af5"
+
+[build]
+system = "autotools"

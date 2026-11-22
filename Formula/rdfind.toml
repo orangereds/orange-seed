@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nettle"]
+
+[package]
+name = "rdfind"
+version = "1.8.0_1"
+description = "Find duplicate files based on content (NOT file names)"
+homepage = "https://rdfind.pauldreik.se/"
+
+[source]
+url = "https://rdfind.pauldreik.se/rdfind-1.8.0.tar.gz"
+sha256 = "0a2d0d32002cc2dc0134ee7b649bcc811ecfb2f8d9f672aa476a851152e7af35"
+
+[build]
+system = "autotools"

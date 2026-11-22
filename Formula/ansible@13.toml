@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libsodium", "libssh", "libyaml", "python@3.14", "tree"]
+
+[package]
+name = "ansible@13"
+version = "0_3"
+description = "Automate deployment, configuration, and upgrading"
+homepage = "https://www.ansible.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/79/ee/761b0a606522fe28fbc6e0f8b9fff56ff52d41c1d60be96c82e3ff1e5674/ansible-13.8.0.tar.gz"
+sha256 = "41793dcd0f1cb4891a80e196e1f1fb16947cb2554d52b25d812cf38548da603c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

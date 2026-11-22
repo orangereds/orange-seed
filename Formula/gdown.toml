@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "gdown"
+version = "6.5.2"
+description = "Google Drive Public File Downloader when Curl/Wget Fails"
+homepage = "https://github.com/wkentaro/gdown"
+
+[source]
+url = "https://files.pythonhosted.org/packages/59/f4/230085dfb665cb944c73848de4bddc5dbc99c1573e18fb897863adedacaa/gdown-6.5.2.tar.gz"
+sha256 = "d372ee7e19fb521eccdc3fa9c77b38ce0591d86b83edb7b151835417afeb162f"
+
+[build]
+system = "autotools"

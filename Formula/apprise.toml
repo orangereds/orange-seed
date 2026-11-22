@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "apprise"
+version = "2.3.0"
+description = "Send notifications from the command-line to popular notification services"
+homepage = "https://pypi.org/project/apprise/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0e/2d/f30dc3f4cffc386344c6d0aa84068d2638badbbc503dd45b2b38b013818b/apprise-2.3.0.tar.gz"
+sha256 = "359b37320cb7cd169a57a475346bfeaccdb5074b307c6abaa3af7b62790b1b52"
+
+[build]
+system = "autotools"

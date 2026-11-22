@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "primesieve"
+version = "12.18"
+description = "Fast C/C++ prime number generator"
+homepage = "https://github.com/kimwalisch/primesieve"
+
+[source]
+url = "https://github.com/kimwalisch/primesieve/archive/refs/tags/v12.18.tar.gz"
+sha256 = "be8ee102fc248ef0ba8b8a39a9599ca623dfa17bbd10762b4533137db9c8f1f0"
+
+[build]
+system = "cmake"

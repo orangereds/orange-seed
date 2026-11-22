@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gobject-introspection", "pkgconf", "glib", "icu4c@79", "gettext"]
+
+[package]
+name = "libical"
+version = "4.0.8"
+description = "Implementation of iCalendar protocols and data formats"
+homepage = "https://libical.github.io/libical/"
+
+[source]
+url = "https://github.com/libical/libical/releases/download/v4.0.8/libical-4.0.8.tar.gz"
+sha256 = "cd486bb3ece8256c34f1a236e174992c66ecb46b592a65f3f55d24d49eb66a5d"
+
+[build]
+system = "cmake"

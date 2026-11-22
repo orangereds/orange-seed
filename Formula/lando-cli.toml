@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "lando-cli"
+version = "3.26.9"
+description = "Cli part of Lando"
+homepage = "https://docs.lando.dev/cli"
+
+[source]
+url = "https://github.com/lando/core/archive/refs/tags/v3.26.9.tar.gz"
+sha256 = "0e552b37ed2a38e6cc1467ed170bad9781b2eba4302545661dc00e6981a2456c"
+
+[build]
+system = "autotools"

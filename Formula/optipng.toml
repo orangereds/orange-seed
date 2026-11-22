@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpng"]
+
+[package]
+name = "optipng"
+version = "7.9.1"
+description = "PNG file optimizer"
+homepage = "https://optipng.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-7.9.1/optipng-7.9.1.tar.gz"
+sha256 = "c2579be58c2c66dae9d63154edcb3d427fef64cb00ec0aff079c9d156ec46f29"
+
+[build]
+system = "autotools"

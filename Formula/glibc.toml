@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["linux-headers@6.8"]
+
+[package]
+name = "glibc"
+version = "2.39_2"
+description = "GNU C Library"
+homepage = "https://www.gnu.org/software/libc/"
+
+[source]
+url = "https://ftpmirror.gnu.org/glibc/glibc-2.39.tar.gz"
+sha256 = "97f84f3b7588cd54093a6f6389b0c1a81e70d99708d74963a2e3eab7c7dc942d"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

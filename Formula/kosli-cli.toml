@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kosli-cli"
+version = "2.58.1"
+description = "CLI for managing Kosli"
+homepage = "https://docs.kosli.com"
+
+[source]
+url = "https://github.com/kosli-dev/cli/archive/refs/tags/v2.58.1.tar.gz"
+sha256 = "c151f45831cdbd23e43f7531bb0e3126c6b3546e83c56da80d3c10b243b1e0fa"
+
+[build]
+system = "autotools"

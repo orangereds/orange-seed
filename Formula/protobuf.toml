@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "abseil"]
+
+[package]
+name = "protobuf"
+version = "12"
+description = "Protocol buffers (Google's data interchange format)"
+homepage = "https://protobuf.dev/"
+
+[source]
+url = "https://github.com/protocolbuffers/protobuf/releases/download/v36.2/protobuf-36.2.tar.gz"
+sha256 = "3d9642a662d10e68ebae5e53f14dcce5105684212d5078f8e0d47d1ab3ae6b64"
+
+[build]
+system = "cmake"

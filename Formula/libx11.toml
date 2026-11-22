@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xtrans", "libxcb", "xorgproto"]
+
+[package]
+name = "libx11"
+version = "0"
+description = "X.Org: Core X11 protocol client library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libX11-1.8.14.tar.gz"
+sha256 = "ebb8a58549ddde50aa2e742b3b256557f451053d173be8dbfc2e8ac078eee1d6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm", "pkgconf", "rust"]
+
+[package]
+name = "mise"
+version = "2026.11.12"
+description = "Polyglot runtime manager (asdf rust clone)"
+homepage = "https://mise.jdx.dev/"
+
+[source]
+url = "https://github.com/jdx/mise/archive/refs/tags/v2026.11.12.tar.gz"
+sha256 = "5b20b1175cb3b8396c08fa216abdeb2f3b447794be6750d99fd0badec0a24c75"
+
+[build]
+system = "autotools"

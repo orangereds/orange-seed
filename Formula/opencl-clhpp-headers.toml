@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "opencl-headers"]
+
+[package]
+name = "opencl-clhpp-headers"
+version = "2026.05.29"
+description = "C++ language header files for the OpenCL API"
+homepage = "https://www.khronos.org/registry/OpenCL/"
+
+[source]
+url = "https://github.com/KhronosGroup/OpenCL-CLHPP/archive/refs/tags/v2026.05.29.tar.gz"
+sha256 = "fafb4fd202d113992c009d46e6358e70076167e62a5baeb377fe813033a2655e"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

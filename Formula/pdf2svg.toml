@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "glib", "poppler", "gettext"]
+
+[package]
+name = "pdf2svg"
+version = "0.2.4"
+description = "PDF converter to SVG"
+homepage = "https://cityinthesky.co.uk/opensource/pdf2svg"
+
+[source]
+url = "https://github.com/dawbarton/pdf2svg/archive/refs/tags/v0.2.4.tar.gz"
+sha256 = "fd765256f18b5890639e93cabdf631b640966ed1ea9ebd561aede9d3be2155e4"
+
+[build]
+system = "autotools"

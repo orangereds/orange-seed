@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "miller"
+version = "6.22.0"
+description = "Like sed, awk, cut, join & sort for name-indexed data such as CSV"
+homepage = "https://github.com/johnkerl/miller"
+
+[source]
+url = "https://github.com/johnkerl/miller/releases/download/v6.22.0/miller-6.22.0.tar.gz"
+sha256 = "a6fba59814a49821896be2096aab80eb4818eb26fd2bfce72a231623be38b246"
+
+[build]
+system = "autotools"

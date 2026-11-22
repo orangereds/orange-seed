@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "ansible-builder"
+version = "0_1"
+description = "CLI tool for building Ansible Execution Environments (Containers)"
+homepage = "https://ansible-builder.readthedocs.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b0/87/999145b4dadcde9916990ca8462d78564fbcbe754e8256d9037537ffa663/ansible_builder-3.2.0.tar.gz"
+sha256 = "8cd8639011127aaa5046fd60e56ae753eb599061bf493eca2c6b75c54cfc6212"
+
+[build]
+system = "autotools"

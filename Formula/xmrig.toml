@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hwloc", "libuv", "openssl@4"]
+
+[package]
+name = "xmrig"
+version = "6.26.0"
+description = "Monero (XMR) CPU miner"
+homepage = "https://xmrig.com/"
+
+[source]
+url = "https://github.com/xmrig/xmrig/archive/refs/tags/v6.26.0.tar.gz"
+sha256 = "5005144e78571f26586410c2b2ede2b0c72afe22f97f1708ea24cfb253c3939b"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tpcgen-cli"
+version = "4.0.0"
+description = "Fast TPC-H and TPC-DS data generator"
+homepage = "https://github.com/datafusion-contrib/tpcgen-rs"
+
+[source]
+url = "https://github.com/datafusion-contrib/tpcgen-rs/archive/refs/tags/v4.0.0.tar.gz"
+sha256 = "25685eb523fad909b65aa307ef3c585c46c20e48a01f340c65edb6abc4aed029"
+
+[build]
+system = "autotools"

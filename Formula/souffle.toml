@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "mcpp", "pkgconf"]
+
+[package]
+name = "souffle"
+version = "2.5"
+description = "Logic Defined Static Analysis"
+homepage = "https://souffle-lang.github.io"
+
+[source]
+url = "https://github.com/souffle-lang/souffle/archive/refs/tags/2.5.tar.gz"
+sha256 = "5d009ad6c74ccec10207d865c059716afac625759bff7c8070e529bd80385067"
+
+[build]
+system = "cmake"

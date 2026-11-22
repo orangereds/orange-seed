@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "sphinx-doc", "glib", "mariadb-connector-c", "pcre2"]
+
+[package]
+name = "mydumper"
+version = "1.0.19-1"
+description = "MySQL logical backup tool"
+homepage = "https://github.com/mydumper/mydumper"
+
+[source]
+url = "https://github.com/mydumper/mydumper/archive/refs/tags/v1.0.19-1.tar.gz"
+sha256 = "03c2db71c62af5db4b12ee0c50b43b841c45efab36c8f1073f6d0d0c92d9bcad"
+
+[build]
+system = "cmake"

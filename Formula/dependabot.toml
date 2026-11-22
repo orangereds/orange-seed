@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dependabot"
+version = "1.97.0"
+description = "Tool for testing and debugging Dependabot update jobs"
+homepage = "https://github.com/dependabot/cli"
+
+[source]
+url = "https://github.com/dependabot/cli/archive/refs/tags/v1.97.0.tar.gz"
+sha256 = "c3823fe5c90b57b5dad4ea9f52c4f64113c5444be7bf1dfd2f05eb1376a9c459"
+
+[build]
+system = "autotools"

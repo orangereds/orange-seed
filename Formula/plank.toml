@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "plank"
+version = "1.6"
+description = "Framework for generating immutable model objects"
+homepage = "https://pinterest.github.io/plank/"
+
+[source]
+url = "https://github.com/pinterest/plank/archive/refs/tags/v1.6.tar.gz"
+sha256 = "6a233120905ff371b5c06a23b3fc7dd67e96355dd4d992a58ac087db22c500ef"
+
+[build]
+system = "make"

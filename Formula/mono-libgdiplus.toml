@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "fontconfig", "giflib", "glib", "harfbuzz", "jpeg-turbo", "libexif", "libpng", "libtiff", "pango", "freetype", "gettext"]
+
+[package]
+name = "mono-libgdiplus"
+version = "0"
+description = "GDI+-compatible API on non-Windows operating systems"
+homepage = "https://www.mono-project.com/docs/gui/libgdiplus/"
+
+[source]
+url = "https://dl.winehq.org/mono/sources/libgdiplus/libgdiplus-6.2.tar.gz"
+sha256 = "683adb7d99d03f6ee7985173a206a2243f76632682334ced4cae2fcd20c83bc9"
+
+[build]
+system = "autotools"

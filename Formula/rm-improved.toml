@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rm-improved"
+version = "0.13.1.crate"
+description = "Command-line deletion tool focused on safety, ergonomics, and performance"
+homepage = "https://github.com/nivekuil/rip"
+
+[source]
+url = "https://static.crates.io/crates/rm-improved/rm-improved-0.13.1.crate"
+sha256 = "6964bbdb1633b3af61aa3488175d111bb5cc84e56cd668255e0fb7dce4008722"
+
+[build]
+system = "autotools"

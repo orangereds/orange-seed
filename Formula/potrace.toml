@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "potrace"
+version = "1.16"
+description = "Convert bitmaps to vector graphics"
+homepage = "https://potrace.sourceforge.net/"
+
+[source]
+url = "https://potrace.sourceforge.net/download/1.16/potrace-1.16.tar.gz"
+sha256 = "be8248a17dedd6ccbaab2fcc45835bb0502d062e40fbded3bc56028ce5eb7acc"
+
+[build]
+system = "autotools"

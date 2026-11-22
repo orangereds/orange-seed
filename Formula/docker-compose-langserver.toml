@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "docker-compose-langserver"
+version = "0"
+description = "Language service for Docker Compose documents"
+homepage = "https://github.com/microsoft/vscode-containers"
+
+[source]
+url = "https://registry.npmjs.org/@microsoft/compose-language-service/-/compose-language-service-1.0.0.tgz"
+sha256 = "a05c72415a94db9ebcbf51f99eca082f93d99e1e78ae4bd3d187eda6832c9d5f"
+
+[build]
+system = "autotools"

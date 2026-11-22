@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "freetype", "fribidi", "harfbuzz", "libunibreak", "nasm"]
+
+[package]
+name = "libass"
+version = "0.17.5_1"
+description = "Subtitle renderer for the ASS/SSA subtitle format"
+homepage = "https://github.com/libass/libass"
+
+[source]
+url = "https://github.com/libass/libass/releases/download/0.17.5/libass-0.17.5.tar.xz"
+sha256 = "2dca25c0e0c837ddf00b52011b3f82cac1e4ddd3ad018227806b0c2288864acc"
+
+[build]
+system = "autotools"

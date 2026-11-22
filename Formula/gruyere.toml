@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "gruyere"
+version = "0.1.1"
+description = "TUI program for viewing and killing processes listening on ports"
+homepage = "https://github.com/savannahostrowski/gruyere"
+
+[source]
+url = "https://files.pythonhosted.org/packages/04/8e/29dff1a81e094bdaea0e8a2a6e49111c7b74e32dbb30f259eb6643b29c23/gruyere-0.1.1.tar.gz"
+sha256 = "de848e041a461629b9e76c5b6118c1ac84e0f4faa2cd14dc4b390298ea49a32e"
+
+[build]
+system = "autotools"

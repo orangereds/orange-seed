@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["popt"]
+
+[package]
+name = "logrotate"
+version = "3.22.0"
+description = "Rotates, compresses, and mails system logs"
+homepage = "https://github.com/logrotate/logrotate"
+
+[source]
+url = "https://github.com/logrotate/logrotate/releases/download/3.22.0/logrotate-3.22.0.tar.xz"
+sha256 = "42b4080ee99c9fb6a7d12d8e787637d057a635194e25971997eebbe8d5e57618"
+
+[service]
+run = "logrotate etc/logrotate.conf"
+
+[build]
+system = "autotools"

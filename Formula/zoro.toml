@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zoro"
+version = "20240828"
+description = "Expose local server to external network"
+homepage = "https://www.txthinking.com"
+
+[source]
+url = "https://github.com/txthinking/zoro/archive/refs/tags/v20240828.tar.gz"
+sha256 = "8b41550a1d42fa2c0a67d7115978efff126ab6fff30d774ce902febd0b682c5c"
+
+[build]
+system = "autotools"

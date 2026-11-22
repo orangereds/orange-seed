@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "levant"
+version = "0.4.0"
+description = "Templating and deployment tool for HashiCorp Nomad jobs"
+homepage = "https://github.com/hashicorp/levant"
+
+[source]
+url = "https://github.com/hashicorp/levant/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "8d299e890af5a3c6e9048f930b10cd34276656142358c298497ec5d7d8efa263"
+
+[build]
+system = "autotools"

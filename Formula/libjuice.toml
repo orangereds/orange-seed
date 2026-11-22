@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libjuice"
+version = "1.7.5"
+description = "UDP Interactive Connectivity Establishment (ICE) library"
+homepage = "https://github.com/paullouisageneau/libjuice"
+
+[source]
+url = "https://github.com/paullouisageneau/libjuice/archive/refs/tags/v1.7.5.tar.gz"
+sha256 = "a0cdc9069613d4dfdc54f829ad11ebd23fedf345bc43727fbcd2f5439f2425bd"
+
+[build]
+system = "cmake"

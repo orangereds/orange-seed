@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bmake", "mk-configure"]
+
+[package]
+name = "libmaa"
+version = "1.5.1"
+description = "Low-level data structures including hash tables, sets, lists"
+homepage = "https://dict.org/bin/Dict"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dict/libmaa/libmaa-1.5.1/libmaa-1.5.1.tar.gz"
+sha256 = "3a30e25f038e99c4715125545516490d991fe3a505825cc832b1a956e31bf669"
+
+[build]
+system = "cmake"

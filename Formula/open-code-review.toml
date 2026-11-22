@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "open-code-review"
+version = "1.14.0"
+description = "AI-powered code review tool with deterministic pipelines and an LLM agent"
+homepage = "https://open-codereview.ai"
+
+[source]
+url = "https://github.com/alibaba/open-code-review/archive/refs/tags/v1.14.0.tar.gz"
+sha256 = "98463e5558c70e590ba801d8600b5cff3c90c2a9bce391d33654c9752a47053d"
+
+[build]
+system = "autotools"

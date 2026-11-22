@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "etsh"
+version = "5.4.0"
+description = "Two ports of /bin/sh from V6 UNIX (circa 1975)"
+homepage = "https://etsh.dev/"
+
+[source]
+url = "https://etsh.dev/src/etsh_5.4.0/etsh-5.4.0.tar.xz"
+sha256 = "fd4351f50acbb34a22306996f33d391369d65a328e3650df75fb3e6ccacc8dce"
+
+[build]
+system = "make"

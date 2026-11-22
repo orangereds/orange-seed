@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "pkgconf", "libtool", "libvorbis"]
+
+[package]
+name = "libcanberra"
+version = "0.30"
+description = "Implementation of XDG Sound Theme and Name Specifications"
+homepage = "https://0pointer.de/lennart/projects/libcanberra/"
+
+[source]
+url = "https://0pointer.de/lennart/projects/libcanberra/libcanberra-0.30.tar.xz"
+sha256 = "c2b671e67e0c288a69fc33dc1b6f1b534d07882c2aceed37004bf48c601afa72"
+
+[build]
+system = "autotools"

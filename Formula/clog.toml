@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "clog"
+version = "1.3.0"
+description = "Colorized pattern-matching log tail utility"
+homepage = "https://gothenburgbitfactory.org/clog/docs/"
+
+[source]
+url = "https://github.com/GothenburgBitFactory/clog/releases/download/v1.3.0/clog-1.3.0.tar.gz"
+sha256 = "fed44a8d398790ab0cf426c1b006e7246e20f3fcd56c0ec4132d24b05d5d2018"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "detox"
+version = "3.0.1"
+description = "Utility to replace problematic characters in filenames"
+homepage = "https://detox.sourceforge.net/"
+
+[source]
+url = "https://github.com/dharple/detox/releases/download/v3.0.1/detox-3.0.1.zip"
+sha256 = "425a02fda04103b86abe7f83bdd4c73de5c9c9f69041fb16e9e2e602dd78495b"
+
+[build]
+system = "autotools"

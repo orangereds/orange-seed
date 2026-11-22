@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-show-asm"
+version = "0.2.65"
+description = "Show assembly, LLVM-IR, MIR, and WASM generated for Rust code"
+homepage = "https://github.com/pacak/cargo-show-asm"
+
+[source]
+url = "https://github.com/pacak/cargo-show-asm/archive/refs/tags/0.2.65.tar.gz"
+sha256 = "c6550e496cd0ae89f36d4be2741e832688a3c4e80b684f5506a622549cfeddb8"
+
+[build]
+system = "autotools"

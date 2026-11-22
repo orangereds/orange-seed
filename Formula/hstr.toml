@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "readline"]
+
+[package]
+name = "hstr"
+version = "3.3.0-tarball"
+description = "Bash and zsh history suggest box"
+homepage = "https://github.com/dvorka-oss/hstr"
+
+[source]
+url = "https://github.com/dvorka/hstr/releases/download/v.3.3/hstr-3.3.0-tarball.tgz"
+sha256 = "2e030cb0575d57d7d4010602b9bbaa1e7362c11ad349b109f823fad30c69dd10"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "draco"
+version = "1.5.9"
+description = "3D geometric mesh and point cloud compression library"
+homepage = "https://google.github.io/draco/"
+
+[source]
+url = "https://github.com/google/draco/archive/refs/tags/1.5.9.tar.gz"
+sha256 = "5b84e0e212ccc7b03ace681760a65a66fe2481a5f54df65154cfc8f0cbb87148"
+
+[build]
+system = "cmake"

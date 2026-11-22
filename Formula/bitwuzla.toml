@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "gmp", "mpfr"]
+
+[package]
+name = "bitwuzla"
+version = "0.11.0"
+description = "SMT solver for bit-vectors, floating-points, arrays and uninterpreted functions"
+homepage = "https://bitwuzla.github.io"
+
+[source]
+url = "https://github.com/bitwuzla/bitwuzla/archive/refs/tags/0.11.0.tar.gz"
+sha256 = "97d916f5d5fbc79a39ad3d3f95b4871de0fb20d001045289a414826873821d41"
+
+[build]
+system = "autotools"

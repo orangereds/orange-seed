@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fzf-tab"
+version = "1.3.0"
+description = "Replace zsh completion selection menu with fzf"
+homepage = "https://github.com/Aloxaf/fzf-tab"
+
+[source]
+url = "https://github.com/Aloxaf/fzf-tab/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "d75ac08c2c8af5a6a0478787b0f11fabbe24951973b7841ae963431e2070ee9a"
+
+[build]
+system = "autotools"

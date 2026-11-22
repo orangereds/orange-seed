@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "ripgrep"]
+
+[package]
+name = "vtcode"
+version = "0.184.0.crate"
+description = "CLI Semantic Coding Agent"
+homepage = "https://vinhnx.github.io"
+
+[source]
+url = "https://static.crates.io/crates/vtcode/vtcode-0.184.0.crate"
+sha256 = "bdd0371f07b03df6ef34def6905e04193b2d2c641e9ab2b8394df7376b660477"
+
+[build]
+system = "autotools"

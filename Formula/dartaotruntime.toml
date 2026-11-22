@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ninja", "dart-sdk"]
+
+[package]
+name = "dartaotruntime"
+version = "ec77017fb3e090ff02bffb9c6980ebcdd3006ddc"
+description = "Command-line tool for running AOT-compiled snapshots of Dart code"
+homepage = "https://dart.dev/tools/dartaotruntime"
+
+[source]
+url = "https://github.com/dart-lang/sdk.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

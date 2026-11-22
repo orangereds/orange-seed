@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "itstool", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "desktop-file-utils", "glib", "gtk4", "hicolor-icon-theme", "json-glib", "libadwaita", "libarchive", "pango"]
+
+[package]
+name = "file-roller"
+version = "44.7"
+description = "GNOME archive manager"
+homepage = "https://wiki.gnome.org/Apps/FileRoller"
+
+[source]
+url = "https://download.gnome.org/sources/file-roller/44/file-roller-44.7.tar.xz"
+sha256 = "67cada96a2409c859f378e82fbe868b0e9c00a69e6b7b885d542c64ea2a1297d"
+
+[build]
+system = "autotools"

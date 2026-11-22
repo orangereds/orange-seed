@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "node-build"]
+
+[package]
+name = "nodenv"
+version = "1.6.2"
+description = "Node.js version manager"
+homepage = "https://github.com/nodenv/nodenv"
+
+[source]
+url = "https://github.com/nodenv/nodenv/archive/refs/tags/v1.6.2.tar.gz"
+sha256 = "4351a5fc642461d3bc92cf5228a558bf421e05c722b8827961d7f3a0e1cb5b50"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "vectorcraft-cli"
+version = "0.24.1"
+description = "Headless VectorCraft CLI and MCP server to convert, inspect and script artwork"
+homepage = "https://getartcraft.com/apps/vectorcraft"
+
+[source]
+url = "https://github.com/storytold/vectorcraft/archive/refs/tags/v0.24.1.tar.gz"
+sha256 = "529bbf6a3ee7349fef75c4d04a5db2dca78b6116d2fa42cf1caa5d95677f1292"
+
+[build]
+system = "autotools"

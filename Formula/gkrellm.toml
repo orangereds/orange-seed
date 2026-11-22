@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "gdk-pixbuf", "glib", "gtk+", "openssl@4", "pango"]
+
+[package]
+name = "gkrellm"
+version = "2.5.1"
+description = "Extensible GTK system monitoring application"
+homepage = "https://billw2.github.io/gkrellm/gkrellm.html"
+
+[source]
+url = "https://gkrellm.srcbox.net/releases/gkrellm-2.5.1.tar.bz2"
+sha256 = "089e3c1ed398482e682c9900b504ea166a6144a6c9fa041e70c5bbca6b177e63"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libflowmanager", "libtrace"]
+
+[package]
+name = "libprotoident"
+version = "2.0.15-2"
+description = "Performs application layer protocol identification for flows"
+homepage = "https://github.com/LibtraceTeam/libprotoident"
+
+[source]
+url = "https://github.com/LibtraceTeam/libprotoident/archive/refs/tags/2.0.15-2.tar.gz"
+sha256 = "2b43a492fe1d7ada2e7b7b164c8e35220b35bf816bd971c7f77decc74b69801e"
+
+[build]
+system = "autotools"

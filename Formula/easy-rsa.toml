@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "easy-rsa"
+version = "0"
+description = "CLI utility to build and manage a PKI CA"
+homepage = "https://github.com/OpenVPN/easy-rsa"
+
+[source]
+url = "https://github.com/OpenVPN/easy-rsa/releases/download/v3.2.7/EasyRSA-3.2.7.tgz"
+sha256 = "308743bc9fe871b902d47dbe98d749daff3a05b27531684f02625ce7208d4598"
+
+[build]
+system = "autotools"

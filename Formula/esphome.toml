@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "certifi", "cryptography", "libyaml", "pillow", "pydantic", "python@3.15", "llvm"]
+
+[package]
+name = "esphome"
+version = "2026.11.0"
+description = "Make creating custom firmwares for ESP32/ESP8266 super easy"
+homepage = "https://esphome.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e8/fd/00029ec45ee935214f25405b76dacffc81b26d8f2311762abbfcc2b54190/esphome-2026.11.0.tar.gz"
+sha256 = "a891c9dd45c1624fe5bf736462e1212c59172f2e46d17cf2d6deb28ca35d58dd"
+
+[build]
+system = "autotools"

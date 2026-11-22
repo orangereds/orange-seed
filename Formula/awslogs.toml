@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "awslogs"
+version = "0.15.0_6"
+description = "Simple command-line tool to read AWS CloudWatch logs"
+homepage = "https://github.com/jorgebastida/awslogs"
+
+[source]
+url = "https://files.pythonhosted.org/packages/15/f5/8f3bd0f4a927b1fbb3a5e6a5b036f29e4263977fb167b301bc4a5f4db2b9/awslogs-0.15.0.tar.gz"
+sha256 = "19f223bb1c0703cea0689d94b1d293006529095e6ab8971f6b52289a2e545dd5"
+
+[build]
+system = "autotools"

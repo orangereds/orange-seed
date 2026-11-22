@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "near"
+version = "0.31.1"
+description = "Human-friendly console utility for interacting with NEAR Protocol"
+homepage = "https://near.cli.rs"
+
+[source]
+url = "https://github.com/near/near-cli-rs/archive/refs/tags/v0.31.1.tar.gz"
+sha256 = "f21d6cfb7261548915e226aec99d04e8ee810a6f831ca6b37c90e22baf02016c"
+
+[build]
+system = "autotools"

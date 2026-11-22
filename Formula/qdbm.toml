@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "qdbm"
+version = "1.8.78"
+description = "Library of routines for managing a database"
+homepage = "https://dbmx.net/qdbm/"
+
+[source]
+url = "https://dbmx.net/qdbm/qdbm-1.8.78.tar.gz"
+sha256 = "b466fe730d751e4bfc5900d1f37b0fb955f2826ac456e70012785e012cdcb73e"
+
+[build]
+system = "autotools"

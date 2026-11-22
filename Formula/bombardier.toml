@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bombardier"
+version = "2.0.2"
+description = "Cross-platform HTTP benchmarking tool"
+homepage = "https://github.com/codesenberg/bombardier"
+
+[source]
+url = "https://github.com/codesenberg/bombardier/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "472b14b1c3be26a5f6254f6b7c24f86c9b756544baa5ca28cbfad06aacf7f4ac"
+
+[build]
+system = "autotools"

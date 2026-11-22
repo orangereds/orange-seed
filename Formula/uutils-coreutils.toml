@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "sphinx-doc"]
+
+[package]
+name = "uutils-coreutils"
+version = "0.13.0"
+description = "Cross-platform Rust rewrite of the GNU coreutils"
+homepage = "https://uutils.org/coreutils/"
+
+[source]
+url = "https://github.com/uutils/coreutils/archive/refs/tags/0.13.0.tar.gz"
+sha256 = "5830c023555ea8e98505e8cfb09524d3097f427c5e58ef197a943e6cb73af9b0"
+
+[build]
+system = "make"

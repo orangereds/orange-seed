@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "rust", "numpy", "pydantic", "pyside", "python@3.15", "vapoursynth", "vapoursynth-bestsource", "vapoursynth-vszip", "zstd"]
+
+[package]
+name = "vsview"
+version = "0.15.1"
+description = "Next-generation VapourSynth previewer"
+homepage = "https://jaded-encoding-thaumaturgy.github.io/vs-view/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b3/82/561a8edebb658d4f0fc6dc5d820f7f19be6cc8995618ada669afd9de8c83/vsview-0.15.1.tar.gz"
+sha256 = "d46e614171bbab6f0b962883f39fd38498a4301784bd33dbb008cfcd0642a949"
+
+[build]
+system = "autotools"

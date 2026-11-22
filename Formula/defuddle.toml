@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "defuddle"
+version = "0.19.13"
+description = "Extract article content and metadata from web pages"
+homepage = "https://defuddle.md"
+
+[source]
+url = "https://registry.npmjs.org/defuddle/-/defuddle-0.19.13.tgz"
+sha256 = "888a10efc0ce489732036f5cb4fb4f53da39442495632753361c972c3ac2f54e"
+
+[build]
+system = "autotools"

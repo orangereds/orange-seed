@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "htslib"]
+
+[package]
+name = "jellyfish"
+version = "2.3.1"
+description = "Fast, memory-efficient counting of DNA k-mers"
+homepage = "https://github.com/gmarcais/Jellyfish"
+
+[source]
+url = "https://github.com/gmarcais/Jellyfish/releases/download/v2.3.1/jellyfish-2.3.1.tar.gz"
+sha256 = "ee032b57257948ca0f0610883099267572c91a635eecbd88ae5d8974c2430fcd"
+
+[build]
+system = "autotools"

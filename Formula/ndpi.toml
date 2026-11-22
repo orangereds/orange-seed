@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "json-c"]
+
+[package]
+name = "ndpi"
+version = "6.0"
+description = "Deep Packet Inspection (DPI) library"
+homepage = "https://www.ntop.org/products/deep-packet-inspection/ndpi/"
+
+[source]
+url = "https://github.com/ntop/nDPI/archive/refs/tags/6.0.tar.gz"
+sha256 = "21fc40cab5505942c0b21d9bbaf73e9adf8162ddfe782e4cd072cab855a2eda9"
+
+[build]
+system = "autotools"

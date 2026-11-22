@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "vala", "cairo", "discount", "gdk-pixbuf", "glib", "gstreamer", "gtk+3", "json-glib", "libgee", "librsvg", "libx11", "pango", "poppler", "at-spi2-core", "gettext", "harfbuzz"]
+
+[package]
+name = "pdfpc"
+version = "4.7.0"
+description = "Presenter console with multi-monitor support for PDF files"
+homepage = "https://pdfpc.github.io/"
+
+[source]
+url = "https://github.com/pdfpc/pdfpc/archive/refs/tags/v4.7.0.tar.gz"
+sha256 = "0083a958a2e9288a15c31aabb76b3eadf104672b4e815017f31ffa0d87db02ec"
+
+[build]
+system = "cmake"

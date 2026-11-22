@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-filter-repo"
+version = "2.47.0"
+description = "Quickly rewrite git repository history"
+homepage = "https://github.com/newren/git-filter-repo"
+
+[source]
+url = "https://github.com/newren/git-filter-repo/releases/download/v2.47.0/git-filter-repo-2.47.0.tar.xz"
+sha256 = "4662cbe5918196a9f1b5b3e1211a32e61cff1812419c21df4f47c5439f09e902"
+
+[build]
+system = "autotools"

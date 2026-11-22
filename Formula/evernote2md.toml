@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "evernote2md"
+version = "0.23.0"
+description = "Convert Evernote .enex file to Markdown"
+homepage = "https://github.com/wormi4ok/evernote2md"
+
+[source]
+url = "https://github.com/wormi4ok/evernote2md/archive/refs/tags/v0.23.0.tar.gz"
+sha256 = "14615324b12362e6ee15bf5354cf2db8ea6ce37016fb409126cf334062ab36ee"
+
+[build]
+system = "autotools"

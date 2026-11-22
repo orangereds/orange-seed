@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bumpp"
+version = "12.3.0"
+description = "Interactive CLI that bumps your version numbers and more"
+homepage = "https://github.com/antfu-collective/bumpp"
+
+[source]
+url = "https://registry.npmjs.org/bumpp/-/bumpp-12.3.0.tgz"
+sha256 = "0e3a43694c4a1104c82f4fc50ffa696a0bc7e3c0f311cc3d65894ab0985d13b0"
+
+[build]
+system = "autotools"

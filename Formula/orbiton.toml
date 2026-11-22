@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "orbiton"
+version = "2.75.0"
+description = "Fast and config-free text editor and IDE limited by VT100"
+homepage = "https://roboticoverlords.org/orbiton/"
+
+[source]
+url = "https://github.com/xyproto/orbiton/archive/refs/tags/v2.75.0.tar.gz"
+sha256 = "12fcbe320917f41c389146ece50e9627554da4023e15cf01a1516cc90ec19b29"
+
+[build]
+system = "make"

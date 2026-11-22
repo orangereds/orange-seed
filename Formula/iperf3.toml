@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openssl@4"]
+
+[package]
+name = "iperf3"
+version = "0"
+description = "Update of iperf: measures TCP, UDP, and SCTP bandwidth"
+homepage = "https://github.com/esnet/iperf"
+
+[source]
+url = "https://downloads.es.net/pub/iperf/iperf-3.22.1.tar.gz"
+sha256 = "de018b5252e2a7068c89fac8b35a295d83334f2b7814aa9532a2a8107b04a4a9"
+
+[build]
+system = "autotools"

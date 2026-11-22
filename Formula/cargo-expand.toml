@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-expand"
+version = "1.0.127"
+description = "Show what Rust code looks like with macros expanded"
+homepage = "https://github.com/dtolnay/cargo-expand"
+
+[source]
+url = "https://github.com/dtolnay/cargo-expand/archive/refs/tags/1.0.127.tar.gz"
+sha256 = "8b462a65b4f3291c99ca7312447e0b7550654a02d8964d4000612447e6870b6d"
+
+[build]
+system = "autotools"

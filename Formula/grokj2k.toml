@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "exiftool", "fmt", "jpeg-turbo", "libpng", "libtiff", "little-cms2", "llvm", "xz", "zstd"]
+
+[package]
+name = "grokj2k"
+version = "9"
+description = "JPEG 2000 Library"
+homepage = "https://github.com/GrokImageCompression/grok"
+
+[source]
+url = "https://github.com/GrokImageCompression/grok/releases/download/v21.0.0/source-full.tar.gz"
+sha256 = "7d7f388e773ddc7a0215fb1ef5e4a8060edcecf15261518251e1bca6bf850f84"
+
+[build]
+system = "cmake"

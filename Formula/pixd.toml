@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pixd"
+version = "1.0.0"
+description = "Visual binary data using a colour palette"
+homepage = "https://github.com/FireyFly/pixd"
+
+[source]
+url = "https://github.com/FireyFly/pixd/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "011440a8d191e40a572910b0ce7a094e9b4ee75cf972abc6d30674348edf4158"
+
+[build]
+system = "make"

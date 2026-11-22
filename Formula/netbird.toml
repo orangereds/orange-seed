@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "netbird"
+version = "0.83.2"
+description = "Securely connects across any network with one identity-based platform"
+homepage = "https://netbird.io"
+
+[source]
+url = "https://github.com/netbirdio/netbird/archive/refs/tags/v0.83.2.tar.gz"
+sha256 = "e6d4d36da04017919f98b3724e51e1fe9982d803495ada1cdbc718eb0394cc48"
+
+[build]
+system = "autotools"

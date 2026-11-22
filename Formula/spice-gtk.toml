@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "python@3.15", "vala", "cairo", "gdk-pixbuf", "glib", "gstreamer", "gtk+3", "jpeg-turbo", "json-glib", "libepoxy", "libsoup", "libusb", "libx11", "lz4", "openssl@4", "opus", "phodav", "pixman", "spice-protocol", "usbredir", "harfbuzz"]
+
+[package]
+name = "spice-gtk"
+version = "0.43_1"
+description = "GTK client/libraries for SPICE"
+homepage = "https://www.spice-space.org"
+
+[source]
+url = "https://www.spice-space.org/download/gtk/spice-gtk-0.43.tar.xz"
+sha256 = "cee26e5b2d22909f35b40a94398d1e863ca3962ee46494ca97aab206abc3203b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mysql", "mysql-client"]
+
+[package]
+name = "perl-dbd-mysql"
+version = "0"
+description = "MySQL driver for the Perl5 Database Interface (DBI)"
+homepage = "https://dbi.perl.org/"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/D/DV/DVEEDEN/DBD-mysql-5.014.tar.gz"
+sha256 = "c5fee5207e6a340e59cfa67df211698271f7b4c885f740e52bb5c2c3a10df55c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

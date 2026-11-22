@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "sqlite"]
+
+[package]
+name = "graphqlite"
+version = "1.0.0"
+description = "SQLite graph database extension"
+homepage = "https://colliery-io.github.io/graphqlite/"
+
+[source]
+url = "https://github.com/colliery-io/graphqlite/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "528e730aad5c398e56280237d6a1fe6ed880235b8e82b67d1063fc3ac325966e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "dtsroll"
+version = "1.8.2"
+description = "CLI tool for bundling TypeScript declaration files"
+homepage = "https://github.com/privatenumber/dtsroll"
+
+[source]
+url = "https://registry.npmjs.org/dtsroll/-/dtsroll-1.8.2.tgz"
+sha256 = "a40b1a0cf0fd28f7a2e0dfa69a6234ffd183bf2bb69108851f8a80b6f1d104a4"
+
+[build]
+system = "autotools"

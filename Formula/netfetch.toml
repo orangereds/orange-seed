@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "netfetch"
+version = "0.5.4"
+description = "K8s tool to scan clusters for network policies and unprotected workloads"
+homepage = "https://github.com/deggja/netfetch"
+
+[source]
+url = "https://github.com/deggja/netfetch/archive/refs/tags/v0.5.4.tar.gz"
+sha256 = "6029d93da6633a626d6920944825c76b5552e4ad5175101f661281e30b36b1cf"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bittwist"
+version = "0"
+description = "Libcap-based Ethernet packet generator"
+homepage = "https://bittwist.sourceforge.io"
+
+[source]
+url = "https://downloads.sourceforge.net/project/bittwist/macOS/Bit-Twist%204.7/bittwist-macos-4.7.tar.gz"
+sha256 = "2ff00070d57221672af5198268088ffee8ed6b5ade33d6f26be5b3b4125b48f1"
+
+[build]
+system = "autotools"

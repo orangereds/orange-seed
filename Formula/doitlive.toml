@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "doitlive"
+version = "5.2.1_1"
+description = "Replay stored shell commands for live presentations"
+homepage = "https://doitlive.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3f/50/d2715aa1b4dd5bfe1c91e5a332f5123180c2f2b1c8b0879389179b9f9c5e/doitlive-5.2.1.tar.gz"
+sha256 = "7587a57c04fa74718e76cb4622f99ef6b762f1c861d0c1c2f843ab6bec53d063"
+
+[build]
+system = "autotools"

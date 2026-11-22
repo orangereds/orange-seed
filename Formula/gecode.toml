@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "qtbase"]
+
+[package]
+name = "gecode"
+version = "0"
+description = "Toolkit for developing constraint-based systems and applications"
+homepage = "https://www.gecode.dev/"
+
+[source]
+url = "https://github.com/Gecode/gecode/archive/refs/tags/release-6.6.0.tar.gz"
+sha256 = "de6441af2495aeb2b48766caaf51858ece69acf73cab3c39a96341f5b816a564"
+
+[build]
+system = "cmake"

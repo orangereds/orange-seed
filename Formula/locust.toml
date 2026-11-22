@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "rust", "certifi", "python@3.15", "zeromq"]
+
+[package]
+name = "locust"
+version = "2.47.0_1"
+description = "Scalable user load testing tool written in Python"
+homepage = "https://locust.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d2/17/1099f80db4462e93c56619f3aba0c629ea01b08fd143181c2ecfa128f9bd/locust-2.47.0.tar.gz"
+sha256 = "70ffe28cdb7a3224a4efb60b31d585c26343d5679fec8d5b18017ffb6893b423"
+
+[build]
+system = "autotools"

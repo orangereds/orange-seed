@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libgcrypt", "libgpg-error"]
+
+[package]
+name = "libotr"
+version = "4.1.1"
+description = "Off-The-Record (OTR) messaging library"
+homepage = "https://otr.cypherpunks.ca/"
+
+[source]
+url = "https://otr.cypherpunks.ca/libotr-4.1.1.tar.gz"
+sha256 = "8b3b182424251067a952fb4e6c7b95a21e644fbb27fbd5f8af2b2ed87ca419f5"
+
+[build]
+system = "autotools"

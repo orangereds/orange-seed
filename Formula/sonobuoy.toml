@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sonobuoy"
+version = "0.57.5"
+description = "Kubernetes component that generates reports on cluster conformance"
+homepage = "https://sonobuoy.io/"
+
+[source]
+url = "https://github.com/vmware-tanzu/sonobuoy/archive/refs/tags/v0.57.5.tar.gz"
+sha256 = "77eab0b152bbaf9836885630b92fa7ab3ca1e561b8db567d9401305a21f166a3"
+
+[build]
+system = "autotools"

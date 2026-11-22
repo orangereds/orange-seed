@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "docbook-xsl", "libpaper", "qpdf"]
+
+[package]
+name = "paperjam"
+version = "1.2.2"
+description = "Program for transforming PDF files"
+homepage = "https://mj.ucw.cz/sw/paperjam/"
+
+[source]
+url = "https://mj.ucw.cz/download/linux/paperjam-1.2.2.tar.gz"
+sha256 = "a281912d00a935f490ce20873e87b82d5203bb6180326be1bec60184acab30fc"
+
+[build]
+system = "make"

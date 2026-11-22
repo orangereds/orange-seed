@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "atlas"
+version = "1.4.0"
+description = "Database toolkit"
+homepage = "https://atlasgo.io/"
+
+[source]
+url = "https://github.com/ariga/atlas/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "572e85b029682e628475b4b8dfc330e10644810a4d7cba3daaa0cd7d7bdc8f34"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libtiff", "jpeg-turbo"]
+
+[package]
+name = "spandsp"
+version = "0.0.6_3"
+description = "DSP functions library for telephony"
+homepage = "https://web.archive.org/web/20260820112501/https://www.soft-switch.org/"
+
+[source]
+url = "https://cdn.netbsd.org/pub/pkgsrc/distfiles/spandsp-0.0.6.tar.gz"
+sha256 = "cc053ac67e8ac4bb992f258fd94f275a7872df959f6a87763965feabfdcc9465"
+
+[build]
+system = "autotools"

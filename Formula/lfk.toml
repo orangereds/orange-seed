@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lfk"
+version = "0.19.18"
+description = "Terminal user interface for navigating and managing Kubernetes clusters"
+homepage = "https://github.com/janosmiko/lfk"
+
+[source]
+url = "https://github.com/janosmiko/lfk/archive/refs/tags/v0.19.18.tar.gz"
+sha256 = "f0183f42ef4a86c082cf3fc5e03f65f2e27aee2019585bfb427318deb28b8b6d"
+
+[build]
+system = "autotools"

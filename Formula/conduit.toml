@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "conduit"
+version = "0.21.2"
+description = "Streams data between data stores. Kafka Connect replacement. No JVM required"
+homepage = "https://conduitio.github.io/"
+
+[source]
+url = "https://github.com/ConduitIO/conduit/archive/refs/tags/v0.21.2.tar.gz"
+sha256 = "89a5d436beeb7152428fd22e75cbf25490d5e0d727503b8790ad8d6e10e2d8ad"
+
+[build]
+system = "autotools"

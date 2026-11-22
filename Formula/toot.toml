@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "pillow", "python@3.15"]
+
+[package]
+name = "toot"
+version = "0.52.1_4"
+description = "Mastodon CLI & TUI"
+homepage = "https://toot.bezdomni.net/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/87/37/e7356d7fe39c609d6dd4d43849e6e48debc949ef64b2f7f226c3e72093ee/toot-0.52.1.tar.gz"
+sha256 = "b737173be5587522077c18c4024eb1741a4a30e59d3165e72fd6ce4519d2fecb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libomp"]
+
+[package]
+name = "ggml"
+version = "1.0.0"
+description = "Tensor library for machine learning"
+homepage = "https://github.com/ggml-org/ggml"
+
+[source]
+url = "https://github.com/ggml-org/ggml/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "27de4df871da091112a1e4ea0e13be70f364af5da666c1246fb26fde2b21fac0"
+
+[build]
+system = "cmake"

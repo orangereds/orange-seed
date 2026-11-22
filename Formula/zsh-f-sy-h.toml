@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zsh-f-sy-h"
+version = "1.67.1"
+description = "Feature-rich Syntax Highlighting for Zsh"
+homepage = "https://wiki.zshell.dev/search?q=F-Sy-H"
+
+[source]
+url = "https://github.com/z-shell/F-Sy-H/archive/refs/tags/v1.67.1.tar.gz"
+sha256 = "303e515618c2be95781ef86ac7b018da95aa874a59a4c7e7c721f43c310125fb"
+
+[build]
+system = "autotools"

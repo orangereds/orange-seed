@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.15", "mujs", "mupdf"]
+
+[package]
+name = "fancy-cat"
+version = "0.6.0_7"
+description = "PDF reader for terminal emulators using the Kitty image protocol"
+homepage = "https://github.com/freref/fancy-cat"
+
+[source]
+url = "https://github.com/freref/fancy-cat/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "c40cd59bef243b3bafa80a33ac97d07c54ab27490d13702abeccbd713f59e37c"
+
+[build]
+system = "autotools"

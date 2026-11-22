@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libkeccak"
+version = "1.4.3"
+description = "Keccak-family hashing library"
+homepage = "https://codeberg.org/maandree/libkeccak"
+
+[source]
+url = "https://codeberg.org/maandree/libkeccak/archive/1.4.3.tar.gz"
+sha256 = "e395732342c9a6cbc22d709434a9d7b40f7b958952e9061ec09ec6d80d7ce83f"
+
+[build]
+system = "make"

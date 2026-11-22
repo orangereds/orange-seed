@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "libfuse@2", "tinyxml2", "rust", "libfuse", "pkgconf", "openssl@4"]
+
+[package]
+name = "encfs"
+version = "1.9.5_5"
+description = "Encrypted pass-through FUSE file system"
+homepage = "https://vgough.github.io/encfs/"
+
+[source]
+url = "https://github.com/vgough/encfs/archive/refs/tags/v1.9.5.tar.gz"
+sha256 = "4709f05395ccbad6c0a5b40a4619d60aafe3473b1a79bafb3aa700b1f756fd63"
+
+[build]
+system = "cmake"

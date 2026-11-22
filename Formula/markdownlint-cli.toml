@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "markdownlint-cli"
+version = "0.50.0"
+description = "CLI for Node.js style checker and lint tool for Markdown files"
+homepage = "https://github.com/igorshubovych/markdownlint-cli"
+
+[source]
+url = "https://registry.npmjs.org/markdownlint-cli/-/markdownlint-cli-0.50.0.tgz"
+sha256 = "d7da6cd0a44ffd7e16d9a12bacd738604103c427656bfdcab937b0b4385e08fd"
+
+[build]
+system = "autotools"

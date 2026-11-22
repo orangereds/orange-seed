@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libelf"]
+
+[package]
+name = "dynamips"
+version = "0.2.25"
+description = "Cisco 7200/3600/3725/3745/2600/1700 Router Emulator"
+homepage = "https://github.com/GNS3/dynamips"
+
+[source]
+url = "https://github.com/GNS3/dynamips/archive/refs/tags/v0.2.25.tar.gz"
+sha256 = "af8e5c24906382b041e0f86f8e4290cff78e8ab4f3aa6097f9f7d666d53368bf"
+
+[build]
+system = "cmake"

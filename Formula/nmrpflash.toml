@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "nmrpflash"
+version = "0.9.28"
+description = "Netgear Unbrick Utility"
+homepage = "https://github.com/jclehner/nmrpflash"
+
+[source]
+url = "https://github.com/jclehner/nmrpflash/archive/refs/tags/v0.9.28.tar.gz"
+sha256 = "8d3ec766b7f43bd060032db3cec40c500ef1edc562281f239e308595b66a4176"
+
+[build]
+system = "make"

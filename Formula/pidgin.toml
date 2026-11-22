@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["intltool", "at-spi2-core", "cairo", "gdk-pixbuf", "gnutls", "gtk+", "libgcrypt", "libgnt", "libidn", "libotr", "ncurses", "tcl-tk@8", "harfbuzz", "libgpg-error", "gobject-introspection", "gstreamer", "mercurial", "meson", "ninja", "gplugin", "gtk4", "gtksourceview5", "json-glib", "libadwaita", "libsoup", "libspelling", "qrencode", "sqlite", "gettext", "pkgconf", "glib", "pango"]
+
+[package]
+name = "pidgin"
+version = "2.14.14_3"
+description = "Multi-protocol chat client"
+homepage = "https://pidgin.im/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pidgin/Pidgin/2.14.14/pidgin-2.14.14.tar.bz2"
+sha256 = "0ffc9994def10260f98a55cd132deefa8dc4a9835451cc0e982747bd458e2356"
+
+[build]
+system = "autotools"

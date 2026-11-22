@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rospo"
+version = "0.15.3"
+description = "Simple, reliable, persistent ssh tunnels with embedded ssh server"
+homepage = "https://github.com/ferama/rospo"
+
+[source]
+url = "https://github.com/ferama/rospo/archive/refs/tags/v0.15.3.tar.gz"
+sha256 = "4c36291969c84159baff261841e6ccd9520e17f8bc9142bf815b9097322a8857"
+
+[build]
+system = "autotools"

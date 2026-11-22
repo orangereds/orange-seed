@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bosh-cli"
+version = "7.11.3"
+description = "Cloud Foundry BOSH CLI v2"
+homepage = "https://bosh.io/docs/cli-v2/"
+
+[source]
+url = "https://github.com/cloudfoundry/bosh-cli/archive/refs/tags/v7.11.3.tar.gz"
+sha256 = "02794efb9ad10d52d45aef0df165ce16f431f6ce2408fe8bd0bca06a6e562c14"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hostess"
+version = "0.5.2"
+description = "Idempotent command-line utility for managing your /etc/hosts file"
+homepage = "https://github.com/cbednarski/hostess"
+
+[source]
+url = "https://github.com/cbednarski/hostess/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "ece52d72e9e886e5cc877379b94c7d8fe6ba5e22ab823ef41b66015e5326da87"
+
+[build]
+system = "autotools"

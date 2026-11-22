@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "zot"
+version = "0.4.87"
+description = "Lightweight coding agent harness written in Go"
+homepage = "https://www.zot.sh/"
+
+[source]
+url = "https://github.com/patriceckhart/zot/archive/refs/tags/v0.4.87.tar.gz"
+sha256 = "e3a906c697543b6f4960d498c0ac6d781555cab28ff3678c7bff6defec6e09ca"
+
+[build]
+system = "autotools"

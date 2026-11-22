@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "libcoap"
+version = "4.3.5b"
+description = "Lightweight application-protocol for resource-constrained devices"
+homepage = "https://github.com/obgm/libcoap"
+
+[source]
+url = "https://github.com/obgm/libcoap/archive/refs/tags/v4.3.5b.tar.gz"
+sha256 = "383a17d8466cee7c1cb1d4dfbffad2651004850b29eb590e9591c7bedd46741d"
+
+[build]
+system = "autotools"

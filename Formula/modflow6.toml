@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "gcc"]
+
+[package]
+name = "modflow6"
+version = "6.8.2"
+description = "USGS modular hydrologic model"
+homepage = "https://www.usgs.gov/software/modflow-6-usgs-modular-hydrologic-model"
+
+[source]
+url = "https://github.com/MODFLOW-ORG/modflow6/archive/refs/tags/6.8.2.tar.gz"
+sha256 = "f40c64d333cf2d5089bb777cb296aa05a8b4ba11a49a1602d6e5e8626019dade"
+
+[build]
+system = "autotools"

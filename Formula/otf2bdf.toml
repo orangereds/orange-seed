@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["freetype"]
+
+[package]
+name = "otf2bdf"
+version = "3.1_p1"
+description = "OpenType to BDF font converter"
+homepage = "https://github.com/jirutka/otf2bdf"
+
+[source]
+url = "https://github.com/jirutka/otf2bdf/archive/refs/tags/v3.1_p1.tar.gz"
+sha256 = "deb1590c249edf11dda1c7136759b59207ea0ac1c737e1c2d68dedf87c51716e"
+
+[build]
+system = "autotools"

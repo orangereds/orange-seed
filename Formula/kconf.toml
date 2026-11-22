@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kconf"
+version = "2.0.0"
+description = "CLI for managing multiple kubeconfigs"
+homepage = "https://github.com/particledecay/kconf"
+
+[source]
+url = "https://github.com/particledecay/kconf/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "e7fe6750c719caf227890a31e2fd5446972ec3e1e5492180d0a387fe1c3394c0"
+
+[build]
+system = "autotools"

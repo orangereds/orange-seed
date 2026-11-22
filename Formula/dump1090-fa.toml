@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libbladerf", "librtlsdr", "ncurses"]
+
+[package]
+name = "dump1090-fa"
+version = "11.1"
+description = "FlightAware ADS-B Ground Station System for SDRs"
+homepage = "https://github.com/flightaware/dump1090"
+
+[source]
+url = "https://github.com/flightaware/dump1090/archive/refs/tags/v11.1.tar.gz"
+sha256 = "21fe1164d9b189274f6837bfffad7a1fe1b3471187ade4b5dc0409c1e640143f"
+
+[build]
+system = "autotools"

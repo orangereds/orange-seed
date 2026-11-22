@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tsuzuri"
+version = "0.4.0"
+description = "Block-based Markdown notebook for the terminal"
+homepage = "https://github.com/jaisuriya-11/tsuzuri"
+
+[source]
+url = "https://github.com/jaisuriya-11/tsuzuri/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "9fb1a7ffe01471db44747db60591c8d6072c29639d6409213241bf13be2db796"
+
+[build]
+system = "autotools"

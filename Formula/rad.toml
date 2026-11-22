@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "rad"
+version = "0.12.1"
+description = "Modern CLI scripts made easy"
+homepage = "https://amterp.dev/rad/"
+
+[source]
+url = "https://github.com/amterp/rad/archive/refs/tags/v0.12.1.tar.gz"
+sha256 = "db6d974c777017724272f34e6b1221746bb850c0859443b9bb9337e1dbcafc1d"
+
+[build]
+system = "autotools"

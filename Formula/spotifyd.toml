@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "portaudio"]
+
+[package]
+name = "spotifyd"
+version = "0.4.2"
+description = "Spotify daemon"
+homepage = "https://spotifyd.rs/"
+
+[source]
+url = "https://github.com/Spotifyd/spotifyd/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "e1dc21f806b205739e508bd567698657a47ca17eecb0f91d9320af5e74b8418a"
+
+[service]
+run = "opt/spotifyd/bin/spotifyd --no-daemon"
+keep_alive = true
+
+[build]
+system = "autotools"

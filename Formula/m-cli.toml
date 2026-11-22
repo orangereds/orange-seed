@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "m-cli"
+version = "2.0.9"
+description = "Swiss Army Knife for macOS"
+homepage = "https://github.com/rgcr/m-cli"
+
+[source]
+url = "https://github.com/rgcr/m-cli/archive/refs/tags/v2.0.9.tar.gz"
+sha256 = "7333931f4ceb1764cdf16ce61781cd353cd57a0131327bc9f12961bc22c0c248"
+
+[build]
+system = "autotools"

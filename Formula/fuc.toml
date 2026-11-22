@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "fuc"
+version = "3.2.1"
+description = "Modern, performance focused unix commands"
+homepage = "https://github.com/supercilex/fuc"
+
+[source]
+url = "https://github.com/supercilex/fuc/archive/refs/tags/3.2.1.tar.gz"
+sha256 = "c9ee5227aa7344fae0444ff8d1da0c6f74240fea7226796dffc2438cc581aed3"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "pulp-cli"
+version = "0"
+description = "Command-line interface for Pulp 3"
+homepage = "https://github.com/pulp/pulp-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7e/a0/b6b4fe09a5893b3d2d47718e082d5c7f973433ce19b29bce0545c91f6c4c/pulp_cli-0.41.1.tar.gz"
+sha256 = "25b41005a8532fa32c4661cc440e8b10aa83a156df3bdf41e11a1d5c82c773d4"
+
+[build]
+system = "autotools"

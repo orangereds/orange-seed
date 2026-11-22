@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ucspi-tcp"
+version = "0.88"
+description = "Tools for building TCP client-server applications"
+homepage = "https://cr.yp.to/ucspi-tcp.html"
+
+[source]
+url = "https://cr.yp.to/ucspi-tcp/ucspi-tcp-0.88.tar.gz"
+sha256 = "4a0615cab74886f5b4f7e8fd32933a07b955536a3476d74ea087a3ea66a23e9c"
+
+[build]
+system = "autotools"

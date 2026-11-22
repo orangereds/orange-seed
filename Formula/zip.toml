@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zip"
+version = "3.0_2"
+description = "Compression and file packaging/archive utility"
+homepage = "https://infozip.sourceforge.net/Zip.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/infozip/Zip%203.x%20%28latest%29/3.0/zip30.tar.gz"
+sha256 = "f0e8bb1f9b7eb0b01285495a2699df3a4b766784c1765a8f1aeedf63c0806369"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libxmi"
+version = "1.2"
+description = "C/C++ function library for rasterizing 2D vector graphics"
+homepage = "https://www.gnu.org/software/libxmi/"
+
+[source]
+url = "https://ftpmirror.gnu.org/libxmi/libxmi-1.2.tar.gz"
+sha256 = "9d56af6d6c41468ca658eb6c4ba33ff7967a388b606dc503cd68d024e08ca40d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cdb"
+version = "20251021"
+description = "Create and read constant databases"
+homepage = "https://cdb.cr.yp.to/"
+
+[source]
+url = "https://cdb.cr.yp.to/cdb-20251021.tar.gz"
+sha256 = "8e531d6390bcd7c9a4cbd16fed36326eee78e8b0e5c0783a8158a6a79437e3dd"
+
+[build]
+system = "autotools"

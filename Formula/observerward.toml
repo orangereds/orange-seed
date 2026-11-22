@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust"]
+
+[package]
+name = "observerward"
+version = "2026.11.3"
+description = "Web application and service fingerprint identification tool"
+homepage = "https://blog.kali-team.cn/projects/observer_ward/"
+
+[source]
+url = "https://github.com/emo-crab/observer_ward/archive/refs/tags/v2026.11.3.tar.gz"
+sha256 = "1e1f571be683b6698fb3fdaaf89ecc902a0f4ce862462ce343f2f6357f2aa878"
+
+[build]
+system = "autotools"

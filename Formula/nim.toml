@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man"]
+
+[package]
+name = "nim"
+version = "2.4.2"
+description = "Statically typed compiled systems programming language"
+homepage = "https://nim-lang.org/"
+
+[source]
+url = "https://nim-lang.org/download/nim-2.4.2.tar.xz"
+sha256 = "b28bf4da1fce46dba9d16685c981b3d5e98de8db1b60d66f279b0bd2af2d8211"
+
+[build]
+system = "autotools"

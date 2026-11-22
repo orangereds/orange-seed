@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "js-beautify"
+version = "2.0.3"
+description = "JavaScript, CSS and HTML unobfuscator and beautifier"
+homepage = "https://beautifier.io"
+
+[source]
+url = "https://registry.npmjs.org/js-beautify/-/js-beautify-2.0.3.tgz"
+sha256 = "f687b307188ea030cf65f49cc56b036dd6344eb6fd9592907453d3f1a083ca6b"
+
+[build]
+system = "autotools"

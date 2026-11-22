@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraform-graph-beautifier"
+version = "0.3.4"
+description = "CLI to beautify `terraform graph` output"
+homepage = "https://github.com/pcasteran/terraform-graph-beautifier"
+
+[source]
+url = "https://github.com/pcasteran/terraform-graph-beautifier/archive/refs/tags/v0.3.4.tar.gz"
+sha256 = "36762a21cfdf34b2082b8921d4352c3160d759a7a3743225f1a084f9b3dffe4a"
+
+[build]
+system = "autotools"

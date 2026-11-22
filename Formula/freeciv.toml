@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gtk4", "icu4c@79", "lua", "pango", "readline", "sdl2-compat", "sdl2_mixer", "xz", "zstd", "gettext"]
+
+[package]
+name = "freeciv"
+version = "3.2.7"
+description = "Free and Open Source empire-building strategy game"
+homepage = "https://freeciv.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/freeciv/Freeciv%203.2/3.2.7/freeciv-3.2.7.tar.xz"
+sha256 = "2720076d50f29db42cdc5e510e7c098f7793f7c0ac410fdf390a52bc57507917"
+
+[build]
+system = "autotools"

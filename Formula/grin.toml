@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "grin"
+version = "5.5.2"
+description = "Minimal implementation of the Mimblewimble protocol"
+homepage = "https://grin.mw/"
+
+[source]
+url = "https://github.com/mimblewimble/grin/archive/refs/tags/v5.5.2.tar.gz"
+sha256 = "df68a9496db18f6f1e6e286a95ecdc5f3d25de38affe9872c650b4b004c1e2d3"
+
+[build]
+system = "autotools"

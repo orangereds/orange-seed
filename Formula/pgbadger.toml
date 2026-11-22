@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pgbadger"
+version = "13.3"
+description = "Log analyzer for PostgreSQL"
+homepage = "https://pgbadger.darold.net/"
+
+[source]
+url = "https://github.com/darold/pgbadger/archive/refs/tags/v13.3.tar.gz"
+sha256 = "a75368365056b129a7a74291a2af57f88a5fd423961cbb304790a09e8007dcef"
+
+[build]
+system = "autotools"

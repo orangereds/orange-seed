@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "witr"
+version = "0.3.4"
+description = "Why is this running?"
+homepage = "https://github.com/pranshuparmar/witr"
+
+[source]
+url = "https://github.com/pranshuparmar/witr/archive/refs/tags/v0.3.4.tar.gz"
+sha256 = "5f5d275b39054c7e879749e5d411bb4cf7ac50e023fd4f8890d69ce7085bc83f"
+
+[build]
+system = "autotools"

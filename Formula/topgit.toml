@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "topgit"
+version = "0.19.14"
+description = "Git patch queue manager"
+homepage = "https://repo.or.cz/topgit/pro.git"
+
+[source]
+url = "https://github.com/mackyle/topgit/archive/refs/tags/topgit-0.19.14.tar.gz"
+sha256 = "0556485ca8ddf0cf863de4da36b11351545aca74fbf71581ffe9f5a5ce0718cb"
+
+[build]
+system = "autotools"

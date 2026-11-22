@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gemini-cli"
+version = "0.70.0"
+description = "Interact with Google Gemini AI models from the command-line"
+homepage = "https://geminicli.com"
+
+[source]
+url = "https://registry.npmjs.org/@google/gemini-cli/-/gemini-cli-0.70.0.tgz"
+sha256 = "be811606fc364c5679693d686c456fa2413c50bc6174d568439b4ddb4533906b"
+
+[build]
+system = "autotools"

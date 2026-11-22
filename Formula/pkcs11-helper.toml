@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "pkcs11-helper"
+version = "1.31.0_1"
+description = "Library to simplify the interaction with PKCS#11"
+homepage = "https://github.com/OpenSC/OpenSC/wiki/pkcs11-helper"
+
+[source]
+url = "https://github.com/OpenSC/pkcs11-helper/releases/download/pkcs11-helper-1.31.0/pkcs11-helper-1.31.0.tar.bz2"
+sha256 = "46f0067bccd7be2c28f88b8bca775172b9e52fb6fc1280b44ca8bb831433fef9"
+
+[build]
+system = "autotools"

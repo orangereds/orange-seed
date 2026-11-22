@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml", "opam", "pkgconf", "certifi", "cryptography", "dwarfutils", "gmp", "libev", "pcre2", "pydantic", "python@3.15", "rpds-py", "sqlite", "tree-sitter", "zstd"]
+
+[package]
+name = "semgrep"
+version = "0"
+description = "Easily detect and prevent bugs and anti-patterns in your codebase"
+homepage = "https://semgrep.dev"
+
+[source]
+url = "https://github.com/semgrep/semgrep.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

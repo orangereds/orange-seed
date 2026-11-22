@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "pillow", "python@3.15"]
+
+[package]
+name = "arxiv_latex_cleaner"
+version = "1.0.12"
+description = "Clean LaTeX code to submit to arXiv"
+homepage = "https://github.com/google-research/arxiv-latex-cleaner"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e9/0f/a3fe5b578a633043e0ba3a5f62f22f504c22adb72df97dc32e22b363b347/arxiv_latex_cleaner-1.0.12.tar.gz"
+sha256 = "e9ebb423ebca5351b5f7caadd7746eec450a8d6f9909cfca57d7379bd1be2281"
+
+[build]
+system = "autotools"

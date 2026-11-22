@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "faad2", "ffmpeg", "flac", "libao", "libvorbis", "mad", "ncurses", "opusfile"]
+
+[package]
+name = "cmus"
+version = "2.13.0"
+description = "Music player with an ncurses based interface"
+homepage = "https://cmus.github.io/"
+
+[source]
+url = "https://github.com/cmus/cmus/archive/refs/tags/v2.13.0.tar.gz"
+sha256 = "7be478c476f0a9915cdefbf6aade825a40cd202a8ca6b5149399025d3c7fc09b"
+
+[build]
+system = "autotools"

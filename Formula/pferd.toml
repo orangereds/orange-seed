@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "pferd"
+version = "3.10.1_1"
+description = "Programm zum Flotten Einfachen Runterladen von Dateien"
+homepage = "https://github.com/Garmelon/PFERD"
+
+[source]
+url = "https://files.pythonhosted.org/packages/bb/03/59a09dd9370d9e5dc360f93b1a1895819e69fa0bc73968333bd59365a563/pferd-3.10.1.tar.gz"
+sha256 = "69fe20f2243fd194b96b98ef3af9759a04ac907c1d37c04f5929ec2ce79f5806"
+
+[build]
+system = "autotools"

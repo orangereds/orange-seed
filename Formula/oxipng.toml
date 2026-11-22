@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "oxipng"
+version = "10.2.1"
+description = "Multithreaded PNG optimizer written in Rust"
+homepage = "https://github.com/oxipng/oxipng"
+
+[source]
+url = "https://github.com/oxipng/oxipng/archive/refs/tags/v10.2.1.tar.gz"
+sha256 = "460ccfcdcc9c3877b9f7fae1dfd4f2a3f93d3b2a2af3e3b62ca32b163f923cca"
+
+[build]
+system = "autotools"

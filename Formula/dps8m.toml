@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lld", "llvm", "libuv"]
+
+[package]
+name = "dps8m"
+version = "0"
+description = "Simulator of the 36-bit GE/Honeywell/Bull 600/6000-series mainframe computers"
+homepage = "https://dps8m.gitlab.io/"
+
+[source]
+url = "https://dps8m.gitlab.io/dps8m-r3.1.0-archive/R3.1.0/dps8m-r3.1.0-src.tar.gz"
+sha256 = "4f09cb3e0106f39864617f17f3858e15cca1e9588fd50dde9bc736808f89e26b"
+
+[build]
+system = "make"

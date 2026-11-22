@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "octl"
+version = "0.0.36"
+description = "Modern CLI for Outscale"
+homepage = "https://github.com/outscale/octl"
+
+[source]
+url = "https://github.com/outscale/octl/archive/refs/tags/v0.0.36.tar.gz"
+sha256 = "48227f33d83c02f9b688eb965e8c7d8c1718a89545d7b3a1ee4968112357e718"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ffmpeg", "imagemagick"]
+
+[package]
+name = "gifify"
+version = "4.0"
+description = "Turn movies into GIFs"
+homepage = "https://github.com/jclem/gifify"
+
+[source]
+url = "https://github.com/jclem/gifify/archive/refs/tags/v4.0.tar.gz"
+sha256 = "4cb967e8d0ba897bc91a60006e34299687f388dd47e05fd534f2eff8379fe479"
+
+[build]
+system = "autotools"

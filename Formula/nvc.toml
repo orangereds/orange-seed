@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "check", "pkgconf", "llvm", "zstd"]
+
+[package]
+name = "nvc"
+version = "1.23.1"
+description = "VHDL compiler and simulator"
+homepage = "https://www.nickg.me.uk/nvc/"
+
+[source]
+url = "https://github.com/nickg/nvc/releases/download/r1.23.1/nvc-1.23.1.tar.gz"
+sha256 = "6e3d1551a3fce8087c96daf9bb8a5514be68850f1c4a30a5e05b8ee2be03acdd"
+
+[build]
+system = "autotools"

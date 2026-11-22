@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraformer"
+version = "0.8.30"
+description = "CLI tool to generate terraform files from existing infrastructure"
+homepage = "https://github.com/GoogleCloudPlatform/terraformer"
+
+[source]
+url = "https://github.com/GoogleCloudPlatform/terraformer/archive/refs/tags/0.8.30.tar.gz"
+sha256 = "9e4738fadae011e458fa6fee168f47166cd3a9f5d7a9378018116345b0d6b4e6"
+
+[build]
+system = "autotools"

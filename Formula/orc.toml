@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "orc"
+version = "0.4.44"
+description = "Oil Runtime Compiler (ORC)"
+homepage = "https://gstreamer.freedesktop.org/modules/orc.html"
+
+[source]
+url = "https://gstreamer.freedesktop.org/src/orc/orc-0.4.44.tar.xz"
+sha256 = "4aeb97aea2b58224029dc2b23d7d064cfa990cb4fb8c4da440bcbe9c95bc5d2d"
+
+[build]
+system = "autotools"

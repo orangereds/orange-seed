@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gh-ost"
+version = "1.1.11"
+description = "Triggerless online schema migration solution for MySQL"
+homepage = "https://github.com/github/gh-ost"
+
+[source]
+url = "https://github.com/github/gh-ost/archive/refs/tags/v1.1.11.tar.gz"
+sha256 = "f1cf96257d3f29922a8bd5a906fd742d852cbfb43a0a607e778a9b135cf3133c"
+
+[build]
+system = "autotools"

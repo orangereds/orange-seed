@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "doxygen", "clblast", "fftw", "fmt", "openblas", "spdlog"]
+
+[package]
+name = "arrayfire"
+version = "0"
+description = "General purpose GPU library"
+homepage = "https://arrayfire.com"
+
+[source]
+url = "https://github.com/arrayfire/arrayfire/releases/download/v3.10.1/arrayfire-full-3.10.1.tar.bz2"
+sha256 = "e8fca89c71e268ecd2ed392e46149b30e88c5aa8807ecfd45402e09de2bacb11"
+
+[build]
+system = "cmake"

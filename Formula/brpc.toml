@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "abseil", "gflags", "leveldb", "openssl@4", "protobuf"]
+
+[package]
+name = "brpc"
+version = "0_1"
+description = "Better RPC framework"
+homepage = "https://brpc.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=brpc/1.18.0/apache-brpc-1.18.0-src.tar.gz"
+sha256 = "26497bb50a8e06c8ffe24f37325431b1ca72fffd447de6fa3eb0002db79c978a"
+
+[build]
+system = "cmake"

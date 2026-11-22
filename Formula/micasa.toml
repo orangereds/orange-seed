@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "micasa"
+version = "2.8.2"
+description = "TUI for tracking home projects, maintenance schedules, appliances and quotes"
+homepage = "https://micasa.dev"
+
+[source]
+url = "https://github.com/micasa-dev/micasa/archive/refs/tags/v2.8.2.tar.gz"
+sha256 = "147295292b73c6e94d1b4e139e54bf9b7f8dbee18932528c4f3959e6389a6cf4"
+
+[build]
+system = "autotools"

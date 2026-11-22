@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "two-lame"
+version = "0"
+description = "Optimized MPEG Audio Layer 2 (MP2) encoder"
+homepage = "https://www.twolame.org/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/twolame/twolame/0.4.0/twolame-0.4.0.tar.gz"
+sha256 = "cc35424f6019a88c6f52570b63e1baf50f62963a3eac52a03a800bb070d7c87d"
+
+[build]
+system = "autotools"

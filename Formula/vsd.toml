@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust", "ffmpeg"]
+
+[package]
+name = "vsd"
+version = "0.5.0"
+description = "Download video streams over HTTP, DASH (.mpd), and HLS (.m3u8)"
+homepage = "https://clitic.github.io/vsd/"
+
+[source]
+url = "https://github.com/clitic/vsd/archive/refs/tags/vsd-0.5.0.tar.gz"
+sha256 = "d47092ce89c22d36d0fd976bd558fa9f895384025cb98e568adbf9793134d7dc"
+
+[build]
+system = "autotools"

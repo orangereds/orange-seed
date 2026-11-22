@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libusb", "srecord"]
+
+[package]
+name = "minipro"
+version = "0"
+description = "Open controller for the MiniPRO TL866xx series of chip programmers"
+homepage = "https://gitlab.com/DavidGriffith/minipro/"
+
+[source]
+url = "https://gitlab.com/DavidGriffith/minipro.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "make"

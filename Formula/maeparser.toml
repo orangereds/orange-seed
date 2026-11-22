@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost"]
+
+[package]
+name = "maeparser"
+version = "1.3.3_3"
+description = "Maestro file parser"
+homepage = "https://github.com/schrodinger/maeparser"
+
+[source]
+url = "https://github.com/schrodinger/maeparser/archive/refs/tags/v1.3.3.tar.gz"
+sha256 = "78e7571a779ea4952e752ecef57c62fb26463947e29ef7f4b31b11988d88ca07"
+
+[build]
+system = "cmake"

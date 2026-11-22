@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "jolie"
+version = "1.13.4.jar"
+description = "Service-oriented programming language"
+homepage = "https://www.jolie-lang.org/"
+
+[source]
+url = "https://github.com/jolie/jolie/releases/download/v1.13.4/jolie-1.13.4.jar"
+sha256 = "fd374b75b29c55f6c073b1cd29e6087ae48f99cd1541d0417010cd86629bd9c9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "openliberty-microprofile4"
+version = "0"
+description = "Lightweight open framework for Java (Micro Profile 4)"
+homepage = "https://openliberty.io"
+
+[source]
+url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/26.0.0.11/openliberty-microProfile4-26.0.0.11.zip"
+sha256 = "f1d54dd050f6234be59f36690558da230ac1e46733456dbc138e731faad401ab"
+
+[build]
+system = "autotools"

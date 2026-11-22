@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "ttyd"]
+
+[package]
+name = "clive"
+version = "0.12.17"
+description = "Automates terminal operations"
+homepage = "https://github.com/koki-develop/clive"
+
+[source]
+url = "https://github.com/koki-develop/clive/archive/refs/tags/v0.12.17.tar.gz"
+sha256 = "fda25e28dece565770d192633aee113f8cfc8f24fc974f0a8ecd59a7fe224f3f"
+
+[build]
+system = "autotools"

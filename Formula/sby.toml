@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["yices2", "python@3.15", "yosys"]
+
+[package]
+name = "sby"
+version = "0.71"
+description = "Front-end for Yosys-based formal verification flows"
+homepage = "https://symbiyosys.readthedocs.io/en/latest/"
+
+[source]
+url = "https://github.com/YosysHQ/sby/archive/refs/tags/v0.71.tar.gz"
+sha256 = "8652b5566206cfecd6fccc7daa7e94feeaaae38d8458b39b4345337c7a4a04aa"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jql"
+version = "9.0.5"
+description = "JSON query language CLI tool"
+homepage = "https://github.com/yamafaktory/jql"
+
+[source]
+url = "https://github.com/yamafaktory/jql/archive/refs/tags/jql-v9.0.5.tar.gz"
+sha256 = "ff717f7966b4ffdaa78ae04f89b782ca380de67ec997672652dca3afe096c1d0"
+
+[build]
+system = "autotools"

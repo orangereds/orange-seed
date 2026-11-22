@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "shellharden"
+version = "4.3.2"
+description = "Bash syntax highlighter that encourages/fixes variables quoting"
+homepage = "https://github.com/anordal/shellharden"
+
+[source]
+url = "https://github.com/anordal/shellharden/archive/refs/tags/v4.3.2.tar.gz"
+sha256 = "3a6721c3409c70449c24a5b33f83d0d05026f2318fe052db5c6d0834e2b29c6c"
+
+[build]
+system = "autotools"

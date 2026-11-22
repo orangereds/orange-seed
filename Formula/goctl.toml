@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goctl"
+version = "1.11.0"
+description = "Generates server-side and client-side code for web and RPC services"
+homepage = "https://go-zero.dev"
+
+[source]
+url = "https://github.com/zeromicro/go-zero/archive/refs/tags/tools/goctl/v1.11.0.tar.gz"
+sha256 = "feb2fc99a1a3d7c79fffb6277ae3f0db9c4f3a4d64b60b1175ced46dee85d215"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "shallow-backup"
+version = "0_8"
+description = "Git-integrated backup tool for macOS and Linux devs"
+homepage = "https://github.com/alichtman/shallow-backup"
+
+[source]
+url = "https://files.pythonhosted.org/packages/16/25/621fbd73cadb2e18f56ea89ae602b2c93d88c77d9858ae16f541c523e9b3/shallow_backup-6.6.tar.gz"
+sha256 = "016e85303accffc24b72a64cf589ff48d962298d60a37759d2302b81f7fbb8b3"
+
+[build]
+system = "autotools"

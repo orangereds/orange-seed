@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "htslib", "xz"]
+
+[package]
+name = "delly"
+version = "2.8.2"
+description = "Structural variant discovery by paired-end and split-read analysis"
+homepage = "https://github.com/dellytools/delly"
+
+[source]
+url = "https://github.com/dellytools/delly/archive/refs/tags/v2.8.2.tar.gz"
+sha256 = "9c870926df96772cca1f784aa3e92adfb2b0f510734f1c05fb197045077150e1"
+
+[build]
+system = "autotools"

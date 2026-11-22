@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mole"
+version = "0"
+description = "Deep clean and optimize your Mac"
+homepage = "https://mole.fit"
+
+[source]
+url = "https://github.com/tw93/Mole/archive/refs/tags/V1.74.0.tar.gz"
+sha256 = "38373477ded5047a05a0a6dd98cbf3c7d45de8f5c768d34e16d5ab961d19cbbe"
+
+[build]
+system = "autotools"

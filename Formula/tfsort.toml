@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tfsort"
+version = "0.7.5"
+description = "CLI to sort Terraform variables and outputs"
+homepage = "https://github.com/AlexNabokikh/tfsort"
+
+[source]
+url = "https://github.com/AlexNabokikh/tfsort/archive/refs/tags/v0.7.5.tar.gz"
+sha256 = "abd7b505e02f595d328fd675ceb8d782481fb8a5073dfd9a51a4e09516c9206a"
+
+[build]
+system = "autotools"

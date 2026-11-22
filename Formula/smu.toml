@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "smu"
+version = "1.5"
+description = "Simple markup with markdown-like syntax"
+homepage = "https://github.com/Gottox/smu"
+
+[source]
+url = "https://github.com/Gottox/smu/archive/refs/tags/v1.5.tar.gz"
+sha256 = "f3bb18f958962679a7fb48d7f8dcab8b59154d66f23c9aba02e78103106093a4"
+
+[build]
+system = "make"

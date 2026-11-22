@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kubernetes-cli"]
+
+[package]
+name = "kops"
+version = "1.37.0"
+description = "Production Grade K8s Installation, Upgrades, and Management"
+homepage = "https://kops.sigs.k8s.io/"
+
+[source]
+url = "https://github.com/kubernetes/kops/archive/refs/tags/v1.37.0.tar.gz"
+sha256 = "3e393baa5e8461429cca56118f4dd2c371735d7750429bf7792d4e83bb8feb93"
+
+[build]
+system = "autotools"

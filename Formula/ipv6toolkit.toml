@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ipv6toolkit"
+version = "2.2"
+description = "Security assessment and troubleshooting tool for IPv6"
+homepage = "https://www.si6networks.com/research/tools/ipv6toolkit/"
+
+[source]
+url = "https://github.com/fgont/ipv6toolkit/archive/refs/tags/v2.2.tar.gz"
+sha256 = "b6a1af3d3cf417a81dbb4cd99cf710d16a62338be4bfbbb14b8d1cb298849338"
+
+[build]
+system = "make"

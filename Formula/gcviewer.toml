@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "gcviewer"
+version = "1.37.jar"
+description = "Java garbage collection visualization tool"
+homepage = "https://github.com/chewiebug/GCViewer"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gcviewer/gcviewer-1.37.jar"
+sha256 = "325a5f1a8f67588b6845c71eceb70c8b74c45930fd553ba2fc7b3b4118608e13"
+
+[build]
+system = "autotools"

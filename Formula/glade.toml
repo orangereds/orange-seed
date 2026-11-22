@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook-xsl", "gettext", "gobject-introspection", "itstool", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gtk+3", "hicolor-icon-theme", "libxml2", "pango"]
+
+[package]
+name = "glade"
+version = "3.40.0_2"
+description = "RAD tool for the GTK+ and GNOME environment"
+homepage = "https://glade.gnome.org/"
+
+[source]
+url = "https://download.gnome.org/sources/glade/3.40/glade-3.40.0.tar.xz"
+sha256 = "31c9adaea849972ab9517b564e19ac19977ca97758b109edc3167008f53e3d9c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "imap-backup"
+version = "16.6.0"
+description = "Backup GMail (or other IMAP) accounts to disk"
+homepage = "https://github.com/joeyates/imap-backup"
+
+[source]
+url = "https://github.com/joeyates/imap-backup/archive/refs/tags/v16.6.0.tar.gz"
+sha256 = "b224c2a2a2eefb6438f2da4a9954f7ae6d7b876b718f15629824b76e4e021e4d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["brotli", "lz4", "pcre2", "xz", "zstd"]
+
+[package]
+name = "ugrep"
+version = "7.8.5"
+description = "Ultra fast grep with query UI, fuzzy search, archive search, and more"
+homepage = "https://ugrep.com/"
+
+[source]
+url = "https://github.com/Genivia/ugrep/archive/refs/tags/v7.8.5.tar.gz"
+sha256 = "f080ab6cd9d96a5357570cb60a99e09ebe5eef11cf322c35373dbe815378a1f2"
+
+[build]
+system = "autotools"

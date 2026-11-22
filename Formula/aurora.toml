@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aurora"
+version = "2.2"
+description = "Beanstalkd queue server console"
+homepage = "https://xuri.me/aurora/"
+
+[source]
+url = "https://github.com/xuri/aurora/archive/refs/tags/2.2.tar.gz"
+sha256 = "90ac08b7c960aa24ee0c8e60759e398ef205f5b48c2293dd81d9c2f17b24ca42"
+
+[build]
+system = "autotools"

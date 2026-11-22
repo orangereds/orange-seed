@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "shadowsocks-rust"
+version = "1.25.0"
+description = "Rust port of Shadowsocks"
+homepage = "https://shadowsocks.org/"
+
+[source]
+url = "https://github.com/shadowsocks/shadowsocks-rust/archive/refs/tags/v1.25.0.tar.gz"
+sha256 = "477a525e9b11d4c90ded6629552548d00a32675ec6f6f18ee45c98447e54b5f3"
+
+[build]
+system = "autotools"

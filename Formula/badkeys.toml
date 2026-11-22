@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cryptography", "gmp", "libmpc", "mpfr", "python@3.15"]
+
+[package]
+name = "badkeys"
+version = "0.0.22"
+description = "Tool to find common vulnerabilities in cryptographic public keys"
+homepage = "https://badkeys.info"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7e/b7/b27f5d7e2c70301ed8f6bd743a5d830195aa1dd49b708d786261873e9b8f/badkeys-0.0.22.tar.gz"
+sha256 = "abf12aa9ecd253f7556959a966a4a39b35bd2d452c1a5b12e220b182fb0fb172"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "cryptography", "freetype", "ghostscript", "img2pdf", "jbig2enc", "libheif", "libpng", "pillow", "pngquant", "pybind11", "pydantic", "python@3.15", "qpdf", "rpds-py", "tesseract", "unpaper"]
+
+[package]
+name = "ocrmypdf"
+version = "17.14.2"
+description = "Adds an OCR text layer to scanned PDF files"
+homepage = "https://ocrmypdf.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/66/4f/c7262015e4fe376f48f8c1c233520a0abc8f591ad16a26dd539e82cdbcb9/ocrmypdf-17.14.2.tar.gz"
+sha256 = "6dc0be8db27019050ca91ac351bc0b9f0523f44601bd0cd6504a1b1750731dee"
+
+[build]
+system = "autotools"

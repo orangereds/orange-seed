@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gnutls", "gtk+3", "libetpan", "librsvg", "nettle", "pango", "gettext"]
+
+[package]
+name = "claws-mail"
+version = "4.4.0_3"
+description = "User-friendly, lightweight, and fast email client"
+homepage = "https://www.claws-mail.org/"
+
+[source]
+url = "https://www.claws-mail.org/releases/claws-mail-4.4.0.tar.gz"
+sha256 = "642d78309b7b153699c417bcfdf505a735b19c57fd731a0bbb5752ad6adbdb52"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["hadoop", "openjdk@21"]
+
+[package]
+name = "hive"
+version = "0"
+description = "Hadoop-based data summarization, query, and analysis"
+homepage = "https://hive.apache.org"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=hive/hive-4.2.1/apache-hive-4.2.1-bin.tar.gz"
+sha256 = "525c2d8b8ba28b808df361a8277d2af655a257d063ea2c9799790009b843a245"
+
+[build]
+system = "autotools"

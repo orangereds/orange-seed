@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "scons", "libvorbis", "libzip", "sdl2-compat", "sdl2_mixer", "gettext", "glib"]
+
+[package]
+name = "huexpress"
+version = "3.0.4_2"
+description = "PC Engine emulator"
+homepage = "https://github.com/kallisti5/huexpress"
+
+[source]
+url = "https://github.com/kallisti5/huexpress/archive/refs/tags/3.0.4.tar.gz"
+sha256 = "76589f02d1640fc5063d48a47f017077c6b7557431221defe9e38679d86d4db8"
+
+[build]
+system = "autotools"

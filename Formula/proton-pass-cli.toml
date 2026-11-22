@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "proton-pass-cli"
+version = "2.7.1"
+description = "Command-line interface for Proton Pass"
+homepage = "https://protonpass.github.io/pass-cli/"
+
+[source]
+url = "https://github.com/protonpass/pass-cli/archive/refs/tags/2.7.1.tar.gz"
+sha256 = "a413bbac7d7b77e8cc465fad26aa8aed3407e48e9b8e96a903100fffc6434d94"
+
+[build]
+system = "autotools"

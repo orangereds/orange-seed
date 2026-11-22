@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "papis"
+version = "0.16.1_2"
+description = "Powerful command-line document and bibliography manager"
+homepage = "https://papis.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/34/39/91becff2d0b417d2a2b2777a939834df042944ff964c9a9828af3dc58a59/papis-0.16.1.tar.gz"
+sha256 = "6cc509e8164ac1a9444c77bae4f8ce5cb04056d79dc4a92214474aec09556569"
+
+[build]
+system = "autotools"

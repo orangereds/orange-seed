@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sql-migrate"
+version = "1.8.1"
+description = "SQL schema migration tool for Go"
+homepage = "https://github.com/rubenv/sql-migrate"
+
+[source]
+url = "https://github.com/rubenv/sql-migrate/archive/refs/tags/v1.8.1.tar.gz"
+sha256 = "461b813600b570acff9cf031dc6eaf996c5b52482ccc9a95380bab0a597c3517"
+
+[build]
+system = "autotools"

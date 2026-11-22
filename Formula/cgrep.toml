@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "pkgconf", "gmp"]
+
+[package]
+name = "cgrep"
+version = "9.2.3"
+description = "Context-aware grep for source code"
+homepage = "https://awgn.github.io/cgrep/"
+
+[source]
+url = "https://hackage.haskell.org/package/cgrep-9.2.3/cgrep-9.2.3.tar.gz"
+sha256 = "80119410ad24c668e4668773e21ac50439051bdf12d61668995a7cf652304691"
+
+[build]
+system = "autotools"

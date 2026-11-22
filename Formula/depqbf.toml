@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "depqbf"
+version = "0"
+description = "Solver for quantified boolean formulae (QBF)"
+homepage = "https://lonsing.github.io/depqbf/"
+
+[source]
+url = "https://github.com/lonsing/depqbf/archive/refs/tags/version-6.03.tar.gz"
+sha256 = "9684bb1562bfe14559007401f52975554373546d3290a19618ee71d709bce76e"
+
+[build]
+system = "autotools"

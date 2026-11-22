@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libice", "libsm", "libx11", "libxext", "libxp", "libxpm", "libxt", "openmotif"]
+
+[package]
+name = "nedit"
+version = "5.8-src"
+description = "Fast, compact Motif/X11 plain text editor"
+homepage = "https://sourceforge.net/projects/nedit/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/nedit/nedit-source/nedit-5.8-src.tar.gz"
+sha256 = "5851aa7252dad952084529173640232562dec4a7c440209f196d53d4a5a8074d"
+
+[build]
+system = "autotools"

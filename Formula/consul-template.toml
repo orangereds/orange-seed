@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "consul-template"
+version = "0.43.1"
+description = "Generic template rendering and notifications with Consul"
+homepage = "https://github.com/hashicorp/consul-template"
+
+[source]
+url = "https://github.com/hashicorp/consul-template/archive/refs/tags/v0.43.1.tar.gz"
+sha256 = "97c588a368c49e0478a65337a65b97031affb8a718446a4486759c1d3da6202d"
+
+[build]
+system = "autotools"

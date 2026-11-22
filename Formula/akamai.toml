@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "akamai"
+version = "2.0.6"
+description = "CLI toolkit for working with Akamai's APIs"
+homepage = "https://github.com/akamai/cli"
+
+[source]
+url = "https://github.com/akamai/cli/archive/refs/tags/v2.0.6.tar.gz"
+sha256 = "fb614f97f816a7517f94d46a4a3eca74459f12db22245a0a96e3325aa1f3308a"
+
+[build]
+system = "autotools"

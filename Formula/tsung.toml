@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["erlang", "gnuplot"]
+
+[package]
+name = "tsung"
+version = "1.8.0"
+description = "Load testing for HTTP, PostgreSQL, Jabber, and others"
+homepage = "https://github.com/processone/tsung"
+
+[source]
+url = "https://github.com/processone/tsung/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "6c55df48b82f185dfd60ae7271e09bbc25c6c8bc568bb8bfc0cdb056d77c3899"
+
+[build]
+system = "autotools"

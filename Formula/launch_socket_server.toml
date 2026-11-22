@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "launch_socket_server"
+version = "2.0.0"
+description = "Bind to privileged ports without running a server as root"
+homepage = "https://github.com/mistydemeo/launch_socket_server"
+
+[source]
+url = "https://github.com/mistydemeo/launch_socket_server/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "507184544d170dab63e6112198212033aaa84edf0e092c1dfe641087f092f365"
+
+[service]
+run = "launch_socket_server -"
+keep_alive = true
+log_path = "var/log/launch_socket_server.log"
+error_log_path = "var/log/launch_socket_server.log"
+
+[service.env]
+LAUNCH_PROGRAM_TCP_ADDRESS = "127.0.0.1:8080"
+
+[build]
+system = "make"

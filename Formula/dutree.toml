@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dutree"
+version = "0.2.18"
+description = "Tool to analyze file system usage written in Rust"
+homepage = "https://github.com/nachoparker/dutree"
+
+[source]
+url = "https://github.com/nachoparker/dutree/archive/refs/tags/v0.2.18.tar.gz"
+sha256 = "55c30e57cc339dd16141510af33245cc3b82f588f22419fc034f02b36ebecba0"
+
+[build]
+system = "autotools"

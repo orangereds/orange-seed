@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "xwin"
+version = "0.10.0"
+description = "Microsoft CRT and Windows SDK headers and libraries loader"
+homepage = "https://github.com/Jake-Shadle/xwin"
+
+[source]
+url = "https://github.com/Jake-Shadle/xwin/archive/refs/tags/0.10.0.tar.gz"
+sha256 = "b9e99162096d421cb64ec703297496ad1fba185f4b1a743b2490c19bbdfa2ce9"
+
+[build]
+system = "autotools"

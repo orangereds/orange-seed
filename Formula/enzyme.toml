@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "llvm"]
+
+[package]
+name = "enzyme"
+version = "0.0.311"
+description = "High-performance automatic differentiation of LLVM"
+homepage = "https://enzyme.mit.edu"
+
+[source]
+url = "https://github.com/EnzymeAD/Enzyme/archive/refs/tags/v0.0.311.tar.gz"
+sha256 = "aa179472df99b4d6b0ac5a68550dd7f7778208c5a9a96a183fe49bc1614096f9"
+
+[build]
+system = "cmake"

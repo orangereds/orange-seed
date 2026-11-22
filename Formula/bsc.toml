@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "cabal-install", "ghc", "pkgconf", "gmp", "icarus-verilog", "tcl-tk"]
+
+[package]
+name = "bsc"
+version = "2026.07.1_1"
+description = "Bluespec Compiler (BSC)"
+homepage = "https://github.com/B-Lang-org/bsc"
+
+[source]
+url = "https://github.com/B-Lang-org/bsc/archive/refs/tags/2026.07.1.tar.gz"
+sha256 = "819026c092715671b17003dd9bad4863498d89171bfbf0ad358905161cf80db2"
+
+[build]
+system = "autotools"

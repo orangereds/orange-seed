@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dune", "gmp", "ocaml", "ocaml-findlib", "ocaml-zarith"]
+
+[package]
+name = "rocq"
+version = "9.3.0_1"
+description = "Proof assistant for higher-order logic"
+homepage = "https://rocq-prover.org/"
+
+[source]
+url = "https://github.com/rocq-prover/rocq/releases/download/V9.3.0/rocq-9.3.0.tar.gz"
+sha256 = "3f0fc283e8644394aa9c7a6e3995b6d9ebbe1e6dda712bf431f9c372dcef95ad"
+
+[build]
+system = "autotools"

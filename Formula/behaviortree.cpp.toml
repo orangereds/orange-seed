@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cppzmq", "zeromq"]
+
+[package]
+name = "behaviortree.cpp"
+version = "4.11.1"
+description = "Behavior Trees Library in C++"
+homepage = "https://www.behaviortree.dev/"
+
+[source]
+url = "https://github.com/BehaviorTree/BehaviorTree.CPP/archive/refs/tags/4.11.1.tar.gz"
+sha256 = "f590d4b0f87f027e603235c7c8b056b9fe8ec495b1d067e94d86ebf160177aba"
+
+[build]
+system = "cmake"

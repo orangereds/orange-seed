@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo", "little-cms2"]
+
+[package]
+name = "libmng"
+version = "2.0.3_1"
+description = "MNG/JNG reference library"
+homepage = "https://sourceforge.net/projects/libmng/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libmng/libmng-devel/2.0.3/libmng-2.0.3.tar.gz"
+sha256 = "cf112a1fb02f5b1c0fce5cab11ea8243852c139e669c44014125874b14b7dfaa"
+
+[build]
+system = "autotools"

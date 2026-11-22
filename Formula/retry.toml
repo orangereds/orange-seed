@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "retry"
+version = "1.0.7"
+description = "Repeat a command until the command succeeds"
+homepage = "https://github.com/minfrin/retry"
+
+[source]
+url = "https://github.com/minfrin/retry/releases/download/retry-1.0.7/retry-1.0.7.tar.bz2"
+sha256 = "eb96b60244e09f407db9eb32cb9ad52361aaef4d19ca84817a6f88f577b60d6b"
+
+[build]
+system = "autotools"

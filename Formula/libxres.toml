@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xorgproto", "libx11", "libxext"]
+
+[package]
+name = "libxres"
+version = "0"
+description = "X.Org: X-Resource extension client library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXres-1.2.3.tar.xz"
+sha256 = "d2de8f5401d6c86a8992791654547eb8def585dfdc0c08cc16e24ef6aeeb69dc"
+
+[build]
+system = "autotools"

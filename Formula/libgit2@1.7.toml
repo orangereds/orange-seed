@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libssh2", "openssl@3"]
+
+[package]
+name = "libgit2@1.7"
+version = "1.7.2"
+description = "C library of Git core methods that is re-entrant and linkable"
+homepage = "https://libgit2.org/"
+
+[source]
+url = "https://github.com/libgit2/libgit2/archive/refs/tags/v1.7.2.tar.gz"
+sha256 = "de384e29d7efc9330c6cdb126ebf88342b5025d920dcb7c645defad85195ea7f"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chrome-export"
+version = "2.0.2_1"
+description = "Convert Chrome's bookmarks and history to HTML bookmarks files"
+homepage = "https://github.com/bdesham/chrome-export"
+
+[source]
+url = "https://github.com/bdesham/chrome-export/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "41b667b407bc745a57105cc7969ec80cd5e50d67e1cce73cf995c2689d306e97"
+
+[build]
+system = "autotools"

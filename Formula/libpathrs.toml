@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lld", "pkgconf", "rust"]
+
+[package]
+name = "libpathrs"
+version = "0.2.6"
+description = "C-friendly API to make path resolution safer on Linux"
+homepage = "https://github.com/cyphar/libpathrs"
+
+[source]
+url = "https://github.com/cyphar/libpathrs/archive/refs/tags/v0.2.6.tar.gz"
+sha256 = "ae274cd296b863d538e28ee42e612f40723f9f0b2601a41c5b796ac074e5eb9c"
+
+[build]
+system = "autotools"

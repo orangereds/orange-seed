@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "ipbt"
+version = "20260527"
+description = "Program for recording a UNIX terminal session"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/ipbt/"
+
+[source]
+url = "https://www.chiark.greenend.org.uk/~sgtatham/ipbt/ipbt-20260527.fdcd2b0.tar.gz"
+sha256 = "5303c8010addf1b2dec5375c8cf32d70e1835545d639ee2183863e09d4e80aa3"
+
+[build]
+system = "cmake"

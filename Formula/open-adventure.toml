@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "libyaml", "pkgconf", "python@3.15"]
+
+[package]
+name = "open-adventure"
+version = "1.22"
+description = "Colossal Cave Adventure, the 1995 430-point version"
+homepage = "http://www.catb.org/~esr/open-adventure/"
+
+[source]
+url = "https://gitlab.com/esr/open-adventure/-/archive/1.22/open-adventure-1.22.tar.bz2"
+sha256 = "d3e48baee13fe953e041f1b8264580bf96bc893edee62586151de234350c3ccb"
+
+[build]
+system = "autotools"

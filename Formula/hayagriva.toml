@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hayagriva"
+version = "0.10.1"
+description = "Bibliography management tool"
+homepage = "https://github.com/typst/hayagriva"
+
+[source]
+url = "https://github.com/typst/hayagriva/archive/refs/tags/v0.10.1.tar.gz"
+sha256 = "bce8393f5200a3672b0d5baade84cfd96646dc7f0e045faedb0bf9a754c1a48d"
+
+[build]
+system = "autotools"

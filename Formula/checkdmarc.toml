@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "checkdmarc"
+version = "6.0.4_1"
+description = "Command-line parser for SPF and DMARC DNS records"
+homepage = "https://domainaware.github.io/checkdmarc/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a5/9b/6a25ad12100a86fe6636d41c04d2946d25ec610264023a85612f3452ba41/checkdmarc-6.0.4.tar.gz"
+sha256 = "27113185ec5fd981ee163d5fbd86b8d8c1e15021e0f311c714a878bcb3e8b261"
+
+[build]
+system = "autotools"

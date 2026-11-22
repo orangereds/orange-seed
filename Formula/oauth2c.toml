@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oauth2c"
+version = "1.21.1"
+description = "User-friendly CLI for OAuth2"
+homepage = "https://github.com/SecureAuthCorp/oauth2c"
+
+[source]
+url = "https://github.com/SecureAuthCorp/oauth2c/archive/refs/tags/v1.21.1.tar.gz"
+sha256 = "8f033f91e14bddc3ff3ae2c7cdf804f4e794d94dfa0e9ef4751d9b9d9cd212c4"
+
+[build]
+system = "autotools"

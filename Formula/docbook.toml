@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "docbook"
+version = "5.2.1"
+description = "Standard XML representation system for technical documents"
+homepage = "https://docbook.org/"
+
+[source]
+url = "https://codeberg.org/DocBook/docbook/releases/download/5.2.1/docbook-5.2.1.zip"
+sha256 = "c2ae23cd2b45f472d8e47c1966f5886a43a23471b066ecca6bc3a107e63e8021"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gmailctl"
+version = "0.13.0"
+description = "Declarative configuration for Gmail filters"
+homepage = "https://github.com/mbrt/gmailctl"
+
+[source]
+url = "https://github.com/mbrt/gmailctl/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "49df3a2fe7929114ec406096d577004a27ad75bbb4c836ca603dff88c1a830bd"
+
+[build]
+system = "autotools"

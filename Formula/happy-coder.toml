@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["yarn", "difftastic", "node", "ripgrep"]
+
+[package]
+name = "happy-coder"
+version = "0.13.0"
+description = "CLI for operating AI coding agents from mobile devices"
+homepage = "https://happy.engineering"
+
+[source]
+url = "https://github.com/slopus/happy-cli/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "42e1281f806aa2e604d684853213e4936f2424ea220e90f2cd6c06f4f37f297d"
+
+[build]
+system = "autotools"

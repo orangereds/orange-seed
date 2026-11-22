@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "r-rig"
+version = "0.11.1"
+description = "R Installation Manager"
+homepage = "https://github.com/r-lib/rig"
+
+[source]
+url = "https://github.com/r-lib/rig/archive/refs/tags/v0.11.1.tar.gz"
+sha256 = "e6186c4fd550f1c31323d5732c95da78e8a2f0cafcd3e505264b2ec7f5a09da2"
+
+[build]
+system = "autotools"

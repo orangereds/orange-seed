@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "rgf"
+version = "3.12.0"
+description = "Regularized Greedy Forest library"
+homepage = "https://github.com/RGF-team/rgf"
+
+[source]
+url = "https://github.com/RGF-team/rgf/archive/refs/tags/3.12.0.tar.gz"
+sha256 = "c197977b8709c41aa61d342a01497d26f1ad704191a2a6b699074fe7ee57dc86"
+
+[build]
+system = "cmake"

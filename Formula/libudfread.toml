@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "libudfread"
+version = "1.2.0"
+description = "Universal Disk Format reader"
+homepage = "https://code.videolan.org/videolan/libudfread"
+
+[source]
+url = "https://download.videolan.org/videolan/libudfread/libudfread-1.2.0.tar.xz"
+sha256 = "bb477cbd4cfbfc7787d9d05b71ee5e70430f5cfebf1297497f7e83547958050f"
+
+[build]
+system = "autotools"

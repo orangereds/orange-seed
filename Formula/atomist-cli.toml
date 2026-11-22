@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "macos-term-size"]
+
+[package]
+name = "atomist-cli"
+version = "0_1"
+description = "Unified command-line tool for interacting with Atomist services"
+homepage = "https://github.com/atomist/cli"
+
+[source]
+url = "https://registry.npmjs.org/@atomist/cli/-/cli-1.8.0.tgz"
+sha256 = "64bcc7484fa2f1b7172984c278ae928450149fb02b750f79454b1a6683d17f62"
+
+[build]
+system = "autotools"

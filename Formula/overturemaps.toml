@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "rust", "apache-arrow", "geos", "numpy", "python@3.15"]
+
+[package]
+name = "overturemaps"
+version = "2.1.1"
+description = "Python tools for interacting with Overture Maps data"
+homepage = "https://overturemaps.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c0/c4/8b6ad247e074dc7690123b176a025e8144e39ffcea7e72a6f3b194c98875/overturemaps-2.1.1.tar.gz"
+sha256 = "c8cdaf330271e348f70666fe5fde14a9f152037b59713e1fc355ab49b4249d9a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "swig", "certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "gam"
+version = "7.52.05"
+description = "Command-line management for Google Workspace"
+homepage = "https://github.com/GAM-team/GAM"
+
+[source]
+url = "https://github.com/GAM-team/GAM/archive/refs/tags/v7.52.05.tar.gz"
+sha256 = "c3ecbe4a882ace5dc6f26aaade40bd4a7cbe61c9bb614fd0e4e254f136bb06a4"
+
+[build]
+system = "autotools"

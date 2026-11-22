@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-insta"
+version = "1.49.0"
+description = "Snapshot testing CLI for Rust"
+homepage = "https://insta.rs"
+
+[source]
+url = "https://github.com/mitsuhiko/insta/archive/refs/tags/1.49.0.tar.gz"
+sha256 = "4115f605a25f73bcf5bfda09b4992c03b6c37087f618b4afddcc43e23753b363"
+
+[build]
+system = "autotools"

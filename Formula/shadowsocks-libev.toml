@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "cmake", "xmlto", "c-ares", "libev", "libsodium", "mbedtls@3", "pcre2"]
+
+[package]
+name = "shadowsocks-libev"
+version = "0"
+description = "Libev port of shadowsocks"
+homepage = "https://github.com/shadowsocks/shadowsocks-libev"
+
+[source]
+url = "https://github.com/shadowsocks/shadowsocks-libev.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/shadowsocks-libev/bin/ss-local -c etc/shadowsocks-libev.json"
+keep_alive = true
+
+[build]
+system = "cmake"

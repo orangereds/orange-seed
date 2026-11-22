@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "graphqurl"
+version = "2.0.0"
+description = "Curl for GraphQL with autocomplete, subscriptions and GraphiQL"
+homepage = "https://github.com/hasura/graphqurl"
+
+[source]
+url = "https://registry.npmjs.org/graphqurl/-/graphqurl-2.0.0.tgz"
+sha256 = "589fd91ec8b40554ff2d32a35846bc9e31466ce9824530ccd3176aafe8e8ce75"
+
+[build]
+system = "autotools"

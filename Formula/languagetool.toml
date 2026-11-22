@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@17"]
+
+[package]
+name = "languagetool"
+version = "0"
+description = "Style and grammar checker"
+homepage = "https://www.languagetool.org/"
+
+[source]
+url = "https://github.com/languagetool-org/languagetool.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "languagetool-server"
+keep_alive = true
+log_path = "var/log/languagetool/languagetool-server.log"
+error_log_path = "var/log/languagetool/languagetool-server.log"
+
+[build]
+system = "autotools"

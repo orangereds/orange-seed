@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "c-ares", "ncurses"]
+
+[package]
+name = "lft"
+version = "0"
+description = "Layer Four Traceroute (LFT), an advanced traceroute tool"
+homepage = "https://pwhois.org/lft/"
+
+[source]
+url = "https://pwhois.org/dl/index.who?file=lft-4.03.tar.gz"
+sha256 = "d84aff0c2baf57a5c5b21fb3b228eed0ac0e12e5a676b3b3be13e34770b91d17"
+
+[build]
+system = "autotools"

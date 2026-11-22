@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "gnhf"
+version = "0.1.53"
+description = "Autonomous agent orchestrator for long-running coding tasks"
+homepage = "https://github.com/kunchenguid/gnhf"
+
+[source]
+url = "https://registry.npmjs.org/gnhf/-/gnhf-0.1.53.tgz"
+sha256 = "80a4d52c177c9512a797fb307d01b211dcb2510fb625557f386b07a3cd510e80"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "g3log"
+version = "2.6.2"
+description = "Asynchronous, 'crash safe', logger that is easy to use"
+homepage = "https://github.com/KjellKod/g3log"
+
+[source]
+url = "https://github.com/KjellKod/g3log/archive/refs/tags/2.6.2.tar.gz"
+sha256 = "def0e36d3e4a4382f73c3e28949cb2506ee53952c2d209dd1584f4de71880f57"
+
+[build]
+system = "cmake"

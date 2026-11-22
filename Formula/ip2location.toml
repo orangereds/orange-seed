@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "ip2location"
+version = "8.7.0"
+description = "C library and CLI to geolocate IP addresses"
+homepage = "https://github.com/ip2location/IP2Location-C-Library"
+
+[source]
+url = "https://github.com/ip2location/IP2Location-C-Library/archive/refs/tags/8.7.0.tar.gz"
+sha256 = "0c196016c281f685cb428011d4703360bca8a805f4efa777eb1bd29c8295d196"
+
+[build]
+system = "autotools"

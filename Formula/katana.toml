@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "katana"
+version = "1.8.0"
+description = "Crawling and spidering framework"
+homepage = "https://github.com/projectdiscovery/katana"
+
+[source]
+url = "https://github.com/projectdiscovery/katana/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "490f23c25daeea0ccf93268a81b4a89ba84ec43ac2bf6dc988392ec3a65d9329"
+
+[build]
+system = "autotools"

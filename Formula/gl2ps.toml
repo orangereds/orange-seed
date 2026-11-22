@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpng"]
+
+[package]
+name = "gl2ps"
+version = "1.4.3"
+description = "OpenGL to PostScript printing library"
+homepage = "https://www.geuz.org/gl2ps/"
+
+[source]
+url = "https://geuz.org/gl2ps/src/gl2ps-1.4.3.tgz"
+sha256 = "2e0a5368917cf0e5467ba8618bc576f50ae9f316c61201635b09711c7908efcc"
+
+[build]
+system = "cmake"

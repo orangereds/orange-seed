@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "mergiraf"
+version = "0.20.0"
+description = "Syntax-aware git merge driver"
+homepage = "https://mergiraf.org"
+
+[source]
+url = "https://codeberg.org/mergiraf/mergiraf/archive/v0.20.0.tar.gz"
+sha256 = "85a1dc9e60e8ebc22ffe161cc08cb998f18f5e27b7e23319f35328a69a95fd10"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "alsa-lib", "dbus", "fftw", "glib", "libsndfile", "ncurses", "openssl@4", "opus", "pulseaudio", "readline", "systemd"]
+
+[package]
+name = "pipewire"
+version = "1.6.11"
+description = "Server and user space API to deal with multimedia pipelines"
+homepage = "https://pipewire.org"
+
+[source]
+url = "https://gitlab.freedesktop.org/pipewire/pipewire/-/archive/1.6.11/pipewire-1.6.11.tar.gz"
+sha256 = "f3f70c4af173cc93d05070a9d412efe3ef5889bdf4ac32298e2c0d9ae1350559"
+
+[build]
+system = "autotools"

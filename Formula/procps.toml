@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "pkgconf", "ncurses"]
+
+[package]
+name = "procps"
+version = "4.0.7"
+description = "Utilities for browsing procfs"
+homepage = "https://gitlab.com/procps-ng/procps"
+
+[source]
+url = "https://gitlab.com/procps-ng/procps/-/archive/v4.0.7/procps-v4.0.7.tar.gz"
+sha256 = "468dfe0f29a77498286b459fcc33e24fcc2031c11a890244ba9cf1481a4f5df7"
+
+[build]
+system = "autotools"

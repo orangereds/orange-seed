@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libunwind-headers"
+version = "0"
+description = "C API for determining the call-chain of a program"
+homepage = "https://opensource.apple.com/"
+
+[source]
+url = "https://github.com/apple-oss-distributions/libunwind/archive/refs/tags/libunwind-201.tar.gz"
+sha256 = "bbe469bd8778ba5a3e420823b9bf96ae98757a250f198893dee4628e0a432899"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

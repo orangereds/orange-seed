@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gsar"
+version = "1.51"
+description = "General Search And Replace on files"
+homepage = "https://tjaberg.com/"
+
+[source]
+url = "https://tjaberg.com/gsar151.zip"
+sha256 = "72908ae302d2293de5218fd4da0b98afa2ce8890a622e709360576e93f5e8cc8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "solidity", "crytic-compile"]
+
+[package]
+name = "medusa"
+version = "1.5.1"
+description = "Solidity smart contract fuzzer powered by go-ethereum"
+homepage = "https://secure-contracts.com/program-analysis/medusa/docs/src/"
+
+[source]
+url = "https://github.com/crytic/medusa/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "075c080a52cd27f3efae4146ac2e1bb38c8acf7a58891dacef610d29e91d93be"
+
+[build]
+system = "autotools"

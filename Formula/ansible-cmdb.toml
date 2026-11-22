@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.14"]
+
+[package]
+name = "ansible-cmdb"
+version = "1.31_1"
+description = "Generates static HTML overview page from Ansible facts"
+homepage = "https://github.com/fboender/ansible-cmdb"
+
+[source]
+url = "https://github.com/fboender/ansible-cmdb/archive/refs/tags/1.31.tar.gz"
+sha256 = "8de9a02e3f0740967537850f6263756dca1bf506cd95c1f2ef7f4ee6d9ff23b8"
+
+[build]
+system = "autotools"

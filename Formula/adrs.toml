@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "adrs"
+version = "0.13.0"
+description = "Architectural Decision Record tool in Rust"
+homepage = "https://joshrotenberg.com/adrs/"
+
+[source]
+url = "https://github.com/joshrotenberg/adrs/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "25490a7a205afd9a9c6b65c31011984a6594f8f7c8b61d28220903fcfd25ec24"
+
+[build]
+system = "autotools"

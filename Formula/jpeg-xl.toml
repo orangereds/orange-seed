@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoc", "cmake", "docbook-xsl", "pkgconf", "sphinx-doc", "webp", "brotli", "giflib", "highway", "imath", "jpeg-turbo", "libpng", "little-cms2", "openexr"]
+
+[package]
+name = "jpeg-xl"
+version = "dd4d9857c58a25713711a46d37385ad23ca2177e"
+description = "New file format for still image compression"
+homepage = "https://jpeg.org/jpegxl/index.html"
+
+[source]
+url = "https://github.com/libjxl/libjxl/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "24d18c9af2d1f5a17730b3f8d3f70a5c16e5ac303f5d9d5fe9dc00cf7ca82af2"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "rocksdb"]
+
+[package]
+name = "oxen"
+version = "0.68.1"
+description = "Data VCS for structured and unstructured machine learning datasets"
+homepage = "https://www.oxen.ai/"
+
+[source]
+url = "https://github.com/Oxen-AI/Oxen/archive/refs/tags/v0.68.1.tar.gz"
+sha256 = "314482613f34f13e49376034be739ef2f1ef9a968cdf087fa6fe6d8feb6abfc5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "virustotal-cli"
+version = "1.3.1"
+description = "Command-line interface for VirusTotal"
+homepage = "https://virustotal.github.io/vt-cli/"
+
+[source]
+url = "https://github.com/VirusTotal/vt-cli/archive/refs/tags/1.3.1.tar.gz"
+sha256 = "3d95ddab1da71ee769ec65e3ed087994fc837d2d234f9c2640c669c8ce8c7d7a"
+
+[build]
+system = "autotools"

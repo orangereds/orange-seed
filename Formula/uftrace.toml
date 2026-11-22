@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "pkgconf", "capstone", "elfutils", "libunwind", "luajit", "ncurses", "python@3.15", "xz"]
+
+[package]
+name = "uftrace"
+version = "0.20"
+description = "Function graph tracer for C/C++/Rust"
+homepage = "https://uftrace.github.io/slide/"
+
+[source]
+url = "https://github.com/namhyung/uftrace/archive/refs/tags/v0.20.tar.gz"
+sha256 = "03189061130693b274a4d0af47c4a3135d4a496ca111b78233593bfcb3d3720f"
+
+[build]
+system = "autotools"

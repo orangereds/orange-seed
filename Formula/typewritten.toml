@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zsh"]
+
+[package]
+name = "typewritten"
+version = "1.5.2"
+description = "Minimal zsh prompt"
+homepage = "https://typewritten.dev"
+
+[source]
+url = "https://github.com/reobin/typewritten/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "03dcd8239e66cbeac7fa31457bae8355d1fc05fb49dcb05b77ed40f4771226fd"
+
+[build]
+system = "autotools"

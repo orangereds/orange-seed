@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "batik"
+version = "0"
+description = "Java-based toolkit for SVG images"
+homepage = "https://xmlgraphics.apache.org/batik/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=xmlgraphics/batik/binaries/batik-bin-1.20.tar.gz"
+sha256 = "b703e2b4f61e7fd90b1db053ab01f587957360f1ad7fb73478aa2f1e04659697"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "python@3.15", "vala", "glib", "gnutls", "libcbor", "libjcat", "libusb", "libxmlb", "readline", "sqlite", "usb.ids", "xz"]
+
+[package]
+name = "fwupd"
+version = "2.1.10"
+description = "Firmware update daemon"
+homepage = "https://github.com/fwupd/fwupd"
+
+[source]
+url = "https://github.com/fwupd/fwupd/releases/download/2.1.10/fwupd-2.1.10.tar.xz"
+sha256 = "cb23ab505cabaf616dacfc199f710f883329e8782ca3aa67548bdb7181d62fab"
+
+[build]
+system = "autotools"

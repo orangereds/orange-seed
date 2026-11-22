@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lmdb", "mcpp"]
+
+[package]
+name = "ice"
+version = "3.8.3"
+description = "Comprehensive RPC framework"
+homepage = "https://zeroc.com"
+
+[source]
+url = "https://github.com/zeroc-ice/ice/archive/refs/tags/v3.8.3.tar.gz"
+sha256 = "62240ed349317f72269ebf1b26e8b3629a09ad9a915031e942e83f75e9fb6971"
+
+[build]
+system = "autotools"

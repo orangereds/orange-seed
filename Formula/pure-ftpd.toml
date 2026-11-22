@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libsodium", "openssl@4"]
+
+[package]
+name = "pure-ftpd"
+version = "1.0.54_1"
+description = "Secure and efficient FTP server"
+homepage = "https://www.pureftpd.org/"
+
+[source]
+url = "https://download.pureftpd.org/pub/pure-ftpd/releases/pure-ftpd-1.0.54.tar.gz"
+sha256 = "dc9140420ec44f7829579591ff378aa6396b4604b9c6aeae847368e0f35bd7b2"
+
+[service]
+run = "pure-ftpd"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/pure-ftpd.log"
+error_log_path = "var/log/pure-ftpd.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ktor"
+version = "0.5.1"
+description = "Generates Ktor projects through the command-line interface"
+homepage = "https://github.com/ktorio/ktor-cli"
+
+[source]
+url = "https://github.com/ktorio/ktor-cli/archive/refs/tags/0.5.1.tar.gz"
+sha256 = "dae763ded73a786dd183258e71af6001bea9b63fa357f50be78d0c3c2dcc8953"
+
+[build]
+system = "autotools"

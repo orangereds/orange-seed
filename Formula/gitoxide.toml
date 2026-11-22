@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "gitoxide"
+version = "0.61.0"
+description = "Idiomatic, lean, fast & safe pure Rust implementation of Git"
+homepage = "https://github.com/GitoxideLabs/gitoxide"
+
+[source]
+url = "https://github.com/GitoxideLabs/gitoxide/archive/refs/tags/v0.61.0.tar.gz"
+sha256 = "52eef94ef7a4714189fc3c77a0a345a4f61d2e3b5a4dc472ea11115a05c8da40"
+
+[build]
+system = "autotools"

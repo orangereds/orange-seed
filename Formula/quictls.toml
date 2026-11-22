@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ca-certificates"]
+
+[package]
+name = "quictls"
+version = "3.3.0-quic1"
+description = "TLS/SSL and crypto library with QUIC APIs"
+homepage = "https://github.com/quictls/openssl"
+
+[source]
+url = "https://github.com/quictls/openssl/archive/refs/tags/openssl-3.3.0-quic1.tar.gz"
+sha256 = "78d675d94c0ac3a8b44073f0c2b373d948c5afd12b25c9e245262f563307a566"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

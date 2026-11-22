@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libpcap"
+version = "1.11.0"
+description = "Portable library for network traffic capture"
+homepage = "https://www.tcpdump.org/"
+
+[source]
+url = "https://www.tcpdump.org/release/libpcap-1.11.0.tar.gz"
+sha256 = "596389bc8560ea027dff9db8aaf6c173d992366d9aef4baf5d7c6d180b4d49ad"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

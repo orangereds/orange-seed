@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "yarn"]
+
+[package]
+name = "grafana-agent"
+version = "0.44.4"
+description = "Exporter for Prometheus Metrics, Loki Logs, and Tempo Traces"
+homepage = "https://grafana.com/docs/agent/latest/"
+
+[source]
+url = "https://github.com/grafana/agent/archive/refs/tags/v0.44.4.tar.gz"
+sha256 = "ce86302982702912cfe5df98237fd0a3c14b14b1205386b1f5a4b6d3b64cf414"
+
+[service]
+run = "opt/grafana-agent/bin/grafana-agent -config.file etc/grafana-agent/config.yml"
+keep_alive = true
+log_path = "var/log/grafana-agent.log"
+error_log_path = "var/log/grafana-agent.err.log"
+
+[build]
+system = "autotools"

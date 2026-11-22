@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "kubectl-radar"
+version = "1.21.1"
+description = "Missing open-source Kubernetes UI with a built-in MCP server for AI agents"
+homepage = "https://radarhq.io"
+
+[source]
+url = "https://github.com/skyhook-io/radar/archive/refs/tags/v1.21.1.tar.gz"
+sha256 = "c5a8a55da42db158ffdb3a6615704ed7267e01b0ababe25a988f3dc11fbb42e2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "eureka"
+version = "2.1.0"
+description = "CLI tool to input and store your ideas without leaving the terminal"
+homepage = "https://github.com/simeg/eureka"
+
+[source]
+url = "https://github.com/simeg/eureka/archive/refs/tags/v2.1.0.tar.gz"
+sha256 = "b9eb7d49b51341976d72280a7edb8857358ef8ec3715cf4f26da12420622c85b"
+
+[build]
+system = "autotools"

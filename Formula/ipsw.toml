@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ipsw"
+version = "3.1.749"
+description = "Research tool for iOS & macOS devices"
+homepage = "https://blacktop.github.io/ipsw"
+
+[source]
+url = "https://github.com/blacktop/ipsw/archive/refs/tags/v3.1.749.tar.gz"
+sha256 = "4d64c61e65f23d1182709b2f74310732e443a7fd847c3e03db1a9e6d2f52c867"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "egctl"
+version = "1.10.0"
+description = "Command-line utility for operating Envoy Gateway"
+homepage = "https://gateway.envoyproxy.io/"
+
+[source]
+url = "https://github.com/envoyproxy/gateway/archive/refs/tags/v1.10.0.tar.gz"
+sha256 = "584323d4c3e0a354ce40d72f9bf8c1dc2eca51de1c0d8bb47df230a156cc7a43"
+
+[build]
+system = "autotools"

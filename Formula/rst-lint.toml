@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "rst-lint"
+version = "0"
+description = "ReStructuredText linter"
+homepage = "https://github.com/twolfson/restructuredtext-lint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ca/e6/eefcad2228f4124f17e01064428fbcd0ade06a274f3063ce3a126a569d6b/restructuredtext_lint-2.0.2.tar.gz"
+sha256 = "dd25209b9e0b726929d8306339faf723734a3137db382bcf27294fa18a6bc52b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bcoin"
+version = "2.2.0"
+description = "Javascript bitcoin library for node.js and browsers"
+homepage = "https://github.com/bcoin-org/bcoin"
+
+[source]
+url = "https://github.com/bcoin-org/bcoin/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "fa1a78a73bef5837b7ff10d18ffdb47c0e42ad068512987037a01e8fad980432"
+
+[build]
+system = "autotools"

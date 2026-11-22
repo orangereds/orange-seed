@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "rust", "ldid-procursus", "python@3.15"]
+
+[package]
+name = "cyan"
+version = "1.4.4_1"
+description = "iOS app injector and modifier"
+homepage = "https://github.com/asdfzxcvbn/pyzule-rw"
+
+[source]
+url = "https://github.com/asdfzxcvbn/pyzule-rw/archive/refs/tags/v1.4.4.tar.gz"
+sha256 = "fa2ce2a9a715ef9691f77a293ad58a61a6daf170896aebf32024c0ee797fc4a4"
+
+[build]
+system = "autotools"

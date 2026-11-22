@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "catch2"
+version = "3.16.1"
+description = "Modern, C++-native, test framework"
+homepage = "https://github.com/catchorg/Catch2"
+
+[source]
+url = "https://github.com/catchorg/Catch2/archive/refs/tags/v3.16.1.tar.gz"
+sha256 = "d16bd1b8b2364918bd472cb216394acb93bde6784890df0d91bccfb3f28d777d"
+
+[build]
+system = "cmake"

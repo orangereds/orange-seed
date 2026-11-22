@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "enchive"
+version = "3.5"
+description = "Encrypted personal archives"
+homepage = "https://github.com/skeeto/enchive"
+
+[source]
+url = "https://github.com/skeeto/enchive/releases/download/3.5/enchive-3.5.tar.xz"
+sha256 = "cb867961149116443a85d3a64ef5963e3c399bdd377b326669bb566a3453bd06"
+
+[build]
+system = "make"

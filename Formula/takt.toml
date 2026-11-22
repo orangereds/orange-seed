@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "takt"
+version = "0.310-src_2"
+description = "Text-based music programming language"
+homepage = "https://takt.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/takt/takt-0.310-src.tar.gz"
+sha256 = "eb2947eb49ef84b6b3644f9cf6f1ea204283016c4abcd1f7c57b24b896cc638f"
+
+[build]
+system = "autotools"

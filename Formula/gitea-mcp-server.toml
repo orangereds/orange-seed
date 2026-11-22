@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitea-mcp-server"
+version = "1.13.0"
+description = "Interactive with Gitea instances with MCP"
+homepage = "https://gitea.com/gitea/gitea-mcp"
+
+[source]
+url = "https://gitea.com/gitea/gitea-mcp/archive/v1.13.0.tar.gz"
+sha256 = "7f4a2ba841673ae31c8e48003f1ef2d0a5034f8e5fb734e3e57d9dedc3bdda8c"
+
+[build]
+system = "autotools"

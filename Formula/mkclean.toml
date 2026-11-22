@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "mkclean"
+version = "0.9.0"
+description = "Optimizes Matroska and WebM files"
+homepage = "https://www.matroska.org/downloads/mkclean.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/matroska/mkclean/mkclean-0.9.0.tar.bz2"
+sha256 = "2f5cdcab0e09b65f9fef8949a55ef00ee3dd700e4b4050e245d442347d7cc3db"
+
+[build]
+system = "cmake"

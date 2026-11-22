@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gettext"]
+
+[package]
+name = "libquicktime"
+version = "1.2.4_5"
+description = "Library for reading and writing quicktime files"
+homepage = "https://libquicktime.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libquicktime/libquicktime/1.2.4/libquicktime-1.2.4.tar.gz"
+sha256 = "1c53359c33b31347b4d7b00d3611463fe5e942cae3ec0fefe0d2fd413fd47368"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gopls"
+version = "0.24.0"
+description = "Language server for the Go language"
+homepage = "https://github.com/golang/tools/tree/master/gopls"
+
+[source]
+url = "https://github.com/golang/tools/archive/refs/tags/gopls/v0.24.0.tar.gz"
+sha256 = "5ecc22f581cafe4039873e2f28e0d045efecfb0dfc6ea51ee1345daa694cb6a9"
+
+[build]
+system = "autotools"

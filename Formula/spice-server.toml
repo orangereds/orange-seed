@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["spice-protocol", "pkgconf", "glib", "gstreamer", "jpeg-turbo", "lz4", "openssl@4", "opus", "orc", "pixman", "gettext"]
+
+[package]
+name = "spice-server"
+version = "0_2"
+description = "Implements the server side of the SPICE protocol"
+homepage = "https://www.spice-space.org/"
+
+[source]
+url = "https://gitlab.freedesktop.org/-/project/62/uploads/54a0f9f5d1840e1ad8060cb560f3dde6/spice-0.16.0.tar.bz2"
+sha256 = "0a6ec9528f05371261bbb2d46ff35e7b5c45ff89bb975a99af95a5f20ff4717d"
+
+[build]
+system = "autotools"

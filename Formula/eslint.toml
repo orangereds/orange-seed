@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "eslint"
+version = "10.15.0"
+description = "AST-based pattern checker for JavaScript"
+homepage = "https://eslint.org"
+
+[source]
+url = "https://registry.npmjs.org/eslint/-/eslint-10.15.0.tgz"
+sha256 = "8cb5e45fb5b1174e4216d546b69d37c0ac5cb5d9ba8342946a04af1f59605edb"
+
+[build]
+system = "autotools"

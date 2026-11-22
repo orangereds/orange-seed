@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "bnd"
+version = "0"
+description = "Swiss Army Knife for OSGi bundles"
+homepage = "https://bnd.bndtools.org/"
+
+[source]
+url = "https://search.maven.org/remotecontent?filepath=biz/aQute/bnd/biz.aQute.bnd/7.5.0/biz.aQute.bnd-7.5.0.jar"
+sha256 = "1e2c22d8e031b9f304e2fad91caebe92784caaf51c05143120cc07ac444c7f59"
+
+[build]
+system = "autotools"

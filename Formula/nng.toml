@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "cmake", "ninja"]
+
+[package]
+name = "nng"
+version = "2.1.0"
+description = "Nanomsg-next-generation -- light-weight brokerless messaging"
+homepage = "https://nng.nanomsg.org/"
+
+[source]
+url = "https://github.com/nanomsg/nng/archive/refs/tags/v2.1.0.tar.gz"
+sha256 = "e2fdcdf126b530e331b4727812b710629cdb5d90d230ce8f080e2eb520299d8d"
+
+[build]
+system = "cmake"

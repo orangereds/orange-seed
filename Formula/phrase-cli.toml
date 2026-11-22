@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "phrase-cli"
+version = "2.71.0"
+description = "Tool to interact with the Phrase API"
+homepage = "https://phrase.com/"
+
+[source]
+url = "https://github.com/phrase/phrase-cli/archive/refs/tags/2.71.0.tar.gz"
+sha256 = "8302be1fff596c9d5da0cba82c1a4697dbda38a7140eea1d9238e6f186da282d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "usbtree"
+version = "0.1.2"
+description = "Live USB device tree in your terminal"
+homepage = "https://gnomeria.github.io/usbtree/"
+
+[source]
+url = "https://github.com/gnomeria/usbtree/archive/refs/tags/v0.1.2.tar.gz"
+sha256 = "09631627589b43ac2e93f6d2a1cf6a10e490f62a159396f35b6871180ad03617"
+
+[build]
+system = "autotools"

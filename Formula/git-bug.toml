@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-bug"
+version = "0.12.0"
+description = "Distributed, offline-first bug tracker embedded in git, with bridges"
+homepage = "https://github.com/git-bug/git-bug"
+
+[source]
+url = "https://github.com/git-bug/git-bug/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "d02f75b5ca4a6ab7d8cd0bf028cee8f090ccd7f07854b5edeb4953957b75e39a"
+
+[build]
+system = "autotools"

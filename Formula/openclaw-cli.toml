@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "openclaw-cli"
+version = "0"
+description = "Your own personal AI assistant"
+homepage = "https://openclaw.ai/"
+
+[source]
+url = "https://registry.npmjs.org/openclaw/-/openclaw-2026.11.6.tgz"
+sha256 = "0ad54c943c7365ff78cdb0c317c2cd73fd6af9df404da02c7cde9787ea3322ad"
+
+[build]
+system = "autotools"

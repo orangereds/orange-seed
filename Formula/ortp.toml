@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "openssl@4"]
+
+[package]
+name = "ortp"
+version = "0"
+description = "Real-time transport protocol (RTP, RFC3550) library"
+homepage = "https://linphone.org/"
+
+[source]
+url = "https://gitlab.linphone.org/BC/public/linphone-sdk/-/archive/5.5.41/linphone-sdk-5.5.41.tar.bz2"
+sha256 = "01f1253270bca81e091788ba43970482042baf751fec131ed30f5c1de98799f9"
+
+[build]
+system = "cmake"

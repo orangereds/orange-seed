@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oj"
+version = "1.28.9"
+description = "JSON parser and visualization tool"
+homepage = "https://github.com/ohler55/ojg"
+
+[source]
+url = "https://github.com/ohler55/ojg/archive/refs/tags/v1.28.9.tar.gz"
+sha256 = "34aa1fc7dd518ca4a2e7be8bf6e063c3985f941caa3e26c9c56b70102c75efa3"
+
+[build]
+system = "autotools"

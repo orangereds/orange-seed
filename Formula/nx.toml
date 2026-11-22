@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "nx"
+version = "24.0.6"
+description = "Smart, Fast and Extensible Build System"
+homepage = "https://nx.dev"
+
+[source]
+url = "https://registry.npmjs.org/nx/-/nx-24.0.6.tgz"
+sha256 = "2889e2c94ceb71aec7e39a0a2657a54feae55c1572867c200a8ba8540314023a"
+
+[build]
+system = "autotools"

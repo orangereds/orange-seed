@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "openfga"
+version = "1.23.0"
+description = "High performance and flexible authorization/permission engine"
+homepage = "https://openfga.dev/"
+
+[source]
+url = "https://github.com/openfga/openfga/archive/refs/tags/v1.23.0.tar.gz"
+sha256 = "1b7e22145ade674dd2cc93a56f9d2e9ba055b6a939566a57190c3508f7087ff2"
+
+[build]
+system = "autotools"

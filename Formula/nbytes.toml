@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "nbytes"
+version = "0.1.5"
+description = "Library of byte handling functions extracted from Node.js core"
+homepage = "https://github.com/nodejs/nbytes"
+
+[source]
+url = "https://github.com/nodejs/nbytes/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "5158c92a34b02f54778ae7367dab77cc02861c69f4d8cfd4eeed608d586ca900"
+
+[build]
+system = "cmake"

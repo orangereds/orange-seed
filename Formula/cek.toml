@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cek"
+version = "0.3.0"
+description = "Explore the (overlay) filesystem and layers of OCI container images"
+homepage = "https://github.com/bschaatsbergen/cek"
+
+[source]
+url = "https://github.com/bschaatsbergen/cek/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "df2e264e15b7e5d2d72146090300ad6833801213e552a55c9079449d8b8a71d8"
+
+[build]
+system = "autotools"

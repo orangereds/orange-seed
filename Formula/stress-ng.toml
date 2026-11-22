@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "stress-ng"
+version = "0"
+description = "Stress test a computer system in various selectable ways"
+homepage = "https://github.com/ColinIanKing/stress-ng"
+
+[source]
+url = "https://github.com/ColinIanKing/stress-ng/archive/refs/tags/V0.22.02.tar.gz"
+sha256 = "860004ce7484311b3296fc52796fbbc34dfb7f644a769bbd4e03935b7a1b0ccb"
+
+[build]
+system = "autotools"

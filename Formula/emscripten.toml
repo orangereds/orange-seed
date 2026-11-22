@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "node", "python@3.15", "yuicompressor"]
+
+[package]
+name = "emscripten"
+version = "a9141c8ccdd082009c61970e715c02a8652a3f6f"
+description = "LLVM bytecode to JavaScript compiler"
+homepage = "https://emscripten.org/"
+
+[source]
+url = "https://github.com/emscripten-core/emscripten/archive/refs/tags/7.0.0.tar.gz"
+sha256 = "5a4f436f6e28e669495173674a7bf0fc5e61c58b08fd3373e4e6242e01629cf4"
+
+[build]
+system = "cmake"

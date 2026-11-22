@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libusb"]
+
+[package]
+name = "dpcmd"
+version = "0"
+description = "Linux software for DediProg SF100/SF600"
+homepage = "https://github.com/DediProgSW/SF100Linux"
+
+[source]
+url = "https://github.com/DediProgSW/SF100Linux/archive/refs/tags/V1.14.21,x.tar.gz"
+sha256 = "2bab3df0b971e66f574db33daa1687d1a064eed6b3e99d97c265bfce35470ddf"
+
+[build]
+system = "autotools"

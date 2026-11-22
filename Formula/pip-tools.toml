@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pip-tools"
+version = "0"
+description = "Locking and sync for Pip requirements files"
+homepage = "https://pip-tools.readthedocs.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8f/8f/53ebc1c4a2f9bc9c8a8dbc8d6c4ae3b5a07f7ac2bee78ee237c2c4e05de3/pip_tools-7.7.0.tar.gz"
+sha256 = "210a8939ee5ad30734731a804a57dae35ba1fe0541175a289798e95948c624b9"
+
+[build]
+system = "autotools"

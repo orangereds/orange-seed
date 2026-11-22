@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "fake-gcs-server"
+version = "1.56.1"
+description = "Emulator for Google Cloud Storage API"
+homepage = "https://github.com/fsouza/fake-gcs-server"
+
+[source]
+url = "https://github.com/fsouza/fake-gcs-server/archive/refs/tags/v1.56.1.tar.gz"
+sha256 = "a322297f949d5339a8e521eb15a35b80c8023f970b0f6511a7bb84e72932ca2c"
+
+[build]
+system = "autotools"

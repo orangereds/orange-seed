@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hysteria"
+version = "2.14.0"
+description = "Feature-packed proxy & relay tool optimized for lossy, unstable connections"
+homepage = "https://hysteria.network/"
+
+[source]
+url = "https://github.com/apernet/hysteria/archive/refs/tags/app/v2.14.0.tar.gz"
+sha256 = "2808da83ef2f4f76be91f7ae0df7518f1cc185d5410cd6d174e738527cf5545e"
+
+[service]
+run = "opt/hysteria/bin/hysteria --config etc/hysteria/config.yaml"
+keep_alive = true
+
+[build]
+system = "autotools"

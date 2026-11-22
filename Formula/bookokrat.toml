@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "bookokrat"
+version = "0.3.14"
+description = "Terminal EPUB Book Reader"
+homepage = "https://bugzmanov.github.io/bookokrat/index.html"
+
+[source]
+url = "https://github.com/bugzmanov/bookokrat/archive/refs/tags/v0.3.14.tar.gz"
+sha256 = "8c69c25e25c00edfef40f845db2c36969f0333454c0cb6a91356454be82c38cd"
+
+[build]
+system = "autotools"

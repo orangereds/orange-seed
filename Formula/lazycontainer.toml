@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lazycontainer"
+version = "0.0.3"
+description = "Terminal UI for Apple Containers"
+homepage = "https://github.com/andreybleme/lazycontainer"
+
+[source]
+url = "https://github.com/andreybleme/lazycontainer/archive/refs/tags/v0.0.3.tar.gz"
+sha256 = "171388ec6706b67a30bc129addf56910b6fc3a1811f7fae4200a9314e5e834e0"
+
+[build]
+system = "autotools"

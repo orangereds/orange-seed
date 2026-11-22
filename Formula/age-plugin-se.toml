@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["scdoc", "age"]
+
+[package]
+name = "age-plugin-se"
+version = "0.2.1"
+description = "Age plugin for Apple Secure Enclave"
+homepage = "https://github.com/remko/age-plugin-se"
+
+[source]
+url = "https://github.com/remko/age-plugin-se/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "a22ba4de99a6463b044894e0d7d26a2c9859be6577e2085b4082481e1ae6e6bc"
+
+[build]
+system = "make"

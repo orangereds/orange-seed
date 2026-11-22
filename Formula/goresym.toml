@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "goresym"
+version = "3.4.1"
+description = "Go symbol recovery tool"
+homepage = "https://github.com/mandiant/GoReSym"
+
+[source]
+url = "https://github.com/mandiant/GoReSym/archive/refs/tags/v3.4.1.tar.gz"
+sha256 = "c8600ad8634aae2166f09af224ac7c257c8ee403acd42d72f6f1276e786a70e8"
+
+[build]
+system = "autotools"

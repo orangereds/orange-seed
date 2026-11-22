@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2"]
+
+[package]
+name = "gfold"
+version = "2026.9.0"
+description = "Help keep track of your Git repositories, written in Rust"
+homepage = "https://github.com/nickgerace/gfold"
+
+[source]
+url = "https://github.com/nickgerace/gfold/archive/refs/tags/2026.9.0.tar.gz"
+sha256 = "d5bc582d8cd9c2f05097f6e7669f166ded64a0108373e75bbd864e3f6e63997b"
+
+[build]
+system = "autotools"

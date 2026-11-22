@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cpp-httplib", "googletest", "howard-hinnant-date", "meson", "ninja", "pkgconf", "rapidjson", "brotli", "libevent", "openssl@4", "zstd"]
+
+[package]
+name = "pistache"
+version = "0.4.26_1"
+description = "Modern, fast, elegant HTTP + REST C++17 framework with pleasant API"
+homepage = "https://pistacheio.github.io/pistache/"
+
+[source]
+url = "https://github.com/pistacheio/pistache/archive/refs/tags/v0.4.26.tar.gz"
+sha256 = "29af6562547497acf6f49170661786fe8cf1ed3712ad80e69c53da4661c59544"
+
+[build]
+system = "autotools"

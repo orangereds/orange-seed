@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "randomize-lines"
+version = "0"
+description = "Reads and randomize lines from a file (or STDIN)"
+homepage = "https://arthurdejong.org/rl/"
+
+[source]
+url = "https://arthurdejong.org/rl/rl-0.2.7.tar.gz"
+sha256 = "1cfca23d6a14acd190c5a6261923757d20cb94861c9b2066991ec7a7cae33bc8"
+
+[build]
+system = "autotools"

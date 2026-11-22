@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libcdio"
+version = "2.4.0"
+description = "Compact Disc Input and Control Library"
+homepage = "https://savannah.gnu.org/projects/libcdio/"
+
+[source]
+url = "https://github.com/libcdio/libcdio/releases/download/2.4.0/libcdio-2.4.0.tar.gz"
+sha256 = "bf7cde63762bb12db7755c395c441e49406fde7e1d9f9a9be7e3b940b1f405d7"
+
+[build]
+system = "autotools"

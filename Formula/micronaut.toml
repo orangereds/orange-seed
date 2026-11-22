@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk@25"]
+
+[package]
+name = "micronaut"
+version = "5.2.7"
+description = "Modern JVM-based framework for building modular microservices"
+homepage = "https://micronaut.io/"
+
+[source]
+url = "https://github.com/micronaut-projects/micronaut-starter/archive/refs/tags/v5.2.7.tar.gz"
+sha256 = "d46501746f606900641cec0562a3cd675b280e6a1b5e7f59964b54b491577cc4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lzlib"]
+
+[package]
+name = "tarlz"
+version = "0.33.tar.lz"
+description = "Data compressor"
+homepage = "https://www.nongnu.org/lzip/tarlz.html"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/lzip/tarlz/tarlz-0.33.tar.lz"
+sha256 = "5df763a8ae2c2bcb94a87294630db2fe3ca827aeb21354d6f2215ed1dcca7970"
+
+[build]
+system = "autotools"

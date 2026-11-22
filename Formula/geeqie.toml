@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "cairo", "djvulibre", "exiv2", "ffmpeg", "ffmpegthumbnailer", "gdk-pixbuf", "glib", "graphene", "gspell", "gtk4", "imagemagick", "imath", "jpeg-turbo", "jpeg-xl", "libarchive", "libheif", "libraw", "libtiff", "little-cms2", "openexr", "openjpeg", "pango", "poppler", "webp"]
+
+[package]
+name = "geeqie"
+version = "3.4_1"
+description = "Lightweight Gtk+ based image viewer"
+homepage = "https://www.geeqie.org/"
+
+[source]
+url = "https://github.com/BestImageViewer/geeqie/releases/download/v3.4/geeqie-3.4.tar.xz"
+sha256 = "11da7a988ffae5c531f011d1efc10f8bb700fd26dc5bec6d175e7722ea6658cc"
+
+[build]
+system = "autotools"

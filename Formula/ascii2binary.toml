@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "ascii2binary"
+version = "2.14"
+description = "Converting Text to Binary and Back"
+homepage = "https://billposer.org/Software/a2b.html"
+
+[source]
+url = "https://www.billposer.org/Software/Downloads/ascii2binary-2.14.tar.gz"
+sha256 = "addc332b2bdc503de573bfc1876290cf976811aae28498a5c9b902a3c06835a9"
+
+[build]
+system = "autotools"

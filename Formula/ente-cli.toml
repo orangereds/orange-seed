@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ente-cli"
+version = "0"
+description = "Utility for exporting data from Ente and decrypt the export from Ente Auth"
+homepage = "https://github.com/ente-io/"
+
+[source]
+url = "https://github.com/ente/ente/archive/refs/tags/cli-v0.3.0.tar.gz"
+sha256 = "bcc7620943ed8e3b16f5f2295ab8ff2e7dfe0f9b60abc9f95bf2139a02f27708"
+
+[build]
+system = "autotools"

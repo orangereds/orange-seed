@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "periphery"
+version = "3.8.0"
+description = "Identify unused code in Swift projects"
+homepage = "https://github.com/peripheryapp/periphery"
+
+[source]
+url = "https://github.com/peripheryapp/periphery/archive/refs/tags/3.8.0.tar.gz"
+sha256 = "0732e25b366ef019897b1fd9577579f6a472671701d08b0b83ad9413bc859004"
+
+[build]
+system = "autotools"

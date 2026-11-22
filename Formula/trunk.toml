@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "trunk"
+version = "0.22.2"
+description = "Build, bundle & ship your Rust WASM application to the web"
+homepage = "https://trunk-rs.github.io/trunk"
+
+[source]
+url = "https://github.com/trunk-rs/trunk/archive/refs/tags/v0.22.2.tar.gz"
+sha256 = "66a57a27d156181f8268a15c53755bf09f6119127de71b4a1f059badf80b9a90"
+
+[build]
+system = "autotools"

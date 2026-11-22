@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libresample"
+version = "0.1.3.orig"
+description = "Audio resampling C library"
+homepage = "https://ccrma.stanford.edu/~jos/resample/Available_Software.html"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/libr/libresample/libresample_0.1.3.orig.tar.gz"
+sha256 = "20222a84e3b4246c36b8a0b74834bb5674026ffdb8b9093a76aaf01560ad4815"
+
+[build]
+system = "autotools"

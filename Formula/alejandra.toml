@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "alejandra"
+version = "4.1.0"
+description = "Command-line tool for formatting Nix Code"
+homepage = "https://alejandra.kamadorueda.com/"
+
+[source]
+url = "https://github.com/kamadorueda/alejandra/archive/refs/tags/4.1.0.tar.gz"
+sha256 = "cf74acd0bbbaa166abed6d155f3a6206392d715336e74f9bb5fe05d874de183b"
+
+[build]
+system = "autotools"

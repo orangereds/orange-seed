@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pmccabe"
+version = "2.9"
+description = "Calculate McCabe-style cyclomatic complexity for C/C++ code"
+homepage = "https://gitlab.com/pmccabe/pmccabe"
+
+[source]
+url = "https://gitlab.com/pmccabe/pmccabe/-/archive/v2.9/pmccabe-v2.9.tar.bz2"
+sha256 = "8b0e207c171bb3c8b9dcc226b85a8a8f1f87c98cc8e71e760a99c3058042ec48"
+
+[build]
+system = "autotools"

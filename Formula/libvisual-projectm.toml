@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libvisual", "projectm"]
+
+[package]
+name = "libvisual-projectm"
+version = "2.1.2"
+description = "Visualization plug-in for projectM support from Libvisual"
+homepage = "https://github.com/projectM-visualizer/frontend-libvisual-plug-in"
+
+[source]
+url = "https://github.com/projectM-visualizer/frontend-libvisual-plug-in/archive/refs/tags/v2.1.2.tar.gz"
+sha256 = "b83cd19bfaaa35254489bac3dec315ff305171e19cf19387644c3c5c56207208"
+
+[build]
+system = "cmake"

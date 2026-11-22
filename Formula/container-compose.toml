@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "container-compose"
+version = "1.2.0"
+description = "Manage Apple Container with Docker Compose files"
+homepage = "https://github.com/mcrich23/container-compose"
+
+[source]
+url = "https://github.com/Mcrich23/container-compose/archive/refs/tags/1.2.0.tar.gz"
+sha256 = "f7bf17856e9eecf3ed711cd32b93297c20c2afc7b47efd2f316aae52ccb55830"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mariadb-connector-c"]
+
+[package]
+name = "mysql++"
+version = "3.3.0_4"
+description = "C++ wrapper for MySQL's C API"
+homepage = "https://tangentsoft.com/mysqlpp/home"
+
+[source]
+url = "https://tangentsoft.com/mysqlpp/releases/mysql++-3.3.0.tar.gz"
+sha256 = "449cbc46556cc2cc9f9d6736904169a8df6415f6960528ee658998f96ca0e7cf"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pidof"
+version = "0.1.4"
+description = "Display the PID number for a given process name"
+homepage = "https://web.archive.org/web/20240808152721/http://www.nightproductions.net/cli.htm"
+
+[source]
+url = "https://web.archive.org/web/20240808152721/http://www.nightproductions.net/downloads/pidof_source.tar.gz"
+sha256 = "2a2cd618c7b9130e1a1d9be0210e786b85cbc9849c9b6f0cad9cbde31541e1b8"
+
+[build]
+system = "autotools"

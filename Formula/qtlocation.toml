@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "qtbase", "qtdeclarative", "qtpositioning"]
+
+[package]
+name = "qtlocation"
+version = "0_1"
+description = "Provides C++ interfaces to retrieve location and navigational information"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qtlocation-everywhere-src-6.12.0.tar.xz"
+sha256 = "218696d57c9eb95e8756e9fda62a8eabf94badc507db5f6e8ab9a640c4b0f50d"
+
+[build]
+system = "cmake"

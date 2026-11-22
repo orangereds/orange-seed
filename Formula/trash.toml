@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "trash"
+version = "0.9.2"
+description = "CLI tool that moves files or folder to the trash"
+homepage = "https://hasseg.org/trash/"
+
+[source]
+url = "https://github.com/ali-rantakari/trash/archive/refs/tags/v0.9.2.tar.gz"
+sha256 = "e8739c93d710ac4da721e16878e7693019d3a2ad7d8acd817f41426601610083"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mongosh"
+version = "0"
+description = "MongoDB Shell to connect, configure, query, and work with your MongoDB database"
+homepage = "https://www.mongodb.com/try/download/shell"
+
+[source]
+url = "https://registry.npmjs.org/@mongosh/cli-repl/-/cli-repl-2.14.3.tgz"
+sha256 = "8e21711ae4d58e83764a41d0ca59c3374355804343b06a6abd648577aa426ecd"
+
+[build]
+system = "autotools"

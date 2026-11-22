@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake"]
+
+[package]
+name = "libcue"
+version = "2.4.3"
+description = "Cue sheet parser library for C"
+homepage = "https://github.com/lipnitsk/libcue"
+
+[source]
+url = "https://github.com/lipnitsk/libcue/archive/refs/tags/v2.4.3.tar.gz"
+sha256 = "ca058ffab917f2ec66f442794f4cf0c75f51702bbeafbebaff8c682e3a8f82e9"
+
+[build]
+system = "cmake"

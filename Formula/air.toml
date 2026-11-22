@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "air"
+version = "0.13.0"
+description = "Fast and opinionated formatter for R code"
+homepage = "https://posit-dev.github.io/air/"
+
+[source]
+url = "https://github.com/posit-dev/air/archive/refs/tags/0.13.0.tar.gz"
+sha256 = "2a7c8d7a64e0d2e7cb888e17266a8f543ac97831aa7c793d8378873dd109062f"
+
+[build]
+system = "autotools"

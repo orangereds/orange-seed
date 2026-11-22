@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "kafka"
+version = "0"
+description = "Open-source distributed event streaming platform"
+homepage = "https://kafka.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=kafka/4.4.0/kafka_2.13-4.4.0.tgz"
+sha256 = "5d46df16e8dbd228fed83c3e6fc4306916cf3d9156184a7fc2462e9ad9711a7d"
+
+[service]
+run = "opt/kafka/bin/kafka-server-start etc/kafka/server.properties"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/kafka/kafka_output.log"
+error_log_path = "var/log/kafka/kafka_output.log"
+
+[build]
+system = "autotools"

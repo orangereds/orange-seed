@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "portmidi"
+version = "2.0.8"
+description = "Cross-platform library for real-time MIDI I/O"
+homepage = "https://github.com/PortMidi/portmidi"
+
+[source]
+url = "https://github.com/PortMidi/portmidi/archive/refs/tags/v2.0.8.tar.gz"
+sha256 = "f21201d4cc233638d7bb6ee29ee6dece54f6c9c1aeb7989bc978001caaf2f666"
+
+[build]
+system = "cmake"

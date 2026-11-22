@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "avce00"
+version = "2.0.0.orig"
+description = "Make Arc/Info (binary) Vector Coverages appear as E00"
+homepage = "http://avce00.maptools.org/avce00/index.html"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/a/avce00/avce00_2.0.0.orig.tar.gz"
+sha256 = "c0851f86b4cd414d6150a04820491024fb6248b52ca5c7bd1ca3d2a0f9946a40"
+
+[build]
+system = "autotools"

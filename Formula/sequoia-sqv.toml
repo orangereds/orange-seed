@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "sequoia-sqv"
+version = "1.5.0"
+description = "Simple OpenPGP signature verification program"
+homepage = "https://sequoia-pgp.org/"
+
+[source]
+url = "https://gitlab.com/sequoia-pgp/sequoia-sqv/-/archive/v1.5.0/sequoia-sqv-v1.5.0.tar.bz2"
+sha256 = "695749c7b8dc006c0d5ade1830bf6263453eff8211d1e18402f6686327124800"
+
+[build]
+system = "autotools"

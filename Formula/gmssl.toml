@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "gmssl"
+version = "3.2.0"
+description = "Toolkit for Chinese national cryptographic standards"
+homepage = "https://github.com/guanzhi/GmSSL"
+
+[source]
+url = "https://github.com/guanzhi/GmSSL/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "b0bb50f935c1b35c614ff0a7f235b00520b86a3e9a659a681d77be6dadcb5d6b"
+
+[build]
+system = "cmake"

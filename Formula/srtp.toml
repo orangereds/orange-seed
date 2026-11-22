@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4"]
+
+[package]
+name = "srtp"
+version = "2.8.1_1"
+description = "Implementation of the Secure Real-time Transport Protocol"
+homepage = "https://github.com/cisco/libsrtp"
+
+[source]
+url = "https://github.com/cisco/libsrtp/archive/refs/tags/v2.8.1.tar.gz"
+sha256 = "ef5569220749529d778013aae1178391d972570a2b4f7288dda22effa875b07c"
+
+[build]
+system = "autotools"

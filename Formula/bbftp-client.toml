@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bbftp-client"
+version = "3.2.1_3"
+description = "Secure file transfer software, optimized for large files"
+homepage = "https://gitlab.in2p3.fr/cc-in2p3-hpss-service/bbftp"
+
+[source]
+url = "https://pkg.freebsd.org/ports-distfiles/bbftp-client-3.2.1.tar.gz"
+sha256 = "4000009804d90926ad3c0e770099874084fb49013e8b0770b82678462304456d"
+
+[build]
+system = "autotools"

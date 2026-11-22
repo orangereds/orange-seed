@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libswiftnav"
+version = "2.4.2"
+description = "C library implementing GNSS related functions and algorithms"
+homepage = "https://github.com/swift-nav/libswiftnav"
+
+[source]
+url = "https://github.com/swift-nav/libswiftnav/archive/refs/tags/v2.4.2.tar.gz"
+sha256 = "9dfe4ce4b4da28ffdb71acad261eef4dd98ad79daee4c1776e93b6f1765fccfa"
+
+[build]
+system = "cmake"

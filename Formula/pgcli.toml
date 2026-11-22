@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpq", "python@3.15"]
+
+[package]
+name = "pgcli"
+version = "4.7.1"
+description = "CLI for Postgres with auto-completion and syntax highlighting"
+homepage = "https://pgcli.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/3e/bd/66e94c76c8e3e52d9194eec079ab2b7a253896e6b1422d0c726094955299/pgcli-4.7.1.tar.gz"
+sha256 = "195d00ae994c89d43ed8e570ddfa0a9fb6105e6b783dfc1eb6cea9b326dc3346"
+
+[build]
+system = "autotools"

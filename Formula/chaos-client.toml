@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chaos-client"
+version = "0.5.2"
+description = "Client to communicate with Chaos DB API"
+homepage = "https://chaos.projectdiscovery.io"
+
+[source]
+url = "https://github.com/projectdiscovery/chaos-client/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "322f0c200887c2b0e6c412c70ad5de741a30e7687028966cfe26aa7534218369"
+
+[build]
+system = "autotools"

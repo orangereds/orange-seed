@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "zx"
+version = "8.8.5"
+description = "Tool for writing better scripts"
+homepage = "https://google.github.io/zx/"
+
+[source]
+url = "https://registry.npmjs.org/zx/-/zx-8.8.5.tgz"
+sha256 = "20df3c1b6160372f02bd26176898c9b791690af4599573c99a04b2624a6aaab9"
+
+[build]
+system = "autotools"

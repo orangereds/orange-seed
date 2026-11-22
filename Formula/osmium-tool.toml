@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libosmium", "nlohmann-json", "pandoc", "protozero", "boost", "lz4"]
+
+[package]
+name = "osmium-tool"
+version = "1.19.1_1"
+description = "Libosmium-based command-line tool for processing OpenStreetMap data"
+homepage = "https://osmcode.org/osmium-tool/"
+
+[source]
+url = "https://github.com/osmcode/osmium-tool/archive/refs/tags/v1.19.1.tar.gz"
+sha256 = "e629d2f3e500ffa5df6f1b1689161ab3dea3a82f66beec2b453a74b8d782f949"
+
+[build]
+system = "cmake"

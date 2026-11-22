@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libevent", "ncurses", "utf8proc", "jemalloc"]
+
+[package]
+name = "tmux"
+version = "3.8"
+description = "Terminal multiplexer"
+homepage = "https://tmux.github.io/"
+
+[source]
+url = "https://github.com/tmux/tmux/releases/download/3.8/tmux-3.8.tar.gz"
+sha256 = "e79c699c7e949dccd0a4a125e17b8d1261e311b16979dbc8eb34542f3966d82e"
+
+[build]
+system = "autotools"

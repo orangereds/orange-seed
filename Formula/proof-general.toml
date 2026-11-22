@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["texi2html", "texinfo", "emacs"]
+
+[package]
+name = "proof-general"
+version = "4.5"
+description = "Emacs-based generic interface for theorem provers"
+homepage = "https://proofgeneral.github.io"
+
+[source]
+url = "https://github.com/ProofGeneral/PG/archive/refs/tags/v4.5.tar.gz"
+sha256 = "b408ab943cfbfe4fcb0d3322f079f41e2a2d29b50cf0cc704fbb4d5e6c26e3a2"
+
+[build]
+system = "make"

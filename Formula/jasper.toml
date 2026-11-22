@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "jpeg-turbo"]
+
+[package]
+name = "jasper"
+version = "4.2.9"
+description = "Library for manipulating JPEG-2000 images"
+homepage = "https://ece.engr.uvic.ca/~frodo/jasper/"
+
+[source]
+url = "https://github.com/jasper-software/jasper/releases/download/version-4.2.9/jasper-4.2.9.tar.gz"
+sha256 = "f71cf643937a5fcaedcfeb30a22ba406912948ad4413148214df280afc425454"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "argc"
+version = "1.25.0"
+description = "Easily create and use cli based on bash script"
+homepage = "https://github.com/sigoden/argc"
+
+[source]
+url = "https://github.com/sigoden/argc/archive/refs/tags/v1.25.0.tar.gz"
+sha256 = "6c2de9129c356058b46f4509596181dfcaf15a155939770d0ff553d45438ebb7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cargo-c", "rust", "pkgconf"]
+
+[package]
+name = "lol-html"
+version = "3.0.3"
+description = "Low output latency streaming HTML parser/rewriter with CSS selector-based API"
+homepage = "https://github.com/cloudflare/lol-html"
+
+[source]
+url = "https://github.com/cloudflare/lol-html/archive/refs/tags/v3.0.3.tar.gz"
+sha256 = "8f48db734cdbd2edbb2de08038244b4c4a9620ae2f0726f8a6f7ed05e965d220"
+
+[build]
+system = "autotools"

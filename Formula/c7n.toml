@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "c7n"
+version = "0.9.53.0"
+description = "Rules engine for cloud security, cost optimization, and governance"
+homepage = "https://cloudcustodian.io"
+
+[source]
+url = "https://github.com/cloud-custodian/cloud-custodian/archive/refs/tags/0.9.53.0.tar.gz"
+sha256 = "4b2bfaabe2d62f2118d0d1ee74011006248822ae1ebc6fefbb67f813244a6628"
+
+[build]
+system = "autotools"

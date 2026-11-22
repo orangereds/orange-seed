@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "librsvg", "libusb", "qtbase", "qtmultimedia", "qtpositioning", "qtserialport", "qttools", "yaml-cpp"]
+
+[package]
+name = "qdmr"
+version = "0.15.1"
+description = "Codeplug programming tool for DMR radios"
+homepage = "https://dm3mat.darc.de/qdmr/"
+
+[source]
+url = "https://github.com/hmatuschek/qdmr/archive/refs/tags/v0.15.1.tar.gz"
+sha256 = "209b41d38ee228760ebe50fce0ecaab42aabbdd22872e0437c32799736eab2b2"
+
+[build]
+system = "cmake"

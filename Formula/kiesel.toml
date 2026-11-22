@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "zig"]
+
+[package]
+name = "kiesel"
+version = "0.4.1"
+description = "JavaScript engine written in Zig"
+homepage = "https://kiesel.dev/"
+
+[source]
+url = "https://codeberg.org/kiesel-js/kiesel/archive/0.4.1.tar.gz"
+sha256 = "a21430c087ff0089dc52de038e5124fbac8e981ddb11d98c1e205e70e5acf4c4"
+
+[build]
+system = "autotools"

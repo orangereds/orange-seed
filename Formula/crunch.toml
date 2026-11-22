@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "crunch"
+version = "3.6"
+description = "Wordlist generator"
+homepage = "https://sourceforge.net/projects/crunch-wordlist/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/crunch-wordlist/crunch-wordlist/crunch-3.6.tgz"
+sha256 = "6a8f6c3c7410cc1930e6854d1dadc6691bfef138760509b33722ff2de133fe55"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dua-cli"
+version = "3.0.3"
+description = "View disk space usage and delete unwanted data, fast"
+homepage = "https://lib.rs/crates/dua-cli"
+
+[source]
+url = "https://github.com/Byron/dua-cli/archive/refs/tags/v3.0.3.tar.gz"
+sha256 = "e1918a15a39ec1f25a2f16f8395512b21025221ff9b0a5ba9bb8eb6b17a4178a"
+
+[build]
+system = "autotools"

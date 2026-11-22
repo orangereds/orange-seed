@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-auth", "aws-c-cal", "aws-c-common", "aws-c-http", "aws-c-io", "aws-checksums"]
+
+[package]
+name = "aws-c-s3"
+version = "1.5.2_3"
+description = "C99 library implementation for communicating with the S3 service"
+homepage = "https://github.com/awslabs/aws-c-s3"
+
+[source]
+url = "https://github.com/awslabs/aws-c-s3/archive/refs/tags/v1.5.2.tar.gz"
+sha256 = "26bac413daa8b4146abd1fceb55a282a5d3869524c24aca64a00ec1a4e0449bd"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.16"]
+
+[package]
+name = "zf"
+version = "0.11.0"
+description = "Command-line fuzzy finder that prioritizes matches on filenames"
+homepage = "https://github.com/natecraddock/zf"
+
+[source]
+url = "https://github.com/natecraddock/zf/archive/refs/tags/0.11.0.tar.gz"
+sha256 = "6c990a8277d5ad16a5492bbb76fa2ace8ce8f4ecfc40ddf49b31d7ea5341d792"
+
+[build]
+system = "autotools"

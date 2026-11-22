@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "jansson", "jpeg-turbo", "libcbor", "libfido2", "libusb", "libx11", "libxcursor", "libxext", "libxfixes", "libxi", "libxinerama", "libxrandr", "libxrender", "libxv", "openssl@4", "sdl3", "sdl3_ttf", "uriparser"]
+
+[package]
+name = "freerdp"
+version = "3.33.1_1"
+description = "X11 implementation of the Remote Desktop Protocol (RDP)"
+homepage = "https://www.freerdp.com/"
+
+[source]
+url = "https://github.com/FreeRDP/FreeRDP/archive/refs/tags/3.33.1.tar.gz"
+sha256 = "6b6da1e7217f924b033da6896e70eb4c4a447c3900d03c0d10179062f0a7d495"
+
+[build]
+system = "cmake"

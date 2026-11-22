@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "freetype", "giflib", "gawk"]
+
+[package]
+name = "openjdk@8"
+version = "1.8.0-512"
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.org/"
+
+[source]
+url = "https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u512-ga.tar.gz"
+sha256 = "0a151972b63d1db2c6a1a2f321791a41b29ff9279c49e6a01bafd23190a1574e"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

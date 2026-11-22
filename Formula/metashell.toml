@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "zstd"]
+
+[package]
+name = "metashell"
+version = "5.0.0"
+description = "Metaprogramming shell for C++ templates"
+homepage = "http://metashell.org"
+
+[source]
+url = "https://github.com/metashell/metashell/archive/refs/tags/v5.0.0.tar.gz"
+sha256 = "028e37be072ec4e85d18ead234a208d07225cf335c0bb1c98d4d4c3e30c71f0e"
+
+[build]
+system = "cmake"

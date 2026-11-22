@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pari"]
+
+[package]
+name = "pari-nflistdata"
+version = "20220729"
+description = "Data files for nflist() in PARI/GP"
+homepage = "https://pari.math.u-bordeaux.fr/packages.html"
+
+[source]
+url = "http://deb.debian.org/debian/pool/main/p/pari-nflistdata/pari-nflistdata_0.20220729.orig.tar.gz"
+sha256 = "2c19a3e02afd3bba2af3071a7faa80924a75b00bb9713286c886b7fb460944bc"
+
+[build]
+system = "autotools"

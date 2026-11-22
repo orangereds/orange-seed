@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jansson"]
+
+[package]
+name = "jshon"
+version = "20131105"
+description = "Parse, read, and create JSON from the shell"
+homepage = "https://github.com/keenerd/jshon"
+
+[source]
+url = "https://github.com/keenerd/jshon/archive/refs/tags/20131105.tar.gz"
+sha256 = "28420f6f02c6b762732898692cc0b0795cfe1a59fbfb24e67b80f332cf6d4fa2"
+
+[build]
+system = "autotools"

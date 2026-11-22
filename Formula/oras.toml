@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oras"
+version = "1.4.0"
+description = "OCI Registry As Storage"
+homepage = "https://oras.land"
+
+[source]
+url = "https://github.com/oras-project/oras/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "453bda1279b166eb6c2bd84b5995b952403c388ad8eb2f77a9f269011f69788b"
+
+[build]
+system = "autotools"

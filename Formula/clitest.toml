@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "clitest"
+version = "0.5.0"
+description = "Command-Line Tester"
+homepage = "https://github.com/aureliojargas/clitest"
+
+[source]
+url = "https://github.com/aureliojargas/clitest/archive/refs/tags/0.5.0.tar.gz"
+sha256 = "4005de0bc27e4676e418ab1e1e64861272aa74af1212c73a1173760fc449b049"
+
+[build]
+system = "autotools"

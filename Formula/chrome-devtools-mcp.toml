@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "chrome-devtools-mcp"
+version = "1.13.0"
+description = "Chrome DevTools for coding agents"
+homepage = "https://github.com/chromedevtools/chrome-devtools-mcp"
+
+[source]
+url = "https://registry.npmjs.org/chrome-devtools-mcp/-/chrome-devtools-mcp-1.13.0.tgz"
+sha256 = "9158c4b4a8792cb522ae46f76eeaa9491ce04616a3ae97229a16277e02a4aea4"
+
+[build]
+system = "autotools"

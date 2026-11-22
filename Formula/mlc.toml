@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "mlc"
+version = "2.0.0"
+description = "Check for broken links in markup files"
+homepage = "https://github.com/becheran/mlc"
+
+[source]
+url = "https://github.com/becheran/mlc/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "202d44b983f1046cb0cbb45250c2ec815f038f8a35a79e425b05168bab1a5823"
+
+[build]
+system = "autotools"

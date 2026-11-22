@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gravity"
+version = "0.9.9"
+description = "Embeddable programming language"
+homepage = "https://www.gravity-lang.org/"
+
+[source]
+url = "https://github.com/marcobambini/gravity/archive/refs/tags/0.9.9.tar.gz"
+sha256 = "6b14bf45a0657c0e5a088e5dc941d72669b086847eb3474bcf65b37a522da548"
+
+[build]
+system = "autotools"

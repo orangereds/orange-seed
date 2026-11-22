@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nspr"
+version = "4.41"
+description = "Platform-neutral API for system-level and libc-like functions"
+homepage = "https://hg.mozilla.org/projects/nspr"
+
+[source]
+url = "https://archive.mozilla.org/pub/nspr/releases/v4.41/src/nspr-4.41.tar.gz"
+sha256 = "c562b8ddfe93704b7dc077be013f01448fdc6c124b1821c0f10471a71cb2e9e6"
+
+[build]
+system = "autotools"

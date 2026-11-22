@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gama"
+version = "1.2.1"
+description = "Manage your GitHub Actions from Terminal with great UI"
+homepage = "https://github.com/termkit/gama"
+
+[source]
+url = "https://github.com/termkit/gama/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "d2fad1280142b0cc8cb311a5e328590feb0c5a1642c47e3f8e0aaf1b713f6c7b"
+
+[build]
+system = "autotools"

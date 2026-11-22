@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "utf8cpp"]
+
+[package]
+name = "libebml"
+version = "1.4.7"
+description = "Sort of a sbinary version of XML"
+homepage = "https://www.matroska.org/"
+
+[source]
+url = "https://dl.matroska.org/downloads/libebml/libebml-1.4.7.tar.xz"
+sha256 = "5b08214f929ee54c6187c370f84235fc9d0f2a2258c4d320d68eae6e2bdfd3f7"
+
+[build]
+system = "cmake"

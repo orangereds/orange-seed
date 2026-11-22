@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hcl2json"
+version = "0.6.9"
+description = "Convert HCL2 to JSON"
+homepage = "https://github.com/tmccombs/hcl2json"
+
+[source]
+url = "https://github.com/tmccombs/hcl2json/archive/refs/tags/v0.6.9.tar.gz"
+sha256 = "df7361e4ea5f34de02a81afa06f515bc6379efeb5ab86c154c6a31def6bcb3dc"
+
+[build]
+system = "autotools"

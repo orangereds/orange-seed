@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chezmoi"
+version = "2.74.1"
+description = "Manage your dotfiles across multiple diverse machines, securely"
+homepage = "https://chezmoi.io/"
+
+[source]
+url = "https://github.com/twpayne/chezmoi/releases/download/v2.74.1/chezmoi-2.74.1.tar.gz"
+sha256 = "4cfb8f635ea24b6e26f4a99ba8e84539c992df5b1b22adb1badc14fdbba5d0df"
+
+[build]
+system = "autotools"

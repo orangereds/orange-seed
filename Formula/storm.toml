@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "storm"
+version = "0"
+description = "Distributed realtime computation system to process data streams"
+homepage = "https://storm.apache.org"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=storm/apache-storm-3.2.0/apache-storm-3.2.0.tar.gz"
+sha256 = "7b5faff7d38dd85edf56c919af852e0c8f42244426f5d700c3bbb7c13a841231"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "lz4", "snappy", "zstd"]
+
+[package]
+name = "mtbl"
+version = "1.7.1"
+description = "Immutable sorted string table library"
+homepage = "https://github.com/farsightsec/mtbl"
+
+[source]
+url = "https://dl.farsightsecurity.com/dist/mtbl/mtbl-1.7.1.tar.gz"
+sha256 = "da2693ea8f9d915a09cdb55815ebd92e84211443b0d5525789d92d57a5381d7b"
+
+[build]
+system = "autotools"

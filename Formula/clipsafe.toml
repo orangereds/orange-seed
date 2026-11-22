@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "clipsafe"
+version = "1.1_6"
+description = "Command-line interface to Password Safe"
+homepage = "https://waxandwane.org/clipsafe.html"
+
+[source]
+url = "https://waxandwane.org/download/clipsafe-1.1.tar.gz"
+sha256 = "7a70b4f467094693a58814a42d272e98387916588c6337963fa7258bda7a3e48"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libbcg729"
+version = "1.1.2"
+description = "Encoder and decoder of the ITU G.729 Annex A/B speech codec"
+homepage = "https://www.linphone.org"
+
+[source]
+url = "https://github.com/BelledonneCommunications/bcg729/archive/refs/tags/1.1.2.tar.gz"
+sha256 = "9c22d98c2debc1e37163b8a703f05278ad5d9c03f1c6b373629d8a072092184a"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "minuit2"
+version = "0"
+description = "Physics analysis tool for function minimization"
+homepage = "https://root.cern.ch/doc/master/Minuit2Page.html"
+
+[source]
+url = "https://root.cern.ch/download/root_v6.40.04.source.tar.gz"
+sha256 = "44ada253b1935d34b6801222232d50731fe7c5e3cbcfab47734c85031cfbe4d3"
+
+[build]
+system = "cmake"

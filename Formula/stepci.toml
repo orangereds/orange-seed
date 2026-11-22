@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "stepci"
+version = "2.8.2"
+description = "API Testing and Monitoring made simple"
+homepage = "https://stepci.com"
+
+[source]
+url = "https://registry.npmjs.org/stepci/-/stepci-2.8.2.tgz"
+sha256 = "0ba4ed74a5f51414b0ed86651e37a1b5e6af4e027187bedfc94dbd2176793178"
+
+[build]
+system = "autotools"

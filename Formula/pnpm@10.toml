@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "pnpm@10"
+version = "0"
+description = "Fast, disk space efficient package manager"
+homepage = "https://pnpm.io/"
+
+[source]
+url = "https://registry.npmjs.org/pnpm/-/pnpm-10.34.9.tgz"
+sha256 = "7e8a946108e7baab119e51d27c24d6178b46545422643dbc91e34e2f1ee32e0f"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

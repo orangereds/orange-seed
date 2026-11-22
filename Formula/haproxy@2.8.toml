@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@3", "pcre2"]
+
+[package]
+name = "haproxy@2.8"
+version = "0"
+description = "Reliable, high performance TCP/HTTP load balancer"
+homepage = "https://www.haproxy.org/"
+
+[source]
+url = "https://www.haproxy.org/download/2.8/src/haproxy-2.8.32.tar.gz"
+sha256 = "a2bfd7dcdaeb75aa55ff15d3b9f698c4469c76a5f4a8a43a1e70df4d07acc66b"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/haproxy@2.8/bin/haproxy -f etc/haproxy.cfg"
+keep_alive = true
+log_path = "var/log/haproxy.log"
+error_log_path = "var/log/haproxy.log"
+
+[build]
+system = "autotools"

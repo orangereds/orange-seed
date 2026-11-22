@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libccd"
+version = "2.1_1"
+description = "Collision detection between two convex shapes"
+homepage = "https://github.com/danfis/libccd"
+
+[source]
+url = "https://github.com/danfis/libccd/archive/refs/tags/v2.1.tar.gz"
+sha256 = "542b6c47f522d581fbf39e51df32c7d1256ac0c626e7c2b41f1040d4b9d50d1e"
+
+[build]
+system = "cmake"

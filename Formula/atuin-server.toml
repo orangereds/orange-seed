@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust"]
+
+[package]
+name = "atuin-server"
+version = "0"
+description = "Sync server for atuin - Improved shell history for zsh, bash, fish and nushell"
+homepage = "https://atuin.sh"
+
+[source]
+url = "https://github.com/atuinsh/atuin/releases/download/v18.25.1/source.tar.gz"
+sha256 = "ee4114ceada5d0acf000b306a1a1479ba6dd1f9fec69612f511a013ffa6fcd12"
+
+[service]
+run = "opt/atuin-server/bin/atuin-server start"
+keep_alive = true
+log_path = "var/log/atuin-server.log"
+error_log_path = "var/log/atuin-server.log"
+
+[service.env]
+ATUIN_CONFIG_DIR = "atuin-server"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libreplaygain"
+version = "r475"
+description = "Library to implement ReplayGain standard for audio"
+homepage = "https://www.musepack.net/"
+
+[source]
+url = "https://files.musepack.net/source/libreplaygain_r475.tar.gz"
+sha256 = "8258bf785547ac2cda43bb195e07522f0a3682f55abe97753c974609ec232482"
+
+[build]
+system = "cmake"

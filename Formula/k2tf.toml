@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "k2tf"
+version = "0.8.0"
+description = "Kubernetes YAML to Terraform HCL converter"
+homepage = "https://github.com/sl1pm4t/k2tf"
+
+[source]
+url = "https://github.com/sl1pm4t/k2tf/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "9efdac448a99dbdda558eb93b63ed0b3ccabbac43c14df21ef3ba9bd402a4003"
+
+[build]
+system = "autotools"

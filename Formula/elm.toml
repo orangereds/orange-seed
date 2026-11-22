@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "elm"
+version = "0.19.3"
+description = "Functional programming language for building browser-based GUIs"
+homepage = "https://elm-lang.org"
+
+[source]
+url = "https://github.com/elm/compiler/archive/refs/tags/0.19.3.tar.gz"
+sha256 = "e051f8700578a0920024ba9eb3496df6336119058ef996579b1b4a574b8313fa"
+
+[build]
+system = "autotools"

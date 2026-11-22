@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mapcidr"
+version = "1.1.97"
+description = "Subnet/CIDR operation utility"
+homepage = "https://projectdiscovery.io"
+
+[source]
+url = "https://github.com/projectdiscovery/mapcidr/archive/refs/tags/v1.1.97.tar.gz"
+sha256 = "d1253ab474de254cb77628d3274bf6fdcf087223f219dcf26186de83776bf717"
+
+[build]
+system = "autotools"

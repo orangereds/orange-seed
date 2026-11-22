@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libmagic", "ncurses", "openssl@4", "xapian"]
+
+[package]
+name = "nmail"
+version = "5.17.26"
+description = "Terminal-based email client for Linux and macOS"
+homepage = "https://github.com/d99kris/nmail"
+
+[source]
+url = "https://github.com/d99kris/nmail/archive/refs/tags/v5.17.26.tar.gz"
+sha256 = "a002b62edc41369785754170d1a8b67d377caa5cf5fb8484668400e97eed274e"
+
+[build]
+system = "cmake"

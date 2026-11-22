@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fltk", "gnuplot", "libusb", "soapysdr"]
+
+[package]
+name = "limesuite"
+version = "23.11.0_2"
+description = "Device drivers utilities, and interface layers for LimeSDR"
+homepage = "https://myriadrf.org/projects/software/lime-suite/"
+
+[source]
+url = "https://github.com/myriadrf/LimeSuite/archive/refs/tags/v23.11.0.tar.gz"
+sha256 = "fd8a448b92bc5ee4012f0ba58785f3c7e0a4d342b24e26275318802dfe00eb33"
+
+[build]
+system = "cmake"

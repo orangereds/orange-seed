@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "kettle"
+version = "0"
+description = "Pentaho Data Integration software"
+homepage = "https://pentaho.com/products/pentaho-data-integration"
+
+[source]
+url = "https://hitachiedge1.jfrog.io/artifactory/pntpub-maven-release/org/pentaho/di/pdi-ce/9.4.0.0-343/pdi-ce-9.4.0.0-343.zip"
+sha256 = "e6804fae1a9aa66b92e781e9b2e835d72d56a6adc53dc03e429a847991a334e8"
+
+[service]
+run = "opt/kettle/bin/pdicarte etc/kettle/carte-config.xml"
+working_dir = "etc/kettle"
+log_path = "var/log/kettle/carte.log"
+error_log_path = "var/log/kettle/carte.log"
+
+[service.env]
+KETTLE_HOME = "kettle"
+
+[build]
+system = "autotools"

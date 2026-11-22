@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15"]
+
+[package]
+name = "modal"
+version = "1.6.4"
+description = "Client library and CLI for Modal"
+homepage = "https://modal.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9d/e3/d2204428fcbce9e017cb9a3daac5eb55f3bed9253adadd802ffe27f4d45c/modal-1.6.4.tar.gz"
+sha256 = "3c94bbe27444dbb1ce3631f7be5b16ef6e21a7b126a485a6feb3fcd62343abe6"
+
+[build]
+system = "autotools"

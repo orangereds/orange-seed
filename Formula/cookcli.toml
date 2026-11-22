@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust"]
+
+[package]
+name = "cookcli"
+version = "0.41.1"
+description = "CLI-tool for cooking recipes formated using Cooklang"
+homepage = "https://cooklang.org"
+
+[source]
+url = "https://github.com/cooklang/cookcli/archive/refs/tags/v0.41.1.tar.gz"
+sha256 = "1e5c4160245d91f1667c5e55d0c6bbd977ac6b7565889bc01b38c462d7e2d95d"
+
+[build]
+system = "autotools"

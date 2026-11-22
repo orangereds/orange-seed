@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "node_exporter"
+version = "1.13.1"
+description = "Prometheus exporter for machine metrics"
+homepage = "https://prometheus.io/"
+
+[source]
+url = "https://github.com/prometheus/node_exporter/archive/refs/tags/v1.13.1.tar.gz"
+sha256 = "329f02a71a0bb007e7e700f12ff724b019415730fb60bdf724bf2b28f3d5f223"
+
+[service]
+run = "opt/node_exporter/bin/node_exporter_brew_services"
+log_path = "var/log/node_exporter.log"
+error_log_path = "var/log/node_exporter.err.log"
+
+[build]
+system = "autotools"

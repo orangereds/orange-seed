@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "toxiproxy"
+version = "2.13.0"
+description = "TCP proxy to simulate network & system conditions for chaos & resiliency testing"
+homepage = "https://github.com/shopify/toxiproxy"
+
+[source]
+url = "https://github.com/Shopify/toxiproxy/archive/refs/tags/v2.13.0.tar.gz"
+sha256 = "6fe013a718a2d3595b26cd51536dfe3f32a1e346df7a7692e85c65c2cb1b680a"
+
+[service]
+run = "opt/toxiproxy/bin/toxiproxy-server"
+keep_alive = true
+log_path = "var/log/toxiproxy.log"
+error_log_path = "var/log/toxiproxy.log"
+
+[build]
+system = "autotools"

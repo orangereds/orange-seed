@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go@1.26"]
+
+[package]
+name = "bigquery-emulator"
+version = "0.8.1"
+description = "Emulate a GCP BigQuery server on your local machine"
+homepage = "https://github.com/goccy/bigquery-emulator"
+
+[source]
+url = "https://github.com/goccy/bigquery-emulator/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "b24e327f433ab5da38cc28946ea7cb3eca8c265fa6ab1f428c82c0522d4daefb"
+
+[build]
+system = "autotools"

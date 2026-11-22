@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "argtable3"]
+
+[package]
+name = "astroterm"
+version = "1.2.0"
+description = "Planetarium for your terminal"
+homepage = "https://github.com/da-luce/astroterm"
+
+[source]
+url = "https://github.com/da-luce/astroterm/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "10a98255a46517ee306be73f156eb78163aff8801f46b84a731f7b5913e1d6f5"
+
+[build]
+system = "autotools"

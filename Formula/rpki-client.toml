@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libretls", "openssl@4", "rsync"]
+
+[package]
+name = "rpki-client"
+version = "9.9_1"
+description = "OpenBSD portable rpki-client"
+homepage = "https://www.rpki-client.org/"
+
+[source]
+url = "https://ftp.openbsd.org/pub/OpenBSD/rpki-client/rpki-client-9.9.tar.gz"
+sha256 = "24985845b7283b071942c9fa44598517461211ee32a690a219ba81a14835e8c8"
+
+[build]
+system = "autotools"

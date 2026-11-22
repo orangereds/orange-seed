@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "geos", "libyaml", "numpy", "pillow", "proj", "python@3.15", "rpds-py"]
+
+[package]
+name = "mapproxy"
+version = "8.1.1"
+description = "Accelerating web map proxy"
+homepage = "https://mapproxy.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/55/fa/c15ee8dfdce8d10489cd6d660e74cd39f0712992ee1c0bd79ddf8155748c/mapproxy-8.1.1.tar.gz"
+sha256 = "a26b9e452c78b5f71fbc2c4330a4ff2b40dde780cb00de21482c5563b90cfe9c"
+
+[build]
+system = "autotools"

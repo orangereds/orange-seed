@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "php-code-sniffer"
+version = "0"
+description = "Check coding standards in PHP, JavaScript and CSS"
+homepage = "https://github.com/PHPCSStandards/PHP_CodeSniffer"
+
+[source]
+url = "https://github.com/PHPCSStandards/PHP_CodeSniffer/releases/download/4.0.4/phpcs.phar"
+sha256 = "4b010cd21d8bc8a17e2504792e3c77ef8259126f24caf7eafe7eddef1fa871e9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "htmltest"
+version = "0.17.0"
+description = "HTML validator written in Go"
+homepage = "https://github.com/wjdp/htmltest"
+
+[source]
+url = "https://github.com/wjdp/htmltest/archive/refs/tags/v0.17.0.tar.gz"
+sha256 = "2c89e56c837f4d715db9816942e007c973ba58de53d249abc80430c4b7e72f88"
+
+[build]
+system = "autotools"

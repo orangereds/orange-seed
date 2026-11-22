@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "pkgconf", "python@3.15", "boost", "log4cplus", "openssl@4"]
+
+[package]
+name = "kea"
+version = "3.2.1"
+description = "DHCP server"
+homepage = "https://www.isc.org/kea/"
+
+[source]
+url = "https://downloads.isc.org/isc/kea/3.2.1/kea-3.2.1.tar.xz"
+sha256 = "3478220be62b3aa361a2c7f97d5d2989b934f7864e82d4bd17056e1e208b9735"
+
+[build]
+system = "autotools"

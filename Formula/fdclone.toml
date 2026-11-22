@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nkf"]
+
+[package]
+name = "fdclone"
+version = "3.01j"
+description = "Console-based file manager"
+homepage = "https://hp.vector.co.jp/authors/VA012337/soft/fd/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/f/fdclone/fdclone_3.01j.orig.tar.gz"
+sha256 = "fe5bb67eb670dcdb1f7368698641c928523e2269b9bee3d13b3b77565d22a121"
+
+[build]
+system = "make"

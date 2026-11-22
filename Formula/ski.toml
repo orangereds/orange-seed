@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor"]
+
+[package]
+name = "ski"
+version = "6.16"
+description = "Evade the deadly Yeti on your jet-powered skis"
+homepage = "http://catb.org/~esr/ski/"
+
+[source]
+url = "https://gitlab.com/esr/ski/-/archive/6.16/ski-6.16.tar.bz2"
+sha256 = "49f97ef545c5ad0ef29ebeb2cc087a84de6764543325a9472df89792ea70d98f"
+
+[build]
+system = "autotools"

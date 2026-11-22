@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tcl-tk"]
+
+[package]
+name = "modules"
+version = "5.7.0"
+description = "Dynamic modification of a user's environment via modulefiles"
+homepage = "https://modules.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/modules/Modules/modules-5.7.0/modules-5.7.0.tar.bz2"
+sha256 = "3e3cc7582ea34f3cf8353152fae724dea00dc893f021080263f475dcaeb40520"
+
+[build]
+system = "autotools"

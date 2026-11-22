@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraform-mcp-server"
+version = "1.4.1"
+description = "MCP server for Terraform"
+homepage = "https://github.com/hashicorp/terraform-mcp-server"
+
+[source]
+url = "https://github.com/hashicorp/terraform-mcp-server/archive/refs/tags/v1.4.1.tar.gz"
+sha256 = "8c744e2ad553ee37db41b66a0f2dbb6532939c00e17b5f00bd10f5809f6f3990"
+
+[build]
+system = "autotools"

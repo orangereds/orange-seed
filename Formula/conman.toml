@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["freeipmi"]
+
+[package]
+name = "conman"
+version = "0.3.1"
+description = "Serial console management program supporting a large number of devices"
+homepage = "https://github.com/dun/conman"
+
+[source]
+url = "https://github.com/dun/conman/releases/download/conman-0.3.1/conman-0.3.1.tar.xz"
+sha256 = "69b449e4a9e992f7e1c6becfb3689be723cefaf94c75226a0bae685df3bc4cb3"
+
+[service]
+run = "conmand -F -c etc/conman.conf"
+keep_alive = true
+
+[build]
+system = "autotools"

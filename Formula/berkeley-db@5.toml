@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "berkeley-db@5"
+version = "0_1"
+description = "High performance key/value database"
+homepage = "https://www.oracle.com/database/technologies/related/berkeleydb.html"
+
+[source]
+url = "https://download.oracle.com/berkeley-db/db-5.3.28.tar.gz"
+sha256 = "e0a992d740709892e81f9d93f06daf305cf73fb81b545afe72478043172c3628"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

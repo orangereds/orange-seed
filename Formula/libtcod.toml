@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "sdl3", "utf8proc"]
+
+[package]
+name = "libtcod"
+version = "2.3.3"
+description = "API for roguelike developers"
+homepage = "https://github.com/libtcod/libtcod"
+
+[source]
+url = "https://github.com/libtcod/libtcod/archive/refs/tags/2.3.3.tar.gz"
+sha256 = "e42d67c9afac51d4ff45a7c35fc25b216ccd6a23897cd4dd21a4b2e0e2337277"
+
+[build]
+system = "cmake"

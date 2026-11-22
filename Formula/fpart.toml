@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "fpart"
+version = "1.7.1"
+description = "Sorts file trees and packs them into bags"
+homepage = "https://www.fpart.org/"
+
+[source]
+url = "https://github.com/martymac/fpart/archive/refs/tags/fpart-1.7.1.tar.gz"
+sha256 = "512a82320cf5418ed70416b96cd49aa51a5ae418e96482144683cad6609add2e"
+
+[build]
+system = "autotools"

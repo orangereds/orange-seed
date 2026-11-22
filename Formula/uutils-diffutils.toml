@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "uutils-diffutils"
+version = "0.6.0"
+description = "Cross-platform Rust rewrite of the GNU diffutils"
+homepage = "https://uutils.org/diffutils/"
+
+[source]
+url = "https://github.com/uutils/diffutils/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "74f9c60ae86a63433bc82190e473b943057153d63f6ad39e646cc84350a3d9fa"
+
+[build]
+system = "autotools"

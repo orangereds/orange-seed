@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pg-schema-diff"
+version = "1.0.9"
+description = "Diff Postgres schemas and generating SQL migrations"
+homepage = "https://github.com/stripe/pg-schema-diff"
+
+[source]
+url = "https://github.com/stripe/pg-schema-diff/archive/refs/tags/v1.0.9.tar.gz"
+sha256 = "70b978ee7256fb8693cbc205f749691e4f403f1ed760d619d623f76bfbb138a6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docutils", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "glib"]
+
+[package]
+name = "json-glib"
+version = "1.10.8"
+description = "Library for JSON, based on GLib"
+homepage = "https://wiki.gnome.org/Projects/JsonGlib"
+
+[source]
+url = "https://download.gnome.org/sources/json-glib/1.10/json-glib-1.10.8.tar.xz"
+sha256 = "55c5c141a564245b8f8fbe7698663c87a45a7333c2a2c56f06f811ab73b212dd"
+
+[build]
+system = "autotools"

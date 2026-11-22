@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "mcap"
+version = "0.4.0"
+description = "Serialization-agnostic container file format for pub/sub messages"
+homepage = "https://mcap.dev"
+
+[source]
+url = "https://github.com/foxglove/mcap/archive/refs/tags/releases/mcap-cli/v0.4.0.tar.gz"
+sha256 = "f3f91a632195ca996829717d0cad480db14376e7c8534d9ac0d03d58d24299aa"
+
+[build]
+system = "autotools"

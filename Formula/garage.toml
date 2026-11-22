@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "garage"
+version = "2.5.0"
+description = "S3 object store so reliable you can run it outside datacenters"
+homepage = "https://garagehq.deuxfleurs.fr/"
+
+[source]
+url = "https://git.deuxfleurs.fr/Deuxfleurs/garage/archive/v2.5.0.tar.gz"
+sha256 = "f6ae76cd694b0dd4a625dfd6b167da73a339ababc88b32cd61434fe3af076d51"
+
+[service]
+run = "opt/garage/bin/garage --config etc/garage/config.toml server"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/garage.log"
+error_log_path = "var/log/garage.log"
+
+[build]
+system = "autotools"

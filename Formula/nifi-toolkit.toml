@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "nifi-toolkit"
+version = "0"
+description = "Command-line utilities to setup and support NiFi"
+homepage = "https://nifi.apache.org"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=nifi/2.12.0/nifi-toolkit-2.12.0-bin.zip"
+sha256 = "c9bab9d8430c0a780691a45b2bdf197f1c939decb12b808453ceda62942385d8"
+
+[build]
+system = "autotools"

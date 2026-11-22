@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "pkgconf", "gmp"]
+
+[package]
+name = "nickle"
+version = "2.116"
+description = "Desk calculator language"
+homepage = "https://www.nickle.org/"
+
+[source]
+url = "https://nickle.org/release/nickle-2.116.tar.xz"
+sha256 = "8356a2c3d159a3f71a03def4dffa9d83244b0243b9b091dacf27122ec436906d"
+
+[build]
+system = "autotools"

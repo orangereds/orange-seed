@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libmaxminddb", "lua", "pcre2", "yajl"]
+
+[package]
+name = "modsecurity"
+version = "3.0.17"
+description = "Libmodsecurity is one component of the ModSecurity v3 project"
+homepage = "https://github.com/owasp-modsecurity/ModSecurity"
+
+[source]
+url = "https://github.com/owasp-modsecurity/ModSecurity/releases/download/v3.0.17/modsecurity-v3.0.17.tar.gz"
+sha256 = "f283b33d5c21130fd3a15c84a93a1abe12bd1949edaf44288b12af571b671a50"
+
+[build]
+system = "autotools"

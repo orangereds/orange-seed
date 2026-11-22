@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ca-certificates", "curl", "gcc", "gmp", "libblastrampoline", "libgit2", "libnghttp2", "libssh2", "mpfr", "openblas64", "openlibm", "openssl@4", "p7zip", "pcre2", "suite-sparse", "utf8proc", "zstd"]
+
+[package]
+name = "julia"
+version = "1.13.4-full"
+description = "Fast, Dynamic Programming Language"
+homepage = "https://julialang.org/"
+
+[source]
+url = "https://github.com/JuliaLang/julia/releases/download/v1.13.4/julia-1.13.4-full.tar.gz"
+sha256 = "55bb4442c887a3e99f287b53c467fdd5e78e376344ea2a84865742d13a27d71c"
+
+[build]
+system = "autotools"

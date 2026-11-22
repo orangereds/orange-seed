@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dbxcli"
+version = "3.8.2"
+description = "Command-line tool for Dropbox users and team admins"
+homepage = "https://github.com/dropbox/dbxcli"
+
+[source]
+url = "https://github.com/dropbox/dbxcli/archive/refs/tags/v3.8.2.tar.gz"
+sha256 = "51bb791227a17c867d429400fa075a22ceaf52ef1b57c363c12a3f3f23fa429a"
+
+[build]
+system = "autotools"

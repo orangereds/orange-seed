@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cffi", "cryptography", "curl", "openssl@4", "pycparser", "python@3.15"]
+
+[package]
+name = "forbidden"
+version = "13.4_9"
+description = "Bypass 4xx HTTP response status codes and more"
+homepage = "https://github.com/ivan-sincek/forbidden"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9b/aa/98fc3ee28aac41cae341a197858ff6af5d79e40dcd45c8a6e37b1fdbfd19/forbidden-13.4.tar.gz"
+sha256 = "dc987150b71515810d7ae252895b3ca6e077a8d9b3cbb0d09dfc9797c933a14d"
+
+[build]
+system = "autotools"

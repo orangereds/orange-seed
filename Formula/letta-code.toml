@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "node", "ripgrep", "vips", "gettext"]
+
+[package]
+name = "letta-code"
+version = "0.34.67"
+description = "Memory-first coding agent"
+homepage = "https://docs.letta.com/letta-code"
+
+[source]
+url = "https://registry.npmjs.org/@letta-ai/letta-code/-/letta-code-0.34.67.tgz"
+sha256 = "784c84361da0264ca4e2653b3def387288502bb311fca23a29de94a317ba88d7"
+
+[build]
+system = "autotools"

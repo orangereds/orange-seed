@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fmt"]
+
+[package]
+name = "mitama-cpp-result"
+version = "11.0.0"
+description = "Provides `result<T, E>` and `maybe<T>` and monadic functions for them"
+homepage = "https://github.com/loliGothicK/mitama-cpp-result"
+
+[source]
+url = "https://github.com/loliGothicK/mitama-cpp-result/archive/refs/tags/v11.0.0.tar.gz"
+sha256 = "fdfe81098660e7365e79760616231eefdd42dd7760970c0e7ea4c6bacce46440"
+
+[build]
+system = "cmake"

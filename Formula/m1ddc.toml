@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "m1ddc"
+version = "1.3.2"
+description = "Control external displays (USB-C/DisplayPort Alt Mode) using DDC/CI on M1 Macs"
+homepage = "https://github.com/waydabber/m1ddc"
+
+[source]
+url = "https://github.com/waydabber/m1ddc/archive/refs/tags/v1.3.2.tar.gz"
+sha256 = "7d0e2a38b736177d22e5bb7205404312b11442f46cf02291c59424098572c63d"
+
+[build]
+system = "autotools"

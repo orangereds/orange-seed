@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "openssl@3", "xz"]
+
+[package]
+name = "mender-cli"
+version = "2.0.0"
+description = "General-purpose CLI tool for the Mender backend"
+homepage = "https://mender.io"
+
+[source]
+url = "https://github.com/mendersoftware/mender-cli/archive/refs/tags/2.0.0.tar.gz"
+sha256 = "1fda34045cdbe9914f04d7eaebc0933f7d14c2952dd9c149f278479cd47e37fc"
+
+[build]
+system = "autotools"

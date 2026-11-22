@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "pkgconf", "rust", "libgit2", "openssl@4", "tmux"]
+
+[package]
+name = "aoe"
+version = "1.25.0"
+description = "Terminal session manager for AI coding agents"
+homepage = "https://github.com/agent-of-empires/agent-of-empires"
+
+[source]
+url = "https://github.com/agent-of-empires/agent-of-empires/archive/refs/tags/v1.25.0.tar.gz"
+sha256 = "0d85a503f0abe537c8f653166df5d1a6627b158392d970ba9ae143a3e822ed70"
+
+[build]
+system = "autotools"

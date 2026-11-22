@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "decompose"
+version = "1.11.8"
+description = "Reverse-engineering tool for docker environments"
+homepage = "https://github.com/s0rg/decompose"
+
+[source]
+url = "https://github.com/s0rg/decompose/archive/refs/tags/v1.11.8.tar.gz"
+sha256 = "c68e57eb98d88d4d4221147229839b753b20640da88992b1e6ce143aec51459a"
+
+[build]
+system = "autotools"

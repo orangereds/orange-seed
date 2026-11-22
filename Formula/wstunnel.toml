@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "wstunnel"
+version = "11.1.0"
+description = "Tunnel all your traffic over Websocket or HTTP2"
+homepage = "https://github.com/erebe/wstunnel"
+
+[source]
+url = "https://github.com/erebe/wstunnel/archive/refs/tags/v11.1.0.tar.gz"
+sha256 = "3471bfb3c6605deb5f9e1cbdab88cca638c2e31f849c03340b02156ca3ae39e2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "binutils", "gputils", "readline", "zstd", "texinfo"]
+
+[package]
+name = "sdcc"
+version = "0_1"
+description = "ANSI C compiler for Intel 8051, Maxim 80DS390, and Zilog Z80"
+homepage = "https://sdcc.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sdcc/sdcc/4.6.0/sdcc-src-4.6.0.tar.bz2"
+sha256 = "5fd6a93e5997ce01756868fe35e441095cfb637894a80c262514a634094973b6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xpipe"
+version = "2.2"
+description = "Split input and feed it into the given utility"
+homepage = "https://www.netmeister.org/apps/xpipe.html"
+
+[source]
+url = "https://www.netmeister.org/apps/xpipe-2.2.tar.gz"
+sha256 = "a381be1047adcfa937072dffa6b463455d1f0777db6bc5ea2682cd6321dc5add"
+
+[build]
+system = "make"

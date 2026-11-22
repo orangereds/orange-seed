@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkl", "rust", "usage"]
+
+[package]
+name = "hk"
+version = "0"
+description = "Git hook and pre-commit lint manager"
+homepage = "https://hk.jdx.dev"
+
+[source]
+url = "https://github.com/jdx/hk.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

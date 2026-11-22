@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "try-rs"
+version = "1.7.14"
+description = "Temporary workspace manager for fast experimentation in the terminal"
+homepage = "https://try-rs.org/"
+
+[source]
+url = "https://github.com/tassiovirginio/try-rs/archive/refs/tags/v1.7.14.tar.gz"
+sha256 = "76bd9b029445daf2a58242f37d0ee19ebb72684aed17c2c3daf6ff6c7beceb02"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "archgw"
+version = "0.3.22_5"
+description = "CLI for Arch Gateway"
+homepage = "https://github.com/katanemo/archgw/tree/main/arch/tools"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a4/76/79f9d1fab003cf58703ac6db13f8f84f75fd9135c57e4937ae363aaf37fb/archgw-0.3.22.tar.gz"
+sha256 = "809a97dfe33e797616b4e039d21c2a9bee8fc3af8e45e98724155e6702d32cdb"
+
+[build]
+system = "autotools"

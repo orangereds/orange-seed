@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "sphinx-doc", "gmp"]
+
+[package]
+name = "futhark"
+version = "0.29.1"
+description = "Data-parallel functional programming language"
+homepage = "https://futhark-lang.org/"
+
+[source]
+url = "https://github.com/diku-dk/futhark/archive/refs/tags/v0.29.1.tar.gz"
+sha256 = "2aedf46914f8004f86655eb1c70ff5c9ebae116bb5d627a57133aa84f5b84cac"
+
+[build]
+system = "autotools"

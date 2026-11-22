@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "rust"]
+
+[package]
+name = "kapacitor"
+version = "0"
+description = "Open source time series data processor"
+homepage = "https://github.com/influxdata/kapacitor"
+
+[source]
+url = "https://github.com/influxdata/kapacitor.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/kapacitor/bin/kapacitord -config etc/kapacitor.conf"
+working_dir = "var"
+log_path = "var/log/kapacitor.log"
+error_log_path = "var/log/kapacitor.log"
+
+[build]
+system = "autotools"

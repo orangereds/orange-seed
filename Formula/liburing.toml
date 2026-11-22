@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "liburing"
+version = "2.15"
+description = "Helpers to setup and teardown io_uring instances"
+homepage = "https://github.com/axboe/liburing"
+
+[source]
+url = "https://github.com/axboe/liburing/archive/refs/tags/liburing-2.15.tar.gz"
+sha256 = "8d052f2622dcb3678cbaee5ff582a87572672a6c0a56533cdda5b65cb636120a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "python@3.15", "openjdk@25"]
+
+[package]
+name = "ghidra"
+version = "0"
+description = "Multi-platform software reverse engineering framework"
+homepage = "https://github.com/NationalSecurityAgency/ghidra"
+
+[source]
+url = "https://github.com/NationalSecurityAgency/ghidra/archive/refs/tags/Ghidra_12.2_build.tar.gz"
+sha256 = "ade4fd6e277a10c82db4e75ff5acaeedb3113ef0c7d126ea2c8b38c37128f3c3"
+
+[build]
+system = "autotools"

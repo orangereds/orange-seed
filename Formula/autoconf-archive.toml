@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf"]
+
+[package]
+name = "autoconf-archive"
+version = "2026.11.11"
+description = "Collection of over 500 reusable autoconf macros"
+homepage = "https://savannah.gnu.org/projects/autoconf-archive/"
+
+[source]
+url = "https://ftpmirror.gnu.org/autoconf-archive/autoconf-archive-2026.11.11.tar.xz"
+sha256 = "2c18f15e2b3bb79e09622b27391df07d8608ce9f07fbfc7c1143fa683891ab26"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "manifest-tool"
+version = "2.2.3"
+description = "Command-line tool to create and query container image manifest list/indexes"
+homepage = "https://github.com/estesp/manifest-tool/"
+
+[source]
+url = "https://github.com/estesp/manifest-tool/archive/refs/tags/v2.2.3.tar.gz"
+sha256 = "20f3136b61614bb72b4b95342644e78345a544091dc5ae660d0237ecebc102ff"
+
+[build]
+system = "make"

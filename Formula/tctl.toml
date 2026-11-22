@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tctl"
+version = "1.18.1"
+description = "Temporal CLI (tctl)"
+homepage = "https://docs.temporal.io/cli"
+
+[source]
+url = "https://github.com/temporalio/tctl/archive/refs/tags/v1.18.1.tar.gz"
+sha256 = "945272db4860e3a015e43b4ffc8fc24ecd585e604f4b94b3a964d2f4e51b9c32"
+
+[build]
+system = "autotools"

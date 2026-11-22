@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libaec"
+version = "1.1.8"
+description = "Adaptive Entropy Coding implementing Golomb-Rice algorithm"
+homepage = "https://github.com/Deutsches-Klimarechenzentrum/libaec"
+
+[source]
+url = "https://github.com/Deutsches-Klimarechenzentrum/libaec/releases/download/v1.1.8/libaec-1.1.8.tar.gz"
+sha256 = "660dc7cef65e1749a773439e39b25a7a6cee8f4c6d9739409dea037fac8ff4c7"
+
+[build]
+system = "cmake"

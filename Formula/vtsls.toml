@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "vtsls"
+version = "0"
+description = "LSP wrapper for typescript extension of vscode"
+homepage = "https://github.com/yioneko/vtsls"
+
+[source]
+url = "https://registry.npmjs.org/@vtsls/language-server/-/language-server-0.3.0.tgz"
+sha256 = "f065ff01476d71395caad2647fb56539bb80131f37081767b2aeee8586cbc0c9"
+
+[build]
+system = "autotools"

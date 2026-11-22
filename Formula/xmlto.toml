@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "docbook", "docbook-xsl", "gnu-getopt"]
+
+[package]
+name = "xmlto"
+version = "0.0.29"
+description = "Convert XML to another format (based on XSL or other tools)"
+homepage = "https://codeberg.org/xmlto/xmlto"
+
+[source]
+url = "https://codeberg.org/xmlto/xmlto/archive/0.0.29.tar.gz"
+sha256 = "ccf0657f71f874d01a28729e7c08ea468ae705e087a4e12d1dcacb6b54a5d25d"
+
+[build]
+system = "autotools"

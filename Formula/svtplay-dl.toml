@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "svtplay-dl"
+version = "0"
+description = "Download videos from https://www.svtplay.se/"
+homepage = "https://svtplay-dl.se/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0e/9e/b95e155f3e551caaf81f33610799728568b886cc835aa22426e094dcb24c/svtplay_dl-4.211.tar.gz"
+sha256 = "e7b4ce2ed481f000a442201477926036ba3ab647f8b53029d6afbf89a35cb0a8"
+
+[build]
+system = "autotools"

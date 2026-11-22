@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jack", "libsamplerate", "libsndfile"]
+
+[package]
+name = "ecasound"
+version = "2.9.3"
+description = "Multitrack-capable audio recorder and effect processor"
+homepage = "https://nosignal.fi/ecasound/"
+
+[source]
+url = "https://nosignal.fi/download/ecasound-2.9.3.tar.gz"
+sha256 = "468bec44566571043c655c808ddeb49ae4f660e49ab0072970589fd5a493f6d4"
+
+[build]
+system = "autotools"

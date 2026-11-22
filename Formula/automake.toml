@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf"]
+
+[package]
+name = "automake"
+version = "1.20"
+description = "Tool for generating GNU Standards-compliant Makefiles"
+homepage = "https://www.gnu.org/software/automake/"
+
+[source]
+url = "https://ftpmirror.gnu.org/automake/automake-1.20.tar.xz"
+sha256 = "f6f34dad4cbe395715762b0710f7c511e39bd5cf777e6b95818ccbecf7714248"
+
+[build]
+system = "autotools"

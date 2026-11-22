@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xmlstarlet"
+version = "1.7.0"
+description = "XML command-line utilities"
+homepage = "https://xmlstarlet.github.io/"
+
+[source]
+url = "https://github.com/xmlstarlet/xmlstarlet/releases/download/1.7.0/xmlstarlet-1.7.0.tar.gz"
+sha256 = "df4c93458fc6b2ad144d65dccf3ef251349871e0578c5bc59edbfeecf9bf3454"
+
+[build]
+system = "autotools"

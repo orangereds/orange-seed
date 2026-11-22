@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "aws-amplify"
+version = "0"
+description = "Build full-stack web and mobile apps in hours. Easy to start, easy to scale"
+homepage = "https://aws.amazon.com/amplify/"
+
+[source]
+url = "https://registry.npmjs.org/@aws-amplify/cli-internal/-/cli-internal-14.6.0.tgz"
+sha256 = "16e843f3b73ee7339321ccf0f57f9f9039619665c3cda900d483d45751f35a62"
+
+[build]
+system = "autotools"

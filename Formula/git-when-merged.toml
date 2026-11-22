@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-when-merged"
+version = "1.2.1"
+description = "Find where a commit was merged in git"
+homepage = "https://github.com/mhagger/git-when-merged"
+
+[source]
+url = "https://github.com/mhagger/git-when-merged/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "46ba5076981862ac2ad0fa0a94b9a5401ef6b5c5b0506c6e306b76e5798e1f58"
+
+[build]
+system = "autotools"

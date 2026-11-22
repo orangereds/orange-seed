@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "c-blosc"
+version = "1.21.7"
+description = "Blocking, shuffling and loss-less compression library"
+homepage = "https://www.blosc.org/"
+
+[source]
+url = "https://github.com/Blosc/c-blosc/archive/refs/tags/v1.21.7.tar.gz"
+sha256 = "3c81252accfeeabd236fa219a8bf564c4feed9feb7a3291c227b03a00adb976f"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "xxh"
+version = "0.8.16"
+description = "Bring your favorite shell wherever you go through the ssh"
+homepage = "https://github.com/xxh/xxh"
+
+[source]
+url = "https://github.com/xxh/xxh/archive/refs/tags/0.8.16.tar.gz"
+sha256 = "a8100a831049be3131146da6a26d8cdb2fb15afc8d637521fcbdba37a3429a50"
+
+[build]
+system = "autotools"

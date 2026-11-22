@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "himalaya"
+version = "2.2.1"
+description = "CLI email client written in Rust"
+homepage = "https://pimalaya.org"
+
+[source]
+url = "https://github.com/pimalaya/himalaya/archive/refs/tags/v2.2.1.tar.gz"
+sha256 = "261b6d3bce4f0de6399b347525fc3c687f309d83840b4e10a58ab7ad70c03544"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ducker"
+version = "0.6.5"
+description = "Slightly quackers Docker TUI based on k9s"
+homepage = "https://ducker.soane.io"
+
+[source]
+url = "https://github.com/robertpsoane/ducker/archive/refs/tags/v0.6.5.tar.gz"
+sha256 = "f40b405f6bad7483a93b71a8c8fdafa35d50e667e4e0c0ee2fbbb592dcc0a438"
+
+[build]
+system = "autotools"

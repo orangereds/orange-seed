@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraform-inventory"
+version = "0.10"
+description = "Go app which generates a dynamic Ansible inventory from a Terraform state file"
+homepage = "https://github.com/adammck/terraform-inventory"
+
+[source]
+url = "https://github.com/adammck/terraform-inventory/archive/refs/tags/v0.10.tar.gz"
+sha256 = "8bd8956da925d4f24c45874bc7b9012eb6d8b4aa11cfc9b6b1b7b7c9321365ac"
+
+[build]
+system = "autotools"

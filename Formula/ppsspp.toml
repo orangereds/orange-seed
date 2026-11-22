@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "freetype", "pkgconf", "libzip", "miniupnpc", "sdl2-compat", "sdl2_ttf", "snappy", "zstd", "molten-vk", "libpng"]
+
+[package]
+name = "ppsspp"
+version = "1.20.4"
+description = "PlayStation Portable emulator"
+homepage = "https://ppsspp.org/"
+
+[source]
+url = "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/ppsspp-1.20.4.tar.xz"
+sha256 = "4de21db3105d9d81a465a8a7e78c68ee3c0e0bf6597d1c1d530f7555f3ad8b31"
+
+[build]
+system = "cmake"

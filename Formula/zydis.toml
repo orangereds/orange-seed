@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ronn-ng", "zycore-c"]
+
+[package]
+name = "zydis"
+version = "4.1.1"
+description = "Fast and lightweight x86/x86_64 disassembler library"
+homepage = "https://zydis.re"
+
+[source]
+url = "https://github.com/zyantific/zydis/archive/refs/tags/v4.1.1.tar.gz"
+sha256 = "45c6d4d499a1cc80780f7834747c637509777c01dca1e98c5e7c0bfaccdb1514"
+
+[build]
+system = "cmake"

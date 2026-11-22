@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "gpgme"]
+
+[package]
+name = "gpgmepp"
+version = "2.2.0"
+description = "C++ bindings for gpgme"
+homepage = "https://www.gnupg.org/related_software/gpgme/"
+
+[source]
+url = "https://www.gnupg.org/ftp/gcrypt/gpgmepp/gpgmepp-2.2.0.tar.xz"
+sha256 = "6651c5f7f801543d5b676719df9fec8053b0a6f5aba40b98ca0d2bee11136f30"
+
+[build]
+system = "cmake"

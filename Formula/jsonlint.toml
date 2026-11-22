@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "jsonlint"
+version = "1.6.3"
+description = "JSON parser and validator with a CLI"
+homepage = "https://github.com/zaach/jsonlint"
+
+[source]
+url = "https://registry.npmjs.org/jsonlint/-/jsonlint-1.6.3.tgz"
+sha256 = "987f42f0754b7bc0c84967b81fc2b4db0ed2ebe2117ccc5a5faa59e462447723"
+
+[build]
+system = "autotools"

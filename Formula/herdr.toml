@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "zig@0.16"]
+
+[package]
+name = "herdr"
+version = "0.9.5"
+description = "Agent multiplexer that lives in your terminal"
+homepage = "https://herdr.dev"
+
+[source]
+url = "https://github.com/herdrdev/herdr/archive/refs/tags/v0.9.5.tar.gz"
+sha256 = "a2486b09a8153630f6a19e72606ba1c961a6194bce13c09cba67ccce5e4252de"
+
+[build]
+system = "autotools"

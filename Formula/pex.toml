@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpq"]
+
+[package]
+name = "pex"
+version = "1.20140409_4"
+description = "Package manager for PostgreSQL"
+homepage = "https://github.com/petere/pex"
+
+[source]
+url = "https://github.com/petere/pex/archive/refs/tags/1.20140409.tar.gz"
+sha256 = "5047946a2f83e00de4096cd2c3b1546bc07be431d758f97764a36b32b8f0ae57"
+
+[build]
+system = "autotools"

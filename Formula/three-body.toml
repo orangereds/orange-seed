@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "three-body"
+version = "0.6.5"
+description = "三体编程语言 Three Body Language written in Rust"
+homepage = "https://github.com/rustq/3body-lang"
+
+[source]
+url = "https://github.com/rustq/3body-lang/archive/refs/tags/0.6.5.tar.gz"
+sha256 = "e6c4c4039f868fce6c08adfe5852dfe15d2564ac8b9033e60bd0e098c5c5df5e"
+
+[build]
+system = "autotools"

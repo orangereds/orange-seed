@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "copa"
+version = "0.15.0"
+description = "Tool to directly patch container images given the vulnerability scanning results"
+homepage = "https://project-copacetic.github.io/copacetic/"
+
+[source]
+url = "https://github.com/project-copacetic/copacetic/archive/refs/tags/v0.15.0.tar.gz"
+sha256 = "603d0882485fc41d27173a52b5d9c50c92223066bc40592cec2423f6da35d142"
+
+[build]
+system = "autotools"

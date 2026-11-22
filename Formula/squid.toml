@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "openssl@3"]
+
+[package]
+name = "squid"
+version = "7.8"
+description = "Advanced proxy caching server for HTTP, HTTPS, FTP, and Gopher"
+homepage = "https://www.squid-cache.org/"
+
+[source]
+url = "https://github.com/squid-cache/squid/releases/download/SQUID_7_8/squid-7.8.tar.bz2"
+sha256 = "0fcebf10aec14449abff30eb4cf7230f27d080601516d891f90a7e705de9f68e"
+
+[service]
+run = "squid -N -d 1"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/squid.log"
+error_log_path = "var/log/squid.log"
+
+[build]
+system = "autotools"

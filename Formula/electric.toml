@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["elixir", "erlang", "postgresql@19", "openssl@4"]
+
+[package]
+name = "electric"
+version = "0"
+description = "Real-time sync for Postgres"
+homepage = "https://electric-sql.com"
+
+[source]
+url = "https://github.com/electric-sql/electric/archive/refs/tags/@core/sync-service@1.8.1.tar.gz"
+sha256 = "2ba074fb3de684b611d1297fd9ae44b435f1bb9fd0774b3a451a224832f8ed97"
+
+[build]
+system = "autotools"

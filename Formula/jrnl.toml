@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "jrnl"
+version = "4.6"
+description = "Command-line note taker"
+homepage = "https://jrnl.sh/en/stable/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f2/c3/5aeb33596fb901a6f5abad02f756334d7e88a52c1689c3b638d31bd494be/jrnl-4.6.tar.gz"
+sha256 = "971bc5b43a3443470c0c3049fce083d825655036b26a8311e9d8d440ef583abc"
+
+[build]
+system = "autotools"

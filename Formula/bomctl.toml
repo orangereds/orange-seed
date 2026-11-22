@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "bomctl"
+version = "0.4.3"
+description = "Format-agnostic SBOM tooling for the stages between SBOM generation and analysis"
+homepage = "https://github.com/bomctl/bomctl"
+
+[source]
+url = "https://github.com/bomctl/bomctl/archive/refs/tags/v0.4.3.tar.gz"
+sha256 = "8d361a0813de9aa65a366a1f8333004b2fa476981481c0c90e00ccaf74a01c58"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "keploy"
+version = "3.7.13"
+description = "Testing Toolkit creates test-cases and data mocks from API calls, DB queries"
+homepage = "https://keploy.io"
+
+[source]
+url = "https://github.com/keploy/keploy/archive/refs/tags/v3.7.13.tar.gz"
+sha256 = "aac6df0458afd3281371468ce71d2353b0ff7dff72f7ec49d50a756b56b7fd95"
+
+[build]
+system = "autotools"

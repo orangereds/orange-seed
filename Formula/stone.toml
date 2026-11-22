@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "stone"
+version = "2.4"
+description = "TCP/IP packet repeater in the application layer"
+homepage = "https://www.gcd.org/sengoku/stone/"
+
+[source]
+url = "https://www.gcd.org/sengoku/stone/stone-2.4.tar.gz"
+sha256 = "d5dc1af6ec5da503f2a40b3df3fe19a8fbf9d3ce696b8f46f4d53d2ac8d8eb6f"
+
+[build]
+system = "autotools"

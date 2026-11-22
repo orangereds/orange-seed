@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "wiiuse"
+version = "0.16.0"
+description = "Connect Nintendo Wii Remotes"
+homepage = "https://github.com/wiiuse/wiiuse"
+
+[source]
+url = "https://github.com/wiiuse/wiiuse/archive/refs/tags/0.16.0.tar.gz"
+sha256 = "084e0afe3ecd392a2daf4392e62e171be7bdf404659c1bfee92e914f973be9a5"
+
+[build]
+system = "cmake"

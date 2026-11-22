@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rebar3", "erlang"]
+
+[package]
+name = "erlfmt"
+version = "1.9.0"
+description = "Automated code formatter for Erlang"
+homepage = "https://github.com/WhatsApp/erlfmt"
+
+[source]
+url = "https://github.com/WhatsApp/erlfmt/archive/refs/tags/v1.9.0.tar.gz"
+sha256 = "6586ca7274a7cf0146c4942fee234bb200f8668a8a08ca2d408692303b3e0948"
+
+[build]
+system = "autotools"

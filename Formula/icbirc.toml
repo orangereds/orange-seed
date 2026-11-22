@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bmake"]
+
+[package]
+name = "icbirc"
+version = "2.2"
+description = "Proxy IRC client and ICB server"
+homepage = "https://www.benzedrine.ch/icbirc.html"
+
+[source]
+url = "https://www.benzedrine.ch/icbirc-2.2.tar.gz"
+sha256 = "de045b4fc826abc348d4f83ac674a135faeee7235a4941d5daf35e85a83c2b3e"
+
+[build]
+system = "autotools"

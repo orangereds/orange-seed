@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "asyncapi"
+version = "0"
+description = "All in one CLI for all AsyncAPI tools"
+homepage = "https://www.asyncapi.com/tools/cli"
+
+[source]
+url = "https://registry.npmjs.org/@asyncapi/cli/-/cli-6.3.1.tgz"
+sha256 = "103f320aa2951cefd16ee58bda62736b42949b8d7a32b3c2434ca2daed27e600"
+
+[build]
+system = "autotools"

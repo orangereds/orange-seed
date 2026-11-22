@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "redict"
+version = "7.3.6"
+description = "Distributed key/value database"
+homepage = "https://redict.io/"
+
+[source]
+url = "https://codeberg.org/redict/redict/archive/7.3.6.tar.gz"
+sha256 = "868220e6b51062709420f6b2343f03c98eac113c77eefac4626ba909085504f7"
+
+[service]
+run = "opt/redict/bin/redict-server etc/redict.conf"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/redict.log"
+error_log_path = "var/log/redict.log"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "capstone"]
+
+[package]
+name = "elfx86exts"
+version = "0"
+description = "Decodes x86 binaries (ELF and Mach-O) and prints out ISA extensions in use"
+homepage = "https://github.com/pkgw/elfx86exts"
+
+[source]
+url = "https://github.com/pkgw/elfx86exts/archive/refs/tags/elfx86exts@0.6.2.tar.gz"
+sha256 = "55e2ee8c6481e46749b622910597a01e86207250d57e4430b7ce31a22b982e1a"
+
+[build]
+system = "autotools"

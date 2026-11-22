@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "pkgconf", "protobuf", "rust", "openssl@4"]
+
+[package]
+name = "solana"
+version = "4.4.1"
+description = "Web-Scale Blockchain for decentralized apps and marketplaces"
+homepage = "https://www.anza.xyz/"
+
+[source]
+url = "https://github.com/anza-xyz/agave/archive/refs/tags/v4.4.1.tar.gz"
+sha256 = "c32d087d43f73094df9441cc77db11785cdd3e9064a105cb8f2dac5b10e474e6"
+
+[build]
+system = "autotools"

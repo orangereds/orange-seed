@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "m4"
+version = "1.4.21"
+description = "Macro processor"
+homepage = "https://www.gnu.org/software/m4/"
+
+[source]
+url = "https://ftp.gnu.org/gnu/m4/m4-1.4.21.tar.xz"
+sha256 = "ef43254714765cd3c1556530063c42d5e9d97f15746525d718228796bd19d31a"
+
+[build]
+system = "autotools"

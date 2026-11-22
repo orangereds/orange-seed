@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sphinx-doc", "open-mpi", "python@3.15"]
+
+[package]
+name = "otf2"
+version = "3.2"
+description = "Open Trace Format 2 file handling library"
+homepage = "https://www.vi-hps.org/projects/score-p/overview/overview.html"
+
+[source]
+url = "https://perftools.pages.jsc.fz-juelich.de/cicd/otf2/tags/otf2-3.2/otf2-3.2.tar.gz"
+sha256 = "82b3a88a550cb8c3cec8fd45eca82cdcbaf945209977482471b4b5e430d64a8d"
+
+[build]
+system = "autotools"

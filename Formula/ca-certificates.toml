@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ca-certificates"
+version = "0"
+description = "Mozilla CA certificate store"
+homepage = "https://curl.se/docs/caextract.html"
+
+[source]
+url = "https://curl.se/ca/cacert-2026-11-05.pem"
+sha256 = "427c064216761a1e72a8b30f0d954d08cb6e4435a82091fb865afd20c8497285"
+
+[build]
+system = "autotools"

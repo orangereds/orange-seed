@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "whistle"
+version = "2.10.15"
+description = "HTTP, HTTP2, HTTPS, Websocket debugging proxy"
+homepage = "https://wproxy.org/"
+
+[source]
+url = "https://registry.npmjs.org/whistle/-/whistle-2.10.15.tgz"
+sha256 = "7fd3dbd663e35574c628a7ca346153ab740bdec38c647a1faa44663c6ec0110c"
+
+[build]
+system = "autotools"

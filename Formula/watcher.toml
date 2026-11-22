@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "watcher"
+version = "0.14.5"
+description = "Filesystem watcher, works anywhere, simple, efficient and friendly"
+homepage = "https://github.com/e-dant/watcher"
+
+[source]
+url = "https://github.com/e-dant/watcher/archive/refs/tags/0.14.5.tar.gz"
+sha256 = "190bbe5e19923083db2beb3aa68f4e99a563c8f685d8037b0536780b0116c4d3"
+
+[build]
+system = "cmake"

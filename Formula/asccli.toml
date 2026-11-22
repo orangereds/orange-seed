@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "asccli"
+version = "0.19.0"
+description = "App Store Connect CLI to manage apps, versions, and screenshots"
+homepage = "https://github.com/tddworks/asc-cli"
+
+[source]
+url = "https://github.com/tddworks/asc-cli/archive/refs/tags/v0.19.0.tar.gz"
+sha256 = "c463b5b786e4eb88188bb8f960c2c396f2463945457d85136010d9a781284815"
+
+[build]
+system = "autotools"

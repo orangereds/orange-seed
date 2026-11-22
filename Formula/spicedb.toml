@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "spicedb"
+version = "1.57.1"
+description = "Open Source, Google Zanzibar-inspired database"
+homepage = "https://authzed.com/docs/spicedb/getting-started/discovering-spicedb"
+
+[source]
+url = "https://github.com/authzed/spicedb/archive/refs/tags/v1.57.1.tar.gz"
+sha256 = "cee0740dfccb9b7e52ba45e51a0db31a1efcb400f8c6517023ce881da804ca3d"
+
+[build]
+system = "autotools"

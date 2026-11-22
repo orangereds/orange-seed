@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "geesefs"
+version = "0.43.9"
+description = "FUSE FS implementation over S3"
+homepage = "https://github.com/yandex-cloud/geesefs"
+
+[source]
+url = "https://github.com/yandex-cloud/geesefs/archive/refs/tags/v0.43.9.tar.gz"
+sha256 = "beee3771a2bbe652c49f9e8048b4f3e1ef2f606432d496e8de574c9355cb2dee"
+
+[build]
+system = "autotools"

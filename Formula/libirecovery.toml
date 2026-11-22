@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libimobiledevice-glue", "libplist"]
+
+[package]
+name = "libirecovery"
+version = "1.4.0"
+description = "Library and utility to talk to iBoot/iBSS via USB"
+homepage = "https://www.libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/libirecovery/releases/download/1.4.0/libirecovery-1.4.0.tar.bz2"
+sha256 = "ea358430fdcedc00ae7d5764b3d03737f7345c91364fb91271bc6ceeee5d9cac"
+
+[build]
+system = "autotools"

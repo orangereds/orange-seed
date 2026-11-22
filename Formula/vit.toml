@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15", "task"]
+
+[package]
+name = "vit"
+version = "2.3.5"
+description = "Full-screen terminal interface for Taskwarrior"
+homepage = "https://github.com/vit-project/vit"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7d/79/9f6482915a4204458816e2cfd18d8c9a907e13c2168a569e8b1de245d84f/vit-2.3.5.tar.gz"
+sha256 = "f0994d3097af290478b08abb11e6de6ef8461d5fc317bd95fd4a729a9dd57d1e"
+
+[build]
+system = "autotools"

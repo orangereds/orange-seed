@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp", "pandoc"]
+
+[package]
+name = "pandoc-crossref"
+version = "0.3.26b"
+description = "Pandoc filter for numbering and cross-referencing"
+homepage = "https://lierdakil.github.io/pandoc-crossref/"
+
+[source]
+url = "https://github.com/lierdakil/pandoc-crossref/archive/refs/tags/v0.3.26b.tar.gz"
+sha256 = "c4f3cba662ab5e66a0f3081ac88ecc03b4eda9e2319a4afda1a77fae20392b47"
+
+[build]
+system = "autotools"

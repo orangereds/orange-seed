@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "ord"
+version = "0.29.1"
+description = "Index, block explorer, and command-line wallet"
+homepage = "https://ordinals.com/"
+
+[source]
+url = "https://github.com/ordinals/ord/archive/refs/tags/0.29.1.tar.gz"
+sha256 = "58aae0aa6bce2cb022de51a9c0e36d4185945eabfb202e764bf1230aa564cefd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bchunk"
+version = "1.2.2"
+description = "Convert CD images from .bin/.cue to .iso/.cdr"
+homepage = "http://he.fi/bchunk/"
+
+[source]
+url = "https://github.com/hessu/bchunk/archive/refs/tags/release/1.2.2.tar.gz"
+sha256 = "48dd464d8547f368e6e3434e3e2d53e7b1a7748b4ecc2c8a423d614b0b1f7fc4"
+
+[build]
+system = "autotools"

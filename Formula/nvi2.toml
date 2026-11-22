@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "nvi2"
+version = "2.2.2"
+description = "Multibyte fork of the nvi editor for BSD"
+homepage = "https://github.com/lichray/nvi2"
+
+[source]
+url = "https://github.com/lichray/nvi2/archive/refs/tags/v2.2.2.tar.gz"
+sha256 = "a1ad5d7c880913992a116cba56e28ee8e7d1f59a7f10e5a9b2ce6d105decb59c"
+
+[build]
+system = "cmake"

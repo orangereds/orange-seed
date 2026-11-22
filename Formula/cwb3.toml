@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "pcre2", "readline", "gettext"]
+
+[package]
+name = "cwb3"
+version = "0"
+description = "Tools for managing and querying large text corpora with linguistic annotations"
+homepage = "https://cwb.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/cwb/cwb/cwb-3.5/source/cwb-3.5.0-src.tar.gz"
+sha256 = "20bbd00b7c830389ce384fe70124bc0f55ea7f3d70afc3a159e6530d51b24059"
+
+[build]
+system = "make"

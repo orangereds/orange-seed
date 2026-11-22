@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["xz", "zlib-ng-compat"]
+
+[package]
+name = "libunwind"
+version = "1.8.3"
+description = "C API for determining the call-chain of a program"
+homepage = "https://www.nongnu.org/libunwind/"
+
+[source]
+url = "https://github.com/libunwind/libunwind/releases/download/v1.8.3/libunwind-1.8.3.tar.gz"
+sha256 = "be30d910e67f58d82e753231f1357f326a1a088acf126b21ff77e60aab19b90b"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

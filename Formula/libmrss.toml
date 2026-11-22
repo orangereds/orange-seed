@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libnxml"]
+
+[package]
+name = "libmrss"
+version = "0.19.4"
+description = "C library for RSS files or streams"
+homepage = "https://github.com/bakulf/libmrss"
+
+[source]
+url = "https://github.com/bakulf/libmrss/archive/refs/tags/0.19.4.tar.gz"
+sha256 = "28022247056b04ca3f12a9e21134d42304526b2a67b7d6baf139e556af1151c6"
+
+[build]
+system = "autotools"

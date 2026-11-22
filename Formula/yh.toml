@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yh"
+version = "0.4.0"
+description = "YAML syntax highlighter to bring colours where only jq could"
+homepage = "https://github.com/andreazorzetto/yh"
+
+[source]
+url = "https://github.com/andreazorzetto/yh/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "78ef799c500c00164ea05aacafc5c34dccc565e364285f05636c920c2c356d73"
+
+[build]
+system = "autotools"

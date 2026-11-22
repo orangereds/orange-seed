@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pugixml", "openssl@4"]
+
+[package]
+name = "wdc"
+version = "1.1.5_2"
+description = "WebDAV Client provides easy and convenient to work with WebDAV-servers"
+homepage = "https://cloudpolis.github.io/webdav-client-cpp"
+
+[source]
+url = "https://github.com/CloudPolis/webdav-client-cpp/archive/refs/tags/v1.1.5.tar.gz"
+sha256 = "3c45341521da9c68328c5fa8909d838915e8a768e7652ff1bcc2fbbd46ab9f64"
+
+[build]
+system = "cmake"

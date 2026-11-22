@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15", "yara"]
+
+[package]
+name = "apkid"
+version = "3.2.0"
+description = "Android application identifier for compilers, packers, and obfuscators"
+homepage = "https://github.com/rednaga/APKiD"
+
+[source]
+url = "https://files.pythonhosted.org/packages/f5/16/f354c98176e0e60e68ba5e8e4748063c43287d40482a6ccfd50acabd3c5f/apkid-3.2.0.tar.gz"
+sha256 = "e812cf362672450f25941b3a38974c8e99d6e59e091d0a047ac05677c2b0d162"
+
+[build]
+system = "autotools"

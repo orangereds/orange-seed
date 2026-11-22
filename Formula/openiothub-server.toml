@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "openiothub-server"
+version = "0"
+description = "Server for OpenIoTHub"
+homepage = "https://github.com/OpenIoTHub/server-go"
+
+[source]
+url = "https://github.com/OpenIoTHub/server-go.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/openiothub-server/bin/openiothub-server -c etc/server-go.yaml"
+keep_alive = true
+log_path = "var/log/openiothub-server.log"
+error_log_path = "var/log/openiothub-server.log"
+
+[build]
+system = "autotools"

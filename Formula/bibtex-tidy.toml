@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bibtex-tidy"
+version = "1.15.1"
+description = "Cleaner and Formatter for BibTeX files"
+homepage = "https://flamingtempura.github.io/bibtex-tidy/"
+
+[source]
+url = "https://registry.npmjs.org/bibtex-tidy/-/bibtex-tidy-1.15.1.tgz"
+sha256 = "f911be78ea301c6079f9a90c3c1a42b7c85d130dbbf73fd80a462532fc8b20b8"
+
+[build]
+system = "autotools"

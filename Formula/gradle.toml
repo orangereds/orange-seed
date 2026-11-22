@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle-completion", "openjdk"]
+
+[package]
+name = "gradle"
+version = "9.9.2-all"
+description = "Open-source build automation tool based on the Groovy and Kotlin DSL"
+homepage = "https://www.gradle.org/"
+
+[source]
+url = "https://services.gradle.org/distributions/gradle-9.9.2-all.zip"
+sha256 = "1ac85e9cbc2b091ad04e6c6d0f486f0a2a2fabd78f9f8719a0d5bcc0ce1b345b"
+
+[build]
+system = "autotools"

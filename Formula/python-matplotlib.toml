@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "pkgconf", "freetype", "libraqm", "numpy", "pillow", "python@3.15", "qhull"]
+
+[package]
+name = "python-matplotlib"
+version = "0_1"
+description = "Python library for creating static, animated, and interactive visualizations"
+homepage = "https://matplotlib.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e7/c8/9aa712a0afb882649424dd8de8ad9aa6235e796e84c6052e8f6dc1598d0d/matplotlib-3.11.2.tar.gz"
+sha256 = "cec596316640f2b394b8f0daa0ea61a8eae82d017b620b9f202befb972a59ea4"
+
+[build]
+system = "autotools"

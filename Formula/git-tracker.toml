@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-tracker"
+version = "2.0.0"
+description = "Integrate Pivotal Tracker into your Git workflow"
+homepage = "https://github.com/stevenharman/git_tracker"
+
+[source]
+url = "https://github.com/stevenharman/git_tracker/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "ec0a8d6dd056b8ae061d9ada08f1cc2db087e13aaecf4e0d150c1808e0250504"
+
+[build]
+system = "autotools"

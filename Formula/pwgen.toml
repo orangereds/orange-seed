@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pwgen"
+version = "2.08"
+description = "Password generator"
+homepage = "https://pwgen.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pwgen/pwgen/2.08/pwgen-2.08.tar.gz"
+sha256 = "dab03dd30ad5a58e578c5581241a6e87e184a18eb2c3b2e0fffa8a9cf105c97b"
+
+[build]
+system = "autotools"

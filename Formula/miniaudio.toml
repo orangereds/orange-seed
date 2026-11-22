@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "miniaudio"
+version = "0.11.26"
+description = "Audio playback and capture library"
+homepage = "https://miniaud.io"
+
+[source]
+url = "https://github.com/mackron/miniaudio/archive/refs/tags/0.11.26.tar.gz"
+sha256 = "838ba55a21c9142adf7b76bdc4351e5cd8b7ae128f46b25ec25f94ae9969c600"
+
+[build]
+system = "cmake"

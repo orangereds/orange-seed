@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cifer"
+version = "1.2.0"
+description = "Work on automating classical cipher cracking in C"
+homepage = "https://code.google.com/p/cifer/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cifer/cifer-1.2.0.tar.gz"
+sha256 = "436816c1f9112b8b80cf974596095648d60ffd47eca8eb91fdeb19d3538ea793"
+
+[build]
+system = "autotools"

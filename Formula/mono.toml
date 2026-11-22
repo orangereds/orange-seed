@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "libtool", "pkgconf", "llvm"]
+
+[package]
+name = "mono"
+version = "6.14.1"
+description = "Cross platform, open source .NET development framework"
+homepage = "https://www.mono-project.com/"
+
+[source]
+url = "https://dl.winehq.org/mono/sources/mono/mono-6.14.1.tar.xz"
+sha256 = "3024c97c0bc8cbcd611c401d5f994528704108ceb31f31b28dea4783004d0820"
+
+[build]
+system = "autotools"

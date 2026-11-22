@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gsl", "xmlrpc-c"]
+
+[package]
+name = "flowgrind"
+version = "0.8.2_4"
+description = "TCP measurement tool, similar to iperf or netperf"
+homepage = "https://flowgrind.github.io"
+
+[source]
+url = "https://github.com/flowgrind/flowgrind/releases/download/flowgrind-0.8.2/flowgrind-0.8.2.tar.bz2"
+sha256 = "432c4d15cb62d5d8d0b3509034bfb42380a02e3f0b75d16b7619a1ede07ac4f1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tailscale"
+version = "0"
+description = "Easiest, most secure way to use WireGuard and 2FA"
+homepage = "https://tailscale.com"
+
+[source]
+url = "https://github.com/tailscale/tailscale.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/tailscale/bin/tailscaled"
+keep_alive = true
+log_path = "var/log/tailscaled.log"
+error_log_path = "var/log/tailscaled.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "smug"
+version = "0.3.19"
+description = "Automate your tmux workflow"
+homepage = "https://github.com/ivaaaan/smug"
+
+[source]
+url = "https://github.com/ivaaaan/smug/archive/refs/tags/v0.3.19.tar.gz"
+sha256 = "d1c43d84b5293cff1982437937367813f34cc1508d44da723b28649999147e3e"
+
+[build]
+system = "autotools"

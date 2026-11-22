@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "rsql"
+version = "0.21.0"
+description = "CLI for relational databases and common data file formats"
+homepage = "https://theseus-rs.github.io/rsql/rsql_cli/"
+
+[source]
+url = "https://github.com/theseus-rs/rsql/archive/refs/tags/v0.21.0.tar.gz"
+sha256 = "d5e89676f8c172f7e3782232fade71eaeaa3a4f8b823be764b04236579751582"
+
+[build]
+system = "autotools"

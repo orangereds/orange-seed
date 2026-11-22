@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook-xsl", "gettext"]
+
+[package]
+name = "po4a"
+version = "0.74_2"
+description = "Documentation translation maintenance tool"
+homepage = "https://po4a.org"
+
+[source]
+url = "https://github.com/mquinson/po4a/archive/refs/tags/v0.74.tar.gz"
+sha256 = "6e390eb7707501a86f2e648d78fddb0d211d1e8699aa1ee201176e9f966a798b"
+
+[build]
+system = "autotools"

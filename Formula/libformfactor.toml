@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libheinz"]
+
+[package]
+name = "libformfactor"
+version = "0"
+description = "C++ library for the efficient computation of scattering form factors"
+homepage = "https://jugit.fz-juelich.de/mlz/lib/formfactor"
+
+[source]
+url = "https://jugit.fz-juelich.de/mlz/lib/formfactor/-/archive/v0.5.1/formfactor-v0.5.1.tar.bz2"
+sha256 = "1394b6c8d08a7ffd19a5f74b1f187d1537a398199fe22ac78c2d441a278e49ae"
+
+[build]
+system = "cmake"

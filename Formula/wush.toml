@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wush"
+version = "0.4.1"
+description = "Transfer files between computers via WireGuard"
+homepage = "https://github.com/coder/wush"
+
+[source]
+url = "https://github.com/coder/wush/archive/refs/tags/v0.4.1.tar.gz"
+sha256 = "77d5a912465d1e8ec478252a9a69a04d39af75a126ac9ed94823f33a60b3d8f9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "bitwarden-cli"
+version = "0"
+description = "Secure and free password manager for all of your devices"
+homepage = "https://bitwarden.com/"
+
+[source]
+url = "https://github.com/bitwarden/clients/archive/refs/tags/cli-v2026.11.0.tar.gz"
+sha256 = "bedf137f60f9f7c2033afda3af90f7a3f77c5bb5427b56131d88331f2318a15e"
+
+[build]
+system = "autotools"

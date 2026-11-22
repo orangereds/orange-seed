@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jasper", "jpeg-turbo", "little-cms2"]
+
+[package]
+name = "dcraw"
+version = "9.28.0_3"
+description = "Digital camera RAW photo decoding software"
+homepage = "https://dechifro.org/dcraw/"
+
+[source]
+url = "https://dechifro.org/dcraw/archive/dcraw-9.28.0.tar.gz"
+sha256 = "2890c3da2642cd44c5f3bfed2c9b2c1db83da5cec09cc17e0fa72e17541fb4b9"
+
+[build]
+system = "autotools"

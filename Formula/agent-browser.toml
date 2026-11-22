@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pnpm@11", "rust", "node"]
+
+[package]
+name = "agent-browser"
+version = "0.43.0"
+description = "Browser automation CLI for AI agents"
+homepage = "https://agent-browser.dev/"
+
+[source]
+url = "https://github.com/vercel-labs/agent-browser/archive/refs/tags/v0.43.0.tar.gz"
+sha256 = "ed52840279526f057977a98e99d60fe0ab760122ee73ce11f4cf050e47938913"
+
+[build]
+system = "autotools"

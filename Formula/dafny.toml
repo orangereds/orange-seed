@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle@8", "openjdk", "dotnet@8", "z3"]
+
+[package]
+name = "dafny"
+version = "4.11.0"
+description = "Verification-aware programming language"
+homepage = "https://github.com/dafny-lang/dafny/blob/master/README.md"
+
+[source]
+url = "https://github.com/dafny-lang/dafny/archive/refs/tags/v4.11.0.tar.gz"
+sha256 = "05417a2250cea13494318a60d86bd0dc6d9622bd625d9f4fbeb42854462e6798"
+
+[build]
+system = "autotools"

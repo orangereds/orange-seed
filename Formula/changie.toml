@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "changie"
+version = "1.26.0"
+description = "Automated changelog tool for preparing releases"
+homepage = "https://changie.dev/"
+
+[source]
+url = "https://github.com/miniscruff/changie/archive/refs/tags/v1.26.0.tar.gz"
+sha256 = "dec4619b681ad0ad0a9e7b57c196fcaade2705fb086d1f2bbef13a5d2b33ed43"
+
+[build]
+system = "autotools"

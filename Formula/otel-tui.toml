@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "otel-tui"
+version = "0.7.6"
+description = "Terminal OpenTelemetry viewer"
+homepage = "https://github.com/ymtdzzz/otel-tui"
+
+[source]
+url = "https://github.com/ymtdzzz/otel-tui/archive/refs/tags/v0.7.6.tar.gz"
+sha256 = "91d564e41df6bfa55e666bd2bdb86c459569b41407027599ea5e87b32943cd0a"
+
+[build]
+system = "autotools"

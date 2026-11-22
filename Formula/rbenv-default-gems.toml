@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rbenv"]
+
+[package]
+name = "rbenv-default-gems"
+version = "1.0.0_1"
+description = "Auto-installs gems for Ruby installs"
+homepage = "https://github.com/rbenv/rbenv-default-gems"
+
+[source]
+url = "https://github.com/rbenv/rbenv-default-gems/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "8271d58168ab10f0ace285dc4c394e2de8f2d1ccc24032e6ed5924f38dc24822"
+
+[build]
+system = "autotools"

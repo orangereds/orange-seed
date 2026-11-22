@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "capstone", "certifi", "cryptography", "libsodium", "python@3.15", "unicorn"]
+
+[package]
+name = "pwntools"
+version = "4.15.1"
+description = "CTF framework used by Gallopsled in every CTF"
+homepage = "https://github.com/Gallopsled/pwntools"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1c/cb/87c467af7e60be81ab02359d093fc18906a01ded8677640555b1f48612c8/pwntools-4.15.1.tar.gz"
+sha256 = "7d61aad9057cd55771da306e3ba3f80d4d41ef2ea7ffa2ef15c8bffaced273a2"
+
+[build]
+system = "autotools"

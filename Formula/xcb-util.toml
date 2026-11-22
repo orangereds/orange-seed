@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libxcb"]
+
+[package]
+name = "xcb-util"
+version = "0.4.1"
+description = "Additional extensions to the XCB library"
+homepage = "https://xcb.freedesktop.org"
+
+[source]
+url = "https://xcb.freedesktop.org/dist/xcb-util-0.4.1.tar.xz"
+sha256 = "5abe3bbbd8e54f0fa3ec945291b7e8fa8cfd3cccc43718f8758430f94126e512"
+
+[build]
+system = "autotools"

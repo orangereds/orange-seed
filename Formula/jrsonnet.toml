@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jrsonnet"
+version = "0.4.2"
+description = "Rust implementation of Jsonnet language"
+homepage = "https://github.com/deltarocks/jrsonnet"
+
+[source]
+url = "https://github.com/deltarocks/jrsonnet/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "2396c57a49a20db99da17b8ddd1b0b283f1a6e7c5ae1dc94823e7503cbb6ce3f"
+
+[build]
+system = "autotools"

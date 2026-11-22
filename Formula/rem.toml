@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rem"
+version = "20150618"
+description = "Command-line tool to access OSX Reminders.app database"
+homepage = "https://github.com/kykim/rem"
+
+[source]
+url = "https://github.com/kykim/rem/archive/refs/tags/20150618.tar.gz"
+sha256 = "e57173a26d2071692d72f3374e36444ad0b294c1284e3b28706ff3dbe38ce8af"
+
+[build]
+system = "autotools"

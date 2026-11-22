@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2"]
+
+[package]
+name = "cargo-shuttle"
+version = "0.57.3"
+description = "Build & ship backends without writing any infrastructure files"
+homepage = "https://shuttle.dev"
+
+[source]
+url = "https://github.com/shuttle-hq/shuttle/archive/refs/tags/v0.57.3.tar.gz"
+sha256 = "f6726ccc4e0885d76b55751a252570459ac8a6a42503c6c1e09ed2b2aea44412"
+
+[build]
+system = "autotools"

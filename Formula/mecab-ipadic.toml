@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["mecab"]
+
+[package]
+name = "mecab-ipadic"
+version = "2.7.0-20070801"
+description = "IPA dictionary compiled for MeCab"
+homepage = "https://taku910.github.io/mecab/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/mecab-ipadic/mecab-ipadic_2.7.0-20070801+main.orig.tar.gz"
+sha256 = "b62f527d881c504576baed9c6ef6561554658b175ce6ae0096a60307e49e3523"
+
+[build]
+system = "autotools"

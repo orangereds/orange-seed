@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bindgen", "cmake", "go"]
+
+[package]
+name = "aws-lc"
+version = "5.15.0"
+description = "General-purpose cryptographic library"
+homepage = "https://github.com/aws/aws-lc"
+
+[source]
+url = "https://github.com/aws/aws-lc/archive/refs/tags/v5.15.0.tar.gz"
+sha256 = "66e7132566cf2356b16ae79a9b57ea7a75ad6d65a41408753b08569c7db02921"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

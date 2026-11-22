@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gptsync"
+version = "0"
+description = "GPT and MBR partition tables synchronization tool"
+homepage = "https://refit.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/refit/rEFIt/0.14/refit-src-0.14.tar.gz"
+sha256 = "c4b0803683c9f8a1de0b9f65d2b5a25a69100dcc608d58dca1611a8134cde081"
+
+[build]
+system = "autotools"

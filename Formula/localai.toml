@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "protobuf", "protoc-gen-go", "protoc-gen-go-grpc"]
+
+[package]
+name = "localai"
+version = "0"
+description = "OpenAI alternative"
+homepage = "https://localai.io"
+
+[source]
+url = "https://github.com/mudler/LocalAI/releases/download/v5.0.1/LocalAI-v5.0.1-source.tar.gz"
+sha256 = "d2ca736513a89a56761e5ba5d1c9659db177ad605855cb3b66a94b61d5a559f7"
+
+[build]
+system = "autotools"

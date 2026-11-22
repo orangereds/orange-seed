@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "deja-vu"
+version = "0.25.0"
+description = "Local searchable memory over the session histories of coding agents"
+homepage = "https://github.com/vshulcz/deja-vu"
+
+[source]
+url = "https://github.com/vshulcz/deja-vu/archive/refs/tags/v0.25.0.tar.gz"
+sha256 = "8efe4293648070b7f92b9ecc093cf4f347dbb283e1b939c3274e8835ba1fc3d9"
+
+[build]
+system = "autotools"

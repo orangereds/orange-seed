@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "confuse"]
+
+[package]
+name = "bmon"
+version = "5.0"
+description = "Interface bandwidth monitor"
+homepage = "https://github.com/tgraf/bmon"
+
+[source]
+url = "https://github.com/Jafaral/bmon/archive/refs/tags/v5.0.tar.gz"
+sha256 = "cd7f5fb366a8c32c0e33c79a5daae78edd273993d0edf1036638f269400cf012"
+
+[build]
+system = "autotools"

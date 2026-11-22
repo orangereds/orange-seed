@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["crystal", "pkgconf", "bdw-gc", "pcre2", "tmux"]
+
+[package]
+name = "tmux-fingers"
+version = "2.7.1"
+description = "Copy pasting in terminal with vimium/vimperator like hints"
+homepage = "https://github.com/Morantron/tmux-fingers"
+
+[source]
+url = "https://github.com/Morantron/tmux-fingers/archive/refs/tags/2.7.1.tar.gz"
+sha256 = "5e62f8550787842fc712203df31f7eaa723f7023ab19bc97d28b3b85e2d7c420"
+
+[build]
+system = "autotools"

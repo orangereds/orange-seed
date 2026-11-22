@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "ircii"
+version = "20260115"
+description = "IRC and ICB client"
+homepage = "http://www.eterna23.net/ircii/"
+
+[source]
+url = "https://ircii.warped.com/ircii-20260115.tar.bz2"
+sha256 = "a42749250a5eee0a57db3b72fe709bd6b8b81ec76c04c4f89f0878ef899168eb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros"]
+
+[package]
+name = "font-util"
+version = "1.4.2"
+description = "X.Org: Font package creation/installation utilities"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/font/font-util-1.4.2.tar.xz"
+sha256 = "02e4f8afdcf03cc8372ca9c37aa104b1e36b47722dbc79531be08f0a4c622999"
+
+[build]
+system = "autotools"

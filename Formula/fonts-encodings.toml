@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["font-util", "mkfontscale", "util-macros"]
+
+[package]
+name = "fonts-encodings"
+version = "0"
+description = "Font encoding tables for libfontenc"
+homepage = "https://gitlab.freedesktop.org/xorg/font/encodings"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/font/encodings-1.1.0.tar.xz"
+sha256 = "9ff13c621756cfa12e95f32ba48a5b23839e8f577d0048beda66c67dab4de975"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["aspell", "libyaml", "python@3.15"]
+
+[package]
+name = "pyspelling"
+version = "2.14"
+description = "Spell checker automation tool"
+homepage = "https://facelessuser.github.io/pyspelling/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ad/07/04237f8cac359478740c6217c844764845ecfe061bf8ba7479da15d6dc55/pyspelling-2.14.tar.gz"
+sha256 = "d1bb3eaca2cf45e33aa2dc6ca2cc1927b9f9b5f5449d75b043c6c16d1bdec613"
+
+[build]
+system = "autotools"

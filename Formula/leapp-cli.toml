@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "node"]
+
+[package]
+name = "leapp-cli"
+version = "0.1.65"
+description = "Cloud credentials manager cli"
+homepage = "https://www.leapp.cloud/"
+
+[source]
+url = "https://registry.npmjs.org/@noovolari/leapp-cli/-/leapp-cli-0.1.65.tgz"
+sha256 = "a770256e2ce62f08c17650a30e785e46f92e7acb03e2bcbdec949054467b711c"
+
+[build]
+system = "autotools"

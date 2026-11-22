@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lame", "libogg", "libvorbis", "gettext"]
+
+[package]
+name = "ebook2cw"
+version = "0.8.5"
+description = "Converts ebooks to morse code"
+homepage = "https://fkurz.net/ham/ebook2cw.html"
+
+[source]
+url = "https://fkurz.net/ham/ebook2cw/ebook2cw-0.8.5.tar.gz"
+sha256 = "571f734f12123b4affbad90b55dd4c9630b254afe343fa621fc5114b9bd25fc3"
+
+[build]
+system = "autotools"

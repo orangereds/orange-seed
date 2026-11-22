@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "semver"
+version = "7.8.6"
+description = "Semantic version parser for node (the one npm uses)"
+homepage = "https://semver.npmjs.com/"
+
+[source]
+url = "https://github.com/npm/node-semver/archive/refs/tags/v7.8.6.tar.gz"
+sha256 = "4090fb28b4763cea3353001e455a4f089ceafbee4903c09d3a14f8586cf5c0d1"
+
+[build]
+system = "autotools"

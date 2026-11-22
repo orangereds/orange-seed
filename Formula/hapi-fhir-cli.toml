@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "hapi-fhir-cli"
+version = "0"
+description = "Command-line interface for the HAPI FHIR library"
+homepage = "https://hapifhir.io/"
+
+[source]
+url = "https://github.com/hapifhir/hapi-fhir/releases/download/v9.0.0/hapi-fhir-9.0.0-cli.zip"
+sha256 = "6b01d731840b53e374894c19c122f832e8c47a964c334708ffd417afca37ba6e"
+
+[build]
+system = "autotools"

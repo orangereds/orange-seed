@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gmp", "primesieve", "libomp"]
+
+[package]
+name = "gmp-ecm"
+version = "0"
+description = "Elliptic Curve Method for integer factorization"
+homepage = "https://gitlab.inria.fr/zimmerma/ecm"
+
+[source]
+url = "https://gitlab.inria.fr/zimmerma/ecm/-/archive/git-7.0.7/ecm-git-7.0.7.tar.gz"
+sha256 = "cfc1c0745694e7b24a8a373d8e854f8ab42cff177dbd98beba3b093e3858ca8a"
+
+[build]
+system = "autotools"

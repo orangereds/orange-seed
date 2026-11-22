@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "yarn"]
+
+[package]
+name = "grafana"
+version = "13.3.1"
+description = "Gorgeous metric visualizations and dashboards for timeseries databases"
+homepage = "https://grafana.com"
+
+[source]
+url = "https://github.com/grafana/grafana/archive/refs/tags/v13.3.1.tar.gz"
+sha256 = "48a032e9c4a8dec237f3cb9cf8ed58196441625b55d18e0d9978dcf3f97d7801"
+
+[service]
+run = "grafana"
+keep_alive = true
+working_dir = "var/lib/grafana"
+log_path = "var/log/grafana-stdout.log"
+error_log_path = "var/log/grafana-stderr.log"
+
+[build]
+system = "autotools"

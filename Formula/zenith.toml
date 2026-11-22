@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zenith"
+version = "0.15.1"
+description = "In terminal graphical metrics for your *nix system"
+homepage = "https://github.com/bvaisvil/zenith/"
+
+[source]
+url = "https://github.com/bvaisvil/zenith/archive/refs/tags/0.15.1.tar.gz"
+sha256 = "ffa3412c19e99f9ef691f86e4f9b1a342add2b0504bb3ea7f0b57daa17e4b731"
+
+[build]
+system = "autotools"

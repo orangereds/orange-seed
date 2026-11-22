@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "fakeroot"
+version = "2.1.4.orig"
+description = "Provide a fake root environment"
+homepage = "https://tracker.debian.org/pkg/fakeroot"
+
+[source]
+url = "https://ftp.debian.org/debian/pool/main/f/fakeroot/fakeroot_2.1.4.orig.tar.xz"
+sha256 = "0822bd5a9f0cf19d2ba0546b88b0432d4d3d9917db62c57b74044ccadba06e49"
+
+[build]
+system = "autotools"

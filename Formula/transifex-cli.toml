@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "transifex-cli"
+version = "1.6.17"
+description = "Transifex command-line client"
+homepage = "https://github.com/transifex/cli"
+
+[source]
+url = "https://github.com/transifex/cli/archive/refs/tags/v1.6.17.tar.gz"
+sha256 = "759320acd621991046533089bb77320202853cc97b860ab7783040d0e4d5e34f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bash", "coreutils"]
+
+[package]
+name = "bash-completion@2"
+version = "0"
+description = "Programmable completion for Bash 4.2+"
+homepage = "https://github.com/scop/bash-completion"
+
+[source]
+url = "https://github.com/scop/bash-completion/releases/download/2.18.0/bash-completion-2.18.0.tar.xz"
+sha256 = "88bcf85124f77f74f2f2f8bcd16ac4382d807a827ede742a64940c7116aea33f"
+
+[build]
+system = "autotools"

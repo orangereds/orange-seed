@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "typical"
+version = "0.16.0"
+description = "Data interchange with algebraic data types"
+homepage = "https://github.com/stepchowfun/typical"
+
+[source]
+url = "https://github.com/stepchowfun/typical/archive/refs/tags/v0.16.0.tar.gz"
+sha256 = "ccc939b15ab5ae91ab2e9fda95cce08259092dfce7a49e579f7ff9821c748871"
+
+[build]
+system = "autotools"

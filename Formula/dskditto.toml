@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dskditto"
+version = "0.7.1"
+description = "Ultra-fast duplicate file finder TUI/GUI"
+homepage = "https://github.com/jdefrancesco/dskDitto"
+
+[source]
+url = "https://github.com/jdefrancesco/dskDitto/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "bb017dea15bcd2a4b5877b33945b299afbfec903e07e75f8f3f0ec43112a0efa"
+
+[build]
+system = "autotools"

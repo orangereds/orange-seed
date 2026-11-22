@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk"]
+
+[package]
+name = "jadx"
+version = "1.5.7"
+description = "Dex to Java decompiler"
+homepage = "https://github.com/skylot/jadx"
+
+[source]
+url = "https://github.com/skylot/jadx/archive/refs/tags/v1.5.7.tar.gz"
+sha256 = "c2ed4c394d65364447f2c8aa915de42ab9a45e638ec112918efb4c100751e194"
+
+[build]
+system = "autotools"

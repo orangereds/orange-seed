@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "openssl@4"]
+
+[package]
+name = "weave"
+version = "0.7.1"
+description = "Entity-level semantic merge driver for Git using tree-sitter"
+homepage = "https://ataraxy-labs.github.io/weave/"
+
+[source]
+url = "https://github.com/Ataraxy-Labs/weave/archive/refs/tags/v0.7.1.tar.gz"
+sha256 = "2c3c913b1b2ae8c2c90ec152211a5818828714f142436c32df6b21391ad9cc35"
+
+[build]
+system = "autotools"

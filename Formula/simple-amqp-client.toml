@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "rabbitmq-c"]
+
+[package]
+name = "simple-amqp-client"
+version = "2.5.1_14"
+description = "C++ interface to rabbitmq-c"
+homepage = "https://github.com/alanxz/SimpleAmqpClient"
+
+[source]
+url = "https://github.com/alanxz/SimpleAmqpClient/archive/refs/tags/v2.5.1.tar.gz"
+sha256 = "057c56b29390ec7659de1527f9ccbadb602e3e73048de79594521b3141ab586d"
+
+[build]
+system = "cmake"

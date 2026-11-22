@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "pyright"
+version = "1.1.414"
+description = "Static type checker for Python"
+homepage = "https://github.com/microsoft/pyright"
+
+[source]
+url = "https://registry.npmjs.org/pyright/-/pyright-1.1.414.tgz"
+sha256 = "bf5f473f6167c0d14175492c3263d783b4489a6956e1c06c18e15228e3a3fa42"
+
+[build]
+system = "autotools"

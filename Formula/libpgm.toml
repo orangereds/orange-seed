@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libpgm"
+version = "5.3.128"
+description = "Implements the PGM reliable multicast protocol"
+homepage = "https://github.com/steve-o/openpgm"
+
+[source]
+url = "https://github.com/steve-o/openpgm/archive/refs/tags/release-5-3-128.tar.gz"
+sha256 = "8d707ef8dda45f4a7bc91016d7f2fed6a418637185d76c7ab30b306499c6d393"
+
+[build]
+system = "autotools"

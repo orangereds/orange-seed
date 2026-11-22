@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "weaviate"
+version = "1.40.7"
+description = "Open-source vector database that stores both objects and vectors"
+homepage = "https://weaviate.io/developers/weaviate/"
+
+[source]
+url = "https://github.com/weaviate/weaviate/archive/refs/tags/v1.40.7.tar.gz"
+sha256 = "87baaa307608bb665645e7f553db47f423b760c4b118f91684bca358c5a4f820"
+
+[build]
+system = "autotools"

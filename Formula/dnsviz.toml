@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bind", "pkgconf", "rust", "swig", "json-c", "cryptography", "graphviz", "python@3.15"]
+
+[package]
+name = "dnsviz"
+version = "0.11.2_2"
+description = "Tools for analyzing and visualizing DNS and DNSSEC behavior"
+homepage = "https://github.com/dnsviz/dnsviz/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/50/33/de6ddf145bdb6c94ee25b33bc314af3bdbd15950c5a4647295da224ab58f/dnsviz-0.11.2.tar.gz"
+sha256 = "ca136788bd868c03b1f2653575d899ffef41a016711655c0ee65f89c1bea3514"
+
+[build]
+system = "autotools"

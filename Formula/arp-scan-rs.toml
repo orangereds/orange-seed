@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "arp-scan-rs"
+version = "0.15.1"
+description = "ARP scan tool written in Rust for fast local network scans"
+homepage = "https://github.com/kongbytes/arp-scan-rs"
+
+[source]
+url = "https://github.com/kongbytes/arp-scan-rs/archive/refs/tags/v0.15.1.tar.gz"
+sha256 = "6d478b47bdf00c2618e414d87af496892c5027a5a3d4a438ab92c084c36fa5b6"
+
+[build]
+system = "autotools"

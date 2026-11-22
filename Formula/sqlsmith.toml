@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "pkgconf", "libpq", "libpqxx"]
+
+[package]
+name = "sqlsmith"
+version = "1.5_1"
+description = "Random SQL query generator"
+homepage = "https://github.com/anse1/sqlsmith"
+
+[source]
+url = "https://github.com/anse1/sqlsmith/archive/refs/tags/v1.5.tar.gz"
+sha256 = "828ee3e816b94848627e8132d32ade6339dbcbba5469437dc9a6a8335d4dab23"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bcrypt"
+version = "1.1"
+description = "Cross platform file encryption utility using blowfish"
+homepage = "https://bcrypt.sourceforge.net/"
+
+[source]
+url = "https://bcrypt.sourceforge.net/bcrypt-1.1.tar.gz"
+sha256 = "b9c1a7c0996a305465135b90123b0c63adbb5fa7c47a24b3f347deb2696d417d"
+
+[build]
+system = "autotools"

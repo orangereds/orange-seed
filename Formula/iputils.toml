@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "libxslt"]
+
+[package]
+name = "iputils"
+version = "20250605"
+description = "Set of small useful utilities for Linux networking"
+homepage = "https://github.com/iputils/iputils"
+
+[source]
+url = "https://github.com/iputils/iputils/releases/download/20250605/iputils-20250605.zip"
+sha256 = "66a8697da6b6696e8cd69e88d69a31c7b7a7cc6d6937cd1dfc84532c23a84f14"
+
+[build]
+system = "autotools"

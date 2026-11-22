@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "boot-clj"
+version = "0_2"
+description = "Build tooling for Clojure"
+homepage = "https://boot-clj.github.io/"
+
+[source]
+url = "https://github.com/boot-clj/boot/releases/download/2.8.3/boot.jar"
+sha256 = "31f001988f580456b55a9462d95a8bf8b439956906c8aca65d3656206aa42ec7"
+
+[build]
+system = "autotools"

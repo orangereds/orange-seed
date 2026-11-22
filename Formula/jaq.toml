@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jaq"
+version = "3.2.0"
+description = "JQ clone focussed on correctness, speed, and simplicity"
+homepage = "https://github.com/01mf02/jaq"
+
+[source]
+url = "https://github.com/01mf02/jaq/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "5478dd880f98abe4fdf13e7c38289aaa98b25e063ba40e8b9e69b22e2dc64ce7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "libssh2", "openssl@4"]
+
+[package]
+name = "sheldon"
+version = "0.8.5_1"
+description = "Fast, configurable, shell plugin manager"
+homepage = "https://sheldon.cli.rs"
+
+[source]
+url = "https://github.com/rossmacarthur/sheldon/archive/refs/tags/0.8.5.tar.gz"
+sha256 = "a32e181667ec8bf235f0c50f2671d3c0d78fbdd7502a61e2f88c7deacb534b20"
+
+[build]
+system = "autotools"

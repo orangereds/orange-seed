@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tock"
+version = "2.3.0"
+description = "Powerful time tracking tool for the command-line"
+homepage = "https://github.com/kriuchkov/tock"
+
+[source]
+url = "https://github.com/kriuchkov/tock/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "6ed986f267d2d1fcb84d407c7a371f6db2304dd2960ac2d039fde7cc7784d593"
+
+[build]
+system = "autotools"

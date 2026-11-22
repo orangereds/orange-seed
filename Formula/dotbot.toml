@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "dotbot"
+version = "1.24.1"
+description = "Tool that bootstraps your dotfiles"
+homepage = "https://github.com/anishathalye/dotbot"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ce/99/905f34404698d54de29fbc1dcbb9fdc4b1bbd4b5b30207750ff5ad5b5c69/dotbot-1.24.1.tar.gz"
+sha256 = "83def50fa1625530066f105b88c2dc1c61e27536433488a12324eb0b55a14730"
+
+[build]
+system = "autotools"

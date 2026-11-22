@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "wren"
+version = "0.4.0"
+description = "Small, fast, class-based concurrent scripting language"
+homepage = "https://wren.io"
+
+[source]
+url = "https://github.com/wren-lang/wren/archive/refs/tags/0.4.0.tar.gz"
+sha256 = "23c0ddeb6c67a4ed9285bded49f7c91714922c2e7bb88f42428386bf1cf7b339"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "yadm"
+version = "3.5.0"
+description = "Yet Another Dotfiles Manager"
+homepage = "https://yadm.io/"
+
+[source]
+url = "https://github.com/yadm-dev/yadm/archive/refs/tags/3.5.0.tar.gz"
+sha256 = "2a15ed91238dd2f15db9905eb56702272c079ad9c37c505dfee69c6b5e9054b6"
+
+[build]
+system = "make"

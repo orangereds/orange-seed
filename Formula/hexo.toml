@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "hexo"
+version = "8.1.2"
+description = "Fast, simple & powerful blog framework"
+homepage = "https://hexo.io/"
+
+[source]
+url = "https://registry.npmjs.org/hexo/-/hexo-8.1.2.tgz"
+sha256 = "3ba063de1fb6ecfe5ec79d1f9ac3e886deb2f7c3f0b93fd063b8e1ef11ff97d2"
+
+[build]
+system = "autotools"

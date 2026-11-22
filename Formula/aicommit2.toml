@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "aicommit2"
+version = "2.16.0"
+description = "Reactive CLI that generates commit messages for Git and Jujutsu with AI"
+homepage = "https://github.com/tak-bro/aicommit2"
+
+[source]
+url = "https://registry.npmjs.org/aicommit2/-/aicommit2-2.16.0.tgz"
+sha256 = "0da4216b59b7caa72ac7254914c1b9f9ab2926ee2c49d84c2f0210a93acfc746"
+
+[build]
+system = "autotools"

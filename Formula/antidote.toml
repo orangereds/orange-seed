@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "antidote"
+version = "2.3.0"
+description = "Plugin manager for zsh, inspired by antigen and antibody"
+homepage = "https://antidote.sh/"
+
+[source]
+url = "https://github.com/mattmc3/antidote/archive/refs/tags/v2.3.0.tar.gz"
+sha256 = "c8b4f85d01c8c8715f279a8fed075a1e03e755e914bf1fd98688f24156fc110e"
+
+[build]
+system = "autotools"

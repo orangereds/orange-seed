@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wego"
+version = "2.4"
+description = "Weather app for the terminal"
+homepage = "https://github.com/schachmat/wego"
+
+[source]
+url = "https://github.com/schachmat/wego/archive/refs/tags/2.4.tar.gz"
+sha256 = "5ae1c76a322ff2e295034a801755c42b0cb6bdef5ab205af42cf95dbf7c570f4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openblas", "libomp"]
+
+[package]
+name = "faiss"
+version = "1.16.0"
+description = "Efficient similarity search and clustering of dense vectors"
+homepage = "https://faiss.ai"
+
+[source]
+url = "https://github.com/facebookresearch/faiss/archive/refs/tags/v1.16.0.tar.gz"
+sha256 = "4bef4f97e7e0a88c150f6c85897bdda411dd875522e7bf601ad27dfe6f55179d"
+
+[build]
+system = "cmake"

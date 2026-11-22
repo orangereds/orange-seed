@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fontconfig", "freetype", "libpng", "qtbase", "qtsvg"]
+
+[package]
+name = "xpdf"
+version = "4.06"
+description = "PDF viewer"
+homepage = "https://www.xpdfreader.com/"
+
+[source]
+url = "https://dl.xpdfreader.com/xpdf-4.06.tar.gz"
+sha256 = "1c38f527c46caee0f712386d42a885b96a31ed9ce11904e872559859894d137e"
+
+[build]
+system = "cmake"

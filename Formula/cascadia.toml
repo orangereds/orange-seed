@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cascadia"
+version = "1.5.1"
+description = "Go cascadia package command-line CSS selector"
+homepage = "https://github.com/suntong/cascadia"
+
+[source]
+url = "https://github.com/suntong/cascadia/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "228ee980bc823adf21874dc4cd76c7832fca39b48fed4b9e014927889dd7051a"
+
+[build]
+system = "autotools"

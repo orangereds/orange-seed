@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "driftwood"
+version = "1.0.1"
+description = "Private key usage verification"
+homepage = "https://trufflesecurity.com/"
+
+[source]
+url = "https://github.com/trufflesecurity/driftwood/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "655e7f5841a97820adf11b608b41f88cc93953c8c5e1d497bdbd86e5662b2621"
+
+[build]
+system = "autotools"

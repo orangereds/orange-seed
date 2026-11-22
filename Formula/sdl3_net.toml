@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "sdl3"]
+
+[package]
+name = "sdl3_net"
+version = "0"
+description = "Simple cross-platform wrapper over TCP/IP sockets"
+homepage = "https://github.com/libsdl-org/SDL_net"
+
+[source]
+url = "https://github.com/libsdl-org/SDL_net/releases/download/release-3.2.0/SDL3_net-3.2.0.tar.gz"
+sha256 = "098522fc26d4e302ef9348aee6e76e67fe504dfefd7f596236568f8330570c41"
+
+[build]
+system = "cmake"

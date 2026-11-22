@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle@8", "openjdk@21"]
+
+[package]
+name = "gssh"
+version = "2.12.0"
+description = "SSH automation tool based on Groovy DSL"
+homepage = "https://gradle-ssh-plugin.github.io/"
+
+[source]
+url = "https://github.com/int128/groovy-ssh/archive/refs/tags/2.12.0.tar.gz"
+sha256 = "b2ce4ddc0d208e90ab4e986a1b1d759955783bdf3fe046f770eba98e6e6a13a9"
+
+[build]
+system = "autotools"

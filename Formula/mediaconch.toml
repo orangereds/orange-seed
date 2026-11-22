@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "jansson", "libevent", "libmediainfo", "libzen", "sqlite"]
+
+[package]
+name = "mediaconch"
+version = "0_1"
+description = "Conformance checker and technical metadata reporter"
+homepage = "https://mediaarea.net/MediaConch"
+
+[source]
+url = "https://mediaarea.net/download/binary/mediaconch/25.04/MediaConch_CLI_25.04_GNU_FromSource.tar.bz2"
+sha256 = "800d076ca374a0c954c928f471761fb000b36b7df9d8e1d1bb03b233edff8857"
+
+[build]
+system = "autotools"

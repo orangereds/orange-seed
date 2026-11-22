@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "utf8cpp", "allegro", "freetype", "sdl3", "sdl3_image", "sdl3_ttf"]
+
+[package]
+name = "fifechan"
+version = "0.3.0"
+description = "C++ GUI library designed for games"
+homepage = "https://fifengine.github.io/fifechan/"
+
+[source]
+url = "https://github.com/fifengine/fifechan/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "8295ba2f2988f13f7c574cbc53eb1d30bc35ea78c79e53c2728ca23e30635425"
+
+[build]
+system = "cmake"

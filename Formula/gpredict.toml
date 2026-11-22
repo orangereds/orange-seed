@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gettext", "intltool", "pkgconf", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gtk+3", "hamlib", "pango", "at-spi2-core", "harfbuzz"]
+
+[package]
+name = "gpredict"
+version = "2.7"
+description = "Real-time satellite tracking/prediction application"
+homepage = "https://oz9aec.dk/gpredict/"
+
+[source]
+url = "https://github.com/csete/gpredict/releases/download/v2.7/gpredict-2.7.tar.bz2"
+sha256 = "1d58b0fc4f13173cde6f64277a8b2e36e84cf0f2a27d8b8d0e48b76780b1236c"
+
+[build]
+system = "autotools"

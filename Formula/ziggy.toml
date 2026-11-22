@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig"]
+
+[package]
+name = "ziggy"
+version = "0.3.0"
+description = "Data serialization language for expressing clear API messages, config files, etc"
+homepage = "https://ziggy-lang.io"
+
+[source]
+url = "https://github.com/kristoff-it/ziggy/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "d3eff849a43a379740990aa4004368dbd7339344caa24bd7bf384e11733196df"
+
+[build]
+system = "autotools"

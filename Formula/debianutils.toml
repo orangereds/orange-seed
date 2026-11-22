@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "po4a"]
+
+[package]
+name = "debianutils"
+version = "5.24"
+description = "Miscellaneous utilities specific to Debian"
+homepage = "https://tracker.debian.org/pkg/debianutils"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/d/debianutils/debianutils_5.24.tar.xz"
+sha256 = "bf79c301ad48e82ddb09d8c0770f6d44294ee9529ae5e54164072f7bf5c57016"
+
+[build]
+system = "autotools"

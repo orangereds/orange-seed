@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubetrim"
+version = "0.0.3"
+description = "Trim your KUBECONFIG automatically"
+homepage = "https://github.com/alexellis/kubetrim"
+
+[source]
+url = "https://github.com/alexellis/kubetrim/archive/refs/tags/v0.0.3.tar.gz"
+sha256 = "0721b0712d0184cabc3424019f161220e9ae4cc39f0eaf6cb5051ffb94d0ce80"
+
+[build]
+system = "autotools"

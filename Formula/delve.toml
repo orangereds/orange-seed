@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "delve"
+version = "1.27.2"
+description = "Debugger for the Go programming language"
+homepage = "https://github.com/go-delve/delve"
+
+[source]
+url = "https://github.com/go-delve/delve/archive/refs/tags/v1.27.2.tar.gz"
+sha256 = "8ea5979dfc5978c9690dc1dd533a830815441dd33617f4a61bcdff7d2c3c7e90"
+
+[build]
+system = "autotools"

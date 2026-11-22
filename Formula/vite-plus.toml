@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "just", "pkgconf", "pnpm", "rust", "node", "sqlite"]
+
+[package]
+name = "vite-plus"
+version = "b9c75ddc8bd50f2c1a4c7be0b548bdab5cba85ab"
+description = "Unified toolchain and entry point for web development"
+homepage = "https://viteplus.dev"
+
+[source]
+url = "https://github.com/voidzero-dev/vite-plus/archive/refs/tags/v1.7.0.tar.gz"
+sha256 = "badbb6809618cba01ae311a4cb89591e35d15dfe6fee01efbfff8cc3d1dec04d"
+
+[build]
+system = "autotools"

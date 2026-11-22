@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sidekick"
+version = "0.6.6"
+description = "Deploy applications to your VPS"
+homepage = "https://github.com/MightyMoud/sidekick"
+
+[source]
+url = "https://github.com/MightyMoud/sidekick/archive/refs/tags/v0.6.6.tar.gz"
+sha256 = "174224422622158ee78d423ac3c25bb9265914983a1f9b5b2e14543dcb0fe939"
+
+[build]
+system = "autotools"

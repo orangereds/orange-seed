@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "readline", "gettext"]
+
+[package]
+name = "hivex"
+version = "1.3.25"
+description = "Library and tools for extracting the contents of Windows Registry hive files"
+homepage = "https://libguestfs.org"
+
+[source]
+url = "https://download.libguestfs.org/hivex/hivex-1.3.25.tar.gz"
+sha256 = "10fe3b31c0c6ee8bd82749d3161321bfc2e2f3b986a77cdce1ef8987d1296605"
+
+[build]
+system = "autotools"

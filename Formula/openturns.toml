@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "nanoflann", "spectra", "cminpack", "hdf5", "highs", "ipopt", "libmpc", "mpfr", "nlopt", "pagmo", "primesieve", "tbb", "libomp"]
+
+[package]
+name = "openturns"
+version = "1.28"
+description = "Probabilistic modelling and uncertainty quantification library"
+homepage = "https://github.com/openturns/openturns"
+
+[source]
+url = "https://github.com/openturns/openturns/archive/refs/tags/v1.28.tar.gz"
+sha256 = "8d81ed39004c06b7d5e628daca545a09e4f6b04f790ce33acd4146473b61e1fa"
+
+[build]
+system = "cmake"

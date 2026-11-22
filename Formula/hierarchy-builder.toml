@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rocq", "rocq-elpi"]
+
+[package]
+name = "hierarchy-builder"
+version = "1.10.3_7"
+description = "High level commands to declare a hierarchy based on packed classes"
+homepage = "https://github.com/math-comp/hierarchy-builder"
+
+[source]
+url = "https://github.com/math-comp/hierarchy-builder/releases/download/v1.10.3/hierarchy-builder-1.10.3.tar.gz"
+sha256 = "577597528f25d217baee91040cc5d7e5f621be7e7a629cccf295e337f73a6d45"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "virtctl"
+version = "1.10.0"
+description = "Allows for using more advanced kubevirt features"
+homepage = "https://kubevirt.io/"
+
+[source]
+url = "https://github.com/kubevirt/kubevirt/archive/refs/tags/v1.10.0.tar.gz"
+sha256 = "46727930fcf14b3985f072369e79de1c1e61d0b9d2b52e5905e0f172f814fe5c"
+
+[build]
+system = "autotools"

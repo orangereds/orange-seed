@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dtools", "dub", "ldc"]
+
+[package]
+name = "dpp"
+version = "0_1"
+description = "Directly include C headers in D source code"
+homepage = "https://github.com/atilaneves/dpp"
+
+[source]
+url = "https://github.com/atilaneves/dpp.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

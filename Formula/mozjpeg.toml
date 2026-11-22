@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpng", "nasm"]
+
+[package]
+name = "mozjpeg"
+version = "4.1.5"
+description = "Improved JPEG encoder"
+homepage = "https://github.com/mozilla/mozjpeg"
+
+[source]
+url = "https://github.com/mozilla/mozjpeg/archive/refs/tags/v4.1.5.tar.gz"
+sha256 = "9fcbb7171f6ac383f5b391175d6fb3acde5e64c4c4727274eade84ed0998fcc1"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

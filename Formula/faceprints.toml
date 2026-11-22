@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "faceprints"
+version = "1.1.2"
+description = "Detect and label images of faces using local Vision.framework models"
+homepage = "https://github.com/Nexuist/faceprints"
+
+[source]
+url = "https://github.com/Nexuist/faceprints/archive/refs/tags/1.1.2.tar.gz"
+sha256 = "ce42a7b6d5f8c7fa8d4d11641f923e703f53bc01707991970923fd90b723d663"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "stormy"
+version = "0.3.3"
+description = "Minimal, customizable and neofetch-like weather CLI based on rainy"
+homepage = "https://github.com/ashish0kumar/stormy"
+
+[source]
+url = "https://github.com/ashish0kumar/stormy/archive/refs/tags/v0.3.3.tar.gz"
+sha256 = "b53d479643599c733090ebf54eebd582eb3fe5faf5148015770f0ab594dc6464"
+
+[build]
+system = "autotools"

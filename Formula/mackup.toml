@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "mackup"
+version = "0.11.3"
+description = "Keep your Mac's application settings in sync"
+homepage = "https://github.com/lra/mackup"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b3/57/21289b0d607e0bef6942bb8debe62c83e93855d6e7bb64148f53205bac87/mackup-0.11.3.tar.gz"
+sha256 = "efb0d6e33abb4437cb3d382ae4255348ea7e5ea437a33d40ec03869b54bde381"
+
+[build]
+system = "autotools"

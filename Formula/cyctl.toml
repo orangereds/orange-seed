@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cyctl"
+version = "0.21.1"
+description = "Customizable UI for Kubernetes workloads"
+homepage = "https://cyclops-ui.com/"
+
+[source]
+url = "https://github.com/cyclops-ui/cyclops/archive/refs/tags/v0.21.1.tar.gz"
+sha256 = "f5c14b153cac83b6cd401eed86df219dce0fd4a8843858104cb470bdf691a714"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "lz4", "snappy", "zstd"]
+
+[package]
+name = "wiredtiger"
+version = "11.3.1"
+description = "High performance NoSQL extensible platform for data management"
+homepage = "https://source.wiredtiger.com/"
+
+[source]
+url = "https://github.com/wiredtiger/wiredtiger/archive/refs/tags/11.3.1.tar.gz"
+sha256 = "ac0417c10cecc686baff5fdc00a7872003fc007993163bafba387fad903d5091"
+
+[build]
+system = "cmake"

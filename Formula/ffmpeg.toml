@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "dav1d", "lame", "libvmaf", "libvpx", "openssl@4", "opus", "sdl2-compat", "svt-av1", "x264", "x265", "xz", "nasm"]
+
+[package]
+name = "ffmpeg"
+version = "9.0.2_1"
+description = "Play, record, convert, and stream select audio and video codecs"
+homepage = "https://ffmpeg.org/"
+
+[source]
+url = "https://ffmpeg.org/releases/ffmpeg-9.0.2.tar.xz"
+sha256 = "8c3850283eb25fa026482078a04051e0be17347b09ef81a0849bec15a96e002e"
+
+[build]
+system = "autotools"

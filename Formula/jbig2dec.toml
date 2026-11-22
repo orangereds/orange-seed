@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "jbig2dec"
+version = "0.20"
+description = "JBIG2 decoder and library (for monochrome documents)"
+homepage = "https://github.com/ArtifexSoftware/jbig2dec"
+
+[source]
+url = "https://github.com/ArtifexSoftware/jbig2dec/releases/download/0.20/jbig2dec-0.20.tar.gz"
+sha256 = "7b63ff6470289547e7a3a0f145cb8ea6c2afffdd65645b7d87d3b7febc96fb3a"
+
+[build]
+system = "autotools"

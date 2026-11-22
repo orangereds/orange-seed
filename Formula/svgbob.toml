@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "svgbob"
+version = "0.7.6"
+description = "Convert your ascii diagram scribbles into happy little SVG"
+homepage = "https://ivanceras.github.io/svgbob-editor/"
+
+[source]
+url = "https://github.com/ivanceras/svgbob/archive/refs/tags/0.7.6.tar.gz"
+sha256 = "d5b5fc4a04e9efc1cd313c84a8f843d8221718b34e8d3e135e97d44b81317bbf"
+
+[build]
+system = "autotools"

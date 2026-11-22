@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "treecc"
+version = "0.3.10"
+description = "Aspect-oriented approach to writing compilers"
+homepage = "https://gnu.org/software/dotgnu/treecc/treecc.html"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/dotgnu-pnet/treecc-0.3.10.tar.gz"
+sha256 = "5e9d20a6938e0c6fedfed0cabc7e9e984024e4881b748d076e8c75f1aeb6efe7"
+
+[build]
+system = "autotools"

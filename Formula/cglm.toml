@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "cglm"
+version = "0.9.7"
+description = "Optimized OpenGL/Graphics Math (glm) for C"
+homepage = "https://github.com/recp/cglm"
+
+[source]
+url = "https://github.com/recp/cglm/archive/refs/tags/v0.9.7.tar.gz"
+sha256 = "cc0862eee2885d2a2b4870eb29b97c6e9b9ebc7c66e8854e1fa8f3d18d9d8475"
+
+[build]
+system = "autotools"

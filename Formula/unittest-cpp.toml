@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "unittest-cpp"
+version = "2.0.0"
+description = "Unit testing framework for C++"
+homepage = "https://github.com/unittest-cpp/unittest-cpp"
+
+[source]
+url = "https://github.com/unittest-cpp/unittest-cpp/releases/download/v2.0.0/unittest-cpp-2.0.0.tar.gz"
+sha256 = "1d1b118518dc200e6b87bbf3ae7bfd00a0cfc6be708255f98e5e3d627a7c9f98"
+
+[build]
+system = "autotools"

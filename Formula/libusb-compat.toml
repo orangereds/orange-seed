@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libusb"]
+
+[package]
+name = "libusb-compat"
+version = "0.1.9"
+description = "Library for USB device access"
+homepage = "https://libusb.info/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/libusb/libusb-compat-0.1/libusb-compat-0.1.9/libusb-compat-0.1.9.tar.bz2"
+sha256 = "179d934676ad3bd172a5a37cf5c6351b8e9d7816feb3029252e79b30a518a3be"
+
+[build]
+system = "autotools"

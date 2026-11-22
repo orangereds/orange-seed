@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["byacc", "libtool", "gettext"]
+
+[package]
+name = "libxo"
+version = "2.3.0"
+description = "Allows an application to generate text, XML, JSON, and HTML output"
+homepage = "https://juniper.github.io/libxo/libxo-manual.html"
+
+[source]
+url = "https://github.com/Juniper/libxo/releases/download/2.3.0/libxo-2.3.0.tar.gz"
+sha256 = "f688acfbad07ba14826871437b0431bc0425d5732457013af5aff07236810f65"
+
+[build]
+system = "autotools"

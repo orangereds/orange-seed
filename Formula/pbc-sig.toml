@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "pbc"]
+
+[package]
+name = "pbc-sig"
+version = "0"
+description = "Signatures library"
+homepage = "https://crypto.stanford.edu/pbc/sig/"
+
+[source]
+url = "https://crypto.stanford.edu/pbc/sig/files/pbc_sig-0.0.8.tar.gz"
+sha256 = "7a343bf342e709ea41beb7090c78078a9e57b833454c695f7bcad2475de9c4bb"
+
+[build]
+system = "autotools"

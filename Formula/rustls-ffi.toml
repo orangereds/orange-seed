@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cargo-c", "pkgconf", "rust"]
+
+[package]
+name = "rustls-ffi"
+version = "0.15.7"
+description = "FFI bindings for the rustls TLS library"
+homepage = "https://github.com/rustls/rustls-ffi"
+
+[source]
+url = "https://github.com/rustls/rustls-ffi/archive/refs/tags/v0.15.7.tar.gz"
+sha256 = "7dc4335663bc904a5eae4d2a1099dff476873152b1859da16570e766a701a3bb"
+
+[build]
+system = "autotools"

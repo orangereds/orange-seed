@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gdbm", "mpdecimal", "openssl@3", "readline", "sqlite", "xz"]
+
+[package]
+name = "python@3.9"
+version = "0"
+description = "Interpreted, interactive, object-oriented programming language"
+homepage = "https://www.python.org/"
+
+[source]
+url = "https://www.python.org/ftp/python/3.9.25/Python-3.9.25.tar.xz"
+sha256 = "00e07d7c0f2f0cc002432d1ee84d2a40dae404a99303e3f97701c10966c91834"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libyaml", "python@3.15"]
+
+[package]
+name = "octodns"
+version = "1.22.0_1"
+description = "Tools for managing DNS across multiple providers"
+homepage = "https://github.com/octodns/octodns"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d7/dc/7459cfb9f3bf85aa541b1b3283f0d9749e82be3d70b03129409b72b4f0e2/octodns-1.22.0.tar.gz"
+sha256 = "b880ece209a19f33edc05ec13db55abee844e4a851978a19c48b4e3ef317bbf0"
+
+[build]
+system = "autotools"

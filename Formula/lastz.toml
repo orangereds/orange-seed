@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lastz"
+version = "1.04.60"
+description = "Pairwise aligner for DNA sequences"
+homepage = "https://lastz.github.io/lastz/"
+
+[source]
+url = "https://github.com/lastz/lastz/archive/refs/tags/1.04.60.tar.gz"
+sha256 = "e66bb419a6599861b1d48c3b209d3746e8008c3ddde33f0dfeaa76e634bccebf"
+
+[build]
+system = "autotools"

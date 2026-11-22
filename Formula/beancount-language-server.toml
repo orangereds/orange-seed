@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "beancount-language-server"
+version = "1.9.2"
+description = "Language server for beancount files"
+homepage = "https://github.com/polarmutex/beancount-language-server"
+
+[source]
+url = "https://github.com/polarmutex/beancount-language-server/archive/refs/tags/1.9.2.tar.gz"
+sha256 = "f2673b169e4d9fbb1cba4f47d8d90452023fb19921fda5565375ec9020317498"
+
+[build]
+system = "autotools"

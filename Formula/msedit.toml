@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "msedit"
+version = "2.0.0"
+description = "Simple text editor with clickable interface"
+homepage = "https://github.com/microsoft/edit"
+
+[source]
+url = "https://github.com/microsoft/edit/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "f35da309c5f3d92b10e5c4b2267e4d5e29d809b2aa460e80326b11f7feba72a5"
+
+[build]
+system = "autotools"

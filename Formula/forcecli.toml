@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "forcecli"
+version = "1.18.0"
+description = "Command-line interface to Force.com"
+homepage = "https://force-cli.herokuapp.com/"
+
+[source]
+url = "https://github.com/ForceCLI/force/archive/refs/tags/v1.18.0.tar.gz"
+sha256 = "934459399466fefd4544412887e26aee881edb66524597ed952cc4714ae68afa"
+
+[build]
+system = "autotools"

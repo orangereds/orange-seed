@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "airtable-mcp-server"
+version = "1.14.0"
+description = "MCP Server for Airtable"
+homepage = "https://github.com/domdomegg/airtable-mcp-server"
+
+[source]
+url = "https://registry.npmjs.org/airtable-mcp-server/-/airtable-mcp-server-1.14.0.tgz"
+sha256 = "8ab37fe6ed7504d6bcf9026d524ce6e09995916e91a5dc997768a9fcdeb54c87"
+
+[build]
+system = "autotools"

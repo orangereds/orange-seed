@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libsodium"
+version = "1.0.22"
+description = "NaCl networking and cryptography library"
+homepage = "https://libsodium.org/"
+
+[source]
+url = "https://download.libsodium.org/libsodium/releases/libsodium-1.0.22.tar.gz"
+sha256 = "adbdd8f16149e81ac6078a03aca6fc03b592b89ef7b5ed83841c086191be3349"
+
+[build]
+system = "autotools"

@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "icu4c@79"
+version = "0"
+description = "C/C++ and Java libraries for Unicode and globalization"
+homepage = "https://icu.unicode.org/home"
+
+[source]
+url = "https://github.com/unicode-org/icu/releases/download/release-79.1/icu4c-79.1-sources.tgz"
+sha256 = "06fa63ecb521048f8082f12ad988f6b678d90cbd88aafce24cbc94902b191d99"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

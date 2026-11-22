@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor"]
+
+[package]
+name = "ascii"
+version = "3.33"
+description = "List ASCII idiomatic names and octal/decimal code-point forms"
+homepage = "http://www.catb.org/~esr/ascii/"
+
+[source]
+url = "https://gitlab.com/esr/ascii/-/archive/3.33/ascii-3.33.tar.bz2"
+sha256 = "db92154ed708d88feef02440debe3a2011a2e7e77507f5698092722b15170a60"
+
+[build]
+system = "make"

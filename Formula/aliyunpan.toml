@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aliyunpan"
+version = "0.4.0"
+description = "Command-line client tool for Alibaba aDrive disk"
+homepage = "https://github.com/tickstep/aliyunpan"
+
+[source]
+url = "https://github.com/tickstep/aliyunpan/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "b68726a13bcaba6353b1c89950695a71397ad2c722aa25750b82583701121fdd"
+
+[build]
+system = "autotools"

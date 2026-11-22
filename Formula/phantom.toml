@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "phantom"
+version = "0"
+description = "CLI tool for seamless parallel development with Git worktrees"
+homepage = "https://github.com/phantompane/phantom"
+
+[source]
+url = "https://registry.npmjs.org/@phantompane/cli/-/cli-6.3.2.tgz"
+sha256 = "afba106435c636faf3e634b2be26f380277745bf150b49e0c1d9e366bff10a9c"
+
+[build]
+system = "autotools"

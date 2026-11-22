@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "flac", "lame", "libogg", "libpng", "libsndfile", "libvorbis", "mad", "opusfile"]
+
+[package]
+name = "sox"
+version = "14.4.2_6"
+description = "SOund eXchange: universal sound sample translator"
+homepage = "https://sox.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sox/sox/14.4.2/sox-14.4.2.tar.gz"
+sha256 = "b45f598643ffbd8e363ff24d61166ccec4836fea6d3888881b8df53e3bb55f6c"
+
+[build]
+system = "autotools"

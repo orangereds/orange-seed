@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "extra-cmake-modules", "gettext", "ki18n", "qttools", "docbook-xsl", "karchive", "qtbase"]
+
+[package]
+name = "kdoctools"
+version = "6.32.0"
+description = "Create documentation from DocBook"
+homepage = "https://l10n.kde.org/docs/doc-primer/"
+
+[source]
+url = "https://download.kde.org/stable/frameworks/6.32/kdoctools-6.32.0.tar.xz"
+sha256 = "431b6cb8c419576ed86d38a2488db35c26b720abf7b6f9bc2cfd28056229a10d"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "liblockfile"
+version = "1.17.orig"
+description = "Library providing functions to lock standard mailboxes"
+homepage = "https://tracker.debian.org/pkg/liblockfile"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/libl/liblockfile/liblockfile_1.17.orig.tar.gz"
+sha256 = "6e937f3650afab4aac198f348b89b1ca42edceb17fb6bb0918f642143ccfd15e"
+
+[build]
+system = "autotools"

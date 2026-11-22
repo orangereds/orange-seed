@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libfuse@2", "libzip"]
+
+[package]
+name = "fuse-zip"
+version = "0.7.2"
+description = "FUSE file system to create & manipulate ZIP archives"
+homepage = "https://bitbucket.org/agalanin/fuse-zip"
+
+[source]
+url = "https://bitbucket.org/agalanin/fuse-zip/downloads/fuse-zip-0.7.2.tar.gz"
+sha256 = "3dd0be005677442f1fd9769a02dfc0b4fcdd39eb167e5697db2f14f4fee58915"
+
+[build]
+system = "autotools"

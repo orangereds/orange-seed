@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libdeflate"]
+
+[package]
+name = "ptex"
+version = "2.5.4"
+description = "Texture mapping system"
+homepage = "https://ptex.us/"
+
+[source]
+url = "https://github.com/wdas/ptex/archive/refs/tags/v2.5.4.tar.gz"
+sha256 = "435c116ea5bbe6f0054f8227e204d255b2d91bf35786b007c77a894c729c1fbc"
+
+[build]
+system = "cmake"

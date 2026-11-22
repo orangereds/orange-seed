@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libusb-compat"]
+
+[package]
+name = "garmintools"
+version = "0.10"
+description = "Interface to the Garmin Forerunner GPS units"
+homepage = "https://code.google.com/archive/p/garmintools/"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/garmintools/garmintools-0.10.tar.gz"
+sha256 = "ffd50b7f963fa9b8ded3223c4786b07906c887ed900de64581a24ff201444cee"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "karakeep"
+version = "0"
+description = "CLI tool for self-hostable bookmark-everything app karakeep"
+homepage = "https://karakeep.app/"
+
+[source]
+url = "https://registry.npmjs.org/@karakeep/cli/-/cli-0.35.0.tgz"
+sha256 = "ed03903db20b24f6a26c01b91956dc264a4a5d1b34fd6d8fe5ba1d2a1fd5402b"
+
+[build]
+system = "autotools"

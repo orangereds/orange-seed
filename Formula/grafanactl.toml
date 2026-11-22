@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "grafanactl"
+version = "0.1.10"
+description = "CLI to interact with Grafana"
+homepage = "https://grafana.github.io/grafanactl/"
+
+[source]
+url = "https://github.com/grafana/grafanactl/archive/refs/tags/v0.1.10.tar.gz"
+sha256 = "c3a3fef02f073aa92fb7b62c6f60a26e80fe794cf158f86830fe38ff053035fd"
+
+[build]
+system = "autotools"

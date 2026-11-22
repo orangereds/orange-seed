@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "go-md2man"]
+
+[package]
+name = "gokey"
+version = "0.2.1"
+description = "Simple vaultless password manager in Go"
+homepage = "https://github.com/cloudflare/gokey"
+
+[source]
+url = "https://github.com/cloudflare/gokey/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "b9f03491efa3b3481fc78246f62c6786ba19e9c9c8c36461cc8b949081f5896d"
+
+[build]
+system = "autotools"

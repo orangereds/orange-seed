@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "supabase-mcp-server"
+version = "0"
+description = "MCP Server for Supabase"
+homepage = "https://supabase.com/docs/guides/getting-started/mcp"
+
+[source]
+url = "https://registry.npmjs.org/@supabase/mcp-server-supabase/-/mcp-server-supabase-0.19.0.tgz"
+sha256 = "9eae249cd877c1f426c0dff75ec34866ac2ae33b1a816a48314fe91be4f37b94"
+
+[build]
+system = "autotools"

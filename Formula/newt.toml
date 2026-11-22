@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "python@3.15", "popt", "s-lang", "gettext"]
+
+[package]
+name = "newt"
+version = "0.52.25_2"
+description = "Library for color text mode, widget based user interfaces"
+homepage = "https://gitlab.com/newt-ui/newt"
+
+[source]
+url = "https://gitlab.com/newt-ui/newt/-/releases/0.52.25/downloads/newt-0.52.25.tar.gz"
+sha256 = "ef0ca9ee27850d1a5c863bb7ff9aa08096c9ed312ece9087b30f3a426828de82"
+
+[build]
+system = "autotools"

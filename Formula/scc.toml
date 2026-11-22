@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "scc"
+version = "4.1.0"
+description = "Fast and accurate code counter with complexity and COCOMO estimates"
+homepage = "https://github.com/boyter/scc/"
+
+[source]
+url = "https://github.com/boyter/scc/archive/refs/tags/v4.1.0.tar.gz"
+sha256 = "4f3cf36010c542b10d5582afb91c668b26889160b184deee21b4319347030a7c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cbc", "cgl", "clp", "coinutils", "gecode", "osi"]
+
+[package]
+name = "minizinc"
+version = "2.11.0"
+description = "Medium-level constraint modeling language"
+homepage = "https://www.minizinc.org/"
+
+[source]
+url = "https://github.com/MiniZinc/libminizinc/archive/refs/tags/2.11.0.tar.gz"
+sha256 = "9c88aa270864d78c4f39437533796f5bf60bf71bec78f02685742b2c44aeba26"
+
+[build]
+system = "cmake"

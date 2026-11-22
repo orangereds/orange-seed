@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "flecs"
+version = "4.2.0"
+description = "Fast entity component system for C & C++"
+homepage = "https://www.flecs.dev"
+
+[source]
+url = "https://github.com/SanderMertens/flecs/archive/refs/tags/v4.2.0.tar.gz"
+sha256 = "4107b0a36aa25f80ddcd6f939451ccfe1bacafcccdd2695840a4a8c413d05b40"
+
+[build]
+system = "cmake"

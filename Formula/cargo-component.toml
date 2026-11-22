@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-component"
+version = "0.21.1"
+description = "Create WebAssembly components based on the component model proposal"
+homepage = "https://github.com/bytecodealliance/cargo-component"
+
+[source]
+url = "https://github.com/bytecodealliance/cargo-component/archive/refs/tags/v0.21.1.tar.gz"
+sha256 = "04ded8443b34687641d0bf01fa682ce46c1a9300af3f13ea5cf1bf5487d6f8b1"
+
+[build]
+system = "autotools"

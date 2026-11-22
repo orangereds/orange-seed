@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "sonar-scanner"
+version = "0"
+description = "Launcher to analyze a project with SonarQube"
+homepage = "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
+
+[source]
+url = "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-8.5.0.16571.zip"
+sha256 = "4d0e8b2631974c90427a4085dd6ca8be7e3587de2055a69a96d020941e3a629e"
+
+[build]
+system = "autotools"

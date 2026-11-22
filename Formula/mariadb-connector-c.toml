@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4", "zstd"]
+
+[package]
+name = "mariadb-connector-c"
+version = "3.4.11-src_1"
+description = "MariaDB database connector for C applications"
+homepage = "https://mariadb.org/download/?tab=connector&prod=connector-c"
+
+[source]
+url = "https://archive.mariadb.org/connector-c-3.4.11/mariadb-connector-c-3.4.11-src.tar.gz"
+sha256 = "521c0712e9291fa96558df9e2ff431376a3a79329f13751896b694cae12765b4"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

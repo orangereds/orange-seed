@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "shortest"
+version = "0.4.9"
+description = "AI-powered natural language end-to-end testing framework"
+homepage = "https://shortest.com"
+
+[source]
+url = "https://registry.npmjs.org/@antiwork/shortest/-/shortest-0.4.9.tgz"
+sha256 = "0e239bceeda97a65178b7e4b6be16cc88c67e047eeb71bfd2da04441156180f8"
+
+[build]
+system = "autotools"

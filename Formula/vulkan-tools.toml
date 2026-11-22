@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "glslang", "vulkan-headers", "vulkan-loader", "molten-vk"]
+
+[package]
+name = "vulkan-tools"
+version = "0"
+description = "Vulkan utilities and tools"
+homepage = "https://github.com/KhronosGroup/Vulkan-Tools"
+
+[source]
+url = "https://github.com/KhronosGroup/Vulkan-Tools/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "6cbeb83294434e636a0c78760f1a6dfe3e50c1bab0cffa154603ce73e70508f1"
+
+[build]
+system = "autotools"

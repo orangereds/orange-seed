@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["m4", "pkgconf", "bzip2", "xz", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "elfutils"
+version = "0.197"
+description = "Libraries and utilities for handling ELF objects"
+homepage = "https://fedorahosted.org/elfutils/"
+
+[source]
+url = "https://sourceware.org/elfutils/ftp/0.197/elfutils-0.197.tar.bz2"
+sha256 = "1fdf525f22dcf796d99a99ba3ea00a1f7b1ae5421bc62e8443a708920b99b904"
+
+[build]
+system = "autotools"

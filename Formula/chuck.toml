@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chuck"
+version = "1.5.5.9"
+description = "Concurrent, on-the-fly audio programming language"
+homepage = "https://chuck.cs.princeton.edu/"
+
+[source]
+url = "https://chuck.cs.princeton.edu/release/files/chuck-1.5.5.9.tgz"
+sha256 = "b3e9f3e752d2c7a8d3eb9f359c70fc624de12a2278b3facdffb902439fa3943c"
+
+[build]
+system = "autotools"

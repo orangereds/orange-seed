@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wait4x"
+version = "3.7.3"
+description = "Wait for a port or a service to enter the requested state"
+homepage = "https://wait4x.dev"
+
+[source]
+url = "https://github.com/wait4x/wait4x/archive/refs/tags/v3.7.3.tar.gz"
+sha256 = "4fbb68d1387128fed8d8072761e021f67853668287c37bfc7f52d6561dbf5f3e"
+
+[build]
+system = "autotools"

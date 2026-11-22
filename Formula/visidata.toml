@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "visidata"
+version = "3.5"
+description = "Terminal spreadsheet multitool for discovering and arranging data"
+homepage = "https://www.visidata.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d9/1c/df4179d28dd544646e643e1608cb1dd54ffed6cb00259880e65617452273/visidata-3.5.tar.gz"
+sha256 = "0ed3d90688d5310664a728446afb8e5ff4ef366aa71fb1c75d0002fa1170bd81"
+
+[build]
+system = "autotools"

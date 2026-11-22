@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "sourcedocs"
+version = "2.0.1"
+description = "Generate Markdown files from inline source code documentation"
+homepage = "https://github.com/SourceDocs/SourceDocs"
+
+[source]
+url = "https://github.com/SourceDocs/SourceDocs/archive/refs/tags/2.0.1.tar.gz"
+sha256 = "07547c929071124264ec9cc601331f21dc67a104ffc76fbc1801c1ecb4c35bbf"
+
+[build]
+system = "autotools"

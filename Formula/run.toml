@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "run"
+version = "0.11.2"
+description = "Easily manage and invoke small scripts and wrappers"
+homepage = "https://github.com/TekWizely/run"
+
+[source]
+url = "https://github.com/TekWizely/run/archive/refs/tags/v0.11.2.tar.gz"
+sha256 = "942427701caa99a9a3a6458a121b5c80b424752ea8701b26083841de5ae43ff6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "hadolint"
+version = "2.15.1"
+description = "Smarter Dockerfile linter to validate best practices"
+homepage = "https://github.com/hadolint/hadolint"
+
+[source]
+url = "https://hackage.haskell.org/package/hadolint-2.15.1/hadolint-2.15.1.tar.gz"
+sha256 = "53a210184be82bd273fb298c0887a84e7d6c1d08fcdfc376373235c0c786bb27"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "twitch-cli"
+version = "1.1.25"
+description = "CLI to make developing on Twitch easier"
+homepage = "https://github.com/twitchdev/twitch-cli"
+
+[source]
+url = "https://github.com/twitchdev/twitch-cli/archive/refs/tags/v1.1.25.tar.gz"
+sha256 = "63d13cd54b64e17237650d7aaadb1453fe28565f54111be056beb24d58831c67"
+
+[build]
+system = "autotools"

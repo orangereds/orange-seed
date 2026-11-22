@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "berkeley-db@5", "gpgme", "libarchive", "libgpg-error", "xz", "zstd", "gcc"]
+
+[package]
+name = "reprepro"
+version = "5.5.1.orig"
+description = "Debian package repository manager"
+homepage = "https://salsa.debian.org/debian/reprepro"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/r/reprepro/reprepro_5.5.1.orig.tar.xz"
+sha256 = "475754c864e3285ad77545792b3eae0196dbb3d01498fca5c5fb30b04a72a977"
+
+[build]
+system = "autotools"

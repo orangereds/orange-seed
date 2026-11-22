@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aliddns"
+version = "0.0.23"
+description = "Aliyun(Alibaba Cloud) ddns for golang"
+homepage = "https://github.com/OpenIoTHub/aliddns"
+
+[source]
+url = "https://github.com/OpenIoTHub/aliddns/archive/refs/tags/v0.0.23.tar.gz"
+sha256 = "d763db6238581f3efc297ad8fbd9af6eb5bd62a30e211db0275173359159dbe5"
+
+[service]
+run = "opt/aliddns/bin/aliddns -c etc/aliddns/aliddns.yaml"
+keep_alive = true
+log_path = "var/log/aliddns.log"
+error_log_path = "var/log/aliddns.log"
+
+[build]
+system = "autotools"

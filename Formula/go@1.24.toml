@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go@1.24"
+version = "0_1"
+description = "Open source programming language to build simple/reliable/efficient software"
+homepage = "https://go.dev/"
+
+[source]
+url = "https://go.dev/dl/go1.24.13.src.tar.gz"
+sha256 = "639a6204c2486b137df1eb6e78ee3ed038f9877d0e4b5a465e796a2153f858d7"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

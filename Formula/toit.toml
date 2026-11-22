@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja"]
+
+[package]
+name = "toit"
+version = "2.0.0-with-submodules"
+description = "High-level programming language and SDK"
+homepage = "https://toitlang.org/"
+
+[source]
+url = "https://github.com/toitlang/toit/releases/download/v2.0.0/toit-v2.0.0-with-submodules.tar.gz"
+sha256 = "9851b8230031503a737b20c75113546598ae69d89a5ea45b0a084764309a8798"
+
+[build]
+system = "cmake"

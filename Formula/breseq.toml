@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "bowtie2", "r"]
+
+[package]
+name = "breseq"
+version = "0.40.3-Source"
+description = "Computational pipeline for finding mutations in short-read DNA resequencing data"
+homepage = "https://barricklab.org/breseq"
+
+[source]
+url = "https://github.com/barricklab/breseq/releases/download/v0.40.3/breseq-0.40.3-Source.tar.gz"
+sha256 = "547769032d69af08a155985844ce314081368792cd48d7747631b332a37d291d"
+
+[build]
+system = "autotools"

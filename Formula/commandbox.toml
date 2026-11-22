@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "commandbox"
+version = "0"
+description = "CFML embedded server, package manager, and app scaffolding tools"
+homepage = "https://www.ortussolutions.com/products/commandbox"
+
+[source]
+url = "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.3.5/commandbox-bin-6.3.5.zip"
+sha256 = "f8f5d31843724108f034a68d404d77a934d281108e1e21d510ae5b5a5db796f8"
+
+[build]
+system = "autotools"

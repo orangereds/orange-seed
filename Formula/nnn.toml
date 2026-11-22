@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-sed", "ncurses", "readline"]
+
+[package]
+name = "nnn"
+version = "5.3"
+description = "Tiny, lightning fast, feature-packed file manager"
+homepage = "https://github.com/jarun/nnn"
+
+[source]
+url = "https://github.com/jarun/nnn/archive/refs/tags/v5.3.tar.gz"
+sha256 = "79ee69f3ced7c0778d207df76b4d4d680636975ccda002eeb19d0917fcba3d36"
+
+[build]
+system = "make"

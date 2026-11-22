@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "eas-cli"
+version = "27.11.0"
+description = "Command-line tool for working with Expo Application Services"
+homepage = "https://docs.expo.dev/eas/"
+
+[source]
+url = "https://registry.npmjs.org/eas-cli/-/eas-cli-27.11.0.tgz"
+sha256 = "b4d159a7c202a0ddf9e96f63f9cc8a571811f63f341cefa0f0194881526a2be8"
+
+[build]
+system = "autotools"

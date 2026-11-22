@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "unyaffs"
+version = "0.9.7.orig_1"
+description = "Extract files from a YAFFS2 filesystem image"
+homepage = "https://packages.debian.org/sid/unyaffs"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/u/unyaffs/unyaffs_0.9.7.orig.tar.gz"
+sha256 = "099ee9e51046b83fe8555d7a6284f6fe4fbae96be91404f770443d8129bd8775"
+
+[build]
+system = "autotools"

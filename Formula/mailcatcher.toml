@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libyaml", "openssl@4", "ruby"]
+
+[package]
+name = "mailcatcher"
+version = "0.11.0_1"
+description = "Catches mail and serves it through a dream"
+homepage = "https://mailcatcher.me"
+
+[source]
+url = "https://github.com/sj26/mailcatcher/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "d8b704a7699bca68ac89f99ca40234120099683d58eb0646d1ab16bf06c7c593"
+
+[service]
+run = "opt/mailcatcher/bin/mailcatcher -f"
+keep_alive = true
+log_path = "var/log/mailcatcher.log"
+error_log_path = "var/log/mailcatcher.log"
+
+[build]
+system = "autotools"

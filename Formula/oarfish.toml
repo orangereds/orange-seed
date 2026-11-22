@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "oarfish"
+version = "0.13.0.crate"
+description = "Long read RNA-seq quantification"
+homepage = "https://github.com/COMBINE-lab/oarfish"
+
+[source]
+url = "https://static.crates.io/crates/oarfish/oarfish-0.13.0.crate"
+sha256 = "9395a23b206f9bd5e6c3eda72208641c58ce76f97f10cc42f4a9554d623e280c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "abseil", "libsodium", "openssl@4", "protobuf"]
+
+[package]
+name = "et"
+version = "7.1.1"
+description = "Remote terminal with IP roaming"
+homepage = "https://mistertea.github.io/EternalTerminal/"
+
+[source]
+url = "https://github.com/MisterTea/EternalTerminal/archive/refs/tags/et-v7.1.1.tar.gz"
+sha256 = "7f5ab26f5cc18e66184d806648a2437c447b549ca106a7e6107f793435e39270"
+
+[service]
+run = "opt/et/bin/etserver --cfgfile etc/et.cfg"
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/et/etserver.log"
+error_log_path = "var/log/et/etserver.err"
+
+[build]
+system = "cmake"

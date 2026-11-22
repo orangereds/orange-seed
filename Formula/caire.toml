@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "caire"
+version = "1.6.0"
+description = "Content aware image resize tool"
+homepage = "https://github.com/esimov/caire"
+
+[source]
+url = "https://github.com/esimov/caire/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "98fd9cd213b2e08abd5e9542b3149dfcb67827c8dc21fab9d3deabe1575537fe"
+
+[build]
+system = "autotools"

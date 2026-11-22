@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "ghostscript", "graphviz", "libpaper", "netpbm", "psutils", "libgcrypt", "coreutils", "groff"]
+
+[package]
+name = "srecord"
+version = "1.65.0-Source"
+description = "Tools for manipulating EPROM load files"
+homepage = "https://srecord.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/srecord/srecord/1.65/srecord-1.65.0-Source.tar.gz"
+sha256 = "81c3d07cf15ce50441f43a82cefd0ac32767c535b5291bcc41bd2311d1337644"
+
+[build]
+system = "cmake"

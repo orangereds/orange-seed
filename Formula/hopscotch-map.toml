@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "hopscotch-map"
+version = "2.4.0"
+description = "C++ implementation of a fast hash map and hash set using hopscotch hashing"
+homepage = "https://github.com/Tessil/hopscotch-map"
+
+[source]
+url = "https://github.com/Tessil/hopscotch-map/archive/refs/tags/v2.4.0.tar.gz"
+sha256 = "c147d1f6af9559c0e91af3ecf62274404ce5fb35ce94d2234c080ccc7a5913de"
+
+[build]
+system = "cmake"

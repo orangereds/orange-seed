@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "errcheck"
+version = "1.30.0"
+description = "Finds silently ignored errors in Go code"
+homepage = "https://github.com/kisielk/errcheck"
+
+[source]
+url = "https://github.com/kisielk/errcheck/archive/refs/tags/v1.30.0.tar.gz"
+sha256 = "0c7b3bfdc9cc659d87c6ed72eb8980e4740e2990a6243a6e67743394ea1c20ff"
+
+[build]
+system = "autotools"

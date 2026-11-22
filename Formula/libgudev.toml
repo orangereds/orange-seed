@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "systemd"]
+
+[package]
+name = "libgudev"
+version = "238"
+description = "GObject bindings for libudev"
+homepage = "https://gitlab.gnome.org/GNOME/libgudev"
+
+[source]
+url = "https://download.gnome.org/sources/libgudev/238/libgudev-238.tar.xz"
+sha256 = "61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1"
+
+[build]
+system = "autotools"

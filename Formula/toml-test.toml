@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "toml-test"
+version = "2.2.0"
+description = "Language agnostic test suite for TOML parsers"
+homepage = "https://github.com/toml-lang/toml-test"
+
+[source]
+url = "https://github.com/toml-lang/toml-test/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "fdab2779b3902eb08030f389a5d53e95c5b49404149ac6f2eda5227a5363c232"
+
+[build]
+system = "autotools"

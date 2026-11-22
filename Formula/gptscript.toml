@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gptscript"
+version = "0.9.9"
+description = "Develop LLM Apps in Natural Language"
+homepage = "https://docs.gptscript.ai/"
+
+[source]
+url = "https://github.com/gptscript-ai/gptscript/archive/refs/tags/v0.9.9.tar.gz"
+sha256 = "1f875ca3da55f1c2d697807a375dba517ad5f49a2b1115d22590b2bcd968548e"
+
+[build]
+system = "autotools"

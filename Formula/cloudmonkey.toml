@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloudmonkey"
+version = "6.6.0"
+description = "Apache CloudStack CloudMonkey CLI"
+homepage = "https://github.com/apache/cloudstack-cloudmonkey"
+
+[source]
+url = "https://github.com/apache/cloudstack-cloudmonkey/archive/refs/tags/6.6.0.tar.gz"
+sha256 = "fdebc87604f8047d9b88ed03b6a9b50bf039242726e5e8e80b42e82fd7d326e7"
+
+[build]
+system = "autotools"

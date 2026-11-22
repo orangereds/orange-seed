@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "aom", "jpeg-turbo", "libde265", "libpng", "libtiff", "webp", "x265"]
+
+[package]
+name = "libheif"
+version = "1.23.7"
+description = "ISO/IEC 23008-12:2017 HEIF file format decoder and encoder"
+homepage = "https://www.libde265.org/"
+
+[source]
+url = "https://github.com/strukturag/libheif/releases/download/v1.23.7/libheif-1.23.7.tar.gz"
+sha256 = "f7483e818503ea6224c8863e4a56ac02c7089021a98472c811c12aa19faf2475"
+
+[build]
+system = "cmake"

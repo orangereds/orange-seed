@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "node", "pkgconf", "python@3.15", "qttools", "libpng", "qtbase", "qtdeclarative", "qtpositioning", "qtwebchannel"]
+
+[package]
+name = "qtwebengine"
+version = "0"
+description = "Provides functionality for rendering regions of dynamic web content"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qtwebengine/6.140/6.140.0/src/qtwebengine-everywhere-src-6.140.0.tar.xz"
+sha256 = "82352854a1d01dfe6abeefaf023554e4722c1d7df48ba3ce0078f6c0a9c7e1a3"
+
+[build]
+system = "make"

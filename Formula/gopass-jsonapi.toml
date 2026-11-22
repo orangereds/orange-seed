@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "gopass"]
+
+[package]
+name = "gopass-jsonapi"
+version = "1.17.4"
+description = "Gopass Browser Bindings"
+homepage = "https://github.com/gopasspw/gopass-jsonapi"
+
+[source]
+url = "https://github.com/gopasspw/gopass-jsonapi/archive/refs/tags/v1.17.4.tar.gz"
+sha256 = "5cc12a3894a60fc3b0233344636638fcb04a0e834912247160e333878a60e37f"
+
+[build]
+system = "autotools"

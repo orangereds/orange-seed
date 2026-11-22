@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "readline"]
+
+[package]
+name = "abook"
+version = "0.6.2"
+description = "Address book with mutt support"
+homepage = "https://abook.sourceforge.io/"
+
+[source]
+url = "https://abook.sourceforge.io/devel/abook-0.6.2.tar.gz"
+sha256 = "2d6bde2d2d03523f164f930e4fdec6025f3a94abe48a43706f543880a1a21ebe"
+
+[build]
+system = "autotools"

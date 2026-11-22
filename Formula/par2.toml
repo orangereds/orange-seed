@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "par2"
+version = "0"
+description = "Parchive: Parity Archive Volume Set for data recovery"
+homepage = "https://parchive.github.io"
+
+[source]
+url = "https://github.com/Parchive/par2cmdline/releases/download/v2.0.0/par2cmdline-2.0.0.tar.bz2"
+sha256 = "93b8403d6304bcfbfe5bc5a619099496bfe3510c48b73dae6c26127eeaa91cbb"
+
+[build]
+system = "cmake"

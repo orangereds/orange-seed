@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "rttr"
+version = "0.9.6-src"
+description = "C++ Reflection Library"
+homepage = "https://www.rttr.org"
+
+[source]
+url = "https://github.com/rttrorg/rttr/releases/download/v0.9.6/rttr-0.9.6-src.zip"
+sha256 = "d6853be1bfc38da6fb4512ae4c0a116662f86fa81a6b2aab1c4dada2c16f375f"
+
+[build]
+system = "cmake"

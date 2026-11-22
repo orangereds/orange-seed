@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "wakatime-cli"
+version = "0"
+description = "Command-line interface to the WakaTime api"
+homepage = "https://wakatime.com/"
+
+[source]
+url = "https://github.com/wakatime/wakatime-cli.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

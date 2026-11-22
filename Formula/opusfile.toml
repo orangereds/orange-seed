@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libogg", "openssl@4", "opus"]
+
+[package]
+name = "opusfile"
+version = "0.12_3"
+description = "API for decoding and seeking in .opus files"
+homepage = "https://www.opus-codec.org/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/opus/opusfile-0.12.tar.gz"
+sha256 = "118d8601c12dd6a44f52423e68ca9083cc9f2bfe72da7a8c1acb22a80ae3550b"
+
+[build]
+system = "autotools"

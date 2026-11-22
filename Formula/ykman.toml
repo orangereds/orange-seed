@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "swig", "cryptography", "python@3.15"]
+
+[package]
+name = "ykman"
+version = "0"
+description = "Tool for managing your YubiKey configuration"
+homepage = "https://developers.yubico.com/yubikey-manager/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1f/ab/5b0671484bcdac6cf383ba6682626ab23478889fab5fe7a1744ed78a33c4/yubikey_manager-5.9.2.tar.gz"
+sha256 = "9584c7377449e6487140da6c3f13a289e618b0023c8414be91c1c212fce3c473"
+
+[build]
+system = "autotools"

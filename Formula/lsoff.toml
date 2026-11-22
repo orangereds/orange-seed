@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "lsoff"
+version = "0.1.6"
+description = "List listening TCP and UDP ports"
+homepage = "https://github.com/yutat23/lsoff"
+
+[source]
+url = "https://github.com/yutat23/lsoff/archive/refs/tags/v0.1.6.tar.gz"
+sha256 = "d6acf3cace6fce7d56e02c3310023fb9bebf82d8a99ff672f1c4270141c25641"
+
+[build]
+system = "autotools"

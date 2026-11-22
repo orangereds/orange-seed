@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "topicctl"
+version = "2.0.2"
+description = "Declarative Kafka topic management"
+homepage = "https://github.com/segmentio/topicctl"
+
+[source]
+url = "https://github.com/segmentio/topicctl/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "fb97094222529c018917a0ac29cfd139b6991a168634eb067f7eb4b26b8424b5"
+
+[build]
+system = "autotools"

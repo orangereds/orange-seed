@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "vbindiff"
+version = "3.0_beta5"
+description = "Visual Binary Diff"
+homepage = "https://www.cjmweb.net/vbindiff/"
+
+[source]
+url = "https://www.cjmweb.net/vbindiff/vbindiff-3.0_beta5.tar.gz"
+sha256 = "f04da97de993caf8b068dcb57f9de5a4e7e9641dc6c47f79b60b8138259133b8"
+
+[build]
+system = "autotools"

@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf"]
+
+[package]
+name = "swift-protobuf"
+version = "0"
+description = "Plugin and runtime library for using protobuf with Swift"
+homepage = "https://github.com/apple/swift-protobuf"
+
+[source]
+url = "https://github.com/apple/swift-protobuf.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

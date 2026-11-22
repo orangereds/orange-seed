@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4", "xerces-c"]
+
+[package]
+name = "xml-security-c"
+version = "3.0.0_1"
+description = "Implementation of primary security standards for XML"
+homepage = "https://santuario.apache.org/"
+
+[source]
+url = "https://shibboleth.net/downloads/xml-security-c/3.0.0/xml-security-c-3.0.0.tar.bz2"
+sha256 = "a4c9e1ae3ed3e8dab5d82f4dbdb8414bcbd0199a562ad66cd7c0cd750804ff32"
+
+[build]
+system = "autotools"

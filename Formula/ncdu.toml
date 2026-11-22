@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "zig@0.15", "ncurses", "zstd"]
+
+[package]
+name = "ncdu"
+version = "2.9.2"
+description = "NCurses Disk Usage"
+homepage = "https://dev.yorhel.nl/ncdu"
+
+[source]
+url = "https://dev.yorhel.nl/download/ncdu-2.9.2.tar.gz"
+sha256 = "e91135281cb66569f2ca4c0bac277246991e7e52524c0ca8cba3de5c8e81cec9"
+
+[build]
+system = "autotools"

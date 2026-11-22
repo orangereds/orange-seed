@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libevent", "libnghttp2", "openssl@4"]
+
+[package]
+name = "unbound"
+version = "1.26.2"
+description = "Validating, recursive, caching DNS resolver"
+homepage = "https://www.unbound.net"
+
+[source]
+url = "https://nlnetlabs.nl/downloads/unbound/unbound-1.26.2.tar.gz"
+sha256 = "d8ee7aa6bbb3ff1be7d9e57637d0d0ec2f18273a8efff1a0afe2c665858b96f7"
+
+[service]
+run = "unbound -d -c etc/unbound/unbound.conf"
+keep_alive = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "gnu-sed", "libtool"]
+
+[package]
+name = "hercules"
+version = "0"
+description = "System/370, ESA/390 and z/Architecture Emulator"
+homepage = "https://sdl-hercules-390.github.io/html/"
+
+[source]
+url = "https://github.com/SDL-Hercules-390/hyperion/archive/refs/tags/Release_4.9.1.tar.gz"
+sha256 = "22768fee6a949c31fed075886dffc7d81ac89ffc3d2f5cb2fc971e71be1c22a7"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "doctest"
+version = "2.5.3"
+description = "Feature-rich C++11/14/17/20/23 single-header testing framework"
+homepage = "https://github.com/doctest/doctest"
+
+[source]
+url = "https://github.com/doctest/doctest/archive/refs/tags/v2.5.3.tar.gz"
+sha256 = "174ebc4e769928959614789c5b4e9c3d0a0f81a62bb608756b127bfebfb21331"
+
+[build]
+system = "cmake"

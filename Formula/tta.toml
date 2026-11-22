@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tta"
+version = "0"
+description = "Lossless audio codec"
+homepage = "https://sourceforge.net/projects/tta/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tta/tta/libtta/libtta-2.2.tar.gz"
+sha256 = "1723424d75b3cda907ff68abf727bb9bc0c23982ea8f91ed1cc045804c1435c4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node"]
+
+[package]
+name = "copilot"
+version = "1.34.1"
+description = "CLI tool for Amazon ECS and AWS Fargate"
+homepage = "https://aws.github.io/copilot-cli/"
+
+[source]
+url = "https://github.com/aws/copilot-cli/archive/refs/tags/v1.34.1.tar.gz"
+sha256 = "42f37960360063a9a277d40d9e1c0b284bc49a12dbf996696551154737d94475"
+
+[build]
+system = "autotools"

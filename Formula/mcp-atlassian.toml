@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "mcp-atlassian"
+version = "0"
+description = "MCP server for Atlassian tools (Confluence, Jira)"
+homepage = "https://github.com/sooperset/mcp-atlassian"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8b/52/2ca072889113094182377c9543ab45e36b26a5aa2723d34a4170423d740e/mcp_atlassian-0.24.7.tar.gz"
+sha256 = "e4dcb0f575451817d405d3defb898b4d585260a6f9d7b042c3efdfd3f42aaa98"
+
+[build]
+system = "autotools"

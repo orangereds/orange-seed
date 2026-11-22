@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "trivy"
+version = "0.76.2"
+description = "Vulnerability scanner for container images, file systems, and Git repos"
+homepage = "https://trivy.dev/"
+
+[source]
+url = "https://github.com/aquasecurity/trivy/archive/refs/tags/v0.76.2.tar.gz"
+sha256 = "ea2670e94696508b12687e1f8ac35a6fe529893e351b7e38362c4a385ff2db9a"
+
+[build]
+system = "autotools"

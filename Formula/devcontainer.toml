@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "devcontainer"
+version = "0"
+description = "Reference implementation for the Development Containers specification"
+homepage = "https://containers.dev"
+
+[source]
+url = "https://registry.npmjs.org/@devcontainers/cli/-/cli-0.91.0.tgz"
+sha256 = "d83e2291a799818ea8abfba634f0bb699f05a8df21376feefb07bb631844f41f"
+
+[build]
+system = "autotools"

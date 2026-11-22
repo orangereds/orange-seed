@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "wrkflw"
+version = "0.8.0"
+description = "Validate and execute GitHub Actions workflows locally"
+homepage = "https://github.com/bahdotsh/wrkflw"
+
+[source]
+url = "https://github.com/bahdotsh/wrkflw/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "79d63da0c40cfb884600b671830d63bb6cf143f1d8e65886e067a747491c23b4"
+
+[build]
+system = "autotools"

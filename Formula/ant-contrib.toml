@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant"]
+
+[package]
+name = "ant-contrib"
+version = "1.0b3-bin"
+description = "Collection of tasks for Apache Ant"
+homepage = "https://ant-contrib.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3-bin.tar.gz"
+sha256 = "6e58c2ee65e1f4df031796d512427ea213a92ae40c5fc0b38d8ac82701f42a3c"
+
+[build]
+system = "autotools"

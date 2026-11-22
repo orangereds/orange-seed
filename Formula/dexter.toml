@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@19", "libpq", "ruby"]
+
+[package]
+name = "dexter"
+version = "0.6.3_1"
+description = "Automatic indexer for Postgres"
+homepage = "https://github.com/ankane/dexter"
+
+[source]
+url = "https://github.com/ankane/dexter/archive/refs/tags/v0.6.3.tar.gz"
+sha256 = "5aca9fcb671170bda6ae8a9b6d563a4813237412a658f614bb48c8caf6067f78"
+
+[build]
+system = "autotools"

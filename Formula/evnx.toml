@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "evnx"
+version = "0.15.0"
+description = "Comprehensive CLI tool for managing .env files"
+homepage = "https://evnx.dev"
+
+[source]
+url = "https://github.com/urwithajit9/evnx/archive/refs/tags/v0.15.0.tar.gz"
+sha256 = "51ea8c32699cc2eda5b5f7cc81e1e47a5d64a0287d9c443fdf695ad0ed267a9b"
+
+[build]
+system = "autotools"

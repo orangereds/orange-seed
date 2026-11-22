@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxcb", "libxext", "libxi", "libxtst"]
+
+[package]
+name = "xdpyinfo"
+version = "1.4.0"
+description = "X.Org: Utility for displaying information about an X server"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/app/xdpyinfo-1.4.0.tar.xz"
+sha256 = "dc1de6e6e091ed46c4837b0ae9811e8182f7be0d2af638cab3e530ff081a48b6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15", "llvm"]
+
+[package]
+name = "gimme-aws-creds"
+version = "0_17"
+description = "CLI to retrieve AWS credentials from Okta"
+homepage = "https://github.com/Nike-Inc/gimme-aws-creds"
+
+[source]
+url = "https://files.pythonhosted.org/packages/63/73/9e508d37d4d301f6a3811fdc0b0a076696de87f82ad8a81ec28c3e6befb5/gimme_aws_creds-2.8.2.tar.gz"
+sha256 = "12784f4b749617d7391bf2056373990277858dc9886328832b545e9e334f24d3"
+
+[build]
+system = "autotools"

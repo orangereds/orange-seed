@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "exomizer"
+version = "3.1.2"
+description = "File compressor optimized for decompression in 8-bit environments"
+homepage = "https://bitbucket.org/magli143/exomizer/"
+
+[source]
+url = "https://bitbucket.org/magli143/exomizer/get/3.1.2.tar.gz"
+sha256 = "01713f2ee39efc86cbe54bb6011613e097efc3bc532cdc640809e7589cd9c043"
+
+[build]
+system = "autotools"

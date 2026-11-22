@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xorgproto", "xtrans", "freetype", "libfontenc"]
+
+[package]
+name = "libxfont2"
+version = "0"
+description = "X11 font rasterisation library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXfont2-2.0.10.tar.gz"
+sha256 = "f43ccbc4c65f24ee1d5130cf96e0f2146f34c41461d461625804df995809f5e5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["nspr"]
+
+[package]
+name = "nss"
+version = "3.134"
+description = "Libraries for security-enabled client and server applications"
+homepage = "https://firefox-source-docs.mozilla.org/security/nss/index.html"
+
+[source]
+url = "https://ftp.mozilla.org/pub/security/nss/releases/NSS_3_134_RTM/src/nss-3.134.tar.gz"
+sha256 = "bb3b300b457f44da9a9486917c3b33bbc5935ae3cdf60aa759a6880889439c50"
+
+[build]
+system = "autotools"

@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "questdb"
+version = "10.2.0-no-jre-bin"
+description = "Time Series Database"
+homepage = "https://questdb.io"
+
+[source]
+url = "https://github.com/questdb/questdb/releases/download/10.2.0/questdb-10.2.0-no-jre-bin.tar.gz"
+sha256 = "04998781fbdf3fb96f1112e3fbe8fd22843f490bca46ab6ce2b351c482235498"
+
+[service]
+run = "opt/questdb/bin/questdb start -d var/questdb -n -f"
+working_dir = "var/questdb"
+log_path = "var/log/questdb.log"
+error_log_path = "var/log/questdb.log"
+
+[build]
+system = "autotools"

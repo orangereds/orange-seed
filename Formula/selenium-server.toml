@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "selenium-server"
+version = "4.53.0.jar"
+description = "Browser automation for testing purposes"
+homepage = "https://www.selenium.dev/"
+
+[source]
+url = "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.53.0/selenium-server-4.53.0.jar"
+sha256 = "3d1d38c7f20db8c96c82e34b83bd1296cd8a3f9eb66073462c7c1b5877634c36"
+
+[service]
+run = "opt/selenium-server/bin/selenium-server standalone --port 4444"
+log_path = "var/log/selenium-output.log"
+error_log_path = "var/log/selenium-error.log"
+
+[build]
+system = "autotools"

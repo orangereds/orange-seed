@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "acpica"
+version = "0"
+description = "OS-independent implementation of the ACPI specification"
+homepage = "https://github.com/acpica/acpica"
+
+[source]
+url = "https://github.com/acpica/acpica/releases/download/20260408/acpica-unix2-20260408.tar.gz"
+sha256 = "5fcef9f0d00ffaffaaa82aa49c5ea9687986e8a7bd60929e298cc99a6741ae24"
+
+[build]
+system = "make"

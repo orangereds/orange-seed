@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "util-macros", "xorgproto", "libx11", "libxext", "libxv"]
+
+[package]
+name = "libxvmc"
+version = "0"
+description = "X.Org: X-Video Motion Compensation API"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXvMC-1.0.15.tar.xz"
+sha256 = "4f518afde3d7fd435346af7b368d2f73517f3d5f82647c962caf3f7bb8ff7078"
+
+[build]
+system = "autotools"

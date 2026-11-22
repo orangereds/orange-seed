@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oasdiff"
+version = "1.39.0"
+description = "OpenAPI Diff and Breaking Changes"
+homepage = "https://www.oasdiff.com/"
+
+[source]
+url = "https://github.com/oasdiff/oasdiff/archive/refs/tags/v1.39.0.tar.gz"
+sha256 = "cff06211dc3dd5c1ac2a3adced517a3baf840c5681d54b693763ff4856f6b6c0"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "coreutils", "gnu-sed"]
+
+[package]
+name = "abcm2ps"
+version = "0"
+description = "ABC music notation software"
+homepage = "http://moinejf.free.fr"
+
+[source]
+url = "https://chiselapp.com/user/moinejf/repository/abcm2ps/tarball/v8.14.18/download.tar.gz"
+sha256 = "d1f1100b525f0f0ae00d706d0b4ebc01df279312b3b32cf20f355f1430f36c0a"
+
+[build]
+system = "autotools"

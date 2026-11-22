@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpq"]
+
+[package]
+name = "libpqxx"
+version = "12"
+description = "C++ connector for PostgreSQL"
+homepage = "https://pqxx.org/development/libpqxx/"
+
+[source]
+url = "https://github.com/jtv/libpqxx/archive/refs/tags/8.0.2.tar.gz"
+sha256 = "028c5fba4982e759fe182af1103ccd08b02bb4e1f9f12a551e01d21cac0c4440"
+
+[build]
+system = "cmake"

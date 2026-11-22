@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "gitu"
+version = "0.44.0"
+description = "TUI Git client inspired by Magit"
+homepage = "https://github.com/altsem/gitu"
+
+[source]
+url = "https://github.com/altsem/gitu/archive/refs/tags/v0.44.0.tar.gz"
+sha256 = "4749822d6561690c37ba45c56b81582979798ae93acd704b850b834ca6b73c02"
+
+[build]
+system = "autotools"

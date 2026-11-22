@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kargo"
+version = "1.12.6"
+description = "Multi-Stage GitOps Continuous Promotion"
+homepage = "https://kargo.io/"
+
+[source]
+url = "https://github.com/akuity/kargo/archive/refs/tags/v1.12.6.tar.gz"
+sha256 = "25f8c6ef79c238de24da1fadfe914431fd847c83dcfbd7a01ed7c00b4b291706"
+
+[build]
+system = "autotools"

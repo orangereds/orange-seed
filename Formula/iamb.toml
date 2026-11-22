@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "iamb"
+version = "0.13.1"
+description = "Matrix client for Vim addicts"
+homepage = "https://iamb.chat"
+
+[source]
+url = "https://github.com/ulyssa/iamb/archive/refs/tags/v0.13.1.tar.gz"
+sha256 = "8e919c19ef90f328d20e6e46720a26f0dea6e61901b8180fedbbacb473f131f1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cowsay"
+version = "3.8.4"
+description = "Apjanke's fork of the classic cowsay project"
+homepage = "https://cowsay.diamonds"
+
+[source]
+url = "https://github.com/cowsay-org/cowsay/archive/refs/tags/v3.8.4.tar.gz"
+sha256 = "c15bc10712835d3a9bcda780dc9453362567bf48d1185905dc7ef2334d79aadd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tippecanoe"
+version = "2.79.0"
+description = "Build vector tilesets from collections of GeoJSON features"
+homepage = "https://github.com/felt/tippecanoe"
+
+[source]
+url = "https://github.com/felt/tippecanoe/archive/refs/tags/2.79.0.tar.gz"
+sha256 = "b0fd9df49b6efc988288ea48774822c6de19eb48428017f27ee0b3b01d44f05d"
+
+[build]
+system = "make"

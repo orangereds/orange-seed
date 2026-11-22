@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "xaric"
+version = "0.13.10"
+description = "IRC client"
+homepage = "https://xaric.org/"
+
+[source]
+url = "https://xaric.org/software/xaric/releases/xaric-0.13.10.tar.gz"
+sha256 = "8f270165f3b12cffb5bacf2dcdd507e2939bd4815936cf670a1fb68142b341b0"
+
+[build]
+system = "autotools"

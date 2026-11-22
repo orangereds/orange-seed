@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cypher-shell", "openjdk@21"]
+
+[package]
+name = "neo4j"
+version = "0"
+description = "Robust (fully ACID) transactional property graph database"
+homepage = "https://neo4j.com/"
+
+[source]
+url = "https://neo4j.com/artifact.php?name=neo4j-community-2026.10.2-unix.tar.gz"
+sha256 = "fcbccee832175fd8b873ca7d8228dbde4cb5cce43f9053833cc7517dc4dd6f31"
+
+[service]
+run = "opt/neo4j/bin/neo4j console"
+working_dir = "var/neo4j"
+log_path = "var/log/neo4j.log"
+error_log_path = "var/log/neo4j.log"
+
+[build]
+system = "autotools"

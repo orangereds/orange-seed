@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "glm", "mdds", "pkgconf", "librevenge"]
+
+[package]
+name = "libetonyek"
+version = "0.1.13_1"
+description = "Interpret and import Apple Keynote presentations"
+homepage = "https://wiki.documentfoundation.org/DLP/Libraries/libetonyek"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libetonyek/libetonyek-0.1.13.tar.xz"
+sha256 = "032b71cb597edd92a0b270b916188281bc35be55296b263f6817b29adbcb1709"
+
+[build]
+system = "autotools"

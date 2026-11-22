@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hexapoda"
+version = "1.0.0"
+description = "Colorful modal hex editor"
+homepage = "https://simonomi.dev/hexapoda"
+
+[source]
+url = "https://github.com/simonomi/hexapoda/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "33c57a7bfbfab6401b94ef369262a8b8a9cde53371b032bb5c630677d26b0940"
+
+[build]
+system = "autotools"

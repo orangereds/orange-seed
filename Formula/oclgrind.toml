@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "readline", "llvm@19", "zstd"]
+
+[package]
+name = "oclgrind"
+version = "26.03.1_1"
+description = "OpenCL device simulator and debugger"
+homepage = "https://github.com/jrprice/Oclgrind"
+
+[source]
+url = "https://github.com/jrprice/Oclgrind/archive/refs/tags/v26.03.1.tar.gz"
+sha256 = "d21a705a2b71491b1505f34a50e14f9666516d1654c0e6745983408bb300e4c2"
+
+[build]
+system = "cmake"

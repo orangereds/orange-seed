@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sendemail"
+version = "1.56.orig"
+description = "Email program for sending SMTP mail"
+homepage = "http://caspian.dotconf.net/menu/Software/SendEmail/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/s/sendemail/sendemail_1.56.orig.tar.gz"
+sha256 = "6dd7ef60338e3a26a5e5246f45aa001054e8fc984e48202e4b0698e571451ac0"
+
+[build]
+system = "autotools"

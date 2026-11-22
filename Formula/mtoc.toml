@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm"]
+
+[package]
+name = "mtoc"
+version = "0"
+description = "Mach-O to PE/COFF binary converter"
+homepage = "https://opensource.apple.com/"
+
+[source]
+url = "https://github.com/apple-oss-distributions/cctools/archive/refs/tags/cctools-1035.1.102.tar.gz"
+sha256 = "1867fa0204c139f8073689b0d0785454b152b367762ff07ec9f316c97da1969b"
+
+[build]
+system = "autotools"

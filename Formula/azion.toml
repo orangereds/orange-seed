@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "azion"
+version = "4.26.2"
+description = "CLI for the Azion service"
+homepage = "https://github.com/aziontech/azion"
+
+[source]
+url = "https://github.com/aziontech/azion/archive/refs/tags/4.26.2.tar.gz"
+sha256 = "ed3da22048d5add0433863ba5de6340e5ecf2bc5bffc6d9c70736ffccc1d0447"
+
+[build]
+system = "autotools"

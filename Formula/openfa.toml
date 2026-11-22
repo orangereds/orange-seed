@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "openfa"
+version = "20231011.0.3"
+description = "Set of algorithms that implement standard models used in fundamental astronomy"
+homepage = "https://gitlab.obspm.fr/imcce_openfa/openfa"
+
+[source]
+url = "https://gitlab.obspm.fr/imcce_openfa/openfa/-/archive/20231011.0.3/openfa-20231011.0.3.tar.gz"
+sha256 = "e49de042025537e5cfd9ee55b28e58658efbda05e49fdc1fa90e2d347ee5d696"
+
+[build]
+system = "cmake"

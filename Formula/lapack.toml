@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc"]
+
+[package]
+name = "lapack"
+version = "3.12.1_1"
+description = "Linear Algebra PACKage"
+homepage = "https://www.netlib.org/lapack/"
+
+[source]
+url = "https://github.com/Reference-LAPACK/lapack/archive/refs/tags/v3.12.1.tar.gz"
+sha256 = "2ca6407a001a474d4d4d35f3a61550156050c48016d949f0da0529c0aa052422"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

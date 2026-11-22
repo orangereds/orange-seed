@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ndiff"
+version = "2.00"
+description = "Virtual package provided by nmap"
+homepage = "https://www.math.utah.edu/~beebe/software/ndiff/"
+
+[source]
+url = "https://ftp.math.utah.edu/pub/misc/ndiff-2.00.tar.gz"
+sha256 = "f2bbd9a2c8ada7f4161b5e76ac5ebf9a2862cab099933167fe604b88f000ec2c"
+
+[build]
+system = "autotools"

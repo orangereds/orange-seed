@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tinysvm"]
+
+[package]
+name = "yamcha"
+version = "0.33"
+description = "NLP text chunker using Support Vector Machines"
+homepage = "http://chasen.org/~taku/software/yamcha/"
+
+[source]
+url = "https://cdn.netbsd.org/pub/pkgsrc/distfiles/yamcha-0.33.tar.gz"
+sha256 = "413d4fc0a4c13895f5eb1468e15c9d2828151882f27aea4daf2399c876be27d5"
+
+[build]
+system = "autotools"

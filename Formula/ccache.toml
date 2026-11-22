@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "cmake", "cpp-httplib", "doctest", "pkgconf", "span-lite", "tl-expected", "blake3", "fmt", "hiredis", "openssl@4", "xxhash", "zstd", "llvm"]
+
+[package]
+name = "ccache"
+version = "4.14.3"
+description = "Object-file caching compiler wrapper"
+homepage = "https://ccache.dev/"
+
+[source]
+url = "https://github.com/ccache/ccache/releases/download/v4.14.3/ccache-4.14.3.tar.xz"
+sha256 = "e1999132cf7dbce48de7d946b767f3e26ea09adcb5daa4a7103a8fa09ee0637d"
+
+[build]
+system = "cmake"

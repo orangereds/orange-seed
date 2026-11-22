@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "hdf5", "netcdf", "zstd"]
+
+[package]
+name = "netcdf-cxx"
+version = "4.3.2"
+description = "C++ libraries and utilities for NetCDF"
+homepage = "https://www.unidata.ucar.edu/software/netcdf/"
+
+[source]
+url = "https://github.com/Unidata/netcdf-cxx4/archive/refs/tags/v4.3.2.tar.gz"
+sha256 = "f7afc1a69b5d82b3892a2d4cf2823767657a5e51a8c1170bf14b0fc6648cf2b8"
+
+[build]
+system = "cmake"

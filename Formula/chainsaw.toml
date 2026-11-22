@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "chainsaw"
+version = "2.18.0"
+description = "Rapidly Search and Hunt through Windows Forensic Artefacts"
+homepage = "https://github.com/WithSecureLabs/chainsaw"
+
+[source]
+url = "https://github.com/WithSecureLabs/chainsaw/archive/refs/tags/v2.18.0.tar.gz"
+sha256 = "2f30875fac34ca8482ddf3de888949f94a5983cda35e4ee81abe78e19175c87e"
+
+[build]
+system = "autotools"

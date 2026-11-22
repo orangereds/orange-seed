@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "python@3.15", "zstd"]
+
+[package]
+name = "swift"
+version = "6.4.3-RELEASE"
+description = "High-performance system programming language"
+homepage = "https://www.swift.org"
+
+[source]
+url = "https://github.com/swiftlang/swift/archive/refs/tags/swift-6.4.3-RELEASE.tar.gz"
+sha256 = "bb81b230b21c408b5dd9aae46063961a129c7fbf1b68e844fef4f1871c96a5f2"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

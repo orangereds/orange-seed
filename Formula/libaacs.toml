@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "bison", "libgcrypt", "libgpg-error"]
+
+[package]
+name = "libaacs"
+version = "0.12.0"
+description = "Implements the Advanced Access Content System specification"
+homepage = "https://www.videolan.org/developers/libaacs.html"
+
+[source]
+url = "https://get.videolan.org/libaacs/0.12.0/libaacs-0.12.0.tar.bz2"
+sha256 = "1996673a9fc45ee4a364c66ffa84756629bf3923e52346c7358b71becb8e4419"
+
+[build]
+system = "autotools"

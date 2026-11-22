@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm"]
+
+[package]
+name = "nift"
+version = "4.12.0"
+description = "Fast dependency-aware website generator"
+homepage = "https://nift.dev/"
+
+[source]
+url = "https://github.com/nift-dev/nift/archive/refs/tags/v4.12.0.tar.gz"
+sha256 = "5ed1468cefdc1b908f161a4492a74c9910618e10bcf8cbce5afb175c7ed378cd"
+
+[build]
+system = "make"

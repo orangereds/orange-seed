@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "dbus", "glib", "pcre", "raptor", "rasqal", "readline", "gettext"]
+
+[package]
+name = "fourstore"
+version = "1.1.7"
+description = "Efficient, stable RDF database"
+homepage = "https://4store.github.io"
+
+[source]
+url = "https://github.com/4store/4store/archive/refs/tags/v1.1.7.tar.gz"
+sha256 = "e511f1adb094e2506545d4773a6005a462f6b4532731e91f1115b038ab25a8f0"
+
+[build]
+system = "autotools"

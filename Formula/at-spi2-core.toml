@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "xorgproto", "dbus", "glib", "libx11", "libxi", "libxtst"]
+
+[package]
+name = "at-spi2-core"
+version = "2.62.1"
+description = "Protocol definitions and daemon for D-Bus at-spi"
+homepage = "https://www.freedesktop.org/wiki/Accessibility/AT-SPI2/"
+
+[source]
+url = "https://download.gnome.org/sources/at-spi2-core/2.62/at-spi2-core-2.62.1.tar.xz"
+sha256 = "cca6b6a86e4389d89b370288761ce2385ddeceb10c4412da78689bc30c88af2d"
+
+[build]
+system = "autotools"

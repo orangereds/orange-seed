@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo", "libpng", "libtiff"]
+
+[package]
+name = "tiff2png"
+version = "0.92_3"
+description = "TIFF to PNG converter"
+homepage = "http://www.libpng.org/pub/png/apps/tiff2png.html"
+
+[source]
+url = "https://github.com/rillian/tiff2png/archive/refs/tags/v0.92.tar.gz"
+sha256 = "64e746560b775c3bd90f53f1b9e482f793d80ea6e7f5d90ce92645fd1cd27e4a"
+
+[build]
+system = "autotools"

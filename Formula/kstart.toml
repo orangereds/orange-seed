@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "kstart"
+version = "4.3"
+description = "Modified version of kinit that can use keytabs to authenticate"
+homepage = "https://www.eyrie.org/~eagle/software/kstart/"
+
+[source]
+url = "https://archives.eyrie.org/software/kerberos/kstart-4.3.tar.xz"
+sha256 = "7a3388ae79927c6698dc1bf20b29717e6bc34f692e00f12b3369d896f6702060"
+
+[build]
+system = "autotools"

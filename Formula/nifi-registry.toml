@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "nifi-registry"
+version = "0"
+description = "Centralized storage & management of NiFi/MiNiFi shared resources"
+homepage = "https://nifi.apache.org/projects/registry"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=/nifi/2.12.0/nifi-registry-2.12.0-bin.zip"
+sha256 = "0107bf0054e0a73ec6ff2957c7f0c48aa854e5a7d349864fb24917588ead9d69"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cmix"
+version = "21"
+description = "Data compression program with high compression ratio"
+homepage = "https://www.byronknoll.com/cmix.html"
+
+[source]
+url = "https://github.com/byronknoll/cmix/archive/refs/tags/v21.tar.gz"
+sha256 = "c0ff50f24604121bd7ccb843045c0946db1077cfb9ded10fe4c181883e6dbb42"
+
+[build]
+system = "autotools"

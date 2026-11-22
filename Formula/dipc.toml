@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dipc"
+version = "1.2.0"
+description = "Convert your favorite images/wallpapers with your favorite color palettes/themes"
+homepage = "https://github.com/doprz/dipc"
+
+[source]
+url = "https://github.com/doprz/dipc/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "3cc4e46cb6531b4b903d2c1a209c19667acac34d91caff5967600ed51c4bebc0"
+
+[build]
+system = "autotools"

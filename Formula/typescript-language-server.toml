@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "typescript"]
+
+[package]
+name = "typescript-language-server"
+version = "6.1.0"
+description = "Language Server Protocol implementation for TypeScript wrapping tsserver"
+homepage = "https://github.com/typescript-language-server/typescript-language-server"
+
+[source]
+url = "https://registry.npmjs.org/typescript-language-server/-/typescript-language-server-6.1.0.tgz"
+sha256 = "7e32f3958f4ce9f6e5d7169dd091602456896d2768a62a32b5abc62ea51767b0"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "check", "pkgconf", "libshout", "taglib"]
+
+[package]
+name = "ezstream"
+version = "1.0.2_2"
+description = "Client for Icecast streaming servers"
+homepage = "https://icecast.org/ezstream/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/ezstream/ezstream-1.0.2.tar.gz"
+sha256 = "11de897f455a95ba58546bdcd40a95d3bda69866ec5f7879a83b024126c54c2a"
+
+[build]
+system = "autotools"

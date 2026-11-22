@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "ohdear-cli"
+version = "0"
+description = "Tool to manage your Oh Dear sites"
+homepage = "https://ohdear.app"
+
+[source]
+url = "https://github.com/ohdearapp/ohdear-cli/releases/download/v5.5.0/ohdear.phar"
+sha256 = "8e25da54190663a9cbe298e410d71755f36fae8977c17a65a532348da148e0f8"
+
+[build]
+system = "autotools"

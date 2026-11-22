@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "azure-core-cpp", "azure-storage-common-cpp", "flatcc", "nanoarrow"]
+
+[package]
+name = "azure-storage-blobs-cpp"
+version = "0"
+description = "Microsoft Azure Storage Blobs SDK for C++"
+homepage = "https://github.com/Azure/azure-sdk-for-cpp/tree/main/sdk/storage/azure-storage-blobs"
+
+[source]
+url = "https://github.com/Azure/azure-sdk-for-cpp/archive/refs/tags/azure-storage-blobs_12.19.1.tar.gz"
+sha256 = "2f7af311f5c21b3eaf797d3184b50ac741652e534b3b3d0346a4bb88427c6d06"
+
+[build]
+system = "cmake"

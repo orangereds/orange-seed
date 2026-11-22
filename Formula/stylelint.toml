@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "stylelint"
+version = "18.1.0"
+description = "Modern CSS linter"
+homepage = "https://stylelint.io/"
+
+[source]
+url = "https://registry.npmjs.org/stylelint/-/stylelint-18.1.0.tgz"
+sha256 = "d0b13361093bd37263a68ee851407ee18f112efa438c96bd0b0c385bf9c7c2a9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "gmp", "isl"]
+
+[package]
+name = "cloog"
+version = "0.21.1"
+description = "Generate code for scanning Z-polyhedra"
+homepage = "https://github.com/periscop/cloog"
+
+[source]
+url = "https://github.com/periscop/cloog/releases/download/cloog-0.21.1/cloog-0.21.1.tar.gz"
+sha256 = "d370cf9990d2be24bfb24750e355bac26110051248cabf2add61f9b3867fb1d7"
+
+[build]
+system = "autotools"

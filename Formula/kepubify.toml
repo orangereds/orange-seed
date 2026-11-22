@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kepubify"
+version = "5.0.0"
+description = "Convert ebooks from epub to kepub"
+homepage = "https://pgaskin.net/kepubify/"
+
+[source]
+url = "https://github.com/pgaskin/kepubify/archive/refs/tags/v5.0.0.tar.gz"
+sha256 = "bd8053d3927440a9bd54022bbda697b937ab0365e55ad70b73c998233e57c030"
+
+[build]
+system = "autotools"

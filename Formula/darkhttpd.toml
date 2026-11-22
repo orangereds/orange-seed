@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "darkhttpd"
+version = "1.17"
+description = "Small static webserver without CGI"
+homepage = "https://unix4lyfe.org/darkhttpd/"
+
+[source]
+url = "https://github.com/emikulic/darkhttpd/archive/refs/tags/v1.17.tar.gz"
+sha256 = "4fee9927e2d8bb0a302f0dd62f9ff1e075748fa9f5162c9481a7a58b41462b56"
+
+[build]
+system = "autotools"

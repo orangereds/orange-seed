@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "esniper"
+version = "2.35.0"
+description = "Snipe eBay auctions from the command-line"
+homepage = "https://sourceforge.net/projects/esniper/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/esniper/esniper/2.35.0/esniper-2-35-0.tgz"
+sha256 = "a93d4533e31640554f2e430ac76b43e73a50ed6d721511066020712ac8923c12"
+
+[build]
+system = "autotools"

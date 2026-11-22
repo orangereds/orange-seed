@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "hexedit"
+version = "1.6"
+description = "View and edit files in hexadecimal or ASCII"
+homepage = "https://rigaux.org/hexedit.html"
+
+[source]
+url = "https://github.com/pixel/hexedit/archive/refs/tags/1.6.tar.gz"
+sha256 = "598906131934f88003a6a937fab10542686ce5f661134bc336053e978c4baae3"
+
+[build]
+system = "autotools"

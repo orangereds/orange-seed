@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "checkpwn"
+version = "0.6.3.crate"
+description = "Check Have I Been Pwned and see if it's time for you to change passwords"
+homepage = "https://github.com/brycx/checkpwn"
+
+[source]
+url = "https://static.crates.io/crates/checkpwn/checkpwn-0.6.3.crate"
+sha256 = "8559fe476ecdbeb38d75896c817fa275ace1502cbe19e17f19bc9e81e735de2a"
+
+[build]
+system = "autotools"

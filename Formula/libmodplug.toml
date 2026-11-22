@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libmodplug"
+version = "0.8.9.2"
+description = "Library from the Modplug-XMMS project"
+homepage = "https://modplug-xmms.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/modplug-xmms/libmodplug/0.8.9.2/libmodplug-0.8.9.2.tar.gz"
+sha256 = "e4d9cb46da78a639d6eadb4ff3ab955f68c3099579b5310af64b37091e28957e"
+
+[build]
+system = "autotools"

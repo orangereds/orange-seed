@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pod2man"]
+
+[package]
+name = "ack"
+version = "3.10.0"
+description = "Search tool like grep, but optimized for programmers"
+homepage = "https://beyondgrep.com/"
+
+[source]
+url = "https://beyondgrep.com/ack-v3.10.0"
+sha256 = "28a740de59bdb52000a281aa89dc9d44a24a1f144cdfe4bc24b7d0582b40e90e"
+
+[build]
+system = "autotools"

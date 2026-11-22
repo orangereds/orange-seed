@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libjodycode"
+version = "4.2"
+description = "Shared code used by several utilities written by Jody Bruchon"
+homepage = "https://codeberg.org/jbruchon/libjodycode"
+
+[source]
+url = "https://codeberg.org/jbruchon/libjodycode/archive/v4.2.tar.gz"
+sha256 = "eeb54fc50b9ebec4e43c954704e69f56c104fede67aaee9f375fbecbb87933b0"
+
+[build]
+system = "make"

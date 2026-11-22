@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "mist-cli"
+version = "2.3"
+description = "Mac command-line tool that automatically downloads macOS Firmwares / Installers"
+homepage = "https://github.com/ninxsoft/mist-cli"
+
+[source]
+url = "https://github.com/ninxsoft/mist-cli/archive/refs/tags/v2.3.tar.gz"
+sha256 = "734bf8305a0005af2032a948689ca66352bcbe99e3779464db3607c17f3d9348"
+
+[build]
+system = "autotools"

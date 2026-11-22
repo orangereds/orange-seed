@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.15"]
+
+[package]
+name = "hevi"
+version = "1.1.0"
+description = "Hex viewer"
+homepage = "https://codeberg.org/arnauc/hevi"
+
+[source]
+url = "https://codeberg.org/arnauc/hevi/archive/v1.1.0.tar.gz"
+sha256 = "e236bb43c5eb66a183c0ee6f6d14efbb89f9e9427e23a652a7e3916f8b774aa5"
+
+[build]
+system = "autotools"

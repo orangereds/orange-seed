@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libconfig", "ncurses"]
+
+[package]
+name = "mandown"
+version = "1.1"
+description = "Man-page inspired Markdown viewer"
+homepage = "https://github.com/Titor8115/mandown"
+
+[source]
+url = "https://github.com/Titor8115/mandown/archive/refs/tags/v1.1.tar.gz"
+sha256 = "870e3fa2bd6b8ad5d2259e7ef30a69d4faa87ef6cad7b2d8e34dc4944b651335"
+
+[build]
+system = "make"

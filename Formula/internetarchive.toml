@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "internetarchive"
+version = "5.13.0"
+description = "Python wrapper for the various Internet Archive APIs"
+homepage = "https://github.com/jjjake/internetarchive"
+
+[source]
+url = "https://files.pythonhosted.org/packages/83/b0/5bb29b4dbcb21ff71355cfb2e7b807be9e599500d81b6c8822eca741ade0/internetarchive-5.13.0.tar.gz"
+sha256 = "3be796ccde76c71a1061f7a641ec79c609119927224f1e7f2bbfdad09bc9f361"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "livekit"
+version = "1.13.11"
+description = "Scalable, high-performance WebRTC server"
+homepage = "https://livekit.io"
+
+[source]
+url = "https://github.com/livekit/livekit/archive/refs/tags/v1.13.11.tar.gz"
+sha256 = "c8d9b7ba9d66c8b5f314a438c0c2493815e7e70085e37706b888cab3c4ab8f8d"
+
+[build]
+system = "autotools"

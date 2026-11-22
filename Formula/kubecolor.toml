@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kubernetes-cli"]
+
+[package]
+name = "kubecolor"
+version = "0.8.0"
+description = "Colorize your kubectl output"
+homepage = "https://kubecolor.github.io/"
+
+[source]
+url = "https://github.com/kubecolor/kubecolor/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "e7d840da6b5d5a384ff56d44222ab02e11cb676827d35b39e139d585557660cf"
+
+[build]
+system = "autotools"

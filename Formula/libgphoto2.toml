@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "pkgconf", "gd", "jpeg-turbo", "libexif", "libtool", "libusb", "libusb-compat"]
+
+[package]
+name = "libgphoto2"
+version = "2.5.34"
+description = "Gphoto2 digital camera library"
+homepage = "http://www.gphoto.org/proj/libgphoto2/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gphoto/libgphoto/2.5.34/libgphoto2-2.5.34.tar.bz2"
+sha256 = "5df9e774eb4ab6087a193afff84dcafe9f666e3443fe29e73e6779f659ff7f28"
+
+[build]
+system = "autotools"

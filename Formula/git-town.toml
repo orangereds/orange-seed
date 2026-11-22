@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-town"
+version = "24.2.0"
+description = "High-level command-line interface for Git"
+homepage = "https://www.git-town.com/"
+
+[source]
+url = "https://github.com/git-town/git-town/archive/refs/tags/v24.2.0.tar.gz"
+sha256 = "592e067a54712b36c5eac50af2cf8aa6d4030359f5fad3b16fe5779e0eed1aeb"
+
+[build]
+system = "autotools"

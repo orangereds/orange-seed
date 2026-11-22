@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "pkgconf", "flac", "libsndfile", "lzo", "musepack", "sdl2-compat", "zstd"]
+
+[package]
+name = "mednafen"
+version = "1.32.1_1"
+description = "Multi-system emulator"
+homepage = "https://mednafen.github.io/"
+
+[source]
+url = "https://mednafen.github.io/releases/files/mednafen-1.32.1.tar.xz"
+sha256 = "de7eb94ab66212ae7758376524368a8ab208234b33796625ca630547dbc83832"
+
+[build]
+system = "autotools"

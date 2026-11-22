@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2", "libssh2", "openssl@3"]
+
+[package]
+name = "git-series"
+version = "0.9.1_13"
+description = "Track changes to a patch series over time"
+homepage = "https://github.com/git-series/git-series"
+
+[source]
+url = "https://github.com/git-series/git-series/archive/refs/tags/0.9.1.tar.gz"
+sha256 = "c0362e19d3fa168a7cb0e260fcdecfe070853b163c9f2dfd2ad8213289bc7e5f"
+
+[build]
+system = "autotools"

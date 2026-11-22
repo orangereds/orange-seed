@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bk"
+version = "0.6.0"
+description = "Terminal EPUB Reader"
+homepage = "https://github.com/aeosynth/bk"
+
+[source]
+url = "https://github.com/aeosynth/bk/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "c720c8e81e86709f8543ca1a97a3c30b3bb33d55692a536cefed0ad2e3dfabcd"
+
+[build]
+system = "autotools"

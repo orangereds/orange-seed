@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "sentry-native"
+version = "0"
+description = "Sentry SDK for C, C++ and native applications"
+homepage = "https://docs.sentry.io/platforms/native/"
+
+[source]
+url = "https://github.com/getsentry/sentry-native/releases/download/0.17.6/sentry-native.zip"
+sha256 = "40b4b70cbada5bfae5b73f8267831dd023ec676d9676fb0d890878f31d2b5055"
+
+[build]
+system = "cmake"

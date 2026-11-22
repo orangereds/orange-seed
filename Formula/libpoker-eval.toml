@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libpoker-eval"
+version = "0"
+description = "C library to evaluate poker hands"
+homepage = "https://pokersource.sourceforge.net/"
+
+[source]
+url = "https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/poker-eval/138.0-1/poker-eval_138.0.orig.tar.gz"
+sha256 = "92659e4a90f6856ebd768bad942e9894bd70122dab56f3b23dd2c4c61bdbcf68"
+
+[build]
+system = "autotools"

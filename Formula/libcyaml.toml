@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml"]
+
+[package]
+name = "libcyaml"
+version = "1.4.2"
+description = "C library for reading and writing YAML"
+homepage = "https://github.com/tlsa/libcyaml"
+
+[source]
+url = "https://github.com/tlsa/libcyaml/archive/refs/tags/v1.4.2.tar.gz"
+sha256 = "3211b2a0589ebfe02c563c96adce9246c0787be2af30353becbbd362998d16dc"
+
+[build]
+system = "make"

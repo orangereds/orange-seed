@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python-setuptools", "python@3.15"]
+
+[package]
+name = "keychain"
+version = "3.0.10"
+description = "User-friendly front-end to ssh-agent(1)"
+homepage = "https://www.funtoo.org/Keychain"
+
+[source]
+url = "https://github.com/danielrobbins/keychain/archive/refs/tags/3.0.10.tar.gz"
+sha256 = "9e2b68016faa6eef0f67584aa5f2889bcff71369b9246251095dc38fb839d035"
+
+[build]
+system = "autotools"

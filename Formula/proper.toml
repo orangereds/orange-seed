@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rebar3", "erlang"]
+
+[package]
+name = "proper"
+version = "1.5.0"
+description = "QuickCheck-inspired property-based testing tool for Erlang"
+homepage = "https://proper-testing.github.io"
+
+[source]
+url = "https://github.com/proper-testing/proper/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "68fcc3b23ea98537d7a2b926de688dc347e02804c54d0f8d79ca7092c9456b68"
+
+[build]
+system = "autotools"

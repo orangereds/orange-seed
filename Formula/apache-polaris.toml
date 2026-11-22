@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gradle", "openjdk"]
+
+[package]
+name = "apache-polaris"
+version = "1.9.0"
+description = "Interoperable, open source catalog for Apache Iceberg"
+homepage = "https://polaris.apache.org/"
+
+[source]
+url = "https://github.com/apache/polaris/archive/refs/tags/apache-polaris-1.9.0.tar.gz"
+sha256 = "272cca5ea964339a48fc9cf2e6d5548107ce2160e26bc048695020fe39706089"
+
+[service]
+run = "opt/apache-polaris/bin/polaris-server"
+keep_alive = true
+log_path = "var/log/polaris.log"
+error_log_path = "var/log/polaris.log"
+
+[build]
+system = "autotools"

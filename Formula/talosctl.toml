@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "talosctl"
+version = "1.14.6"
+description = "CLI for out-of-band management of Kubernetes nodes created by Talos"
+homepage = "https://www.talos.dev/"
+
+[source]
+url = "https://github.com/siderolabs/talos/archive/refs/tags/v1.14.6.tar.gz"
+sha256 = "7c52caa465e64e04c124be7a7580d34cd7d0ab7a4a257b6785cfc2bb1d626380"
+
+[build]
+system = "autotools"

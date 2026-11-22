@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "telegram-downloader"
+version = "0.20.4"
+description = "Telegram Messenger downloader/tools written in Golang"
+homepage = "https://docs.iyear.me/tdl/"
+
+[source]
+url = "https://github.com/iyear/tdl/archive/refs/tags/v0.20.4.tar.gz"
+sha256 = "e82ee4753a40df3b9b36564ae504dfce06514d018676481e0d967fd9a092c532"
+
+[build]
+system = "autotools"

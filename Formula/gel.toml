@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ronn"]
+
+[package]
+name = "gel"
+version = "0.3.0_1"
+description = "Modern gem manager"
+homepage = "https://gel.dev"
+
+[source]
+url = "https://github.com/gel-rb/gel/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "fe7c4bd67a2ea857b85b754f5b4d336e26640eda7199bc99b9a1570043362551"
+
+[build]
+system = "autotools"

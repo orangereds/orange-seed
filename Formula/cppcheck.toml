@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "python@3.15", "tinyxml2"]
+
+[package]
+name = "cppcheck"
+version = "2.22.0"
+description = "Static analysis of C and C++ code"
+homepage = "https://sourceforge.net/projects/cppcheck/"
+
+[source]
+url = "https://github.com/cppcheck-opensource/cppcheck/archive/refs/tags/2.22.0.tar.gz"
+sha256 = "d74945deb2d50393430e07596b766f8a779512c7f60dac2a30ea64e059ece57b"
+
+[build]
+system = "cmake"

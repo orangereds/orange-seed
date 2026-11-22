@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "getparty"
+version = "1.29.1"
+description = "Multi-part HTTP download manager"
+homepage = "https://github.com/vbauerster/getparty"
+
+[source]
+url = "https://github.com/vbauerster/getparty/archive/refs/tags/v1.29.1.tar.gz"
+sha256 = "ef51a575fe9ef544dab84559ddd3adb9450c02f919e842a1e618cea854380c10"
+
+[build]
+system = "autotools"

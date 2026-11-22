@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "massdriver"
+version = "2.5.1"
+description = "Manage applications and infrastructure on Massdriver Cloud"
+homepage = "https://www.massdriver.cloud/"
+
+[source]
+url = "https://github.com/massdriver-cloud/mass/archive/refs/tags/2.5.1.tar.gz"
+sha256 = "0922d7d3585f856ccc80da20affaa4bc52472e1de76d2c6c9d92d8233e221766"
+
+[build]
+system = "autotools"

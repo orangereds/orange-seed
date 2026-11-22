@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "truecrack"
+version = "3.5"
+description = "Brute-force password cracker for TrueCrypt"
+homepage = "https://github.com/lvaccaro/truecrack"
+
+[source]
+url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/truecrack/truecrack_v35.tar.gz"
+sha256 = "25bf270fa3bc3591c3d795e5a4b0842f6581f76c0b5d17c0aef260246fe726b3"
+
+[build]
+system = "autotools"

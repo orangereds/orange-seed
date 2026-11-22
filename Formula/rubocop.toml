@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "rubocop"
+version = "1.92.3"
+description = "Ruby static code analyzer and formatter, based on the community Ruby style guide"
+homepage = "https://docs.rubocop.org"
+
+[source]
+url = "https://github.com/rubocop/rubocop/archive/refs/tags/v1.92.3.tar.gz"
+sha256 = "52ecb61f8ff367db41eda22f366ae9d13bc14ba8bd5ffa94f8d9cf11d5ab5c97"
+
+[build]
+system = "autotools"

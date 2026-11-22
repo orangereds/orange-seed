@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "umka-lang"
+version = "1.5.7"
+description = "Statically typed embeddable scripting language"
+homepage = "https://github.com/vtereshkov/umka-lang"
+
+[source]
+url = "https://github.com/vtereshkov/umka-lang/archive/refs/tags/v1.5.7.tar.gz"
+sha256 = "b4dce5652a7e974e9ad63182f74b6033269b2d3ecad81b7d88f093816446e646"
+
+[build]
+system = "autotools"

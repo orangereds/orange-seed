@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["neovim", "python@3.15"]
+
+[package]
+name = "neovim-remote"
+version = "2.5.1_6"
+description = "Control nvim processes using `nvr` command-line tool"
+homepage = "https://github.com/mhinz/neovim-remote"
+
+[source]
+url = "https://files.pythonhosted.org/packages/69/50/4fe9ef6fd794929ceae73e476ac8a4ddbf3b0913fa248d834c9bb72978b7/neovim-remote-2.5.1.tar.gz"
+sha256 = "4b3cc35463544c5747c895c52a0343cfdbba15d307647d7f57f1cce0c6a27d02"
+
+[build]
+system = "autotools"

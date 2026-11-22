@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "graphqlviz"
+version = "4.0.1"
+description = "GraphQL Server schema visualizer"
+homepage = "https://github.com/sheerun/graphqlviz"
+
+[source]
+url = "https://registry.npmjs.org/graphqlviz/-/graphqlviz-4.0.1.tgz"
+sha256 = "1ede0553fe61ca6f59876b31a7d86f8f9aa692456255c1acf91c204feb2e1ef3"
+
+[build]
+system = "autotools"

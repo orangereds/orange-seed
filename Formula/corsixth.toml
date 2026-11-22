@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "luarocks", "ffmpeg", "freetype", "libpng", "lpeg", "lua", "rtmidi", "sdl2-compat", "sdl2_mixer"]
+
+[package]
+name = "corsixth"
+version = "0.70.2"
+description = "Open source clone of Theme Hospital"
+homepage = "https://github.com/CorsixTH/CorsixTH"
+
+[source]
+url = "https://github.com/CorsixTH/CorsixTH/archive/refs/tags/v0.70.2.tar.gz"
+sha256 = "7664645a97d9d56a287bdd55035fb325050840fa743c2854f7ff3198ecee1f26"
+
+[build]
+system = "autotools"

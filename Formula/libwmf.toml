@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype", "jpeg-turbo", "libpng"]
+
+[package]
+name = "libwmf"
+version = "0.2.17"
+description = "Library for converting WMF (Window Metafile Format) files"
+homepage = "https://github.com/caolanm/libwmf"
+
+[source]
+url = "https://github.com/caolanm/libwmf/releases/download/v0.2.17/libwmf-0.2.17.tar.gz"
+sha256 = "876915024b64edda8d417daf06819d03a0d18adff1fcc2f64182c69274ed0519"
+
+[build]
+system = "autotools"

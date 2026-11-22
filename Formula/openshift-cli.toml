@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "openshift-cli"
+version = "0"
+description = "OpenShift command-line interface tools"
+homepage = "https://www.openshift.com/"
+
+[source]
+url = "https://mirror.openshift.com/pub/openshift-v4/clients/ocp/5.0.1/openshift-client-src.tar.gz"
+sha256 = "58e63e4aaf8059b7c9edb28570eba1f105ce3c15897d3a4bb4bb7d7c1a3a730e"
+
+[build]
+system = "autotools"

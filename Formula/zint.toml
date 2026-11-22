@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libpng"]
+
+[package]
+name = "zint"
+version = "2.16.0-src"
+description = "Barcode encoding library supporting over 50 symbologies"
+homepage = "https://www.zint.org.uk/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/zint/zint/2.16.0/zint-2.16.0-src.tar.gz"
+sha256 = "37e767afada2403bb9ae49b93a19eb0a9e944a0c278d9f23522746b3d08a3c4b"
+
+[build]
+system = "cmake"

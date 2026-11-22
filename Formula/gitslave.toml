@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "gitslave"
+version = "2.0.2"
+description = "Create group of related repos with one as superproject"
+homepage = "https://gitslave.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/gitslave/gitslave-2.0.2.tar.gz"
+sha256 = "8aa3dcb1b50418cc9cee9bee86bb4b279c1c5a34b7adc846697205057d4826f0"
+
+[build]
+system = "autotools"

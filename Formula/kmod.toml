@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "scdoc", "openssl@4", "xz", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "kmod"
+version = "34.3"
+description = "Linux kernel module handling"
+homepage = "https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/linux/utils/kernel/kmod/kmod-34.3.tar.xz"
+sha256 = "985554de49c21a58abd68c6cda2251384e1e5bb08b3b14c7f02b51f4c90c2958"
+
+[build]
+system = "autotools"

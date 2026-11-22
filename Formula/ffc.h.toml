@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "ffc.h"
+version = "26.09.01"
+description = "Single-header C99 accelerated float/double parsing"
+homepage = "https://github.com/kolemannix/ffc.h"
+
+[source]
+url = "https://github.com/kolemannix/ffc.h/archive/refs/tags/v26.09.01.tar.gz"
+sha256 = "ad5c2fa0dd980aa40eb1cb78bad333387d4b8f14f6300d66063c533430faa618"
+
+[build]
+system = "cmake"

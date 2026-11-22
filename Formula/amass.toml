@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "amass"
+version = "5.1.3"
+description = "In-depth attack surface mapping and asset discovery"
+homepage = "https://owasp.org/www-project-amass/"
+
+[source]
+url = "https://github.com/owasp-amass/amass/archive/refs/tags/v5.1.3.tar.gz"
+sha256 = "9f2023027ed418e49ff0a7d941dae050db0f73b948fefe997aef416876cfb416"
+
+[build]
+system = "autotools"

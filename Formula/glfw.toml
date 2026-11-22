@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "glfw"
+version = "3.5.1"
+description = "Multi-platform library for OpenGL applications"
+homepage = "https://www.glfw.org/"
+
+[source]
+url = "https://github.com/glfw/glfw/archive/refs/tags/3.5.1.tar.gz"
+sha256 = "5234f4f29473e9a06bc7847d8371858dd135d38466eeeaa652fdc9f8f9ff0c20"
+
+[build]
+system = "cmake"

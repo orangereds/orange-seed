@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "toast"
+version = "0.48.0"
+description = "Tool for running tasks in containers"
+homepage = "https://github.com/stepchowfun/toast"
+
+[source]
+url = "https://github.com/stepchowfun/toast/archive/refs/tags/v0.48.0.tar.gz"
+sha256 = "fc1812435641b40bd63cf9dd0fd33d2a7a24ffeda6302ef5d71b78cd4c1a606e"
+
+[build]
+system = "autotools"

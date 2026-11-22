@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "jenv"
+version = "0.6.0"
+description = "Manage your Java environment"
+homepage = "https://github.com/jenv/jenv"
+
+[source]
+url = "https://github.com/jenv/jenv/archive/refs/tags/0.6.0.tar.gz"
+sha256 = "2897ac544007a2c651bb3c02985143c94f4e1234b9c3c6cb2e436442b17cbc74"
+
+[build]
+system = "autotools"

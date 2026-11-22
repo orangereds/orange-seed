@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "xorgproto"]
+
+[package]
+name = "libxfixes"
+version = "0"
+description = "X.Org: Header files for the XFIXES extension"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXfixes-6.0.2.tar.xz"
+sha256 = "39f115d72d9c5f8111e4684164d3d68cc1fd21f9b27ff2401b08fddfc0f409ba"
+
+[build]
+system = "autotools"

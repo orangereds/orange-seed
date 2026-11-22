@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "doppler"
+version = "3.77.1"
+description = "CLI for interacting with Doppler secrets and configuration"
+homepage = "https://docs.doppler.com/docs"
+
+[source]
+url = "https://github.com/DopplerHQ/cli/archive/refs/tags/3.77.1.tar.gz"
+sha256 = "5e7aa448e81acb9b9d1d066117853c1ffdb38c417a5db01ed1c8e3fcdec83960"
+
+[build]
+system = "autotools"

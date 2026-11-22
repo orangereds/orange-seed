@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "graphviz", "pkgconf", "fontconfig", "freetype", "jpeg-turbo", "sdl2-compat"]
+
+[package]
+name = "open-scene-graph"
+version = "0_2"
+description = "3D graphics toolkit"
+homepage = "https://github.com/openscenegraph/OpenSceneGraph"
+
+[source]
+url = "https://github.com/openscenegraph/OpenSceneGraph/archive/refs/tags/OpenSceneGraph-3.6.5.tar.gz"
+sha256 = "aea196550f02974d6d09291c5d83b51ca6a03b3767e234a8c0e21322927d1e12"
+
+[build]
+system = "cmake"

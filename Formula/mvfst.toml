@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "googletest", "fizz", "fmt", "folly", "gflags", "glog", "openssl@4"]
+
+[package]
+name = "mvfst"
+version = "2026.10.26.00"
+description = "QUIC transport protocol implementation"
+homepage = "https://github.com/meta/mvfst"
+
+[source]
+url = "https://github.com/meta/mvfst/archive/refs/tags/v2026.10.26.00.tar.gz"
+sha256 = "7b2f2a84a5df3689d29a2c3c482b508e1d26251d568e9faf0ced22fb113e6dcd"
+
+[build]
+system = "cmake"

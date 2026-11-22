@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["glfw", "lld@22", "llvm@22", "raylib"]
+
+[package]
+name = "odin"
+version = "2026-11a"
+description = "Programming language with focus on simplicity, performance and modern systems"
+homepage = "https://odin-lang.org/"
+
+[source]
+url = "https://github.com/odin-lang/Odin.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

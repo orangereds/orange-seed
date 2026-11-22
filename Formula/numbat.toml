@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "numbat"
+version = "1.24.0"
+description = "Statically typed programming language for scientific computations"
+homepage = "https://numbat.dev/"
+
+[source]
+url = "https://github.com/sharkdp/numbat/archive/refs/tags/v1.24.0.tar.gz"
+sha256 = "03c84d1d30bce73f2fcbfa79c8df51e580293918fef9c35966b158eaae234a08"
+
+[build]
+system = "autotools"

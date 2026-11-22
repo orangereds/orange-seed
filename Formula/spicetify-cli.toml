@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm"]
+
+[package]
+name = "spicetify-cli"
+version = "2.46.7"
+description = "Command-line tool to customize Spotify client"
+homepage = "https://spicetify.app/"
+
+[source]
+url = "https://github.com/spicetify/cli/archive/refs/tags/v2.46.7/v2.46.7.tar.gz"
+sha256 = "b6609b1f62cd2ee6bd8a6c4512d010f9ef041a219ae615cfa1d2c0904bb74729"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "forego"
+version = "20180216151118"
+description = "Foreman in Go for Procfile-based application management"
+homepage = "https://github.com/ddollar/forego"
+
+[source]
+url = "https://github.com/ddollar/forego/archive/refs/tags/20180216151118.tar.gz"
+sha256 = "23119550cc0e45191495823aebe28b42291db6de89932442326340042359b43d"
+
+[build]
+system = "autotools"

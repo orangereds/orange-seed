@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dune", "ocaml", "opam", "ocaml-findlib", "rocq"]
+
+[package]
+name = "rocq-micromega-plugin"
+version = "1.1.1_3"
+description = "Micromega decision procedures plugin for the Rocq prover"
+homepage = "https://github.com/rocq-community/micromega-plugin"
+
+[source]
+url = "https://github.com/rocq-community/micromega-plugin/archive/refs/tags/v1.1.1.tar.gz"
+sha256 = "5ed46c62dfb7c06ad1df2f744bca5a39282ac9787c57433478a87a706e6e4391"
+
+[build]
+system = "autotools"

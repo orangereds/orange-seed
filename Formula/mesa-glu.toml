@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "mesa"]
+
+[package]
+name = "mesa-glu"
+version = "0"
+description = "Mesa OpenGL Utility library"
+homepage = "https://gitlab.freedesktop.org/mesa/glu"
+
+[source]
+url = "https://archive.mesa3d.org/glu/glu-9.0.3.tar.xz"
+sha256 = "bd43fe12f374b1192eb15fe20e45ff456b9bc26ab57f0eee919f96ca0f8a330f"
+
+[build]
+system = "autotools"

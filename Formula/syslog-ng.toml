@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "abseil", "glib", "grpc", "hiredis", "ivykis", "json-c", "libdbi", "libmaxminddb", "libnet", "libpaho-mqtt", "librdkafka", "libyaml", "mongo-c-driver", "net-snmp", "openssl@4", "pcre2", "protobuf", "python@3.15", "rabbitmq-c", "riemann-client", "autoconf", "automake", "libtool", "gettext"]
+
+[package]
+name = "syslog-ng"
+version = "4.13.0"
+description = "Log daemon with advanced processing pipeline and a wide range of I/O methods"
+homepage = "https://www.syslog-ng.com"
+
+[source]
+url = "https://github.com/syslog-ng/syslog-ng/releases/download/syslog-ng-4.13.0/syslog-ng-4.13.0.tar.gz"
+sha256 = "e82daa3139d1cd790f2d8f2699c70b56a521d8e5218f7e52633dfad1b1f63297"
+
+[build]
+system = "autotools"

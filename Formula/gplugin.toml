@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "help2man", "meson", "ninja", "pkgconf", "vala", "glib", "gtk4", "pygobject3", "python@3.15", "gettext"]
+
+[package]
+name = "gplugin"
+version = "0.44.2_1"
+description = "GObject based library that implements a reusable plugin system"
+homepage = "https://keep.imfreedom.org/gplugin/gplugin/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pidgin/gplugin/0.44.2/gplugin-0.44.2.tar.xz"
+sha256 = "aea244e1add9628b50ec042c54cf93803f4577f8f142678f09b91fd4c0b20f72"
+
+[build]
+system = "autotools"

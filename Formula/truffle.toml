@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "truffle"
+version = "5.11.5"
+description = "Development environment, testing framework and asset pipeline for Ethereum"
+homepage = "https://trufflesuite.com"
+
+[source]
+url = "https://registry.npmjs.org/truffle/-/truffle-5.11.5.tgz"
+sha256 = "bbc24698fc9964cd80acc8952500f708ef18984096eba9e75f40db3486392347"
+
+[build]
+system = "autotools"

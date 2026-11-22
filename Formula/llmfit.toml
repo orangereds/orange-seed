@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "llmfit"
+version = "1.1.20.crate"
+description = "Find what models run on your hardware"
+homepage = "https://github.com/AlexsJones/llmfit"
+
+[source]
+url = "https://static.crates.io/crates/llmfit/llmfit-1.1.20.crate"
+sha256 = "7329970a2a20bccbe07245b2f8e8aa8b00814319343e578379f886cc67feabb2"
+
+[build]
+system = "autotools"

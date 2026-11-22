@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rapidjson", "lz4", "openssl@3", "zstd"]
+
+[package]
+name = "mysql-connector-c++"
+version = "26.10.0-src"
+description = "MySQL database connector for C++ applications"
+homepage = "https://github.com/mysql/mysql-connector-cpp"
+
+[source]
+url = "https://cdn.mysql.com/Downloads/Connector-C++/mysql-connector-c++-26.10.0-src.tar.gz"
+sha256 = "25d83a76164da29592b4e029c6e771cd05139453be2f8fc206cc7c73d19fa9b2"
+
+[build]
+system = "autotools"

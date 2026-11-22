@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "dbml-cli"
+version = "0"
+description = "Convert DBML file to SQL and vice versa"
+homepage = "https://www.dbml.org/cli/"
+
+[source]
+url = "https://registry.npmjs.org/@dbml/cli/-/cli-12.1.0.tgz"
+sha256 = "eca98d3fe23a89f6721ffd478d50e307099874f31cdf687321f77f144e5011db"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "rapidjson", "brotli", "icu4c@79", "openssl@4", "zstd", "bash", "grep"]
+
+[package]
+name = "dotnet"
+version = "0"
+description = ".NET Core"
+homepage = "https://dotnet.microsoft.com/"
+
+[source]
+url = "https://github.com/dotnet/dotnet/releases/download/v11.0.100/release.json"
+sha256 = "007b0ad9b0cf567e35fab4db99fd01310e906e8566f57b437141ca314edc30cd"
+
+[build]
+system = "autotools"

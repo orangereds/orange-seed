@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "python@3.15", "tesseract", "vapoursynth"]
+
+[package]
+name = "vapoursynth-ocr"
+version = "0_2"
+description = "VapourSynth filters - Tesseract OCR filter"
+homepage = "https://www.vapoursynth.com"
+
+[source]
+url = "https://github.com/vapoursynth/vs-ocr/archive/refs/tags/R3.tar.gz"
+sha256 = "e9da11b7f5f3e4acfee5890729769217aa5b385bb573cb303c2661d8d8a83712"
+
+[build]
+system = "autotools"

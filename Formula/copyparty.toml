@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "rust", "cryptography", "libsodium", "pillow", "python@3.15", "zeromq", "gettext"]
+
+[package]
+name = "copyparty"
+version = "1.20.26"
+description = "Portable file server"
+homepage = "https://github.com/9001/copyparty"
+
+[source]
+url = "https://files.pythonhosted.org/packages/5d/c7/135022ae843a8ad8b96212b4d0616826b07a3052edeee3533cebcee1d248/copyparty-1.20.26.tar.gz"
+sha256 = "6ecf20b612e1e59f2fce54ee31fb47278747769036504c21720e75b5d2799725"
+
+[build]
+system = "autotools"

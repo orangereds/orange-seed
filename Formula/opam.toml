@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml", "rsync"]
+
+[package]
+name = "opam"
+version = "0"
+description = "OCaml package manager"
+homepage = "https://opam.ocaml.org"
+
+[source]
+url = "https://github.com/ocaml/opam/releases/download/2.6.1/opam-full-2.6.1.tar.gz"
+sha256 = "ebbaffa4192e69d612d2c1a5fc5a15b32730322d7e34bc4456ad4076bb987007"
+
+[build]
+system = "autotools"

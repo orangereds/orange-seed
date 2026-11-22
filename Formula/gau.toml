@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gau"
+version = "2.2.4"
+description = "Open Threat Exchange, Wayback Machine, and Common Crawl URL fetcher"
+homepage = "https://github.com/lc/gau"
+
+[source]
+url = "https://github.com/lc/gau/archive/refs/tags/v2.2.4.tar.gz"
+sha256 = "537abafca9065a7ed5d93aa7722d85da0815abf6b08c2d1494483171558ce3f7"
+
+[build]
+system = "autotools"

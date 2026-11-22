@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bpm-tools"
+version = "0.3"
+description = "Detect tempo of audio files using beats-per-minute (BPM)"
+homepage = "https://www.pogo.org.uk/~mark/bpm-tools/"
+
+[source]
+url = "https://www.pogo.org.uk/~mark/bpm-tools/releases/bpm-tools-0.3.tar.gz"
+sha256 = "37efe81ef594e9df17763e0a6fc29617769df12dfab6358f5e910d88f4723b94"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "diamond"
+version = "2.2.9"
+description = "Accelerated BLAST compatible local sequence aligner"
+homepage = "https://github.com/bbuchfink/diamond"
+
+[source]
+url = "https://github.com/bbuchfink/diamond/archive/refs/tags/v2.2.9.tar.gz"
+sha256 = "9c7e71a096c2a722b2f5d8c0b17866568b58c672c702492b8e8dfbce57472d66"
+
+[build]
+system = "cmake"

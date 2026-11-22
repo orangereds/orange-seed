@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "libident"
+version = "0.32"
+description = "Ident protocol library"
+homepage = "https://www.remlab.net/libident/"
+
+[source]
+url = "https://www.remlab.net/files/libident/libident-0.32.tar.gz"
+sha256 = "8cc8fb69f1c888be7cffde7f4caeb3dc6cd0abbc475337683a720aa7638a174b"
+
+[build]
+system = "autotools"

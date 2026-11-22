@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yorkie"
+version = "0.7.29"
+description = "Document store for collaborative applications"
+homepage = "https://yorkie.dev/"
+
+[source]
+url = "https://github.com/yorkie-team/yorkie/archive/refs/tags/v0.7.29.tar.gz"
+sha256 = "03d4ffeb2e3bee84df31536d67fe669c530f79e485976f8f02b43576cf3ae33b"
+
+[service]
+run = "opt/yorkie/bin/yorkie"
+keep_alive = true
+working_dir = "var"
+
+[build]
+system = "autotools"

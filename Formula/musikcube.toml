@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asio", "cmake", "pkgconf", "ffmpeg", "game-music-emu", "lame", "libev", "libmicrohttpd", "libopenmpt", "ncurses", "openssl@4", "portaudio", "taglib", "gnutls", "mpg123"]
+
+[package]
+name = "musikcube"
+version = "3.0.5_2"
+description = "Terminal-based audio engine, library, player and server"
+homepage = "https://musikcube.com"
+
+[source]
+url = "https://github.com/clangen/musikcube/archive/refs/tags/3.0.5.tar.gz"
+sha256 = "708292a583bb5072a8dbb14e408c2a1f61de9b8c9786d4e53b3e69bef5dad8c5"
+
+[build]
+system = "cmake"

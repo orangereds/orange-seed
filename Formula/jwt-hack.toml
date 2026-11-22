@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "jwt-hack"
+version = "2.6.0"
+description = "JSON Web Token Hack Toolkit"
+homepage = "https://github.com/hahwul/jwt-hack"
+
+[source]
+url = "https://github.com/hahwul/jwt-hack/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "f510ce2a1fb1bb98844536810659c9e310ee6a2e844af9dc7f0b874222ca7f6d"
+
+[build]
+system = "autotools"

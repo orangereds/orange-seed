@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gperf", "ninja", "pkgconf", "libarchive", "libnfs", "libssh", "neon", "openssl@4", "uchardet"]
+
+[package]
+name = "far2l-tty"
+version = "0_1"
+description = "Unix TTY port of FAR Manager v2 (with NetRocks support)"
+homepage = "https://github.com/elfmz/far2l"
+
+[source]
+url = "https://github.com/elfmz/far2l/archive/refs/tags/v_2.9.1.tar.gz"
+sha256 = "a28d647f12b17fce3a89e939ce036fe4ef0d4fb1a9fc7c44fe27d292021522e4"
+
+[build]
+system = "cmake"

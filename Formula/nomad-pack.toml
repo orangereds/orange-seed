@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nomad-pack"
+version = "0.4.2"
+description = "Templating and packaging tool used with HashiCorp Nomad"
+homepage = "https://github.com/hashicorp/nomad-pack"
+
+[source]
+url = "https://github.com/hashicorp/nomad-pack/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "844a072ba9c9098d846899899a5603d3058290a2ecdc7dfd77cb3c9a9de9585e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "wla-dx"
+version = "10.7"
+description = "Yet another crossassembler package"
+homepage = "https://github.com/vhelin/wla-dx"
+
+[source]
+url = "https://github.com/vhelin/wla-dx/archive/refs/tags/v10.7.tar.gz"
+sha256 = "38296a96bc20be873d17e0e88be0c5b20a15ef2ec4da5279600e56af30ad925a"
+
+[build]
+system = "cmake"

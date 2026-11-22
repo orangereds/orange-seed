@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "numpy", "pillow", "python@3.14", "rpds-py"]
+
+[package]
+name = "mentat"
+version = "1.0.8_4"
+description = "Coding assistant that leverages GPT-4 to write code"
+homepage = "https://www.mentat.ai"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e0/8b/a808d6663065e3b446d3be521d7836f774f3b39bdd30f786d093aca383b6/mentat-1.0.8.tar.gz"
+sha256 = "81679055448a495c3e7e55eeb8b59373dc0658cea6b2549d0ae48d26937494ba"
+
+[build]
+system = "autotools"

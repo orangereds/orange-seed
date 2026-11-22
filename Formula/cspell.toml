@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cspell"
+version = "10.5.2"
+description = "Spell checker for code"
+homepage = "https://cspell.org"
+
+[source]
+url = "https://registry.npmjs.org/cspell/-/cspell-10.5.2.tgz"
+sha256 = "ff12c624f1b2b1ad2780e81279d333ac07ab8f4b3c24b44f1fd095020cdcae01"
+
+[build]
+system = "autotools"

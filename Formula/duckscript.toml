@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "duckscript"
+version = "0.11.1"
+description = "Simple, extendable and embeddable scripting language"
+homepage = "https://sagiegurari.github.io/duckscript"
+
+[source]
+url = "https://github.com/sagiegurari/duckscript/archive/refs/tags/0.11.1.tar.gz"
+sha256 = "2e23b16359fb9b2c521f0bd250f6eb754bcb8ef40a7f8bf8076f87387276032a"
+
+[build]
+system = "autotools"

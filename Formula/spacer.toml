@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "spacer"
+version = "0.5.0"
+description = "Small command-line utility for adding spacers to command output"
+homepage = "https://github.com/samwho/spacer"
+
+[source]
+url = "https://github.com/samwho/spacer/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "310b08c538c04bae779a1c4786430e974801e8880a4c5256dc0877bc82b61af0"
+
+[build]
+system = "autotools"

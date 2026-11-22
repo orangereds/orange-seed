@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "eigen@3"
+version = "0"
+description = "C++ template library for linear algebra"
+homepage = "https://gitlab.com/libeigen/eigen"
+
+[source]
+url = "https://gitlab.com/libeigen/eigen/-/archive/3.4.1/eigen-3.4.1.tar.gz"
+sha256 = "b93c667d1b69265cdb4d9f30ec21f8facbbe8b307cf34c0b9942834c6d4fdbe2"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

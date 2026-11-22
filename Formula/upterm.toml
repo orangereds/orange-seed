@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "upterm"
+version = "0.41.1"
+description = "Instant terminal sharing"
+homepage = "https://upterm.dev"
+
+[source]
+url = "https://github.com/owenthereal/upterm/archive/refs/tags/v0.41.1.tar.gz"
+sha256 = "f5d5cc664b2859e67cb6437206daebee28b14b4a22be8fa3991e9a8c809b291d"
+
+[build]
+system = "autotools"

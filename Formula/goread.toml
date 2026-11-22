@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goread"
+version = "1.7.3"
+description = "RSS/Atom feeds in the terminal"
+homepage = "https://github.com/TypicalAM/goread"
+
+[source]
+url = "https://github.com/TypicalAM/goread/archive/refs/tags/v1.7.3.tar.gz"
+sha256 = "9b08cae05593034711c599b6b17605194a11bbfae769b4e7e0076a01ec197c37"
+
+[build]
+system = "autotools"

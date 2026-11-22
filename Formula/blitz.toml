@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "blitz"
+version = "1.0.2"
+description = "Multi-dimensional array library for C++"
+homepage = "https://github.com/blitzpp/blitz/wiki"
+
+[source]
+url = "https://github.com/blitzpp/blitz/archive/refs/tags/1.0.2.tar.gz"
+sha256 = "500db9c3b2617e1f03d0e548977aec10d36811ba1c43bb5ef250c0e3853ae1c2"
+
+[build]
+system = "cmake"

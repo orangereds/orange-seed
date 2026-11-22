@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype", "gd"]
+
+[package]
+name = "mscgen"
+version = "0_4"
+description = "Parses Message Sequence Chart descriptions and produces images"
+homepage = "https://www.mcternan.me.uk/mscgen/"
+
+[source]
+url = "https://www.mcternan.me.uk/mscgen/software/mscgen-src-0.20.tar.gz"
+sha256 = "3c3481ae0599e1c2d30b7ed54ab45249127533ab2f20e768a0ae58d8551ddc23"
+
+[build]
+system = "autotools"

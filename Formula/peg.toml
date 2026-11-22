@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "peg"
+version = "0.1.19"
+description = "Program to perform pattern matching on text"
+homepage = "https://www.piumarta.com/software/peg/"
+
+[source]
+url = "https://www.piumarta.com/software/peg/peg-0.1.19.tar.gz"
+sha256 = "0013dd83a6739778445a64bced3d74b9f50c07553f86ea43333ae5fab5c2bbb4"
+
+[build]
+system = "autotools"

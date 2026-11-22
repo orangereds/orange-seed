@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libsodium", "libyaml", "pydantic", "pygit2", "python@3.15", "rpds-py", "zstd"]
+
+[package]
+name = "charmcraft"
+version = "4.5.0_1"
+description = "Tool to build charms and publish them on Charmhub"
+homepage = "https://charmhub.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8f/02/8874a4780a20476afa3a3c57042874bbf88911d8cbf078f506dbe29f9db3/charmcraft-4.5.0.tar.gz"
+sha256 = "150d9c6376f6340ed7c951e03418b0190ac025b05a2d01bd2bb40835538676c1"
+
+[build]
+system = "autotools"

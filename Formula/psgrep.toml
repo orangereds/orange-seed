@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "psgrep"
+version = "1.0.9"
+description = "Shortcut for the 'ps aux | grep' idiom"
+homepage = "https://jvz.github.io/psgrep/"
+
+[source]
+url = "https://github.com/jvz/psgrep/archive/refs/tags/1.0.9.tar.gz"
+sha256 = "6408e4fc99414367ad08bfbeda6aa86400985efe1ccb1a1f00f294f86dd8b984"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-common"]
+
+[package]
+name = "aws-c-sdkutils"
+version = "1.0.1"
+description = "C99 library implementing AWS SDK specific utilities"
+homepage = "https://github.com/awslabs/aws-c-sdkutils"
+
+[source]
+url = "https://github.com/awslabs/aws-c-sdkutils/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "c74ce4e19304051d961255fdeb3cd431cfc81896c608a22f94c2321b5a19d6ba"
+
+[build]
+system = "cmake"

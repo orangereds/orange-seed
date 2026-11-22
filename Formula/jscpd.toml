@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jscpd"
+version = "5.4.3"
+description = "Copy/paste detector for programming source code"
+homepage = "https://jscpd.dev/"
+
+[source]
+url = "https://github.com/kucherenko/jscpd/archive/refs/tags/v5.4.3.tar.gz"
+sha256 = "617d0f3c5a5ba72e734c30d602d828e0eb77d2ab2d63b4f21cfa112ce19ffae7"
+
+[build]
+system = "autotools"

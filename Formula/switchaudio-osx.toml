@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "switchaudio-osx"
+version = "1.2.2"
+description = "Change macOS audio source from the command-line"
+homepage = "https://github.com/deweller/switchaudio-osx/"
+
+[source]
+url = "https://github.com/deweller/switchaudio-osx/archive/refs/tags/1.2.2.tar.gz"
+sha256 = "3d12b57cbd6063a643a12f12287af99c87894c33449c6bcac0a71fd15776b3ed"
+
+[build]
+system = "autotools"

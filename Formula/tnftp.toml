@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tnftp"
+version = "20260211"
+description = "NetBSD's FTP client"
+homepage = "https://cdn.netbsd.org/pub/NetBSD/misc/tnftp/"
+
+[source]
+url = "https://cdn.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20260211.tar.gz"
+sha256 = "101cda6927e5de4338ad9d4b264304d7d15d6a78b435968a7b95093e0a2efe03"
+
+[build]
+system = "autotools"

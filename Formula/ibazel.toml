@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "bazel"]
+
+[package]
+name = "ibazel"
+version = "0.33.0"
+description = "Tools for building Bazel targets when source files change"
+homepage = "https://github.com/bazelbuild/bazel-watcher"
+
+[source]
+url = "https://github.com/bazelbuild/bazel-watcher/archive/refs/tags/v0.33.0.tar.gz"
+sha256 = "18f5773135c2cc92c4acae562178f54c4d9972425f5186e5d9f3a6a952027080"
+
+[build]
+system = "autotools"

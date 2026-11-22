@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "git-delta"]
+
+[package]
+name = "diffnav"
+version = "0.13.1"
+description = "Git diff pager based on delta but with a file tree"
+homepage = "https://github.com/dlvhdr/diffnav"
+
+[source]
+url = "https://github.com/dlvhdr/diffnav/archive/refs/tags/v0.13.1.tar.gz"
+sha256 = "0276d21f3a4a2aa90b84c89fa2e7f08f7cecef1ddcf624103594ce93f959de2b"
+
+[build]
+system = "autotools"

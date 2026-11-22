@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "gixy"
+version = "0"
+description = "NGINX configuration static analyzer focused on security"
+homepage = "https://gixy.getpagespeed.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1a/db/7e99c8fe473d466d62afc49ecdc5d36befd806e6f7a62deb976e86ce3689/gixy_ng-0.2.63.tar.gz"
+sha256 = "ccff12aa3fdda85e125d7540aa4b51219ed7ab7e59adbafafffb47d6e4b348a5"
+
+[build]
+system = "autotools"

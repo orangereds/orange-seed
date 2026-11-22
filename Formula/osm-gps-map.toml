@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "gtk-doc", "libtool", "gobject-introspection", "pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+3", "libsoup", "at-spi2-core", "gettext", "harfbuzz", "pango"]
+
+[package]
+name = "osm-gps-map"
+version = "1.2.2"
+description = "GTK+ library to embed OpenStreetMap maps"
+homepage = "https://github.com/nzjrs/osm-gps-map"
+
+[source]
+url = "https://github.com/nzjrs/osm-gps-map/releases/download/1.2.2/osm-gps-map-1.2.2.tar.gz"
+sha256 = "051383588f0fdb60f59047c6559110c35025ea72b6eca700af532c020a6b55ec"
+
+[build]
+system = "autotools"

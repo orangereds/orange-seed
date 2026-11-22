@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-blueprint"
+version = "0.10.11"
+description = "CLI to streamline Go project setup with standardized structure"
+homepage = "https://docs.go-blueprint.dev/"
+
+[source]
+url = "https://github.com/Melkeydev/go-blueprint/archive/refs/tags/v0.10.11.tar.gz"
+sha256 = "4c5a8d75738fe73266b6e9d051829d7810c3787d52ab4c939c19ca92c9493004"
+
+[build]
+system = "autotools"

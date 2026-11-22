@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lpc21isp"
+version = "1.97"
+description = "In-circuit programming (ISP) tool for several NXP microcontrollers"
+homepage = "https://lpc21isp.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/lpc21isp/lpc21isp/1.97/lpc21isp_197.tar.gz"
+sha256 = "9f7d80382e4b70bfa4200233466f29f73a36fea7dc604e32f05b9aa69ef591dc"
+
+[build]
+system = "autotools"

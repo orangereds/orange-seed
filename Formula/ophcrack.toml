@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "ophcrack"
+version = "3.8.0_1"
+description = "Microsoft Windows password cracker using rainbow tables"
+homepage = "https://ophcrack.sourceforge.io/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ophcrack/ophcrack/3.8.0/ophcrack-3.8.0.tar.bz2"
+sha256 = "048a6df57983a3a5a31ac7c4ec12df16aa49e652a29676d93d4ef959d50aeee0"
+
+[build]
+system = "autotools"

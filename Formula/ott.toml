@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gmp", "ocaml", "opam", "pkgconf"]
+
+[package]
+name = "ott"
+version = "0.34_1"
+description = "Tool for writing definitions of programming languages and calculi"
+homepage = "https://www.cl.cam.ac.uk/~pes20/ott/"
+
+[source]
+url = "https://github.com/ott-lang/ott/archive/refs/tags/0.34.tar.gz"
+sha256 = "c14899fb9f9627f96fcde784829b53c014f4cd2e7633a697ac485ecb9ab8abd6"
+
+[build]
+system = "autotools"

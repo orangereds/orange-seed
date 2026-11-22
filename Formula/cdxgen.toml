@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet", "node", "ruby", "sourcekitten", "trivy"]
+
+[package]
+name = "cdxgen"
+version = "13.8.0"
+description = "Creates CycloneDX Software Bill-of-Materials (SBOM) for projects"
+homepage = "https://github.com/cdxgen/cdxgen"
+
+[source]
+url = "https://registry.npmjs.org/@cdxgen/cdxgen/-/cdxgen-13.8.0.tgz"
+sha256 = "c18f07296aecd7f957f0986a5407919810c4290de0ca011e0da8a97cb82c706a"
+
+[build]
+system = "autotools"

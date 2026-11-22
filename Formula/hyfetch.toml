@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "hyfetch"
+version = "2.1.1"
+description = "Fast, highly customisable system info script with LGBTQ+ pride flags"
+homepage = "https://github.com/hykilpikonna/hyfetch"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9a/2e/631d3a18c301573aa37b2ec2b212c7bac850bb0ae475f9875d69298901c8/hyfetch-2.1.1.tar.gz"
+sha256 = "3dbc5165eeb1790ff9abbc257f834ff9cc6b0f6edd57ea10fcdd2a691710bc20"
+
+[build]
+system = "autotools"

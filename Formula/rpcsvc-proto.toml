@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "rpcsvc-proto"
+version = "1.4.4"
+description = "Rpcsvc protocol definitions from glibc"
+homepage = "https://github.com/thkukuk/rpcsvc-proto"
+
+[source]
+url = "https://github.com/thkukuk/rpcsvc-proto/releases/download/v1.4.4/rpcsvc-proto-1.4.4.tar.xz"
+sha256 = "81c3aa27edb5d8a18ef027081ebb984234d5b5860c65bd99d4ac8f03145a558b"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

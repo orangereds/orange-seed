@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "protobuf"]
+
+[package]
+name = "protoc-gen-go-grpc"
+version = "1.6.2"
+description = "Protoc plugin that generates code for gRPC-Go clients"
+homepage = "https://grpc.io"
+
+[source]
+url = "https://github.com/grpc/grpc-go/archive/refs/tags/cmd/protoc-gen-go-grpc/v1.6.2.tar.gz"
+sha256 = "a5f284c76292c8f4460aa57d0dfe81ee44f4670082a575f43324523ec6ef15e7"
+
+[build]
+system = "autotools"

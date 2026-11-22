@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "svgo"
+version = "4.1.0"
+description = "Nodejs-based tool for optimizing SVG vector graphics files"
+homepage = "https://svgo.dev/"
+
+[source]
+url = "https://github.com/svg/svgo/archive/refs/tags/v4.1.0.tar.gz"
+sha256 = "8c9d43624e108eab29e369fdca68ea160e57b37a364907b499b5d6a4436cb59b"
+
+[build]
+system = "autotools"

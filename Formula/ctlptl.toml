@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ctlptl"
+version = "0.9.6"
+description = "Making local Kubernetes clusters fun and easy to set up"
+homepage = "https://github.com/tilt-dev/ctlptl"
+
+[source]
+url = "https://github.com/tilt-dev/ctlptl/archive/refs/tags/v0.9.6.tar.gz"
+sha256 = "51af2008cf435a808cb297c9564fe94a4207da541871739bde5062a2a8ede933"
+
+[build]
+system = "autotools"

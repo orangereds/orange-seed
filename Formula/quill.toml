@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "quill"
+version = "13.1.0"
+description = "C++17 Asynchronous Low Latency Logging Library"
+homepage = "https://github.com/odygrd/quill"
+
+[source]
+url = "https://github.com/odygrd/quill/archive/refs/tags/v13.1.0.tar.gz"
+sha256 = "a08b93bafc7e712b28eb47e4a1ed9b60fc01ac7fad3ce269f1f100560a506a85"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "marp-cli"
+version = "4.5.1"
+description = "Easily convert Marp Markdown files into static HTML/CSS, PDF, PPT and images"
+homepage = "https://github.com/marp-team/marp-cli"
+
+[source]
+url = "https://registry.npmjs.org/@marp-team/marp-cli/-/marp-cli-4.5.1.tgz"
+sha256 = "d7702c0cc55af571cc8085c1948fb21d67f57f547a6b3f2793e27a73e677dce9"
+
+[build]
+system = "autotools"

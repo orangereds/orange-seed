@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["qtbase"]
+
+[package]
+name = "dxflib"
+version = "3.26.4.orig"
+description = "C++ library for parsing DXF files"
+homepage = "https://www.ribbonsoft.com/en/what-is-dxflib"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/d/dxflib/dxflib_3.26.4.orig.tar.gz"
+sha256 = "e7208c9b67f5bc6727a0e3adf2162d8e67d80e0244dcda167fb7535556d944a1"
+
+[build]
+system = "autotools"

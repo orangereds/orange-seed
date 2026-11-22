@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib"]
+
+[package]
+name = "gcab"
+version = "1.6"
+description = "Windows installer (.MSI) tool"
+homepage = "https://wiki.gnome.org/msitools"
+
+[source]
+url = "https://download.gnome.org/sources/gcab/1.6/gcab-1.6.tar.xz"
+sha256 = "2f0c9615577c4126909e251f9de0626c3ee7a152376c15b5544df10fc87e560b"
+
+[build]
+system = "autotools"

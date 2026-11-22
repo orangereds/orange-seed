@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "sphinx-doc", "ffmpeg"]
+
+[package]
+name = "unpaper"
+version = "7.0.0_4"
+description = "Post-processing for scanned/photocopied books"
+homepage = "https://www.flameeyes.com/projects/unpaper"
+
+[source]
+url = "https://www.flameeyes.com/files/unpaper-7.0.0.tar.xz"
+sha256 = "2575fbbf26c22719d1cb882b59602c9900c7f747118ac130883f63419be46a80"
+
+[build]
+system = "autotools"

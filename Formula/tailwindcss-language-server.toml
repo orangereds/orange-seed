@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pnpm", "node"]
+
+[package]
+name = "tailwindcss-language-server"
+version = "0.16.0"
+description = "LSP for TailwindCSS"
+homepage = "https://github.com/tailwindlabs/tailwindcss-intellisense/tree/HEAD/packages/tailwindcss-language-server"
+
+[source]
+url = "https://github.com/tailwindlabs/tailwindcss-intellisense/archive/refs/tags/v0.16.0.tar.gz"
+sha256 = "96329cb80579ca6e81725c9d6510fc3ced568bcc6bef2bdd20de365e6b9f479c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "apr", "openssl@4"]
+
+[package]
+name = "activemq-cpp"
+version = "0_2"
+description = "C++ API for message brokers such as Apache ActiveMQ"
+homepage = "https://activemq.apache.org/components/cms/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=activemq/activemq-cpp/3.9.5/activemq-cpp-library-3.9.5-src.tar.bz2"
+sha256 = "6bd794818ae5b5567dbdaeb30f0508cc7d03808a4b04e0d24695b2501ba70c15"
+
+[build]
+system = "autotools"

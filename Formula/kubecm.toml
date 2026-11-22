@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubecm"
+version = "0.36.0"
+description = "KubeConfig Manager"
+homepage = "https://kubecm.cloud"
+
+[source]
+url = "https://github.com/sunny0826/kubecm/archive/refs/tags/v0.36.0.tar.gz"
+sha256 = "ae03e76d4401c1d705a4a2684d5ba2eef8e8eb47a30df5bb80abfb65ba19f34a"
+
+[build]
+system = "autotools"

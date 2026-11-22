@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ruby"]
+
+[package]
+name = "haiti"
+version = "4.0.0"
+description = "Hash type identifier"
+homepage = "https://noraj.github.io/haiti/#/"
+
+[source]
+url = "https://github.com/noraj/haiti/archive/refs/tags/v4.0.0.tar.gz"
+sha256 = "505ae91562ad8c21e31874b77c0000fc8bf649aaf031a05b15aaa92124f2ddf2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "container-structure-test"
+version = "1.22.1"
+description = "Validate the structure of your container images"
+homepage = "https://github.com/GoogleContainerTools/container-structure-test"
+
+[source]
+url = "https://github.com/GoogleContainerTools/container-structure-test/archive/refs/tags/v1.22.1.tar.gz"
+sha256 = "186bb1493ebb3c597e53b2a7abd5460c683c63d404e44a64223d26bb3315841d"
+
+[build]
+system = "autotools"

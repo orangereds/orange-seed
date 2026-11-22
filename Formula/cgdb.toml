@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "help2man", "readline", "texinfo"]
+
+[package]
+name = "cgdb"
+version = "0.8.0"
+description = "Curses-based interface to the GNU Debugger"
+homepage = "https://cgdb.github.io/"
+
+[source]
+url = "https://cgdb.me/files/cgdb-0.8.0.tar.gz"
+sha256 = "0d38b524d377257b106bad6d856d8ae3304140e1ee24085343e6ddf1b65811f1"
+
+[build]
+system = "autotools"

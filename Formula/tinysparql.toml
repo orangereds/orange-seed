@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "dbus", "glib", "icu4c@79", "json-glib", "libsoup", "sqlite"]
+
+[package]
+name = "tinysparql"
+version = "3.12.0_1"
+description = "Low-footprint RDF triple store with SPARQL 1.1 interface"
+homepage = "https://tinysparql.org/"
+
+[source]
+url = "https://download.gnome.org/sources/tinysparql/3.12/tinysparql-3.12.0.tar.xz"
+sha256 = "40e3e3ae9811ae07a94ac7dfe8259f218679ebb1c9bc98d7ab345b2405926b57"
+
+[build]
+system = "autotools"

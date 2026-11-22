@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "jansson", "openssl@4"]
+
+[package]
+name = "libjwt"
+version = "3.8.0"
+description = "JSON Web Token C library"
+homepage = "https://libjwt.io/"
+
+[source]
+url = "https://github.com/benmcollins/libjwt/archive/refs/tags/v3.8.0.tar.gz"
+sha256 = "7af71a58aa4b3ebd487361000c80191624a07883436cb1b5f5303488f29778ec"
+
+[build]
+system = "cmake"

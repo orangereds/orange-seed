@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "xmq"
+version = "4.2.0"
+description = "Tool and language to work with xml/html/json"
+homepage = "https://libxmq.org"
+
+[source]
+url = "https://github.com/libxmq/xmq/archive/refs/tags/4.2.0.tar.gz"
+sha256 = "a8fa90f53611a168ee3052c49f4c4b241481fd35c72fe04fd9d925b102ca91ee"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["coreutils", "lld", "llvm", "python@3.15"]
+
+[package]
+name = "afl++"
+version = "5.03c"
+description = "American Fuzzy Lop++"
+homepage = "https://aflplus.plus/"
+
+[source]
+url = "https://github.com/AFLplusplus/AFLplusplus/archive/refs/tags/v5.03c.tar.gz"
+sha256 = "07f089e8591209862898c770a569d8e2b74b459fe967db323fc6a3924dcc82b5"
+
+[build]
+system = "autotools"

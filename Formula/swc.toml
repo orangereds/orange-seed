@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "swc"
+version = "1.16.22"
+description = "Super-fast Rust-based JavaScript/TypeScript compiler"
+homepage = "https://swc.rs"
+
+[source]
+url = "https://github.com/swc-project/swc/archive/refs/tags/v1.16.22.tar.gz"
+sha256 = "11e82b947cd2e819dd988c740c5c3f3409cfcaaaec3ab686374774355b912aa6"
+
+[build]
+system = "autotools"

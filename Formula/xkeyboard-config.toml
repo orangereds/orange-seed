@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "python@3.15"]
+
+[package]
+name = "xkeyboard-config"
+version = "2.48"
+description = "Keyboard configuration database for the X Window System"
+homepage = "https://www.freedesktop.org/wiki/Software/XKeyboardConfig/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/data/xkeyboard-config/xkeyboard-config-2.48.tar.xz"
+sha256 = "b77041324f0109f77161ee43743fe04baa485866af8460d31e476ad3f7648fd5"
+
+[build]
+system = "autotools"

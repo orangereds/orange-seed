@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libev"
+version = "4.33"
+description = "Asynchronous event library"
+homepage = "https://software.schmorp.de/pkg/libev.html"
+
+[source]
+url = "https://dist.schmorp.de/libev/Attic/libev-4.33.tar.gz"
+sha256 = "507eb7b8d1015fbec5b935f34ebed15bf346bed04a11ab82b8eee848c4205aea"
+
+[build]
+system = "autotools"

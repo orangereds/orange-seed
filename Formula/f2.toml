@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "f2"
+version = "2.2.2"
+description = "Command-line batch renaming tool"
+homepage = "https://f2.freshman.tech"
+
+[source]
+url = "https://github.com/ayoisaiah/f2/archive/refs/tags/v2.2.2.tar.gz"
+sha256 = "0785e40b1fd2adb55165f668dc2635d47559fd7534b0f1da33849f155c4e539b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-pkgs-proxy"
+version = "0.11.0"
+description = "Lightweight caching proxy for package registries"
+homepage = "https://github.com/git-pkgs/proxy"
+
+[source]
+url = "https://github.com/git-pkgs/proxy/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "9a66aacec64f02f850cf2f3106787045750f8556bdfac32442f44ff8ac781780"
+
+[build]
+system = "autotools"

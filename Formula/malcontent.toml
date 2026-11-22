@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "yara-x"]
+
+[package]
+name = "malcontent"
+version = "1.28.2"
+description = "Supply Chain Attack Detection, via context differential analysis and YARA"
+homepage = "https://github.com/chainguard-dev/malcontent"
+
+[source]
+url = "https://github.com/chainguard-dev/malcontent/archive/refs/tags/v1.28.2.tar.gz"
+sha256 = "752370f44512f05a1947b33d64048f96a895d82fd02db7aabf0116e103a03b60"
+
+[build]
+system = "autotools"

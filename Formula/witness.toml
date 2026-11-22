@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "witness"
+version = "0.12.0"
+description = "Automates, normalizes, and verifies software artifact provenance"
+homepage = "https://witness.dev"
+
+[source]
+url = "https://github.com/in-toto/witness/archive/refs/tags/v0.12.0.tar.gz"
+sha256 = "76c571202fda4a586da857322ec2a0ac8a96659ace455902bbd75e4b62c785ea"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "skalibs"]
+
+[package]
+name = "execline"
+version = "2.10.0.0"
+description = "Interpreter-less scripting language"
+homepage = "https://skarnet.org/software/execline/"
+
+[source]
+url = "https://skarnet.org/software/execline/execline-2.10.0.0.tar.gz"
+sha256 = "561be2ce578604644e2263a889bbdf4736e7980401ee88556a7f9017c166dbab"
+
+[build]
+system = "autotools"

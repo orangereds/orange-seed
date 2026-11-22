@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "emeraldian"
+version = "0.10.2"
+description = "Terminal UI for Obsidian vaults, with a graph and an assistant"
+homepage = "https://github.com/iamrohithrnair/emeraldian"
+
+[source]
+url = "https://github.com/iamrohithrnair/emeraldian/archive/refs/tags/v0.10.2.tar.gz"
+sha256 = "2d6911759dcf947cac9428b1b83ee12114057275d15353219288af6d2ad47cc0"
+
+[build]
+system = "autotools"

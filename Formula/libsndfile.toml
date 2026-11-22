@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "flac", "lame", "libogg", "libvorbis", "mpg123", "opus"]
+
+[package]
+name = "libsndfile"
+version = "1.2.2_1"
+description = "C library for files containing sampled sound"
+homepage = "https://libsndfile.github.io/libsndfile/"
+
+[source]
+url = "https://github.com/libsndfile/libsndfile/releases/download/1.2.2/libsndfile-1.2.2.tar.xz"
+sha256 = "3799ca9924d3125038880367bf1468e53a1b7e3686a934f098b7e1d286cdb80e"
+
+[build]
+system = "cmake"

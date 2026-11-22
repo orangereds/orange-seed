@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libusb"]
+
+[package]
+name = "stlink"
+version = "1.9.0"
+description = "STM32 discovery line Linux programmer"
+homepage = "https://github.com/stlink-org/stlink"
+
+[source]
+url = "https://github.com/stlink-org/stlink/archive/refs/tags/v1.9.0.tar.gz"
+sha256 = "10d6c3bff3d5a7f6aefd00e096339822cafc65acf32e43c842369e346d2e5069"
+
+[build]
+system = "cmake"

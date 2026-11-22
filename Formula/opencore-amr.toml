@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "opencore-amr"
+version = "0.1.6"
+description = "Audio codecs extracted from Android open source project"
+homepage = "https://opencore-amr.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/opencore-amr/opencore-amr/opencore-amr-0.1.6.tar.gz"
+sha256 = "483eb4061088e2b34b358e47540b5d495a96cd468e361050fae615b1809dc4a1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pcre2"]
+
+[package]
+name = "libyang"
+version = "6.4.13"
+description = "YANG data modeling language library"
+homepage = "https://github.com/CESNET/libyang"
+
+[source]
+url = "https://github.com/CESNET/libyang/archive/refs/tags/v6.4.13.tar.gz"
+sha256 = "bf78a437225027ce9e20d2c449b7853204d7fd450bb00fb01e83339145561a86"
+
+[build]
+system = "cmake"

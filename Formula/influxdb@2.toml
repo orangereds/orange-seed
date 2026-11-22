@@ -1,0 +1,29 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["breezy", "go", "pkgconf", "protobuf", "rust"]
+
+[package]
+name = "influxdb@2"
+version = "0"
+description = "Time series, events, and metrics database"
+homepage = "https://influxdata.com/time-series-platform/influxdb/"
+
+[source]
+url = "https://github.com/influxdata/influxdb.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/influxdb@2/bin/influxd"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/log/influxdb2/influxd_output.log"
+error_log_path = "var/log/influxdb2/influxd_output.log"
+
+[service.env]
+INFLUXD_CONFIG_PATH = "influxdb2/config.yml"
+
+[build]
+system = "autotools"

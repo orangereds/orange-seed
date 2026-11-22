@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hickory-dns"
+version = "0.26.3"
+description = "Rust based DNS client, server, and resolver"
+homepage = "https://github.com/hickory-dns/hickory-dns"
+
+[source]
+url = "https://github.com/hickory-dns/hickory-dns/archive/refs/tags/v0.26.3.tar.gz"
+sha256 = "4d623c78cd9e098b1d00a17b0fae3e6dbd192b886e07b2324060dd5349031a39"
+
+[build]
+system = "autotools"

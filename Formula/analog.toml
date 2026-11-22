@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gd", "jpeg-turbo", "libpng", "minizip", "pcre2"]
+
+[package]
+name = "analog"
+version = "6.0.18"
+description = "Logfile analyzer"
+homepage = "https://www.c-amie.co.uk/software/analog/"
+
+[source]
+url = "https://github.com/c-amie/analog-ce/archive/refs/tags/6.0.18.tar.gz"
+sha256 = "6c5d3f05643196b64eadeccb7b5063e2508c0155ac34c1fe848f6d055c371933"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15"]
+
+[package]
+name = "oci-cli"
+version = "0"
+description = "Oracle Cloud Infrastructure CLI"
+homepage = "https://docs.cloud.oracle.com/iaas/Content/API/Concepts/cliconcepts.htm"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e5/b4/e4bb478f90baacade3b1a5716e6a632109096e928314278455334a094cec/oci_cli-3.96.3.tar.gz"
+sha256 = "a23991f482c4425c232775c53252db4776ebe5787aeb2ab6d5925a1ae6b96f4f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "cairo", "glib", "jpeg-turbo", "libdicom", "libpng", "libtiff", "libxml2", "openjpeg", "sqlite", "zstd", "gettext"]
+
+[package]
+name = "openslide"
+version = "4.0.1"
+description = "C library to read whole-slide images (a.k.a. virtual slides)"
+homepage = "https://openslide.org/"
+
+[source]
+url = "https://github.com/openslide/openslide/releases/download/v4.0.1/openslide-4.0.1.tar.xz"
+sha256 = "df82f6b264f98d11eeb80d85bbb10c7935fcd69c7abae1d610ce49b9a0437faf"
+
+[build]
+system = "autotools"

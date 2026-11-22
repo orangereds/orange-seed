@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "boost", "openssl@4"]
+
+[package]
+name = "tcpflow"
+version = "1.6.1_1"
+description = "TCP/IP packet demultiplexer"
+homepage = "https://github.com/simsong/tcpflow"
+
+[source]
+url = "https://corp.digitalcorpora.org/downloads/tcpflow/tcpflow-1.6.1.tar.gz"
+sha256 = "436f93b1141be0abe593710947307d8f91129a5353c3a8c3c29e2ba0355e171e"
+
+[build]
+system = "autotools"

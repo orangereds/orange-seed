@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "yaml2json"
+version = "1.3.5"
+description = "Command-line tool convert from YAML to JSON"
+homepage = "https://github.com/bronze1man/yaml2json"
+
+[source]
+url = "https://github.com/bronze1man/yaml2json/archive/refs/tags/v1.3.5.tar.gz"
+sha256 = "efde12ca8b3ab7df3d3eaef35ecfb6e0d54baed33c8d553e7fd611a79c4cee04"
+
+[build]
+system = "autotools"

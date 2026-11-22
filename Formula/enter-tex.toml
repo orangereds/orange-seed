@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gettext", "gobject-introspection", "itstool", "meson", "ninja", "pkgconf", "vala", "adwaita-icon-theme", "gdk-pixbuf", "glib", "gspell", "gtk+3", "libgedit-amtk", "libgedit-gfls", "libgedit-gtksourceview", "libgedit-tepl", "libgee", "libhandy", "pango"]
+
+[package]
+name = "enter-tex"
+version = "3.51.0"
+description = "TeX/LaTeX text editor"
+homepage = "https://gitlab.gnome.org/swilmet/enter-tex"
+
+[source]
+url = "https://gitlab.gnome.org/World/gedit/enter-tex/-/archive/3.51.0/enter-tex-3.51.0.tar.bz2"
+sha256 = "8423115492d28b140b594cf103b3ba0740786bd308e835ce65885f47fef12b1b"
+
+[build]
+system = "autotools"

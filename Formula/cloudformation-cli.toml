@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "go", "certifi", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "cloudformation-cli"
+version = "0_3"
+description = "CloudFormation Provider Development Toolkit"
+homepage = "https://github.com/aws-cloudformation/cloudformation-cli/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4d/38/749280aaf20f7db34736f47923fb7845f86a08cb984f05d9b5c85762fa09/cloudformation_cli-0.2.41.tar.gz"
+sha256 = "bac1612d2ae09329b3230d733e92239f3869ebc710c7febb4135e7e7306285c9"
+
+[build]
+system = "autotools"

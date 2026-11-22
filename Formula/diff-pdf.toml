@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "cairo", "glib", "poppler", "wxwidgets", "gettext"]
+
+[package]
+name = "diff-pdf"
+version = "0.5.3_1"
+description = "Visually compare two PDF files"
+homepage = "https://vslavik.github.io/diff-pdf/"
+
+[source]
+url = "https://github.com/vslavik/diff-pdf/releases/download/v0.5.3/diff-pdf-0.5.3.tar.gz"
+sha256 = "dc4004fe1199eebf381b5e0f2a60b6b59ff73434730e4f0aae1e0d02fa171b98"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "opus"]
+
+[package]
+name = "libopusenc"
+version = "0.3"
+description = "Convenience library for creating .opus files"
+homepage = "https://www.opus-codec.org/"
+
+[source]
+url = "https://ftp.osuosl.org/pub/xiph/releases/opus/libopusenc-0.3.tar.gz"
+sha256 = "f616d3aff9b2034547894ccb8ab56c36cf1a4acb0d922c5d7119f97bbe58642c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "speedtest-go"
+version = "1.8.3"
+description = "CLI and Go API to Test Internet Speed using speedtest.net"
+homepage = "https://github.com/showwin/speedtest-go"
+
+[source]
+url = "https://github.com/showwin/speedtest-go/archive/refs/tags/v1.8.3.tar.gz"
+sha256 = "48d01137468da9d419a3940a652803dafd8a6820abcd985b85c9d0c86b417ba3"
+
+[build]
+system = "autotools"

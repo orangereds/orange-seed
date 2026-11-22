@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "rsync"]
+
+[package]
+name = "rsyncy"
+version = "2.2.0"
+description = "Status/progress bar for rsync"
+homepage = "https://github.com/laktak/rsyncy"
+
+[source]
+url = "https://github.com/laktak/rsyncy/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "72c1053309e8e478f1f1c13b35043d91099551d551bf7fcbef5c35ca32ec1481"
+
+[build]
+system = "autotools"

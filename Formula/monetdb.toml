@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "lz4", "openssl@4", "pcre2", "readline", "xz"]
+
+[package]
+name = "monetdb"
+version = "0"
+description = "Column-store database"
+homepage = "https://www.monetdb.org/"
+
+[source]
+url = "https://www.monetdb.org/downloads/sources/Dec2025-SP4/MonetDB-11.55.9.tar.xz"
+sha256 = "c2edb5a930fc0c5aaf7fe1cac34be2bb125a1e52ee5fbdf1df9a993cc526cffe"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gsl", "htslib"]
+
+[package]
+name = "bcftools"
+version = "1.25"
+description = "Tools for BCF/VCF files and variant calling from samtools"
+homepage = "https://www.htslib.org/"
+
+[source]
+url = "https://github.com/samtools/bcftools/releases/download/1.25/bcftools-1.25.tar.bz2"
+sha256 = "f96e583d2315998645bb56756f1c8f230c489512db2655b0f623198ebc8a2d99"
+
+[build]
+system = "autotools"

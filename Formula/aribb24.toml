@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libpng"]
+
+[package]
+name = "aribb24"
+version = "1.0.4"
+description = "Library for ARIB STD-B24, decoding JIS 8 bit characters and parsing MPEG-TS"
+homepage = "https://code.videolan.org/jeeb/aribb24"
+
+[source]
+url = "https://code.videolan.org/jeeb/aribb24/-/archive/v1.0.4/aribb24-v1.0.4.tar.bz2"
+sha256 = "88b58dd760609372701087e25557ada9f7c6d973306c017067c5dcaf9e2c9710"
+
+[build]
+system = "autotools"

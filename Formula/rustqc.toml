@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "rustqc"
+version = "0.2.1"
+description = "Fast genomics quality control tools for sequencing data"
+homepage = "https://seqeralabs.github.io/RustQC/"
+
+[source]
+url = "https://github.com/seqeralabs/rustqc/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "ae8036a60aeba4b68b335a23ef6f0b7468a24b8c4cc42c0dad74f1c423fb7f89"
+
+[build]
+system = "autotools"

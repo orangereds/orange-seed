@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "python-setuptools", "rust", "yarn", "gh", "libssh2", "node", "openssl@4", "python@3.13"]
+
+[package]
+name = "sapling"
+version = "0.2.20261103-145137+6282ac56"
+description = "Source control client"
+homepage = "https://sapling-scm.com"
+
+[source]
+url = "https://github.com/meta/sapling/archive/refs/tags/0.2.20261103-145137+6282ac56.tar.gz"
+sha256 = "0dd35dba5f99bbb97fbfbb18075aa183ae7d63d28954c2d92160ed50bba9cdfb"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "buildkite"
+version = "3.69.0"
+description = "Work with Buildkite from the command-line"
+homepage = "https://github.com/buildkite/cli"
+
+[source]
+url = "https://github.com/buildkite/cli/archive/refs/tags/v3.69.0.tar.gz"
+sha256 = "96681b1a8772a04e28318af0e969dac279339165e05d238e8d05ad15f13cb43d"
+
+[build]
+system = "autotools"

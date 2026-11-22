@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rinetd"
+version = "0.73_1"
+description = "Internet TCP redirection server"
+homepage = "https://github.com/samhocevar/rinetd"
+
+[source]
+url = "https://github.com/samhocevar/rinetd/releases/download/v0.73/rinetd-0.73.tar.bz2"
+sha256 = "39180d31b15f059b2e876496286356e40183d1567c2e2aec41aacad8721ecc44"
+
+[service]
+run = "rinetd -c etc/rinetd.conf -f"
+
+[build]
+system = "autotools"

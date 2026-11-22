@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "bioperl"
+version = "0_7"
+description = "Perl tools for bioinformatics, genomics and life science"
+homepage = "https://bioperl.org"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/C/CJ/CJFIELDS/BioPerl-1.7.8.tar.gz"
+sha256 = "c490a3be7715ea6e4305efd9710e5edab82dabc55fd786b6505b550a30d71738"
+
+[build]
+system = "autotools"

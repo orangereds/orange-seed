@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "libfuse"
+version = "0"
+description = "Reference implementation of the Linux FUSE interface"
+homepage = "https://github.com/libfuse/libfuse"
+
+[source]
+url = "https://github.com/libfuse/libfuse/releases/download/fuse-3.18.3/fuse-3.18.3.tar.gz"
+sha256 = "bcd19582c5e30f7fe45dd86a5540e998590aa01903afc7ebcbeea6c8ac5421ee"
+
+[build]
+system = "autotools"

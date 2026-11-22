@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qt@5"]
+
+[package]
+name = "color-code"
+version = "0"
+description = "Free advanced MasterMind clone"
+homepage = "http://colorcode.laebisch.com/"
+
+[source]
+url = "http://colorcode.laebisch.com/download/ColorCode-0.8.7.tar.gz"
+sha256 = "10d6bb0ab532e603c30caf7fafc5541fa1de5c31f2e154ebc6e1bed410de182a"
+
+[build]
+system = "cmake"

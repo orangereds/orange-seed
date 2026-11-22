@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@11"]
+
+[package]
+name = "alluxio"
+version = "2.9.5-bin"
+description = "Open Source Memory Speed Virtual Distributed Storage"
+homepage = "https://www.alluxio.io/"
+
+[source]
+url = "https://downloads.alluxio.io/downloads/files/2.9.5/alluxio-2.9.5-bin.tar.gz"
+sha256 = "a85fb49654599f813661f9b8fc68d507774746258c607af33b9b2b12f16feaba"
+
+[build]
+system = "autotools"

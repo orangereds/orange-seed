@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "http-server-rs"
+version = "0.8.9"
+description = "Simple and configurable command-line HTTP server"
+homepage = "https://github.com/http-server-rs/http-server"
+
+[source]
+url = "https://github.com/http-server-rs/http-server/archive/refs/tags/v0.8.9.tar.gz"
+sha256 = "b385a979946efb9421f49b698ce9fe1f0e590a96797e72e8e441bebd6ce65bb6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "shub"
+version = "2.18.1_2"
+description = "Scrapinghub command-line client"
+homepage = "https://shub.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/41/c0/e4cd695b5335dab990dafe0e773382f509d6d8cf77124ca523a66e928439/shub-2.18.1.tar.gz"
+sha256 = "4ede0607380bad7df43160dcd0401b47eee309a37fdaf098d6a4621bbfe76a2b"
+
+[build]
+system = "autotools"

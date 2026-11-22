@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vgo"
+version = "0.3.0"
+description = "Project scaffolder for Go, written in Go"
+homepage = "https://github.com/vg006/vgo"
+
+[source]
+url = "https://github.com/vg006/vgo/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "262ab18eb8e2f68031e17727c1c8b0e01e61c385dcd7addbd2c1ae86ecd312b4"
+
+[build]
+system = "autotools"

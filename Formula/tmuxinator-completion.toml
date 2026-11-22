@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tmuxinator-completion"
+version = "3.4.2"
+description = "Shell completion for Tmuxinator"
+homepage = "https://github.com/tmuxinator/tmuxinator"
+
+[source]
+url = "https://github.com/tmuxinator/tmuxinator/archive/refs/tags/v3.4.2.tar.gz"
+sha256 = "5abf32ddd6cb22fac7991310024bc14d95820e09cb7d86c6b633210afd549f67"
+
+[build]
+system = "autotools"

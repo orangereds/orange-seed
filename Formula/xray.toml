@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "xray"
+version = "20261108215333"
+description = "Platform for building proxies to bypass network restrictions"
+homepage = "https://xtls.github.io/"
+
+[source]
+url = "https://github.com/XTLS/Xray-core/archive/refs/tags/v26.11.9.tar.gz"
+sha256 = "d5a47bed1b85e1cdfe3cb2f88a02e2db7144f0f8bee541d20b84fafa8fdf6c8d"
+
+[service]
+run = "opt/xray/bin/xray run --config #{etc}/xray/config.json"
+keep_alive = true
+
+[build]
+system = "autotools"

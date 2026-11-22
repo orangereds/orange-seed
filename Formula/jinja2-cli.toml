@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libyaml", "python@3.15"]
+
+[package]
+name = "jinja2-cli"
+version = "0"
+description = "CLI for the Jinja2 templating language"
+homepage = "https://github.com/mattrobenolt/jinja2-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/91/b3/19afd8cfe9b6664fcc200befbc71a393cbbe343bb76a6acbeff1709d0c83/jinja2_cli-1.0.1.tar.gz"
+sha256 = "cca3e59494558640af52add7b8636cfa82eba72871a21cbbdc0a6f2000a4e5b7"
+
+[build]
+system = "autotools"

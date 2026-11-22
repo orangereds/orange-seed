@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chainloop-cli"
+version = "1.136.1"
+description = "CLI for interacting with Chainloop"
+homepage = "https://docs.chainloop.dev"
+
+[source]
+url = "https://github.com/chainloop-dev/chainloop/archive/refs/tags/v1.136.1.tar.gz"
+sha256 = "18b0cf3025b98d6259d74515063ab078f467c5850f8edfd8b08c60edfa5402b7"
+
+[build]
+system = "autotools"

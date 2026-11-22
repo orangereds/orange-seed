@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "aws-c-auth", "aws-c-cal", "aws-c-common", "aws-c-event-stream", "aws-c-http", "aws-c-io", "aws-c-mqtt", "aws-c-s3", "aws-checksums", "certifi", "cryptography", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "aws-sam-cli"
+version = "0"
+description = "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+homepage = "https://aws.amazon.com/serverless/sam/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/13/f6/08d3f3bace2eed19ec6f68b038c3161fbac811eda2ef378c6f314d4f4137/aws_sam_cli-1.174.0.tar.gz"
+sha256 = "dab9f50ad8fbd5b5137176a37a898aa2873bb60ca150240b861b1c95c4dd245b"
+
+[build]
+system = "autotools"

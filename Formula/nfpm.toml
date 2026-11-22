@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "nfpm"
+version = "2.49.0"
+description = "Simple deb and rpm packager"
+homepage = "https://nfpm.goreleaser.com/"
+
+[source]
+url = "https://github.com/goreleaser/nfpm/archive/refs/tags/v2.49.0.tar.gz"
+sha256 = "cb94db4244d324c8b1daab9d9d27d553e4b7ad9ec6e152cc58a2e80195bc410f"
+
+[build]
+system = "autotools"

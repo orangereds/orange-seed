@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cog"
+version = "0.23.1"
+description = "Containers for machine learning"
+homepage = "https://cog.run/"
+
+[source]
+url = "https://github.com/replicate/cog/archive/refs/tags/v0.23.1.tar.gz"
+sha256 = "151a973370d6e25c95e039f96b299ea1c838538eb116cba85b3eb7295c9b5a17"
+
+[build]
+system = "autotools"

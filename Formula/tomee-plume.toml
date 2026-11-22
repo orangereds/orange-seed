@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "tomee-plume"
+version = "0"
+description = "Apache TomEE Plume"
+homepage = "https://tomee.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tomee/tomee-10.3.0/apache-tomee-10.3.0-plume.tar.gz"
+sha256 = "8aee5cb91fd2f952ceee9d189c9c3930f1838e4f07b1ecc85c1af3a38c66d81d"
+
+[build]
+system = "autotools"

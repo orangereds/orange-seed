@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "doctl"
+version = "2.7.0"
+description = "Command-line tool for DigitalOcean"
+homepage = "https://docs.digitalocean.com/reference/doctl/"
+
+[source]
+url = "https://github.com/digitalocean/doctl/archive/refs/tags/v2.7.0.tar.gz"
+sha256 = "6c5562320fa40457c858393bd305ba1ae60a538c3f89264b82af65f6072fd212"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "bulletty"
+version = "0.3.0"
+description = "Pretty feed reader (ATOM/RSS) that stores articles in Markdown files"
+homepage = "https://bulletty.croci.dev/"
+
+[source]
+url = "https://github.com/CrociDB/bulletty/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "93b1da89b46877ee34b2f1688bcf052411c67c74d0e09299adee38ecd86309e5"
+
+[build]
+system = "autotools"

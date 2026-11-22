@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "asnmap"
+version = "1.2.0"
+description = "Quickly map organization network ranges using ASN information"
+homepage = "https://github.com/projectdiscovery/asnmap"
+
+[source]
+url = "https://github.com/projectdiscovery/asnmap/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "f4c615392cf206930361588a03b3df8f46775faabf37b84a398068dbe7159008"
+
+[build]
+system = "autotools"

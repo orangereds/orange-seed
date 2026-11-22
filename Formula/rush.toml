@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rush"
+version = "2.4"
+description = "GNU's Restricted User SHell"
+homepage = "https://www.gnu.org.ua/software/rush/"
+
+[source]
+url = "https://ftpmirror.gnu.org/rush/rush-2.4.tar.xz"
+sha256 = "fa95af9d2c7b635581841cc27a1d27af611f60dd962113a93d23a8874aa060f4"
+
+[build]
+system = "autotools"

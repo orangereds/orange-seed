@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "shaderc"
+version = "e1b562a8bed273a02f30b59b66a5d499793cede5"
+description = "Collection of tools, libraries, and tests for Vulkan shader compilation"
+homepage = "https://github.com/google/shaderc"
+
+[source]
+url = "https://github.com/google/shaderc/archive/refs/tags/v2026.4.tar.gz"
+sha256 = "f06ce5bcca94e5df7f34e115743597d0ad2e13c5fe9213c67dc8c76031241947"
+
+[build]
+system = "autotools"

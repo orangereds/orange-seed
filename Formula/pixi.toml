@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust"]
+
+[package]
+name = "pixi"
+version = "0.84.2"
+description = "Package management made easy"
+homepage = "https://pixi.sh"
+
+[source]
+url = "https://github.com/prefix-dev/pixi/archive/refs/tags/v0.84.2.tar.gz"
+sha256 = "45bb2eb57c8b499962c2ed9a1683b3f120624318bcda4c4511fbd07a887a6ee6"
+
+[build]
+system = "autotools"

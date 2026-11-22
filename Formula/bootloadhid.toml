@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libusb-compat"]
+
+[package]
+name = "bootloadhid"
+version = "0"
+description = "HID-based USB bootloader for AVR microcontrollers"
+homepage = "https://www.obdev.at/products/vusb/bootloadhid.html"
+
+[source]
+url = "https://www.obdev.at/downloads/vusb/bootloadHID.2012-12-08.tar.gz"
+sha256 = "154e7e38629a3a2eec2df666edfa1ee2f2e9a57018f17d9f0f8f064cc20d8754"
+
+[build]
+system = "autotools"

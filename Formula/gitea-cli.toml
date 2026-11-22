@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gitea-cli"
+version = "2.0.0"
+description = "Official command-line tool for Gitea"
+homepage = "https://gitea.com/gitea/cli"
+
+[source]
+url = "https://gitea.com/gitea/cli/archive/v2.0.0.tar.gz"
+sha256 = "93e204e19c1a0a1b03968cf79f49f7b046e87770150a8c942940b0f15bef3f53"
+
+[build]
+system = "autotools"

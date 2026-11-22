@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "strip-nondeterminism"
+version = "1.15.1"
+description = "Tool for stripping bits of non-deterministic information from files"
+homepage = "https://salsa.debian.org/reproducible-builds/strip-nondeterminism"
+
+[source]
+url = "https://salsa.debian.org/reproducible-builds/strip-nondeterminism/-/archive/1.15.1/strip-nondeterminism-1.15.1.tar.bz2"
+sha256 = "b8046b0faf182aff8de68abf8318d2b913637f4c23961cf61c47402af132a237"
+
+[build]
+system = "autotools"

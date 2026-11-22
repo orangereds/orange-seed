@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "pkgconf", "rust", "pcre2"]
+
+[package]
+name = "ripgrep"
+version = "15.2.0"
+description = "Search tool like grep and The Silver Searcher"
+homepage = "https://github.com/BurntSushi/ripgrep"
+
+[source]
+url = "https://github.com/BurntSushi/ripgrep/archive/refs/tags/15.2.0.tar.gz"
+sha256 = "7605249d3eb0d5f170e3414498e3344e26b1e7a147aec518b57090b80036a562"
+
+[build]
+system = "autotools"

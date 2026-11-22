@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "mercurial"]
+
+[package]
+name = "git-cinnabar"
+version = "0.7.5.crate"
+description = "Git remote helper to interact with mercurial repositories"
+homepage = "https://github.com/glandium/git-cinnabar"
+
+[source]
+url = "https://static.crates.io/crates/git-cinnabar/git-cinnabar-0.7.5.crate"
+sha256 = "b7f51bf94f7795deb25b862c72a57f83c48f84d12e52c20e5f99f6c70397a516"
+
+[build]
+system = "autotools"

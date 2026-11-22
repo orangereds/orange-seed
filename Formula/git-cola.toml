@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["git-gui", "pyqt", "python@3.15"]
+
+[package]
+name = "git-cola"
+version = "0_1"
+description = "Highly caffeinated git GUI"
+homepage = "https://git-cola.github.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/98/79/6be8026bdc9340a278f0a7631c732f7bae1884e53f5dfaeb2798362d190b/git_cola-4.19.0.tar.gz"
+sha256 = "8b85c50ecf1086c9664c79348a96cebd7dbb65054d53ea2b02e70d53cb7f0981"
+
+[build]
+system = "autotools"

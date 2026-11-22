@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "llvm"]
+
+[package]
+name = "clangql"
+version = "0.23.0"
+description = "Run a SQL like language to perform queries on C/C++ files"
+homepage = "https://amrdeveloper.github.io/ClangQL/"
+
+[source]
+url = "https://github.com/AmrDeveloper/ClangQL/archive/refs/tags/0.23.0.tar.gz"
+sha256 = "89167e051aa0bd032109e86b56597279c74c6ed09bae4e86331b846696bc02bd"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "google-sparsehash", "pkgconf"]
+
+[package]
+name = "afsctool"
+version = "e634ca58b4821d9f3d560cdc6df5dec02ffc93fd"
+description = "Utility for manipulating APFS and ZFS compressed files"
+homepage = "https://brkirch.wordpress.com/afsctool/"
+
+[source]
+url = "https://github.com/RJVB/afsctool/archive/refs/tags/v1.7.3.tar.gz"
+sha256 = "5776ff5aaf05c513bead107536d9e98e6037019a0de8a1435cc9da89ea8d49b8"
+
+[build]
+system = "cmake"

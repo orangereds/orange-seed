@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "libgee", "libxml2", "gettext"]
+
+[package]
+name = "gxml"
+version = "0.20.4_2"
+description = "GObject-based XML DOM API"
+homepage = "https://wiki.gnome.org/GXml"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/gxml/-/archive/0.20.4/gxml-0.20.4.tar.bz2"
+sha256 = "d8d8b16ff701d0c5ff04b337b246880ec4523abfe897a1f77acdf7d73fb14b84"
+
+[build]
+system = "autotools"

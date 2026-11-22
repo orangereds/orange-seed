@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["antlr", "cmake", "nlohmann-json", "openjdk", "pkgconf", "antlr4-cpp-runtime", "capnp", "uhdm"]
+
+[package]
+name = "surelog"
+version = "1.89"
+description = "SystemVerilog Pre-processor, parser, elaborator, UHDM compiler"
+homepage = "https://github.com/chipsalliance/Surelog"
+
+[source]
+url = "https://github.com/chipsalliance/Surelog/archive/refs/tags/v1.89.tar.gz"
+sha256 = "a832b0231fbcbb180c452005f89a91b013fb75c86222556e425ca3d9591dafe0"
+
+[build]
+system = "cmake"

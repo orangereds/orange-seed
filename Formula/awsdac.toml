@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "awsdac"
+version = "0.24"
+description = "CLI tool for drawing AWS architecture"
+homepage = "https://github.com/awslabs/diagram-as-code"
+
+[source]
+url = "https://github.com/awslabs/diagram-as-code/archive/refs/tags/v0.24.tar.gz"
+sha256 = "5744f58964e2c90cb8601c40060523b923205105f3456a7ac8ff0aa81070e7ce"
+
+[build]
+system = "autotools"

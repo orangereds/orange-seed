@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpng", "xorgrgb"]
+
+[package]
+name = "sng"
+version = "1.1.1"
+description = "Enable lossless editing of PNGs via a textual representation"
+homepage = "https://sng.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/sng/sng-1.1.1.tar.xz"
+sha256 = "c9bdfb80f5a17db1aab9337baed64a8ebea5c0ddf82915c6887b8cfb87ece61e"
+
+[build]
+system = "autotools"

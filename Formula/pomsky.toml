@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pomsky"
+version = "0.12"
+description = "Regular expression language"
+homepage = "https://pomsky-lang.org/"
+
+[source]
+url = "https://github.com/pomsky-lang/pomsky/archive/refs/tags/v0.12.tar.gz"
+sha256 = "a6265bac4e9ddb03f85ddb9a9c2cc391472b8b0d14570719146272fd3cf361d3"
+
+[build]
+system = "autotools"

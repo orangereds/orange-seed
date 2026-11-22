@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmocka", "pkgconf", "gnutls", "icu4c@79", "krb5", "libtasn1", "lmdb", "popt", "readline", "talloc", "tdb", "tevent", "gettext"]
+
+[package]
+name = "samba"
+version = "4.25.1"
+description = "SMB/CIFS file, print, and login server for UNIX"
+homepage = "https://www.samba.org/"
+
+[source]
+url = "https://download.samba.org/pub/samba/stable/samba-4.25.1.tar.gz"
+sha256 = "7f367545bca69aa96897628f82f0f04d4b66b3bcb36cb978b9bb952c4b4c428d"
+
+[build]
+system = "autotools"

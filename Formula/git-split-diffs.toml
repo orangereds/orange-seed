@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "git-split-diffs"
+version = "2.3.0"
+description = "Syntax highlighted side-by-side diffs in your terminal"
+homepage = "https://github.com/banga/git-split-diffs"
+
+[source]
+url = "https://registry.npmjs.org/git-split-diffs/-/git-split-diffs-2.3.0.tgz"
+sha256 = "6391f1a1fb8b5a3b5d6b31008a9ba1627a0c6903e857eba24b734c81d3351edc"
+
+[build]
+system = "autotools"

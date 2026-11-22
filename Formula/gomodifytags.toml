@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gomodifytags"
+version = "1.17.0"
+description = "Go tool to modify struct field tags"
+homepage = "https://github.com/fatih/gomodifytags"
+
+[source]
+url = "https://github.com/fatih/gomodifytags/archive/refs/tags/v1.17.0.tar.gz"
+sha256 = "a490786d80c962dc946b8f9804ffec596c1087dbf91b122b9b5903c03b6da6b9"
+
+[build]
+system = "autotools"

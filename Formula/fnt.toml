@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["chafa", "lcdf-typetools", "xz", "coreutils"]
+
+[package]
+name = "fnt"
+version = "1.9.2"
+description = "Apt for fonts, the missing font manager for macOS/linux"
+homepage = "https://github.com/alexmyczko/fnt"
+
+[source]
+url = "https://github.com/alexmyczko/fnt/archive/refs/tags/1.9.2.tar.gz"
+sha256 = "a3c4c17bb891d773dbf6cccb9479d8d436bb83d4c3d57d7e333a8db8cb9f11b4"
+
+[build]
+system = "autotools"

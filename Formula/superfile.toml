@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "superfile"
+version = "1.6.1"
+description = "Modern and pretty fancy file manager for the terminal"
+homepage = "https://superfile.dev/"
+
+[source]
+url = "https://github.com/yorukot/superfile/archive/refs/tags/v1.6.1.tar.gz"
+sha256 = "cdca43cebee4b302104274084d67de31e244b4add39a247a76ab2ae3b255e7d6"
+
+[build]
+system = "autotools"

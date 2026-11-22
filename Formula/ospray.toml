@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "embree", "ispc", "tbb"]
+
+[package]
+name = "ospray"
+version = "3.2.0"
+description = "Ray-tracing-based rendering engine for high-fidelity visualization"
+homepage = "https://www.ospray.org/"
+
+[source]
+url = "https://github.com/RenderKit/ospray/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "2c8108df2950bc5d1bc2a62f74629233dbe4f36e3f6a8ea032907d4a3fdc6750"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["readline"]
+
+[package]
+name = "with-readline"
+version = "0.1.1_2"
+description = "Allow GNU Readline to be used with arbitrary programs"
+homepage = "https://www.greenend.org.uk/rjk/sw/withreadline.html"
+
+[source]
+url = "https://www.greenend.org.uk/rjk/sw/with-readline-0.1.1.tar.gz"
+sha256 = "d12c71eb57ef1dbe35e7bd7a1cc470a4cb309c63644116dbd9c88762eb31b55d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-md2man"
+version = "2.0.7"
+description = "Converts markdown into roff (man pages)"
+homepage = "https://github.com/cpuguy83/go-md2man"
+
+[source]
+url = "https://github.com/cpuguy83/go-md2man/archive/refs/tags/v2.0.7.tar.gz"
+sha256 = "ca3a5b57e2c01759f5a00ad2a578d034c5370fae9aa7a6c3af5648b2fc802a92"
+
+[build]
+system = "autotools"

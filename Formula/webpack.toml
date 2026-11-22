@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "webpack"
+version = "5.113.0"
+description = "Bundler for JavaScript and friends"
+homepage = "https://webpack.js.org/"
+
+[source]
+url = "https://registry.npmjs.org/webpack/-/webpack-5.113.0.tgz"
+sha256 = "095755cb8e271b3f38615ae794264f314b1e4dd3158c5677e8700aee9ea20bb7"
+
+[build]
+system = "autotools"

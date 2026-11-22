@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "curl", "expat", "libfuse", "openssl@4", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "s3-backer"
+version = "0_1"
+description = "FUSE-based single file backing store via Amazon S3"
+homepage = "https://github.com/archiecobbs/s3backer"
+
+[source]
+url = "https://s3.amazonaws.com/archie-public/s3backer/s3backer-2.1.6.tar.gz"
+sha256 = "55ff3123ab08d45822e6b349d9e305ca2ca13339474314cfc31a074d5308acf6"
+
+[build]
+system = "autotools"

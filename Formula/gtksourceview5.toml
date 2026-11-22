@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "cairo", "fontconfig", "fribidi", "gdk-pixbuf", "glib", "graphene", "gtk4", "pango", "pcre2", "gettext"]
+
+[package]
+name = "gtksourceview5"
+version = "0"
+description = "Text view with syntax, undo/redo, and text marks"
+homepage = "https://projects.gnome.org/gtksourceview/"
+
+[source]
+url = "https://download.gnome.org/sources/gtksourceview/5.22/gtksourceview-5.22.0.tar.xz"
+sha256 = "3ebce33c781e65590a450ecd3ffade480d8e3135b52ee996f1620d6c7dffbbff"
+
+[build]
+system = "autotools"

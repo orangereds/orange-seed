@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ncompress"
+version = "5.0"
+description = "Fast, simple LZW file compressor"
+homepage = "https://vapier.github.io/ncompress/"
+
+[source]
+url = "https://github.com/vapier/ncompress/archive/refs/tags/v5.0.tar.gz"
+sha256 = "96ec931d06ab827fccad377839bfb91955274568392ddecf809e443443aead46"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

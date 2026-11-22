@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "structurizr-cli"
+version = "0"
+description = "Command-line utility for Structurizr"
+homepage = "https://docs.structurizr.com/cli"
+
+[source]
+url = "https://github.com/structurizr/cli/releases/download/v2025.11.09/structurizr-cli.zip"
+sha256 = "f5365a463fc44d539ed19bec00c48ba1e1ecda0ccfd1ba40d2e7472d264eb79a"
+
+[build]
+system = "autotools"

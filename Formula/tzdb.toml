@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "tzdb"
+version = "2026f.tar.lz"
+description = "Time Zone Database"
+homepage = "https://www.iana.org/time-zones"
+
+[source]
+url = "https://data.iana.org/time-zones/releases/tzdb-2026f.tar.lz"
+sha256 = "357829e3a16a78224d23f1ae2327704c1da1fd35f6769a7aac0682755fb9027a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "kubernetes-cli"]
+
+[package]
+name = "kubectl-tree"
+version = "0.6.0"
+description = "Kubectl plugin to browse Kubernetes object hierarchies as a tree"
+homepage = "https://github.com/ahmetb/kubectl-tree"
+
+[source]
+url = "https://github.com/ahmetb/kubectl-tree/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "a2c62e887be6bd66c920edb26f9e8ad40d483d4d257e31641fbbef8f0ab1a6ce"
+
+[build]
+system = "autotools"

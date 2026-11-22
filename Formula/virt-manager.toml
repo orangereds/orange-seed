@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docutils", "gettext", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "certifi", "cpio", "gtk-vnc", "gtksourceview4", "libosinfo", "libvirt-glib", "libvirt-python", "osinfo-db", "py3cairo", "pygobject3", "python@3.15", "spice-gtk", "vte3"]
+
+[package]
+name = "virt-manager"
+version = "5.1.0_6"
+description = "App for managing virtual machines"
+homepage = "https://virt-manager.org/"
+
+[source]
+url = "https://github.com/virt-manager/virt-manager/releases/download/v5.1.0/virt-manager-5.1.0.tar.xz"
+sha256 = "ccfc44b6c1c0be8398beb687c675d9ea4ca1c721dfb67bd639209a7b0dec11b1"
+
+[build]
+system = "autotools"

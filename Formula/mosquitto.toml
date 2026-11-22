@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "cjson", "libwebsockets", "openssl@4"]
+
+[package]
+name = "mosquitto"
+version = "2.1.4"
+description = "Message broker implementing the MQTT protocol"
+homepage = "https://mosquitto.org/"
+
+[source]
+url = "https://mosquitto.org/files/source/mosquitto-2.1.4.tar.gz"
+sha256 = "ca30b26ccd3041c0e11fc407fe4f2e62bc445e8d8dea94a083cc60c09bd5ea30"
+
+[service]
+run = "mosquitto -c etc/mosquitto/mosquitto.conf"
+working_dir = "var/mosquitto"
+
+[build]
+system = "cmake"

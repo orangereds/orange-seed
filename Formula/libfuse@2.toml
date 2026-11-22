@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool"]
+
+[package]
+name = "libfuse@2"
+version = "0"
+description = "Reference implementation of the Linux FUSE interface"
+homepage = "https://github.com/libfuse/libfuse"
+
+[source]
+url = "https://github.com/libfuse/libfuse/releases/download/fuse-2.9.9/fuse-2.9.9.tar.gz"
+sha256 = "d0e69d5d608cc22ff4843791ad097f554dd32540ddc9bed7638cc6fea7c1b4b5"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

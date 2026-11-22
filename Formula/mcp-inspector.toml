@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "cmake", "rust"]
+
+[package]
+name = "mcp-inspector"
+version = "0"
+description = "Visual testing tool for MCP servers"
+homepage = "https://modelcontextprotocol.io/docs/tools/inspector"
+
+[source]
+url = "https://registry.npmjs.org/@modelcontextprotocol/inspector/-/inspector-2.16.0.tgz"
+sha256 = "5283d65b609c80aea67a31cbc9668afbce036dba0e64f594c31c8826963e3a7b"
+
+[build]
+system = "autotools"

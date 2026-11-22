@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "mpremote"
+version = "1.29.0"
+description = "Tool for interacting remotely with MicroPython devices"
+homepage = "https://docs.micropython.org/en/latest/reference/mpremote.html"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ac/b7/8c44eb606b0e53517fd6ddda3f598b3bdb180c181f4e0bcbb9b7743f4cb5/mpremote-1.29.0.tar.gz"
+sha256 = "ab0b6f21059698e573ca076fe9a0299e5fe7bbc3ca3f5b2f00007e22e51c7b80"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["flex", "readline"]
+
+[package]
+name = "dwarf"
+version = "0.4.0_1"
+description = "Object file manipulation tool"
+homepage = "https://github.com/elboza/dwarf-ng/"
+
+[source]
+url = "https://github.com/elboza/dwarf-ng/archive/refs/tags/dwarf-0.4.0.tar.gz"
+sha256 = "a64656f53ded5166041ae25cc4b1ad9ab5046a5c4d4c05b727447e73c0d83da0"
+
+[build]
+system = "autotools"

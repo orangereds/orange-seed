@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "linux-headers@4.4"
+version = "4.4.302-cip116"
+description = "Header files of the Linux kernel"
+homepage = "https://kernel.org/"
+
+[source]
+url = "https://cdn.kernel.org/pub/linux/kernel/projects/cip/4.4/linux-cip-4.4.302-cip116.tar.gz"
+sha256 = "260469d3d98b0e82934734f149b99109df0fdd485b0b4fcecd1bd1db0b4987bc"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "curl", "libfuse", "libxml2", "openssl@4"]
+
+[package]
+name = "s3fs"
+version = "1.97_2"
+description = "FUSE-based file system backed by Amazon S3"
+homepage = "https://github.com/s3fs-fuse/s3fs-fuse/wiki"
+
+[source]
+url = "https://github.com/s3fs-fuse/s3fs-fuse/archive/refs/tags/v1.97.tar.gz"
+sha256 = "28413457cbf923b9b81e546caffabb8edd5c18f263e698ad86f564fd4b5b344d"
+
+[build]
+system = "autotools"

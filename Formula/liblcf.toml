@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "icu4c@79", "inih"]
+
+[package]
+name = "liblcf"
+version = "0.8.1_2"
+description = "Library for RPG Maker 2000/2003 games data"
+homepage = "https://easyrpg.org/"
+
+[source]
+url = "https://easyrpg.org/downloads/player/0.8.1/liblcf-0.8.1.tar.xz"
+sha256 = "e827b265702cf7d9f4af24b8c10df2c608ac70754ef7468e34836201ff172273"
+
+[build]
+system = "cmake"

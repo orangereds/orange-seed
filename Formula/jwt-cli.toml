@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jwt-cli"
+version = "6.2.0"
+description = "Super fast CLI tool to decode and encode JWTs built in Rust"
+homepage = "https://github.com/mike-engel/jwt-cli"
+
+[source]
+url = "https://github.com/mike-engel/jwt-cli/archive/refs/tags/6.2.0.tar.gz"
+sha256 = "49d67d920391978684dc32b75e553a2abbd46c775365c0fb4b232d22c0ed653a"
+
+[build]
+system = "autotools"

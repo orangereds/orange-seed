@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk"]
+
+[package]
+name = "ki"
+version = "0.6.0"
+description = "Kotlin Language Interactive Shell"
+homepage = "https://github.com/Kotlin/kotlin-interactive-shell"
+
+[source]
+url = "https://github.com/Kotlin/kotlin-interactive-shell/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "46404602ca69c18a777ed2c88de5c5eec7e43d4cc1e77a4b44e413701bd327a0"
+
+[build]
+system = "autotools"

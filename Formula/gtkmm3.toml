@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "atkmm@2.28", "cairomm@1.14", "gdk-pixbuf", "glib", "glibmm@2.66", "gtk+3", "libsigc++@2", "pangomm@2.46"]
+
+[package]
+name = "gtkmm3"
+version = "0"
+description = "C++ interfaces for GTK+ and GNOME"
+homepage = "https://www.gtkmm.org/"
+
+[source]
+url = "https://download.gnome.org/sources/gtkmm/3.24/gtkmm-3.24.11.tar.xz"
+sha256 = "19e383c82d5dd89db275e00b82864e90414d4c3fb3d100b2f996bcc2338a4cc7"
+
+[build]
+system = "autotools"

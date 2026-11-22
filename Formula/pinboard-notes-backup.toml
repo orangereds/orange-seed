@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "pinboard-notes-backup"
+version = "1.0.7.2"
+description = "Efficiently back up the notes you've saved to Pinboard"
+homepage = "https://github.com/bdesham/pinboard-notes-backup"
+
+[source]
+url = "https://github.com/bdesham/pinboard-notes-backup/archive/refs/tags/v1.0.7.2.tar.gz"
+sha256 = "c3499d02171fadbb6104bd6559d3ca95a09217c78d056fe08f45be5dd50755ad"
+
+[build]
+system = "autotools"

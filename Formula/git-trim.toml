@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libssh2", "openssl@4"]
+
+[package]
+name = "git-trim"
+version = "0"
+description = "Trim your git remote tracking branches that are merged or gone"
+homepage = "https://github.com/foriequal0/git-trim"
+
+[source]
+url = "https://github.com/foriequal0/git-trim.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

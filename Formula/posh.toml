@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "posh"
+version = "0"
+description = "Policy-compliant ordinary shell"
+homepage = "https://salsa.debian.org/clint/posh"
+
+[source]
+url = "https://salsa.debian.org/clint/posh/-/archive/debian/0.14.6/posh-debian-0.14.6.tar.bz2"
+sha256 = "cacc5eeebcc36d83a2b5d63fd4d58b17762a3e294aa87d5d8af5c3f0dc21272f"
+
+[build]
+system = "autotools"

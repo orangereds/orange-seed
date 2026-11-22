@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "librsvg", "libtool", "pkgconf", "qttools", "djvulibre", "libtiff", "qt5compat", "qtbase"]
+
+[package]
+name = "djview4"
+version = "0"
+description = "Viewer for the DjVu image format"
+homepage = "https://djvu.sourceforge.net/djview4.html"
+
+[source]
+url = "https://downloads.sourceforge.net/project/djvu/DjView/4.12/djview-4.12.3.tar.gz"
+sha256 = "17bfb9731ab8070e01235381f08e57b1231ffb5f49eb031873ebfa189cdaf47d"
+
+[build]
+system = "autotools"

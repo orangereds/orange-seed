@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "make", "coreutils"]
+
+[package]
+name = "asar"
+version = "1.91"
+description = "SNES assembler for applying patches to ROM images or building ROMs"
+homepage = "https://github.com/RPGHacker/asar"
+
+[source]
+url = "https://github.com/RPGHacker/asar/archive/refs/tags/v1.91.tar.gz"
+sha256 = "9192664c888d6ed13a96b15ad81cb98e9e0334531bdfaf8f77abd071816a0770"
+
+[build]
+system = "cmake"

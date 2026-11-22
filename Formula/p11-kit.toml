@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "ca-certificates", "libtasn1"]
+
+[package]
+name = "p11-kit"
+version = "0.26.6"
+description = "Library to load and enumerate PKCS#11 modules"
+homepage = "https://p11-glue.github.io/p11-glue/p11-kit.html"
+
+[source]
+url = "https://github.com/p11-glue/p11-kit/releases/download/0.26.6/p11-kit-0.26.6.tar.xz"
+sha256 = "5fda95dc89964af32dbd8e01b139c166717cf96c4fee3d601bcd60bdb23d23c6"
+
+[build]
+system = "autotools"

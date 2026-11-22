@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gd"]
+
+[package]
+name = "vnstat"
+version = "2.14"
+description = "Console-based network traffic monitor"
+homepage = "https://humdi.net/vnstat/"
+
+[source]
+url = "https://humdi.net/vnstat/vnstat-2.14.tar.gz"
+sha256 = "8ba2119b3c6f780775135f9c9fa7236867da67e2f93649f1313319b9cf48f87c"
+
+[service]
+run = "opt/vnstat/bin/vnstatd --nodaemon --config etc/vnstat.conf"
+keep_alive = true
+working_dir = "var"
+
+[build]
+system = "autotools"

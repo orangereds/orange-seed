@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "e1s"
+version = "2.0.0"
+description = "TUI for managing AWS ECS, inspired by k9s"
+homepage = "https://github.com/keidarcy/e1s"
+
+[source]
+url = "https://github.com/keidarcy/e1s/archive/refs/tags/v2.0.0.tar.gz"
+sha256 = "d2846602a86b245ca85e0f80d3a02f5cdeb6320d12b87189894f1cfc5531ac28"
+
+[build]
+system = "autotools"

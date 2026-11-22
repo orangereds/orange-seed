@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "onnxruntime"]
+
+[package]
+name = "bkmr"
+version = "8.9.0"
+description = "Unified CLI Tool for Bookmark, Snippet, and Knowledge Management"
+homepage = "https://github.com/sysid/bkmr"
+
+[source]
+url = "https://github.com/sysid/bkmr/archive/refs/tags/v8.9.0.tar.gz"
+sha256 = "2112fd8c1bce8ccfc41a8de21e4b0b37fa8894ee0a0cc8058c4a8bc43198299b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "python@3.15"]
+
+[package]
+name = "robotcode"
+version = "2.8.0"
+description = "Ultimate Robot Framework Toolset"
+homepage = "https://robotcode.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/32/8d/ec077aa7a3f843a19db1bfdf438f62b635571f104e68fc7bf2d51a286c7a/robotcode-2.8.0.tar.gz"
+sha256 = "da7e84dd7216a4c01b67168b5b299a0964c062a8a812adfc044ae1720e34f773"
+
+[build]
+system = "autotools"

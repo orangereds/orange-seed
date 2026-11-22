@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "wuchale"
+version = "0.26.7"
+description = "Protobuf-like i18n from plain code"
+homepage = "https://wuchale.dev/"
+
+[source]
+url = "https://registry.npmjs.org/wuchale/-/wuchale-0.26.7.tgz"
+sha256 = "f3ee8f54491ebca2438f8f22e1db675890547dc38bbc5d985494e1662e1a2900"
+
+[build]
+system = "autotools"

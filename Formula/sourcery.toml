@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "sourcery"
+version = "2.4.1"
+description = "Meta-programming for Swift, stop writing boilerplate code"
+homepage = "https://github.com/krzysztofzablocki/Sourcery"
+
+[source]
+url = "https://github.com/krzysztofzablocki/Sourcery/archive/refs/tags/2.4.1.tar.gz"
+sha256 = "6ed3b89e22dd9612d0558b75e47117edcfc745acf1825dade151fcc0c085afb2"
+
+[build]
+system = "autotools"

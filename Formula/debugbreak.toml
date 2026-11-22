@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "debugbreak"
+version = "1.0"
+description = "Break into the debugger programmatically"
+homepage = "https://github.com/scottt/debugbreak"
+
+[source]
+url = "https://github.com/scottt/debugbreak/archive/refs/tags/v1.0.tar.gz"
+sha256 = "62089680cc1cd0857519e2865b274ed7534bfa7ddfce19d72ffee41d4921ae2f"
+
+[build]
+system = "autotools"

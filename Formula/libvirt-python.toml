@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "python-setuptools", "python@3.14", "python@3.15", "libvirt"]
+
+[package]
+name = "libvirt-python"
+version = "0"
+description = "Libvirt virtualization API python binding"
+homepage = "https://www.libvirt.org/"
+
+[source]
+url = "https://download.libvirt.org/python/libvirt_python-12.9.0.tar.gz"
+sha256 = "598b85cd1f5e94b97684b725cd45a65f6ab734c6edaa61d4aec98721f30e9401"
+
+[build]
+system = "autotools"

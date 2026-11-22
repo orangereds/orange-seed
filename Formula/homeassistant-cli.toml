@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "homeassistant-cli"
+version = "0_5"
+description = "Command-line utility for Home Assistant"
+homepage = "https://github.com/home-assistant-ecosystem/home-assistant-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/42/9b/9b92e5db7510336aadfe20481eee705d09f01f2a445683cea04140015895/homeassistant_cli-1.0.0.tar.gz"
+sha256 = "de7cc54de6f2a8bdbde3bfea75913f35ee82faa17fe272e840a2da0c93b1a7df"
+
+[build]
+system = "autotools"

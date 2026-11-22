@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["netsurf-buildsystem", "pkgconf", "libhubbub", "libparserutils", "libwapcaplet"]
+
+[package]
+name = "libdom"
+version = "0.4.2-src"
+description = "Implementation of the W3C DOM"
+homepage = "https://www.netsurf-browser.org/projects/libdom/"
+
+[source]
+url = "https://download.netsurf-browser.org/libs/releases/libdom-0.4.2-src.tar.gz"
+sha256 = "d05e45af16547014c2b0a3aecf3670fa13d419f505b3f5fc7ac8a1491fc30f3c"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["brotli", "xz"]
+
+[package]
+name = "exiftool"
+version = "0_1"
+description = "Perl lib for reading and writing EXIF metadata"
+homepage = "https://exiftool.org"
+
+[source]
+url = "https://downloads.sourceforge.net/project/exiftool/Image-ExifTool-13.55.tar.gz"
+sha256 = "5f4c81d34ad406538c2871ad72dbfceb5d9b412b2f16cbbeb4d712d270846667"
+
+[build]
+system = "autotools"

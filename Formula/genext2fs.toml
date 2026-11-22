@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "genext2fs"
+version = "1.6.3"
+description = "Generates an ext2 filesystem as a normal (non-root) user"
+homepage = "https://genext2fs.sourceforge.net/"
+
+[source]
+url = "https://github.com/bestouff/genext2fs/archive/refs/tags/v1.6.3.tar.gz"
+sha256 = "e3503a5bae3fd4b5b2c2d4f49b5b7f8d08e7accb20ab28c0f9647389b2c8a079"
+
+[build]
+system = "autotools"

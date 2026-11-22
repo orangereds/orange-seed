@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cli11", "cmake", "nlohmann-json", "pkgconf", "spdlog", "tl-expected", "fmt", "libarchive", "libsolv", "lz4", "msgpack", "openssl@4", "reproc", "simdjson", "xz", "yaml-cpp", "zstd", "llvm", "howard-hinnant-date"]
+
+[package]
+name = "micromamba"
+version = "13_3"
+description = "Fast Cross-Platform Package Manager"
+homepage = "https://github.com/mamba-org/mamba"
+
+[source]
+url = "https://github.com/mamba-org/mamba/archive/refs/tags/2.10.0.tar.gz"
+sha256 = "396cf6c08f16ecbc0a98b45a3f14469911aa2f6dda9c3b4ca98d010cea017835"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libsodium", "libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "dstack"
+version = "0.22.8"
+description = "ML workflow orchestration system designed for reproducibility and collaboration"
+homepage = "https://dstack.ai/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/63/35/bd52170618ce6fe66b0e13ccffb1c1cb9a90be09802e468302a5e29eb3c6/dstack-0.22.8.tar.gz"
+sha256 = "61edd54e020ce647fe5672995660ab8988f62db37265cc86e6f82765dfe5de4f"
+
+[build]
+system = "autotools"

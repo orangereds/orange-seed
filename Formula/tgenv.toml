@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tgenv"
+version = "1.3.0"
+description = "Terragrunt version manager inspired by tfenv"
+homepage = "https://github.com/tgenv/tgenv"
+
+[source]
+url = "https://github.com/tgenv/tgenv/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "cccf0d5714cf1156aaa9f451d98601afa3e7bb0b104eda61013a9a8849bee2fb"
+
+[build]
+system = "autotools"

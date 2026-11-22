@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "taze"
+version = "21.3.0"
+description = "Modern cli tool that keeps your deps fresh"
+homepage = "https://github.com/antfu-collective/taze"
+
+[source]
+url = "https://registry.npmjs.org/taze/-/taze-21.3.0.tgz"
+sha256 = "a3cd18531b35d53417ddcf287363a650da3adf61129ca45ca6441d0e1edc1b30"
+
+[build]
+system = "autotools"

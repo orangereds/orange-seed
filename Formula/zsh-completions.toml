@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zsh-completions"
+version = "0.36.0"
+description = "Additional completion definitions for zsh"
+homepage = "https://github.com/zsh-users/zsh-completions"
+
+[source]
+url = "https://github.com/zsh-users/zsh-completions/archive/refs/tags/0.36.0.tar.gz"
+sha256 = "5aa68be2999a7be2eb56de8e4acff8f3bba4a66b9acbb233752536857408fb2e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "docker"]
+
+[package]
+name = "container-canary"
+version = "0.5.0"
+description = "Test and validate container requirements against versioned manifests"
+homepage = "https://github.com/NVIDIA/container-canary"
+
+[source]
+url = "https://github.com/NVIDIA/container-canary/archive/refs/tags/v0.5.0.tar.gz"
+sha256 = "3f0ceab899931d221f4d88ca01783d98446198a04ce56c8065a111a78872cff6"
+
+[build]
+system = "autotools"

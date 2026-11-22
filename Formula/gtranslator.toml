@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "itstool", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "cairo", "gettext", "glib", "gtk4", "gtksourceview5", "json-glib", "libadwaita", "libsoup", "libspelling", "pango", "sqlite"]
+
+[package]
+name = "gtranslator"
+version = "51.0"
+description = "GNOME gettext PO file editor"
+homepage = "https://wiki.gnome.org/Design/Apps/Translator"
+
+[source]
+url = "https://download.gnome.org/sources/gtranslator/51/gtranslator-51.0.tar.xz"
+sha256 = "2dc283b4e36624064bdc85e657eb4de1eb01feba62a1b0eb3b2221fc6c02c75a"
+
+[build]
+system = "autotools"

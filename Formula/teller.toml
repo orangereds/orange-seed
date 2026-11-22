@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust"]
+
+[package]
+name = "teller"
+version = "2.0.7"
+description = "Secrets management tool for developers"
+homepage = "https://github.com/tellerops/teller"
+
+[source]
+url = "https://github.com/tellerops/teller/archive/refs/tags/v2.0.7.tar.gz"
+sha256 = "1d4275ede4366a31efc94039c58da4cec87466d09cc01444c3c18e9432716d23"
+
+[build]
+system = "autotools"

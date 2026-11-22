@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "multi-gitter"
+version = "0.64.0"
+description = "Update multiple repositories in with one command"
+homepage = "https://github.com/lindell/multi-gitter"
+
+[source]
+url = "https://github.com/lindell/multi-gitter/archive/refs/tags/v0.64.0.tar.gz"
+sha256 = "82cbb58888eeba869702ea60b508d964e093da3b14beb5bf1b93e9cd5aa013f1"
+
+[build]
+system = "autotools"

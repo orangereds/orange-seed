@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pyscn"
+version = "1.33.2"
+description = "Intelligent Python Code Quality Analyzer"
+homepage = "https://ludo-technologies.github.io/pyscn/"
+
+[source]
+url = "https://github.com/ludo-technologies/pyscn/archive/refs/tags/v1.33.2.tar.gz"
+sha256 = "8d30b2d41e0f7506a0758cc688b6f92bbe0bd01fb854edba8ff73459184aee5c"
+
+[build]
+system = "autotools"

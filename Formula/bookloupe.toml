@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "gettext"]
+
+[package]
+name = "bookloupe"
+version = "2.0_1"
+description = "List common formatting errors in a Project Gutenberg candidate file"
+homepage = "http://www.juiblex.co.uk/pgdp/bookloupe/"
+
+[source]
+url = "http://www.juiblex.co.uk/pgdp/bookloupe/bookloupe-2.0.tar.gz"
+sha256 = "15b1f5a0fa01e7c0a0752c282f8a354d3dc9edbefc677e6e42044771d5abe3c9"
+
+[build]
+system = "autotools"

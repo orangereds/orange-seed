@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["eccodes", "libaec", "netcdf"]
+
+[package]
+name = "cdi"
+version = "2.6.3"
+description = "C and Fortran Interface to access Climate and NWP model Data"
+homepage = "https://code.mpimet.mpg.de/projects/cdi"
+
+[source]
+url = "https://code.mpimet.mpg.de/attachments/download/30225/cdi-2.6.3.tar.gz"
+sha256 = "7256a0771cb827b9058701d8460e51549736d630b2d4354cdc652221f0f654e2"
+
+[build]
+system = "autotools"

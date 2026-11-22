@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "canfigger", "glib", "ncurses"]
+
+[package]
+name = "rmw"
+version = "0.10.0"
+description = "Trashcan/recycle bin utility for the command-line"
+homepage = "https://theimpossibleastronaut.github.io/rmw-website/"
+
+[source]
+url = "https://github.com/theimpossibleastronaut/rmw/releases/download/v0.10.0/rmw-0.10.0.tar.xz"
+sha256 = "8f96fd96831b69bffc8019cb000483ffe92a7764765484df57f63a6515d26fd9"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "corrosion", "rust", "texinfo"]
+
+[package]
+name = "libchewing"
+version = "0.13.1.tar.zst"
+description = "Intelligent phonetic input method library"
+homepage = "https://chewing.im/"
+
+[source]
+url = "https://codeberg.org/chewing/libchewing/releases/download/v0.13.1/libchewing-0.13.1.tar.zst"
+sha256 = "c897a5d0aadfdeb07784e1411ceac0efef2c97bea8143fb3b1dcde8274e14fc0"
+
+[build]
+system = "cmake"

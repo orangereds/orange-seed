@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ldc"]
+
+[package]
+name = "dcd"
+version = "0"
+description = "Auto-complete program for the D programming language"
+homepage = "https://github.com/dlang-community/DCD"
+
+[source]
+url = "https://github.com/dlang-community/DCD.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

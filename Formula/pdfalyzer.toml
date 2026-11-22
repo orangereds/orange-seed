@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pillow", "python@3.15", "yara"]
+
+[package]
+name = "pdfalyzer"
+version = "1.19.6_1"
+description = "PDF analysis toolkit"
+homepage = "https://github.com/michelcrypt4d4mus/pdfalyzer"
+
+[source]
+url = "https://files.pythonhosted.org/packages/69/e4/39183a9674a5eb292143d9a3dd1c4fa9541fffcf567f5295efefd5be86db/pdfalyzer-1.19.6.tar.gz"
+sha256 = "888df3252f73fe28132a017824bc60f7a686c6a05800f3b026f76f48ee655dd3"
+
+[build]
+system = "autotools"

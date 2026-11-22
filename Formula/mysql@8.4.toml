@@ -1,0 +1,23 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "pkgconf", "abseil", "icu4c@79", "lz4", "openssl@4", "protobuf", "zlib-ng-compat", "zstd", "llvm"]
+
+[package]
+name = "mysql@8.4"
+version = "9_1"
+description = "Open source relational database management system"
+homepage = "https://github.com/mysql/mysql-server"
+
+[source]
+url = "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.13.tar.gz"
+sha256 = "f6ddc7f7fb6462bab8b533b13c06af3fff57fa9ca12259b81ab13cd9930b9d58"
+
+[install]
+keg_only = true
+
+[service]
+run = "opt/mysql@8.4/bin/mysqld_safe --datadir=#{var}/mysql"
+keep_alive = true
+working_dir = "var/mysql"
+
+[build]
+system = "cmake"

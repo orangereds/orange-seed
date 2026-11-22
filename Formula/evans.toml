@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "evans"
+version = "0.10.11"
+description = "More expressive universal gRPC client"
+homepage = "https://github.com/ktr0731/evans"
+
+[source]
+url = "https://github.com/ktr0731/evans/archive/refs/tags/v0.10.11.tar.gz"
+sha256 = "980177e9a7a88e2d9d927acb8171466c40dcef2db832ee4b638ba512d50cce37"
+
+[build]
+system = "autotools"

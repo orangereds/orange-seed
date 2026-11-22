@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["graphviz"]
+
+[package]
+name = "makefile2graph"
+version = "2021.11.06"
+description = "Create a graph of dependencies from GNU-Make"
+homepage = "https://github.com/lindenb/makefile2graph"
+
+[source]
+url = "https://github.com/lindenb/makefile2graph/archive/refs/tags/2021.11.06.tar.gz"
+sha256 = "5be8e528fa2945412357a8ef233e68fa3729639307ec1c38fd63768aad642c41"
+
+[build]
+system = "autotools"

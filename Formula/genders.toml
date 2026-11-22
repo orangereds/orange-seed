@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "genders"
+version = "1.32.1"
+description = "Static cluster configuration database for cluster management"
+homepage = "https://github.com/chaos/genders"
+
+[source]
+url = "https://github.com/chaos/genders/archive/refs/tags/genders-1-32-1.tar.gz"
+sha256 = "0dc186ec8fd01ec10b5e171d8b8ef632a56d17c135baee2570c0a3c0ffd9d64d"
+
+[build]
+system = "autotools"

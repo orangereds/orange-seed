@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cffi", "pango", "pillow", "python@3.15"]
+
+[package]
+name = "weasyprint"
+version = "70.0_1"
+description = "Convert HTML to PDF"
+homepage = "https://www.courtbouillon.org/weasyprint"
+
+[source]
+url = "https://files.pythonhosted.org/packages/8d/0e/461aeb736762862b511034933d5b98d68f812431b7393b026d9ace5f6b42/weasyprint-70.0.tar.gz"
+sha256 = "c263abf0e86c747b12af678b67f85f4abbfb97d18a20503031e7ba94e4b8cf8c"
+
+[build]
+system = "autotools"

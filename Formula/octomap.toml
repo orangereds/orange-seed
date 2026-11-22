@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "octomap"
+version = "1.10.1"
+description = "Efficient probabilistic 3D mapping framework based on octrees"
+homepage = "https://octomap.github.io/"
+
+[source]
+url = "https://github.com/OctoMap/octomap/archive/refs/tags/v1.10.1.tar.gz"
+sha256 = "b6b6c10c99ab15701dd105840e7d4cf18e226eb68714dd4bdfe049dede5cd489"
+
+[build]
+system = "cmake"

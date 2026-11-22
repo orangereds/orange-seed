@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "quickjs"
+version = "2026-06-04"
+description = "Small and embeddable JavaScript engine"
+homepage = "https://bellard.org/quickjs/"
+
+[source]
+url = "https://bellard.org/quickjs/quickjs-2026-06-04.tar.xz"
+sha256 = "b376e839b322978313d929fd20663b11ba58b75df5a46c126dd19ea2fa70ad2a"
+
+[build]
+system = "make"

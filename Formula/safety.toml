@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "pydantic", "python@3.15"]
+
+[package]
+name = "safety"
+version = "3.8.1_3"
+description = "Checks Python dependencies for known vulnerabilities and suggests remediations"
+homepage = "https://safetycli.com/product/safety-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/c2/7b/8e1d580c5178f0736b806b7199827e61e2a2569eec5b49ec75da6273bbdf/safety-3.8.1.tar.gz"
+sha256 = "e646123b976bbb6707cfaacae8c926e2f886b744a60e0f410e8610a3a4eaf7be"
+
+[build]
+system = "autotools"

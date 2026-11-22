@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "diffoci"
+version = "0.1.8"
+description = "Diff for Docker and OCI container images"
+homepage = "https://github.com/reproducible-containers/diffoci"
+
+[source]
+url = "https://github.com/reproducible-containers/diffoci/archive/refs/tags/v0.1.8.tar.gz"
+sha256 = "05fd59d8c6bb5d960077638a3e68725093b73c4ca9f2f2fe2da1f696020ee5d4"
+
+[build]
+system = "autotools"

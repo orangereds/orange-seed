@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "policy-engine"
+version = "1.1.8"
+description = "Unified Policy Engine"
+homepage = "https://github.com/snyk/policy-engine"
+
+[source]
+url = "https://github.com/snyk/policy-engine/archive/refs/tags/v1.1.8.tar.gz"
+sha256 = "20df2dbcc8431835568bf97917e818596dcc0cc803f56636743f188fc7a93ac4"
+
+[build]
+system = "autotools"

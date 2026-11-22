@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "yarn"
+version = "1.22.22"
+description = "JavaScript package manager"
+homepage = "https://yarnpkg.com/"
+
+[source]
+url = "https://github.com/yarnpkg/yarn/releases/download/v1.22.22/yarn-v1.22.22.tar.gz"
+sha256 = "88268464199d1611fcf73ce9c0a6c4d44c7d5363682720d8506f6508addf36a0"
+
+[build]
+system = "autotools"

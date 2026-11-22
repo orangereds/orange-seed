@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "openstackclient"
+version = "0"
+description = "Command-line client for OpenStack"
+homepage = "https://openstack.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/22/71/6d547b55339323f2e1c681956baeb36559486c6dccb8b20aa9de03a5dbf5/python_openstackclient-10.5.0.tar.gz"
+sha256 = "a9c77b8d2b53a9413794daa5d60cbb4fa669af64799b704cfb96d75f2e002e8e"
+
+[build]
+system = "autotools"

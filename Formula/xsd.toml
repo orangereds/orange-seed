@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["build2", "libcutl", "libxsd-frontend", "xerces-c"]
+
+[package]
+name = "xsd"
+version = "4.2.0"
+description = "XML Data Binding for C++"
+homepage = "https://www.codesynthesis.com/products/xsd/"
+
+[source]
+url = "https://www.codesynthesis.com/download/xsd/4.2/xsd-4.2.0.tar.gz"
+sha256 = "2bed17c601cfb984f9a7501fd5c672f4f18eac678f5bdef6016971966add9145"
+
+[build]
+system = "autotools"

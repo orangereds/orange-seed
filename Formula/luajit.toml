@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "luajit"
+version = "2.1.1795119671"
+description = "Just-In-Time Compiler (JIT) for the Lua programming language"
+homepage = "https://luajit.org/luajit.html"
+
+[source]
+url = "https://github.com/LuaJIT/LuaJIT/archive/96f7b297326e9fd454b7186c6858b2773f94a0dc.tar.gz"
+sha256 = "ce9d03b33e4c28492e8dacacf69c6975a0502cf9225957a6b42dc28f92cbbd34"
+
+[build]
+system = "autotools"

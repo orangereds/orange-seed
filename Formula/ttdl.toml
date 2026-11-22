@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ttdl"
+version = "6.2.5"
+description = "Terminal Todo List Manager"
+homepage = "https://github.com/VladimirMarkelov/ttdl"
+
+[source]
+url = "https://github.com/VladimirMarkelov/ttdl/archive/refs/tags/v6.2.5.tar.gz"
+sha256 = "d551fc7dfb7d9326a1ffdc44725499e880c03799b77e99026db95b24fcd82917"
+
+[build]
+system = "autotools"

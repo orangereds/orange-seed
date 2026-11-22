@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["xz"]
+
+[package]
+name = "fastk"
+version = "1.2"
+description = "K-mer counter for high-fidelity shotgun datasets"
+homepage = "https://github.com/thegenemyers/FASTK"
+
+[source]
+url = "https://github.com/thegenemyers/FASTK/archive/refs/tags/v1.2.tar.gz"
+sha256 = "2e347fd698ea109685868149dd2d9c43aefc373f70ad7df8e303e0724f75c850"
+
+[build]
+system = "autotools"

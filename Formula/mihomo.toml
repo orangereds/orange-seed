@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mihomo"
+version = "1.19.34"
+description = "Another rule-based tunnel in Go, formerly known as ClashMeta"
+homepage = "https://wiki.metacubex.one"
+
+[source]
+url = "https://github.com/MetaCubeX/mihomo/archive/refs/tags/v1.19.34.tar.gz"
+sha256 = "e3284a44f1052f1c454c90d418faa244516c2470bf232b455ea18fc4f5fa6028"
+
+[service]
+run = "opt/mihomo/bin/mihomo -d etc/mihomo"
+keep_alive = true
+working_dir = "etc/mihomo"
+log_path = "var/log/mihomo.log"
+error_log_path = "var/log/mihomo.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ddgr"
+version = "2.2"
+description = "DuckDuckGo from the terminal"
+homepage = "https://github.com/jarun/ddgr"
+
+[source]
+url = "https://github.com/jarun/ddgr/archive/refs/tags/v2.2.tar.gz"
+sha256 = "a858e0477ea339b64ae0427743ebe798a577c4d942737d8b3460bce52ac52524"
+
+[build]
+system = "make"

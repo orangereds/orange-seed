@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "htslib", "xz"]
+
+[package]
+name = "tracy-genomics"
+version = "0.9.1"
+description = "Basecalling, alignment, assembly and deconvolution of Sanger chromatograms"
+homepage = "https://www.gear-genomics.com/docs/tracy/"
+
+[source]
+url = "https://github.com/gear-genomics/tracy/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "b4a69e148fed9e69cee251a8c0e1b6964eb1747b6870d207f67d09a8825605b2"
+
+[build]
+system = "autotools"

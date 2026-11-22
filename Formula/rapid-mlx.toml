@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "certifi", "cryptography", "ffmpeg", "libsndfile", "libyaml", "mlx", "numpy", "opencv", "pillow", "portaudio", "pydantic", "python-matplotlib", "python@3.15", "pytorch", "rpds-py", "scipy", "sentencepiece", "torchvision"]
+
+[package]
+name = "rapid-mlx"
+version = "0"
+description = "Fast local AI engine for Apple Silicon with an OpenAI-compatible API"
+homepage = "https://github.com/raullenchai/Rapid-MLX"
+
+[source]
+url = "https://files.pythonhosted.org/packages/53/ec/ca07723282fa5cbbbb577932eb815f7894037e3cce325ac7362e8c2c50df/rapid_mlx-1.0.4.tar.gz"
+sha256 = "437e8bc724822190eb3f8f55f9eb58c19f02b5d3253a41027600a433d46f027b"
+
+[build]
+system = "autotools"

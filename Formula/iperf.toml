@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "iperf"
+version = "2.2.1"
+description = "Tool to measure maximum TCP and UDP bandwidth"
+homepage = "https://sourceforge.net/projects/iperf2/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/iperf2/iperf-2.2.1.tar.gz"
+sha256 = "754ab0a7e28033dbea81308ef424bc7df4d6e2fe31b60cc536b61b51fefbd8fb"
+
+[build]
+system = "autotools"

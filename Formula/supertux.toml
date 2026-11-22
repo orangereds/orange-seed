@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl2_image", "sdl3", "sdl3_image", "sdl3_ttf", "cmake", "pkgconf", "fmt", "freetype", "glew", "glm", "libogg", "libpng", "libvorbis", "openal-soft", "physfs"]
+
+[package]
+name = "supertux"
+version = "0"
+description = "Classic 2D jump'n run sidescroller game"
+homepage = "https://www.supertux.org/"
+
+[source]
+url = "https://github.com/SuperTux/supertux/releases/download/v0.7.0/SuperTux-v0.7.0-Source.tar.gz"
+sha256 = "32fc5b99b9994ed58e58341d6f21de925764b381256e108591136de53bc31da5"
+
+[build]
+system = "cmake"

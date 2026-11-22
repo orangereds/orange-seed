@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gengetopt", "libtool", "open-sp"]
+
+[package]
+name = "libofx"
+version = "0.10.9"
+description = "Library to support OFX command responses"
+homepage = "https://github.com/libofx/libofx"
+
+[source]
+url = "https://github.com/libofx/libofx/releases/download/0.10.9/libofx-0.10.9.tar.gz"
+sha256 = "1ca89ff7d681c9edad312172ac464231a8de686e653213612f9417492cef0d37"
+
+[build]
+system = "autotools"

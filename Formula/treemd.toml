@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "treemd"
+version = "0.11.0"
+description = "TUI and CLI dual pane markdown viewer"
+homepage = "https://github.com/epistates/treemd"
+
+[source]
+url = "https://github.com/Epistates/treemd/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "9808666913e3698eef1372e614044678a32ba7cdc6da514080c442c12ee3fed9"
+
+[build]
+system = "autotools"

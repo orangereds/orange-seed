@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig@0.15"]
+
+[package]
+name = "lsr"
+version = "0_1"
+description = "Ls but with io_uring"
+homepage = "https://tangled.org/rockorager.dev/lsr"
+
+[source]
+url = "https://tangled.org/rockorager.dev/lsr/archive/refs%2Ftags%2Fv1.0.0.tar.gz"
+sha256 = "9b54dd8b5ca3f3f61605d6bcf900137c369e01d49454e543dd3b57805b52c55e"
+
+[build]
+system = "autotools"

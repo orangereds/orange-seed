@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "oniguruma"]
+
+[package]
+name = "zola"
+version = "0.23.6"
+description = "Fast static site generator in a single binary with everything built-in"
+homepage = "https://www.getzola.org/"
+
+[source]
+url = "https://github.com/getzola/zola/archive/refs/tags/v0.23.6.tar.gz"
+sha256 = "193db594222cd9c1097387ce17272cbbe672c3a894c263f6f4c436a7fedb379f"
+
+[build]
+system = "autotools"

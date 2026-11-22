@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["berkeley-db@5", "libevent"]
+
+[package]
+name = "memcacheq"
+version = "0.2.1"
+description = "Queue service for memcache"
+homepage = "https://github.com/stvchu/memcacheq"
+
+[source]
+url = "https://github.com/stvchu/memcacheq/archive/refs/tags/v0.2.1.tar.gz"
+sha256 = "ace33313568959b5a301dda491f63af09793987b73fd15abd3fb613829eda07e"
+
+[build]
+system = "autotools"

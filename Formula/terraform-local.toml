@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "terraform-local"
+version = "0"
+description = "CLI wrapper to deploy your Terraform applications directly to LocalStack"
+homepage = "https://localstack.cloud/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/50/64/3b861b38e6b3a88f8ed176390bbb804cd790a48dde86cd8468112e48f713/terraform_local-0.27.0.tar.gz"
+sha256 = "0f6786aa1205ed07a23427b96b89cb9bac73859a495528d7ff0327400569bf4e"
+
+[build]
+system = "autotools"

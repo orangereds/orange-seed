@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "valijson", "googletest", "jsoncpp", "re2", "tbb", "uthash"]
+
+[package]
+name = "falcosecurity-libs"
+version = "0.26.1"
+description = "Core libraries for Falco and Sysdig"
+homepage = "https://falcosecurity.github.io/libs/"
+
+[source]
+url = "https://github.com/falcosecurity/libs/archive/refs/tags/0.26.1.tar.gz"
+sha256 = "4ded90e99fe0ecdd50d63395e8c9a2333cfe1d839dcf4fdbbcc2201cf44628f6"
+
+[build]
+system = "cmake"

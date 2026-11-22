@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "protobuf", "rust"]
+
+[package]
+name = "gurk"
+version = "0.10.2"
+description = "Signal Messenger client for terminal"
+homepage = "https://github.com/boxdot/gurk-rs"
+
+[source]
+url = "https://github.com/boxdot/gurk-rs/archive/refs/tags/v0.10.2.tar.gz"
+sha256 = "d047915916bceb221cd96a8afe53e5ba3b897f8d8798a4d36ca4cf354aa63b03"
+
+[build]
+system = "autotools"

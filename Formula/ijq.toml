@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "scdoc"]
+
+[package]
+name = "ijq"
+version = "1.4.2"
+description = "Interactive jq"
+homepage = "https://codeberg.org/gpanders/ijq"
+
+[source]
+url = "https://codeberg.org/gpanders/ijq/archive/v1.4.2.tar.gz"
+sha256 = "1c19df50facbf5374fbd6fc04edb20437e2605c712b592a8fb5dfed033fead5c"
+
+[build]
+system = "autotools"

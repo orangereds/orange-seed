@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "node", "vips", "gettext"]
+
+[package]
+name = "netlify-cli"
+version = "27.20.1"
+description = "Netlify command-line tool"
+homepage = "https://www.netlify.com/docs/cli"
+
+[source]
+url = "https://registry.npmjs.org/netlify-cli/-/netlify-cli-27.20.1.tgz"
+sha256 = "9330bbafd542dd79c9bc454fa4f8a91e6d9827e647d6cc4209e9f3a81398cdb5"
+
+[build]
+system = "autotools"

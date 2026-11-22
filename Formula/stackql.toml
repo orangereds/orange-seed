@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "stackql"
+version = "1.0.888"
+description = "SQL interface for arbitrary resources with full CRUD support"
+homepage = "https://stackql.io/"
+
+[source]
+url = "https://github.com/stackql/stackql/archive/refs/tags/v1.0.888.tar.gz"
+sha256 = "69007fa7a2b2e742c26e671a668d7f56e6ba039d0301488092b5080132f129c5"
+
+[build]
+system = "autotools"

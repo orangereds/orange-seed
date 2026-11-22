@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sphinx-doc", "swig", "gpgmepy", "libmagic", "notmuch", "python@3.15"]
+
+[package]
+name = "alot"
+version = "0_4"
+description = "Text mode MUA using notmuch mail"
+homepage = "https://github.com/pazz/alot"
+
+[source]
+url = "https://github.com/pazz/alot.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

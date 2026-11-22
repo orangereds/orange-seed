@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "ipython"
+version = "9.18.1"
+description = "Interactive computing in Python"
+homepage = "https://ipython.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/38/04/0d945c72d5b77527273ecb4c66aa2436de7a3b3bbe3da345bf053232b886/ipython-9.18.1.tar.gz"
+sha256 = "6319c0f5372c196397899479e6db1783dd7937abae06815d1317e8d5d51aaaaf"
+
+[build]
+system = "autotools"

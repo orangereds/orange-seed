@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "glib", "libfixbuf", "yaf", "gettext"]
+
+[package]
+name = "silk"
+version = "3.24.2"
+description = "Collection of traffic analysis tools"
+homepage = "https://tools.netsa.cert.org/silk/"
+
+[source]
+url = "https://tools.netsa.cert.org/releases/silk-3.24.2.tar.gz"
+sha256 = "9ea9c1391f9c1ba14394af68b2bd7e66bf73b664c3cee342c5a39e5b13e45398"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rhash"
+version = "1.4.6-src"
+description = "Utility for computing and verifying hash sums of files"
+homepage = "https://sourceforge.net/projects/rhash/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/rhash/rhash/1.4.6/rhash-1.4.6-src.tar.gz"
+sha256 = "9f6019cfeeae8ace7067ad22da4e4f857bb2cfa6c2deaa2258f55b2227ec937a"
+
+[build]
+system = "autotools"

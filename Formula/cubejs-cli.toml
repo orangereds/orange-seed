@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cubejs-cli"
+version = "1.8.31"
+description = "Cube.js command-line interface"
+homepage = "https://cube.dev/"
+
+[source]
+url = "https://registry.npmjs.org/cubejs-cli/-/cubejs-cli-1.8.31.tgz"
+sha256 = "33e4f438acdad16ce797cec28a8fcb01ead0978815bb239d592d4c3f3e479424"
+
+[build]
+system = "autotools"

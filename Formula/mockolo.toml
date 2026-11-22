@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "mockolo"
+version = "2.7.0"
+description = "Efficient Mock Generator for Swift"
+homepage = "https://github.com/uber/mockolo"
+
+[source]
+url = "https://github.com/uber/mockolo/archive/refs/tags/2.7.0.tar.gz"
+sha256 = "43b8dba76938b4d86df0e3e40be46211a2ea1616a17e87553248dd27e7cec045"
+
+[build]
+system = "autotools"

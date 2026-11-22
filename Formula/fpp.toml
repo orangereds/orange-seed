@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fpp"
+version = "0.9.5"
+description = "CLI program that accepts piped input and presents files for selection"
+homepage = "https://facebook.github.io/PathPicker/"
+
+[source]
+url = "https://github.com/facebook/PathPicker/archive/refs/tags/0.9.5.tar.gz"
+sha256 = "b0142676ed791085d619d9b3d28d28cab989ffc3b260016766841c70c97c2a52"
+
+[build]
+system = "autotools"

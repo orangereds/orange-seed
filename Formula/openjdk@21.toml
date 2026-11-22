@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2"]
+
+[package]
+name = "openjdk@21"
+version = "0"
+description = "Development kit for the Java programming language"
+homepage = "https://openjdk.org/"
+
+[source]
+url = "https://github.com/openjdk/jdk21u/archive/refs/tags/jdk-21.0.13.1-ga.tar.gz"
+sha256 = "222ab0f4f790dc93fc244eca0bafaa60976154141cc77ccbd83e5012c6ce8b8d"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

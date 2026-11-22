@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gawk", "libb64", "dcmtk", "suite-sparse"]
+
+[package]
+name = "biosig"
+version = "4.0.1.src"
+description = "Tools for biomedical signal processing and data conversion"
+homepage = "https://biosig.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/biosig/BioSig%20for%20C_C%2B%2B/src/biosig-4.0.1.src.tar.xz"
+sha256 = "b3aa75fea68ebc111bd7398423bce05133a5022496c1293e264df24545356c6f"
+
+[build]
+system = "autotools"

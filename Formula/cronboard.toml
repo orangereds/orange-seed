@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "cryptography", "libsodium", "python@3.15"]
+
+[package]
+name = "cronboard"
+version = "1.2.1"
+description = "Terminal-based dashboard for managing cron jobs locally and on servers"
+homepage = "https://cronboard.dev/"
+
+[source]
+url = "https://github.com/antoniorodr/cronboard/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "af60bc6ee7894e527e59d4efa5374eaff6d5bb61d45afdb4ad614ae65b44a310"
+
+[build]
+system = "autotools"

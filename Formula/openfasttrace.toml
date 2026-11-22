@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "openfasttrace"
+version = "4.11.0.jar"
+description = "Requirement tracing suite"
+homepage = "https://github.com/itsallcode/openfasttrace"
+
+[source]
+url = "https://github.com/itsallcode/openfasttrace/releases/download/4.11.0/openfasttrace-4.11.0.jar"
+sha256 = "f094cd314f0fc4236f513f66fb39260a16f72e2320beb6b4fdeb7940b9b8cf87"
+
+[build]
+system = "autotools"

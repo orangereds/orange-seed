@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rura"
+version = "1.14.0"
+description = "Interactive TUI scratchpad for building shell pipelines"
+homepage = "https://github.com/tlipinski/rura"
+
+[source]
+url = "https://github.com/tlipinski/rura/archive/refs/tags/v1.14.0.tar.gz"
+sha256 = "4ce5db5337faa6ebf50fd917b11347d3ff5367a554c1986472620fae4cc2c678"
+
+[build]
+system = "autotools"

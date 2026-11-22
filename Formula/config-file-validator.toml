@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "config-file-validator"
+version = "3.0.0"
+description = "CLI tool to validate different configuration file types"
+homepage = "https://boeing.github.io/config-file-validator/"
+
+[source]
+url = "https://github.com/Boeing/config-file-validator/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "987931434d0fe2b5bdc4fc4c630a7c2f2f05ca51d1245f5c269c139a9e9e296c"
+
+[build]
+system = "autotools"

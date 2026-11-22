@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook", "docbook-xsl", "gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "at-spi2-core", "cairo", "fribidi", "gdk-pixbuf", "glib", "gsettings-desktop-schemas", "harfbuzz", "hicolor-icon-theme", "libepoxy", "pango"]
+
+[package]
+name = "gtk+3"
+version = "0_1"
+description = "Toolkit for creating graphical user interfaces"
+homepage = "https://gtk.org/"
+
+[source]
+url = "https://download.gnome.org/sources/gtk/3.24/gtk-3.24.52.tar.xz"
+sha256 = "80931fa472a77b9a164f6740e3c0b444fac6770054632d35a7ff9d679e5e7b9f"
+
+[build]
+system = "autotools"

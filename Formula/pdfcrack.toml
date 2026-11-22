@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pdfcrack"
+version = "0.21"
+description = "PDF files password cracker"
+homepage = "https://pdfcrack.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pdfcrack/pdfcrack/pdfcrack-0.21/pdfcrack-0.21.tar.gz"
+sha256 = "26f00d4afcb70b5839047bc6f62e4253073ac437bdb526f01e8c04b220e97762"
+
+[build]
+system = "autotools"

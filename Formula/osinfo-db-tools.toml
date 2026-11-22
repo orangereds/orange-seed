@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "glib", "json-glib", "libarchive", "libsoup"]
+
+[package]
+name = "osinfo-db-tools"
+version = "1.12.0_1"
+description = "Tools for managing the libosinfo database files"
+homepage = "https://libosinfo.org/"
+
+[source]
+url = "https://gitlab.com/libosinfo/osinfo-db-tools/-/releases/v1.12.0/downloads/osinfo-db-tools-1.12.0.tar.xz"
+sha256 = "f3315f675d18770f25dea8ed04b20b8fc80efb00f60c37ee5e815f9c3776e7f3"
+
+[build]
+system = "autotools"

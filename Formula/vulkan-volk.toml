@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "vulkan-headers", "vulkan-loader"]
+
+[package]
+name = "vulkan-volk"
+version = "0"
+description = "Meta loader for Vulkan API"
+homepage = "https://github.com/zeux/volk"
+
+[source]
+url = "https://github.com/zeux/volk/archive/refs/tags/vulkan-sdk-1.4.363.0.tar.gz"
+sha256 = "1547d8d74395d4048fb3f4a6313da56db626e89b55db238d0d7e8944c8a645f3"
+
+[build]
+system = "cmake"

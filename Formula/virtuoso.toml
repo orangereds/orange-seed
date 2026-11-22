@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gawk", "openssl@4"]
+
+[package]
+name = "virtuoso"
+version = "0"
+description = "High-performance object-relational SQL database"
+homepage = "https://virtuoso.openlinksw.com"
+
+[source]
+url = "https://github.com/openlink/virtuoso-opensource/releases/download/v7.2.17/virtuoso-opensource-7.2.17.tar.gz"
+sha256 = "41e0afd6d37c1c41b993282ce11c5cf68f7bb7c0bd7887ef2ff558c452570216"
+
+[build]
+system = "autotools"

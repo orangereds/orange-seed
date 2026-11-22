@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "blake3"
+version = "1.8.7"
+description = "C implementation of the BLAKE3 cryptographic hash function"
+homepage = "https://github.com/BLAKE3-team/BLAKE3"
+
+[source]
+url = "https://github.com/BLAKE3-team/BLAKE3/archive/refs/tags/1.8.7.tar.gz"
+sha256 = "c6782a28842b1c0478524ac06a4f2ede784038ee298d6e2162c0b089c4306a3c"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xorgproto", "freetype", "libfontenc"]
+
+[package]
+name = "mkfontscale"
+version = "1.2.4"
+description = "Create an index of scalable font files for X"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://www.x.org/releases/individual/app/mkfontscale-1.2.4.tar.xz"
+sha256 = "a01492a17a9b6c0ee3f92ee578850e305315b9f298da5f006a1cd4b51db01a5e"
+
+[build]
+system = "autotools"

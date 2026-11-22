@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "argon2", "gnutls", "libpq", "mariadb-connector-c"]
+
+[package]
+name = "inspircd"
+version = "4.12.1"
+description = "Modular C++ Internet Relay Chat daemon"
+homepage = "https://www.inspircd.org/"
+
+[source]
+url = "https://github.com/inspircd/inspircd/archive/refs/tags/v4.12.1.tar.gz"
+sha256 = "d88d16014349c572776d5dc0a55e4b28e61caba857b5fbee47c3a49ca1591fef"
+
+[build]
+system = "autotools"

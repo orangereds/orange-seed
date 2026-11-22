@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxcb", "xcb-util"]
+
+[package]
+name = "startup-notification"
+version = "0.12_1"
+description = "Reference implementation of startup notification protocol"
+homepage = "https://www.freedesktop.org/wiki/Software/startup-notification/"
+
+[source]
+url = "https://www.freedesktop.org/software/startup-notification/releases/startup-notification-0.12.tar.gz"
+sha256 = "3c391f7e930c583095045cd2d10eb73a64f085c7fde9d260f2652c7cb3cfbe4a"
+
+[build]
+system = "autotools"

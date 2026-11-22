@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "libepoxy", "libwpe", "mesa", "wayland"]
+
+[package]
+name = "wpebackend-fdo"
+version = "1.16.1"
+description = "Freedesktop.org backend for WPE WebKit"
+homepage = "https://wpewebkit.org/"
+
+[source]
+url = "https://github.com/Igalia/WPEBackend-fdo/releases/download/1.16.1/wpebackend-fdo-1.16.1.tar.xz"
+sha256 = "544ae14012f8e7e426b8cb522eb0aaaac831ad7c35601d1cf31d37670e0ebb3b"
+
+[build]
+system = "autotools"

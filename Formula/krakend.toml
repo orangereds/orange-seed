@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "krakend"
+version = "3.0.5"
+description = "Ultra-High performance API Gateway built in Go"
+homepage = "https://www.krakend.io/"
+
+[source]
+url = "https://github.com/krakend/krakend-ce/archive/refs/tags/v3.0.5.tar.gz"
+sha256 = "6b7ccbd00e4aae2c44c32471be6f868ae3769b2cfd0d92e15791951e8d9aea00"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "pkgconf", "neon", "readline"]
+
+[package]
+name = "cadaver"
+version = "0.28_1"
+description = "Command-line client for DAV"
+homepage = "https://notroj.github.io/cadaver/"
+
+[source]
+url = "https://notroj.github.io/cadaver/cadaver-0.28.tar.gz"
+sha256 = "33e3a54bd54b1eb325b48316a7cacc24047c533ef88e6ef98b88dfbb60e12734"
+
+[build]
+system = "autotools"

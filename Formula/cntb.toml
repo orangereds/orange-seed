@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cntb"
+version = "1.7"
+description = "Contabo Command-Line Interface (CLI)"
+homepage = "https://github.com/contabo/cntb"
+
+[source]
+url = "https://github.com/contabo/cntb/archive/refs/tags/v1.7.tar.gz"
+sha256 = "bd8f1aa809496b69ec86c60dfd1b1aacf511a7f286d3f15c012561aae0e89b82"
+
+[build]
+system = "autotools"

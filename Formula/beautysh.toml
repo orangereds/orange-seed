@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "beautysh"
+version = "6.4.3"
+description = "Bash beautifier"
+homepage = "https://github.com/lovesegfault/beautysh"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ae/9d/ed7b7dc146881698f5d71ce8a384f8e8f80790b1b12c73598efa81b8c3ed/beautysh-6.4.3.tar.gz"
+sha256 = "2aceb602fa7e27dafd24d5bc480986e17870873c2827a2b8d720118cafac3018"
+
+[build]
+system = "autotools"

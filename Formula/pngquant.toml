@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libpng", "little-cms2"]
+
+[package]
+name = "pngquant"
+version = "3.0.3.crate"
+description = "PNG image optimizing utility"
+homepage = "https://pngquant.org/"
+
+[source]
+url = "https://static.crates.io/crates/pngquant/pngquant-3.0.3.crate"
+sha256 = "68a12bdd8825f9989f4ee9a6ab0b42727dae57728b939ef63453366697a07232"
+
+[build]
+system = "autotools"

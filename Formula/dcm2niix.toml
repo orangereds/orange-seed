@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "dcm2niix"
+version = "1.0.20261029"
+description = "DICOM to NIfTI converter"
+homepage = "https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage"
+
+[source]
+url = "https://github.com/rordenlab/dcm2niix/archive/refs/tags/v1.0.20261029.tar.gz"
+sha256 = "be5d1a54604672110ec090fdb3a47904f8e742bbf0dbe193ccff85d33af3c5b7"
+
+[build]
+system = "cmake"

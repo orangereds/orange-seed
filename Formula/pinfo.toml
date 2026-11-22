@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "texinfo"]
+
+[package]
+name = "pinfo"
+version = "0.6.13_1"
+description = "User-friendly, console-based viewer for Info documents"
+homepage = "https://packages.debian.org/sid/pinfo"
+
+[source]
+url = "https://github.com/baszoetekouw/pinfo/archive/refs/tags/v0.6.13.tar.gz"
+sha256 = "9dc5e848a7a86cb665a885bc5f0fdf6d09ad60e814d75e78019ae3accb42c217"
+
+[build]
+system = "autotools"

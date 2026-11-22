@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cheapglk"
+version = "1.0.7"
+description = "Extremely minimal Glk library"
+homepage = "https://www.eblong.com/zarf/glk/"
+
+[source]
+url = "https://www.eblong.com/zarf/glk/cheapglk-107.tar.gz"
+sha256 = "87b9a19d741c71a8d3bffbb0fd7833410672006d3815717c70860e1681043d4c"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

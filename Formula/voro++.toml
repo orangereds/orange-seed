@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "voro++"
+version = "0.4.6_2"
+description = "3D Voronoi cell software library"
+homepage = "https://math.lbl.gov/voro++"
+
+[source]
+url = "https://math.lbl.gov/voro++/download/dir/voro++-0.4.6.tar.gz"
+sha256 = "ef7970071ee2ce3800daa8723649ca069dc4c71cc25f0f7d22552387f3ea437e"
+
+[build]
+system = "make"

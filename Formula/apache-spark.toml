@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "apache-spark"
+version = "4.3.0"
+description = "Engine for large-scale data processing"
+homepage = "https://spark.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=spark/spark-4.3.0/spark-4.3.0-bin-hadoop3.tgz"
+sha256 = "48f4eb55fe42758b3aff52c027b310479c7afe96205eddff3869cd951fa02505"
+
+[build]
+system = "autotools"

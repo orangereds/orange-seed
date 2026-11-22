@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["docbook-xsl", "gobject-introspection", "itstool", "meson", "ninja", "pkgconf", "vala", "glib", "libfyaml", "libxmlb", "zstd", "gettext"]
+
+[package]
+name = "appstream"
+version = "1.2.3"
+description = "Tools and libraries to work with AppStream metadata"
+homepage = "https://www.freedesktop.org/wiki/Distributions/AppStream/"
+
+[source]
+url = "https://github.com/ximion/appstream/archive/refs/tags/v1.2.3.tar.gz"
+sha256 = "12f01e127081c485a3e3056b6d30f54d003101689ff815adac6f1ef2b19af6ab"
+
+[build]
+system = "autotools"

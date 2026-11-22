@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "python@3.15"]
+
+[package]
+name = "z3"
+version = "12"
+description = "High-performance theorem prover"
+homepage = "https://github.com/Z3Prover/z3"
+
+[source]
+url = "https://github.com/Z3Prover/z3/archive/refs/tags/z3-5.4.1.tar.gz"
+sha256 = "6a9196fb64e0460640beee08b8e823f0d51371bd3c4db78d161af275463846ef"
+
+[build]
+system = "cmake"

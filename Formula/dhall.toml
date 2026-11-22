@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "dhall"
+version = "1.42.3"
+description = "Interpreter for the Dhall language"
+homepage = "https://dhall-lang.org/"
+
+[source]
+url = "https://hackage.haskell.org/package/dhall-1.42.3/dhall-1.42.3.tar.gz"
+sha256 = "cbb5612d9c55b9b3fa07ab73b72e6445875a6f53283f29979f164a9b3b067a00"
+
+[build]
+system = "autotools"

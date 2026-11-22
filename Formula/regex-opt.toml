@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "regex-opt"
+version = "1.2.4"
+description = "Perl-compatible regular expression optimizer"
+homepage = "https://bisqwit.iki.fi/source/regexopt.html"
+
+[source]
+url = "https://bisqwit.iki.fi/src/arch/regex-opt-1.2.4.tar.gz"
+sha256 = "128c8ba9570b1fd8a6a660233de2f5a4022740bc5ee300300709c3894413883f"
+
+[build]
+system = "autotools"

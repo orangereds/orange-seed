@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mdz"
+version = "3.4.8"
+description = "CLI for the mdz ledger Open Source"
+homepage = "https://github.com/LerianStudio/midaz"
+
+[source]
+url = "https://github.com/LerianStudio/midaz/archive/refs/tags/v3.4.8.tar.gz"
+sha256 = "5c0cb5d387c098e8cac4b27f7a7a41ef79e269133df858e72cc39aa5289d46af"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libidn"]
+
+[package]
+name = "hesiod"
+version = "3.2.1_1"
+description = "Library for the simple string lookup service built on top of DNS"
+homepage = "https://github.com/achernya/hesiod"
+
+[source]
+url = "https://github.com/achernya/hesiod/archive/refs/tags/hesiod-3.2.1.tar.gz"
+sha256 = "813ccb091ad15d516a323bb8c7693597eec2ef616f36b73a8db78ff0b856ad63"
+
+[build]
+system = "autotools"

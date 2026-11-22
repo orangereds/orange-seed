@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "murex"
+version = "7.4.2002"
+description = "Bash-like shell designed for greater command-line productivity and safer scripts"
+homepage = "https://murex.rocks"
+
+[source]
+url = "https://github.com/lmorg/murex/archive/refs/tags/v7.4.2002.tar.gz"
+sha256 = "b3b1b79d89e2ab74bd15f3632a1878a4c958e2a0db272852834095e57f8644e4"
+
+[build]
+system = "autotools"

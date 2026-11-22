@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "trealla-prolog"
+version = "3.15.22"
+description = "Compact and efficient ISO Prolog interpreter written in plain old C"
+homepage = "https://github.com/trealla-prolog/trealla-prolog"
+
+[source]
+url = "https://github.com/trealla-prolog/trealla-prolog/archive/refs/tags/v3.15.22.tar.gz"
+sha256 = "e877de5096bbd4b4b32e824edbb676870e4f453321cb7f376d703dc5c2fdbf20"
+
+[build]
+system = "make"

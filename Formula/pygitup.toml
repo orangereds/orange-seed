@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "pygitup"
+version = "0"
+description = "Nicer 'git pull'"
+homepage = "https://github.com/msiemens/PyGitUp"
+
+[source]
+url = "https://files.pythonhosted.org/packages/d8/30/379a2daabd6ec00144afa6e19055684a566a7bbe58fddbadd2bfe36bda85/git_up-2.6.1.tar.gz"
+sha256 = "f2e55a6f6a5254a5cfaa98ebdf53a0cb0ab93aa474d7445a8694a20b450306ec"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cheops"
+version = "1.3"
+description = "CHEss OPponent Simulator"
+homepage = "https://logological.org/cheops"
+
+[source]
+url = "https://files.nothingisreal.com/software/cheops/cheops-1.3.tar.bz2"
+sha256 = "a3ce2e94f73068159827a1ec93703b5075c7edfdf5b0c1aba4d71b3e43fe984e"
+
+[build]
+system = "autotools"

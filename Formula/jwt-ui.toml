@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "jwt-ui"
+version = "1.3.0"
+description = "TUI for decoding and encoding JWT tokens"
+homepage = "https://jwtui.cli.rs/"
+
+[source]
+url = "https://github.com/jwt-rs/jwt-ui/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "97c6a8cd998adcf80147aa12084efd5ca5bf2f0ead4645851837967d98114630"
+
+[build]
+system = "autotools"

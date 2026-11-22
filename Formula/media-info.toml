@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libmediainfo", "libzen"]
+
+[package]
+name = "media-info"
+version = "0"
+description = "Unified display of technical and tag data for audio/video"
+homepage = "https://mediaarea.net/"
+
+[source]
+url = "https://mediaarea.net/download/source/mediainfo/26.10/mediainfo_26.10.tar.xz"
+sha256 = "82f6bce8e58818509022f0bbcc87fce0c6da21822fb2a2a9573b5e3950d8e5f6"
+
+[build]
+system = "autotools"

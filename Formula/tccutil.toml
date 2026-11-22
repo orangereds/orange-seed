@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "tccutil"
+version = "1.5.5"
+description = "Utility to modify the macOS Accessibility Database (TCC.db)"
+homepage = "https://github.com/jacobsalmela/tccutil"
+
+[source]
+url = "https://github.com/jacobsalmela/tccutil/archive/refs/tags/v1.5.5.tar.gz"
+sha256 = "62f01adb9728d39aabe2b9b224c5da524c6039cc23a14274012f0e604e775c1b"
+
+[build]
+system = "autotools"

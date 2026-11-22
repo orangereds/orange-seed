@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "pymupdf", "python@3.15"]
+
+[package]
+name = "enex2notion"
+version = "0.3.1_26"
+description = "Import Evernote ENEX files to Notion"
+homepage = "https://github.com/vzhd1701/enex2notion"
+
+[source]
+url = "https://files.pythonhosted.org/packages/de/5c/c0ce22d810226345411b03177f9b43c35b82c3a671d5d73f56fc43b0858e/enex2notion-0.3.1.tar.gz"
+sha256 = "f11d8a7b6c135b4d08c63e1256279d56b3798cdd48ad3b6e39c0770dc3bd82e6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["catch2", "cmake", "pkgconf", "postgresql@17", "postgresql@18", "boost", "boost-python3", "cairo", "coordgen", "eigen", "freetype", "inchi", "maeparser", "numpy", "py3cairo", "python@3.15"]
+
+[package]
+name = "rdkit"
+version = "0"
+description = "Open-source chemoinformatics library"
+homepage = "https://rdkit.org/"
+
+[source]
+url = "https://github.com/rdkit/rdkit/archive/refs/tags/Release_2026_09_2.tar.gz"
+sha256 = "42650cd497f4cb8273c935d75f4b48db6da7b9ddad16a0cb2a46271f509c9760"
+
+[build]
+system = "cmake"

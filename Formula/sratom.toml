@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "lv2", "serd", "sord"]
+
+[package]
+name = "sratom"
+version = "0.6.22"
+description = "Library for serializing LV2 atoms to/from RDF"
+homepage = "https://drobilla.net/software/sratom.html"
+
+[source]
+url = "https://download.drobilla.net/sratom-0.6.22.tar.xz"
+sha256 = "0209b7d0f22c96abb416722ed735b0933be47931ecff4aa4b26ded7760b4f252"
+
+[build]
+system = "autotools"

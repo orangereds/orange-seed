@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "ascelerate"
+version = "0.35.1"
+description = "Command-line tool for the App Store Connect API"
+homepage = "https://ascelerate.dev"
+
+[source]
+url = "https://github.com/keremerkan/ascelerate/archive/refs/tags/v0.35.1.tar.gz"
+sha256 = "f6704658ed6201ba5874b62480c5b29c21d6b3ef61e2f0578b506567b549ce5b"
+
+[build]
+system = "autotools"

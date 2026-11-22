@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "duktape", "glib"]
+
+[package]
+name = "polkit"
+version = "128"
+description = "Toolkit for defining and handling authorizations"
+homepage = "https://github.com/polkit-org/polkit"
+
+[source]
+url = "https://github.com/polkit-org/polkit/archive/refs/tags/128.tar.gz"
+sha256 = "6edb06bf1448e49e428f9597a97af6a05d62146dd0b58f86eeaebcee3f5ecfaa"
+
+[build]
+system = "autotools"

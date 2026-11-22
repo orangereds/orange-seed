@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15", "save3ds_fuse"]
+
+[package]
+name = "custom-install"
+version = "2.1"
+description = "Install CIA files directly to Nintendo 3DS SD card"
+homepage = "https://github.com/ihaveamac/custom-install"
+
+[source]
+url = "https://github.com/ihaveamac/custom-install/archive/refs/tags/v2.1.tar.gz"
+sha256 = "35477355c8981d7aa55ace60fc3e43e1f96f762d141cf8773eb22df1ce4c50f8"
+
+[build]
+system = "autotools"

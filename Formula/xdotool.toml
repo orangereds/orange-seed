@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxi", "libxinerama", "libxkbcommon", "libxtst"]
+
+[package]
+name = "xdotool"
+version = "4.20260303.1"
+description = "Fake keyboard/mouse input and window management for X"
+homepage = "https://www.semicomplete.com/projects/xdotool/"
+
+[source]
+url = "https://github.com/jordansissel/xdotool/archive/refs/tags/v4.20260303.1.tar.gz"
+sha256 = "c1f971a384da588eb99ca0755fc4300316d49c1e612537e3f1de52215e104fa3"
+
+[build]
+system = "make"

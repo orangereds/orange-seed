@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libsodium"]
+
+[package]
+name = "mkp224o"
+version = "1.7.0-src"
+description = "Vanity address generator for tor onion v3 (ed25519) hidden services"
+homepage = "https://github.com/cathugger/mkp224o"
+
+[source]
+url = "https://github.com/cathugger/mkp224o/releases/download/v1.7.0/mkp224o-1.7.0-src.tar.gz"
+sha256 = "e38465ea893c6032ddfd7c133cbbf0de2eeaf1c428ca563fac5e85aeb609c929"
+
+[build]
+system = "autotools"

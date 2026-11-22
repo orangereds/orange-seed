@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "overtls"
+version = "0.3.18.crate"
+description = "Simple proxy tunnel for bypassing the GFW"
+homepage = "https://github.com/ShadowsocksR-Live/overtls"
+
+[source]
+url = "https://static.crates.io/crates/overtls/overtls-0.3.18.crate"
+sha256 = "eff87b0b843290b3dfbc436277a22d34359c5e66a857f907c8167bc86e102283"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpaper", "python@3.15"]
+
+[package]
+name = "psutils"
+version = "3.3.17_4"
+description = "Utilities for manipulating PostScript documents"
+homepage = "https://github.com/rrthomas/psutils"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a0/6b/735ab226ab8e2ee6b99182312c7346a2e4bd3e825cfdf127f22ce75e853f/psutils-3.3.17.tar.gz"
+sha256 = "3ff76cc9f9fb535ec553d1591de56d6dbaa0d9f4df86778f6a49731ebd764cdf"
+
+[build]
+system = "autotools"

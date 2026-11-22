@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ipcalc"
+version = "0.51"
+description = "Calculate various network masks, etc. from a given IP address"
+homepage = "https://jodies.de/ipcalc"
+
+[source]
+url = "https://github.com/kjokjo/ipcalc/archive/refs/tags/0.51.tar.gz"
+sha256 = "a4dbfaeb7511b81830793ab9936bae9d7b1b561ad33e29106faaaf97ba1c117e"
+
+[build]
+system = "autotools"

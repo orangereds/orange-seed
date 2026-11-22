@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xa", "ancient", "cjson", "flac", "freetype", "game-music-emu", "jpeg-turbo", "libdiscid", "libogg", "libpng", "libvorbis", "mad", "sdl3"]
+
+[package]
+name = "ocp"
+version = "3.5.0"
+description = "UNIX port of the Open Cubic Player"
+homepage = "https://stian.cubic.org/project-ocp.php"
+
+[source]
+url = "https://stian.cubic.org/ocp/ocp-3.5.0.tar.xz"
+sha256 = "914e6ed4ae7702fed569c72bac778ddec377150767c5942aa9aa491f08818eec"
+
+[build]
+system = "autotools"

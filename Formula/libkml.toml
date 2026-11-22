@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "googletest", "pkgconf", "minizip", "uriparser"]
+
+[package]
+name = "libkml"
+version = "1.3.0_1"
+description = "Library to parse, generate and operate on KML"
+homepage = "https://github.com/libkml/libkml"
+
+[source]
+url = "https://github.com/libkml/libkml/archive/refs/tags/1.3.0.tar.gz"
+sha256 = "8892439e5570091965aaffe30b08631fdf7ca7f81f6495b4648f0950d7ea7963"
+
+[build]
+system = "cmake"

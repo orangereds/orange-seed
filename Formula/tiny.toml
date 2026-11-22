@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "tiny"
+version = "0.13.0"
+description = "Terminal IRC client"
+homepage = "https://github.com/osa1/tiny"
+
+[source]
+url = "https://github.com/osa1/tiny/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "599697fa736d7500b093566a32204691093bd16abd76f43a76b761487a7c584c"
+
+[build]
+system = "autotools"

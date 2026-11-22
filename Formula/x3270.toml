@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4", "readline"]
+
+[package]
+name = "x3270"
+version = "0"
+description = "IBM 3270 terminal emulator for the X Window System and Windows"
+homepage = "https://x3270.bgp.nu/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/x3270/x3270/4.5ga6/suite3270-4.5ga6-src.tgz"
+sha256 = "06faf5ce883852258cc6a2a4da9fe5ce023e97d01e50625ff36f4a01ea703468"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf"]
+
+[package]
+name = "pcsc-lite"
+version = "2.5.4"
+description = "Middleware to access a smart card using SCard API"
+homepage = "https://pcsclite.apdu.fr/"
+
+[source]
+url = "https://pcsclite.apdu.fr/files/pcsc-lite-2.5.4.tar.xz"
+sha256 = "23b1c644ab4f13269d3a9ff26734f473f622deff6ed60492171a9a25f603f078"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

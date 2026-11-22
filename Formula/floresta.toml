@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "gcc", "llvm", "pkgconf", "rust"]
+
+[package]
+name = "floresta"
+version = "0.9.1"
+description = "Lightweight and embeddable Bitcoin client, built for sovereignty"
+homepage = "https://getfloresta.org"
+
+[source]
+url = "https://github.com/getfloresta/Floresta/archive/refs/tags/v0.9.1.tar.gz"
+sha256 = "47dbff1991bd9ee8f8880a0762e4c7ee8b095b93c755529a6e0805fa9ea1cf9f"
+
+[service]
+run = "opt/floresta/bin/florestad"
+
+[build]
+system = "autotools"

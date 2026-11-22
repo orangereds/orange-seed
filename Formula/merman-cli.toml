@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "merman-cli"
+version = "0.11.0"
+description = "Mermaid.js, but headless, in Rust"
+homepage = "https://frankorz.com/merman/"
+
+[source]
+url = "https://github.com/Latias94/merman/archive/refs/tags/v0.11.0.tar.gz"
+sha256 = "a2954c33ec9cfe1bcff8785fcb2d12e29c988075c6d5a3b962187f1665f3c373"
+
+[build]
+system = "autotools"

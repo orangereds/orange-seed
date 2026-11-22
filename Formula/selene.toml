@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "selene"
+version = "0.32.0"
+description = "Blazing-fast modern Lua linter"
+homepage = "https://kampfkarren.github.io/selene"
+
+[source]
+url = "https://github.com/Kampfkarren/selene/archive/refs/tags/0.32.0.tar.gz"
+sha256 = "cd208a4b3bae38decc9c7bb797c19615caaecf67606b3e593ca60b64d3416cd5"
+
+[build]
+system = "autotools"

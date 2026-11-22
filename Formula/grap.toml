@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "grap"
+version = "1.49"
+description = "Language for typesetting graphs"
+homepage = "https://www.lunabase.org/~faber/Vault/software/grap/"
+
+[source]
+url = "https://www.lunabase.org/~faber/Vault/software/grap/grap-1.49.tar.gz"
+sha256 = "f0bc7f09641a5ec42f019da64b0b2420d95c223b91b3778ae73cb68acfdf4e23"
+
+[build]
+system = "autotools"

@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libssh2", "openssl@4"]
+
+[package]
+name = "dura"
+version = "0.2.0"
+description = "Backs up your work automatically via Git commits"
+homepage = "https://github.com/tkellogg/dura"
+
+[source]
+url = "https://github.com/tkellogg/dura/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "6486afa167cc2c9b6b6646b9a3cb36e76c1a55e986f280607c8933a045d58cca"
+
+[service]
+run = "opt/dura/bin/dura serve"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/dura.log.json"
+error_log_path = "var/log/dura.stderr.log"
+
+[build]
+system = "autotools"

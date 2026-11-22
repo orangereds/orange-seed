@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "python@3.15", "zstd"]
+
+[package]
+name = "dolphie"
+version = "6.18.0_1"
+description = "Feature-rich top tool for monitoring MySQL"
+homepage = "https://github.com/charles-001/dolphie"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ef/1c/882a2ff5064617e35840b3503e2f6d24d01595442fa472b5524b4512cb1a/dolphie-6.18.0.tar.gz"
+sha256 = "fce7c250ec62d5f2289c59323d8c50d4b8d4b98e3595b97696198125956edad1"
+
+[build]
+system = "autotools"

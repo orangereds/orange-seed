@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "python@3.15", "libusb", "sdl2-compat"]
+
+[package]
+name = "cahute"
+version = "0.6"
+description = "Library and set of utilities to interact with Casio calculators"
+homepage = "https://cahute.org/"
+
+[source]
+url = "https://ftp.cahute.org/releases/cahute-0.6.tar.gz"
+sha256 = "2fb0a8f0b14d75fb0d8a6fa07f3feda9b4cfaad11115340285e2c9414565059c"
+
+[build]
+system = "cmake"

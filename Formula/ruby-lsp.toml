@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "ruby-lsp"
+version = "0.26.11"
+description = "Opinionated language server for Ruby"
+homepage = "https://shopify.github.io/ruby-lsp"
+
+[source]
+url = "https://github.com/Shopify/ruby-lsp/archive/refs/tags/v0.26.11.tar.gz"
+sha256 = "231ed17b9c011361da26ef49b7cd9b75224004398ac0300d104b1bb38f4c6d82"
+
+[build]
+system = "autotools"

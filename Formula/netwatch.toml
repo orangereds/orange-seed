@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "netwatch"
+version = "1.0.0"
+description = "Cross-platform realtime network diagnostics TUI"
+homepage = "https://www.netwatchlabs.com/labs/netwatch"
+
+[source]
+url = "https://github.com/matthart1983/netwatch/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "3cf1616c734b51864f16d2672c3f53a983af9055a58a153584ad4ab98cdb55ec"
+
+[build]
+system = "autotools"

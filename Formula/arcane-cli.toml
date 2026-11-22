@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "arcane-cli"
+version = "3.1.1"
+description = "Command-line client for the Arcane Docker management platform"
+homepage = "https://getarcane.app"
+
+[source]
+url = "https://github.com/getarcaneapp/arcane/archive/refs/tags/v3.1.1.tar.gz"
+sha256 = "437f66a6008a2a867d1f5fe077b6eed3e969d8ddc4e8ee15db91714258e058d6"
+
+[build]
+system = "autotools"

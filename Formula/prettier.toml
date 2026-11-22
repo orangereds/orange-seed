@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "prettier"
+version = "3.10.1"
+description = "Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML"
+homepage = "https://prettier.io/"
+
+[source]
+url = "https://registry.npmjs.org/prettier/-/prettier-3.10.1.tgz"
+sha256 = "8625d008f4f0d7d513509ecc269b4b2a551a6f1ea3a57ac880e13e84a434213c"
+
+[build]
+system = "autotools"

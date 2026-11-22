@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rustledger"
+version = "0.24.0"
+description = "Fast, pure Rust implementation of Beancount double-entry accounting"
+homepage = "https://rustledger.github.io"
+
+[source]
+url = "https://github.com/rustledger/rustledger/archive/refs/tags/v0.24.0.tar.gz"
+sha256 = "0624377cf985722ae367747d586931e746a4c7c09bb962474cf73320d6e5d1ff"
+
+[build]
+system = "autotools"

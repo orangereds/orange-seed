@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbt", "openjdk"]
+
+[package]
+name = "wartremover"
+version = "3.6.3"
+description = "Flexible Scala code linting tool"
+homepage = "https://www.wartremover.org/"
+
+[source]
+url = "https://github.com/wartremover/wartremover/archive/refs/tags/v3.6.3.tar.gz"
+sha256 = "5e59bdf52b921ff0292d11ef41518046729a491f4b515510ff0d70562a75ab20"
+
+[build]
+system = "autotools"

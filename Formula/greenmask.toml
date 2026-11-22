@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "greenmask"
+version = "0.2.27"
+description = "PostgreSQL dump and obfuscation tool"
+homepage = "https://www.greenmask.io/"
+
+[source]
+url = "https://github.com/GreenmaskIO/greenmask/archive/refs/tags/v0.2.27.tar.gz"
+sha256 = "d4cbb8dfe2c399d5c37764d7ba4320032cfae25569b658bd8f1f3f489bf92675"
+
+[build]
+system = "autotools"

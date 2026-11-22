@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "fftw", "liquid-dsp", "qtbase"]
+
+[package]
+name = "inspectrum"
+version = "0.4.0"
+description = "Offline radio signal analyser"
+homepage = "https://github.com/miek/inspectrum"
+
+[source]
+url = "https://github.com/miek/inspectrum/archive/refs/tags/v0.4.0.tar.gz"
+sha256 = "a11214070c0aa3379e6ffd1728aa9528bf1dd722b8b72218ea1b872471b50c65"
+
+[build]
+system = "cmake"

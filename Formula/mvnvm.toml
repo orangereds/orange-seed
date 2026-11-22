@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "mvnvm"
+version = "1.0.29"
+description = "Maven version manager"
+homepage = "https://bitbucket.org/mjensen/mvnvm/"
+
+[source]
+url = "https://bitbucket.org/mjensen/mvnvm/get/mvnvm-1.0.29.tar.gz"
+sha256 = "f3004baa68051fe64b2ab212fea57cb05dcc598e334f2529b9ca936a3b275b0e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dnsmasq", "php"]
+
+[package]
+name = "easyengine"
+version = "0"
+description = "Command-line control panel to manage WordPress sites"
+homepage = "https://easyengine.io/"
+
+[source]
+url = "https://github.com/EasyEngine/easyengine/releases/download/v4.14.2/easyengine.phar"
+sha256 = "1037830fad00a0fbaefc3cec5da8f9723fd07993b9af66905a6cda9f52457ec7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libxls", "libxlsxwriter", "libxml2", "libzip", "lua", "ncurses"]
+
+[package]
+name = "sc-im"
+version = "0.8.5_4"
+description = "Spreadsheet program for the terminal, using ncurses"
+homepage = "https://github.com/andmarti1424/sc-im"
+
+[source]
+url = "https://github.com/andmarti1424/sc-im/archive/refs/tags/v0.8.5.tar.gz"
+sha256 = "49adb76fc55bc3e6ea8ee414f41428db4aef947e247718d9210be8d14a6524bd"
+
+[build]
+system = "autotools"

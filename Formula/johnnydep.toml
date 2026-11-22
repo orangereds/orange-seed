@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15", "uv"]
+
+[package]
+name = "johnnydep"
+version = "2.1.1"
+description = "Display dependency tree of Python distribution"
+homepage = "https://github.com/wimglenn/johnnydep"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e6/88/d9422dd8d382730672299f98c0425a89db56f6e6f890892aa0425bdf20f7/johnnydep-2.1.1.tar.gz"
+sha256 = "64296fedfdb98afdcec72f9dd68779bb99fd88eb42935730db3ba6ace8442b99"
+
+[build]
+system = "autotools"

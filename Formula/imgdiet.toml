@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "glib", "vips", "gettext"]
+
+[package]
+name = "imgdiet"
+version = "0.2.0"
+description = "Optimize and resize images"
+homepage = "https://git.sr.ht/~jamesponddotco/imgdiet-go"
+
+[source]
+url = "https://git.sr.ht/~jamesponddotco/imgdiet-go/archive/v0.2.0.tar.gz"
+sha256 = "25fcdc40ad63ce2739fad6543c592d757dc59d5c7a409af87cb20884600984ce"
+
+[build]
+system = "autotools"

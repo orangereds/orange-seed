@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "eleventy"
+version = "3.1.8"
+description = "Simpler static site generator"
+homepage = "https://www.11ty.dev"
+
+[source]
+url = "https://registry.npmjs.org/@11ty/eleventy/-/eleventy-3.1.8.tgz"
+sha256 = "c818a912a1fa65ec2337ac5bbc43dc6dfb657e343f98a1d6f227fd5c6cf7a8ba"
+
+[build]
+system = "autotools"

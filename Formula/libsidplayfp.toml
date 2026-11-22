@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "coreutils", "libtool", "xa", "pkgconf"]
+
+[package]
+name = "libsidplayfp"
+version = "3.1.2"
+description = "Library to play Commodore 64 music"
+homepage = "https://github.com/libsidplayfp/libsidplayfp"
+
+[source]
+url = "https://github.com/libsidplayfp/libsidplayfp/releases/download/v3.1.2/libsidplayfp-3.1.2.tar.gz"
+sha256 = "6d16c20e523ac4d3e385531dafe247a830b59bcb4eb73a557f15cf4e7ae6da84"
+
+[build]
+system = "autotools"

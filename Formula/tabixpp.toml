@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["htslib", "xz"]
+
+[package]
+name = "tabixpp"
+version = "1.1.2_1"
+description = "C++ wrapper to tabix indexer"
+homepage = "https://github.com/vcflib/tabixpp"
+
+[source]
+url = "https://github.com/vcflib/tabixpp/archive/refs/tags/v1.1.2.tar.gz"
+sha256 = "c850299c3c495221818a85c9205c60185c8ed9468d5ec2ed034470bb852229dc"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+3", "imagemagick", "libarchive", "libspectre", "pango", "poppler", "webp", "at-spi2-core", "gettext", "harfbuzz"]
+
+[package]
+name = "pqiv"
+version = "2.13.3_2"
+description = "Powerful image viewer with minimal UI"
+homepage = "https://github.com/phillipberndt/pqiv"
+
+[source]
+url = "https://github.com/phillipberndt/pqiv/archive/refs/tags/2.13.3.tar.gz"
+sha256 = "f0ffaa33e93299b38058c507da2945976a4b350c92cf1c4b3649586444395dfd"
+
+[build]
+system = "autotools"

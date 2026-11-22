@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ghz"
+version = "0.121.0"
+description = "Simple gRPC benchmarking and load testing tool"
+homepage = "https://ghz.sh"
+
+[source]
+url = "https://github.com/bojand/ghz/archive/refs/tags/v0.121.0.tar.gz"
+sha256 = "d92ed00a2cd1be3b14fe680e1615e9dace4fd4cf6d679811173ae7f2611ad762"
+
+[build]
+system = "autotools"

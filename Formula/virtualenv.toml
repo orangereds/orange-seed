@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "virtualenv"
+version = "21.15.9"
+description = "Tool for creating isolated virtual python environments"
+homepage = "https://virtualenv.pypa.io/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ae/66/8dd793701fa14a32086a7b7c3acaa7c22d8de6a7359b34eb7467d2d00c51/virtualenv-21.15.9.tar.gz"
+sha256 = "adc6799981f513ce852aea17ea592e0d342ce48e87f5d17a3d997966df582a67"
+
+[build]
+system = "autotools"

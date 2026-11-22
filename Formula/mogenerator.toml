@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mogenerator"
+version = "1.32"
+description = "Generate Objective-C & Swift classes from your Core Data model"
+homepage = "https://rentzsch.github.io/mogenerator/"
+
+[source]
+url = "https://github.com/rentzsch/mogenerator/archive/refs/tags/1.32.tar.gz"
+sha256 = "4fa660a19934d94d7ef35626d68ada9912d925416395a6bf4497bd7df35d7a8b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "tomee-plus"
+version = "0"
+description = "Everything in TomEE Web Profile and JAX-RS, plus more"
+homepage = "https://tomee.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=tomee/tomee-10.3.0/apache-tomee-10.3.0-plus.tar.gz"
+sha256 = "d9d8295302d2c2ddedec073c4b4b013fecdc502d272a41a9836ba0ed35ded4f7"
+
+[build]
+system = "autotools"

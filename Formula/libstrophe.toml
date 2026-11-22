@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4"]
+
+[package]
+name = "libstrophe"
+version = "0.14.0_1"
+description = "XMPP library for C"
+homepage = "https://strophe.im/libstrophe/"
+
+[source]
+url = "https://github.com/strophe/libstrophe/releases/download/0.14.0/libstrophe-0.14.0.tar.gz"
+sha256 = "d079668474d5c3aa4555347c33e77014a1071629603557cc506a6bc6f82e01f5"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "diction"
+version = "1.11"
+description = "GNU diction and style"
+homepage = "https://www.gnu.org/software/diction/"
+
+[source]
+url = "https://ftpmirror.gnu.org/diction/diction-1.11.tar.gz"
+sha256 = "35c2f1bf8ddf0d5fa9f737ffc8e55230736e5d850ff40b57fdf5ef1d7aa024f6"
+
+[build]
+system = "autotools"

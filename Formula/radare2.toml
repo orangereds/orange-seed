@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "radare2"
+version = "6.2.6"
+description = "Reverse engineering framework"
+homepage = "https://radare.org"
+
+[source]
+url = "https://github.com/radareorg/radare2/archive/refs/tags/6.2.6.tar.gz"
+sha256 = "ef5ae9a0785be28ff38ea61e3b1351232c068691868bab98613c67a8b7aa4872"
+
+[build]
+system = "autotools"

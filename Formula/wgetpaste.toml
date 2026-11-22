@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["wget"]
+
+[package]
+name = "wgetpaste"
+version = "2.34"
+description = "Automate pasting to a number of pastebin services"
+homepage = "https://wgetpaste.zlin.dk/"
+
+[source]
+url = "https://github.com/zlin/wgetpaste/releases/download/2.34/wgetpaste-2.34.tar.xz"
+sha256 = "bd6d06ed901a3d63c9c8c57126084ff0994f09901bfb1638b87953eac1e9433f"
+
+[build]
+system = "autotools"

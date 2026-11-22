@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libsais"
+version = "2.12.2"
+description = "Fast linear time suffix array, lcp array and bwt construction"
+homepage = "https://github.com/IlyaGrebnov/libsais"
+
+[source]
+url = "https://github.com/IlyaGrebnov/libsais/archive/refs/tags/v2.12.2.tar.gz"
+sha256 = "9a3ab90beb94ef4d9cf633f39f3d45fe355401dcffcda067a4e330895afc20d7"
+
+[build]
+system = "cmake"

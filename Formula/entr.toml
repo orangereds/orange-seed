@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "entr"
+version = "5.9"
+description = "Run arbitrary commands when files change"
+homepage = "https://eradman.com/entrproject/"
+
+[source]
+url = "https://eradman.com/entrproject/code/entr-5.9.tar.gz"
+sha256 = "0ef2ce7db728167844a91904944cd07c7ccc6fd3041b849cad861224d106a845"
+
+[build]
+system = "autotools"

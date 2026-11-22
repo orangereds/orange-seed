@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kaf"
+version = "0.2.14"
+description = "Modern CLI for Apache Kafka"
+homepage = "https://github.com/birdayz/kaf"
+
+[source]
+url = "https://github.com/birdayz/kaf/archive/refs/tags/v0.2.14.tar.gz"
+sha256 = "83e78c19e5bce2d1922910809c19bacf489f6d16bbabefa6dcdd3e4b5c292b13"
+
+[build]
+system = "autotools"

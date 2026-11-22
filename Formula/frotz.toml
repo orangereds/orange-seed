@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "freetype", "jpeg-turbo", "libao", "libmodplug", "libpng", "libsamplerate", "libsndfile", "libvorbis", "ncurses", "sdl2-compat", "sdl2_mixer"]
+
+[package]
+name = "frotz"
+version = "2.55"
+description = "Infocom-style interactive fiction player"
+homepage = "https://661.org/proj/if/frotz/"
+
+[source]
+url = "https://www.ifarchive.org/if-archive/infocom/interpreters/frotz/frotz-2.55.tar.gz"
+sha256 = "e3d6912ff94bca724759fe59aa222c1ee23aa4d35ffa15a0b40f72f97887d871"
+
+[build]
+system = "make"

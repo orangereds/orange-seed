@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "python-setuptools", "python@3.15"]
+
+[package]
+name = "libbtbb"
+version = "2020-12-R1_1"
+description = "Bluetooth baseband decoding library"
+homepage = "https://github.com/greatscottgadgets/libbtbb"
+
+[source]
+url = "https://github.com/greatscottgadgets/libbtbb/archive/refs/tags/2020-12-R1.tar.gz"
+sha256 = "9478bb51a38222921b5b1d7accce86acd98ed37dbccb068b38d60efa64c5231f"
+
+[build]
+system = "cmake"

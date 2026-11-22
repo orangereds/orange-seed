@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ryelang"
+version = "0.2.82"
+description = "Rye is a homoiconic programming language focused on fluid expressions"
+homepage = "https://ryelang.org/"
+
+[source]
+url = "https://github.com/refaktor/rye/archive/refs/tags/v0.2.82.tar.gz"
+sha256 = "5f6235856eb7d8c6ae42e59d3f74144b5830a48888d012d69a970bc1de655bf9"
+
+[build]
+system = "autotools"

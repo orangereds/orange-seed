@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "inotify-tools"
+version = "4.26.291"
+description = "C library and command-line programs providing a simple interface to inotify"
+homepage = "https://github.com/inotify-tools/inotify-tools"
+
+[source]
+url = "https://github.com/inotify-tools/inotify-tools/archive/refs/tags/4.26.291.tar.gz"
+sha256 = "46b1a5569772011b23f0059330bc46affa8aaaf0ed790edc28114d6c10e690eb"
+
+[build]
+system = "autotools"

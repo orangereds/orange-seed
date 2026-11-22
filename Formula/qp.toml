@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["quickjs"]
+
+[package]
+name = "qp"
+version = "1.0.1"
+description = "Command-line (ND)JSON querying"
+homepage = "https://github.com/f5io/qp"
+
+[source]
+url = "https://github.com/f5io/qp/archive/refs/tags/1.0.1.tar.gz"
+sha256 = "6ef12fd4494262899ee12cc1ac0361ec0dd7b67e29c6ac6899d1df21efc7642b"
+
+[build]
+system = "autotools"

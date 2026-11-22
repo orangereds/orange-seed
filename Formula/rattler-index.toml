@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "rattler-index"
+version = "0"
+description = "Index conda channels using rattler"
+homepage = "https://github.com/conda/rattler"
+
+[source]
+url = "https://github.com/conda/rattler/archive/refs/tags/rattler_index-v0.34.9.tar.gz"
+sha256 = "a4f491012cf74a71a3c1b659b1e4f601f2a9ac4c197824eafad2ba40f183c54d"
+
+[build]
+system = "autotools"

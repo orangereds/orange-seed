@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libomp"]
+
+[package]
+name = "speech-tools"
+version = "2.5.0.orig_2"
+description = "C++ speech software library from the University of Edinburgh"
+homepage = "http://festvox.org/docs/speech_tools-2.4.0/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/s/speech-tools/speech-tools_2.5.0.orig.tar.gz"
+sha256 = "e4fd97ed78f14464358d09f36dfe91bc1721b7c0fa6503e04364fb5847805dcc"
+
+[build]
+system = "autotools"

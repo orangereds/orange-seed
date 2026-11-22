@@ -1,0 +1,25 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10", "libmsquic", "technitium-library"]
+
+[package]
+name = "technitium-dns"
+version = "15.6.2_1"
+description = "Self host a DNS server for privacy & security"
+homepage = "https://technitium.com/dns/"
+
+[source]
+url = "https://github.com/TechnitiumSoftware/DnsServer/archive/refs/tags/v15.6.2.tar.gz"
+sha256 = "7fe162a7c1db828ca3ce0d754e9739118e5d666ddac526d2302509b47c3d513b"
+
+[service]
+run = "opt/technitium-dns/bin/technitium-dns --stop-if-bind-fails"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/technitium-dns.log"
+error_log_path = "var/log/technitium-dns.log"
+
+[service.env]
+DNS_SERVER_LOG_FOLDER_PATH = "log"
+
+[build]
+system = "autotools"

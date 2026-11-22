@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "shuttle-cli"
+version = "0.25.2"
+description = "CLI for handling shared build and deploy tools between many projects"
+homepage = "https://github.com/lunarway/shuttle"
+
+[source]
+url = "https://github.com/lunarway/shuttle/archive/refs/tags/v0.25.2.tar.gz"
+sha256 = "a7b6f4b0642ceef9fb3e1da96ec65a1784bf520a380dcd95992371fab4416a30"
+
+[build]
+system = "autotools"

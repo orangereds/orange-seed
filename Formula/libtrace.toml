@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "openssl@4", "wandio"]
+
+[package]
+name = "libtrace"
+version = "4.0.34_1"
+description = "Library for trace processing supporting multiple inputs"
+homepage = "https://github.com/LibtraceTeam/libtrace"
+
+[source]
+url = "https://github.com/LibtraceTeam/libtrace/archive/refs/tags/4.0.34-1.tar.gz"
+sha256 = "b3e73b9ca6757094047295937ab4d834155a0c64674f499132b56e8f81f8fcc9"
+
+[build]
+system = "autotools"

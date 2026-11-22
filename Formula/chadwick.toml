@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chadwick"
+version = "0.11.0"
+description = "Tools for manipulating baseball data"
+homepage = "https://chadwick.readthedocs.io"
+
+[source]
+url = "https://github.com/chadwickbureau/chadwick/releases/download/v0.11.0/chadwick-0.11.0.tar.gz"
+sha256 = "c80d24dfd37707719c3e81883417a57339c4d60865e39ae73aebdbbfe2190259"
+
+[build]
+system = "autotools"

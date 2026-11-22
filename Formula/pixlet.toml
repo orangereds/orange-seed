@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "webp"]
+
+[package]
+name = "pixlet"
+version = "0.55.1"
+description = "App runtime and UX toolkit for pixel-based apps"
+homepage = "https://github.com/tronbyt/pixlet"
+
+[source]
+url = "https://github.com/tronbyt/pixlet/archive/refs/tags/v0.55.1.tar.gz"
+sha256 = "d24f93517d0c0887bc657b82aace61c84f2c836b4ea5eacfb3866cdd6fc2a0f6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "codelimit"
+version = "0.21.0_11"
+description = "Your Refactoring Alarm"
+homepage = "https://getcodelimit.github.io"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b7/e5/36aae3a408a00642a7ffa95c200799bdcecb8402e495f4ceffca44a7ab13/codelimit-0.21.0.tar.gz"
+sha256 = "bd43892398acd2e20fa97d37cb6180e679745c6125253a055a55f75357bf8afb"
+
+[build]
+system = "autotools"

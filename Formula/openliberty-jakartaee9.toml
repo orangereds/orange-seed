@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "openliberty-jakartaee9"
+version = "23.0.0.2"
+description = "Lightweight open framework for Java (Jakarta EE 9)"
+homepage = "https://openliberty.io"
+
+[source]
+url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.2/openliberty-jakartaee9-23.0.0.2.zip"
+sha256 = "32f267a1dceae26d9349deb252581ff7e33e2b1a6f324b9f430ad23b16efe67e"
+
+[build]
+system = "autotools"

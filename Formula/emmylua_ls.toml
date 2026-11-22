@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "emmylua_ls"
+version = "0.25.1"
+description = "Lua Language Server"
+homepage = "https://github.com/EmmyLuaLs/emmylua-analyzer-rust"
+
+[source]
+url = "https://github.com/EmmyLuaLs/emmylua-analyzer-rust/archive/refs/tags/0.25.1.tar.gz"
+sha256 = "497b80cf970afbcced36d446a29bde2b59a86f10bbfa936d86f048450553fb0c"
+
+[build]
+system = "autotools"

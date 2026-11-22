@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "webarchiver"
+version = "0.13"
+description = "Allows you to create Safari .webarchive files"
+homepage = "https://github.com/newzealandpaul/webarchiver"
+
+[source]
+url = "https://github.com/newzealandpaul/webarchiver/archive/refs/tags/0.13.tar.gz"
+sha256 = "bbb81adb809a2817e6febdcf801af805b9f4d3080127411e544ac00ee4575242"
+
+[build]
+system = "autotools"

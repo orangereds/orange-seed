@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "circumflex"
+version = "5.1"
+description = "Hacker News in your terminal"
+homepage = "https://github.com/bensadeh/circumflex"
+
+[source]
+url = "https://github.com/bensadeh/circumflex/archive/refs/tags/5.1.tar.gz"
+sha256 = "2e978f57b426ff7c5fc0fedf7e510f9669da9a3886cb54a29f2bd846d4a04a06"
+
+[build]
+system = "autotools"

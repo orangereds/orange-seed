@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tinyice"
+version = "2.13.0"
+description = "Modern, all-in-one Icecast-compatible audio/video streaming server"
+homepage = "https://datanoisetv.github.io/tinyice/"
+
+[source]
+url = "https://github.com/DatanoiseTV/tinyice/archive/refs/tags/v2.13.0.tar.gz"
+sha256 = "f95d5b9aa49ad2c266d84bb3e209e20533fb4b2643a2c63fc6d74f07f42716f6"
+
+[service]
+run = "opt/tinyice/bin/tinyice"
+keep_alive = true
+working_dir = "var/tinyice"
+log_path = "var/log/tinyice.log"
+error_log_path = "var/log/tinyice.log"
+
+[build]
+system = "autotools"

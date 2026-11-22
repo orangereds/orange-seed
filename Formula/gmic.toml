@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "cimg", "fftw", "imath", "jpeg-turbo", "libpng", "libtiff", "openexr", "libomp"]
+
+[package]
+name = "gmic"
+version = "0"
+description = "Full-Featured Open-Source Framework for Image Processing"
+homepage = "https://gmic.eu/"
+
+[source]
+url = "https://gmic.eu/get_file.php?file=source/gmic_4.0.8.tar.gz"
+sha256 = "de30b742c2c69526732ace3a413d4e81fc08d9cf770c3a7b197298b6ab830b0f"
+
+[build]
+system = "cmake"

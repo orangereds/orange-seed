@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "openspec"
+version = "2.1.1"
+description = "Spec-driven development (SDD) for AI coding assistants"
+homepage = "https://openspec.dev/"
+
+[source]
+url = "https://registry.npmjs.org/@fission-ai/openspec/-/openspec-2.1.1.tgz"
+sha256 = "89f20d311c96408aff8d0abd880a063df153f7ec3a7a8abf418d27afa298440c"
+
+[build]
+system = "autotools"

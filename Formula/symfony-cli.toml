@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "composer"]
+
+[package]
+name = "symfony-cli"
+version = "5.22.2"
+description = "Build, run, and manage Symfony applications"
+homepage = "https://symfony.com/download"
+
+[source]
+url = "https://github.com/symfony-cli/symfony-cli/archive/refs/tags/v5.22.2.tar.gz"
+sha256 = "5cb2eb468eb90501519395d24f2023ed19cb1b49299124eeba2516335b2510d2"
+
+[service]
+run = "#{opt_bin}/symfony local:proxy:start --foreground"
+keep_alive = true
+
+[build]
+system = "autotools"

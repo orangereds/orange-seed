@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hexer"
+version = "1.0.7"
+description = "Hex editor for the terminal with vi-like interface"
+homepage = "https://devel.ringlet.net/editors/hexer/"
+
+[source]
+url = "https://devel.ringlet.net/files/editors/hexer/hexer-1.0.7.tar.gz"
+sha256 = "4e4ee48f7c9b0f62ecf5e5012d280bcd6f2bbd35e77facb769ac912278f4ed08"
+
+[build]
+system = "make"

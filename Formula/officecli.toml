@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "officecli"
+version = "1.0.163"
+description = "Read, edit, and automate Office documents (.docx, .xlsx, .pptx)"
+homepage = "https://github.com/iOfficeAI/OfficeCLI"
+
+[source]
+url = "https://github.com/iOfficeAI/OfficeCLI/archive/refs/tags/v1.0.163.tar.gz"
+sha256 = "740ceebf57b6476129afb001f5c962e1321416ab5f395eed62ef63d2963de3f7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rpg-cli"
+version = "1.2.0"
+description = "Your filesystem as a dungeon!"
+homepage = "https://olano.dev/blog/deconstructing-the-role-playing-videogame/"
+
+[source]
+url = "https://github.com/facundoolano/rpg-cli/archive/refs/tags/1.2.0.tar.gz"
+sha256 = "f3993abe7b73666bc3707760dcc650aa9190cd3e7f06be846a0b6adcbbc46663"
+
+[build]
+system = "autotools"

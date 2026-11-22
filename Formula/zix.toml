@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "glib"]
+
+[package]
+name = "zix"
+version = "0.8.2"
+description = "C99 portability and data structure library"
+homepage = "https://gitlab.com/drobilla/zix"
+
+[source]
+url = "https://gitlab.com/drobilla/zix/-/archive/v0.8.2/zix-v0.8.2.tar.gz"
+sha256 = "a2464cdc11fa359b5e713b3c82bf0b476952efe397a02374ddbc1b62eee04f13"
+
+[build]
+system = "autotools"

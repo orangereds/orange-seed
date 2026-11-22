@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "sqlite"]
+
+[package]
+name = "honker"
+version = "0"
+description = "SQLite message queue extension"
+homepage = "https://honker.dev"
+
+[source]
+url = "https://static.crates.io/crates/honker-extension/honker-extension-0.5.0.crate"
+sha256 = "e63f3f389f225cd250a2846becbadf15c91dc25285cb1bd43901187c8f1e3774"
+
+[build]
+system = "autotools"

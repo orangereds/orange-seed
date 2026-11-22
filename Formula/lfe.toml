@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["emacs", "erlang"]
+
+[package]
+name = "lfe"
+version = "2.2.2"
+description = "Concurrent Lisp for the Erlang VM"
+homepage = "https://lfe.io/"
+
+[source]
+url = "https://github.com/lfe/lfe/archive/refs/tags/v2.2.2.tar.gz"
+sha256 = "19a51ad759a547c35535f8bbbafd982aab647ebfb15b438d233e4102fd8761a3"
+
+[build]
+system = "autotools"

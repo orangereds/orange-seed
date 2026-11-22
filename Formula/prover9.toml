@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "prover9"
+version = "2009-11A"
+description = "Automated theorem prover for first-order and equational logic"
+homepage = "https://www.cs.unm.edu/~mccune/prover9/"
+
+[source]
+url = "https://www.cs.unm.edu/~mccune/prover9/download/LADR-2009-11A.tar.gz"
+sha256 = "c32bed5807000c0b7161c276e50d9ca0af0cb248df2c1affb2f6fc02471b51d0"
+
+[build]
+system = "autotools"

@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "node-red"
+version = "5.0.10"
+description = "Low-code programming for event-driven applications"
+homepage = "https://nodered.org/"
+
+[source]
+url = "https://registry.npmjs.org/node-red/-/node-red-5.0.10.tgz"
+sha256 = "3575bea4be2308a890a4510194ba475304eb12c6deef82c3c9f10fa7ea1690d3"
+
+[service]
+run = "opt/node-red/bin/node-red --userDir var/node-red"
+keep_alive = true
+working_dir = "var/node-red"
+
+[build]
+system = "autotools"

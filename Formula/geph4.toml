@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "sqlite"]
+
+[package]
+name = "geph4"
+version = "4.99.32"
+description = "Modular Internet censorship circumvention system to deal with national filtering"
+homepage = "https://geph.io/"
+
+[source]
+url = "https://github.com/geph-official/geph4-client/archive/refs/tags/v4.99.32.tar.gz"
+sha256 = "fd6585717448b796d90b7b6dadd609c86c806ee7b4c9f0a21e27ffb47e8ff59c"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnupg", "pass", "python@3.15"]
+
+[package]
+name = "pass-git-helper"
+version = "5.0.0"
+description = "Git credential helper interfacing with pass"
+homepage = "https://github.com/languitar/pass-git-helper"
+
+[source]
+url = "https://github.com/languitar/pass-git-helper/archive/refs/tags/v5.0.0.tar.gz"
+sha256 = "7b3b496f3b4c885f1a4202b773e577bc80497faca875bff38dfc822b0824b11c"
+
+[build]
+system = "autotools"

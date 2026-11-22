@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openssl@4"]
+
+[package]
+name = "tarsnap"
+version = "0_1"
+description = "Online backups for the truly paranoid"
+homepage = "https://www.tarsnap.com/"
+
+[source]
+url = "https://www.tarsnap.com/download/tarsnap-autoconf-1.0.41.tgz"
+sha256 = "bebdbe1e6e91233755beb42ef0b4adbefd9573455258f009fb331556c799b3d0"
+
+[build]
+system = "autotools"

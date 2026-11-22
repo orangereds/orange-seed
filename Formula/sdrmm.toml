@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "rust", "ffmpeg"]
+
+[package]
+name = "sdrmm"
+version = "2.4.4-src"
+description = "Modular, client-server software-defined radio"
+homepage = "https://github.com/Newspicel/sdrminusminus"
+
+[source]
+url = "https://github.com/Newspicel/sdrminusminus/releases/download/v2.4.4/sdrmm-2.4.4-src.tar.gz"
+sha256 = "d90b9d5cb4a665cf9f0125071652368ceb0a57225b0fb784bb207cedb7628b30"
+
+[service]
+run = "opt/sdrmm/bin/sdrmm"
+keep_alive = true
+log_path = "var/log/sdrmm.log"
+error_log_path = "var/log/sdrmm.log"
+
+[build]
+system = "autotools"

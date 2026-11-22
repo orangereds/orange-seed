@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lua", "pkgconf", "kyoto-cabinet"]
+
+[package]
+name = "kyoto-tycoon"
+version = "0_5"
+description = "Database server with interface to Kyoto Cabinet"
+homepage = "https://dbmx.net/kyototycoon/"
+
+[source]
+url = "https://dbmx.net/kyototycoon/pkg/kyototycoon-0.9.56.tar.gz"
+sha256 = "553e4ea83237d9153cc5e17881092cefe0b224687f7ebcc406b061b2f31c75c6"
+
+[build]
+system = "autotools"

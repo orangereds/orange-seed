@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "maclaunch"
+version = "2.5"
+description = "Manage your macOS startup items"
+homepage = "https://github.com/hazcod/maclaunch"
+
+[source]
+url = "https://github.com/hazcod/maclaunch/archive/refs/tags/2.5.tar.gz"
+sha256 = "b2d5f8669cd2c09096759f6472db4c8c50a3abf90581e6d629f7c5128bbfa88c"
+
+[build]
+system = "autotools"

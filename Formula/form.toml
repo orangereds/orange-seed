@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["flint", "gmp", "mpfr", "zstd"]
+
+[package]
+name = "form"
+version = "5.0.2"
+description = "Symbolic manipulation system"
+homepage = "https://www.nikhef.nl/~form/"
+
+[source]
+url = "https://github.com/form-dev/form/releases/download/v5.0.2/form-5.0.2.tar.gz"
+sha256 = "90a3fbc31a31de50a181e63ce222d0224642a5916fdbb25373913558a6d6921a"
+
+[build]
+system = "autotools"

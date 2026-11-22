@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "boost", "libtool", "nlohmann-json", "simdjson"]
+
+[package]
+name = "librcsc"
+version = "0_4"
+description = "RoboCup Soccer Simulator library"
+homepage = "https://github.com/helios-base/librcsc"
+
+[source]
+url = "https://github.com/helios-base/librcsc/archive/refs/tags/rc2026.tar.gz"
+sha256 = "876d2903eace3f46be3a91b184ccce96a7885c73903c0e73d52cf0df3d79b9d5"
+
+[build]
+system = "autotools"

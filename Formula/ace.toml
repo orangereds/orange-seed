@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ace"
+version = "0"
+description = "ADAPTIVE Communication Environment: OO network programming in C++"
+homepage = "https://www.dre.vanderbilt.edu/~schmidt/ACE.html"
+
+[source]
+url = "https://github.com/DOCGroup/ACE_TAO/releases/download/ACE%2BTAO-8_0_8/ACE+TAO-8.0.8.tar.bz2"
+sha256 = "d7b1d3e1534095b0a627817f4472eed1cc27ccf83fd011557031cf073fc7222a"
+
+[build]
+system = "make"

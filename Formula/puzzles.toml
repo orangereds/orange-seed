@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "halibut"]
+
+[package]
+name = "puzzles"
+version = "20260923.616da16"
+description = "Collection of one-player puzzle games"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/"
+
+[source]
+url = "https://www.chiark.greenend.org.uk/~sgtatham/puzzles/puzzles-20260923.616da16.tar.gz"
+sha256 = "cc419c8060b4e22be398aa03e30651fbce146eee510645c303fb6f5f1b77b78e"
+
+[build]
+system = "cmake"

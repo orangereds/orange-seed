@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ungit"
+version = "1.5.30"
+description = "Easiest way to use Git. On any platform. Anywhere"
+homepage = "https://github.com/FredrikNoren/ungit"
+
+[source]
+url = "https://github.com/FredrikNoren/ungit/archive/refs/tags/v1.5.30.tar.gz"
+sha256 = "960b9e459edca37712303e42845fe90ca4a31744e854aa204c0e259b40e90315"
+
+[build]
+system = "autotools"

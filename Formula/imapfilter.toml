@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lua", "openssl@4", "pcre2"]
+
+[package]
+name = "imapfilter"
+version = "2.8.7"
+description = "IMAP message processor/filter"
+homepage = "https://github.com/lefcha/imapfilter/"
+
+[source]
+url = "https://github.com/lefcha/imapfilter/archive/refs/tags/v2.8.7.tar.gz"
+sha256 = "fad8eb3779f2b40ba10b1ebaeee57044cac14139a6a59b37d27aeb598f19799d"
+
+[build]
+system = "make"

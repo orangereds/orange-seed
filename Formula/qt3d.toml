@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "vulkan-headers", "vulkan-loader", "pkgconf", "assimp", "qtbase", "qtdeclarative", "qtshadertools"]
+
+[package]
+name = "qt3d"
+version = "0_1"
+description = "Provides functionality for near-realtime simulation systems"
+homepage = "https://www.qt.io/"
+
+[source]
+url = "https://download.qt.io/official_releases/qt/6.12/6.12.0/submodules/qt3d-everywhere-src-6.12.0.tar.xz"
+sha256 = "d16f7489945c6c9e971cedd4362202a2681f3c10393461e1f5e74425f7fef59a"
+
+[build]
+system = "cmake"

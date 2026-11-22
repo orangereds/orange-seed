@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vale"
+version = "3.28.1"
+description = "Syntax-aware linter for prose"
+homepage = "https://vale.sh/"
+
+[source]
+url = "https://github.com/vale-cli/vale/archive/refs/tags/v3.28.1.tar.gz"
+sha256 = "8ccc68482a36a9123c078267ccbaca6e0be678ef2a1991ef935191cbe9bed8cd"
+
+[build]
+system = "autotools"

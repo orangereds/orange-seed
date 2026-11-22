@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "checkstyle"
+version = "14.4.0-all.jar"
+description = "Check Java source against a coding standard"
+homepage = "https://checkstyle.sourceforge.io/"
+
+[source]
+url = "https://github.com/checkstyle/checkstyle/releases/download/checkstyle-14.4.0/checkstyle-14.4.0-all.jar"
+sha256 = "c0a521e54eabd1ece4ff7bd84cf231b012615745ed3aa4fb27ab0ca73097250c"
+
+[build]
+system = "autotools"

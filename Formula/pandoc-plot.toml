@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "graphviz", "gmp", "pandoc"]
+
+[package]
+name = "pandoc-plot"
+version = "1.9.2"
+description = "Render and include figures in Pandoc documents using many plotting toolkits"
+homepage = "https://laurentrdc.github.io/pandoc-plot/"
+
+[source]
+url = "https://hackage.haskell.org/package/pandoc-plot-1.9.2/pandoc-plot-1.9.2.tar.gz"
+sha256 = "3e94528e2fd42029054addaea25ff09ee55b78b4f1b0e610ede6f04eb859aead"
+
+[build]
+system = "autotools"

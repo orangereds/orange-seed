@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "ncurses", "gettext"]
+
+[package]
+name = "trader"
+version = "7.21"
+description = "Star Traders"
+homepage = "https://www.zap.org.au/projects/trader/"
+
+[source]
+url = "https://ftp.zap.org.au/pub/trader/unix/trader-7.21.tar.xz"
+sha256 = "541d1180dde04173c071d5c59eaf72a6572f8dfc8065e184eaf7d14bccd0257d"
+
+[build]
+system = "autotools"

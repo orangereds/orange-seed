@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "headson"
+version = "0.17.1"
+description = "Head/tail for structured data"
+homepage = "https://docs.rs/headson/latest/headson/"
+
+[source]
+url = "https://github.com/kantord/headson/archive/refs/tags/headson-v0.17.1.tar.gz"
+sha256 = "7c04dbe3d94c8e828d453cfe93b68f0dbd25a72ce3735fc43d71e3e0ea2b9b32"
+
+[build]
+system = "autotools"

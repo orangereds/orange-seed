@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gettext", "libtool", "pkgconf", "openssl@4", "unixodbc"]
+
+[package]
+name = "freetds"
+version = "1.5.22"
+description = "Libraries to talk to Microsoft SQL Server and Sybase databases"
+homepage = "https://www.freetds.org/"
+
+[source]
+url = "https://www.freetds.org/files/stable/freetds-1.5.22.tar.bz2"
+sha256 = "b31cbc50f9e2ad4adf8dd3958807e4e7b8f4e588b080f8dbddbe465ceefb9231"
+
+[build]
+system = "autotools"

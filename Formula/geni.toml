@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "geni"
+version = "1.3.3"
+description = "Standalone database migration tool"
+homepage = "https://github.com/emilpriver/geni"
+
+[source]
+url = "https://github.com/emilpriver/geni/archive/refs/tags/v1.3.3.tar.gz"
+sha256 = "4b12e63bf71e283381d923f108f1a48e52fe7e16ffcb21a082d2deb89e74e023"
+
+[build]
+system = "autotools"

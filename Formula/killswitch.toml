@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "killswitch"
+version = "0.8.3"
+description = "VPN kill switch for macOS"
+homepage = "https://killswitch.network"
+
+[source]
+url = "https://github.com/vpn-kill-switch/killswitch/archive/refs/tags/0.8.3.tar.gz"
+sha256 = "061f0f8fc7c16178b7e99387fd5498ca5812d7bb95c2931464c5ae6b8c268598"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "lmdb"
+version = "0"
+description = "Lightning memory-mapped database: key-value data store"
+homepage = "https://www.symas.com/lmdb.php"
+
+[source]
+url = "https://git.openldap.org/openldap/openldap/-/archive/LMDB_1.0.3/openldap-LMDB_1.0.3.tar.bz2"
+sha256 = "015f482ba647e926fbddc9cea49ed59281229c12896cd18675484c36712b98bd"
+
+[build]
+system = "autotools"

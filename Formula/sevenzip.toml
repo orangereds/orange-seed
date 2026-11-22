@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sevenzip"
+version = "26.06"
+description = "7-Zip is a file archiver with a high compression ratio"
+homepage = "https://7-zip.org"
+
+[source]
+url = "https://github.com/ip7z/7zip/archive/refs/tags/26.06.tar.gz"
+sha256 = "63bbf0ede83e4286ec8a2905ed732a12acc36dd4771984d870b054240ce761fa"
+
+[build]
+system = "autotools"

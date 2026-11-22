@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "cmake", "coreutils", "libtool", "rust", "openssl@4", "zstd", "make"]
+
+[package]
+name = "redis"
+version = "8.10.3"
+description = "Persistent key-value database, with built-in net interface"
+homepage = "https://redis.io/"
+
+[source]
+url = "https://download.redis.io/releases/redis-8.10.3.tar.gz"
+sha256 = "edde778f6bdee7581e42fc139ca9e07e2822212092f7501f99989656e3629d02"
+
+[service]
+run = "opt/redis/bin/redis-server etc/redis.conf"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/redis.log"
+error_log_path = "var/log/redis.log"
+
+[build]
+system = "make"

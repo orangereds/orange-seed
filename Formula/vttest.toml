@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "vttest"
+version = "20251205"
+description = "Test compatibility of VT100-compatible terminals"
+homepage = "https://invisible-island.net/vttest/"
+
+[source]
+url = "https://invisible-mirror.net/archives/vttest/vttest-20251205.tgz"
+sha256 = "cd6886f9aefe6a3f6c566fa61271a55710901a71849c630bf5376aa984bf77cc"
+
+[build]
+system = "autotools"

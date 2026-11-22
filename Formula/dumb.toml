@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "argtable", "sdl2-compat"]
+
+[package]
+name = "dumb"
+version = "2.0.3"
+description = "IT, XM, S3M and MOD player library"
+homepage = "https://dumb.sourceforge.net/"
+
+[source]
+url = "https://github.com/kode54/dumb/archive/refs/tags/2.0.3.tar.gz"
+sha256 = "99bfac926aeb8d476562303312d9f47fd05b43803050cd889b44da34a9b2a4f9"
+
+[build]
+system = "cmake"

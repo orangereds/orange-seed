@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "readwise-cli"
+version = "0"
+description = "Command-line interface for Readwise and Reader"
+homepage = "https://readwise.io/cli"
+
+[source]
+url = "https://registry.npmjs.org/@readwise/cli/-/cli-0.5.11.tgz"
+sha256 = "d1d3fca556693813e6d38acab1346340625537d3c76642ef5d53dd4e6f8c390c"
+
+[build]
+system = "autotools"

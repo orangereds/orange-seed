@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "reproc"
+version = "14.2.8"
+description = "Cross-platform (C99/C++11) process library"
+homepage = "https://github.com/daandemeyer/reproc"
+
+[source]
+url = "https://github.com/daandemeyer/reproc/archive/refs/tags/14.2.8.tar.gz"
+sha256 = "27c3b452bfc419a2deda23969aa10c77909c4ff9e71c549eb65d09ae6aa7aa32"
+
+[build]
+system = "cmake"

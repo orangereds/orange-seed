@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "scala@2.12"
+version = "0"
+description = "JVM-based programming language"
+homepage = "https://www.scala-lang.org/"
+
+[source]
+url = "https://github.com/scala/scala/releases/download/v2.12.21/scala-2.12.21.tgz"
+sha256 = "13bad6399f433ae244e98834aa79f393cb43b46b94ec34662d50d678cb4009ea"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

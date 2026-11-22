@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oauth2l"
+version = "1.3.6"
+description = "Simple CLI for interacting with Google oauth tokens"
+homepage = "https://github.com/google/oauth2l"
+
+[source]
+url = "https://github.com/google/oauth2l/archive/refs/tags/v1.3.6.tar.gz"
+sha256 = "5e09371bc245946cadecd3c73de7b782c1f933816678f7f5dff0d5632da5ae0a"
+
+[build]
+system = "autotools"

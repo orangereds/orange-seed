@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nanorc"
+version = "2020.10.10"
+description = "Improved Nano Syntax Highlighting Files"
+homepage = "https://github.com/scopatz/nanorc"
+
+[source]
+url = "https://github.com/scopatz/nanorc/releases/download/2020.10.10/nanorc-2020.10.10.tar.gz"
+sha256 = "cd674e9eb230e4ba306b418c22d1891d93a3d2ffdf22234748d3398da50dfe64"
+
+[build]
+system = "autotools"

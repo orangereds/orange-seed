@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "gnutls", "gsettings-desktop-schemas", "gettext"]
+
+[package]
+name = "glib-networking"
+version = "2.90.1"
+description = "Network related modules for glib"
+homepage = "https://gitlab.gnome.org/GNOME/glib-networking"
+
+[source]
+url = "https://download.gnome.org/sources/glib-networking/2.90/glib-networking-2.90.1.tar.xz"
+sha256 = "ea95636590098355a05e3027579dba1a9a950b05e456b2488ea03d82e4b6c18a"
+
+[build]
+system = "autotools"

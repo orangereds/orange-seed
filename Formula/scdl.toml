@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cffi", "curl-impersonate", "ffmpeg", "python@3.15"]
+
+[package]
+name = "scdl"
+version = "3.0.9"
+description = "Command-line tool to download music from SoundCloud"
+homepage = "https://github.com/scdl-org/scdl"
+
+[source]
+url = "https://files.pythonhosted.org/packages/30/17/b1d278074f9f6fc25db768b1e104cf71991fff42f0836b0cdcb3d1ae2c81/scdl-3.0.9.tar.gz"
+sha256 = "bcd594eab2c1a0d1f40ac0253b262e3b81d8ddc35feb7e89306aa8739ede8d6b"
+
+[build]
+system = "autotools"

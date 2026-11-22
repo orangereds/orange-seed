@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["p7zip", "python@3.15", "xz"]
+
+[package]
+name = "dtrx"
+version = "8.7.1"
+description = "Intelligent archive extraction"
+homepage = "https://pypi.org/project/dtrx/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/12/c2/e678320a0051cbbe5de91d1836998bac858086852a135441d7d0bfddc1c1/dtrx-8.7.1.tar.gz"
+sha256 = "d3be625ce7860c82d5159a551bbd215eada8a11cf4f82557e4f77eabc0986e43"
+
+[build]
+system = "autotools"

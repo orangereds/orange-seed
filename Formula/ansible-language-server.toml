@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ansible-language-server"
+version = "26.6.0"
+description = "Language Server for Ansible Files"
+homepage = "https://github.com/ansible/vscode-ansible"
+
+[source]
+url = "https://registry.npmjs.org/@ansible/ansible-language-server/-/ansible-language-server-26.6.0.tgz"
+sha256 = "b9774c8755003dc921c822ea63cef63175807d9c0d3f7eb0f53602a31e447948"
+
+[build]
+system = "autotools"

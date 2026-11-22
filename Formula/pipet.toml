@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pipet"
+version = "0.3.0"
+description = "Swiss-army tool for web scraping, made for hackers"
+homepage = "https://github.com/bjesus/pipet"
+
+[source]
+url = "https://github.com/bjesus/pipet/archive/refs/tags/0.3.0.tar.gz"
+sha256 = "9fb35bcc4be8b7655a4075c3b2bf7b0368ae7bb97e9e6dbbcf00422c8e18cc6b"
+
+[build]
+system = "autotools"

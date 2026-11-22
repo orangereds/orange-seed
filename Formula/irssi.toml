@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "openssl@4", "perl", "gettext"]
+
+[package]
+name = "irssi"
+version = "1.4.5_3"
+description = "Modular IRC client"
+homepage = "https://irssi.org/"
+
+[source]
+url = "https://github.com/irssi/irssi/releases/download/1.4.5/irssi-1.4.5.tar.xz"
+sha256 = "72a951cb0ad622785a8962801f005a3a412736c7e7e3ce152f176287c52fe062"
+
+[build]
+system = "autotools"

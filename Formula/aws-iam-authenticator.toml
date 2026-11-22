@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aws-iam-authenticator"
+version = "0.7.24"
+description = "Use AWS IAM credentials to authenticate to Kubernetes"
+homepage = "https://github.com/kubernetes-sigs/aws-iam-authenticator"
+
+[source]
+url = "https://github.com/kubernetes-sigs/aws-iam-authenticator/archive/refs/tags/v0.7.24.tar.gz"
+sha256 = "388d274decebfe44dcea09e00bb3d11d97feb9b6f3fed5f069452a9c6df05754"
+
+[build]
+system = "autotools"

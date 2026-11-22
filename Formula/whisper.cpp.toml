@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ggml", "llama.cpp", "sdl2-compat"]
+
+[package]
+name = "whisper.cpp"
+version = "1.9.5_2"
+description = "Port of OpenAI's Whisper model in C/C++"
+homepage = "https://github.com/ggml-org/whisper.cpp"
+
+[source]
+url = "https://github.com/ggml-org/whisper.cpp/archive/refs/tags/v1.9.5.tar.gz"
+sha256 = "ff1a9053feb509ff9d7729703355541ae9690073a6b1c40eb692c962e0dc1720"
+
+[build]
+system = "cmake"

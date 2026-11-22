@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "rust", "certifi", "numpy", "python@3.15"]
+
+[package]
+name = "twarc"
+version = "2.14.1_6"
+description = "Command-line tool and Python library for archiving Twitter JSON"
+homepage = "https://github.com/DocNow/twarc"
+
+[source]
+url = "https://files.pythonhosted.org/packages/44/1e/b124f63e6b220c0bd85abe062b77809a0cfd2e9e6d8aed25f9069687df5a/twarc-2.14.1.tar.gz"
+sha256 = "54537495c6575863769e82ba4a0db7d68538e7c5afa9b8fcc8856a0ae94d9fa0"
+
+[build]
+system = "autotools"

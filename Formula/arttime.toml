@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fzf"]
+
+[package]
+name = "arttime"
+version = "2.5.0"
+description = "Clock, timer, time manager and ASCII+ text-art viewer for the terminal"
+homepage = "https://github.com/poetaman/arttime"
+
+[source]
+url = "https://github.com/poetaman/arttime/archive/refs/tags/v2.5.0.tar.gz"
+sha256 = "7f90fb45232b7aef3831cde0f48c28d4eedc77d67edb7642f352c4b852624a1c"
+
+[build]
+system = "autotools"

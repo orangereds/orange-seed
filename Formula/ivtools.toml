@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ace", "libx11", "libxext"]
+
+[package]
+name = "ivtools"
+version = "2.1.1_7"
+description = "X11 vector graphic servers"
+homepage = "https://github.com/vectaport/ivtools"
+
+[source]
+url = "https://github.com/vectaport/ivtools/archive/refs/tags/ivtools-2.1.1.tar.gz"
+sha256 = "4fa680b9d0fd2af610e9012258e150249d9a8abbc3b1f65eb17d01c959142cfc"
+
+[build]
+system = "autotools"

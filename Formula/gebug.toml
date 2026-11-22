@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gebug"
+version = "1.0.7"
+description = "Debug Dockerized Go applications better"
+homepage = "https://github.com/moshebe/gebug"
+
+[source]
+url = "https://github.com/moshebe/gebug/archive/refs/tags/v1.0.7.tar.gz"
+sha256 = "3dac2b9b1f9a3d5fa8c19fceb7f77ea8ce003504239a2744bfc3c492b96a2e56"
+
+[build]
+system = "autotools"

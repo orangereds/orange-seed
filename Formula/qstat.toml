@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "qstat"
+version = "2.18"
+description = "Query Quake servers from the command-line"
+homepage = "https://github.com/rocketsciencegg/qstat"
+
+[source]
+url = "https://github.com/rocketsciencegg/qstat/archive/refs/tags/v2.18.tar.gz"
+sha256 = "a74564bd9c31db3dc1fcc0a68ffaf694630b9e67f0d31ff76b2a3c3196ee4f1f"
+
+[build]
+system = "autotools"

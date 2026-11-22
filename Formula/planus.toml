@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "planus"
+version = "1.3.0"
+description = "Alternative compiler for flatbuffers,"
+homepage = "https://github.com/planus-org/planus"
+
+[source]
+url = "https://github.com/planus-org/planus/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "eb4f65fced93a1c04f14a17ff5978f930cf68e2026a0f24d13a214d045a920ed"
+
+[build]
+system = "autotools"

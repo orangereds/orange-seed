@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libimobiledevice-glue", "libplist", "libtasn1", "libtatsu", "libusbmuxd", "openssl@4"]
+
+[package]
+name = "libimobiledevice"
+version = "1.4.0_3"
+description = "Library to communicate with iOS devices natively"
+homepage = "https://www.libimobiledevice.org/"
+
+[source]
+url = "https://github.com/libimobiledevice/libimobiledevice/releases/download/1.4.0/libimobiledevice-1.4.0.tar.bz2"
+sha256 = "23cc0077e221c7d991bd0eb02150a0d49199bcca1ddf059edccee9ffd914939d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcem", "pkgconf", "libsndfile", "readline", "gettext", "portaudio"]
+
+[package]
+name = "fluid-synth"
+version = "2.6.2_1"
+description = "Real-time software synthesizer based on the SoundFont 2 specs"
+homepage = "https://www.fluidsynth.org"
+
+[source]
+url = "https://github.com/FluidSynth/fluidsynth/archive/refs/tags/v2.6.2.tar.gz"
+sha256 = "ca376b42a3c1b186a4c8c248931789a455ac94a89b777394969d678010c2f91f"
+
+[build]
+system = "cmake"

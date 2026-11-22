@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml"]
+
+[package]
+name = "one-ml"
+version = "1ml-0.1_2"
+description = "Reboot of ML, unifying its core and (now first-class) module layers"
+homepage = "https://people.mpi-sws.org/~rossberg/1ml/"
+
+[source]
+url = "https://people.mpi-sws.org/~rossberg/1ml/1ml-0.1.zip"
+sha256 = "64c40c497f48355811fc198a2f515d46c1bb5031957b87f6a297822b07bb9c9a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "smap"
+version = "0.1.12"
+description = "Drop-in replacement for Nmap powered by shodan.io"
+homepage = "https://github.com/s0md3v/Smap"
+
+[source]
+url = "https://github.com/s0md3v/Smap/archive/refs/tags/0.1.12.tar.gz"
+sha256 = "870838dc01cbf2a018db8bbdee2ac439e4666e131d1f014843fc5b6994c33049"
+
+[build]
+system = "autotools"

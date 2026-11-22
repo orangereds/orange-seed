@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "python@3.15", "uv"]
+
+[package]
+name = "hatch"
+version = "1.18.2"
+description = "Modern, extensible Python project management"
+homepage = "https://hatch.pypa.io/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/4d/55/45033136574fc89bce07e2c64e4ffb151df5007518b2739b54c95838e14f/hatch-1.18.2.tar.gz"
+sha256 = "7f365f1a5b8f1a8162813daed9bf9fce83f15dc933fc99c6d04cbb942e64f4d0"
+
+[build]
+system = "autotools"

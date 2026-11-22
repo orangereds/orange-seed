@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "berkeley-db@5", "gmp", "libarchive", "libyaml", "openssl@4", "pcre2", "unixodbc", "utf8proc"]
+
+[package]
+name = "swi-prolog"
+version = "0"
+description = "ISO/Edinburgh-style Prolog interpreter"
+homepage = "https://www.swi-prolog.org/"
+
+[source]
+url = "https://www.swi-prolog.org/download/stable/src/swipl-11.0.0.tar.gz"
+sha256 = "64b9e2b8a862ee56dd54cf6820775111afc87310511c8f03f6fd978614e37c33"
+
+[build]
+system = "cmake"

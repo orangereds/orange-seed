@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "terrahub"
+version = "0.5.9"
+description = "Terraform automation and orchestration tool"
+homepage = "https://web.archive.org/web/20240302100339/https://docs.terrahub.io/"
+
+[source]
+url = "https://registry.npmjs.org/terrahub/-/terrahub-0.5.9.tgz"
+sha256 = "0288f47ab305550d0f21633a9a487e1de688556229242bf0c86e120d1240e1c4"
+
+[build]
+system = "autotools"

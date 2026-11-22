@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja"]
+
+[package]
+name = "libmpdclient"
+version = "2.27"
+description = "Library for MPD in the C, C++, and Objective-C languages"
+homepage = "https://www.musicpd.org/libs/libmpdclient/"
+
+[source]
+url = "https://www.musicpd.org/download/libmpdclient/2/libmpdclient-2.27.tar.xz"
+sha256 = "88945b5abc11d8f4cea2bb7028e545024a6e060650bd65527a29bc9400daead8"
+
+[build]
+system = "autotools"

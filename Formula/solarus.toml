@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "glm", "libmodplug", "libogg", "libvorbis", "luajit", "openal-soft", "physfs", "sdl2-compat", "sdl2_image", "sdl2_ttf"]
+
+[package]
+name = "solarus"
+version = "0"
+description = "Action-RPG game engine"
+homepage = "https://www.solarus-games.org/"
+
+[source]
+url = "https://gitlab.com/solarus-games/solarus.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

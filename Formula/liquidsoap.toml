@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocaml", "opam", "pkgconf", "ffmpeg"]
+
+[package]
+name = "liquidsoap"
+version = "2.4.6"
+description = "Audio and video streaming language"
+homepage = "https://www.liquidsoap.info"
+
+[source]
+url = "https://github.com/savonet/liquidsoap-release-assets/releases/download/v2.4.6/liquidsoap-2.4.6.tar.gz"
+sha256 = "a88da89382147d5d5923426e07b24b15197a5aaf8424ecf6fc58034d6c6839c2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "zig@0.16"]
+
+[package]
+name = "nullhub"
+version = "0"
+description = "Management console for the Null ecosystem"
+homepage = "https://nullhub.io"
+
+[source]
+url = "https://github.com/nullclaw/nullhub/releases/download/v2026.5.29/nullhub-source-v2026.5.29.tar.gz"
+sha256 = "e0751611af90b6f63c8a1020a4e951b18d3bb22b86fbf38a0267183a9325556b"
+
+[service]
+run = "opt/nullhub/bin/nullhub serve --no-open"
+keep_alive = true
+
+[build]
+system = "autotools"

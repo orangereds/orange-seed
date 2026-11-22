@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib"]
+
+[package]
+name = "libdex"
+version = "1.2.0"
+description = "Future-based programming for GLib-based applications"
+homepage = "https://gitlab.gnome.org/GNOME/libdex"
+
+[source]
+url = "https://gitlab.gnome.org/GNOME/libdex/-/archive/1.2.0/libdex-1.2.0.tar.gz"
+sha256 = "0feb7f0f76938500800c28e32e5a655ab95bf042263639c5cc0f79446f15401d"
+
+[build]
+system = "autotools"

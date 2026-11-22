@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "shc"
+version = "4.0.3"
+description = "Shell Script Compiler"
+homepage = "https://neurobin.github.io/shc"
+
+[source]
+url = "https://github.com/neurobin/shc/archive/refs/tags/4.0.3.tar.gz"
+sha256 = "7d7fa6a9f5f53d607ab851d739ae3d3b99ca86e2cb1425a6cab9299f673aee16"
+
+[build]
+system = "autotools"

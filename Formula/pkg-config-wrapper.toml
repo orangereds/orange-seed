@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf"]
+
+[package]
+name = "pkg-config-wrapper"
+version = "0.3.2"
+description = "Easier way to include C code in your Go program"
+homepage = "https://github.com/influxdata/pkg-config"
+
+[source]
+url = "https://github.com/influxdata/pkg-config/archive/refs/tags/v0.3.2.tar.gz"
+sha256 = "c23dc2db950ed7938d6f528ca265a9c09ebbdad74e59b90cb66ecb93fc299ab2"
+
+[build]
+system = "autotools"

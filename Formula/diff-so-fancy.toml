@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "diff-so-fancy"
+version = "1.4.14"
+description = "Good-lookin' diffs with diff-highlight and more"
+homepage = "https://github.com/so-fancy/diff-so-fancy"
+
+[source]
+url = "https://github.com/so-fancy/diff-so-fancy/archive/refs/tags/v1.4.14.tar.gz"
+sha256 = "7ebdaaac4aade23a9b5296f560484e42a864331903febe92314b530380a34734"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "redir"
+version = "3.3"
+description = "TCP port redirector for UNIX"
+homepage = "https://github.com/troglobit/redir"
+
+[source]
+url = "https://github.com/troglobit/redir/releases/download/v3.3/redir-3.3.tar.xz"
+sha256 = "7ce53ac52a24c1b3279b994bfffbd429c44df2db10a4b1a0f54e108604fdae6e"
+
+[build]
+system = "autotools"

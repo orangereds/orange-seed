@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "gyb"
+version = "1.97"
+description = "CLI for backing up and restoring Gmail messages"
+homepage = "https://github.com/GAM-team/got-your-back/"
+
+[source]
+url = "https://github.com/GAM-team/got-your-back/archive/refs/tags/v1.97.tar.gz"
+sha256 = "853050ff6e2dde4f71585c4256b730f7c50404f04ce083895634d91155fcb4a1"
+
+[build]
+system = "autotools"

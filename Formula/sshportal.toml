@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sshportal"
+version = "1.19.5"
+description = "SSH & Telnet bastion server"
+homepage = "https://v1.manfred.life/sshportal/"
+
+[source]
+url = "https://github.com/moul/sshportal/archive/refs/tags/v1.19.5.tar.gz"
+sha256 = "713be8542c93d91811f9643a8a2954ebc15130099e300fedb5ea4785b5337b52"
+
+[build]
+system = "autotools"

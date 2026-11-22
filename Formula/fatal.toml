@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "fatal"
+version = "2026.09.14.00"
+description = "Facebook Template Library"
+homepage = "https://www.facebook.com/groups/libfatal/"
+
+[source]
+url = "https://github.com/facebook/fatal/archive/refs/tags/v2026.09.14.00.tar.gz"
+sha256 = "da43cabebbe0a1b279f5eaf3fe7d3460ed7320887ca033d805b84079bc29e3a1"
+
+[build]
+system = "autotools"

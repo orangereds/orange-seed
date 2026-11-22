@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "sbt", "scala", "erlang", "openjdk", "rebar3"]
+
+[package]
+name = "erlang-language-platform"
+version = "0"
+description = "LSP server and CLI for the Erlang programming language"
+homepage = "https://whatsapp.github.io/erlang-language-platform/"
+
+[source]
+url = "https://github.com/WhatsApp/erlang-language-platform.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

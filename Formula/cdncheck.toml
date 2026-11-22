@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cdncheck"
+version = "1.4.0"
+description = "Utility to detect various technology for a given IP address"
+homepage = "https://projectdiscovery.io"
+
+[source]
+url = "https://github.com/projectdiscovery/cdncheck/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "4bc726abe474033408f01b0f5cc488de1b3211836a5bec9446c6fa8a431d72c0"
+
+[build]
+system = "autotools"

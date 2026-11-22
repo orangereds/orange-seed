@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pyqt-builder", "python@3.15", "qt3d", "qtbase", "qtcharts", "qtconnectivity", "qtdatavis3d", "qtdeclarative", "qtmultimedia", "qtnetworkauth", "qtpositioning", "qtquick3d", "qtremoteobjects", "qtscxml", "qtsensors", "qtserialport", "qtspeech", "qtsvg", "qttools", "qtwebchannel", "qtwebsockets", "qtshadertools", "qtwebengine"]
+
+[package]
+name = "pyqt"
+version = "0"
+description = "Python bindings for v6 of Qt"
+homepage = "https://www.riverbankcomputing.com/software/pyqt/intro"
+
+[source]
+url = "https://files.pythonhosted.org/packages/61/5f/39d2cf3eabc36006a5c87df6e1ed34928025b4a1768d752859bf404ec341/pyqt6-6.12.1.tar.gz"
+sha256 = "17bb18b3ae953ab54b23026291ecea2579b028597b56c281a752c8ed66dd1a58"
+
+[build]
+system = "autotools"

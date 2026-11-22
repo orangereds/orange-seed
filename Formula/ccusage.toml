@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "ccusage"
+version = "27c796c412eed2f7336dccb46a58247463b7c498"
+description = "CLI tool for analyzing Claude Code usage from local JSONL files"
+homepage = "https://github.com/ccusage/ccusage"
+
+[source]
+url = "https://github.com/ccusage/ccusage/archive/refs/tags/v20.0.51.tar.gz"
+sha256 = "71ce87c83264c64a13232a4f049a18d4902422e629ac7146cf0111b74260b713"
+
+[build]
+system = "autotools"

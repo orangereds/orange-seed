@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "soft-serve"
+version = "0.12.4"
+description = "Mighty, self-hostable Git server for the command-line"
+homepage = "https://github.com/charmbracelet/soft-serve"
+
+[source]
+url = "https://github.com/charmbracelet/soft-serve/releases/download/v0.12.4/soft-serve-0.12.4.tar.gz"
+sha256 = "5c6d2668ac06aeda8c6e8c0eaf19c4ef33557869426a187ec8e9b6e0350ba400"
+
+[build]
+system = "autotools"

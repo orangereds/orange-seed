@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["imagemagick", "jp2a"]
+
+[package]
+name = "spaceman-diff"
+version = "1.0.3"
+description = "Diff images from the command-line"
+homepage = "https://github.com/holman/spaceman-diff"
+
+[source]
+url = "https://github.com/holman/spaceman-diff/archive/refs/tags/v1.0.3.tar.gz"
+sha256 = "347bf7d32d6c2905f865b90c5e6f4ee2cd043159b61020381f49639ed5750fdf"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tscriptify"
+version = "0.2.0"
+description = "Golang struct to TypeScript class/interface converter"
+homepage = "https://github.com/tkrajina/typescriptify-golang-structs"
+
+[source]
+url = "https://github.com/tkrajina/typescriptify-golang-structs/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "0bc43bb0e4e70fb10402be448b58eae7babd19f69e9dcbf4ff77f8f62c1b8abc"
+
+[build]
+system = "autotools"

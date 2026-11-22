@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ehco"
+version = "1.1.6"
+description = "Network relay tool and a typo :)"
+homepage = "https://github.com/Ehco1996/ehco"
+
+[source]
+url = "https://github.com/Ehco1996/ehco/archive/refs/tags/v1.1.6.tar.gz"
+sha256 = "002d18a6b631f5026b2dc90dbbe55dc46469fbaaef24ad812a281356d54ebe26"
+
+[build]
+system = "autotools"

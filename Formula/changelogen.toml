@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "changelogen"
+version = "0.6.2"
+description = "Generate Beautiful Changelogs using Conventional Commits"
+homepage = "https://github.com/unjs/changelogen"
+
+[source]
+url = "https://registry.npmjs.org/changelogen/-/changelogen-0.6.2.tgz"
+sha256 = "cd5e783f11a9496293d2c7790e36574981296192849a9d904dec617e65e257b2"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libcuefile", "libreplaygain"]
+
+[package]
+name = "musepack"
+version = "r475"
+description = "Audio compression format and tools"
+homepage = "https://www.musepack.net/"
+
+[source]
+url = "https://files.musepack.net/source/musepack_src_r475.tar.gz"
+sha256 = "a4b1742f997f83e1056142d556a8c20845ba764b70365ff9ccf2e3f81c427b2b"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tbls"
+version = "1.97.0"
+description = "CI-Friendly tool to document a database"
+homepage = "https://github.com/k1LoW/tbls"
+
+[source]
+url = "https://github.com/k1LoW/tbls/archive/refs/tags/v1.97.0.tar.gz"
+sha256 = "089d556bd7deb95516fba814063f01d4f35091665addcfedf05281c87b0cf145"
+
+[build]
+system = "autotools"

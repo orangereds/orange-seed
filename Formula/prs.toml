@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "gnupg"]
+
+[package]
+name = "prs"
+version = "0.5.9"
+description = "Secure, fast & convenient password manager CLI with GPG & git sync"
+homepage = "https://timvisee.com/projects/prs"
+
+[source]
+url = "https://github.com/timvisee/prs/archive/refs/tags/v0.5.9.tar.gz"
+sha256 = "4ee5c981a1b6ab0943d6e390c72cd1f339d872982e838299fa91013d9285a53d"
+
+[build]
+system = "autotools"

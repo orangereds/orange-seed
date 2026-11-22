@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "intltool", "pkgconf", "at-spi2-core", "gdk-pixbuf", "glib", "gtk+3", "json-glib", "pango", "cairo", "harfbuzz"]
+
+[package]
+name = "libdbusmenu"
+version = "16.04.0"
+description = "GLib and Gtk Implementation of the DBusMenu protocol"
+homepage = "https://launchpad.net/libdbusmenu"
+
+[source]
+url = "https://launchpad.net/libdbusmenu/16.04/16.04.0/+download/libdbusmenu-16.04.0.tar.gz"
+sha256 = "b9cc4a2acd74509435892823607d966d424bd9ad5d0b00938f27240a1bfa878a"
+
+[build]
+system = "autotools"

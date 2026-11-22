@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "translate-toolkit"
+version = "0"
+description = "Toolkit for localization engineers"
+homepage = "https://toolkit.translatehouse.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e7/ec/c4572b49fdb9246f0610b6efcc6169d331f650dfdf2670e1a96c756c468c/translate_toolkit-3.20.6.tar.gz"
+sha256 = "232a2043c438a390fb911eb6b4124e01a983fa8f193e58c422e72cd34bac6a05"
+
+[build]
+system = "autotools"

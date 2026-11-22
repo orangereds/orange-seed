@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "guile", "guile-fibers", "gnu-sed"]
+
+[package]
+name = "shepherd"
+version = "1.0.9"
+description = "Service manager that looks after the herd of system services"
+homepage = "https://www.gnu.org/software/shepherd/"
+
+[source]
+url = "https://ftpmirror.gnu.org/shepherd/shepherd-1.0.9.tar.gz"
+sha256 = "e488c585c8418df6e8f476dca81b72910f337c9cd3608fb467de5260004000d6"
+
+[build]
+system = "autotools"

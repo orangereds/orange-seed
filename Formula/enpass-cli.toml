@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "enpass-cli"
+version = "1.14.1"
+description = "Enpass command-line client"
+homepage = "https://github.com/hazcod/enpass-cli"
+
+[source]
+url = "https://github.com/hazcod/enpass-cli/archive/refs/tags/v1.14.1.tar.gz"
+sha256 = "674d0ec15481703962eff2aa69e243ae2cd003048f862344bf925c28d7ed8f3f"
+
+[build]
+system = "autotools"

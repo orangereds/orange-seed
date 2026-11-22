@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zig", "python@3.15", "vapoursynth"]
+
+[package]
+name = "vapoursynth-vszip"
+version = "0"
+description = "VapourSynth Zig Image Process"
+homepage = "https://github.com/dnjulek/vapoursynth-zip"
+
+[source]
+url = "https://files.pythonhosted.org/packages/73/15/da43c2789c6381fb98897617a7a9d9415b5fa4be198089e12900f7ee7d31/vapoursynth_vszip-24.0.0.tar.gz"
+sha256 = "b2d6157228d0e786a19ac9055814e6141841ffc2c7b42ac1858b0600fc4a69cb"
+
+[build]
+system = "autotools"

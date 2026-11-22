@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "libevent", "libssh", "msgpack"]
+
+[package]
+name = "tmate"
+version = "2.4.0"
+description = "Instant terminal sharing"
+homepage = "https://tmate.io/"
+
+[source]
+url = "https://github.com/tmate-io/tmate/archive/refs/tags/2.4.0.tar.gz"
+sha256 = "62b61eb12ab394012c861f6b48ba0bc04ac8765abca13bdde5a4d9105cb16138"
+
+[build]
+system = "autotools"

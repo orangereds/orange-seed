@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "sound-touch"
+version = "2.4.1"
+description = "Audio processing library"
+homepage = "https://www.surina.net/soundtouch/"
+
+[source]
+url = "https://codeberg.org/soundtouch/soundtouch/archive/2.4.1.tar.gz"
+sha256 = "35d404e6e8c2ebd12fb4000da6fadd75c99e37eed2126a04721828c11c0377ec"
+
+[build]
+system = "autotools"

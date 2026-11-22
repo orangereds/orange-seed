@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "dotnet"]
+
+[package]
+name = "archi-steam-farm"
+version = "0"
+description = "Application for idling Steam cards from multiple accounts simultaneously"
+homepage = "https://github.com/JustArchiNET/ArchiSteamFarm"
+
+[source]
+url = "https://github.com/JustArchiNET/ArchiSteamFarm.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

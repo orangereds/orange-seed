@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust"]
+
+[package]
+name = "repeater"
+version = "0.1.10"
+description = "Flashcard program that uses spaced repetition"
+homepage = "https://shaankhosla.github.io/repeater/"
+
+[source]
+url = "https://github.com/shaankhosla/repeater/archive/refs/tags/v0.1.10.tar.gz"
+sha256 = "2a074ff11d538fe5f35a95d4de94602c745bd610026ff2e3137072f3f77dc7b1"
+
+[build]
+system = "autotools"

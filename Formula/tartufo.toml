@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pygit2", "python@3.15"]
+
+[package]
+name = "tartufo"
+version = "6.0.1"
+description = "Searches through git repositories for high entropy strings and secrets"
+homepage = "https://tartufo.readthedocs.io/en/stable/"
+
+[source]
+url = "https://github.com/godaddy/tartufo/archive/refs/tags/v6.0.1.tar.gz"
+sha256 = "d718aae7de80dcf933d0088329e55dc0751d5e14ecfc954880f4de15494bcb28"
+
+[build]
+system = "autotools"

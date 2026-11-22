@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "dockly"
+version = "3.24.7"
+description = "Immersive terminal interface for managing docker containers and services"
+homepage = "https://lirantal.github.io/dockly/"
+
+[source]
+url = "https://registry.npmjs.org/dockly/-/dockly-3.24.7.tgz"
+sha256 = "d529e0486fc708b60fed91ee9f4eec3a075a6e4780178f3ba16f1fd6b8f3b463"
+
+[build]
+system = "autotools"

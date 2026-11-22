@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libsodium"]
+
+[package]
+name = "minisign"
+version = "0.12"
+description = "Sign files & verify signatures. Works with signify in OpenBSD"
+homepage = "https://jedisct1.github.io/minisign/"
+
+[source]
+url = "https://github.com/jedisct1/minisign/archive/refs/tags/0.12.tar.gz"
+sha256 = "796dce1376f9bcb1a19ece729c075c47054364355fe0c0c1ebe5104d508c7db0"
+
+[build]
+system = "cmake"

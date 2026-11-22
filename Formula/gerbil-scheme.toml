@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "openssl@4", "gcc"]
+
+[package]
+name = "gerbil-scheme"
+version = "0.18.2"
+description = "Opinionated dialect of Scheme designed for Systems Programming"
+homepage = "https://cons.io"
+
+[source]
+url = "https://github.com/mighty-gerbils/gerbil/archive/refs/tags/v0.18.2.tar.gz"
+sha256 = "8e4cdefea8d75feea4d5df33cc90b37dc5e8d6ab03b7b4b7eb749ae7d9ff739e"
+
+[build]
+system = "autotools"

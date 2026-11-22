@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "mdless"
+version = "2.1.68"
+description = "Provides a formatted and highlighted view of Markdown files in Terminal"
+homepage = "https://github.com/ttscoff/mdless"
+
+[source]
+url = "https://github.com/ttscoff/mdless/archive/refs/tags/2.1.68.tar.gz"
+sha256 = "e7fa23436f97f03f141d5fed8f8c8b178e56a9c2712574b7dba7988f64e7d171"
+
+[build]
+system = "autotools"

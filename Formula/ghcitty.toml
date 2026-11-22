@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "ghc"]
+
+[package]
+name = "ghcitty"
+version = "0.6.0"
+description = "Fast, friendly GHCi"
+homepage = "https://github.com/mattlianje/ghcitty"
+
+[source]
+url = "https://github.com/mattlianje/ghcitty/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "2764c26ca4bece4c2d404ad805604029a0ba047d8075d4d13a108fa7e6156623"
+
+[build]
+system = "autotools"

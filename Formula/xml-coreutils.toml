@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["s-lang"]
+
+[package]
+name = "xml-coreutils"
+version = "0.8.1"
+description = "Powerful interactive system for text processing"
+homepage = "https://xml-coreutils.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/xml-coreutils/xml-coreutils-0.8.1.tar.gz"
+sha256 = "7fb26d57bb17fa770452ccd33caf288deee1d757a0e0a484b90c109610d1b7df"
+
+[build]
+system = "autotools"

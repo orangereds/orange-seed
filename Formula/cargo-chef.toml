@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-chef"
+version = "0.1.78"
+description = "Cargo subcommand to speed up Rust Docker builds using Docker layer caching"
+homepage = "https://github.com/LukeMathWalker/cargo-chef"
+
+[source]
+url = "https://github.com/LukeMathWalker/cargo-chef/archive/refs/tags/v0.1.78.tar.gz"
+sha256 = "994607ada64cd0f03881996d4d07b93077ac181a7751599748ac6a0af703d869"
+
+[build]
+system = "autotools"

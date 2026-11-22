@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "bsdmake"
+version = "24"
+description = "BSD version of the Make build tool"
+homepage = "https://opensource.apple.com/"
+
+[source]
+url = "https://github.com/apple-oss-distributions/bsdmake/archive/refs/tags/bsdmake-24.tar.gz"
+sha256 = "096f333f94193215931a9fab86b9bca0713fbd22ec465bf55510067b53940e62"
+
+[build]
+system = "autotools"

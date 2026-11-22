@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tsshd"
+version = "0.1.10"
+description = "UDP-based SSH server with roaming support"
+homepage = "https://trzsz.github.io/tsshd"
+
+[source]
+url = "https://github.com/trzsz/tsshd/archive/refs/tags/v0.1.10.tar.gz"
+sha256 = "32b4026724acb076514fe00ab380ab8f3167af6ab3568787a6c4db57be0fced0"
+
+[build]
+system = "autotools"

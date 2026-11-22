@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["feh", "libcaca", "recode", "spidermonkey", "bash", "coreutils", "gnu-sed"]
+
+[package]
+name = "plowshare"
+version = "2.1.7_1"
+description = "Download/upload tool for popular file sharing websites"
+homepage = "https://github.com/mcrapet/plowshare"
+
+[source]
+url = "https://github.com/mcrapet/plowshare/archive/refs/tags/v2.1.7.tar.gz"
+sha256 = "c17d0cc1b3323f72b2c1a5b183a9fcef04e8bfc53c9679a4e1523642310d22ad"
+
+[build]
+system = "make"

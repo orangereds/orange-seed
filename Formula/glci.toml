@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "glci"
+version = "0.8.0"
+description = "Run GitLab CI/CD pipelines locally"
+homepage = "https://gitlab.com/gitlab-org/ci-cd/runner-tools/glci"
+
+[source]
+url = "https://gitlab.com/gitlab-org/ci-cd/runner-tools/glci/-/archive/v0.8.0/glci-v0.8.0.tar.gz"
+sha256 = "d5da2c86d3e17d1080f8cc577ae84b15ad9ef08a2fbc63dd9c72fb3f55b64f96"
+
+[build]
+system = "autotools"

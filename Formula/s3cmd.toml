@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libmagic", "python@3.15"]
+
+[package]
+name = "s3cmd"
+version = "2.4.0_2"
+description = "Command-line tool for the Amazon S3 service"
+homepage = "https://s3tools.org/s3cmd"
+
+[source]
+url = "https://files.pythonhosted.org/packages/b3/9c/ad4cd51328bd7a058bfda6739bc061c63ee3531ad2fbc6e672518a1eed01/s3cmd-2.4.0.tar.gz"
+sha256 = "6b567521be1c151323f2059c8feec85ded96b6f184ff80535837fea33798b40b"
+
+[build]
+system = "autotools"

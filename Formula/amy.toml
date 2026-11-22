@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "amy"
+version = "1.21.0-jvm"
+description = "Nostr client from the Amethyst project"
+homepage = "https://github.com/vitorpamplona/amethyst"
+
+[source]
+url = "https://github.com/vitorpamplona/amethyst/releases/download/v1.21.0/amy-1.21.0-jvm.tar.gz"
+sha256 = "541e2a4c21ac439032f65a5e5c6c5fdff3b872176e1c1ab21acdc5894aab4779"
+
+[build]
+system = "autotools"

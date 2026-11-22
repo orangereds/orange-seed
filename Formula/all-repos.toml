@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "all-repos"
+version = "0"
+description = "Clone all your repositories and apply sweeping changes"
+homepage = "https://github.com/asottile/all-repos"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e2/ce/2b87583b0b56193c868eb246c6765660467f241d1c4d16e5e1229bac7dfd/all_repos-1.33.0.tar.gz"
+sha256 = "420ee23a9ad825914700e511ba51b88780b1c69d24aa88506a2b2e6e8bc0eb20"
+
+[build]
+system = "autotools"

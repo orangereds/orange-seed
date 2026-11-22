@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "pipelight"
+version = "0.10.0"
+description = "Self-hosted, lightweight CI/CD pipelines for small projects via CLI"
+homepage = "https://github.com/crocuda/pipelight"
+
+[source]
+url = "https://github.com/crocuda/pipelight/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "8d3862757e5e91c19c9a8528a6e98a2f86c824a4529d52c320ebc7eee0135d43"
+
+[build]
+system = "autotools"

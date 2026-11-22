@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ca-certificates", "gdbm", "mbedtls@3"]
+
+[package]
+name = "gauche"
+version = "0_1"
+description = "R7RS Scheme implementation, developed to be a handy script interpreter"
+homepage = "https://practical-scheme.net/gauche/"
+
+[source]
+url = "https://github.com/shirok/Gauche/releases/download/release0_9_15/Gauche-0.9.15.tgz"
+sha256 = "3643e27bc7c8822cfd6fb2892db185f658e8e364938bc2ccfcedb239e35af783"
+
+[build]
+system = "autotools"

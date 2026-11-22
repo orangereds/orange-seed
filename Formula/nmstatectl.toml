@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nmstatectl"
+version = "2.2.63.crate"
+description = "Command-line tool that manages host networking settings in a declarative manner"
+homepage = "https://nmstate.io/"
+
+[source]
+url = "https://static.crates.io/crates/nmstatectl/nmstatectl-2.2.63.crate"
+sha256 = "86ba1ec1ea4059c75dc27dd4284a0e83e0b1311c0949668ab58ef9781f521e66"
+
+[build]
+system = "autotools"

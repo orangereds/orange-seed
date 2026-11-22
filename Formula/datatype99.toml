@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["metalang99"]
+
+[package]
+name = "datatype99"
+version = "1.6.5"
+description = "Algebraic data types for C99"
+homepage = "https://github.com/Hirrolot/datatype99"
+
+[source]
+url = "https://github.com/Hirrolot/datatype99/archive/refs/tags/v1.6.5.tar.gz"
+sha256 = "f38c077afdb91b7d754321be5d3c4a43ed5420c1ad51514d1de20023960f9a8e"
+
+[build]
+system = "autotools"

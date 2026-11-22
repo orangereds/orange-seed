@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "xsimd"
+version = "14.3.0"
+description = "Modern, portable C++ wrappers for SIMD intrinsics"
+homepage = "https://xsimd.readthedocs.io/en/latest/"
+
+[source]
+url = "https://github.com/xtensor-stack/xsimd/archive/refs/tags/14.3.0.tar.gz"
+sha256 = "b3d50e7a73fbf4642ceef30131c93414901d69eee41c2a5302db650b03e2c792"
+
+[build]
+system = "cmake"

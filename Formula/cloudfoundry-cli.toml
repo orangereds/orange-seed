@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cloudfoundry-cli"
+version = "8.19.1"
+description = "Official command-line client for Cloud Foundry"
+homepage = "https://docs.cloudfoundry.org/cf-cli"
+
+[source]
+url = "https://github.com/cloudfoundry/cli/archive/refs/tags/v8.19.1.tar.gz"
+sha256 = "b8a84d34a355dca188ef546e51d374f54f1aa82c0165bdb5e8d7ad7ee15da774"
+
+[build]
+system = "autotools"

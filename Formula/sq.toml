@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sq"
+version = "0.55.0"
+description = "Data wrangler with jq-like query language"
+homepage = "https://sq.io"
+
+[source]
+url = "https://github.com/neilotoole/sq/archive/refs/tags/v0.55.0.tar.gz"
+sha256 = "ab9f0595423269eacf43a531f1d101e296f100aabec95781dc8af6ab1c155739"
+
+[build]
+system = "autotools"

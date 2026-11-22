@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "tclap"
+version = "1.6.0"
+description = "Templatized C++ command-line parser library"
+homepage = "https://tclap.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/tclap/v1.6.0/tclap-1.6.0.tar.gz"
+sha256 = "2ed4bb7655cb4feb7a0432311f1194875bf2d61d6624bf3e513fa101cb0bcb10"
+
+[build]
+system = "cmake"

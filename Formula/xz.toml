@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "xz"
+version = "5.8.4"
+description = "General-purpose data compression with high compression ratio"
+homepage = "https://tukaani.org/xz/"
+
+[source]
+url = "https://github.com/tukaani-project/xz/releases/download/v5.8.4/xz-5.8.4.tar.gz"
+sha256 = "0014c7886930454fe8bd4228665b51af55eeae560ea135c9c4cd33f55b2591d9"
+
+[build]
+system = "autotools"

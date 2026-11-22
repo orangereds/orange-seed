@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["c-blosc2", "cmake", "nlohmann-json", "fmt", "lz4", "openssl@4", "spdlog", "webp", "zstd"]
+
+[package]
+name = "tiledb"
+version = "2.30.1_1"
+description = "Universal storage engine"
+homepage = "https://tiledb.com/"
+
+[source]
+url = "https://github.com/TileDB-Inc/TileDB/archive/refs/tags/2.30.1.tar.gz"
+sha256 = "36381f9eaa2a6defc8990aa1a95d1f0e87971748a50bf6fb705bf032ac7384cf"
+
+[build]
+system = "cmake"

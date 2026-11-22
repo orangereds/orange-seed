@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["s-lang"]
+
+[package]
+name = "most"
+version = "5.2.0"
+description = "Powerful paging program"
+homepage = "https://www.jedsoft.org/most/"
+
+[source]
+url = "https://www.jedsoft.org/releases/most/most-5.2.0.tar.gz"
+sha256 = "9455aeb8f826fa8385c850dc22bf0f22cf9069b3c3423fba4bf2c6f6226d9903"
+
+[build]
+system = "autotools"

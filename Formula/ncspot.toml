@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "ncspot"
+version = "1.5.1"
+description = "Cross-platform ncurses Spotify client written in Rust"
+homepage = "https://github.com/hrkfdn/ncspot"
+
+[source]
+url = "https://github.com/hrkfdn/ncspot/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "1c90dfcf33612ea408ad7af88749ee1d4f08cc242cf887337aacff18048c1aad"
+
+[build]
+system = "autotools"

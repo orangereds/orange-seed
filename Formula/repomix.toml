@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "repomix"
+version = "1.19.0"
+description = "Pack repository contents into a single AI-friendly file"
+homepage = "https://repomix.com"
+
+[source]
+url = "https://registry.npmjs.org/repomix/-/repomix-1.19.0.tgz"
+sha256 = "e5504ac6a3e1729b27b78efa8e7f15c468bda64c5aad533566666e3d95ccc064"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "osxutils"
+version = "1.9.0"
+description = "Collection of macOS command-line utilities"
+homepage = "https://github.com/specious/osxutils"
+
+[source]
+url = "https://github.com/specious/osxutils/archive/refs/tags/v1.9.0.tar.gz"
+sha256 = "9c11d989358ed5895d9af7644b9295a17128b37f41619453026f67e99cb7ecab"
+
+[build]
+system = "make"

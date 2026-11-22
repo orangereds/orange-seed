@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "rust"]
+
+[package]
+name = "diffle"
+version = "0.5.4"
+description = "Keyboard-first diff viewer with LSP support and GitHub integration"
+homepage = "https://github.com/moritzwilksch/diffle"
+
+[source]
+url = "https://github.com/moritzwilksch/diffle/archive/refs/tags/v0.5.4.tar.gz"
+sha256 = "01dcf92b3dee3011ec926d8ff21389e8aea9d3f472f633cc2c0236c4ad595009"
+
+[build]
+system = "autotools"

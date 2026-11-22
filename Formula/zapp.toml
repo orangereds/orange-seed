@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "zapp"
+version = "1.1.17"
+description = "Flash ZSA keyboards from your terminal"
+homepage = "https://github.com/zsa/zapp"
+
+[source]
+url = "https://github.com/zsa/zapp/archive/refs/tags/v1.1.17.tar.gz"
+sha256 = "d271f22f252c05167a069cae44b632ded138012fa18b743cc5e896cfa3902444"
+
+[build]
+system = "autotools"

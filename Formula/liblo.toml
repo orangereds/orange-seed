@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "doxygen"]
+
+[package]
+name = "liblo"
+version = "0.36"
+description = "Lightweight Open Sound Control implementation"
+homepage = "https://liblo.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/liblo/liblo/0.36/liblo-0.36.tar.gz"
+sha256 = "c08d14832e8dcf8f06840405824a4f9611a0cb3daed0198946326c740941c8b6"
+
+[build]
+system = "autotools"

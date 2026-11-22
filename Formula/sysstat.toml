@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "sysstat"
+version = "12.8.1"
+description = "Performance monitoring tools for Linux"
+homepage = "https://sysstat.github.io/"
+
+[source]
+url = "https://github.com/sysstat/sysstat/archive/refs/tags/v12.8.1.tar.gz"
+sha256 = "d118a925f53633dbb7cbbefa1ea6a0cdcb1d961ee45617fa2179aa4119c33a40"
+
+[build]
+system = "autotools"

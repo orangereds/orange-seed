@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libpq", "mariadb-connector-c"]
+
+[package]
+name = "diesel"
+version = "0"
+description = "Command-line tool for Rust ORM Diesel"
+homepage = "https://diesel.rs"
+
+[source]
+url = "https://static.crates.io/crates/diesel_cli/diesel_cli-2.4.0.crate"
+sha256 = "84223d1adcb1618dd0f68e7b309099d1323c59541eff336a8b83a7066edaae89"
+
+[build]
+system = "autotools"

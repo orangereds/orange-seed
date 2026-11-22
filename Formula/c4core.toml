@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "c4core"
+version = "0.6.0-src"
+description = "C++ utilities"
+homepage = "https://github.com/biojppm/c4core"
+
+[source]
+url = "https://github.com/biojppm/c4core/releases/download/v0.6.0/c4core-0.6.0-src.tgz"
+sha256 = "fd0a3e2c39a5985c6699e306ead71e8a73a6ada2577c905734a2a6ba0a61c1b7"
+
+[build]
+system = "cmake"

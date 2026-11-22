@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pybind11", "python@3.15", "imath", "little-cms2", "minizip-ng", "openexr", "pystring", "yaml-cpp", "zlib-ng-compat"]
+
+[package]
+name = "opencolorio"
+version = "2.6.0"
+description = "Color management solution geared towards motion picture production"
+homepage = "https://opencolorio.org/"
+
+[source]
+url = "https://github.com/AcademySoftwareFoundation/OpenColorIO/archive/refs/tags/v2.6.0.tar.gz"
+sha256 = "784ac37bde5b9c6e5dc15f23d1235bd1452d376cdc03627d6d6dd310f375a735"
+
+[build]
+system = "cmake"

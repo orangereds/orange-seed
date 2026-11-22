@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "boost", "openssl@4"]
+
+[package]
+name = "cpprestsdk"
+version = "2.10.19_5"
+description = "C++ libraries for cloud-based client-server communication"
+homepage = "https://github.com/microsoft/cpprestsdk"
+
+[source]
+url = "https://github.com/microsoft/cpprestsdk/archive/refs/tags/v2.10.19.tar.gz"
+sha256 = "4b0d14e5bfe77ce419affd253366e861968ae6ef2c35ae293727c1415bd145c8"
+
+[build]
+system = "cmake"

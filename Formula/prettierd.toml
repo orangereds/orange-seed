@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "prettierd"
+version = "0.29.0"
+description = "Prettier daemon"
+homepage = "https://github.com/fsouza/prettierd"
+
+[source]
+url = "https://registry.npmjs.org/@fsouza/prettierd/-/prettierd-0.29.0.tgz"
+sha256 = "3195a481ed2a020deb12f60a9c61dcc8051a4cd5401da7fa7c4596afb5b1fc68"
+
+[build]
+system = "autotools"

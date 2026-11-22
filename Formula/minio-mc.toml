@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "minio-mc"
+version = "2025-08-13T08-35-41Z"
+description = "Replacement for ls, cp and other commands for object storage"
+homepage = "https://github.com/minio/mc"
+
+[source]
+url = "https://github.com/minio/mc.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

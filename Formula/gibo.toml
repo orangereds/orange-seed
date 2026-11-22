@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gibo"
+version = "3.0.23"
+description = "Access GitHub's .gitignore boilerplates"
+homepage = "https://github.com/simonwhitaker/gibo"
+
+[source]
+url = "https://github.com/simonwhitaker/gibo/archive/refs/tags/v3.0.23.tar.gz"
+sha256 = "a529ad07de46728eafe3aecf01612128bee23ec8a856ad6484e94a21c98dd9e8"
+
+[build]
+system = "autotools"

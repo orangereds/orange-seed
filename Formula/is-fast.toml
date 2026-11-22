@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "is-fast"
+version = "0.17.7"
+description = "Check the internet as fast as possible"
+homepage = "https://github.com/Magic-JD/is-fast"
+
+[source]
+url = "https://github.com/Magic-JD/is-fast/archive/refs/tags/v0.17.7.tar.gz"
+sha256 = "031ac21094cb3b276c3b36eee114aec6b9dd978e91aa4fe2cd4f669c35002963"
+
+[build]
+system = "autotools"

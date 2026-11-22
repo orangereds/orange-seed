@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bun", "node", "pnpm"]
+
+[package]
+name = "supabase"
+version = "3.2.0"
+description = "Postgres development platform"
+homepage = "https://supabase.com/docs/reference/cli/about"
+
+[source]
+url = "https://github.com/supabase/cli/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "39f354b995cb0935342b39ce7a521a419ed96a1a5ae753a5e11594b74ec14cb5"
+
+[build]
+system = "autotools"

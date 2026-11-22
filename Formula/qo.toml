@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "qo"
+version = "0.5.2"
+description = "Interactive minimalist TUI to query JSON, CSV, and TSV using SQL"
+homepage = "https://github.com/kiki-ki/go-qo"
+
+[source]
+url = "https://github.com/kiki-ki/go-qo/archive/refs/tags/v0.5.2.tar.gz"
+sha256 = "54e8634271f15f3dad74a2e4329e81c620fed11d81abd70f95795ceb76ba9304"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "python@3.15"]
+
+[package]
+name = "python-lsp-server"
+version = "0_1"
+description = "Python Language Server for the Language Server Protocol"
+homepage = "https://github.com/python-lsp/python-lsp-server"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e6/63/7d6af072a5b77a0d1f61306b7a72a7a2bc3f29ec0f8a8c85eb23f5ba7716/python_lsp_server-1.15.0.tar.gz"
+sha256 = "85fa090262c3d1aef09b759d98811d6cb9ad5bbc58af15d588608ae8c1925801"
+
+[build]
+system = "autotools"

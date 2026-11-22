@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "snyk-cli"
+version = "0"
+description = "Scans and monitors projects for security vulnerabilities"
+homepage = "https://snyk.io"
+
+[source]
+url = "https://registry.npmjs.org/snyk/-/snyk-1.1309.0.tgz"
+sha256 = "2a03d3725763169b64a6c994fa1a3ba3e163231634fe26a1d0873c6b5e193673"
+
+[build]
+system = "autotools"

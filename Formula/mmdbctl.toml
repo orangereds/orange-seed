@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mmdbctl"
+version = "1.5.3"
+description = "MMDB file management CLI supporting various operations on MMDB database files"
+homepage = "https://github.com/ipinfo/mmdbctl"
+
+[source]
+url = "https://github.com/ipinfo/mmdbctl/archive/refs/tags/mmdbctl-1.5.3.tar.gz"
+sha256 = "2928e3c4c1210e04bf4069d719c81fa13eed923763957f5c3922f702fbf2d5f9"
+
+[build]
+system = "autotools"

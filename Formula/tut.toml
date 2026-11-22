@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tut"
+version = "2.0.1"
+description = "TUI for Mastodon with vim inspired keys"
+homepage = "https://tut.anv.nu"
+
+[source]
+url = "https://github.com/RasmusLindroth/tut/archive/refs/tags/2.0.1.tar.gz"
+sha256 = "afa8c49036461a36c091d83ef51f9a3bbd938ee78f817c6467175699a989b863"
+
+[build]
+system = "autotools"

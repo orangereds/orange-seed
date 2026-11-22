@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-common", "aws-c-io", "aws-checksums"]
+
+[package]
+name = "aws-c-event-stream"
+version = "1.0.0_1"
+description = "C99 implementation of the vnd.amazon.eventstream content-type"
+homepage = "https://github.com/awslabs/aws-c-event-stream"
+
+[source]
+url = "https://github.com/awslabs/aws-c-event-stream/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "c3817ab04bf9c70fa3582a31243666a9a643ebe45f121f58d5fef5ff4787f8e0"
+
+[build]
+system = "cmake"

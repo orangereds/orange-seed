@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "chiko"
+version = "0.3.0"
+description = "Ultimate Beauty gRPC Client for your Terminal"
+homepage = "https://github.com/felangga/chiko"
+
+[source]
+url = "https://github.com/felangga/chiko/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "8c12a560226944a1074e3cdf273d705c122a91e60d4f3316e472e804ab56b697"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["tmux"]
+
+[package]
+name = "wemux"
+version = "3.2.0"
+description = "Enhances tmux's to provide multiuser terminal multiplexing"
+homepage = "https://github.com/zolrath/wemux"
+
+[source]
+url = "https://github.com/zolrath/wemux/archive/refs/tags/v3.2.0.tar.gz"
+sha256 = "8de6607df116b86e2efddfe3740fc5eef002674e551668e5dde23e21b469b06c"
+
+[build]
+system = "autotools"

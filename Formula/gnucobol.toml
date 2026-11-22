@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "gettext", "help2man", "libtool", "texinfo", "lmdb", "unixodbc", "pkgconf", "berkeley-db", "gmp", "json-c"]
+
+[package]
+name = "gnucobol"
+version = "3.2_1"
+description = "COBOL85-202x compiler supporting lots of dialect specific extensions"
+homepage = "https://gnucobol.sourceforge.io/"
+
+[source]
+url = "https://ftpmirror.gnu.org/gnucobol/gnucobol-3.2.tar.xz"
+sha256 = "3bb48af46ced4779facf41fdc2ee60e4ccb86eaa99d010b36685315df39c2ee2"
+
+[build]
+system = "autotools"

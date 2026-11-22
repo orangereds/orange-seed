@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "ffmpeg", "yt-dlp"]
+
+[package]
+name = "podsync"
+version = "2.8.0"
+description = "Turn YouTube or Vimeo channels, users, or playlists into podcast feeds"
+homepage = "https://github.com/mxpv/podsync"
+
+[source]
+url = "https://github.com/mxpv/podsync/archive/refs/tags/v2.8.0.tar.gz"
+sha256 = "ec23c744294884c8621faeec78b411f3434f75470986837a6b371ed05373204c"
+
+[build]
+system = "autotools"

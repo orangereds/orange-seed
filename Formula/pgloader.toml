@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sbcl", "freetds", "openssl@4", "zstd", "clojure", "openjdk"]
+
+[package]
+name = "pgloader"
+version = "0_1"
+description = "Data loading tool for PostgreSQL"
+homepage = "https://github.com/dimitri/pgloader"
+
+[source]
+url = "https://github.com/dimitri/pgloader.git"
+sha256 = "f81c0511be76678649da1e7df2d0bf0c370ed190c11405b914378b55958ab97f"
+
+[build]
+system = "autotools"

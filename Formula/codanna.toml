@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "onnxruntime"]
+
+[package]
+name = "codanna"
+version = "0.17.1_3"
+description = "Code intelligence system with semantic search"
+homepage = "https://docs.codanna.sh/"
+
+[source]
+url = "https://github.com/bartolli/codanna/archive/refs/tags/v0.17.1.tar.gz"
+sha256 = "ea3cbe407e92395f670f990bd4be875685791e768a65eba1895dfd41f35b28b2"
+
+[build]
+system = "autotools"

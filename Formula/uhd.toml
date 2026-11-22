@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "abseil", "boost", "c-ares", "grpc", "libusb", "openssl@4", "protobuf", "python@3.15", "re2"]
+
+[package]
+name = "uhd"
+version = "4.11.0.0_3"
+description = "Hardware driver for all USRP devices"
+homepage = "https://files.ettus.com/manual/"
+
+[source]
+url = "https://github.com/EttusResearch/uhd/archive/refs/tags/v4.11.0.0.tar.gz"
+sha256 = "1e53faec13ea2be9dd8f765956157d1434f41fa0a124fac8f7b2340f8445b026"
+
+[build]
+system = "cmake"

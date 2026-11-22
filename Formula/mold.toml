@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "mold"
+version = "3.0.0"
+description = "Modern Linker"
+homepage = "https://github.com/rui314/mold"
+
+[source]
+url = "https://github.com/rui314/mold/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "1dee837e227b0c3f2661def602ef8ddc0b889ae5b1d28c1ddec5f29e08e5ceb5"
+
+[build]
+system = "autotools"

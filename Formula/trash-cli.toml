@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "trash-cli"
+version = "0"
+description = "Command-line interface to the freedesktop.org trashcan"
+homepage = "https://github.com/andreafrancia/trash-cli"
+
+[source]
+url = "https://files.pythonhosted.org/packages/a2/53/5eabf92b6057df00f97ab8f92a8463da4a934dffed57daf0897569be78e0/trash_cli-0.26.9.29.tar.gz"
+sha256 = "2ca3300fd9f3b0334cb3f576a3ec95ced8593cc729df4332608d69a28eb50fb0"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

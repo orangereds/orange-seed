@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "btrfs-progs", "file-formula", "ntfs-3g", "gcc", "lzo", "zlib-ng-compat", "zstd"]
+
+[package]
+name = "ntfs2btrfs"
+version = "14"
+description = "In-place conversion of NTFS filesystem to Btrfs"
+homepage = "https://github.com/maharmstone/ntfs2btrfs"
+
+[source]
+url = "https://github.com/maharmstone/ntfs2btrfs/archive/refs/tags/20260810.tar.gz"
+sha256 = "be3d2deb3c042c862df3ca75b46245300f45e279206bddabd8aa1fc8c92c1a58"
+
+[build]
+system = "cmake"

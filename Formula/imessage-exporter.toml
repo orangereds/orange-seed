@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "imessage-exporter"
+version = "5.0.1"
+description = "Command-line tool to export and inspect local iMessage database"
+homepage = "https://github.com/ReagentX/imessage-exporter"
+
+[source]
+url = "https://github.com/ReagentX/imessage-exporter/archive/refs/tags/5.0.1.tar.gz"
+sha256 = "4c1f3ce78b36547c68196a5d4557b1bdf6864e3cc542930b523938d71985a1a7"
+
+[build]
+system = "autotools"

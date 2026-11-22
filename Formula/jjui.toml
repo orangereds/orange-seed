@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "jj"]
+
+[package]
+name = "jjui"
+version = "0.10.13"
+description = "TUI for interacting with the Jujutsu version control system"
+homepage = "https://idursun.github.io/jjui/"
+
+[source]
+url = "https://github.com/idursun/jjui/archive/refs/tags/v0.10.13.tar.gz"
+sha256 = "f1f68ab9431b1ddb2bd24db68735397167d590d6fcc66035056918b97b283089"
+
+[build]
+system = "autotools"

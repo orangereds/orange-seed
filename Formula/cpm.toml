@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["perl"]
+
+[package]
+name = "cpm"
+version = "0"
+description = "Fast CPAN module installer"
+homepage = "https://metacpan.org/pod/CPM"
+
+[source]
+url = "https://cpan.metacpan.org/authors/id/S/SK/SKAJI/App-cpm-v1.1.7.tar.gz"
+sha256 = "34e4809ad6726a1aa32ce66ec5209d6d7319c4ea46ac24e4b3a5d221478c30cd"
+
+[build]
+system = "autotools"

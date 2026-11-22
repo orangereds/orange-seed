@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "libzip", "ninja", "eigen"]
+
+[package]
+name = "katago"
+version = "s9996604416-d4316597426_2"
+description = "Neural Network Go engine with no human-provided knowledge"
+homepage = "https://katagotraining.org/"
+
+[source]
+url = "https://github.com/lightvector/KataGo/archive/refs/tags/v1.18.2.tar.gz"
+sha256 = "fefd554bfaf0daa00d97ac3a767c7aef8d303545b135b0fbf8bd6837772f8bf9"
+
+[build]
+system = "autotools"

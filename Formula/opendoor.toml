@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "opendoor"
+version = "5.18.0_1"
+description = "CLI for web reconnaissance, directory discovery, and exposure assessment"
+homepage = "https://github.com/stanislav-web/OpenDoor"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9b/67/f05f0d3a4c2aaea9651d348ddd196ecb84965e2d50586dc08e1a2f649b0d/opendoor-5.18.0.tar.gz"
+sha256 = "f912e876b57b5416bcd1bb9423d74f7440f1366e0289877609e5dd0a8a2b3d67"
+
+[build]
+system = "autotools"

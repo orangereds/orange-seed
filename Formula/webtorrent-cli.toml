@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "node@20"]
+
+[package]
+name = "webtorrent-cli"
+version = "6.0.0"
+description = "Command-line streaming torrent client"
+homepage = "https://webtorrent.io/"
+
+[source]
+url = "https://registry.npmjs.org/webtorrent-cli/-/webtorrent-cli-6.0.0.tgz"
+sha256 = "958821f50355ea13cd6f2272c3ca8b023388b14a917e279e0bf63f2547498d72"
+
+[build]
+system = "autotools"

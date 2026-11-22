@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "picat"
+version = "3.9.12"
+description = "Simple, and yet powerful, logic-based multi-paradigm programming language"
+homepage = "https://picat-lang.org/"
+
+[source]
+url = "https://picat-lang.org/download/picat39_12_src.tar.gz"
+sha256 = "05322b324ee904a62ca5b892d99c0f3abcf3e8f2bad1ce64732c03d70ef5fadc"
+
+[build]
+system = "autotools"

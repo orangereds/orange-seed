@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "jpeg-turbo", "qpdf"]
+
+[package]
+name = "pdftilecut"
+version = "0.6_2"
+description = "Sub-divide a PDF page(s) into smaller pages so you can print them"
+homepage = "https://github.com/oxplot/pdftilecut"
+
+[source]
+url = "https://github.com/oxplot/pdftilecut/archive/refs/tags/v0.6.tar.gz"
+sha256 = "fd2383ee0d0acfa56cf6e80ac62881bd6dda4555adcd7f5a397339e7d3eca9ac"
+
+[build]
+system = "autotools"

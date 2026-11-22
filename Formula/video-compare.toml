@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ffmpeg", "sdl2-compat", "sdl2_ttf"]
+
+[package]
+name = "video-compare"
+version = "20261004"
+description = "Split screen video comparison tool using FFmpeg and SDL2"
+homepage = "https://github.com/pixop/video-compare"
+
+[source]
+url = "https://github.com/pixop/video-compare/archive/refs/tags/20261004.tar.gz"
+sha256 = "65555c2bb4f76dee86666ad047e3b335f9f486d036402faebf97bd40ada7209e"
+
+[build]
+system = "autotools"

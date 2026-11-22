@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "woodpecker-cli"
+version = "0"
+description = "CLI client for the Woodpecker Continuous Integration server"
+homepage = "https://woodpecker-ci.org/"
+
+[source]
+url = "https://github.com/woodpecker-ci/woodpecker/releases/download/v3.20.1/woodpecker-src.tar.gz"
+sha256 = "ba26448df1fbf131b0aa15edccdbbffac5cbcf9d201c1ef1e4fd630d4ba98327"
+
+[build]
+system = "autotools"

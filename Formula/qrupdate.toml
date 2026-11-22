@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gcc", "openblas"]
+
+[package]
+name = "qrupdate"
+version = "0"
+description = "Fast updates of QR and Cholesky decompositions"
+homepage = "https://gitlab.mpi-magdeburg.mpg.de/koehlerm/qrupdate-ng"
+
+[source]
+url = "https://gitlab.mpi-magdeburg.mpg.de/koehlerm/qrupdate-ng/-/archive/v1.3.1/qrupdate-ng-v1.3.1.tar.bz2"
+sha256 = "3877a52ff7bedd1edd746fed82f8347a8d1c4f48e59ebfbde7841eea79db87ee"
+
+[build]
+system = "cmake"

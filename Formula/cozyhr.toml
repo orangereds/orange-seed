@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cozyhr"
+version = "1.6.1"
+description = "Cozy wrapper around Helm and Flux CD for local development"
+homepage = "https://github.com/cozystack/cozyhr"
+
+[source]
+url = "https://github.com/cozystack/cozyhr/archive/refs/tags/v1.6.1.tar.gz"
+sha256 = "2b93668c7c24ebdc0588ca15e7821de77879b883c263f2d295fba41fb9b1c05c"
+
+[build]
+system = "autotools"

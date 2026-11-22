@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "forgejo-cli"
+version = "0.7.0.crate"
+description = "CLI tool for interacting with Forgejo"
+homepage = "https://codeberg.org/forgejo-contrib/forgejo-cli"
+
+[source]
+url = "https://static.crates.io/crates/forgejo-cli/forgejo-cli-0.7.0.crate"
+sha256 = "a5c2eb931ed0c208ee432601850968158fbb1963a57313192db881e082060c46"
+
+[build]
+system = "autotools"

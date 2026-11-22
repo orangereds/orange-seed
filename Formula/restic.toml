@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "restic"
+version = "0.20.0"
+description = "Fast, efficient and secure backup program"
+homepage = "https://restic.net/"
+
+[source]
+url = "https://github.com/restic/restic/archive/refs/tags/v0.20.0.tar.gz"
+sha256 = "7def5bbe05e62640f7b030b865b6f304701fd876f7836f5a6a603b56e1f4e30a"
+
+[build]
+system = "autotools"

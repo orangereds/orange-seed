@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["augeas", "certifi", "cryptography", "libyaml", "pydantic", "python@3.15"]
+
+[package]
+name = "certbot"
+version = "5.10.0"
+description = "Tool to obtain certs from Let's Encrypt and autoenable HTTPS"
+homepage = "https://certbot.eff.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/fa/a3/a06463a47466d0fd140784fe038acdf56efc5679aebe13efe5d966de50fc/certbot-5.10.0.tar.gz"
+sha256 = "522517720f39b5ddb5a2841bda87f27693a1f58e9fa90d6823c288822cc9a204"
+
+[build]
+system = "autotools"

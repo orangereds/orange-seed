@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "roxctl"
+version = "5.0.0"
+description = "CLI for Stackrox"
+homepage = "https://www.stackrox.io/"
+
+[source]
+url = "https://github.com/stackrox/stackrox/archive/refs/tags/5.0.0.tar.gz"
+sha256 = "e0ec28133210c71b51aa3c8703b50c28b0bd427745d66851eff6f7c32ca61942"
+
+[build]
+system = "autotools"

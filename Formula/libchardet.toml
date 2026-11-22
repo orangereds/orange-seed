@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "libchardet"
+version = "1.0.6"
+description = "Mozilla's Universal Charset Detector C/C++ API"
+homepage = "https://github.com/Joungkyun/libchardet"
+
+[source]
+url = "https://github.com/Joungkyun/libchardet/releases/download/1.0.6/libchardet-1.0.6.tar.bz2"
+sha256 = "8958d5738c8f7af351cc8f718e922c7961fd2f095fc668bff59ae2a531231592"
+
+[build]
+system = "autotools"

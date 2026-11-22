@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "whosthere"
+version = "0.9.0"
+description = "LAN discovery tool with a modern TUI written in Go"
+homepage = "https://github.com/ramonvermeulen/whosthere"
+
+[source]
+url = "https://github.com/ramonvermeulen/whosthere/archive/refs/tags/v0.9.0.tar.gz"
+sha256 = "6d7cc7691999a461535492ceee18bb7cfc1ad04d563123fb838de41712e85fb6"
+
+[build]
+system = "autotools"

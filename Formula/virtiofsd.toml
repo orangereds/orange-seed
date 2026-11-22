@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "libcap-ng", "libseccomp"]
+
+[package]
+name = "virtiofsd"
+version = "1.15.0"
+description = "Vhost-user virtio-fs device backend written in Rust"
+homepage = "https://gitlab.com/virtio-fs/virtiofsd"
+
+[source]
+url = "https://gitlab.com/virtio-fs/virtiofsd/-/archive/v1.15.0/virtiofsd-v1.15.0.tar.bz2"
+sha256 = "514ff9e425a4f6f7c7218107a9535e389a9d56881c4f01e77f4e4880e4a342d8"
+
+[build]
+system = "autotools"

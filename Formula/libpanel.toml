@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "vala", "cairo", "glib", "graphene", "gtk4", "libadwaita"]
+
+[package]
+name = "libpanel"
+version = "1.10.4"
+description = "Dock/panel library for GTK 4"
+homepage = "https://gitlab.gnome.org/GNOME/libpanel"
+
+[source]
+url = "https://download.gnome.org/sources/libpanel/1.10/libpanel-1.10.4.tar.xz"
+sha256 = "593888a7691f0af8aaa6e193c9e14afa86a810c0c2f27515c6d813f18733b1cd"
+
+[build]
+system = "autotools"

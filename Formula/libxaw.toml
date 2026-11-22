@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxext", "libxmu", "libxpm", "libxt"]
+
+[package]
+name = "libxaw"
+version = "0_1"
+description = "X.Org: X Athena Widget Set"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXaw-1.0.16.tar.xz"
+sha256 = "731d572b54c708f81e197a6afa8016918e2e06dfd3025e066ca642a5b8c39c8f"
+
+[build]
+system = "autotools"

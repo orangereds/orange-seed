@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl2_image", "sdl3", "sdl3_image", "asio", "cmake", "pkgconf", "fluid-synth", "iir1", "libpng", "libslirp", "mt32emu", "opusfile", "speexdsp"]
+
+[package]
+name = "dosbox-staging"
+version = "0.83.1"
+description = "Modernized DOSBox soft-fork"
+homepage = "https://dosbox-staging.github.io/"
+
+[source]
+url = "https://github.com/dosbox-staging/dosbox-staging/archive/refs/tags/v0.83.1.tar.gz"
+sha256 = "14c3703369e56125a425aea8ebb1a425823df58f9769f3e48b1b8ebbf2c6cf09"
+
+[build]
+system = "cmake"

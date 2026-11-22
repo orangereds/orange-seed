@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.14"]
+
+[package]
+name = "aws2-wrap"
+version = "1.4.0"
+description = "Script to export current AWS SSO credentials or run a sub-process with them"
+homepage = "https://github.com/linaro-its/aws2-wrap"
+
+[source]
+url = "https://files.pythonhosted.org/packages/6d/c7/8afdf4d0c7c6e2072c73a0150f9789445af33381a611d33333f4c9bf1ef6/aws2-wrap-1.4.0.tar.gz"
+sha256 = "77613ae13423a6407e79760bdd35843ddd128612672a0ad3a934ecade76aa7fc"
+
+[build]
+system = "autotools"

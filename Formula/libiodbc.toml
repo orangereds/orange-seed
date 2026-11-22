@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libiodbc"
+version = "3.52.16"
+description = "Database connectivity layer based on ODBC. (alternative to unixodbc)"
+homepage = "https://www.iodbc.org/"
+
+[source]
+url = "https://github.com/openlink/iODBC/releases/download/v3.52.16/libiodbc-3.52.16.tar.gz"
+sha256 = "3898b32d07961360f6f2cf36db36036b719a230e476469258a80f32243e845fa"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

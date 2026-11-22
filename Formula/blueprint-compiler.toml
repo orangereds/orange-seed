@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "gtk4", "pygobject3", "python@3.15"]
+
+[package]
+name = "blueprint-compiler"
+version = "0.22.2"
+description = "Markup language and compiler for GTK 4 user interfaces"
+homepage = "https://gnome.pages.gitlab.gnome.org/blueprint-compiler/"
+
+[source]
+url = "https://download.gnome.org/sources/blueprint-compiler/0.22/blueprint-compiler-0.22.2.tar.xz"
+sha256 = "231d72efbac931c235ac3e022fe94982095c20d88721d9a8dcf60152f2017e07"
+
+[build]
+system = "autotools"

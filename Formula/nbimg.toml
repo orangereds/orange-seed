@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nbimg"
+version = "1.2.1"
+description = "Smartphone boot splash screen converter for Android and winCE"
+homepage = "https://github.com/poliva/nbimg"
+
+[source]
+url = "https://github.com/poliva/nbimg/archive/refs/tags/v1.2.1.tar.gz"
+sha256 = "f72846656bb8371564c245ab34550063bd5ca357fe8a22a34b82b93b7e277680"
+
+[build]
+system = "autotools"

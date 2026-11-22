@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "certifi", "cryptography", "libyaml", "python@3.15", "rpds-py"]
+
+[package]
+name = "hoppr"
+version = "1.14.6"
+description = "Collects, processes and bundles components listed in CycloneDX SBOMs"
+homepage = "https://hoppr.dev"
+
+[source]
+url = "https://files.pythonhosted.org/packages/2c/3d/f396680c20bb04df09007da6580eac753ae835feb1261a36546530ad67de/hoppr-1.14.6.tar.gz"
+sha256 = "d5d6e618be24d3fbca343fe9127fc5c1c711418449d83fe2dba2d1101ce6d754"
+
+[build]
+system = "autotools"

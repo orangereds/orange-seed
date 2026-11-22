@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "elasticmq"
+version = "0"
+description = "In-memory message queue with an Amazon SQS-compatible interface"
+homepage = "https://softwaremill.com/open-source/"
+
+[source]
+url = "https://github.com/softwaremill/elasticmq/releases/download/v1.7.1/elasticmq-server-all-1.7.1.jar"
+sha256 = "a40dfd03fd8e2f17418f3c61a460c1daea902119145bdce97d09a81f03aa0428"
+
+[service]
+run = "opt/elasticmq/bin/elasticmq"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/elasticmq.log"
+error_log_path = "var/log/elasticmq.log"
+
+[build]
+system = "autotools"

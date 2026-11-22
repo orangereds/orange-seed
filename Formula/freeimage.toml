@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "freeimage"
+version = "3.18.0"
+description = "Library for FreeImage, a dependency-free graphics library"
+homepage = "https://sourceforge.net/projects/freeimage/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/freeimage/Source%20Distribution/3.18.0/FreeImage3180.zip"
+sha256 = "f41379682f9ada94ea7b34fe86bf9ee00935a3147be41b6569c9605a53e438fd"
+
+[build]
+system = "make"

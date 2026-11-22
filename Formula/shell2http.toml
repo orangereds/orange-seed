@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "shell2http"
+version = "1.18.0"
+description = "Executing shell commands via HTTP server"
+homepage = "https://github.com/msoap/shell2http"
+
+[source]
+url = "https://github.com/msoap/shell2http/archive/refs/tags/v1.18.0.tar.gz"
+sha256 = "0182c5d5a4574f7c932172001378132d99ed9b41432d159d70e3a19ef3c29145"
+
+[build]
+system = "autotools"

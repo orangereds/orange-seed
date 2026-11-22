@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "go-parquet-tools"
+version = "1.58.2"
+description = "Utility to deal with Parquet data"
+homepage = "https://github.com/hangxie/parquet-tools"
+
+[source]
+url = "https://github.com/hangxie/parquet-tools/archive/refs/tags/v1.58.2.tar.gz"
+sha256 = "e1ea870842ddfcf858c457a69c76d169fa67c9e91e8e345f683c21c2105e672b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dyld-headers"
+version = "0"
+description = "Header files for the dynamic linker"
+homepage = "https://opensource.apple.com/"
+
+[source]
+url = "https://github.com/apple-oss-distributions/dyld/archive/refs/tags/dyld-1378.tar.gz"
+sha256 = "509c8b081153a7b9ff08d6ddf0a681c0ab5190e1e336ef2e9748b801bdb9c59e"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

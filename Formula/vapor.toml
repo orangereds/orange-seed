@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "vapor"
+version = "20.0.2"
+description = "Command-line tool for Vapor (Server-side Swift web framework)"
+homepage = "https://vapor.codes"
+
+[source]
+url = "https://github.com/vapor/toolbox/archive/refs/tags/20.0.2.tar.gz"
+sha256 = "7891c84f8d58fb4724054c69feb803181c27238579f4554ce8e300228004df14"
+
+[build]
+system = "autotools"

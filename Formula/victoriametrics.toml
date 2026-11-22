@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "victoriametrics"
+version = "1.156.0"
+description = "Cost-effective and scalable monitoring solution and time series database"
+homepage = "https://victoriametrics.com/"
+
+[source]
+url = "https://github.com/VictoriaMetrics/VictoriaMetrics/archive/refs/tags/v1.156.0.tar.gz"
+sha256 = "c7bdb6ef1ee0e2342aa28362e5d934cc7924882c3b226ef05328daec197a1dee"
+
+[service]
+run = "["
+log_path = "var/log/victoria-metrics.log"
+error_log_path = "var/log/victoria-metrics.err.log"
+
+[build]
+system = "autotools"

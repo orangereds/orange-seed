@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["asciidoctor", "mercurial", "python@3.15"]
+
+[package]
+name = "git-remote-hg"
+version = "0.7_3"
+description = "Transparent bidirectional bridge between Git and Mercurial"
+homepage = "https://github.com/felipec/git-remote-hg"
+
+[source]
+url = "https://github.com/felipec/git-remote-hg/archive/refs/tags/v0.7.tar.gz"
+sha256 = "ada593c2462bed5083ab0fbd50b9406b8e83b04a6c882de80483e7c77ce8bf07"
+
+[build]
+system = "autotools"

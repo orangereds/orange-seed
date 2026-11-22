@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "diffstat"
+version = "1.69"
+description = "Produce graph of changes introduced by a diff file"
+homepage = "https://invisible-island.net/diffstat/"
+
+[source]
+url = "https://invisible-mirror.net/archives/diffstat/diffstat-1.69.tgz"
+sha256 = "bb02464072f769dd9832fd999526734c90eb4d66fb56d5351540a750c88a77f6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "libwpg", "pkgconf", "icu4c@79", "librevenge", "libwpd"]
+
+[package]
+name = "libmspub"
+version = "0.1.6"
+description = "Interpret and import Microsoft Publisher content"
+homepage = "https://wiki.documentfoundation.org/DLP/Libraries/libmspub"
+
+[source]
+url = "https://dev-www.libreoffice.org/src/libmspub/libmspub-0.1.6.tar.xz"
+sha256 = "408eb742b172a0ccbd128a0ff6402eee495839cd905198ce2b3f2607bba617f4"
+
+[build]
+system = "autotools"

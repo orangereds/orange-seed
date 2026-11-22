@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "ahcpd"
+version = "0.53"
+description = "Autoconfiguration protocol for IPv6 and IPv6/IPv4 networks"
+homepage = "https://www.irif.fr/~jch/software/ahcp/"
+
+[source]
+url = "https://www.irif.fr/~jch/software/files/ahcpd-0.53.tar.gz"
+sha256 = "a4622e817d2b2a9b878653f085585bd57f3838cc546cca6028d3b73ffcac0d52"
+
+[build]
+system = "make"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "googletest"
+version = "1.18.0"
+description = "Google Testing and Mocking Framework"
+homepage = "https://google.github.io/googletest/"
+
+[source]
+url = "https://github.com/google/googletest/archive/refs/tags/v1.18.0.tar.gz"
+sha256 = "6e3191c1455468b3fc35a417fb565c1c5071aee1b7e7f85e30cf48a98d37d8b5"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libevent", "openssl@4"]
+
+[package]
+name = "nsd"
+version = "4.15.4"
+description = "Name server daemon"
+homepage = "https://www.nlnetlabs.nl/projects/nsd/"
+
+[source]
+url = "https://www.nlnetlabs.nl/downloads/nsd/nsd-4.15.4.tar.gz"
+sha256 = "74a095fdb774a157c8aec9009e440fc3d2ba94c4372ae9ed86588c1719d1df2f"
+
+[build]
+system = "autotools"

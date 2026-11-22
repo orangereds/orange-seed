@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gawk", "ocaml", "exact-image", "ghostscript", "imagemagick", "poppler", "tesseract", "unpaper"]
+
+[package]
+name = "pdfsandwich"
+version = "0.1.7_4"
+description = "Generate sandwich OCR PDFs from scanned file"
+homepage = "http://www.tobias-elze.de/pdfsandwich/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pdfsandwich/pdfsandwich%200.1.7/pdfsandwich-0.1.7.tar.bz2"
+sha256 = "9795ffea84b9b6b501f38d49a4620cf0469ddf15aac31bac6dbdc9ec1716fa39"
+
+[build]
+system = "autotools"

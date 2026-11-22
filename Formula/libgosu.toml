@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "sdl3"]
+
+[package]
+name = "libgosu"
+version = "1.5.0"
+description = "2D game development library"
+homepage = "https://libgosu.org"
+
+[source]
+url = "https://github.com/gosu/gosu/archive/refs/tags/v1.5.0.tar.gz"
+sha256 = "5585b759dfffc690f8442dfb1a18434c23f744959cc4f5c2580ffe299efc433d"
+
+[build]
+system = "cmake"

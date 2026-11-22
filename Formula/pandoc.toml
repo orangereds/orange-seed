@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "pandoc"
+version = "3.14"
+description = "Swiss-army knife of markup format conversion"
+homepage = "https://pandoc.org/"
+
+[source]
+url = "https://github.com/jgm/pandoc/archive/refs/tags/3.14.tar.gz"
+sha256 = "e4c4292642531b94793c2f5dea38f3b8d5424b2d048818a4d047f8b8320b999a"
+
+[build]
+system = "autotools"

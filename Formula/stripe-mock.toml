@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "stripe-mock"
+version = "0.206.0"
+description = "Mock HTTP server that responds like the real Stripe API"
+homepage = "https://github.com/stripe/stripe-mock"
+
+[source]
+url = "https://github.com/stripe/stripe-mock/archive/refs/tags/v0.206.0.tar.gz"
+sha256 = "113395fa2cbb0775f241070d9c4d956ef9e762ce54c4ea2bc10b1e801cacb8c6"
+
+[service]
+run = "opt/stripe-mock/bin/stripe-mock -http-port 12111 -https-port 12112"
+working_dir = "var"
+log_path = "var/log/stripe-mock.log"
+error_log_path = "var/log/stripe-mock.log"
+
+[build]
+system = "autotools"

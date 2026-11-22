@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "qtserialport", "libusb", "qt5compat", "qtbase", "shapelib"]
+
+[package]
+name = "gpsbabel"
+version = "1_10_0"
+description = "Converts/uploads GPS waypoints, tracks, and routes"
+homepage = "https://www.gpsbabel.org/"
+
+[source]
+url = "https://github.com/GPSBabel/gpsbabel/archive/refs/tags/gpsbabel_1_10_0.tar.gz"
+sha256 = "a89756fb988a54f5c5f371413845b9aecb66628a594cd83bd529c0f18382c968"
+
+[build]
+system = "cmake"

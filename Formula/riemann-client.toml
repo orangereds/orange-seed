@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "json-c", "openssl@4", "protobuf-c"]
+
+[package]
+name = "riemann-client"
+version = "0_1"
+description = "C client library for the Riemann monitoring system"
+homepage = "https://git.madhouse-project.org/algernon/riemann-c-client"
+
+[source]
+url = "https://git.madhouse-project.org/algernon/riemann-c-client.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

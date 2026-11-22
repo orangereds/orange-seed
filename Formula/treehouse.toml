@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "treehouse"
+version = "3.1.8"
+description = "Manage worktrees without managing worktrees"
+homepage = "https://github.com/kunchenguid/treehouse"
+
+[source]
+url = "https://github.com/kunchenguid/treehouse/archive/refs/tags/v3.1.8.tar.gz"
+sha256 = "6b1585861e7e13d2c4bd4bcc3006cc2450ace13acb51177e4327e544bdbaa90a"
+
+[build]
+system = "autotools"

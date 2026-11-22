@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "openssl@4", "qt5compat", "qtbase", "qtcharts", "qtsvg"]
+
+[package]
+name = "ecflow-ui"
+version = "0_1"
+description = "User interface for client/server workflow package"
+homepage = "https://ecflow.readthedocs.io"
+
+[source]
+url = "https://confluence.ecmwf.int/download/attachments/8650755/ecFlow-5.19.0-Source.tar.gz"
+sha256 = "84c7efe001ff293498d8313440c91f57596cd404d3391c5ed8777888b32e55e7"
+
+[build]
+system = "cmake"

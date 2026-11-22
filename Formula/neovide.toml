@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ninja", "rust", "neovim", "llvm@22"]
+
+[package]
+name = "neovide"
+version = "0.17.3"
+description = "No Nonsense Neovim Client in Rust"
+homepage = "https://neovide.dev/"
+
+[source]
+url = "https://github.com/neovide/neovide/archive/refs/tags/0.17.3.tar.gz"
+sha256 = "368e2e8f111a09bb2a498be5dd68533796c7cb7e963eecf45176cb9305e00679"
+
+[build]
+system = "autotools"

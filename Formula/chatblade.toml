@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.13"]
+
+[package]
+name = "chatblade"
+version = "0.7.0_7"
+description = "CLI Swiss Army Knife for ChatGPT"
+homepage = "https://github.com/npiv/chatblade"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ff/02/e7dfd50d98139472851d03d793c39aebe1364a960648312d252137b0ec25/chatblade-0.7.0.tar.gz"
+sha256 = "bfa5f96aa02b869df76e6f0910b0c2528c44de7b2f95ae08de7d192cb30c7892"
+
+[build]
+system = "autotools"

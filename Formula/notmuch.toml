@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["doxygen", "emacs", "gnupg", "libgpg-error", "pkgconf", "sphinx-doc", "cffi", "glib", "gmime", "python@3.15", "sfsexp", "talloc", "xapian", "gettext"]
+
+[package]
+name = "notmuch"
+version = "0.40_2"
+description = "Thread-based email index, search, and tagging"
+homepage = "https://notmuchmail.org/"
+
+[source]
+url = "https://notmuchmail.org/releases/notmuch-0.40.tar.xz"
+sha256 = "4b4314bbf1c2029fdf793637e6c7bb15c1b1730d22be9aa04803c98c5bbc446f"
+
+[build]
+system = "autotools"

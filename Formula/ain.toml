@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ain"
+version = "1.6.0"
+description = "HTTP API client for the terminal"
+homepage = "https://github.com/jonaslu/ain"
+
+[source]
+url = "https://github.com/jonaslu/ain/archive/refs/tags/v1.6.0.tar.gz"
+sha256 = "a60ce846edc6f8e5429c3cf14faf57f170b757c6ab13d8f36d64235a1959e6c8"
+
+[build]
+system = "autotools"

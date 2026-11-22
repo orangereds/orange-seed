@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "qtbase", "boost", "eigen", "gmp", "mpfr"]
+
+[package]
+name = "cgal"
+version = "0"
+description = "Computational Geometry Algorithms Library"
+homepage = "https://www.cgal.org/"
+
+[source]
+url = "https://github.com/CGAL/cgal/releases/download/v6.2.1/CGAL-6.2.1.tar.xz"
+sha256 = "b6be77c60765a8456335de991eeaf6ffec55256984e4a9ecc6a97c37bbfe85bf"
+
+[build]
+system = "cmake"

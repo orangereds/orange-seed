@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "lume"
+version = "0.20.0"
+description = "Create and manage Apple Silicon-native virtual machines"
+homepage = "https://cua.ai"
+
+[source]
+url = "https://github.com/trycua/cua/archive/refs/tags/lume-v0.20.0.tar.gz"
+sha256 = "dcdd4a0ce71dbb3fc114e80e870c7e141d77c33f070f6254f910160f31707eed"
+
+[service]
+run = "opt/lume/bin/lume serve"
+keep_alive = true
+working_dir = "var"
+log_path = "var/log/lume.log"
+error_log_path = "var/log/lume.log"
+
+[build]
+system = "autotools"

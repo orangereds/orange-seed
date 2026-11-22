@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "libyaml", "python@3.15"]
+
+[package]
+name = "policy_sentry"
+version = "0.15.2_4"
+description = "Generate locked-down AWS IAM Policies"
+homepage = "https://policy-sentry.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/87/fb/1d8cd9672d757481f6ffbdb18ca92d628d8d2b08cbf1829a1c4d700bc1ab/policy_sentry-0.15.2.tar.gz"
+sha256 = "6e16f059dde400c856815be9368052102993499e66754207f9a9a1cdcf996dd2"
+
+[build]
+system = "autotools"

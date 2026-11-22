@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fzf"]
+
+[package]
+name = "forgit"
+version = "26.11.0"
+description = "Interactive git commands in the terminal"
+homepage = "https://github.com/wfxr/forgit"
+
+[source]
+url = "https://github.com/wfxr/forgit/releases/download/26.11.0/forgit-26.11.0.tar.gz"
+sha256 = "6f5eb2c473ac6b06c869e4fc920d299e0aca5fc05d9212232acce14e27a5aa33"
+
+[build]
+system = "autotools"

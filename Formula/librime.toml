@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "pkgconf", "capnp", "gflags", "glog", "leveldb", "lua", "marisa", "opencc", "yaml-cpp"]
+
+[package]
+name = "librime"
+version = "1.17.0_2"
+description = "Rime Input Method Engine"
+homepage = "https://rime.im"
+
+[source]
+url = "https://github.com/rime/librime/archive/refs/tags/1.17.0.tar.gz"
+sha256 = "a60274da5d8b8a7187e6c7e9ba5023334ed7bdd182535e93c4e96de8cf188377"
+
+[build]
+system = "autotools"

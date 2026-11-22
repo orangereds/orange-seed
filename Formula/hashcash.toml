@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "hashcash"
+version = "1.22.orig_2"
+description = "Proof-of-work algorithm to counter denial-of-service (DoS) attacks"
+homepage = "http://hashcash.org"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/h/hashcash/hashcash_1.22.orig.tar.gz"
+sha256 = "0192f12d41ce4848e60384398c5ff83579b55710601c7bffe6c88bc56b547896"
+
+[build]
+system = "autotools"

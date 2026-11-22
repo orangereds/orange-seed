@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "daemon"
+version = "0.8.4"
+description = "Turn other processes into daemons"
+homepage = "https://libslack.org/daemon/"
+
+[source]
+url = "https://libslack.org/daemon/download/daemon-0.8.4.tar.gz"
+sha256 = "fa28859ad341cb0a0b012c11c271814f870482013b49f710600321d379887cd1"
+
+[build]
+system = "make"

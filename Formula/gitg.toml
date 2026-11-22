@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "meson", "ninja", "pkgconf", "vala", "adwaita-icon-theme", "cairo", "gdk-pixbuf", "glib", "gobject-introspection", "gpgme", "gspell", "gtk+3", "gtksourceview4", "hicolor-icon-theme", "json-glib", "libdazzle", "libgee", "libgit2", "libgit2-glib", "libhandy", "libpeas@1", "libsecret", "pango"]
+
+[package]
+name = "gitg"
+version = "50"
+description = "GNOME GUI client to view git repositories"
+homepage = "https://wiki.gnome.org/Apps/Gitg"
+
+[source]
+url = "https://download.gnome.org/sources/gitg/50/gitg-50.tar.xz"
+sha256 = "331216a86920cd4e8ab9b0036e63cecb3e1a1d1162c61aa31bd6924e985a8154"
+
+[build]
+system = "autotools"

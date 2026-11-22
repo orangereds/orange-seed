@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "boost", "eigen", "fftw", "gromacs", "hdf5", "libecpint", "libint", "libxc", "libomp"]
+
+[package]
+name = "votca"
+version = "2026_1"
+description = "Versatile Object-oriented Toolkit for Coarse-graining Applications"
+homepage = "https://www.votca.org/"
+
+[source]
+url = "https://github.com/votca/votca/archive/refs/tags/v2026.tar.gz"
+sha256 = "bf5827e93aecdfd040131ef8427f49efac4ea87d30882c2eb83fea16a054fbc8"
+
+[build]
+system = "cmake"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libgpg-error"]
+
+[package]
+name = "libassuan@2"
+version = "0"
+description = "Assuan IPC Library"
+homepage = "https://www.gnupg.org/related_software/libassuan/"
+
+[source]
+url = "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.7.tar.bz2"
+sha256 = "0103081ffc27838a2e50479153ca105e873d3d65d8a9593282e9c94c7e6afb76"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

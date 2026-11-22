@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "python@3.15", "sqlite"]
+
+[package]
+name = "ktoblzcheck"
+version = "1.59"
+description = "Library for German banks"
+homepage = "https://ktoblzcheck.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/ktoblzcheck/ktoblzcheck-1.59.tar.gz"
+sha256 = "3cd33880d2425e8fa3be9918c85485514f53e04b0b986bcf7bd003fc53071fa7"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "icoutils", "librsvg", "gnu-sed", "openjdk", "pkgconf", "arpack", "epstool", "fftw", "fig2dev", "fltk", "fontconfig", "freetype", "gcc", "ghostscript", "gl2ps", "glpk", "graphicsmagick", "hdf5", "libsndfile", "libtool", "openblas", "pcre2", "portaudio", "pstoedit", "qhull", "qrupdate", "qscintilla2", "qt5compat", "qtbase", "qttools", "rapidjson", "readline", "suite-sparse", "sundials", "texinfo", "little-cms2", "fast_float"]
+
+[package]
+name = "octave"
+version = "11.3.0_1"
+description = "High-level interpreted language for numerical computing"
+homepage = "https://octave.org/index.html"
+
+[source]
+url = "https://ftpmirror.gnu.org/octave/octave-11.3.0.tar.xz"
+sha256 = "2b80f3149b2de6d1f4f2fcb4fe6515a17eb363b52111bf57b90f37bf6f5e12e1"
+
+[build]
+system = "autotools"

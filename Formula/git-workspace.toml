@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "libgit2"]
+
+[package]
+name = "git-workspace"
+version = "1.11.0"
+description = "Sync personal and work git repositories from multiple providers"
+homepage = "https://github.com/orf/git-workspace"
+
+[source]
+url = "https://github.com/orf/git-workspace/archive/refs/tags/v1.11.0.tar.gz"
+sha256 = "e2cf64219d6235a587448bef093224ceccc144697e2e3ebad2380236f2373404"
+
+[build]
+system = "autotools"

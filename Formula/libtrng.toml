@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "libtrng"
+version = "4.28"
+description = "Tina's Random Number Generator Library"
+homepage = "https://www.numbercrunch.de/trng/"
+
+[source]
+url = "https://github.com/rabauke/trng4/archive/refs/tags/v4.28.tar.gz"
+sha256 = "50432094f8a4b079bcf1c4a9075691c34f4ed5be54835d7ea1a38ccb00ebc89e"
+
+[build]
+system = "cmake"

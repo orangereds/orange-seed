@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jpeg-turbo", "netpbm"]
+
+[package]
+name = "gocr"
+version = "0.52_3"
+description = "Optical Character Recognition (OCR), converts images back to text"
+homepage = "https://jocr.sourceforge.net/index.html"
+
+[source]
+url = "https://web.archive.org/web/20250919083502/https://wasd.urz.uni-magdeburg.de/jschulen/ocr/gocr-0.52.tar.gz"
+sha256 = "df906463105f5f4273becc2404570f187d4ea52bd5769d33a7a8661a747b8686"
+
+[build]
+system = "autotools"

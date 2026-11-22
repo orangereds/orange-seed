@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "foreman"
+version = "0.90.0"
+description = "Manage Procfile-based applications"
+homepage = "https://ddollar.github.io/foreman/"
+
+[source]
+url = "https://github.com/ddollar/foreman/archive/refs/tags/v0.90.0.tar.gz"
+sha256 = "d9428f9ab4c2e2b4f9e22a35d19237f5ad6789e2e71110cfe26f8715f4e3a58a"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sanity"
+version = "0"
+description = "Command-line interface for Sanity"
+homepage = "https://www.sanity.io/"
+
+[source]
+url = "https://registry.npmjs.org/@sanity/cli/-/cli-8.33.0.tgz"
+sha256 = "7fbaed346cbceeb88a60e093e62c2a455bf55500bb1c0ae11fa3113c9c7f9fec"
+
+[build]
+system = "autotools"

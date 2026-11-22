@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openssl@4"]
+
+[package]
+name = "openrtsp"
+version = "0"
+description = "Command-line RTSP client"
+homepage = "http://www.live555.com/openRTSP"
+
+[source]
+url = "https://download.live555.com/live.2026.11.08.tar.gz"
+sha256 = "95eb2ad572a5f88d817717c00c534dbdfdeb2df0afaa0e0052a52c4f9f041a7c"
+
+[build]
+system = "make"

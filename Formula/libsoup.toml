@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "glib-networking", "libnghttp2", "libpsl", "sqlite", "zstd", "gettext"]
+
+[package]
+name = "libsoup"
+version = "3.8.1"
+description = "HTTP client/server library for GNOME"
+homepage = "https://wiki.gnome.org/Projects/libsoup"
+
+[source]
+url = "https://download.gnome.org/sources/libsoup/3.8/libsoup-3.8.1.tar.xz"
+sha256 = "5013dcef9136f6f861e6529fca578af50c1f52a39219027fb5aff652d1371a04"
+
+[build]
+system = "autotools"

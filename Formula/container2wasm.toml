@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "container2wasm"
+version = "0.8.5"
+description = "Container to WASM converter"
+homepage = "https://ktock.github.io/container2wasm-demo/"
+
+[source]
+url = "https://github.com/container2wasm/container2wasm/archive/refs/tags/v0.8.5.tar.gz"
+sha256 = "a6846c11d8ebab255f530d70241fa28e26ce9afff5cd6a727d0fd33037d10970"
+
+[build]
+system = "autotools"

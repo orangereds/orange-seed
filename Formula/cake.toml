@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet"]
+
+[package]
+name = "cake"
+version = "7.0.0"
+description = "Cross platform build automation system with a C# DSL"
+homepage = "https://cakebuild.net/"
+
+[source]
+url = "https://github.com/cake-build/cake/archive/refs/tags/v7.0.0.tar.gz"
+sha256 = "91aecc5affe86993927d859f2d8c442fc0268ee229bdcf20c72829bea778e157"
+
+[build]
+system = "autotools"

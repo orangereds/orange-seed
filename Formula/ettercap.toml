@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gdk-pixbuf", "glib", "gtk+3", "libmaxminddb", "libnet", "ncurses", "openssl@4", "pcre2", "at-spi2-core", "cairo", "freetype", "pango"]
+
+[package]
+name = "ettercap"
+version = "0.8.5.2"
+description = "Multipurpose sniffer/interceptor/logger for switched LAN"
+homepage = "https://ettercap.github.io/ettercap/"
+
+[source]
+url = "https://github.com/Ettercap/ettercap/archive/refs/tags/v0.8.5.2.tar.gz"
+sha256 = "748f91ae3b4d4eaf4fecd220542796b8be19589221c53f68c7a3c72c1a3222ab"
+
+[build]
+system = "cmake"

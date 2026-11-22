@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "aws-c-common"
+version = "1.0.6"
+description = "Core c99 package for AWS SDK for C"
+homepage = "https://github.com/awslabs/aws-c-common"
+
+[source]
+url = "https://github.com/awslabs/aws-c-common/archive/refs/tags/v1.0.6.tar.gz"
+sha256 = "a8f6fe8c696059ab5d4ddc45c78df21e7abc3391dace2dd88f285439e8d7f6dc"
+
+[build]
+system = "cmake"

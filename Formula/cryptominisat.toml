@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "python@3.15", "gmp"]
+
+[package]
+name = "cryptominisat"
+version = "818c9562f114b315a9246ced943b66b60b38e8fb"
+description = "Advanced SAT solver"
+homepage = "https://www.msoos.org/cryptominisat5/"
+
+[source]
+url = "https://github.com/msoos/cryptominisat/archive/refs/tags/release/v5.18.0.tar.gz"
+sha256 = "44b960a43c4eefc7f800ab5f3ec5c43f670c669e6bdec6a87b49138fedb0c34b"
+
+[build]
+system = "cmake"

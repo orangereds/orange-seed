@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "spytrap-adb"
+version = "0.3.6"
+description = "Test a phone for stalkerware and suspicious configuration using usb debugging"
+homepage = "https://github.com/spytrap-org/spytrap-adb"
+
+[source]
+url = "https://github.com/spytrap-org/spytrap-adb/releases/download/v0.3.6/spytrap-adb-0.3.6.tar.gz"
+sha256 = "8a6e9d43d1495fc052e4724500b43ff19e8bdaa097dde3a716413fe0bb9100fa"
+
+[build]
+system = "autotools"

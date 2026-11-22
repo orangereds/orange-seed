@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "clusterctl"
+version = "1.14.4"
+description = "Home for the Cluster Management API work, a subproject of sig-cluster-lifecycle"
+homepage = "https://cluster-api.sigs.k8s.io"
+
+[source]
+url = "https://github.com/kubernetes-sigs/cluster-api/archive/refs/tags/v1.14.4.tar.gz"
+sha256 = "0d22b58ffeb5b6bddb9085a1b35c059e2109507e8cfddec7b54b1fad87f49849"
+
+[build]
+system = "autotools"

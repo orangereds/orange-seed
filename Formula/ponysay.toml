@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gzip", "coreutils", "python@3.15", "texinfo"]
+
+[package]
+name = "ponysay"
+version = "3.0.3_7"
+description = "Cowsay but with ponies"
+homepage = "https://github.com/erkin/ponysay/"
+
+[source]
+url = "https://github.com/erkin/ponysay/archive/refs/tags/3.0.3.tar.gz"
+sha256 = "c382d7f299fa63667d1a4469e1ffbf10b6813dcd29e861de6be55e56dc52b28a"
+
+[build]
+system = "autotools"

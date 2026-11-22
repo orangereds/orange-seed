@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "python@3.14", "zstd"]
+
+[package]
+name = "llvm@17"
+version = "0"
+description = "Next-gen compiler infrastructure"
+homepage = "https://llvm.org/"
+
+[source]
+url = "https://github.com/llvm/llvm-project/releases/download/llvmorg-17.0.6/llvm-project-17.0.6.src.tar.xz"
+sha256 = "58a8818c60e6627064f312dbf46c02d9949956558340938b71cf731ad8bc0813"
+
+[install]
+keg_only = true
+
+[build]
+system = "cmake"

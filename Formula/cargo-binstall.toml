@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "cargo-binstall"
+version = "1.28.0"
+description = "Binary installation for rust projects"
+homepage = "https://github.com/cargo-bins/cargo-binstall"
+
+[source]
+url = "https://github.com/cargo-bins/cargo-binstall/archive/refs/tags/v1.28.0.tar.gz"
+sha256 = "9495aae52ca36a560d9cdc9a7563d2e385813e76d42904c683f847e9370073e9"
+
+[build]
+system = "autotools"

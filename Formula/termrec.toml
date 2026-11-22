@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "xz"]
+
+[package]
+name = "termrec"
+version = "0.19"
+description = "Record videos of terminal output"
+homepage = "https://angband.pl/termrec.html"
+
+[source]
+url = "https://github.com/kilobyte/termrec/archive/refs/tags/v0.19.tar.gz"
+sha256 = "0550c12266ac524a8afb764890c420c917270b0a876013592f608ed786ca91dc"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "piknik"
+version = "0.10.2"
+description = "Copy/paste anything over the network"
+homepage = "https://github.com/jedisct1/piknik"
+
+[source]
+url = "https://github.com/jedisct1/piknik/archive/refs/tags/0.10.2.tar.gz"
+sha256 = "937e98cc80569e4e295baa0ad7fa998da593af137eb33e191b12b23d2ca3a666"
+
+[service]
+run = "opt/piknik/bin/piknik -server"
+
+[build]
+system = "autotools"

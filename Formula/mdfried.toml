@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "chafa", "gettext", "glib"]
+
+[package]
+name = "mdfried"
+version = "0.22.8"
+description = "Terminal markdown viewer"
+homepage = "https://github.com/benjajaja/mdfried"
+
+[source]
+url = "https://github.com/benjajaja/mdfried/archive/refs/tags/v0.22.8.tar.gz"
+sha256 = "55b6b9aa22b9944f7f5f9634bbaef8d412fca091027ea0f1b08ede68d6335dec"
+
+[build]
+system = "autotools"

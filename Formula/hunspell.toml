@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "readline", "coreutils"]
+
+[package]
+name = "hunspell"
+version = "1.7.6"
+description = "Spell checker and morphological analyzer"
+homepage = "https://hunspell.github.io"
+
+[source]
+url = "https://github.com/hunspell/hunspell/releases/download/v1.7.6/hunspell-1.7.6.tar.gz"
+sha256 = "9c650ace31d4d8cc1da925a9507c3de1d50f1a54857af2f72429f517d5d53467"
+
+[build]
+system = "autotools"

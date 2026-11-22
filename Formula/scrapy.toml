@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "rust", "certifi", "cryptography", "python@3.15"]
+
+[package]
+name = "scrapy"
+version = "2.20.0"
+description = "Web crawling & scraping framework"
+homepage = "https://scrapy.org"
+
+[source]
+url = "https://files.pythonhosted.org/packages/1f/8a/361c59bf1ca22f4be27a034181663ab1b200f620707e662e72b73d893d46/scrapy-2.20.0.tar.gz"
+sha256 = "27af677573787a15800332f1998b3e05c48eb06f0e02c1702542e71ccd327b1a"
+
+[build]
+system = "autotools"

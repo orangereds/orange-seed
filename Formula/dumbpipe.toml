@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "dumbpipe"
+version = "0.40.2"
+description = "Unix pipes between devices"
+homepage = "https://dumbpipe.dev"
+
+[source]
+url = "https://github.com/n0-computer/dumbpipe/archive/refs/tags/v0.40.2.tar.gz"
+sha256 = "a70093278dc8742946c55a58825203ffea0f380969cc2ab50563bef378f75f13"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "valkey", "dotnet"]
+
+[package]
+name = "garnet"
+version = "2.2.13"
+description = "High-performance cache-store"
+homepage = "https://microsoft.github.io/garnet/"
+
+[source]
+url = "https://github.com/microsoft/garnet/archive/refs/tags/v2.2.13.tar.gz"
+sha256 = "3a6616b044b199c6b798dc34e16a6cbca34567de8f6520fc9cfafb8169fe8015"
+
+[build]
+system = "cmake"

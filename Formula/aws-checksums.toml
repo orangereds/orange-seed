@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-c-common"]
+
+[package]
+name = "aws-checksums"
+version = "1.0.1"
+description = "Cross-Platform HW accelerated CRC32c and CRC32 with fallback"
+homepage = "https://github.com/awslabs/aws-checksums"
+
+[source]
+url = "https://github.com/awslabs/aws-checksums/archive/refs/tags/v1.0.1.tar.gz"
+sha256 = "b24d4896e8406ddff8080037936c86d539929369918265694bedcb887cbe602b"
+
+[build]
+system = "cmake"

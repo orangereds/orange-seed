@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tektoncd-cli"
+version = "0.47.0"
+description = "CLI for interacting with TektonCD"
+homepage = "https://github.com/tektoncd/cli"
+
+[source]
+url = "https://github.com/tektoncd/cli/archive/refs/tags/v0.47.0.tar.gz"
+sha256 = "a0f2b0f0ca69504a57923c2048f799c8198c6e372566a8b90eb1af81384cbab9"
+
+[build]
+system = "autotools"

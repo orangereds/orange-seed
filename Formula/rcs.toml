@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "rcs"
+version = "5.10.1.tar.lz"
+description = "GNU revision control system"
+homepage = "https://www.gnu.org/software/rcs/"
+
+[source]
+url = "https://ftpmirror.gnu.org/rcs/rcs-5.10.1.tar.lz"
+sha256 = "43ddfe10724a8b85e2468f6403b6000737186f01e60e0bd62fde69d842234cc5"
+
+[build]
+system = "autotools"

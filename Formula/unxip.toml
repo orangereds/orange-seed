@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "unxip"
+version = "3.3"
+description = "Fast Xcode unarchiver"
+homepage = "https://github.com/saagarjha/unxip"
+
+[source]
+url = "https://github.com/saagarjha/unxip/archive/refs/tags/v3.3.tar.gz"
+sha256 = "490c27aeabad33a8c811ada09008d24835f0f701ad40092b450c4788cdf99198"
+
+[build]
+system = "autotools"

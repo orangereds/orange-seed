@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "pig"
+version = "0"
+description = "Platform for analyzing large data sets"
+homepage = "https://pig.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=pig/pig-0.18.0/pig-0.18.0.tar.gz"
+sha256 = "6845adb936a3c3bcc71451765953cae4103e410ba2f6c5a47cc9becade0a434a"
+
+[build]
+system = "autotools"

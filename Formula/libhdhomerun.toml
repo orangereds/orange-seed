@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "libhdhomerun"
+version = "20261107"
+description = "C library for controlling SiliconDust HDHomeRun TV tuners"
+homepage = "https://github.com/Silicondust/libhdhomerun"
+
+[source]
+url = "https://download.silicondust.com/hdhomerun/libhdhomerun_20261107.tgz"
+sha256 = "a273f2267b32e8931a7b733d37a28367fa65ee5ce875036d0acd5b2948edc07d"
+
+[build]
+system = "autotools"

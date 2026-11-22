@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "classifier"
+version = "2.7.0"
+description = "Text classification with Bayes, LSI, kNN, Logistic Regression, and TF-IDF"
+homepage = "https://rubyclassifier.com"
+
+[source]
+url = "https://github.com/cardmagic/classifier/archive/refs/tags/v2.7.0.tar.gz"
+sha256 = "3e0cf89c758eb4e7cb96a24dd39a422ec55c742d9663ee5fbb7fc63433deb872"
+
+[build]
+system = "autotools"

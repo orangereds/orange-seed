@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "batt"
+version = "0"
+description = "Control and limit battery charging on Apple Silicon MacBooks"
+homepage = "https://github.com/charlie0129/batt"
+
+[source]
+url = "https://github.com/charlie0129/batt.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/batt/bin/batt daemon --log-level=debug --always-allow-non-root-access --config=#{etc}/batt.json"
+keep_alive = true
+log_path = "var/log/batt.log"
+error_log_path = "var/log/batt.log"
+
+[build]
+system = "autotools"

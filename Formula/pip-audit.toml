@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15"]
+
+[package]
+name = "pip-audit"
+version = "0_3"
+description = "Audits Python environments and dependency trees for known vulnerabilities"
+homepage = "https://pypi.org/project/pip-audit/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/66/a4/f21d5f0a0edabcbce31560b73c7c5a6f72ae87af4236fd1069c8f59a353d/pip_audit-2.10.1.tar.gz"
+sha256 = "1eb4565d19ebe5d48996f4b770b4d2b32887e12cb12cfa637f1a064011b55ffc"
+
+[build]
+system = "autotools"

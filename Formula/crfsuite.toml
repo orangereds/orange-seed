@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "liblbfgs"]
+
+[package]
+name = "crfsuite"
+version = "0.12"
+description = "Fast implementation of conditional random fields"
+homepage = "https://www.chokkan.org/software/crfsuite/"
+
+[source]
+url = "https://github.com/chokkan/crfsuite/archive/refs/tags/0.12.tar.gz"
+sha256 = "ab83084ed5d4532ec772d96c3e964104d689f2c295915e80299ea3c315335b00"
+
+[build]
+system = "autotools"

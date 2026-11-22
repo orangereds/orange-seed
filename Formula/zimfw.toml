@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "zimfw"
+version = "1.21.1"
+description = "Zsh plugin manager"
+homepage = "https://zimfw.sh"
+
+[source]
+url = "https://github.com/zimfw/zimfw/archive/refs/tags/v1.21.1.tar.gz"
+sha256 = "9f07f6a20adb958acd85b94bdc28895f17dc6773cf95fbc841fabd23eddbcb83"
+
+[build]
+system = "autotools"

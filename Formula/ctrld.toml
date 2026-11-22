@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ctrld"
+version = "1.5.11"
+description = "Highly configurable, multi-protocol DNS forwarding proxy"
+homepage = "https://github.com/Control-D-Inc/ctrld"
+
+[source]
+url = "https://github.com/Control-D-Inc/ctrld/archive/refs/tags/v1.5.11.tar.gz"
+sha256 = "2160a086b9113c5edb1df577390d7d4bc0a73b1ad856cc37483cef65889b63ba"
+
+[build]
+system = "autotools"

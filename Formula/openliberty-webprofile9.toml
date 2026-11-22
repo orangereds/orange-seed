@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "openliberty-webprofile9"
+version = "0"
+description = "Lightweight open framework for Java (Jakarta EE Web Profile 9)"
+homepage = "https://openliberty.io"
+
+[source]
+url = "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/23.0.0.2/openliberty-webProfile9-23.0.0.2.zip"
+sha256 = "dca56a1db905d1176af7ba3a4ad779355429da7b676d7f984a41d228b3fccd9c"
+
+[build]
+system = "autotools"

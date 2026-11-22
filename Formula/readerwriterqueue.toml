@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "readerwriterqueue"
+version = "1.0.7"
+description = "Fast single-producer, single-consumer lock-free queue for C++"
+homepage = "https://github.com/cameron314/readerwriterqueue"
+
+[source]
+url = "https://github.com/cameron314/readerwriterqueue/archive/refs/tags/v1.0.7.tar.gz"
+sha256 = "532224ed052bcd5f4c6be0ed9bb2b8c88dfe7e26e3eb4dd9335303b059df6691"
+
+[build]
+system = "cmake"

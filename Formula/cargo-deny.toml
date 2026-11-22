@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup"]
+
+[package]
+name = "cargo-deny"
+version = "0.22.0"
+description = "Cargo plugin for linting your dependencies"
+homepage = "https://github.com/EmbarkStudios/cargo-deny"
+
+[source]
+url = "https://github.com/EmbarkStudios/cargo-deny/archive/refs/tags/0.22.0.tar.gz"
+sha256 = "0a80f1a7c79a5ba638e88f33049c4cf41aae71d86a93404a20a8d3beddd1ade6"
+
+[build]
+system = "autotools"

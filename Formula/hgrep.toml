@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "hgrep"
+version = "0.3.9"
+description = "Grep with human-friendly search results"
+homepage = "https://github.com/rhysd/hgrep"
+
+[source]
+url = "https://github.com/rhysd/hgrep/archive/refs/tags/v0.3.9.tar.gz"
+sha256 = "c8246d7ff9a8b7cb11f18892f68d16fbd8b7237c37e9bc34c95aaab43be48222"
+
+[build]
+system = "autotools"

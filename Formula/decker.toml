@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl2_image"]
+
+[package]
+name = "decker"
+version = "1.73"
+description = "HyperCard-like multimedia sketchpad"
+homepage = "https://beyondloom.com/decker/"
+
+[source]
+url = "https://github.com/JohnEarnest/Decker/archive/refs/tags/v1.73.tar.gz"
+sha256 = "5d5792f61fa5783133d9893e353c02ee40c345bb8e16a4b43e0a80886f924c01"
+
+[build]
+system = "make"

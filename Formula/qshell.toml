@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "qshell"
+version = "2.22.1"
+description = "Shell Tools for Qiniu Cloud"
+homepage = "https://github.com/qiniu/qshell"
+
+[source]
+url = "https://github.com/qiniu/qshell/archive/refs/tags/v2.22.1.tar.gz"
+sha256 = "3349a7b359da0b5e92705f126783b9a88e8a58fa8d47106aeae60e9ed6b5ad62"
+
+[build]
+system = "autotools"

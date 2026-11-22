@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "gosec", "govulncheck"]
+
+[package]
+name = "xk6"
+version = "1.5.1_source"
+description = "Build k6 with extensions"
+homepage = "https://k6.io"
+
+[source]
+url = "https://github.com/grafana/xk6/releases/download/v1.5.1/xk6_1.5.1_source.tar.gz"
+sha256 = "e36fe66e7c74da3143086d443373ae0199105a10cf54e7e9d05fab70f45a904e"
+
+[build]
+system = "autotools"

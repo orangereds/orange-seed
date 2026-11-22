@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk", "pkgconf", "ampl-asl", "gcc", "openblas"]
+
+[package]
+name = "ipopt"
+version = "3.14.20"
+description = "Interior point optimizer"
+homepage = "https://coin-or.github.io/Ipopt/"
+
+[source]
+url = "https://github.com/coin-or/Ipopt/archive/refs/tags/releases/3.14.20.tar.gz"
+sha256 = "43bddd6fa793b1694aa94d6129fe3e4a8d452d97a84ef5f2ff721c8047c75605"
+
+[build]
+system = "autotools"

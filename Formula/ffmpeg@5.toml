@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "aom", "aribb24", "dav1d", "fontconfig", "freetype", "frei0r", "gnutls", "lame", "libass", "libbluray", "librist", "libsoxr", "libvidstab", "libvmaf", "libvorbis", "libvpx", "libx11", "libxcb", "opencore-amr", "openjpeg", "opus", "rav1e", "rubberband", "sdl2-compat", "snappy", "speex", "srt", "svt-av1", "tesseract", "theora", "webp", "x264", "x265", "xvid", "xz", "zeromq", "zimg", "libarchive", "libogg", "libsamplerate", "nasm"]
+
+[package]
+name = "ffmpeg@5"
+version = "0_2"
+description = "Play, record, convert, and stream audio and video"
+homepage = "https://ffmpeg.org/"
+
+[source]
+url = "https://ffmpeg.org/releases/ffmpeg-5.1.10.tar.xz"
+sha256 = "392306d6fc45dab0e9e0ea55381e071842e83a2fb31d320aeda40477a7766293"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["apr", "apr-util", "brotli", "libnghttp2", "openssl@4", "pcre2"]
+
+[package]
+name = "httpd"
+version = "0"
+description = "Apache HTTP server"
+homepage = "https://httpd.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=httpd/httpd-2.4.71.tar.bz2"
+sha256 = "2bc5da5a33c247341de082717d4ebcb5cb49e8b73a05b7fddf7d5d6dc2f8de62"
+
+[service]
+run = "opt/httpd/bin/httpd -D FOREGROUND"
+
+[build]
+system = "autotools"

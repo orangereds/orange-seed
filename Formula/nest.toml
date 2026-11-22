@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "cython", "gsl", "libtool", "numpy", "python@3.15", "readline", "libomp"]
+
+[package]
+name = "nest"
+version = "3.10"
+description = "Neural Simulation Tool (NEST) with Python3 bindings (PyNEST)"
+homepage = "https://www.nest-simulator.org/"
+
+[source]
+url = "https://github.com/nest/nest-simulator/archive/refs/tags/v3.10.tar.gz"
+sha256 = "fd4def89c109e19d50e4630ab56bb9ddd4f15bf0ef735070189f0a83e2416a55"
+
+[build]
+system = "autotools"

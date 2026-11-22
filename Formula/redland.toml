@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libtool", "raptor", "rasqal", "sqlite", "unixodbc"]
+
+[package]
+name = "redland"
+version = "1.0.17_1"
+description = "RDF Library"
+homepage = "https://librdf.org/"
+
+[source]
+url = "https://download.librdf.org/source/redland-1.0.17.tar.gz"
+sha256 = "de1847f7b59021c16bdc72abb4d8e2d9187cd6124d69156f3326dd34ee043681"
+
+[build]
+system = "autotools"

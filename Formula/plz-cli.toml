@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "plz-cli"
+version = "0.1.9"
+description = "Copilot for your terminal"
+homepage = "https://github.com/m1guelpf/plz-cli"
+
+[source]
+url = "https://github.com/m1guelpf/plz-cli/archive/refs/tags/v0.1.9.tar.gz"
+sha256 = "ea6b65deb69f86e53210d2457f49a53bb73ab52282fccc5b6cae8e8c059ecb00"
+
+[build]
+system = "autotools"

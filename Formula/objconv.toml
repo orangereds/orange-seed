@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "objconv"
+version = "2026-05-14"
+description = "Object file converter"
+homepage = "https://www.agner.org/optimize/#objconv"
+
+[source]
+url = "https://www.agner.org/optimize/objconv.zip"
+sha256 = "0f604f93f97f689afd7615c86176eb15bc95001eadf8317f17ebd099c50c59e1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "mcp-remote"
+version = "0.16.7"
+description = "Remote proxy for Model Context Protocol with OAuth support"
+homepage = "https://github.com/geelen/mcp-remote"
+
+[source]
+url = "https://registry.npmjs.org/mcp-remote/-/mcp-remote-0.16.7.tgz"
+sha256 = "5886c7cabf92199e4dfe9aa0f7cc5518d16e7907dc4b3bfcd7882874f9934582"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "oxfmt"
+version = "0.79.0"
+description = "High-performance formatting tool for JavaScript and TypeScript"
+homepage = "https://oxc.rs/"
+
+[source]
+url = "https://registry.npmjs.org/oxfmt/-/oxfmt-0.79.0.tgz"
+sha256 = "6298c21d0461876b41dca405cf96a6006a4d8170d3df3c6f4a3801fef46a424b"
+
+[build]
+system = "autotools"

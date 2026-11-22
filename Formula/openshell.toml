@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "z3"]
+
+[package]
+name = "openshell"
+version = "0.1.9"
+description = "Safe, private runtime for autonomous AI agents"
+homepage = "https://docs.nvidia.com/openshell/latest/"
+
+[source]
+url = "https://github.com/NVIDIA/OpenShell/archive/refs/tags/v0.1.9.tar.gz"
+sha256 = "b23e5620f6cef35f0f72932a054d97fa0bd8f8f4ef4e7c9c90a293e17b9790d6"
+
+[build]
+system = "autotools"

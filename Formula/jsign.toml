@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["maven", "openjdk@21"]
+
+[package]
+name = "jsign"
+version = "7.6"
+description = "Tool for signing Windows executable files, installers and scripts"
+homepage = "https://ebourg.github.io/jsign/"
+
+[source]
+url = "https://github.com/ebourg/jsign/archive/refs/tags/7.6.tar.gz"
+sha256 = "18ee1bbfc8a45b8991467055ea71ba8266c4229ddba9cfb4f3372d7a26a1c625"
+
+[build]
+system = "autotools"

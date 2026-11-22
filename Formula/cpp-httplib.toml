@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4"]
+
+[package]
+name = "cpp-httplib"
+version = "0.67.0"
+description = "C++ header-only HTTP/HTTPS server and client library"
+homepage = "https://yhirose.github.io/cpp-httplib/"
+
+[source]
+url = "https://github.com/yhirose/cpp-httplib/archive/refs/tags/v0.67.0.tar.gz"
+sha256 = "be711ddaf7a3655d8f23aa5655709250b24d247aedd4b2629989d18b6164e5be"
+
+[build]
+system = "cmake"

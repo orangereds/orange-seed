@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "pedump"
+version = "0.7.6"
+description = "Dump Windows PE files using Ruby"
+homepage = "https://pedump.me"
+
+[source]
+url = "https://github.com/zed-0xff/pedump/archive/refs/tags/v0.7.6.tar.gz"
+sha256 = "a3ef939a7c26b3e5dc94629c1c554bdaed105da99b5c5f2bf856cf0631a206e8"
+
+[build]
+system = "autotools"

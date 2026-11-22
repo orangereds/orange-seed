@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "nlohmann-json", "openssl@4", "opus", "pkgconf"]
+
+[package]
+name = "libdpp"
+version = "10.1.6"
+description = "C++ Discord API Bot Library"
+homepage = "https://dpp.dev/"
+
+[source]
+url = "https://github.com/brainboxdotcc/DPP/archive/refs/tags/v10.1.6.tar.gz"
+sha256 = "65cf9e5fbc7b40e3fadaf742fa87da9cdede46651e35007c7b45cb765bfc17ba"
+
+[build]
+system = "cmake"

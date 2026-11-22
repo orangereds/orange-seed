@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "glib", "openssl@4", "gettext"]
+
+[package]
+name = "megatools"
+version = "1.12.2.20261116"
+description = "Command-line client for Mega.co.nz"
+homepage = "https://xff.cz/megatools/"
+
+[source]
+url = "https://xff.cz/megatools/builds/megatools-1.12.2.20261116.tar.gz"
+sha256 = "2c8cfbb41eabf1ffac92f08f5b3aecb361bcfb9c02ac258769fb5e3ba2f15b84"
+
+[build]
+system = "autotools"

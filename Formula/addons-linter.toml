@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "addons-linter"
+version = "10.16.0"
+description = "Firefox Add-ons linter, written in JavaScript"
+homepage = "https://github.com/mozilla/addons-linter"
+
+[source]
+url = "https://registry.npmjs.org/addons-linter/-/addons-linter-10.16.0.tgz"
+sha256 = "e16ef6d4ff9fdcdfd79ced0c755ce9b039b18d7d8bdb8602546d861ddb3c1863"
+
+[build]
+system = "autotools"

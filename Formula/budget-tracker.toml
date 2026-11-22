@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "budget-tracker"
+version = "1.8.1"
+description = "Feature rich TUI budget tracker app"
+homepage = "https://github.com/Feromond/budget-tracker-tui"
+
+[source]
+url = "https://github.com/Feromond/budget-tracker-tui/archive/refs/tags/v1.8.1.tar.gz"
+sha256 = "94df80a938e4e9365956dcaabe85c6bb62e6aed8f5133a5c8c01ceb06a12371d"
+
+[build]
+system = "autotools"

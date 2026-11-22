@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "carl"
+version = "0.6.0.crate"
+description = "Calendar for the command-line"
+homepage = "https://codeberg.org/birger/carl"
+
+[source]
+url = "https://static.crates.io/crates/carl/carl-0.6.0.crate"
+sha256 = "225a66d6b91fc6fe15ff1a7afc9f8c1d461f2885aa9a115e06947d3d81f20da3"
+
+[build]
+system = "autotools"

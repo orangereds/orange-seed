@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf"]
+
+[package]
+name = "libzen"
+version = "0.4.41_1"
+description = "Shared library for libmediainfo"
+homepage = "https://github.com/MediaArea/ZenLib"
+
+[source]
+url = "https://mediaarea.net/download/source/libzen/0.4.41/libzen_0.4.41.tar.bz2"
+sha256 = "eb237d7d3dca6dc6ba068719420a27de0934a783ccaeb2867562b35af3901e2d"
+
+[build]
+system = "cmake"

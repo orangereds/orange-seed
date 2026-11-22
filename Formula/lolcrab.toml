@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "lolcrab"
+version = "0.4.1"
+description = "Make your console colorful, with OpenSimplex noise"
+homepage = "https://github.com/mazznoer/lolcrab"
+
+[source]
+url = "https://github.com/mazznoer/lolcrab/archive/refs/tags/v0.4.1.tar.gz"
+sha256 = "b318f430e95a64dac1d92bb2a1aee2c2c0010ba74dbc5b26dc3d3dd82673dd37"
+
+[build]
+system = "autotools"

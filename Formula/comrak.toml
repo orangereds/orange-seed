@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "comrak"
+version = "1.1.0"
+description = "CommonMark + GFM compatible Markdown parser and renderer"
+homepage = "https://comrak.ee"
+
+[source]
+url = "https://github.com/kivikakk/comrak/archive/refs/tags/v1.1.0.tar.gz"
+sha256 = "bec24b69764da2f5e904503b3c27cd90720ab21e13c3ee5e09c36459ae377d27"
+
+[build]
+system = "autotools"

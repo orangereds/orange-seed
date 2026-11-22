@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "gobject-introspection", "meson", "ninja", "pkgconf", "glib", "libvirt"]
+
+[package]
+name = "libvirt-glib"
+version = "5.0.0_1"
+description = "Libvirt API for glib-based programs"
+homepage = "https://libvirt.org/"
+
+[source]
+url = "https://download.libvirt.org/glib/libvirt-glib-5.0.0.tar.xz"
+sha256 = "9bfec346382416a3575d87299bc641b2a464aa519fd9b1287e318aa43a2f3b8b"
+
+[build]
+system = "autotools"

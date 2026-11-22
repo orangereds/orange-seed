@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "makeicns"
+version = "1.4.10a"
+description = "Create icns files from the command-line"
+homepage = "http://www.amnoid.de/icns/makeicns.html"
+
+[source]
+url = "https://distfiles.macports.org/makeicns/makeicns-1.4.10a.tar.bz2"
+sha256 = "10e44b8d84cb33ed8d92b9c2cfa42f46514586d2ec11ae9832683b69996ddeb8"
+
+[build]
+system = "autotools"

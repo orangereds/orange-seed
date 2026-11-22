@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "distill-cli"
+version = "0.2.0"
+description = "Use AWS Transcribe and Bedrock to create summaries of your audio recordings"
+homepage = "https://www.allthingsdistributed.com/2024/06/introducing-distill-cli.html"
+
+[source]
+url = "https://github.com/awslabs/distill-cli/archive/refs/tags/v0.2.0.tar.gz"
+sha256 = "ca48908a0d4c9b2cdc72a74cc6ec983f3d9ea665ba10e7837b641dbaf88ddf65"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["metalang99"]
+
+[package]
+name = "interface99"
+version = "1.0.2"
+description = "Full-featured interfaces for C99"
+homepage = "https://github.com/Hirrolot/interface99"
+
+[source]
+url = "https://github.com/Hirrolot/interface99/archive/refs/tags/v1.0.2.tar.gz"
+sha256 = "8bd007c48cf05436ced60884e8e3a05ede46105f3efae9bf29e0f4d30f938f9e"
+
+[build]
+system = "autotools"

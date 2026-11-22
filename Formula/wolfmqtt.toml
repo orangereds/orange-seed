@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "wolfssl"]
+
+[package]
+name = "wolfmqtt"
+version = "2.2.0"
+description = "Small, fast, portable MQTT client C implementation"
+homepage = "https://www.wolfssl.com"
+
+[source]
+url = "https://github.com/wolfSSL/wolfMQTT/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "e6b940d5da7bf3fa05ce07d8a2b7ea8604d524b7633fef51159d895cc3b3a1c4"
+
+[build]
+system = "autotools"

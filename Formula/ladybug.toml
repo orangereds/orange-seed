@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4", "llvm"]
+
+[package]
+name = "ladybug"
+version = "12"
+description = "Embedded graph database built for query speed and scalability"
+homepage = "https://ladybugdb.com/"
+
+[source]
+url = "https://github.com/LadybugDB/ladybug/archive/refs/tags/v0.22.3.tar.gz"
+sha256 = "af970748d21a20d5915f76b895272f8eda5b6b86a1cfb61e5b97f01f290f5036"
+
+[build]
+system = "cmake"

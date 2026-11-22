@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ant", "openjdk@17"]
+
+[package]
+name = "hbase"
+version = "0"
+description = "Hadoop database: a distributed, scalable, big data store"
+homepage = "https://hbase.apache.org"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=hbase/3.0.0/hbase-3.0.0-bin.tar.gz"
+sha256 = "09ec88a00f238f0ec608fa58b737ceefad60bb7339bd557ea32ea4a7a0a79655"
+
+[service]
+run = "opt/hbase/bin/hbase --config opt/hbase/libexec/conf master start"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/hbase/hbase.log"
+error_log_path = "var/hbase/hbase.err"
+
+[build]
+system = "autotools"

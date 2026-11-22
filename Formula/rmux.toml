@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rmux"
+version = "0.10.0.crate"
+description = "Terminal multiplexer with a tmux-style CLI and daemon runtime"
+homepage = "https://rmux.io"
+
+[source]
+url = "https://static.crates.io/crates/rmux/rmux-0.10.0.crate"
+sha256 = "116b669b1cf4f994f6296a3aa5b329e14c6af26390d12ac0741e2aa31481b630"
+
+[build]
+system = "autotools"

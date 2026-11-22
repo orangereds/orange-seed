@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "install-peerdeps"
+version = "3.0.7"
+description = "CLI to automatically install peerDeps"
+homepage = "https://github.com/nathanhleung/install-peerdeps"
+
+[source]
+url = "https://registry.npmjs.org/install-peerdeps/-/install-peerdeps-3.0.7.tgz"
+sha256 = "b161e9e3e497cd492e571393784232a9ac9e4518044cda909f7e1d09c4fb5ea7"
+
+[build]
+system = "autotools"

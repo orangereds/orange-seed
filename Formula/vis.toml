@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libtermkey", "lpeg", "lua", "tre"]
+
+[package]
+name = "vis"
+version = "0.9_1"
+description = "Vim-like text editor"
+homepage = "https://github.com/martanne/vis"
+
+[source]
+url = "https://github.com/martanne/vis/archive/refs/tags/v0.9.tar.gz"
+sha256 = "bd37ffba5535e665c1e883c25ba5f4e3307569b6d392c60f3c7d5dedd2efcfca"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "coinutils", "openblas", "osi"]
+
+[package]
+name = "clp"
+version = "1.17.11"
+description = "Linear programming solver"
+homepage = "https://github.com/coin-or/Clp"
+
+[source]
+url = "https://github.com/coin-or/Clp/archive/refs/tags/releases/1.17.11.tar.gz"
+sha256 = "2c078e174dc1a7a308e091b6256fb34b4017897fc140ea707ba207b2913ea46d"
+
+[build]
+system = "autotools"

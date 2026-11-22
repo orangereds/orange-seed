@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "osctrl-mcp"
+version = "0.7.0"
+description = "Fast and efficient osquery management"
+homepage = "https://docs.osctrl.net/components/osctrl-mcp/"
+
+[source]
+url = "https://github.com/jmpsec/osctrl/archive/refs/tags/v0.7.0.tar.gz"
+sha256 = "4b10ac68bf33c6bd8239485871a46517ba8c26362a605f836c1619deeeb814a8"
+
+[build]
+system = "autotools"

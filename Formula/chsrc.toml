@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "chsrc"
+version = "0.2.7"
+description = "Change Source for every software on every platform from the command-line"
+homepage = "https://chsrc.run/"
+
+[source]
+url = "https://github.com/RubyMetric/chsrc/archive/refs/tags/v0.2.7.tar.gz"
+sha256 = "0c1ff6ec9e8860d6c0455bc2f0e228647e578fbbe1874141850ec253a9693f10"
+
+[build]
+system = "autotools"

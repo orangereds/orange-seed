@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "cli53"
+version = "0.9.0"
+description = "Command-line tool for Amazon Route 53"
+homepage = "https://github.com/barnybug/cli53"
+
+[source]
+url = "https://github.com/barnybug/cli53/archive/refs/tags/v0.9.0.tar.gz"
+sha256 = "4dc4c3c552a0e045015d734d9505e120db879157cbaa3540f3090559df001ce0"
+
+[build]
+system = "autotools"

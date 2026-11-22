@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hey"
+version = "0.1.5"
+description = "HTTP load generator, ApacheBench (ab) replacement"
+homepage = "https://github.com/rakyll/hey"
+
+[source]
+url = "https://github.com/rakyll/hey/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "f678bc0f07c62a6513726298873940b70099aa85244efa813f6a0d925092ffe9"
+
+[build]
+system = "autotools"

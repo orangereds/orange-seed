@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gobject-introspection", "pkgconf", "vala", "glib", "gtk+3", "libayatana-indicator", "libdbusmenu"]
+
+[package]
+name = "libayatana-appindicator"
+version = "0.6.1"
+description = "Ayatana Application Indicators Shared Library"
+homepage = "https://github.com/AyatanaIndicators/libayatana-appindicator"
+
+[source]
+url = "https://github.com/AyatanaIndicators/libayatana-appindicator/archive/refs/tags/0.6.1.tar.gz"
+sha256 = "56c0b938ffaa3e17b10c38d3e54c16d316f41f0da61949eda028adbf19ee767f"
+
+[build]
+system = "cmake"

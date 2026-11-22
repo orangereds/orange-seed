@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "maeparser"]
+
+[package]
+name = "coordgen"
+version = "3.0.2"
+description = "Schrodinger-developed 2D Coordinate Generation"
+homepage = "https://github.com/schrodinger/coordgenlibs"
+
+[source]
+url = "https://github.com/schrodinger/coordgenlibs/archive/refs/tags/v3.0.2.tar.gz"
+sha256 = "f67697434f7fec03bca150a6d84ea0e8409f6ec49d5aab43badc5833098ff4e3"
+
+[build]
+system = "cmake"

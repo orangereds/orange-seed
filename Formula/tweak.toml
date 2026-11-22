@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tweak"
+version = "3.02"
+description = "Command-line, ncurses library based hex editor"
+homepage = "https://www.chiark.greenend.org.uk/~sgtatham/tweak/"
+
+[source]
+url = "https://www.chiark.greenend.org.uk/~sgtatham/tweak/tweak-3.02.tar.gz"
+sha256 = "5b4c19b1bf8734d1623e723644b8da58150b882efa9f23bbe797c3922f295a1a"
+
+[build]
+system = "make"

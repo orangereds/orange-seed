@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "dhcpdump"
+version = "2.00"
+description = "Monitor DHCP traffic for debugging purposes"
+homepage = "https://github.com/dhcpdump-org/dhcpdump"
+
+[source]
+url = "https://github.com/dhcpdump-org/dhcpdump/releases/download/v2.00/dhcpdump-2.00.tar.xz"
+sha256 = "41c79aa975662f33b1b7acaa0ab4c071b654cc78166c6475e82e3f0cfbe4b009"
+
+[build]
+system = "autotools"

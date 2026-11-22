@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "cdk8s"
+version = "0"
+description = "Define k8s native apps and abstractions using object-oriented programming"
+homepage = "https://cdk8s.io/"
+
+[source]
+url = "https://registry.npmjs.org/cdk8s-cli/-/cdk8s-cli-2.207.87.tgz"
+sha256 = "d9dbf79bb42034beb36afba3c5346b3afcaf683197f2d214f7249574c1c0ed36"
+
+[build]
+system = "autotools"

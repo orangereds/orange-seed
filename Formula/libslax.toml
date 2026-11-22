@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "bison", "libtool", "openssl@4"]
+
+[package]
+name = "libslax"
+version = "3.1.6"
+description = "Implementation of the SLAX language (an XSLT alternative)"
+homepage = "https://github.com/Juniper/libslax/wiki"
+
+[source]
+url = "https://github.com/Juniper/libslax/releases/download/3.1.6/libslax-3.1.6.tar.gz"
+sha256 = "e876068b343c54c40872fdb3c06749dd9cc4826f43fe4bd8247743070d51d9fb"
+
+[build]
+system = "autotools"

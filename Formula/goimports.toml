@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "goimports"
+version = "0.53.0"
+description = "Go formatter that additionally inserts import statements"
+homepage = "https://pkg.go.dev/golang.org/x/tools/cmd/goimports"
+
+[source]
+url = "https://github.com/golang/tools/archive/refs/tags/v0.53.0.tar.gz"
+sha256 = "c74b3b140f7fe5d5482e5fea18fb543bf34a13c9370ade58e402e5e87e0e4cbf"
+
+[build]
+system = "autotools"

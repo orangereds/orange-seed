@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "freeimage"]
+
+[package]
+name = "perceptualdiff"
+version = "2.1"
+description = "Perceptual image comparison tool"
+homepage = "https://pdiff.sourceforge.net/"
+
+[source]
+url = "https://github.com/myint/perceptualdiff/archive/refs/tags/v2.1.tar.gz"
+sha256 = "0dea51046601e4d23dc45a3ec342f1a305baf3bf3328e9ccdae115fe1942f041"
+
+[build]
+system = "cmake"

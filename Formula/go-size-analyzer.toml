@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "node", "pnpm@10"]
+
+[package]
+name = "go-size-analyzer"
+version = "1.14.1"
+description = "Analyzing the dependencies in compiled Golang binaries"
+homepage = "https://gsa.zxilly.dev/"
+
+[source]
+url = "https://github.com/Zxilly/go-size-analyzer/archive/refs/tags/v1.14.1.tar.gz"
+sha256 = "c33d0ff8c5c5fd37cb30d8d6a963fe07a20f13cfe4bf2cf3832af93f421eee11"
+
+[build]
+system = "autotools"

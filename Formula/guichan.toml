@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf"]
+
+[package]
+name = "guichan"
+version = "0.8.3"
+description = "Small, efficient C++ GUI library designed for games"
+homepage = "https://github.com/darkbitsorg/guichan"
+
+[source]
+url = "https://github.com/darkbitsorg/guichan/releases/download/v0.8.3/guichan-0.8.3.tar.gz"
+sha256 = "2f3b265d1b243e30af9d87e918c71da6c67947978dcaa82a93cb838dbf93529b"
+
+[build]
+system = "autotools"

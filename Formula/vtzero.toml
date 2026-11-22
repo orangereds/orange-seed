@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "cmake", "protozero"]
+
+[package]
+name = "vtzero"
+version = "1.2.0"
+description = "Minimalist vector tile decoder and encoder in C++"
+homepage = "https://github.com/mapbox/vtzero"
+
+[source]
+url = "https://github.com/mapbox/vtzero/archive/refs/tags/v1.2.0.tar.gz"
+sha256 = "bdbd4a70404fbd6efc8588cc34065aa401b3bcd2533b532e68ff790267f4fc23"
+
+[build]
+system = "cmake"

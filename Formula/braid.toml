@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ruby"]
+
+[package]
+name = "braid"
+version = "1.1.10_2"
+description = "Simple tool to help track vendor branches in a Git repository"
+homepage = "https://cristibalan.github.io/braid/"
+
+[source]
+url = "https://github.com/cristibalan/braid/archive/refs/tags/v1.1.10.tar.gz"
+sha256 = "b0b7193f4d5ea58abafe1522047973680881115e933286d6556b9e78304626c7"
+
+[build]
+system = "autotools"

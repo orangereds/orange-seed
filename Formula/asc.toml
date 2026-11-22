@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "asc"
+version = "7.0.0"
+description = "Fast, lightweight CLI for App Store Connect"
+homepage = "https://asccli.sh"
+
+[source]
+url = "https://github.com/rorkai/App-Store-Connect-CLI/archive/refs/tags/7.0.0.tar.gz"
+sha256 = "5c268aa0f63dec40398c4a7c6bbbf0883fe39fc93e8f7f1df7a8dd63a0487515"
+
+[build]
+system = "autotools"

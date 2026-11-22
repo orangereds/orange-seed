@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "jpeg-turbo", "jpeg-xl", "libavif", "libpng", "libtiff", "sdl2-compat", "webp"]
+
+[package]
+name = "sdl2_image"
+version = "0_2"
+description = "Library for loading images as SDL surfaces and textures"
+homepage = "https://github.com/libsdl-org/SDL_image"
+
+[source]
+url = "https://github.com/libsdl-org/SDL_image/releases/download/release-2.8.12/SDL2_image-2.8.12.tar.gz"
+sha256 = "393f5efb50536ec13ca4f4affb69cc9966d3c3f969e6c5e701faddf9f9785381"
+
+[build]
+system = "autotools"

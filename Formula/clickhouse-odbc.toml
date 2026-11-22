@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "folly", "icu4c@79", "openssl@4", "poco", "unixodbc"]
+
+[package]
+name = "clickhouse-odbc"
+version = "69a9376d033e1fcf483a08e2feb9f09399cf56b6_2"
+description = "Official ODBC driver implementation for accessing ClickHouse as a data source"
+homepage = "https://clickhouse.com"
+
+[source]
+url = "https://github.com/ClickHouse/clickhouse-odbc/archive/refs/tags/v1.5.5.20260810.tar.gz"
+sha256 = "a954c7630d9a4af6c5c68798b72710aa2297e5dbb8c4339cdf10a4ba88d092a6"
+
+[build]
+system = "cmake"

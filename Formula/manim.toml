@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "ninja", "pkgconf", "rust", "cairo", "ffmpeg", "fontconfig", "freetype", "glib", "numpy", "pango", "pillow", "py3cairo", "python@3.15", "scipy", "llvm", "gettext", "harfbuzz"]
+
+[package]
+name = "manim"
+version = "0.22.1"
+description = "Animation engine for explanatory math videos"
+homepage = "https://www.manim.community"
+
+[source]
+url = "https://files.pythonhosted.org/packages/12/19/c28736c018d19511ebe53a365b26dfba737a2bb71fbe08a2f69e6c18d48e/manim-0.22.1.tar.gz"
+sha256 = "3245bb52f4dfaa6e74e91a765e38fcaeea7f3923fdef056c6424e173d30dfbc8"
+
+[build]
+system = "autotools"

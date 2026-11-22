@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "node"]
+
+[package]
+name = "vsce"
+version = "4.1.1"
+description = "Tool for packaging, publishing and managing VS Code extensions"
+homepage = "https://code.visualstudio.com/api/working-with-extensions/publishing-extension#vsce"
+
+[source]
+url = "https://registry.npmjs.org/@vscode/vsce/-/vsce-4.1.1.tgz"
+sha256 = "49c04d44061a9687a9dcb0820c5ee1090e8a9064a9d71ac620dca55eeba2f6a1"
+
+[build]
+system = "autotools"

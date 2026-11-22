@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "arkade"
+version = "0.12.1"
+description = "Open Source Kubernetes Marketplace"
+homepage = "https://blog.alexellis.io/kubernetes-marketplace-two-year-update/"
+
+[source]
+url = "https://github.com/alexellis/arkade/archive/refs/tags/0.12.1.tar.gz"
+sha256 = "bc05e6afe19aa7d2cc15ede42624d0379a5a98aaa30d63e4f98f7ad1457b6738"
+
+[build]
+system = "autotools"

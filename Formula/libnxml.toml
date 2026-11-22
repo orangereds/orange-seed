@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "libnxml"
+version = "0.18.6"
+description = "C library for parsing, writing, and creating XML files"
+homepage = "https://github.com/bakulf/libnxml"
+
+[source]
+url = "https://github.com/bakulf/libnxml/archive/refs/tags/0.18.6.tar.gz"
+sha256 = "c6de3c486f37c064eeae7d94e74f8dd25328e23effd8409a26a1170c19203ab4"
+
+[build]
+system = "autotools"

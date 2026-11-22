@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "yaml-language-server"
+version = "2.0.0"
+description = "Language Server for Yaml Files"
+homepage = "https://github.com/redhat-developer/yaml-language-server"
+
+[source]
+url = "https://registry.npmjs.org/yaml-language-server/-/yaml-language-server-2.0.0.tgz"
+sha256 = "8dcd68cc8bcdde719def62e651de9744576d3227de2e4ab85961603c92a52423"
+
+[build]
+system = "autotools"

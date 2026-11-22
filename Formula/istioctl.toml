@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "istioctl"
+version = "1.32.0"
+description = "Istio configuration command-line utility"
+homepage = "https://istio.io/"
+
+[source]
+url = "https://github.com/istio/istio/archive/refs/tags/1.32.0.tar.gz"
+sha256 = "223c10f3460c3361214e9bc3a041b7f466bfba7847302675662f7890247afd34"
+
+[build]
+system = "autotools"

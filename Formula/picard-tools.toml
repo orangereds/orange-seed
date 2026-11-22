@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "picard-tools"
+version = "0"
+description = "Tools for manipulating HTS data and formats"
+homepage = "https://broadinstitute.github.io/picard/"
+
+[source]
+url = "https://github.com/broadinstitute/picard/releases/download/3.5.0/picard.jar"
+sha256 = "b7d97861c3a54ba5a421f5a317f38382f955803862d30ef4aca2bcdc54943631"
+
+[build]
+system = "autotools"

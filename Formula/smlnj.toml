@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "cmake"]
+
+[package]
+name = "smlnj"
+version = "0"
+description = "Compiler and programming system for Standard ML"
+homepage = "https://www.smlnj.org/"
+
+[source]
+url = "https://smlnj.org/dist/working/2026.3/smlnj-arm64-unix-2026.3.tgz"
+sha256 = "7d5826317a8be3a0b347cf4001d5354b9dfdc319f80c26e2c21f265de55154e1"
+
+[build]
+system = "autotools"

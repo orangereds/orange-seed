@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libx11", "libxfixes", "xorgproto"]
+
+[package]
+name = "libxdamage"
+version = "0"
+description = "X.Org: X Damage Extension library"
+homepage = "https://www.x.org/"
+
+[source]
+url = "https://xorg.freedesktop.org/archive/individual/lib/libXdamage-1.1.7.tar.xz"
+sha256 = "127067f521d3ee467b97bcb145aeba1078e2454d448e8748eb984d5b397bde24"
+
+[build]
+system = "autotools"

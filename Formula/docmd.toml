@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["esbuild", "node"]
+
+[package]
+name = "docmd"
+version = "0"
+description = "Minimal Markdown documentation generator"
+homepage = "https://docmd.io"
+
+[source]
+url = "https://registry.npmjs.org/@docmd/core/-/core-0.10.1.tgz"
+sha256 = "6e2b0381d69e4ecd69beac936ef5ed5d6e3bef5ccbea5aa2f54e2f1a7b7486c7"
+
+[build]
+system = "autotools"

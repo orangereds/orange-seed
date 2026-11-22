@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "googletest", "pkgconf", "simdjson"]
+
+[package]
+name = "quick-lint-js"
+version = "7_15"
+description = "Find bugs in your JavaScript code"
+homepage = "https://quick-lint-js.com/"
+
+[source]
+url = "https://c.quick-lint-js.com/releases/3.2.0/source/quick-lint-js-3.2.0.tar.gz"
+sha256 = "f17b39726622637946136076c406e89d3a98ae363d5e3c2a93ab1139bf0e828d"
+
+[build]
+system = "cmake"

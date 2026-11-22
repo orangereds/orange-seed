@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libtrace"]
+
+[package]
+name = "libflowmanager"
+version = "3.0.0_2"
+description = "Flow-based measurement tasks with packet-based inputs"
+homepage = "https://github.com/LibtraceTeam/libflowmanager"
+
+[source]
+url = "https://github.com/LibtraceTeam/libflowmanager/archive/refs/tags/v3.0.0.tar.gz"
+sha256 = "ab60c9c9611488e51c14b6e3870f91a191236dced12f0ed16a58cdd2c08ee74f"
+
+[build]
+system = "autotools"

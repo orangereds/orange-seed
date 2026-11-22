@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "firebase-cli"
+version = "0"
+description = "Firebase command-line tools"
+homepage = "https://firebase.google.com/docs/cli/"
+
+[source]
+url = "https://registry.npmjs.org/firebase-tools/-/firebase-tools-15.37.0.tgz"
+sha256 = "3917a60aa6f1878945265892ca7ebefe0f54d1c9b03ce8af043acf3d80d16e1d"
+
+[build]
+system = "autotools"

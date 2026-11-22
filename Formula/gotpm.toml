@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gotpm"
+version = "0.4.11"
+description = "CLI for using TPM 2.0"
+homepage = "https://github.com/google/go-tpm-tools"
+
+[source]
+url = "https://github.com/google/go-tpm-tools/archive/refs/tags/v0.4.11.tar.gz"
+sha256 = "050823ea0aa7bcc14a31f090ffb79bbb9ec5d96fadbb0094e63e75636b67fbe9"
+
+[build]
+system = "autotools"

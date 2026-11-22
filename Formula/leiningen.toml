@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "leiningen"
+version = "2.13.1"
+description = "Build tool for Clojure"
+homepage = "https://codeberg.org/leiningen/leiningen"
+
+[source]
+url = "https://github.com/technomancy/leiningen/archive/refs/tags/2.13.1.tar.gz"
+sha256 = "28bd0f099ad7e155c6f2880b118fbab591fa43baf0baff862bd402249825d88b"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "unibilium"
+version = "2.1.4"
+description = "Very basic terminfo library"
+homepage = "https://github.com/neovim/unibilium"
+
+[source]
+url = "https://github.com/neovim/unibilium/archive/refs/tags/v2.1.4.tar.gz"
+sha256 = "7360907bcf79ba49f6fc4a504767ff86e93ab9018477026fcc70d5ab77e1f2c1"
+
+[build]
+system = "autotools"

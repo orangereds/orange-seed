@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["help2man", "autoconf", "automake", "binutils", "bison", "flex", "libtool", "lzip", "m4", "ncurses", "python@3.15", "xz", "bash", "coreutils", "gawk", "gettext", "gnu-sed", "grep", "make", "texinfo"]
+
+[package]
+name = "crosstool-ng"
+version = "1.29.0"
+description = "Tool for building toolchains"
+homepage = "https://crosstool-ng.github.io/"
+
+[source]
+url = "https://github.com/crosstool-ng/crosstool-ng/releases/download/crosstool-ng-1.29.0/crosstool-ng-1.29.0.tar.xz"
+sha256 = "1e0c5efcf2af674993b74a1783fe78727c8d34b500ebab07eb1bb0a45c8fcc87"
+
+[build]
+system = "autotools"

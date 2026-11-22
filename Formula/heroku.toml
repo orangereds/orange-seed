@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "terminal-notifier"]
+
+[package]
+name = "heroku"
+version = "11.14.0"
+description = "CLI for Heroku"
+homepage = "https://www.npmjs.com/package/heroku/"
+
+[source]
+url = "https://registry.npmjs.org/heroku/-/heroku-11.14.0.tgz"
+sha256 = "1bde73d790d577b6bee8dbdddb755ac084f5357c23d06a86a688c016f9279b78"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "tor"]
+
+[package]
+name = "onioncat"
+version = "4.11.0"
+description = "VPN-adapter that provides location privacy using Tor or I2P"
+homepage = "https://github.com/rahra/onioncat"
+
+[source]
+url = "https://github.com/rahra/onioncat/releases/download/v4.11.0/onioncat-4.11.0.tar.gz"
+sha256 = "5413a02baa94ef4d986628e6ffc1d03e9dbb231db7bfa5a615cc0726c3aea686"
+
+[build]
+system = "autotools"

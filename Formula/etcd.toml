@@ -1,0 +1,24 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "etcd"
+version = "0"
+description = "Key value store for shared configuration and service discovery"
+homepage = "https://etcd.io"
+
+[source]
+url = "https://github.com/etcd-io/etcd.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/etcd/bin/etcd"
+keep_alive = true
+working_dir = "var"
+
+[service.env]
+ETCD_UNSUPPORTED_ARCH = "arm64"
+
+[build]
+system = "autotools"

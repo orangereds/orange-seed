@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust"]
+
+[package]
+name = "websocat"
+version = "1.14.2"
+description = "Command-line client for WebSockets"
+homepage = "https://github.com/vi/websocat"
+
+[source]
+url = "https://github.com/vi/websocat/archive/refs/tags/v1.14.2.tar.gz"
+sha256 = "cb49afdb6c108c5be9ae2e78d72f4c31cd2e464d4e3a9faa1e9f958b61e53e3d"
+
+[build]
+system = "autotools"

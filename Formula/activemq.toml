@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["java-service-wrapper", "openjdk"]
+
+[package]
+name = "activemq"
+version = "0"
+description = "Apache ActiveMQ: powerful open source messaging server"
+homepage = "https://activemq.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=activemq/6.4.0/apache-activemq-6.4.0-bin.tar.gz"
+sha256 = "75d0c6cbf32a9381b875e70e59f4ce855bf80948fa0520f8a7c4ae38c31ea6af"
+
+[service]
+run = "opt/activemq/bin/activemq console"
+working_dir = "opt_libexec"
+
+[build]
+system = "autotools"

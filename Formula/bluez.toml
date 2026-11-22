@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "dbus", "glib", "libical", "readline", "systemd"]
+
+[package]
+name = "bluez"
+version = "5.88"
+description = "Bluetooth protocol stack for Linux"
+homepage = "https://bluez.github.io/"
+
+[source]
+url = "https://mirrors.edge.kernel.org/pub/linux/bluetooth/bluez-5.88.tar.xz"
+sha256 = "6952c39eb5f8b0ee712cc50ab3bcff03be17c410dd97ca640f4849d9a1653ba3"
+
+[build]
+system = "autotools"

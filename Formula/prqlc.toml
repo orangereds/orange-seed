@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "prqlc"
+version = "0.13.14"
+description = "Simple, powerful, pipelined SQL replacement"
+homepage = "https://prql-lang.org"
+
+[source]
+url = "https://github.com/PRQL/prql/archive/refs/tags/0.13.14.tar.gz"
+sha256 = "fe92e306de6840ad55217684c88fc38ab1cd074a3e90cda7c124f00ee803b6e4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "boost", "libtool", "pkgconf"]
+
+[package]
+name = "libbitcoin-consensus"
+version = "3.8.0"
+description = "Bitcoin Consensus Library (optional)"
+homepage = "https://github.com/libbitcoin/libbitcoin-consensus"
+
+[source]
+url = "https://github.com/libbitcoin/libbitcoin-consensus/archive/refs/tags/v3.8.0.tar.gz"
+sha256 = "3f63b233a25323ff81de71a6c96455a6f5141e21cb0678a2304b36b56e771ca2"
+
+[build]
+system = "autotools"

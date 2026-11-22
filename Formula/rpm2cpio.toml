@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libarchive", "xz"]
+
+[package]
+name = "rpm2cpio"
+version = "1.4"
+description = "Tool to convert RPM package to CPIO archive"
+homepage = "https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio/"
+
+[source]
+url = "https://svnweb.freebsd.org/ports/head/archivers/rpm2cpio/files/rpm2cpio?revision=408590&view=co"
+sha256 = "2841bacdadde2a9225ca387c52259d6007762815468f621253ebb537d6636a00"
+
+[build]
+system = "autotools"

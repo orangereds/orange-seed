@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnu-sed", "help2man", "lz4", "lzo", "xz", "zstd"]
+
+[package]
+name = "squashfs"
+version = "4.7.5"
+description = "Compressed read-only file system for Linux"
+homepage = "https://github.com/plougher/squashfs-tools"
+
+[source]
+url = "https://github.com/plougher/squashfs-tools/archive/refs/tags/4.7.5.tar.gz"
+sha256 = "547b7b7f4d2e44bf91b6fc554664850c69563701deab9fd9cd7e21f694c88ea6"
+
+[build]
+system = "autotools"

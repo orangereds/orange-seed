@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext"]
+
+[package]
+name = "libiptcdata"
+version = "1.0.5"
+description = "Virtual package provided by libiptcdata0"
+homepage = "https://libiptcdata.sourceforge.net/"
+
+[source]
+url = "https://github.com/ianw/libiptcdata/releases/download/release_1_0_5/libiptcdata-1.0.5.tar.gz"
+sha256 = "c094d0df4595520f194f6f47b13c7652b7ecd67284ac27ab5f219bc3985ea29e"
+
+[build]
+system = "autotools"

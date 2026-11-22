@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "texinfo", "gnutls", "guile", "bdw-gc"]
+
+[package]
+name = "guile-gnutls"
+version = "5.0.3"
+description = "Guile bindings for the GnuTLS library"
+homepage = "https://codeberg.org/guile-gnutls/guile-gnutls"
+
+[source]
+url = "https://codeberg.org/guile-gnutls/guile-gnutls/releases/download/v5.0.3/guile-gnutls-5.0.3.tar.gz"
+sha256 = "230ae4f89dffac6d57fff618410611820e1550907aeef6065b121fe6410a7b6b"
+
+[build]
+system = "autotools"

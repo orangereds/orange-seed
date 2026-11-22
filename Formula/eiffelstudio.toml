@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "cairo", "gdk-pixbuf", "glib", "gtk+3", "libx11", "pango", "at-spi2-core", "gettext", "harfbuzz"]
+
+[package]
+name = "eiffelstudio"
+version = "25.02.98732"
+description = "Development environment for the Eiffel language"
+homepage = "https://www.eiffel.com"
+
+[source]
+url = "https://ftp.eiffel.com/pub/download/25.02/pp/PorterPackage_25.02_rev_98732.tar"
+sha256 = "fd7a1ec2a09e87535f077bdef542fed1665f6790c46b837b44497aec5b65c6dd"
+
+[build]
+system = "autotools"

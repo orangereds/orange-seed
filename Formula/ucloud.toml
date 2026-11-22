@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ucloud"
+version = "0.3.10"
+description = "Official tool for managing UCloud services"
+homepage = "https://www.ucloud.cn"
+
+[source]
+url = "https://github.com/ucloud/ucloud-cli/archive/refs/tags/v0.3.10.tar.gz"
+sha256 = "046384f660076a0fe235f18c6916c762c2d6f47a441ab037e64313467c0a2202"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["jansson"]
+
+[package]
+name = "bedops"
+version = "2.4.42"
+description = "Set and statistical operations on genomic data of arbitrary scale"
+homepage = "https://github.com/bedops/bedops"
+
+[source]
+url = "https://github.com/bedops/bedops/archive/refs/tags/v2.4.42.tar.gz"
+sha256 = "9daa0c098e37490a07f84664d2c61ff8909689995cf7e1673d259ccd4f1c453c"
+
+[build]
+system = "autotools"

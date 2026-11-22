@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gettext"]
+
+[package]
+name = "uniutils"
+version = "2.28"
+description = "Manipulate and analyze Unicode text"
+homepage = "https://billposer.org/Software/unidesc.html"
+
+[source]
+url = "https://billposer.org/Software/Downloads/uniutils-2.28.tar.gz"
+sha256 = "41c14c0223376f2d96c80c2ba1b1494fc74cd8982d561630e688e2245aaf3364"
+
+[build]
+system = "autotools"

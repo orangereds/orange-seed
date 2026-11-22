@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "connect"
+version = "1.106"
+description = "Provides SOCKS and HTTPS proxy support to SSH"
+homepage = "https://github.com/gotoh/ssh-connect"
+
+[source]
+url = "https://github.com/gotoh/ssh-connect/archive/refs/tags/1.106.tar.gz"
+sha256 = "4f07eec36e6da2c4641a9ea9a2fd0617d6fc6aff5b65b6433f8a6447bea8a002"
+
+[build]
+system = "autotools"

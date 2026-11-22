@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "ffmpeg", "giflib", "imath", "jpeg-turbo", "jpeg-xl", "libavif", "libheif", "libpng", "libtiff", "openexr", "openjpeg", "resvg", "webp", "brotli", "highway", "little-cms2", "xz"]
+
+[package]
+name = "libsail"
+version = "1.4.0"
+description = "Missing small and fast image decoding library for humans (not for machines)"
+homepage = "https://sail.software"
+
+[source]
+url = "https://github.com/HappySeaFox/sail/archive/refs/tags/v1.4.0.tar.gz"
+sha256 = "d248055481e51807ff8e692529008042e728a6547e8e061a4247e0e55e8360f4"
+
+[build]
+system = "cmake"

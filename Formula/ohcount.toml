@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gperf", "libmagic", "pcre2", "ragel"]
+
+[package]
+name = "ohcount"
+version = "4.0.0"
+description = "Source code line counter"
+homepage = "https://github.com/blackducksoftware/ohcount"
+
+[source]
+url = "https://github.com/blackducksoftware/ohcount/archive/refs/tags/4.0.0.tar.gz"
+sha256 = "d71f69fd025f5bae58040988108f0d8d84f7204edda1247013cae555bfdae1b9"
+
+[build]
+system = "autotools"

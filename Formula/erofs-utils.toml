@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "lz4", "xz"]
+
+[package]
+name = "erofs-utils"
+version = "1.9.4"
+description = "Utilities for Enhanced Read-Only File System"
+homepage = "https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git"
+
+[source]
+url = "https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs-utils.git/snapshot/erofs-utils-1.9.4.tar.gz"
+sha256 = "7d135aa2550326a5acf20f53c518aea5a8900015ce50700044e40f818c31dd80"
+
+[build]
+system = "autotools"

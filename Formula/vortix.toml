@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "openvpn", "wireguard-tools"]
+
+[package]
+name = "vortix"
+version = "0.6.0"
+description = "Terminal UI for WireGuard and OpenVPN with live telemetry and leak guarding"
+homepage = "https://github.com/Harry-kp/vortix"
+
+[source]
+url = "https://github.com/Harry-kp/vortix/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "a3efecbbb882ba2f985f9dd7d29accf5e9c521be7cfb1bf8bee18707897ed691"
+
+[build]
+system = "autotools"

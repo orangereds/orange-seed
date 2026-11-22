@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "jansson"]
+
+[package]
+name = "powerman"
+version = "2.4.4"
+description = "Control (remotely and in parallel) switched power distribution units"
+homepage = "https://github.com/chaos/powerman"
+
+[source]
+url = "https://github.com/chaos/powerman/releases/download/v2.4.4/powerman-2.4.4.tar.gz"
+sha256 = "d675502144bc0875def92dad4c0efc6d43bc81c78d6fdb09ebc5f3558b3b7c85"
+
+[build]
+system = "autotools"

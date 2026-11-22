@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "jsoncpp", "raptor", "rasqal", "llvm@18"]
+
+[package]
+name = "libsbol"
+version = "2.3.2_3"
+description = "Read and write files in the Synthetic Biology Open Language (SBOL)"
+homepage = "https://synbiodex.github.io/libSBOL"
+
+[source]
+url = "https://github.com/SynBioDex/libSBOL/archive/refs/tags/v2.3.2.tar.gz"
+sha256 = "c85de13b35dec40c920ff8a848a91c86af6f7c7ee77ed3c750f414bbbbb53924"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libnpupnp"]
+
+[package]
+name = "libupnpp"
+version = "1.0.4"
+description = "C++ wrapper for libnpupnp"
+homepage = "https://www.lesbonscomptes.com/upmpdcli/libupnpp-refdoc/libupnpp-ctl.html"
+
+[source]
+url = "https://www.lesbonscomptes.com/upmpdcli/downloads/libupnpp-1.0.4.tar.gz"
+sha256 = "4738a19be51c09bd59a26b28e305172e2052c0e970b2fad92320a2d7cf1157c5"
+
+[build]
+system = "autotools"

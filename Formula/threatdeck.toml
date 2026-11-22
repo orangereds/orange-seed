@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "openssl@4"]
+
+[package]
+name = "threatdeck"
+version = "0.6.0"
+description = "TUI threat intelligence monitoring and alerting platform"
+homepage = "https://threatdeck.io/"
+
+[source]
+url = "https://github.com/gripebomb/ThreatDeck/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "7fafb2a934a76a3c19b839149d12f12fc5ae9becfd353306f40e3c9234d1f653"
+
+[build]
+system = "autotools"

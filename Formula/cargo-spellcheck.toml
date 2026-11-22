@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["llvm", "pkgconf", "rust", "rustup", "hunspell"]
+
+[package]
+name = "cargo-spellcheck"
+version = "0.15.7"
+description = "Checks rust documentation for spelling and grammar mistakes"
+homepage = "https://github.com/drahnr/cargo-spellcheck"
+
+[source]
+url = "https://github.com/drahnr/cargo-spellcheck/archive/refs/tags/v0.15.7.tar.gz"
+sha256 = "e1516cdf8fbd8596c96d15c19ab04349a69d03a249fd73287685ac30c08f764e"
+
+[build]
+system = "autotools"

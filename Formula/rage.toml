@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rage"
+version = "0.12.1"
+description = "Simple, modern, secure file encryption"
+homepage = "https://str4d.xyz/rage"
+
+[source]
+url = "https://github.com/str4d/rage/archive/refs/tags/v0.12.1.tar.gz"
+sha256 = "3684e7e269a677180db116cb8115b008ea462dbb6f223f6983dd6750a863afaa"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@8"]
+
+[package]
+name = "fracturedjson"
+version = "0"
+description = "JSON formatter that produces highly readable but fairly compact output"
+homepage = "https://github.com/j-brooke/FracturedJson"
+
+[source]
+url = "https://github.com/j-brooke/FracturedJson/archive/refs/tags/cli-v1.1.0.tar.gz"
+sha256 = "0b6efec044f5c7d738f837124cdf5fc9d3b94864be8a9b07c2de8ffe22e2235a"
+
+[build]
+system = "autotools"

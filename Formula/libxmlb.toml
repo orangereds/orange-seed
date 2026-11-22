@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gobject-introspection", "meson", "ninja", "pkgconf", "vala", "glib", "xz", "zstd"]
+
+[package]
+name = "libxmlb"
+version = "0.3.30"
+description = "Library for querying compressed XML metadata"
+homepage = "https://github.com/hughsie/libxmlb"
+
+[source]
+url = "https://github.com/hughsie/libxmlb/releases/download/0.3.30/libxmlb-0.3.30.tar.xz"
+sha256 = "2cb894b873aac5fc9e9b6228d4e795f7236d16e429ed2de8f95179a131be3a68"
+
+[build]
+system = "autotools"

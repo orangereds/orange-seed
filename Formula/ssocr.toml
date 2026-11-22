@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "imlib2"]
+
+[package]
+name = "ssocr"
+version = "2.26.0"
+description = "Seven Segment Optical Character Recognition"
+homepage = "https://www.unix-ag.uni-kl.de/~auerswal/ssocr/"
+
+[source]
+url = "https://www.unix-ag.uni-kl.de/~auerswal/ssocr/ssocr-2.26.0.tar.bz2"
+sha256 = "d58f60ece1951755e1355cd0eeeb9545318ac9bb067de6afd62598f9f4c9f406"
+
+[build]
+system = "make"

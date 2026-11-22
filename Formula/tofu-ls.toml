@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "tofu-ls"
+version = "0.5.3"
+description = "OpenTofu Language Server"
+homepage = "https://opentofu.org"
+
+[source]
+url = "https://github.com/opentofu/tofu-ls/archive/refs/tags/v0.5.3.tar.gz"
+sha256 = "c55400f22a8f3a34eefba87ada87caa4eba79ca3175d2f62ca3cceab35699dd8"
+
+[build]
+system = "autotools"

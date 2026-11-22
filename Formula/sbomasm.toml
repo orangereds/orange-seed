@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "sbomasm"
+version = "2.1.2"
+description = "Tool to assemble and edit SBOMs"
+homepage = "https://github.com/interlynk-io/sbomasm"
+
+[source]
+url = "https://github.com/interlynk-io/sbomasm/archive/refs/tags/v2.1.2.tar.gz"
+sha256 = "1d23e648621b6094bcdcbcb0a5443dca403a1fa78f402ae372406b2e9547d7b3"
+
+[build]
+system = "autotools"

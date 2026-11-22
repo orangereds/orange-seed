@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "pandoc", "pkgconf", "icu4c@79"]
+
+[package]
+name = "nuspell"
+version = "5.1.9"
+description = "Fast and safe spellchecking C++ library"
+homepage = "https://nuspell.github.io/"
+
+[source]
+url = "https://github.com/nuspell/nuspell/archive/refs/tags/v5.1.9.tar.gz"
+sha256 = "658a28d2c622b6da5271544043a5b7b3e09881be8516a23efc11c43971b4b046"
+
+[build]
+system = "cmake"

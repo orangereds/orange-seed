@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@9"]
+
+[package]
+name = "jackett"
+version = "0.24.3036"
+description = "API Support for your favorite torrent trackers"
+homepage = "https://github.com/Jackett/Jackett"
+
+[source]
+url = "https://github.com/Jackett/Jackett/archive/refs/tags/v0.24.3036.tar.gz"
+sha256 = "bbc01b322c24b5cb1520c22dfd58b266175431300743516603c9b91e766e0007"
+
+[service]
+run = "opt/jackett/bin/jackett"
+keep_alive = true
+working_dir = "opt_libexec"
+log_path = "var/log/jackett.log"
+error_log_path = "var/log/jackett.log"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "oh-my-reddit"
+version = "0.1.5"
+description = "Beautiful Reddit threads, live in your terminal"
+homepage = "https://github.com/renatoworks/oh-my-reddit"
+
+[source]
+url = "https://github.com/renatoworks/oh-my-reddit/archive/refs/tags/v0.1.5.tar.gz"
+sha256 = "623db2b5489557f9b44cff6038b83ffecd8b35fdbd83766a78b52327a7f46ce6"
+
+[build]
+system = "autotools"

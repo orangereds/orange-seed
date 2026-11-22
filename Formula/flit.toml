@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "python@3.15"]
+
+[package]
+name = "flit"
+version = "4.2.0"
+description = "Simplified packaging of Python modules"
+homepage = "https://github.com/pypa/flit"
+
+[source]
+url = "https://files.pythonhosted.org/packages/02/a9/d5be8c8bf891211ed46961be240e4c0027012ac9ef5bbec3c2b90f75e8df/flit-4.2.0.tar.gz"
+sha256 = "4ab00f544721a241b15e634648f1bfac7268a0ec637f106ce3150939c2e2f4d9"
+
+[build]
+system = "autotools"

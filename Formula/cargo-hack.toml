@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "rustup"]
+
+[package]
+name = "cargo-hack"
+version = "0.6.46.crate"
+description = "Cargo subcommand to provide options for testing and continuous integration"
+homepage = "https://github.com/taiki-e/cargo-hack"
+
+[source]
+url = "https://static.crates.io/crates/cargo-hack/cargo-hack-0.6.46.crate"
+sha256 = "610b45cb5e6170800c3cf7cedc020af3b8008dc1596633761f75436aa38cd051"
+
+[build]
+system = "autotools"

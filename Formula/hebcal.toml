@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "hebcal"
+version = "5.18.0"
+description = "Perpetual Jewish calendar for the command-line"
+homepage = "https://hebcal.github.io/"
+
+[source]
+url = "https://github.com/hebcal/hebcal/archive/refs/tags/v5.18.0.tar.gz"
+sha256 = "0a7eb7b9922f5b42bd6776a3eb32bbf645458009c26a787c20011b96f6c33636"
+
+[build]
+system = "autotools"

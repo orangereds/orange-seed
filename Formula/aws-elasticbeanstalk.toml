@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "certifi", "cryptography", "libsodium", "libyaml", "python@3.15"]
+
+[package]
+name = "aws-elasticbeanstalk"
+version = "0"
+description = "Client for Amazon Elastic Beanstalk web service"
+homepage = "https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3.html"
+
+[source]
+url = "https://files.pythonhosted.org/packages/77/cf/337076f03bc577e41fb55729b7d849132c168411313e542d31cbb53f5a76/awsebcli-3.27.7.tar.gz"
+sha256 = "2e4d2b21a30b81526bab21f1ccfb80ac75a128b9cefa79b24c8544cac9f655ce"
+
+[build]
+system = "autotools"

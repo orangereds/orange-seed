@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet", "openssl@4"]
+
+[package]
+name = "gitversion"
+version = "7.0.1"
+description = "Easy semantic versioning for projects using Git"
+homepage = "https://gitversion.net/docs/"
+
+[source]
+url = "https://github.com/GitTools/GitVersion/archive/refs/tags/7.0.1.tar.gz"
+sha256 = "a6b01ce3850e132760da786be07b8603eb1a1492ba0476dd243117cd5e472731"
+
+[build]
+system = "autotools"

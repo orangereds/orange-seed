@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "libdvdcss"]
+
+[package]
+name = "libdvdread"
+version = "7.1.1"
+description = "C library for reading DVD-video images"
+homepage = "https://www.videolan.org/developers/libdvdnav.html"
+
+[source]
+url = "https://download.videolan.org/pub/videolan/libdvdread/7.1.1/libdvdread-7.1.1.tar.xz"
+sha256 = "a0d47876548bec806774bbf8dbf20bb19ba139464383156b32eb8e59915b90a9"
+
+[build]
+system = "autotools"

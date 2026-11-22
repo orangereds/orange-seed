@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["php"]
+
+[package]
+name = "deployer"
+version = "0"
+description = "Deployment tool written in PHP with support for popular frameworks"
+homepage = "https://deployer.org/"
+
+[source]
+url = "https://github.com/deployphp/deployer/releases/download/v8.0.5/deployer.phar"
+sha256 = "0026dfa73626a8ccde06222fe5fccf03e6d4a19e765914bb87d7d2cc21f3e57d"
+
+[build]
+system = "autotools"

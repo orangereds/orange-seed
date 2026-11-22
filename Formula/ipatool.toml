@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ipatool"
+version = "2.8.1"
+description = "CLI tool for searching and downloading app packages from the iOS App Store"
+homepage = "https://github.com/majd/ipatool"
+
+[source]
+url = "https://github.com/majd/ipatool/archive/refs/tags/v2.8.1.tar.gz"
+sha256 = "88704a28231ac0019016c1900edebc9dea0cf14de4e5bc90aa96fd594925bdc0"
+
+[build]
+system = "autotools"

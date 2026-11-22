@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "cmake-language-server"
+version = "0"
+description = "Language Server for CMake"
+homepage = "https://github.com/regen100/cmake-language-server"
+
+[source]
+url = "https://files.pythonhosted.org/packages/cf/ad/54c337fd2093a7c7c13528ac1393aeda009cdc16be954041834328845237/cmake_language_server-0.1.11.tar.gz"
+sha256 = "005f48367ec569457a7229a58f6762044fddacac647858b39d725ae2b3cd695b"
+
+[build]
+system = "autotools"

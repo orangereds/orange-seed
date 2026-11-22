@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "ditaa"
+version = "0.11.0-standalone.jar_1"
+description = "Convert ASCII diagrams into proper bitmap graphics"
+homepage = "https://ditaa.sourceforge.net/"
+
+[source]
+url = "https://github.com/stathissideris/ditaa/releases/download/v0.11.0/ditaa-0.11.0-standalone.jar"
+sha256 = "9418aa63ff6d89c5d2318396f59836e120e75bea7a5930c4d34aa10fe7a196a9"
+
+[build]
+system = "autotools"

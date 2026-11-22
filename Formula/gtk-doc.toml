@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "docbook", "docbook-xsl", "python@3.15"]
+
+[package]
+name = "gtk-doc"
+version = "1.37.0"
+description = "GTK+ documentation tool"
+homepage = "https://gitlab.gnome.org/GNOME/gtk-doc"
+
+[source]
+url = "https://download.gnome.org/sources/gtk-doc/1.37/gtk-doc-1.37.0.tar.xz"
+sha256 = "2facfb530ddcd20c03ed4758ef934e832626c393e2cacd23fc1249b7ed0e4246"
+
+[build]
+system = "autotools"

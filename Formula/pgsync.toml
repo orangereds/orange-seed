@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libpq", "ruby"]
+
+[package]
+name = "pgsync"
+version = "0.8.1_1"
+description = "Sync Postgres data between databases"
+homepage = "https://github.com/ankane/pgsync"
+
+[source]
+url = "https://github.com/ankane/pgsync/archive/refs/tags/v0.8.1.tar.gz"
+sha256 = "485c38e4c5bfec943bf8781f8c8ca4b773011c5767fb30be44d373566f40d5dc"
+
+[build]
+system = "autotools"

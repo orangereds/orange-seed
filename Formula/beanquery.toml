@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "meson", "ninja", "python@3.15"]
+
+[package]
+name = "beanquery"
+version = "0.2.0_1"
+description = "Customizable lightweight SQL query tool"
+homepage = "https://github.com/beancount/beanquery"
+
+[source]
+url = "https://files.pythonhosted.org/packages/7c/90/801eec23a07072dcf8df061cb6f27be6045e08c12a90b287e872ce0a12d3/beanquery-0.2.0.tar.gz"
+sha256 = "2d72b50a39003435c7fed183666572b8ea878b9860499d0f196b38469384cd2c"
+
+[build]
+system = "autotools"

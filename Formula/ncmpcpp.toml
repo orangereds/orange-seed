@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "boost", "fftw", "icu4c@79", "libmpdclient", "ncurses", "readline", "taglib"]
+
+[package]
+name = "ncmpcpp"
+version = "0.10.1_9"
+description = "Ncurses-based client for the Music Player Daemon"
+homepage = "https://rybczak.net/ncmpcpp/"
+
+[source]
+url = "https://github.com/ncmpcpp/ncmpcpp/archive/refs/tags/0.10.1.tar.gz"
+sha256 = "ddc89da86595d272282ae8726cc7913867b9517eec6e765e66e6da860b58e2f9"
+
+[build]
+system = "autotools"

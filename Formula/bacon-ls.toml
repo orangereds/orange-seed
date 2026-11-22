@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "bacon-ls"
+version = "0.32.0"
+description = "Rust diagnostic provider based on Bacon"
+homepage = "https://github.com/crisidev/bacon-ls"
+
+[source]
+url = "https://github.com/crisidev/bacon-ls/archive/refs/tags/0.32.0.tar.gz"
+sha256 = "45c0ff8fecb33ce96c7e464566d338e500e37673a82bb3c80bb96fcea4c502fd"
+
+[build]
+system = "autotools"

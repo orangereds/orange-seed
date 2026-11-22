@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf"]
+
+[package]
+name = "zzuf"
+version = "0.15"
+description = "Transparent application input fuzzer"
+homepage = "http://caca.zoy.org/wiki/zzuf"
+
+[source]
+url = "https://github.com/samhocevar/zzuf/releases/download/v0.15/zzuf-0.15.tar.bz2"
+sha256 = "04353d94c68391b3945199f100ab47fc5ff7815db1e92581a600d4175e3a6872"
+
+[build]
+system = "autotools"

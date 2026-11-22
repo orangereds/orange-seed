@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-tools"
+version = "2025.08"
+description = "Assorted git-related scripts and tools"
+homepage = "https://github.com/MestreLion/git-tools"
+
+[source]
+url = "https://github.com/MestreLion/git-tools/archive/refs/tags/v2025.08.tar.gz"
+sha256 = "65eb05f2959861d16e60d132b2175169e6e1aec840ab6e4bae556c6d08a199a7"
+
+[build]
+system = "autotools"

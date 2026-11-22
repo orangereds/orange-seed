@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["meson", "ninja", "pkgconf", "xorgproto", "tradcpp"]
+
+[package]
+name = "imake"
+version = "1.0.11"
+description = "Build automation system written for X11"
+homepage = "https://xorg.freedesktop.org"
+
+[source]
+url = "https://xorg.freedesktop.org/releases/individual/util/imake-1.0.11.tar.xz"
+sha256 = "55955527eaebe94633e4083d4fe5f2160a65fe4c6dafdee48b89fea5f1ca8a78"
+
+[build]
+system = "autotools"

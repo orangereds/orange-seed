@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "opentofu"]
+
+[package]
+name = "tfprovidercheck"
+version = "1.0.8"
+description = "CLI to prevent malicious Terraform Providers from being executed"
+homepage = "https://github.com/suzuki-shunsuke/tfprovidercheck"
+
+[source]
+url = "https://github.com/suzuki-shunsuke/tfprovidercheck/archive/refs/tags/v1.0.8.tar.gz"
+sha256 = "a65ad63250b2640d4891294f804a4dfdf90ffae06491b1172437c1f1c97b266a"
+
+[build]
+system = "autotools"

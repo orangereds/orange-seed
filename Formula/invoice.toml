@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "invoice"
+version = "0.1.0"
+description = "Command-line invoice generator"
+homepage = "https://github.com/maaslalani/invoice"
+
+[source]
+url = "https://github.com/maaslalani/invoice/archive/refs/tags/v0.1.0.tar.gz"
+sha256 = "f34f20f6491f42c0e94dbde433a578f0dba98938f2e3186018d3e16d050abdaf"
+
+[build]
+system = "autotools"

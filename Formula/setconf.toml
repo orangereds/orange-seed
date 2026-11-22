@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "setconf"
+version = "0.7.7"
+description = "Utility for easily changing settings in configuration files"
+homepage = "https://setconf.roboticoverlords.org/"
+
+[source]
+url = "https://setconf.roboticoverlords.org/setconf-0.7.7.tar.xz"
+sha256 = "19315574540b3181fec31a4059b9e058381e0192317f153d181e7e7e2aa84d86"
+
+[build]
+system = "autotools"

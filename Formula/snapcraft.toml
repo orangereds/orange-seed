@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["certifi", "cryptography", "libsodium", "libyaml", "lxc", "pydantic", "pygit2", "python@3.15", "snap", "xdelta"]
+
+[package]
+name = "snapcraft"
+version = "0_1"
+description = "Package any app for every Linux desktop, server, cloud or device"
+homepage = "https://snapcraft.io/"
+
+[source]
+url = "https://github.com/canonical/snapcraft.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

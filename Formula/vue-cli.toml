@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "terminal-notifier"]
+
+[package]
+name = "vue-cli"
+version = "0"
+description = "Standard Tooling for Vue.js Development"
+homepage = "https://cli.vuejs.org/"
+
+[source]
+url = "https://registry.npmjs.org/@vue/cli/-/cli-5.0.8.tgz"
+sha256 = "29aa4eb0ba827624e42683e1339ebd40e663ad09836dd027df30e3d2108b0b71"
+
+[build]
+system = "autotools"

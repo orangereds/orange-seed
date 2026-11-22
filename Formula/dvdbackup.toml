@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libdvdread"]
+
+[package]
+name = "dvdbackup"
+version = "0.4.2_3"
+description = "Rip DVD's from the command-line"
+homepage = "https://dvdbackup.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/dvdbackup/dvdbackup/dvdbackup-0.4.2/dvdbackup-0.4.2.tar.gz"
+sha256 = "0a37c31cc6f2d3c146ec57064bda8a06cf5f2ec90455366cb250506bab964550"
+
+[build]
+system = "autotools"

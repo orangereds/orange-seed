@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dnscrypt-proxy"
+version = "2.1.20"
+description = "Secure communications between a client and a DNS resolver"
+homepage = "https://dnscrypt.info"
+
+[source]
+url = "https://github.com/DNSCrypt/dnscrypt-proxy/archive/refs/tags/2.1.20.tar.gz"
+sha256 = "2e6adb32e0f91cb755f1d2c060cddcc80ffca6a181bf03c90df22bbade121607"
+
+[service]
+run = "dnscrypt-proxy -config etc/dnscrypt-proxy.toml"
+keep_alive = true
+
+[build]
+system = "autotools"

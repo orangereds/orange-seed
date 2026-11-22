@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "scw"
+version = "2.66.2"
+description = "Command-line Interface for Scaleway"
+homepage = "https://www.scaleway.com/en/cli/"
+
+[source]
+url = "https://github.com/scaleway/scaleway-cli/archive/refs/tags/v2.66.2.tar.gz"
+sha256 = "e75a410a2edff855acbb309009fb6d571c92fa738f736586d392da2fdf9d3b0b"
+
+[build]
+system = "autotools"

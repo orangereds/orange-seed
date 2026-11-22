@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "terraform-ls"
+version = "0.39.1"
+description = "Terraform Language Server"
+homepage = "https://github.com/hashicorp/terraform-ls"
+
+[source]
+url = "https://github.com/hashicorp/terraform-ls/archive/refs/tags/v0.39.1.tar.gz"
+sha256 = "bd755d769b2116cd25b3634e120d5c7295c330f7179a5d9cdf13af67c95da34a"
+
+[build]
+system = "autotools"

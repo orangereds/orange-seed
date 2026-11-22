@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "kin"
+version = "2.1.16"
+description = "Sane PBXProj files"
+homepage = "https://github.com/Serchinastico/Kin"
+
+[source]
+url = "https://files.pythonhosted.org/packages/14/9e/f8b5cbc9e647bbc06f14927fdd16d7dbbc33e3194f7150198dd44c66ae8a/kin-2.1.16.tar.gz"
+sha256 = "35f571875a470d92632657116e78e0f28a2b25796f0bb2bc2497609ca7b960ab"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "fmt", "pkgconf", "zstd"]
+
+[package]
+name = "avro-cpp"
+version = "0"
+description = "Data serialization system"
+homepage = "https://avro.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=avro/avro-1.12.2/cpp/avro-cpp-1.12.2.tar.gz"
+sha256 = "5e4cea5d9dc59bbc0e3e1967fd8f8a86b4cb7c1452c4b252561b8137e949f6fd"
+
+[build]
+system = "cmake"

@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["liblo", "libmonome", "libuv"]
+
+[package]
+name = "serialosc"
+version = "0_1"
+description = "Opensound control server for monome devices"
+homepage = "https://github.com/monome/docs/blob/gh-pages/serialosc/osc.md"
+
+[source]
+url = "https://github.com/monome/serialosc.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[service]
+run = "opt/serialosc/bin/serialoscd"
+keep_alive = true
+log_path = "var/log/serialoscd.log"
+error_log_path = "var/log/serialoscd.log"
+
+[build]
+system = "autotools"

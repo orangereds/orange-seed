@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "mecab-ko"]
+
+[package]
+name = "mecab-ko-dic"
+version = "2.1.1-20180720"
+description = "See mecab"
+homepage = "https://bitbucket.org/eunjeon/mecab-ko-dic"
+
+[source]
+url = "https://bitbucket.org/eunjeon/mecab-ko-dic/downloads/mecab-ko-dic-2.1.1-20180720.tar.gz"
+sha256 = "fd62d3d6d8fa85145528065fabad4d7cb20f6b2201e71be4081a4e9701a5b330"
+
+[build]
+system = "autotools"

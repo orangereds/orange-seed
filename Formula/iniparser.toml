@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "iniparser"
+version = "4.3.2"
+description = "Library for parsing ini files"
+homepage = "https://gitlab.com/iniparser/iniparser"
+
+[source]
+url = "https://gitlab.com/iniparser/iniparser/-/archive/v4.3.2/iniparser-v4.3.2.tar.bz2"
+sha256 = "60fbba5c2f6c2aa3856c3ba1b6674e48f3322e3437228e5e7df7a0f222e52ac7"
+
+[build]
+system = "cmake"

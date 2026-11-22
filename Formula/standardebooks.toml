@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cffi", "openjdk", "pillow", "pycparser", "python@3.15"]
+
+[package]
+name = "standardebooks"
+version = "4.1.1"
+description = "Tools for producing ebook files"
+homepage = "https://github.com/standardebooks/tools"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e5/12/782a37f8833b099096e1bc5da4237416c9dac966a7e7defb41a751899bcf/standardebooks-4.1.1.tar.gz"
+sha256 = "30a5db8224235645256d16653f3f3ce39c8d2890c7fdada43548e0c7eab233c8"
+
+[build]
+system = "autotools"

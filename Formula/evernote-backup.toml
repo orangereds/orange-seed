@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "python@3.15"]
+
+[package]
+name = "evernote-backup"
+version = "0"
+description = "Backup & export all Evernote notes and notebooks"
+homepage = "https://github.com/vzhd1701/evernote-backup"
+
+[source]
+url = "https://files.pythonhosted.org/packages/93/cc/3365f0433896d50e70df92858003d6f0c4d87b7e21f36f4868efeb613ab7/evernote_backup-1.15.0.tar.gz"
+sha256 = "7e0db3b9a4f3711d8582e991063dfcd09f9bfc62d57ee94abffb544ef5767bb2"
+
+[build]
+system = "autotools"

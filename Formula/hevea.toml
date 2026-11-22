@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ocamlbuild", "ocaml"]
+
+[package]
+name = "hevea"
+version = "2.38_1"
+description = "LaTeX-to-HTML translator"
+homepage = "https://hevea.inria.fr/"
+
+[source]
+url = "https://hevea.inria.fr/old/hevea-2.38.tar.gz"
+sha256 = "722038065007226f0fa3de4629127294d2e29bfbbc41042c83a570fa0c455a47"
+
+[build]
+system = "autotools"

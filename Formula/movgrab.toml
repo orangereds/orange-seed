@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libressl"]
+
+[package]
+name = "movgrab"
+version = "3.1.2_10"
+description = "Downloader for youtube, dailymotion, and other video websites"
+homepage = "https://github.com/ColumPaget/Movgrab"
+
+[source]
+url = "https://github.com/ColumPaget/Movgrab/archive/refs/tags/3.1.2.tar.gz"
+sha256 = "30be6057ddbd9ac32f6e3d5456145b09526cc6bd5e3f3fb3999cc05283457529"
+
+[build]
+system = "autotools"

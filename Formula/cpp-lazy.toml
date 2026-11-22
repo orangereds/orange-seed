@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "fmt"]
+
+[package]
+name = "cpp-lazy"
+version = "0"
+description = "C++11 (and onwards) library for lazy evaluation"
+homepage = "https://github.com/Kaaserne/cpp-lazy"
+
+[source]
+url = "https://github.com/Kaaserne/cpp-lazy/releases/download/v9.0.1/cpp-lazy-src.zip"
+sha256 = "675fd6a494608e0e2e88fedc9b34c7349c7acbd11aaa07fe30e099cc54acb44d"
+
+[build]
+system = "cmake"

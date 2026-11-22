@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "aws-cdk"
+version = "2.1149.0"
+description = "AWS Cloud Development Kit - framework for defining AWS infra as code"
+homepage = "https://github.com/aws/aws-cdk"
+
+[source]
+url = "https://registry.npmjs.org/aws-cdk/-/aws-cdk-2.1149.0.tgz"
+sha256 = "fc11f7ea79d34024eb00cf055b40d5d2020361a094298c16c29b01920ab9ad56"
+
+[build]
+system = "autotools"

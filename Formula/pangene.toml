@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "pangene"
+version = "1.1"
+description = "Construct pangenome gene graphs"
+homepage = "https://github.com/lh3/pangene"
+
+[source]
+url = "https://github.com/lh3/pangene/archive/refs/tags/v1.1.tar.gz"
+sha256 = "9fbb6faa4d53b1e163a186375ca01bbac4395aa4c88d1ca00d155e751fb89cf8"
+
+[build]
+system = "autotools"

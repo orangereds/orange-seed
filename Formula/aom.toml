@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "libvmaf", "nasm"]
+
+[package]
+name = "aom"
+version = "0"
+description = "Codec library for encoding and decoding AV1 video streams"
+homepage = "https://aomedia.googlesource.com/aom"
+
+[source]
+url = "https://aomedia.googlesource.com/aom.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "cmake"

@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["protobuf", "rust"]
+
+[package]
+name = "typedb"
+version = "3.15.0"
+description = "Strongly-typed database with a rich and logical type system"
+homepage = "https://typedb.com/"
+
+[source]
+url = "https://github.com/typedb/typedb/archive/refs/tags/3.15.0.tar.gz"
+sha256 = "a7af244dec329fa6f6979cf5449ec45bc6a00177ef62234c919fe8b6b8212697"
+
+[service]
+run = "opt/typedb/bin/typedb --config etc/typedb/config.yml"
+keep_alive = true
+working_dir = "var/typedb"
+
+[build]
+system = "autotools"

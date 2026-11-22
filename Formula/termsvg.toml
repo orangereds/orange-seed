@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "termsvg"
+version = "0.13.0"
+description = "Record, share and export your terminal as a animated SVG image"
+homepage = "https://github.com/MrMarble/termsvg"
+
+[source]
+url = "https://github.com/MrMarble/termsvg/archive/refs/tags/v0.13.0.tar.gz"
+sha256 = "b7b75b27507c7be0e23df074782a0901a2cb6844da14a89622c3f787397b3862"
+
+[build]
+system = "autotools"

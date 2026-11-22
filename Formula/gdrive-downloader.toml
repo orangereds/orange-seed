@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bash"]
+
+[package]
+name = "gdrive-downloader"
+version = "2.0"
+description = "Download a gdrive folder or file easily, shell ftw"
+homepage = "https://github.com/Akianonymus/gdrive-downloader"
+
+[source]
+url = "https://github.com/Akianonymus/gdrive-downloader/archive/refs/tags/v2.0.tar.gz"
+sha256 = "0c9cccf7c10b02b31fd1e8b40b8c68b6d2cce34bc1534c7732024a21d637d273"
+
+[build]
+system = "autotools"

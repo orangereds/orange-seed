@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "mx", "ninja", "openjdk@25", "pkgconf", "freetype", "giflib", "harfbuzz", "jpeg-turbo", "libpng", "little-cms2"]
+
+[package]
+name = "graalvm"
+version = "25.5-b26"
+description = "JDK distribution with Graal compiler and Native Image"
+homepage = "https://www.graalvm.org/"
+
+[source]
+url = "https://github.com/oracle/graal/archive/refs/tags/graal-25.5.5.0.3.tar.gz"
+sha256 = "aeeedf50bf8c65a150fab0ac719b2c7a829c206ec314af62296a89724aa899ba"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

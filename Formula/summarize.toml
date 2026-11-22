@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["ffmpeg", "node", "tesseract", "yt-dlp"]
+
+[package]
+name = "summarize"
+version = "0.26.1"
+description = "Multi-modal AI tool to extract and summarize content"
+homepage = "https://summarize.sh"
+
+[source]
+url = "https://registry.npmjs.org/@steipete/summarize/-/summarize-0.26.1.tgz"
+sha256 = "18f3f6553a1fa0153cb10309a9a88c18ca4a8ad585de8a924322665c8a05b5b7"
+
+[build]
+system = "autotools"

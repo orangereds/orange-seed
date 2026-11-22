@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openblas"]
+
+[package]
+name = "blaze"
+version = "3.8.2"
+description = "High-performance C++ math library for dense and sparse arithmetic"
+homepage = "https://bitbucket.org/blaze-lib/blaze"
+
+[source]
+url = "https://bitbucket.org/blaze-lib/blaze/downloads/blaze-3.8.2.tar.gz"
+sha256 = "4c4e1915971efbedab95790e4c5cf017d8448057fa8f8c62c46e1643bf72cbb1"
+
+[build]
+system = "cmake"

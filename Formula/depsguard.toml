@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "depsguard"
+version = "0.1.40"
+description = "Harden package manager configs against supply chain attacks"
+homepage = "https://depsguard.com"
+
+[source]
+url = "https://github.com/arnica/depsguard/archive/refs/tags/v0.1.40.tar.gz"
+sha256 = "0db158f447f8ebf887466ae57f0d7bf6f02c8d647fa02235d3ebb5852a395193"
+
+[build]
+system = "autotools"

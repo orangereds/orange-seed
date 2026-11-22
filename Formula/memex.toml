@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "onnxruntime"]
+
+[package]
+name = "memex"
+version = "0.34.1"
+description = "Index and search local agent conversation history"
+homepage = "https://github.com/nicosuave/memex"
+
+[source]
+url = "https://github.com/nicosuave/memex/archive/refs/tags/v0.34.1.tar.gz"
+sha256 = "da80f745becdb2e6ea172a1a7f268b91007afc6d956141cf0f586024ee69d885"
+
+[service]
+run = "opt/memex/bin/memex daemon run"
+keep_alive = true
+log_path = "var/log/memex.log"
+error_log_path = "var/log/memex.log"
+
+[build]
+system = "autotools"

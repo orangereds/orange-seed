@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "luajit"]
+
+[package]
+name = "xplr"
+version = "1.2.2"
+description = "Hackable, minimal, fast TUI file explorer"
+homepage = "https://xplr.dev"
+
+[source]
+url = "https://github.com/sayanarijit/xplr/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "25029a01d5c849cede183ec7bccc6c8bdb4e68c8070d573b288169671dc3ee3e"
+
+[build]
+system = "autotools"

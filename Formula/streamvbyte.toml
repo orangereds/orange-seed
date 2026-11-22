@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "streamvbyte"
+version = "3.2.1"
+description = "Fast integer compression in C"
+homepage = "https://fast-pack.github.io/streamvbyte/"
+
+[source]
+url = "https://github.com/fast-pack/streamvbyte/archive/refs/tags/v3.2.1.tar.gz"
+sha256 = "838195fd3347c52735f9c44922fb6e2a509fd31db40fdf892b42347548a1fe3a"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "rust", "rustup"]
+
+[package]
+name = "cargo-edit"
+version = "0.13.14"
+description = "Utility for managing cargo dependencies from the command-line"
+homepage = "https://killercup.github.io/cargo-edit/"
+
+[source]
+url = "https://github.com/killercup/cargo-edit/archive/refs/tags/v0.13.14.tar.gz"
+sha256 = "52f49ea8f76e2caa48d3b57bbcdfe1768268f25ad9a1f07878d9c670488180fb"
+
+[build]
+system = "autotools"

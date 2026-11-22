@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "papilo", "soplex", "cppad", "gcc", "gmp", "ipopt", "mpfr", "openblas", "readline", "tbb", "boost"]
+
+[package]
+name = "scip"
+version = "10.1.0"
+description = "Solver for mixed integer programming and mixed integer nonlinear programming"
+homepage = "https://scipopt.org"
+
+[source]
+url = "https://scipopt.org/download/release/scip-10.1.0.tgz"
+sha256 = "fe8cfd15a03970ef45156ed56c6a4382485bd095e0e99cf7d7db87cdf8d47304"
+
+[build]
+system = "cmake"

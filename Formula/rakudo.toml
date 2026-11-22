@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["moarvm", "nqp"]
+
+[package]
+name = "rakudo"
+version = "2026.11"
+description = "Mature, production-ready implementation of the Raku language"
+homepage = "https://rakudo.org"
+
+[source]
+url = "https://github.com/rakudo/rakudo/releases/download/2026.11/rakudo-2026.11.tar.gz"
+sha256 = "02f71c340e943163de524ed4ea3c872143ca03a907a11326d54f2d150789ab43"
+
+[build]
+system = "autotools"

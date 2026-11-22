@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "pegtl"
+version = "4.0.2"
+description = "Parsing Expression Grammar Template Library"
+homepage = "https://github.com/taocpp/PEGTL"
+
+[source]
+url = "https://github.com/taocpp/PEGTL/archive/refs/tags/4.0.2.tar.gz"
+sha256 = "0fe55b672cbeaa4dc047b7658f0a5d6aae0d94a5ee25727d25df43f148fc8709"
+
+[build]
+system = "cmake"

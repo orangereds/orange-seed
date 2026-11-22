@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "bison", "pkgconf", "libxml2"]
+
+[package]
+name = "libdap"
+version = "3.21.1_1"
+description = "Framework for scientific data networking"
+homepage = "https://www.opendap.org/"
+
+[source]
+url = "https://www.opendap.org/pub/source/libdap-3.21.1.tar.gz"
+sha256 = "1f6c084bdbf2686121f9b2f5e767275c1e37d9ccf67c8faabc762389f95a0c38"
+
+[build]
+system = "autotools"

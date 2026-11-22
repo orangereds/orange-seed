@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gdk-pixbuf", "gobject-introspection", "meson", "ninja", "pkgconf", "python@3.15", "glib", "sqlite"]
+
+[package]
+name = "gom"
+version = "0.5.6"
+description = "GObject wrapper around SQLite"
+homepage = "https://wiki.gnome.org/Projects/Gom"
+
+[source]
+url = "https://download.gnome.org/sources/gom/0.5/gom-0.5.6.tar.xz"
+sha256 = "4d7a5e268698c8e7e40603e36e9e3a2b76133931ce1b637c1136301491b54cc3"
+
+[build]
+system = "autotools"

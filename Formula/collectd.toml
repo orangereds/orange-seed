@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "pkgconf", "libgcrypt", "libtool", "net-snmp", "protobuf-c", "riemann-client", "libgpg-error"]
+
+[package]
+name = "collectd"
+version = "5.12.0_11"
+description = "Statistics collection and monitoring daemon"
+homepage = "https://collectd.org/"
+
+[source]
+url = "https://storage.googleapis.com/collectd-tarballs/collectd-5.12.0.tar.bz2"
+sha256 = "5bae043042c19c31f77eb8464e56a01a5454e0b39fa07cf7ad0f1bfc9c3a09d6"
+
+[service]
+run = "collectd -f -C etc/collectd.conf"
+keep_alive = true
+log_path = "var/log/collectd.log"
+error_log_path = "var/log/collectd.log"
+
+[build]
+system = "make"

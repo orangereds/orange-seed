@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nave"
+version = "3.5.6"
+description = "Virtual environments for Node.js"
+homepage = "https://github.com/isaacs/nave"
+
+[source]
+url = "https://github.com/isaacs/nave/archive/refs/tags/v3.5.6.tar.gz"
+sha256 = "d5360cbfe3afda8622fa838183eec53503f8e3f4e08c224b5b1458159f30a99e"
+
+[build]
+system = "autotools"

@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@11"]
+
+[package]
+name = "apache-flink@1"
+version = "1.20.5"
+description = "Scalable batch and stream data processing"
+homepage = "https://flink.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=flink/flink-1.20.5/flink-1.20.5-bin-scala_2.12.tgz"
+sha256 = "83305e28ee83bbac95ee26f08c42bc2df8a67bdb0259850f9078cca157b9a4e1"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

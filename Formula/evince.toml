@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["desktop-file-utils", "gettext", "gobject-introspection", "itstool", "meson", "ninja", "pkgconf", "adwaita-icon-theme", "at-spi2-core", "cairo", "djvulibre", "gdk-pixbuf", "glib", "gspell", "gtk+3", "hicolor-icon-theme", "libarchive", "libgxps", "libhandy", "libsecret", "libspectre", "libtiff", "pango", "poppler"]
+
+[package]
+name = "evince"
+version = "48.5"
+description = "GNOME document viewer"
+homepage = "https://apps.gnome.org/Evince/"
+
+[source]
+url = "https://download.gnome.org/sources/evince/48/evince-48.5.tar.xz"
+sha256 = "0c7aba9485d0b6fb9f3e0ee75be916544744dc2ed9d58a2f9936a2e0434ac4a6"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["fzf"]
+
+[package]
+name = "git-recent"
+version = "2.2.0"
+description = "Browse your latest git branches, formatted real fancy"
+homepage = "https://github.com/paulirish/git-recent"
+
+[source]
+url = "https://github.com/paulirish/git-recent/archive/refs/tags/v2.2.0.tar.gz"
+sha256 = "2930b5e2ccb0e5e058c78b119dad60b9f4576736a9afed7f8c821a9b93324b1d"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["numpy", "python@3.15", "scipy"]
+
+[package]
+name = "badread"
+version = "0.4.2"
+description = "Long read simulator that can imitate many types of read problems"
+homepage = "https://github.com/rrwick/Badread"
+
+[source]
+url = "https://github.com/rrwick/Badread/archive/refs/tags/v0.4.2.tar.gz"
+sha256 = "488ee2c4b87c064904e2ea1ef24ef833c2f5932aa4c1f03e361e2e4061692baf"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "zsh-history-enquirer"
+version = "1.3.2"
+description = "Zsh plugin that enhances history search interaction"
+homepage = "https://zsh-history-enquirer.zthxxx.me"
+
+[source]
+url = "https://registry.npmjs.org/zsh-history-enquirer/-/zsh-history-enquirer-1.3.2.tgz"
+sha256 = "eb5fc111b9122974e086f625ba6b46accb8e06ee7cad9519b0f2daec098f7ff1"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "brainfuck"
+version = "2.7.3"
+description = "Interpreter for the brainfuck language"
+homepage = "https://github.com/fabianishere/brainfuck"
+
+[source]
+url = "https://github.com/fabianishere/brainfuck/archive/refs/tags/2.7.3.tar.gz"
+sha256 = "d99be61271b4c27e26a8154151574aa3750133a0bedd07124b92ccca1e03b5a7"
+
+[build]
+system = "cmake"

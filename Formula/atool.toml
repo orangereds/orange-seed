@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "atool"
+version = "0.39.0"
+description = "Archival front-end"
+homepage = "https://savannah.nongnu.org/projects/atool/"
+
+[source]
+url = "https://download.savannah.gnu.org/releases/atool/atool-0.39.0.tar.gz"
+sha256 = "aaf60095884abb872e25f8e919a8a63d0dabaeca46faeba87d12812d6efc703b"
+
+[build]
+system = "autotools"

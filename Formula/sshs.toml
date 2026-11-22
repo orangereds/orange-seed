@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "sshs"
+version = "4.8.0"
+description = "Graphical command-line client for SSH"
+homepage = "https://github.com/quantumsheep/sshs"
+
+[source]
+url = "https://github.com/quantumsheep/sshs/archive/refs/tags/4.8.0.tar.gz"
+sha256 = "d78c9a4b63fe7e1b6f4ea7de8910a28a6caa745f53a76feff59a3a580a9f6268"
+
+[build]
+system = "autotools"

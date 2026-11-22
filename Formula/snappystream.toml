@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "snappy"]
+
+[package]
+name = "snappystream"
+version = "1.0.0_1"
+description = "C++ snappy stream realization (compatible with snappy)"
+homepage = "https://github.com/hoxnox/snappystream"
+
+[source]
+url = "https://github.com/hoxnox/snappystream/archive/refs/tags/1.0.0.tar.gz"
+sha256 = "a50a1765eac1999bf42d0afd46d8704e8c4040b6e6c05dcfdffae6dcd5c6c6b8"
+
+[build]
+system = "cmake"

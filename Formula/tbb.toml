@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pkgconf", "python-setuptools", "python@3.15", "swig", "hwloc"]
+
+[package]
+name = "tbb"
+version = "2023.2.0"
+description = "Rich and complete approach to parallelism in C++"
+homepage = "https://uxlfoundation.github.io/oneTBB/"
+
+[source]
+url = "https://github.com/uxlfoundation/oneTBB/archive/refs/tags/v2023.2.0.tar.gz"
+sha256 = "80cb62e62defeee67ea1885a6f72d97ac81404f8fde9cded62fb51524808a30c"
+
+[build]
+system = "cmake"

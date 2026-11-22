@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "texlive"]
+
+[package]
+name = "biber"
+version = "2.22_1"
+description = "Backend processor for BibLaTeX"
+homepage = "https://sourceforge.net/projects/biblatex-biber/"
+
+[source]
+url = "https://github.com/plk/biber/archive/refs/tags/v2.22.tar.gz"
+sha256 = "82adcff9e71b4fc02ad6132f9ccd79137ad390e4d3392c7f681a85246c0cdc01"
+
+[build]
+system = "autotools"

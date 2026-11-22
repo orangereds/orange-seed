@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "television"
+version = "0.15.9"
+description = "General purpose fuzzy finder TUI"
+homepage = "https://alexpasmantier.github.io/television/"
+
+[source]
+url = "https://github.com/alexpasmantier/television/archive/refs/tags/0.15.9.tar.gz"
+sha256 = "5f46cbe7b14e1d6e3958f436b1d6ed8af86e9914d7d2aee5a9379e8e1772072d"
+
+[build]
+system = "autotools"

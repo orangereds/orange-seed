@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnupg", "libassuan", "libgpg-error"]
+
+[package]
+name = "gpgme"
+version = "2.3.1"
+description = "Library access to GnuPG"
+homepage = "https://www.gnupg.org/related_software/gpgme/"
+
+[source]
+url = "https://www.gnupg.org/ftp/gcrypt/gpgme/gpgme-2.3.1.tar.bz2"
+sha256 = "2bf94e0e677e5a8fc31f79dd323f91c5416b36fb851058bc1e8bce39f2642434"
+
+[build]
+system = "autotools"

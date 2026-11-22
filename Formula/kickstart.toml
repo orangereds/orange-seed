@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "kickstart"
+version = "0.6.0"
+description = "Scaffolding tool to get new projects up and running quickly"
+homepage = "https://github.com/Keats/kickstart"
+
+[source]
+url = "https://github.com/Keats/kickstart/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "0888ca59bc11e2c9531957047973b3f4d28e4270c03d1272f29d8b73f12bb142"
+
+[build]
+system = "autotools"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "diffutils"
+version = "3.12"
+description = "File comparison utilities"
+homepage = "https://www.gnu.org/software/diffutils/"
+
+[source]
+url = "https://ftpmirror.gnu.org/diffutils/diffutils-3.12.tar.xz"
+sha256 = "7c8b7f9fc8609141fdea9cece85249d308624391ff61dedaf528fcb337727dfd"
+
+[build]
+system = "autotools"

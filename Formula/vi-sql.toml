@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "vi-sql"
+version = "0.6.0"
+description = "Terminal UI for SQL databases"
+homepage = "https://vi-sql.com"
+
+[source]
+url = "https://github.com/kopecmaciej/vi-sql/archive/refs/tags/v0.6.0.tar.gz"
+sha256 = "97cb4db898f70f17488b601180e3c246aff494172c6282b5a5852c6f620c795f"
+
+[build]
+system = "autotools"

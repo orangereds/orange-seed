@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "nuls"
+version = "0.2.0.crate"
+description = "NuShell-inspired ls with colorful table output"
+homepage = "https://github.com/cesarferreira/nuls"
+
+[source]
+url = "https://static.crates.io/crates/nuls/nuls-0.2.0.crate"
+sha256 = "24fb69fbb3ca465f6e051d36c75867f9fbe3e358eedb931fcb65125e4946e08e"
+
+[build]
+system = "autotools"

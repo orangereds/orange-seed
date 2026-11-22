@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["python@3.15"]
+
+[package]
+name = "remarshal"
+version = "2.1.4"
+description = "Convert between TOML, YAML and JSON"
+homepage = "https://github.com/remarshal-project/remarshal"
+
+[source]
+url = "https://files.pythonhosted.org/packages/26/6b/9817fbf9cabb8914313c546b5d55653148a7dbe612a8dbaa992d05a6dff7/remarshal-2.1.4.tar.gz"
+sha256 = "510caa7f2aa48437e8fa6a316782bbec5235f3fad09f20ae246e4e372a53902d"
+
+[build]
+system = "autotools"

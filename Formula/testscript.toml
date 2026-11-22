@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "testscript"
+version = "1.16.0"
+description = "Integration tests for command-line applications in .txtar format"
+homepage = "https://github.com/rogpeppe/go-internal/tree/master/cmd/testscript"
+
+[source]
+url = "https://github.com/rogpeppe/go-internal/archive/refs/tags/v1.16.0.tar.gz"
+sha256 = "78662c2e70976573ee61da4a050d1f10ca495ab35791b7be14d09badab28192f"
+
+[build]
+system = "autotools"

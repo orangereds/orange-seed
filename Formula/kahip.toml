@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "open-mpi", "libomp"]
+
+[package]
+name = "kahip"
+version = "3.29"
+description = "Karlsruhe High Quality Partitioning"
+homepage = "https://algo2.iti.kit.edu/documents/kahip/index.html"
+
+[source]
+url = "https://github.com/KaHIP/KaHIP/archive/refs/tags/v3.29.tar.gz"
+sha256 = "cf7f740000a8b26ce5568951a2847d4169b9b394983d7b5d1d77c9887183063e"
+
+[build]
+system = "cmake"

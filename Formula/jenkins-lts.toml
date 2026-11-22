@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk@21"]
+
+[package]
+name = "jenkins-lts"
+version = "0"
+description = "Extendable open source continuous integration server"
+homepage = "https://www.jenkins.io/"
+
+[source]
+url = "https://get.jenkins.io/war-stable/2.580.2/jenkins.war"
+sha256 = "d98032d2401c540a35613a82ed358921fcf3166d5e6eaaaf60a7941845be3251"
+
+[service]
+run = "["
+
+[build]
+system = "autotools"

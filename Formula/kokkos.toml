@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "mdspan", "libomp"]
+
+[package]
+name = "kokkos"
+version = "5.3.0"
+description = "C++ Performance Portability Ecosystem for parallel execution and abstraction"
+homepage = "https://kokkos.org"
+
+[source]
+url = "https://github.com/kokkos/kokkos/releases/download/5.3.0/kokkos-5.3.0.tar.gz"
+sha256 = "f1875cacec93d4d4cbd6f391a38994abb67ccffea5ecee2b4be7a8191941ef88"
+
+[build]
+system = "cmake"

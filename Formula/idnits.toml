@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "idnits"
+version = "3.3.0"
+description = "Looks for problems in internet draft formatting"
+homepage = "https://author-tools.ietf.org/idnits3/"
+
+[source]
+url = "https://registry.npmjs.org/@ietf-tools/idnits/-/idnits-3.3.0.tgz"
+sha256 = "6103dd8d4e721fd59946e51a462e1fc679e747d4ad805cd55ac3a76c5a2678be"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "armadillo"]
+
+[package]
+name = "ensmallen"
+version = "3.11.1"
+description = "Flexible C++ library for efficient mathematical optimization"
+homepage = "https://ensmallen.org"
+
+[source]
+url = "https://github.com/mlpack/ensmallen/archive/refs/tags/3.11.1.tar.gz"
+sha256 = "3606c0d0a06ac75858ddb4eecd0802154bc91d45763aa9521cf53a0e78178d55"
+
+[build]
+system = "cmake"

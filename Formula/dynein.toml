@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "aws-lc", "pkgconf", "rust"]
+
+[package]
+name = "dynein"
+version = "0.3.0"
+description = "DynamoDB CLI"
+homepage = "https://github.com/awslabs/dynein"
+
+[source]
+url = "https://github.com/awslabs/dynein/archive/refs/tags/v0.3.0.tar.gz"
+sha256 = "40be5866288f565ac00494910d5dbb266ca0c34d56d50d839bc2c2aad34dc470"
+
+[build]
+system = "autotools"

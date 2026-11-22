@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["zsh"]
+
+[package]
+name = "fizsh"
+version = "1.0.9"
+description = "Fish-like front end for ZSH"
+homepage = "https://github.com/zsh-users/fizsh"
+
+[source]
+url = "https://downloads.sourceforge.net/project/fizsh/fizsh-1.0.9.tar.gz"
+sha256 = "dbbbe03101f82e62f1dfe1f8af7cde23bc043833679bc74601a0a3d58a117b07"
+
+[build]
+system = "autotools"

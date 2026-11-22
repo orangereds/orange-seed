@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "gtk-doc", "libtool", "pkgconf"]
+
+[package]
+name = "liboil"
+version = "0.3.17"
+description = "C library of simple functions optimized for various CPUs"
+homepage = "https://wiki.freedesktop.org/liboil/"
+
+[source]
+url = "https://liboil.freedesktop.org/download/liboil-0.3.17.tar.gz"
+sha256 = "105f02079b0b50034c759db34b473ecb5704ffa20a5486b60a8b7698128bfc69"
+
+[build]
+system = "autotools"

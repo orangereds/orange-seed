@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node", "terminal-notifier"]
+
+[package]
+name = "web-ext"
+version = "10.8.0"
+description = "Command-line tool to help build, run, and test web extensions"
+homepage = "https://github.com/mozilla/web-ext"
+
+[source]
+url = "https://registry.npmjs.org/web-ext/-/web-ext-10.8.0.tgz"
+sha256 = "8fa96813b3830c4f40984fd4111c1db39c9bb62b5b48252ec9fcaa20de2df203"
+
+[build]
+system = "autotools"

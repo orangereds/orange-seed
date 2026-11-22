@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "dud"
+version = "0.4.5"
+description = "CLI tool for versioning data"
+homepage = "https://kevin-hanselman.github.io/dud/"
+
+[source]
+url = "https://github.com/kevin-hanselman/dud/archive/refs/tags/v0.4.5.tar.gz"
+sha256 = "57f63d260c8a0a0f925bb67e3634f1211c69b07a7405215b53c38d8563119425"
+
+[build]
+system = "autotools"

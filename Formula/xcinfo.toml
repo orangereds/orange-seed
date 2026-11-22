@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = []
+
+[package]
+name = "xcinfo"
+version = "2.1.0"
+description = "Tool to get information about and install available Xcode versions"
+homepage = "https://github.com/XcodeReleasesOrg/xcinfo"
+
+[source]
+url = "https://github.com/XcodeReleasesOrg/xcinfo/archive/refs/tags/2.1.0.tar.gz"
+sha256 = "4e40836ceaff4a3f96c15244fc18be8fcaed1ca55f769fcec53b4ace354cf21d"
+
+[build]
+system = "autotools"

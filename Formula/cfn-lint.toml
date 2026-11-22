@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["libyaml", "pydantic", "python@3.15", "rpds-py"]
+
+[package]
+name = "cfn-lint"
+version = "0"
+description = "Validate CloudFormation templates against the CloudFormation spec"
+homepage = "https://github.com/aws-cloudformation/cfn-lint/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/9a/cd/82bc68b69eb8a1a6a09a88ad6a0b54e1990ea127665e4c9faa8b1ea0f4c9/cfn_lint-1.61.0.tar.gz"
+sha256 = "a408e1ae0a059b1e8cdcd581c01545ebc99a40961e2edd2a1c0a77e463dcc922"
+
+[build]
+system = "autotools"

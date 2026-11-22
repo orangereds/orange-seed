@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["postgresql@17", "postgresql@18"]
+
+[package]
+name = "temporal_tables"
+version = "1.2.2_1"
+description = "Temporal Tables PostgreSQL Extension"
+homepage = "https://pgxn.org/dist/temporal_tables/"
+
+[source]
+url = "https://github.com/arkhipov/temporal_tables/archive/refs/tags/v1.2.2.tar.gz"
+sha256 = "85517266748a438ab140147cb70d238ca19ad14c5d7acd6007c520d378db662e"
+
+[build]
+system = "autotools"

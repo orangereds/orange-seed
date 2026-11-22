@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "openkermit"
+version = "11.1.519"
+description = "Scriptable network and serial communication for UNIX and VMS"
+homepage = "https://www.openkermit.org/"
+
+[source]
+url = "https://github.com/openkermit/ckermit/archive/refs/tags/v11.1.519.tar.gz"
+sha256 = "6239cb015812706a13cf604a68be154613ee5011519fef4c0a4309ecf0a90549"
+
+[build]
+system = "autotools"

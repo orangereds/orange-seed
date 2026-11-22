@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "icu4c@79", "krb5", "lz4", "openssl@4", "readline"]
+
+[package]
+name = "postgresql@14"
+version = "0"
+description = "Object-relational database system"
+homepage = "https://www.postgresql.org/"
+
+[source]
+url = "https://ftp.postgresql.org/pub/source/v14.25/postgresql-14.25.tar.bz2"
+sha256 = "09af980eb3a5d0a8ad7a34b95031b1988bbcd430c87700a62d6234c0ed97ae4c"
+
+[service]
+run = "opt/postgresql@14/bin/postgres -D f.postgresql_datadir"
+keep_alive = true
+working_dir = "HOMEBREW_PREFIX"
+log_path = "f.postgresql_log_path"
+error_log_path = "f.postgresql_log_path"
+
+[build]
+system = "autotools"

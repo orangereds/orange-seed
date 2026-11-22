@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["dotnet@10"]
+
+[package]
+name = "dug"
+version = "0.0.100_1"
+description = "Global DNS propagation checker that gives pretty output"
+homepage = "https://dug.unfrl.com"
+
+[source]
+url = "https://github.com/unfrl/dug/archive/refs/tags/0.0.100.tar.gz"
+sha256 = "bc7df36788cc4bb1ee01cfbaa670e4f8f97280d1906710360b5702764dcbda28"
+
+[build]
+system = "autotools"

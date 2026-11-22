@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "rust", "libyaml", "python@3.15"]
+
+[package]
+name = "breezy"
+version = "3.3.25"
+description = "Version control system implemented in Python with multi-format support"
+homepage = "https://www.breezy-vcs.org/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/e4/31/8b72e0d4588dac3b0c09fb31844bddf51c512be445f733fa55c640c46fa5/breezy-3.3.25.tar.gz"
+sha256 = "01932bc4f7e4c15f6b57b208224e78490d3f4af777869aaeb877a965637c8095"
+
+[build]
+system = "autotools"

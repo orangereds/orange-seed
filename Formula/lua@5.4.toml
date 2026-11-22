@@ -1,0 +1,17 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "lua@5.4"
+version = "0"
+description = "Powerful, lightweight programming language"
+homepage = "https://www.lua.org/"
+
+[source]
+url = "https://www.lua.org/ftp/lua-5.4.9.tar.gz"
+sha256 = "2335b6c582a52654f94612bf10d2f4672805d05329aa6568b1d8cd9e5c6fb8e6"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

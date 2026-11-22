@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["kubernetes-cli"]
+
+[package]
+name = "kube-ps1"
+version = "1.0.0"
+description = "Kubernetes prompt info for bash and zsh"
+homepage = "https://github.com/jonmosco/kube-ps1"
+
+[source]
+url = "https://github.com/jonmosco/kube-ps1/archive/refs/tags/v1.0.0.tar.gz"
+sha256 = "af44982ad27e492d3ade2d03223c944523070b0462839a9260df7483692c1bb0"
+
+[build]
+system = "autotools"

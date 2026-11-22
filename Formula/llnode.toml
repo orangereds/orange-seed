@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lldb", "node"]
+
+[package]
+name = "llnode"
+version = "4.0.0_1"
+description = "LLDB plugin for live/post-mortem debugging of node.js apps"
+homepage = "https://github.com/nodejs/llnode"
+
+[source]
+url = "https://github.com/nodejs/llnode/archive/refs/tags/v4.0.0.tar.gz"
+sha256 = "abc295c077443f823444faffb165ada4c6ca377f2b1af4c002e8a9eea0f30135"
+
+[build]
+system = "autotools"

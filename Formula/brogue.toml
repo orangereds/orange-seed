@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl2_image"]
+
+[package]
+name = "brogue"
+version = "1.15.1"
+description = "Roguelike game"
+homepage = "https://sites.google.com/site/broguegame/"
+
+[source]
+url = "https://github.com/tmewett/BrogueCE/archive/refs/tags/v1.15.1.tar.gz"
+sha256 = "2abc186c5327342cb9ad7e45d41096ab10797d5ba76dcac843824ac2a0bfb3ac"
+
+[build]
+system = "autotools"

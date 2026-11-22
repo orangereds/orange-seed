@@ -1,0 +1,20 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "spoofdpi"
+version = "1.6.0"
+description = "Simple and fast anti-censorship tool written in Go"
+homepage = "https://spoofdpi.dev"
+
+[source]
+url = "https://github.com/xvzc/SpoofDPI/releases/download/v1.6.0/spoofdpi-1.6.0.tar.gz"
+sha256 = "186e9556b81844e2076ce8426b741fd1436ec987c4eb855de67b9254520675a3"
+
+[service]
+run = "opt/spoofdpi/bin/spoofdpi"
+log_path = "var/log/spoofdpi/output.log"
+error_log_path = "var/log/spoofdpi/error.log"
+
+[build]
+system = "autotools"

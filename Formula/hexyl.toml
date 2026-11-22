@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pandoc", "rust"]
+
+[package]
+name = "hexyl"
+version = "0.17.0"
+description = "Command-line hex viewer"
+homepage = "https://github.com/sharkdp/hexyl"
+
+[source]
+url = "https://github.com/sharkdp/hexyl/archive/refs/tags/v0.17.0.tar.gz"
+sha256 = "72fa17397ad187eec6b295d02c7caabbb209a6e0d5706187b8a599bd5df8615e"
+
+[build]
+system = "autotools"

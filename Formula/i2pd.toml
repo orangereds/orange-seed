@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["boost", "miniupnpc", "openssl@4"]
+
+[package]
+name = "i2pd"
+version = "3.0.0.1"
+description = "Full-featured C++ implementation of I2P client"
+homepage = "https://i2pd.website/"
+
+[source]
+url = "https://github.com/PurpleI2P/i2pd/archive/refs/tags/3.0.0.1.tar.gz"
+sha256 = "e82d4cdcce71180a42f89a753012db9aa303a792afc3e442802761f099ee39e4"
+
+[service]
+run = "i2pd"
+
+[build]
+system = "make"

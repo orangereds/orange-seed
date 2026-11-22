@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "oakc"
+version = "0.6.1.crate"
+description = "Portable programming language with a compact intermediate representation"
+homepage = "https://github.com/adam-mcdaniel/oakc"
+
+[source]
+url = "https://static.crates.io/crates/oakc/oakc-0.6.1.crate"
+sha256 = "1f4a90a3fd5c8ae32cb55c7a38730b6bfcf634f75e6ade0fd51c9db2a2431683"
+
+[build]
+system = "autotools"

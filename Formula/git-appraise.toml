@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "git-appraise"
+version = "0.7"
+description = "Distributed code review system for Git repos"
+homepage = "https://github.com/google/git-appraise"
+
+[source]
+url = "https://github.com/google/git-appraise/archive/refs/tags/v0.7.tar.gz"
+sha256 = "b57dd4ac4746486e253658b2c93422515fd8dc6fdca873b5450a6fb0f9487fb3"
+
+[build]
+system = "autotools"

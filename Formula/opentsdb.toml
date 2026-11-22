@@ -1,0 +1,21 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "openjdk@8", "python@3.13", "gnuplot", "hbase", "lzo", "openjdk@11"]
+
+[package]
+name = "opentsdb"
+version = "2.4.1"
+description = "Scalable, distributed Time Series Database"
+homepage = "http://opentsdb.net/"
+
+[source]
+url = "https://github.com/OpenTSDB/opentsdb/archive/refs/tags/v2.4.1.tar.gz"
+sha256 = "70456fa8b33a9f0855105422f944d6ef14d077c4b4c9c26f8e4a86f329b247a0"
+
+[service]
+run = "opt/opentsdb/bin/start-tsdb.sh"
+working_dir = "HOMEBREW_PREFIX"
+log_path = "var/opentsdb/opentsdb.log"
+error_log_path = "var/opentsdb/opentsdb.err"
+
+[build]
+system = "autotools"

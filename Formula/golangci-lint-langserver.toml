@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "golangci-lint-langserver"
+version = "0.0.12"
+description = "Language server for `golangci-lint`"
+homepage = "https://github.com/nametake/golangci-lint-langserver"
+
+[source]
+url = "https://github.com/nametake/golangci-lint-langserver/archive/refs/tags/v0.0.12.tar.gz"
+sha256 = "bdda9b1138f0a6cbfec0b2a93ef64111410bf16a82583c659e1b57f11ed93936"
+
+[build]
+system = "autotools"

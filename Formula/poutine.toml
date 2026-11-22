@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "poutine"
+version = "1.1.6"
+description = "Security scanner that detects vulnerabilities in build pipelines"
+homepage = "https://boostsecurityio.github.io/poutine/"
+
+[source]
+url = "https://github.com/boostsecurityio/poutine/archive/refs/tags/v1.1.6.tar.gz"
+sha256 = "3ef79da4e8e64398e3acf8ba6f9adb88917ddbfa025f1352eecfd0b3903c7920"
+
+[build]
+system = "autotools"

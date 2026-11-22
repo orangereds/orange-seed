@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "pinact"
+version = "5.0.2"
+description = "Pins GitHub Actions to full hashes and versions"
+homepage = "https://github.com/suzuki-shunsuke/pinact"
+
+[source]
+url = "https://github.com/suzuki-shunsuke/pinact/archive/refs/tags/v5.0.2.tar.gz"
+sha256 = "b01d407677164b59e21b3ff6f8c0bec4bfcfa42df7611c713de64c9ebf1e009d"
+
+[build]
+system = "autotools"

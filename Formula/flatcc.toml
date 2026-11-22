@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "flatcc"
+version = "0.6.4"
+description = "FlatBuffers Compiler and Library in C for C"
+homepage = "https://github.com/dvidelabs/flatcc"
+
+[source]
+url = "https://github.com/dvidelabs/flatcc/archive/refs/tags/v0.6.4.tar.gz"
+sha256 = "463c1cbc95777a01e103a6c961325f28e8876cb44a195b5c0f8d1117ae019580"
+
+[build]
+system = "cmake"

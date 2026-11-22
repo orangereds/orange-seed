@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake"]
+
+[package]
+name = "unrtf"
+version = "0.21.14"
+description = "RTF to other formats converter"
+homepage = "https://www.gnu.org/software/unrtf/"
+
+[source]
+url = "https://ftpmirror.gnu.org/unrtf/unrtf-0.21.14.tar.gz"
+sha256 = "b1f72e87f195bd50dbc974b800918df61c881706c11716b7bd0a1981e81b9587"
+
+[build]
+system = "autotools"

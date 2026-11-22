@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "beads", "dolt", "icu4c@79", "jq", "tmux", "flock"]
+
+[package]
+name = "gascity"
+version = "1.5.1_1"
+description = "Orchestration-builder SDK for multi-agent coding workflows"
+homepage = "https://github.com/gastownhall/gascity"
+
+[source]
+url = "https://github.com/gastownhall/gascity/archive/refs/tags/v1.5.1.tar.gz"
+sha256 = "ed81257ac3e7d1d3cf96036dfd7039350f5852bcd556f6842da6cb714e0022ab"
+
+[build]
+system = "autotools"

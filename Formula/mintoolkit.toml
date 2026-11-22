@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "mintoolkit"
+version = "1.41.8"
+description = "Minify and secure Docker images"
+homepage = "https://slimtoolkit.org/"
+
+[source]
+url = "https://github.com/mintoolkit/mint/archive/refs/tags/1.41.8.tar.gz"
+sha256 = "c48a44d34622d1baa3a8245f19b5659d7d8fa4435cc51c5e2f492916b8e8ea25"
+
+[build]
+system = "autotools"

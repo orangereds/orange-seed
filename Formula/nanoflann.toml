@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "nanoflann"
+version = "2.0.2"
+description = "Header-only library for Nearest Neighbor search with KD-trees"
+homepage = "https://github.com/jlblancoc/nanoflann"
+
+[source]
+url = "https://github.com/jlblancoc/nanoflann/archive/refs/tags/2.0.2.tar.gz"
+sha256 = "b1e7c95852576742ba9fd83392f19c1ba25e7ad13252f66b18c294e183feaf1a"
+
+[build]
+system = "cmake"

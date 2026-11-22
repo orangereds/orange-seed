@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "rubyfmt"
+version = "0.14.1"
+description = "Ruby autoformatter"
+homepage = "https://github.com/fables-tales/rubyfmt"
+
+[source]
+url = "https://github.com/fables-tales/rubyfmt/archive/refs/tags/v0.14.1.tar.gz"
+sha256 = "e008e4ae58680ea884c525eda0df6f70f4e8629182f0808835cb4666114e3de9"
+
+[build]
+system = "autotools"

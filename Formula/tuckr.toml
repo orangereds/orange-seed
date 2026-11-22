@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust"]
+
+[package]
+name = "tuckr"
+version = "0.13.1"
+description = "Super powered replacement for GNU Stow"
+homepage = "https://raphgl.github.io/Tuckr/"
+
+[source]
+url = "https://github.com/RaphGL/Tuckr/archive/refs/tags/0.13.1.tar.gz"
+sha256 = "4b3bdc51e5de5961d89021f28e5aa1ae976fe37330ffafaa5042ed7d6ee2c7c7"
+
+[build]
+system = "autotools"

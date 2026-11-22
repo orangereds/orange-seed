@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "pandoc", "pkgconf", "bdw-gc", "gnu-sed", "json-c", "pcre", "peg"]
+
+[package]
+name = "ngs"
+version = "0.2.17"
+description = "Powerful programming language and shell designed specifically for Ops"
+homepage = "https://ngs-lang.org/"
+
+[source]
+url = "https://github.com/ngs-lang/ngs/archive/refs/tags/v0.2.17.tar.gz"
+sha256 = "029c5d1167e884fee54fc99881e3d8c30478314f6e5fc2a7b832c909ed35d5b0"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["sdl2-compat", "sdl2_net"]
+
+[package]
+name = "supermodel"
+version = "0.4-20261121-git-8247e86"
+description = "Sega Model 3 arcade emulator"
+homepage = "https://github.com/trzy/Supermodel"
+
+[source]
+url = "https://github.com/trzy/Supermodel/archive/refs/tags/v0.4-20261121-git-8247e86.tar.gz"
+sha256 = "9e1ea77a8f720406e07dcd46637e0e0d3f8042db173bcd7cd18a9593cf6e5634"
+
+[build]
+system = "autotools"

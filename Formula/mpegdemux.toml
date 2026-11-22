@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "mpegdemux"
+version = "0.1.5.orig"
+description = "MPEG1/2 system stream demultiplexer"
+homepage = "http://www.hampa.ch/mpegdemux/"
+
+[source]
+url = "https://deb.debian.org/debian/pool/main/m/mpegdemux/mpegdemux_0.1.5.orig.tar.gz"
+sha256 = "05015755d45e50cbd3018baeaa8abcedc003b1162fa28237a72ab25c1bc00023"
+
+[build]
+system = "autotools"

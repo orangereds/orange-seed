@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "jenkins-cli"
+version = "0.0.47"
+description = "CLI for jenkins"
+homepage = "https://github.com/jenkins-zh/jenkins-cli"
+
+[source]
+url = "https://github.com/jenkins-zh/jenkins-cli/archive/refs/tags/v0.0.47.tar.gz"
+sha256 = "4e78600e214c357c08a0a83fe9cc59214b0d050de07dbb469d9f226c8c37eabc"
+
+[build]
+system = "autotools"

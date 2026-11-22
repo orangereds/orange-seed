@@ -1,0 +1,19 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "autoconf-archive", "automake", "erlang", "libtool", "pkgconf", "icu4c@79", "openssl@4"]
+
+[package]
+name = "couchdb"
+version = "0"
+description = "Apache CouchDB database server"
+homepage = "https://couchdb.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=couchdb/source/3.5.3/apache-couchdb-3.5.3.tar.gz"
+sha256 = "ae0bb374cc89900d6cb1dfb8d8e80c799186dcf2d143ca886296c230af420896"
+
+[service]
+run = "opt/couchdb/bin/couchdb"
+keep_alive = true
+
+[build]
+system = "autotools"

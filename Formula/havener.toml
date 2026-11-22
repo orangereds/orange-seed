@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "havener"
+version = "2.2.7"
+description = "Swiss army knife for Kubernetes tasks"
+homepage = "https://github.com/homeport/havener"
+
+[source]
+url = "https://github.com/homeport/havener/archive/refs/tags/v2.2.7.tar.gz"
+sha256 = "f923cd42bb4ded5535aa089037bc285110b2bc335ae108553e50ac8bddeafff0"
+
+[build]
+system = "autotools"

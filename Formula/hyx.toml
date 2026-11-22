@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "hyx"
+version = "2026.01.11"
+description = "Powerful hex editor for the console"
+homepage = "https://yx7.cc/code/"
+
+[source]
+url = "https://yx7.cc/code/hyx/hyx-2026.01.11.tar.xz"
+sha256 = "550863c9e6a2c0e2618c16a562c8ee995e88c1d30e62abfdf4ecb819b3c4df54"
+
+[build]
+system = "autotools"

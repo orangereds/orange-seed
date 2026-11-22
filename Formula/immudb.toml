@@ -1,0 +1,22 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "immudb"
+version = "1.11.2"
+description = "Lightweight, high-speed immutable database"
+homepage = "https://immudb.io/"
+
+[source]
+url = "https://github.com/codenotary/immudb/archive/refs/tags/v1.11.2.tar.gz"
+sha256 = "5860663e92b663d0e72c2b4cd4a995090029e7d6e3b6a678115896f757300c21"
+
+[service]
+run = "opt/immudb/bin/immudb"
+keep_alive = true
+working_dir = "var/immudb"
+log_path = "var/log/immudb.log"
+error_log_path = "var/log/immudb.log"
+
+[build]
+system = "autotools"

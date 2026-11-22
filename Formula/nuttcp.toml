@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "nuttcp"
+version = "8.2.2"
+description = "Network performance measurement tool"
+homepage = "http://www.nuttcp.net/nuttcp/"
+
+[source]
+url = "https://www.nuttcp.net/nuttcp/nuttcp-8.2.2.tar.bz2"
+sha256 = "7ead7a89e7aaa059d20e34042c58a198c2981cad729550d1388ddfc9036d3983"
+
+[build]
+system = "autotools"

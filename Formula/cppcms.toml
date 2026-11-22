@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "openssl@4", "pcre2"]
+
+[package]
+name = "cppcms"
+version = "2.0.2"
+description = "Free High Performance Web Development Framework"
+homepage = "http://cppcms.com/wikipp/en/page/main"
+
+[source]
+url = "https://github.com/artyom-beilis/cppcms/archive/refs/tags/v2.0.2.tar.gz"
+sha256 = "1775beca6118a9908aa75e44f4f1174b62da8bee1ac2047ffb34897d64bc6bf5"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gnuplot"]
+
+[package]
+name = "feedgnuplot"
+version = "1.64_1"
+description = "Tool to plot realtime and stored data from the command-line"
+homepage = "https://github.com/dkogan/feedgnuplot"
+
+[source]
+url = "https://github.com/dkogan/feedgnuplot/archive/refs/tags/v1.64.tar.gz"
+sha256 = "30c3952600b694a98a0e0ee20ecbbc02d0c70ca96194e3719e9177409af6c5c9"
+
+[build]
+system = "autotools"

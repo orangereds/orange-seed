@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "cabextract"
+version = "1.12"
+description = "Extract files from Microsoft cabinet files"
+homepage = "https://www.cabextract.org.uk/"
+
+[source]
+url = "https://www.cabextract.org.uk/cabextract-1.12.tar.gz"
+sha256 = "8f39ad5f9c076b9c62c67dea4f8649e75dcc16899a2d8122ca32ba68262cb713"
+
+[build]
+system = "autotools"

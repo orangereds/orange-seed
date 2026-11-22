@@ -1,0 +1,16 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "hpack", "gmp"]
+
+[package]
+name = "elm-format"
+version = "0"
+description = "Elm source code formatter, inspired by gofmt"
+homepage = "https://github.com/avh4/elm-format"
+
+[source]
+url = "https://github.com/avh4/elm-format.git"
+# sha256 未找到，安装时将跳过完整性校验
+sha256 = ""
+
+[build]
+system = "autotools"

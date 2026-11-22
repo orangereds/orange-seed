@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool"]
+
+[package]
+name = "log4cpp"
+version = "1.1.6"
+description = "Configurable logging for C++"
+homepage = "https://log4cpp.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/log4cpp/log4cpp-1.1.x%20%28new%29/log4cpp-1.1/log4cpp-1.1.6.tar.gz"
+sha256 = "a036bc6bd6044479e6c456de7edd042b060ea5c843e47beb75f59baea9b20e3a"
+
+[build]
+system = "autotools"

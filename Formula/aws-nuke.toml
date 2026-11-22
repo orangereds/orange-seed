@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "aws-nuke"
+version = "3.69.1"
+description = "Nuke a whole AWS account and delete all its resources"
+homepage = "https://aws-nuke.ekristen.dev"
+
+[source]
+url = "https://github.com/ekristen/aws-nuke/archive/refs/tags/v3.69.1.tar.gz"
+sha256 = "6b616a95c6e0fd9335e59b618c89501e900a42c1210f9f0b080b90ce1cbbfc1d"
+
+[build]
+system = "autotools"

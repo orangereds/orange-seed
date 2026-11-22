@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "croc"
+version = "11.6.6"
+description = "Securely send things from one computer to another"
+homepage = "https://github.com/schollz/croc"
+
+[source]
+url = "https://github.com/schollz/croc/archive/refs/tags/v11.6.6.tar.gz"
+sha256 = "7b70ea161a1d6343b4499c81280d9650fadb1c298d3be96bbc54a2e8d8cd0c21"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "docker"]
+
+[package]
+name = "kwok"
+version = "0.8.0"
+description = "Kubernetes WithOut Kubelet - Simulates thousands of Nodes and Clusters"
+homepage = "https://kwok.sigs.k8s.io"
+
+[source]
+url = "https://github.com/kubernetes-sigs/kwok/archive/refs/tags/v0.8.0.tar.gz"
+sha256 = "6b0ee90f5288e73b440e3724bcbafba6988016aa85bd93f32c474c3a1bffbe4f"
+
+[build]
+system = "autotools"

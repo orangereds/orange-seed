@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "apktool"
+version = "3.0.3.jar"
+description = "Tool for reverse engineering 3rd party, closed, binary Android apps"
+homepage = "https://apktool.org"
+
+[source]
+url = "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.3/apktool_3.0.3.jar"
+sha256 = "dbf930b076c6b9be08d57c449cacefc3bdd6b71ebd59b3066fc0e1f5b14f9423"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake"]
+
+[package]
+name = "viennacl"
+version = "0_1"
+description = "Linear algebra library for many-core architectures and multi-core CPUs"
+homepage = "https://viennacl.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/viennacl/1.7.x/ViennaCL-1.7.1.tar.gz"
+sha256 = "a596b77972ad3d2bab9d4e63200b171cd0e709fb3f0ceabcaf3668c87d3a238b"
+
+[build]
+system = "cmake"

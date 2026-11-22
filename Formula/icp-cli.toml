@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["lld", "rust", "rust-wasm", "ic-wasm", "openssl@4"]
+
+[package]
+name = "icp-cli"
+version = "2025-12-10"
+description = "Development tool for building and deploying canisters on ICP"
+homepage = "https://dfinity.github.io/icp-cli/"
+
+[source]
+url = "https://github.com/dfinity/icp-cli/archive/refs/tags/v1.8.0.tar.gz"
+sha256 = "85e37d5140f20e79a8300bea4f72ede53eb16a2de978605c511592489880ce26"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "podcast-dl"
+version = "12.1.7"
+description = "CLI for downloading and archiving podcasts"
+homepage = "https://github.com/lightpohl/podcast-dl"
+
+[source]
+url = "https://registry.npmjs.org/podcast-dl/-/podcast-dl-12.1.7.tgz"
+sha256 = "ebcd417e6ee2656aaef72438798cbc36069f1528f11dc65f5c100261df15f1a4"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "libpng"]
+
+[package]
+name = "pngnq"
+version = "1.1_1"
+description = "Tool for optimizing PNG images"
+homepage = "https://pngnq.sourceforge.net/"
+
+[source]
+url = "https://downloads.sourceforge.net/project/pngnq/pngnq/1.1/pngnq-1.1.tar.gz"
+sha256 = "c147fe0a94b32d323ef60be9fdcc9b683d1a82cd7513786229ef294310b5b6e2"
+
+[build]
+system = "autotools"

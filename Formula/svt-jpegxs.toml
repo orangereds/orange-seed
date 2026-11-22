@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "yasm"]
+
+[package]
+name = "svt-jpegxs"
+version = "0.10.0"
+description = "JPEG XS codec"
+homepage = "https://github.com/OpenVisualCloud/SVT-JPEG-XS"
+
+[source]
+url = "https://github.com/OpenVisualCloud/SVT-JPEG-XS/archive/refs/tags/v0.10.0.tar.gz"
+sha256 = "ae04de9afe2c086a15da85ff7473ec1db127c380081c11c8860f958e8454f0ff"
+
+[build]
+system = "cmake"

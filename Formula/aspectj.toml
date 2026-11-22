@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "aspectj"
+version = "1.9.27.jar"
+description = "Aspect-oriented programming for Java"
+homepage = "https://eclipse.dev/aspectj/"
+
+[source]
+url = "https://github.com/eclipse-aspectj/aspectj/releases/download/V1_9_27/aspectj-1.9.27.jar"
+sha256 = "903dd70ddf2ea2ac81efa29a2fbd5ed47d76af711557fc289f4664c77cbf1cab"
+
+[build]
+system = "autotools"

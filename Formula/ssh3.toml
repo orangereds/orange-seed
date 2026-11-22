@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "ssh3"
+version = "0.1.7"
+description = "Faster and richer secure shell using HTTP/3"
+homepage = "https://arxiv.org/abs/2312.08396"
+
+[source]
+url = "https://github.com/francoismichel/ssh3/archive/refs/tags/v0.1.7.tar.gz"
+sha256 = "23a88d0d7f54f80d752c22ee5f879fa1daf8c320ece364287209c58b3e98b6b5"
+
+[build]
+system = "autotools"

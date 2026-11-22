@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["rust", "certifi", "cryptography", "libsodium", "node", "python@3.15", "rpds-py"]
+
+[package]
+name = "otterdog"
+version = "1.8.0"
+description = "Manage GitHub organizations at scale using an infrastructure as code approach"
+homepage = "https://otterdog.readthedocs.io/en/latest/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0e/7c/39a0ca5cf9ca1060d10570564cf77e990d7a161d0f265876fe1d16327782/otterdog-1.8.0.tar.gz"
+sha256 = "ee650753f9e2e13be4e9140b06d010a3b9104b038c7c26c69c65fbe7166c4430"
+
+[build]
+system = "autotools"

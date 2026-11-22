@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "libyaml"]
+
+[package]
+name = "nutcracker"
+version = "0.5.0_1"
+description = "Proxy for memcached and redis"
+homepage = "https://github.com/twitter/twemproxy"
+
+[source]
+url = "https://github.com/twitter/twemproxy/archive/refs/tags/0.5.0.tar.gz"
+sha256 = "73f305d8525abbaaa6a5f203c1fba438f99319711bfcb2bb8b2f06f0d63d1633"
+
+[build]
+system = "autotools"

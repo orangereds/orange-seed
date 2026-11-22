@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "protobuf"]
+
+[package]
+name = "protoc-gen-go"
+version = "1.36.12"
+description = "Go support for Google's protocol buffers"
+homepage = "https://github.com/protocolbuffers/protobuf-go"
+
+[source]
+url = "https://github.com/protocolbuffers/protobuf-go/archive/refs/tags/v1.36.12.tar.gz"
+sha256 = "23a247d69c52872ecbfd6bcbee3216793b2672fa5a7b99497777bf9c3563756f"
+
+[build]
+system = "autotools"

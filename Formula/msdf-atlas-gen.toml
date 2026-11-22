@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "freetype", "libpng", "msdfgen", "tinyxml2"]
+
+[package]
+name = "msdf-atlas-gen"
+version = "1.4"
+description = "Generator of multi-channel signed distance field atlases from fonts"
+homepage = "https://github.com/Chlumsky/msdf-atlas-gen"
+
+[source]
+url = "https://github.com/Chlumsky/msdf-atlas-gen/archive/refs/tags/v1.4.tar.gz"
+sha256 = "57db9548b30905b18640ceab5011144e9d362f33a53748bef6be53dd743c9992"
+
+[build]
+system = "cmake"

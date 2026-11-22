@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "doxygen", "rapidjson", "fontconfig", "freetype", "tbb"]
+
+[package]
+name = "opencascade"
+version = "0_1"
+description = "3D modeling and numerical simulation software for CAD/CAM/CAE"
+homepage = "https://dev.opencascade.org/"
+
+[source]
+url = "https://github.com/Open-Cascade-SAS/OCCT/archive/refs/tags/V7_9_3.tar.gz"
+sha256 = "5ecf094ec6b12d5413dfb851d8c3590c354058aee556e32e408bdfbf8c357d57"
+
+[build]
+system = "cmake"

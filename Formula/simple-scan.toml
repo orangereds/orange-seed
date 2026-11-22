@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["gettext", "itstool", "meson", "ninja", "pkgconf", "vala", "cairo", "gdk-pixbuf", "glib", "gtk4", "libadwaita", "libgusb", "sane-backends", "webp"]
+
+[package]
+name = "simple-scan"
+version = "50.0"
+description = "GNOME document scanning application"
+homepage = "https://gitlab.gnome.org/GNOME/simple-scan"
+
+[source]
+url = "https://download.gnome.org/sources/simple-scan/50/simple-scan-50.0.tar.xz"
+sha256 = "cc32b561ae227182d31a94466632e311723756e3ac90538c3c7e2a2c9aaa4a09"
+
+[build]
+system = "autotools"

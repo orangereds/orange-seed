@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "gup"
+version = "1.10.5"
+description = "Update binaries installed by go install"
+homepage = "https://github.com/nao1215/gup"
+
+[source]
+url = "https://github.com/nao1215/gup/archive/refs/tags/v1.10.5.tar.gz"
+sha256 = "72d6db19284a9c0f5ccbbcceb24b655e6e1c5feb93fcd82edaa2b31eff0e02da"
+
+[build]
+system = "autotools"

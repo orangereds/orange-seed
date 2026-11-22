@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "boost", "eigen", "nlopt", "tbb"]
+
+[package]
+name = "pagmo"
+version = "2.20.0"
+description = "Scientific library for massively parallel optimization"
+homepage = "https://esa.github.io/pagmo2/"
+
+[source]
+url = "https://github.com/esa/pagmo2/archive/refs/tags/v2.20.0.tar.gz"
+sha256 = "8d684e9a3667dcccc844489083906c35aba7610594c5fce0f4eccce9c2264f4d"
+
+[build]
+system = "cmake"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "gettext", "pkgconf", "gmp", "gnutls", "nettle", "p11-kit", "stoken"]
+
+[package]
+name = "openconnect"
+version = "9.21"
+description = "Open client for Cisco AnyConnect VPN"
+homepage = "https://www.infradead.org/openconnect/"
+
+[source]
+url = "https://www.infradead.org/openconnect/download/openconnect-9.21.tar.gz"
+sha256 = "5b32369467db6e5f317aa1ed12cfcbb81ed00bdbc765450b6bfcbdc300944a58"
+
+[build]
+system = "autotools"

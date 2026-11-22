@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["autoconf", "automake", "libtool", "pkgconf", "bison", "boost", "openssl@4"]
+
+[package]
+name = "thrift"
+version = "0_1"
+description = "Framework for scalable cross-language services development"
+homepage = "https://thrift.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=thrift/0.25.0/thrift-0.25.0.tar.gz"
+sha256 = "66da4707214c54c94bac082103dc67adaf9e08925662700f269170a7b534b214"
+
+[build]
+system = "autotools"

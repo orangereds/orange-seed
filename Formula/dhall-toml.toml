@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cabal-install", "ghc", "gmp"]
+
+[package]
+name = "dhall-toml"
+version = "1.0.4"
+description = "Convert between Dhall and Toml"
+homepage = "https://github.com/dhall-lang/dhall-haskell/tree/main/dhall-toml"
+
+[source]
+url = "https://hackage.haskell.org/package/dhall-toml-1.0.4/dhall-toml-1.0.4.tar.gz"
+sha256 = "e2a71fe3a9939728b4829f32146ca949b3c5b3f61e1245486a9fd43ba86f32dc"
+
+[build]
+system = "autotools"

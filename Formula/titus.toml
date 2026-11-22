@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go", "pkgconf", "vectorscan"]
+
+[package]
+name = "titus"
+version = "1.3.0"
+description = "High-performance secrets scanner"
+homepage = "https://github.com/praetorian-inc/titus"
+
+[source]
+url = "https://github.com/praetorian-inc/titus/archive/refs/tags/v1.3.0.tar.gz"
+sha256 = "00b22bc9896f36351259153989ef1a5d1061598e56dfb009097e5a5115742fd5"
+
+[build]
+system = "autotools"

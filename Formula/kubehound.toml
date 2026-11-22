@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "kubehound"
+version = "1.6.7"
+description = "Tool for building Kubernetes attack paths"
+homepage = "https://kubehound.io"
+
+[source]
+url = "https://github.com/DataDog/KubeHound/archive/refs/tags/v1.6.7.tar.gz"
+sha256 = "b753e20ef6200e1bb0e26e0afba9bf9e76f5ea7a2d823bf90dc88b60f4ebd31d"
+
+[build]
+system = "autotools"

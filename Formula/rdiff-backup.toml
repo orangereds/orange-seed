@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["librsync", "libyaml", "python@3.15"]
+
+[package]
+name = "rdiff-backup"
+version = "0"
+description = "Reverse differential backup tool, over a network or locally"
+homepage = "https://rdiff-backup.net/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/ab/23/3fab9ee2a2691859bcd99601682806cd86f530bfeaff13d284c5f1f8bfae/rdiff_backup-2.2.7.tar.gz"
+sha256 = "a88a1eb895f3c6c7dcc12d897ab53e301f9f49c9ac61b05039be212891c7d5d7"
+
+[build]
+system = "autotools"

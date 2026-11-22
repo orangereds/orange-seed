@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "ni"
+version = "30.6.0"
+description = "Selects the right Node package manager based on lockfiles"
+homepage = "https://github.com/antfu-collective/ni"
+
+[source]
+url = "https://registry.npmjs.org/@antfu/ni/-/ni-30.6.0.tgz"
+sha256 = "239e6b5c626cbb7405d5605e304504534b43c8a7584aeeba9a58e1a55caa1eb0"
+
+[build]
+system = "autotools"

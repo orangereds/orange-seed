@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["node"]
+
+[package]
+name = "sitefetch"
+version = "0.0.17"
+description = "Fetch an entire site and save it as a text file"
+homepage = "https://github.com/egoist/sitefetch"
+
+[source]
+url = "https://registry.npmjs.org/sitefetch/-/sitefetch-0.0.17.tgz"
+sha256 = "eb65e7d0179e5c06f70a3071865cf8199827428adb64da19de12afaf682c0ddd"
+
+[build]
+system = "autotools"

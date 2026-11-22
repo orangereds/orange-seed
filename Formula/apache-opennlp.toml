@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["openjdk"]
+
+[package]
+name = "apache-opennlp"
+version = "0"
+description = "Machine learning toolkit for processing natural language text"
+homepage = "https://opennlp.apache.org/"
+
+[source]
+url = "https://www.apache.org/dyn/closer.lua?path=opennlp/opennlp-3.0.0/apache-opennlp-3.0.0-bin.tar.gz"
+sha256 = "bfd1ea2f4aeec30feba81608ab33437693da45be7d261fb35c20e06a9e0b2efc"
+
+[build]
+system = "autotools"

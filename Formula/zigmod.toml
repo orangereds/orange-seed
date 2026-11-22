@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["git", "zig"]
+
+[package]
+name = "zigmod"
+version = "r107"
+description = "Package manager for the Zig programming language"
+homepage = "https://nektro.github.io/zigmod/"
+
+[source]
+url = "https://github.com/nektro/zigmod/archive/refs/tags/r107.tar.gz"
+sha256 = "605717096ebe830591aad10a1dd590bbb0dc2d2ea76fd37840adaeee08fba5d9"
+
+[build]
+system = "autotools"

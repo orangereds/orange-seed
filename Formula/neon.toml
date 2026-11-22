@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "xmlto", "openssl@4"]
+
+[package]
+name = "neon"
+version = "0.37.1_1"
+description = "HTTP and WebDAV client library with a C interface"
+homepage = "https://notroj.github.io/neon/"
+
+[source]
+url = "https://notroj.github.io/neon/neon-0.37.1.tar.gz"
+sha256 = "a99b7262525a454d1065cf76dd17240fd808dfc4ef15636990ff83a5d0d9e740"
+
+[build]
+system = "autotools"

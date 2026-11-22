@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["open-mpi", "libomp"]
+
+[package]
+name = "fftw"
+version = "3.3.11"
+description = "C routines to compute the Discrete Fourier Transform"
+homepage = "https://fftw.org"
+
+[source]
+url = "https://fftw.org/fftw-3.3.11.tar.gz"
+sha256 = "5630c24cdeb33b131612f7eb4b1a9934234754f9f388ff8617458d0be6f239a1"
+
+[build]
+system = "autotools"

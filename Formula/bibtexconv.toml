@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["bison", "cmake", "openssl@4", "llvm"]
+
+[package]
+name = "bibtexconv"
+version = "2.2.5_1"
+description = "BibTeX file converter"
+homepage = "https://www.nntb.no/~dreibh/bibtexconv/"
+
+[source]
+url = "https://github.com/dreibh/bibtexconv/archive/refs/tags/bibtexconv-2.2.5.tar.gz"
+sha256 = "5d766ec9af261288a71af9d389b407ebdf3a5f5739a166be86e355f2304c7843"
+
+[build]
+system = "cmake"

@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "tractorgen"
+version = "0.31.7"
+description = "Generates ASCII tractor art"
+homepage = "https://vergenet.net/~conrad/software/tractorgen/"
+
+[source]
+url = "https://vergenet.net/~conrad/software/tractorgen/dl/tractorgen-0.31.7.tar.gz"
+sha256 = "469917e1462c8c3585a328d035ac9f00515725301a682ada1edb3d72a5995a8f"
+
+[build]
+system = "autotools"

@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "meson", "ninja", "pkgconf", "rust", "certifi", "kingfisher", "libsodium", "libyaml", "lz4", "openssl@3", "python@3.13"]
+
+[package]
+name = "prowler"
+version = "5.51.0"
+description = "Tool for cloud security assessments, audits, incident response, and more"
+homepage = "https://prowler.com/"
+
+[source]
+url = "https://files.pythonhosted.org/packages/0f/79/a23266b1e3723c426967722d696191018a57df0cac717f364b389ea82b2f/prowler-5.51.0.tar.gz"
+sha256 = "2ad9662abc7974960dfeb65938d796c7744f32f5df07461c28baa0e330f4669b"
+
+[build]
+system = "autotools"

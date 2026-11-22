@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["cmake", "gettext", "pkgconf", "json-c", "libarchive", "ncurses"]
+
+[package]
+name = "nemu"
+version = "3.5.0"
+description = "Ncurses UI for QEMU"
+homepage = "https://github.com/nemuTUI/nemu"
+
+[source]
+url = "https://github.com/nemuTUI/nemu/archive/refs/tags/v3.5.0.tar.gz"
+sha256 = "dc251c6c478d60734a964324c028904e9da97dfeded7e5c6855f65e594e9a065"
+
+[build]
+system = "cmake"

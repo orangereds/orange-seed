@@ -1,0 +1,14 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+
+[package]
+name = "git-flow"
+version = "0.4.1_1"
+description = "Extensions to follow Vincent Driessen's branching model"
+homepage = "https://github.com/nvie/gitflow"
+
+[source]
+url = "https://github.com/nvie/gitflow/archive/refs/tags/0.4.1.tar.gz"
+sha256 = "c1271b0ba2c6655e4ad4d79562f6a910c3b884f3d4e16985e227e67f8d95c180"
+
+[build]
+system = "autotools"

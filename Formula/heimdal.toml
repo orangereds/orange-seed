@@ -1,0 +1,18 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["pkgconf", "lmdb", "openldap", "openssl@4"]
+
+[package]
+name = "heimdal"
+version = "7.8.0_2"
+description = "Free Kerberos 5 implementation"
+homepage = "https://github.com/heimdal/heimdal"
+
+[source]
+url = "https://github.com/heimdal/heimdal/releases/download/heimdal-7.8.0/heimdal-7.8.0.tar.gz"
+sha256 = "fd87a207846fa650fd377219adc4b8a8193e55904d8a752c2c3715b4155d8d38"
+
+[install]
+keg_only = true
+
+[build]
+system = "autotools"

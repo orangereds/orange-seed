@@ -1,0 +1,15 @@
+# 由 `fb convert` 从 Homebrew formula 自动生成；URL、构建参数与依赖请复核。
+dependencies = ["go"]
+
+[package]
+name = "govc"
+version = "0.56.2"
+description = "Command-line tool for VMware vSphere"
+homepage = "https://github.com/vmware/govmomi/tree/main/govc"
+
+[source]
+url = "https://github.com/vmware/govmomi/archive/refs/tags/v0.56.2.tar.gz"
+sha256 = "0a5b002dbf1e396465a62d90ca75c77c9c170e02886dce3b32c9f7cdfb224972"
+
+[build]
+system = "autotools"
